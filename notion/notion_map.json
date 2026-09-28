@@ -35,5 +35,12 @@
  "week:16": "https://app.notion.com/p/3e9ee100984f810c9f8eeeafb5f8cfcd",
  "week:1": "https://app.notion.com/p/3e9ee100984f8140a3d5dcd06d73e3ca",
  "page:rules": "https://app.notion.com/p/3e9ee100984f81619418ded93a3fc512",
- "page:chinese": "https://app.notion.com/p/3e9ee100984f81d7ba5bcb3d05ddacc5"
+ "page:chinese": "https://app.notion.com/p/3e9ee100984f81d7ba5bcb3d05ddacc5",
+ "page:english": "https://app.notion.com/p/3e9ee100984f8121af35c5c71fa99d73",
+ "page:mathA": "https://app.notion.com/p/3e9ee100984f81afba46df922c80b876",
+ "page:science": "https://app.notion.com/p/3e9ee100984f81e1804bfe534047ed20",
+ "page:social": "https://app.notion.com/p/3e9ee100984f819d9594fcdd7cba62ad",
+ "page:progress": "https://app.notion.com/p/3e9ee100984f81999234d4252feb8da9",
+ "private:teacher": "https://app.notion.com/p/3e9ee100984f8109a447ccaf1829dcad",
+ "page:past": "https://app.notion.com/p/3e9ee100984f819195eacc3f58fcb84b"
 }

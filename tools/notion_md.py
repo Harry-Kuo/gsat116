@@ -350,7 +350,11 @@ def skeleton_page(subject, structure, focus):
         for c in mod["concepts"]:
             line = f"- **{esc(c['name'])}**：{inline(c.get('summary', ''))}"
             qs = [items[q] for q in week if c["id"] in (items[q].get("concepts") or [])]
-            b.append("\n".join([line] + [f"\t- {ref(it, subject, published)}" for it in qs]))
+            if len(qs) > 8:
+                qs_lines = [f"\t- 第 1 週共 {len(qs)} 題，依日期列在下方「📝 第 1 週每日練習」。"]
+            else:
+                qs_lines = [f"\t- {ref(it, subject, published)}" for it in qs]
+            b.append("\n".join([line] + qs_lines))
     b.append("## 📝 第 1 週每日練習")
     for d in plan["days"]:
         qids = d["sets"].get(subject) or []
@@ -395,7 +399,8 @@ def progress_page():
 
 PAST_COLS = [("111–115 年（108 課綱）", range(115, 110, -1), ["國綜", "國寫", "英文", "數學A", "數學B", "社會", "自然"]),
              ("107–110 年", range(110, 106, -1), ["國文（選擇題）", "國寫", "英文", "數學", "社會", "自然"]),
-             ("85–106 年", range(106, 84, -1), ["國文", "英文", "數學", "社會", "自然"])]
+             ("96–106 年", range(106, 95, -1), ["國文", "英文", "數學", "社會", "自然"]),
+             ("85–95 年", range(95, 84, -1), ["國文", "英文", "數學", "社會", "自然"])]
 
 
 def _pick(files, test):
@@ -423,7 +428,8 @@ def past_exams_page():
                 for name, test in (("試題", lambda l: l == "試題內容"), ("答案", lambda l: "答案" in l), ("評分", lambda l: "評分" in l)):
                     f = _pick(files, test)
                     if f:
-                        links.append(f"[{name}]({f['url']})")
+                        url = re.sub(r"^https?://dev\.iifun\.com\.tw/ceec", "https://www.ceec.edu.tw", f["url"])
+                        links.append(f"[{name}]({url})")
                 row.append("・".join(links) or "—")
             t.append(row)
         b.append(table(t))
@@ -446,13 +452,13 @@ def home_page():
             f"- 上課：國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → {w1}",
             "- 每日練習：國英數自社各 5 題，合計約 30 分鐘（數學A 約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。",
             "## 🧭 學習地圖",
-            pg("rules", "📋 考試制度與作答策略"),
+            pg("rules", "考試制度與作答策略"),
             "### 📚 各科重點與考古題",
-            pg("chinese", "📚 國文"), pg("english", "🔤 英文"), pg("mathA", "📐 數學A"), pg("science", "🔬 自然"), pg("social", "🌏 社會"),
+            pg("chinese", "國文"), pg("english", "英文"), pg("mathA", "數學A"), pg("science", "自然"), pg("social", "社會"),
             "### 🗂️ 考古題",
-            db("db:questions", "🗃️ 考古題庫"), pg("past", "🗂️ 歷屆考古題總覽"),
+            db("db:questions", "🗃️ 考古題庫"), pg("past", "歷屆考古題總覽"),
             "### 📅 課程與進度",
-            db("db:weeks", "📅 每週課程"), pg("progress", "📈 年度練習進度"),
+            db("db:weeks", "📅 每週課程"), pg("progress", "年度練習進度"),
             "## 📆 重要日程", table(ms),
             "## 📱 練習網站怎麼用",
             "1. 第一次打開，輸入老師給的學生代碼（只要輸入一次）。",

@@ -7,19 +7,19 @@
 - 上課：國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → <mention-page url="https://app.notion.com/p/3e9ee100984f8140a3d5dcd06d73e3ca"/>
 - 每日練習：國英數自社各 5 題，合計約 30 分鐘（數學A 約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。
 ## 🧭 學習地圖
-<page url="https://app.notion.com/p/3e9ee100984f81619418ded93a3fc512">📋 考試制度與作答策略</page>
+<page url="https://app.notion.com/p/3e9ee100984f81619418ded93a3fc512">考試制度與作答策略</page>
 ### 📚 各科重點與考古題
-<page url="https://app.notion.com/p/3e9ee100984f81d7ba5bcb3d05ddacc5">📚 國文</page>
-（🔤 英文：建立中）
-（📐 數學A：建立中）
-（🔬 自然：建立中）
-（🌏 社會：建立中）
+<page url="https://app.notion.com/p/3e9ee100984f81d7ba5bcb3d05ddacc5">國文</page>
+<page url="https://app.notion.com/p/3e9ee100984f8121af35c5c71fa99d73">英文</page>
+<page url="https://app.notion.com/p/3e9ee100984f81afba46df922c80b876">數學A</page>
+<page url="https://app.notion.com/p/3e9ee100984f81e1804bfe534047ed20">自然</page>
+<page url="https://app.notion.com/p/3e9ee100984f819d9594fcdd7cba62ad">社會</page>
 ### 🗂️ 考古題
 <database url="https://app.notion.com/p/66f0b3d1ba2442d395219276f4712225" inline="false">🗃️ 考古題庫</database>
-（🗂️ 歷屆考古題總覽：建立中）
+<page url="https://app.notion.com/p/3e9ee100984f819195eacc3f58fcb84b">歷屆考古題總覽</page>
 ### 📅 課程與進度
 <database url="https://app.notion.com/p/42575fad6b2e46f48815b271da97acee" inline="false">📅 每週課程</database>
-（📈 年度練習進度：建立中）
+<page url="https://app.notion.com/p/3e9ee100984f81999234d4252feb8da9">年度練習進度</page>
 ## 📆 重要日程
 <table header-row="true">
 	<tr>
