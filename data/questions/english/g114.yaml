@@ -1,0 +1,300 @@
+exam: 學測
+year: 114
+subject: english
+paper: 英文
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0p056425554473267580/02-114%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e9%a1%8c.pdf
+  docx: https://www.ceec.edu.tw/files/file_pool/1/0p056425600380530021/02-114%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e9%a1%8c.docx
+groups: []
+items:
+- id: eng114-01
+  'no': 1
+  type: single
+  points: 1
+  group: null
+  stem: If you put a ＿＿＿＿ under a leaking faucet, you will be surprised at the amount of water collected in 24 hours.
+  options:
+    A: border
+    B: timer
+    C: container
+    D: marker
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 76
+    Ph: 99
+    Pl: 43
+    D: 56
+    opt:
+      A: 8
+      B: 11
+      C: 76
+      D: 5
+  explain: ''
+  reviewed: false
+- id: eng114-02
+  'no': 2
+  type: single
+  points: 1
+  group: null
+  stem: The local farmers’ market is popular as it offers a variety of fresh seasonal ＿＿＿＿ to people in the community.
+  options:
+    A: produce
+    B: fashion
+    C: brand
+    D: trend
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 70
+    Ph: 87
+    Pl: 47
+    D: 40
+    opt:
+      A: 70
+      B: 9
+      C: 10
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng114-03
+  'no': 3
+  type: single
+  points: 1
+  group: null
+  stem: As the years have passed by, many of my childhood memories are already ＿＿＿＿ ; I can no longer recall clearly what happened back then.
+  options:
+    A: blurring
+    B: trimming
+    C: draining
+    D: glaring
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 47
+    Ph: 80
+    Pl: 19
+    D: 61
+    opt:
+      A: 47
+      B: 18
+      C: 24
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng114-04
+  'no': 4
+  type: single
+  points: 1
+  group: null
+  stem: Racist remarks are by nature ＿＿＿＿ and hurtful, and should be avoided on all occasions.
+  options:
+    A: excessive
+    B: furious
+    C: offensive
+    D: stubborn
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 52
+    Ph: 88
+    Pl: 23
+    D: 65
+    opt:
+      A: 10
+      B: 23
+      C: 52
+      D: 13
+  explain: ''
+  reviewed: false
+- id: eng114-05
+  'no': 5
+  type: single
+  points: 1
+  group: null
+  stem: Not satisfied with the first ＿＿＿＿ of her essay, Mary revised it several times before turning it in to the teacher.
+  options:
+    A: text
+    B: brush
+    C: draft
+    D: plot
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 42
+    Ph: 66
+    Pl: 25
+    D: 41
+    opt:
+      A: 28
+      B: 10
+      C: 42
+      D: 20
+  explain: ''
+  reviewed: false
+- id: eng114-06
+  'no': 6
+  type: single
+  points: 1
+  group: null
+  stem: Left ＿＿＿＿ for years, the deserted house was filled with a thick coating of dust and a smell of old damp wood.
+  options:
+    A: casual
+    B: fragile
+    C: remote
+    D: vacant
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 54
+    Ph: 86
+    Pl: 25
+    D: 61
+    opt:
+      A: 11
+      B: 15
+      C: 20
+      D: 54
+  explain: ''
+  reviewed: false
+- id: eng114-07
+  'no': 7
+  type: single
+  points: 1
+  group: null
+  stem: The high school student showed ＿＿＿＿ courage when she helped the old man escape from the fire.
+  options:
+    A: gigantic
+    B: exclusive
+    C: multiple
+    D: enormous
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 49
+    Ph: 62
+    Pl: 31
+    D: 31
+    opt:
+      A: 21
+      B: 18
+      C: 11
+      D: 49
+  explain: ''
+  reviewed: false
+- id: eng114-08
+  'no': 8
+  type: single
+  points: 1
+  group: null
+  stem: Publicly financed projects are often ＿＿＿＿ or delayed during tough economic times due to a lack of resources.
+  options:
+    A: halted
+    B: hatched
+    C: possessed
+    D: reinforced
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 47
+    Ph: 81
+    Pl: 20
+    D: 61
+    opt:
+      A: 47
+      B: 21
+      C: 17
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng114-09
+  'no': 9
+  type: single
+  points: 1
+  group: null
+  stem: Despite his busy schedule, the President ＿＿＿＿ the school’s graduation ceremony with his presence and a heartwarming speech.
+  options:
+    A: praised
+    B: graced
+    C: addressed
+    D: credited
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: false
+  classic_note: 官方鑑別度 D=9，低鑑別題不進主線
+  stats:
+    P: 23
+    Ph: 31
+    Pl: 22
+    D: 9
+    opt:
+      A: 18
+      B: 23
+      C: 43
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng114-10
+  'no': 10
+  type: single
+  points: 1
+  group: null
+  stem: The manager of the company was sued for ＿＿＿＿ abusing his colleagues, calling them “hopeless losers.”
+  options:
+    A: verbally
+    B: dominantly
+    C: legitimately
+    D: relevantly
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 42
+    Ph: 77
+    Pl: 18
+    D: 59
+    opt:
+      A: 42
+      B: 26
+      C: 17
+      D: 16
+  explain: ''
+  reviewed: false

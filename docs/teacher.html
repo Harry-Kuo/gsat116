@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>學生答題狀況</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    body { padding-bottom: 40px; }
+    .wrap { max-width: 1100px; }
+    .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; }
+    .tabs button { border: 1px solid var(--line); background: var(--card); border-radius: 99px; padding: 6px 14px; cursor: pointer; }
+    .tabs button.on { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+    table.t { border-collapse: collapse; width: 100%; font-size: .9em; background: var(--card); }
+    table.t th, table.t td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; white-space: nowrap; }
+    table.t th { position: sticky; top: 0; background: var(--card); font-weight: 600; cursor: pointer; }
+    table.t td.wrapcell { white-space: normal; min-width: 240px; }
+    .scroll { overflow: auto; max-height: 70vh; border: 1px solid var(--line); border-radius: 12px; }
+    .good { color: var(--ok); font-weight: 600; }
+    .low { color: var(--bad); font-weight: 600; }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+    .kpi b { display: block; font-size: 1.6em; }
+    .bars { display: inline-block; width: 80px; height: 8px; background: var(--line); border-radius: 99px; vertical-align: middle; overflow: hidden; }
+    .bars i { display: block; height: 100%; background: var(--accent); }
+    .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .controls input { max-width: 220px; }
+    .controls select { font: inherit; padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+    .controls .btn { width: auto; min-height: 44px; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="wrap"><span class="brand">學生答題狀況・116 學測快答</span><span class="cd" id="updated"></span></div></header>
+  <main class="wrap">
+    <div class="card">
+      <div class="controls">
+        <input type="password" id="key" placeholder="老師密鑰" autocomplete="off">
+        <select id="range">
+          <option value="7">近 7 天</option>
+          <option value="14" selected>近 14 天</option>
+          <option value="30">近 30 天</option>
+          <option value="120">全部</option>
+        </select>
+        <select id="who" class="hidden" aria-label="學生"></select>
+        <button class="btn primary" id="load">載入</button>
+        <button class="btn" id="csv" disabled>匯出 CSV</button>
+      </div>
+      <p class="small muted" id="msg">密鑰在 Google 試算表的 Apps Script 執行 setup() 時會顯示。只存在這台裝置。</p>
+    </div>
+    <div id="out"></div>
+  </main>
+  <script type="module" src="assets/teacher.js"></script>
+</body>
+</html>

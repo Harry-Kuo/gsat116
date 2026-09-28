@@ -1,0 +1,299 @@
+exam: 學測
+year: 111
+subject: english
+paper: 英文
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0m053357638065462325/02-111%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.pdf
+  docx: https://www.ceec.edu.tw/files/file_pool/1/0m052625333586016950/02-111%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.docx
+groups: []
+items:
+- id: eng111-01
+  'no': 1
+  type: single
+  points: 1
+  group: null
+  stem: When Jeffery doesn’t feel like cooking, he often orders pizza online and has it ＿＿＿＿ to his house.
+  options:
+    A: advanced
+    B: delivered
+    C: offered
+    D: stretched
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 83
+    Ph: 100
+    Pl: 56
+    D: 44
+    opt:
+      A: 4
+      B: 83
+      C: 9
+      D: 4
+  explain: ''
+  reviewed: false
+- id: eng111-02
+  'no': 2
+  type: single
+  points: 1
+  group: null
+  stem: Jane is the best ＿＿＿＿ I have ever had. I cannot imagine running my office without her help.
+  options:
+    A: assistant
+    B: influence
+    C: contribution
+    D: politician
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 74
+    Ph: 99
+    Pl: 39
+    D: 60
+    opt:
+      A: 74
+      B: 6
+      C: 9
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng111-03
+  'no': 3
+  type: single
+  points: 1
+  group: null
+  stem: The temple celebrated Mazu Festival by hosting ten days of lion dances, Taiwanese operas, and traditional hand ＿＿＿＿ shows.
+  options:
+    A: chat
+    B: quiz
+    C: puppet
+    D: variety
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 50
+    Ph: 82
+    Pl: 25
+    D: 57
+    opt:
+      A: 9
+      B: 7
+      C: 50
+      D: 34
+  explain: ''
+  reviewed: false
+- id: eng111-04
+  'no': 4
+  type: single
+  points: 1
+  group: null
+  stem: The new vaccine was banned by the Food and Drug Administration due to its ＿＿＿＿ fatal side effects.
+  options:
+    A: potentially
+    B: delicately
+    C: ambiguously
+    D: optionally
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 61
+    Ph: 94
+    Pl: 25
+    D: 69
+    opt:
+      A: 61
+      B: 12
+      C: 17
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng111-05
+  'no': 5
+  type: single
+  points: 1
+  group: null
+  stem: ＿＿＿＿ the photos with dates and keywords help you sort them easily in your file.
+  options:
+    A: Tagging
+    B: Flocking
+    C: Rolling
+    D: Snapping
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 70
+    Ph: 90
+    Pl: 45
+    D: 45
+    opt:
+      A: 70
+      B: 9
+      C: 8
+      D: 14
+  explain: ''
+  reviewed: false
+- id: eng111-06
+  'no': 6
+  type: single
+  points: 1
+  group: null
+  stem: An ＿＿＿＿ person is usually pleasant and easy to get along with, but don’t expect that he or she will always say “yes” to everything.
+  options:
+    A: enormous
+    B: intimate
+    C: agreeable
+    D: ultimate
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 52
+    Ph: 63
+    Pl: 39
+    D: 24
+    opt:
+      A: 12
+      B: 28
+      C: 52
+      D: 8
+  explain: ''
+  reviewed: false
+- id: eng111-07
+  'no': 7
+  type: single
+  points: 1
+  group: null
+  stem: Hidden deep in a small alley among various tiny shops, the entrance of the Michelin star restaurant is barely ＿＿＿＿ to passersby.
+  options:
+    A: identical
+    B: visible
+    C: available
+    D: remarkable
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 49
+    Ph: 72
+    Pl: 29
+    D: 43
+    opt:
+      A: 14
+      B: 49
+      C: 22
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng111-08
+  'no': 8
+  type: single
+  points: 1
+  group: null
+  stem: The original budget for my round-island trip was NT$5,000, but the ＿＿＿＿ cost is likely to be 50 percent higher.
+  options:
+    A: moderate
+    B: absolute
+    C: promising
+    D: eventual
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 67
+    Ph: 94
+    Pl: 32
+    D: 62
+    opt:
+      A: 10
+      B: 13
+      C: 10
+      D: 67
+  explain: ''
+  reviewed: false
+- id: eng111-09
+  'no': 9
+  type: single
+  points: 1
+  group: null
+  stem: After watching a TV program on natural history, Adam decided to go on a ＿＿＿＿ for dinosaur fossils in South Dakota.
+  options:
+    A: trial
+    B: route
+    C: strike
+    D: quest
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 16
+    Ph: 27
+    Pl: 12
+    D: 15
+    opt:
+      A: 35
+      B: 31
+      C: 19
+      D: 16
+  explain: ''
+  reviewed: false
+- id: eng111-10
+  'no': 10
+  type: single
+  points: 1
+  group: null
+  stem: With pink cherry blossoms blooming everywhere, the valley ＿＿＿＿ like a young bride under the bright spring sunshine.
+  options:
+    A: bounces
+    B: blushes
+    C: polishes
+    D: transfers
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 45
+    Ph: 63
+    Pl: 30
+    D: 33
+    opt:
+      A: 11
+      B: 45
+      C: 18
+      D: 26
+  explain: ''
+  reviewed: false

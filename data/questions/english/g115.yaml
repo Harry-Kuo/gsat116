@@ -1,0 +1,299 @@
+exam: 學測
+year: 115
+subject: english
+paper: 英文
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0q054532302653501476/02-115%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.pdf
+  docx: https://www.ceec.edu.tw/files/file_pool/1/0q054532512297480494/02-115%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.docx
+groups: []
+items:
+- id: eng115-01
+  'no': 1
+  type: single
+  points: 1
+  group: null
+  stem: The mayor has such a ＿＿＿＿ schedule that it takes weeks to arrange an interview with her.
+  options:
+    A: hasty
+    B: tight
+    C: diligent
+    D: routine
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 57
+    Ph: 87
+    Pl: 33
+    D: 54
+    opt:
+      A: 12
+      B: 57
+      C: 12
+      D: 19
+  explain: ''
+  reviewed: false
+- id: eng115-02
+  'no': 2
+  type: single
+  points: 1
+  group: null
+  stem: Jane started as an ＿＿＿＿ art designer, but now she has a professional studio of her own.
+  options:
+    A: official
+    B: instant
+    C: amateur
+    D: elementary
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 48
+    Ph: 81
+    Pl: 20
+    D: 61
+    opt:
+      A: 21
+      B: 8
+      C: 48
+      D: 23
+  explain: ''
+  reviewed: false
+- id: eng115-03
+  'no': 3
+  type: single
+  points: 1
+  group: null
+  stem: The teaching ＿＿＿＿ at the famous high school soon attracted more than a dozen well-qualified applicants.
+  options:
+    A: career
+    B: vacancy
+    C: expectation
+    D: inspiration
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 45
+    Ph: 79
+    Pl: 20
+    D: 59
+    opt:
+      A: 26
+      B: 45
+      C: 18
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng115-04
+  'no': 4
+  type: single
+  points: 1
+  group: null
+  stem: Designed by a young engineer, the new product has created far more profit than ＿＿＿＿ expected.
+  options:
+    A: initially
+    B: genuinely
+    C: alternatively
+    D: fundamentally
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 65
+    Ph: 97
+    Pl: 26
+    D: 71
+    opt:
+      A: 65
+      B: 14
+      C: 11
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng115-05
+  'no': 5
+  type: single
+  points: 1
+  group: null
+  stem: It has been confirmed that a balanced ＿＿＿＿ of fruit and vegetables is a key element to good health.
+  options:
+    A: dimension
+    B: integration
+    C: provision
+    D: consumption
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 63
+    Ph: 96
+    Pl: 27
+    D: 69
+    opt:
+      A: 7
+      B: 17
+      C: 13
+      D: 63
+  explain: ''
+  reviewed: false
+- id: eng115-06
+  'no': 6
+  type: single
+  points: 1
+  group: null
+  stem: As a shy boy afraid of making public appearances, Timmy ＿＿＿＿ the thought of speaking before large audiences.
+  options:
+    A: dreads
+    B: stresses
+    C: wanders
+    D: escapes
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 29
+    Ph: 52
+    Pl: 14
+    D: 38
+    opt:
+      A: 29
+      B: 30
+      C: 14
+      D: 28
+  explain: ''
+  reviewed: false
+- id: eng115-07
+  'no': 7
+  type: single
+  points: 1
+  group: null
+  stem: To the newly-crowned winner of the piano competition, music is his life’s ＿＿＿＿ , which he has devoted himself to whole-heartedly.
+  options:
+    A: resource
+    B: impact
+    C: passion
+    D: emphasis
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 66
+    Ph: 87
+    Pl: 39
+    D: 48
+    opt:
+      A: 9
+      B: 10
+      C: 66
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng115-08
+  'no': 8
+  type: single
+  points: 1
+  group: null
+  stem: The drunk driver who shouted at passers-by and ＿＿＿＿ them with glass bottles was quickly arrested by the police.
+  options:
+    A: shattered
+    B: assaulted
+    C: overturned
+    D: condemned
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 47
+    Ph: 76
+    Pl: 24
+    D: 52
+    opt:
+      A: 29
+      B: 47
+      C: 14
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng115-09
+  'no': 9
+  type: single
+  points: 1
+  group: null
+  stem: There were so many people at the bus station that I had to ＿＿＿＿ my way through the crowd to board the bus in time.
+  options:
+    A: crash
+    B: tumble
+    C: elbow
+    D: struggle
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 29
+    Ph: 40
+    Pl: 19
+    D: 21
+    opt:
+      A: 16
+      B: 16
+      C: 29
+      D: 39
+  explain: ''
+  reviewed: false
+- id: eng115-10
+  'no': 10
+  type: single
+  points: 1
+  group: null
+  stem: Deadly shootings on US campuses have raised ＿＿＿＿ concerns about how to prevent such tragic incidents from happening again.
+  options:
+    A: swift
+    B: brutal
+    C: harsh
+    D: grave
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 24
+    Ph: 37
+    Pl: 19
+    D: 18
+    opt:
+      A: 17
+      B: 20
+      C: 38
+      D: 24
+  explain: ''
+  reviewed: false

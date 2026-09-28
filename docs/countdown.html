@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>學測倒數</title>
+  <style>
+    :root { --ink: #1f2328; --muted: #6b7280; --accent: #c2410c; --tile: rgba(194, 65, 12, .08); }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ink: #e9ecef; --muted: #9aa5b1; --accent: #fb923c; --tile: rgba(251, 146, 60, .12); } }
+    :root[data-theme="dark"] { --ink: #e9ecef; --muted: #9aa5b1; --accent: #fb923c; --tile: rgba(251, 146, 60, .12); }
+    html, body { margin: 0; background: transparent; color: var(--ink); font-family: -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+    .w { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 12px; text-align: center; }
+    .t { font-size: 15px; color: var(--muted); letter-spacing: .04em; }
+    .nums { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+    .n { background: var(--tile); border-radius: 12px; min-width: 64px; padding: 8px 10px; }
+    .n b { display: block; font-size: clamp(26px, 7vw, 40px); line-height: 1.1; color: var(--accent); font-variant-numeric: tabular-nums; }
+    .n span { font-size: 12px; color: var(--muted); }
+    .next { font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="w">
+    <div class="t" id="title">距離 116 學測</div>
+    <div class="nums">
+      <div class="n"><b id="d">--</b><span>天</span></div>
+      <div class="n"><b id="h">--</b><span>時</span></div>
+      <div class="n"><b id="m">--</b><span>分</span></div>
+      <div class="n"><b id="s">--</b><span>秒</span></div>
+    </div>
+    <div class="next" id="next"></div>
+  </div>
+  <script type="module">
+    import { countdown, pad, todayStr, fmtDate } from "./assets/util.js";
+    const q = new URLSearchParams(location.search);
+    if (q.get("theme")) document.documentElement.dataset.theme = q.get("theme");
+    let cfg = { exam: { name: "116 學測", start: "2027-01-22T09:20:00+08:00" }, milestones: [] };
+    try { cfg = await (await fetch("data/config.json", { cache: "no-cache" })).json(); } catch (e) { /* 用預設值 */ }
+    document.getElementById("title").textContent = `距離 ${cfg.exam.name}（${fmtDate(cfg.exam.start.slice(0, 10))} 09:20）`;
+    const today = todayStr();
+    const nx = (cfg.milestones || []).find((m) => m.date >= today);
+    if (nx && q.get("next") !== "0") document.getElementById("next").textContent = `下一個里程碑：${fmtDate(nx.date)} ${nx.name}`;
+    const draw = () => {
+      const c = countdown(cfg.exam.start);
+      document.getElementById("d").textContent = c.days;
+      document.getElementById("h").textContent = pad(c.hours);
+      document.getElementById("m").textContent = pad(c.minutes);
+      document.getElementById("s").textContent = pad(c.seconds);
+    };
+    draw();
+    setInterval(draw, 1000);
+  </script>
+</body>
+</html>

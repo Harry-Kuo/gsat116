@@ -1,0 +1,300 @@
+exam: 學測
+year: 112
+subject: english
+paper: 英文
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0n045359274947649605/02-112%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.pdf
+  docx: https://www.ceec.edu.tw/files/file_pool/1/0n045359405581528633/02-112%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%28%e5%ae%9a%e7%a8%bf%29.docx
+groups: []
+items:
+- id: eng112-01
+  'no': 1
+  type: single
+  points: 1
+  group: null
+  stem: The bus driver often complains about chewing gum found under passenger seats because it is ＿＿＿＿ and very hard to remove.
+  options:
+    A: sticky
+    B: greasy
+    C: clumsy
+    D: mighty
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 73
+    Ph: 97
+    Pl: 41
+    D: 56
+    opt:
+      A: 73
+      B: 11
+      C: 10
+      D: 6
+  explain: ''
+  reviewed: false
+- id: eng112-02
+  'no': 2
+  type: single
+  points: 1
+  group: null
+  stem: Jesse is a talented model. He can easily adopt an elegant ＿＿＿＿ for a camera shoot.
+  options:
+    A: clap
+    B: toss
+    C: pose
+    D: snap
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 88
+    Ph: 99
+    Pl: 73
+    D: 26
+    opt:
+      A: 3
+      B: 3
+      C: 88
+      D: 6
+  explain: ''
+  reviewed: false
+- id: eng112-03
+  'no': 3
+  type: single
+  points: 1
+  group: null
+  stem: In order to draw her family tree, Mary tried to trace her ＿＿＿＿ back to their arrival in North America.
+  options:
+    A: siblings
+    B: commuters
+    C: ancestors
+    D: instructors
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 64
+    Ph: 95
+    Pl: 27
+    D: 68
+    opt:
+      A: 9
+      B: 15
+      C: 64
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng112-04
+  'no': 4
+  type: single
+  points: 1
+  group: null
+  stem: Upon the super typhoon warning, Nancy rushed to the supermarket—only to find the shelves almost ＿＿＿＿ and the stock nearly gone.
+  options:
+    A: blank
+    B: bare
+    C: hollow
+    D: queer
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: false
+  classic_note: 官方鑑別度 D=-6，低鑑別題不進主線
+  stats:
+    P: 28
+    Ph: 23
+    Pl: 29
+    D: -6
+    opt:
+      A: 31
+      B: 28
+      C: 30
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng112-05
+  'no': 5
+  type: single
+  points: 1
+  group: null
+  stem: Even though Jack said “Sorry!” to me in person, I did not feel any ＿＿＿＿ in his apology.
+  options:
+    A: liability
+    B: generosity
+    C: integrity
+    D: sincerity
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 57
+    Ph: 91
+    Pl: 23
+    D: 68
+    opt:
+      A: 7
+      B: 24
+      C: 13
+      D: 57
+  explain: ''
+  reviewed: false
+- id: eng112-06
+  'no': 6
+  type: single
+  points: 1
+  group: null
+  stem: My grandfather has astonishing powers of ＿＿＿＿ . He can still vividly describe his first day at school as a child.
+  options:
+    A: resolve
+    B: fraction
+    C: privilege
+    D: recall
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 70
+    Ph: 98
+    Pl: 31
+    D: 67
+    opt:
+      A: 8
+      B: 12
+      C: 10
+      D: 70
+  explain: ''
+  reviewed: false
+- id: eng112-07
+  'no': 7
+  type: single
+  points: 1
+  group: null
+  stem: Recent research has found lots of evidence to ＿＿＿＿ the drug company’s claims about its “miracle” tablets for curing cancer.
+  options:
+    A: provoke
+    B: counter
+    C: expose
+    D: convert
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 23
+    Ph: 40
+    Pl: 18
+    D: 22
+    opt:
+      A: 23
+      B: 23
+      C: 33
+      D: 20
+  explain: ''
+  reviewed: false
+- id: eng112-08
+  'no': 8
+  type: single
+  points: 1
+  group: null
+  stem: Corrupt officials and misguided policies have ＿＿＿＿ the country’s economy and burdened its people with enormous foreign debts.
+  options:
+    A: crippled
+    B: accelerated
+    C: rendered
+    D: ventured
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 41
+    Ph: 73
+    Pl: 20
+    D: 53
+    opt:
+      A: 41
+      B: 31
+      C: 16
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng112-09
+  'no': 9
+  type: single
+  points: 1
+  group: null
+  stem: As a record number of fans showed up for the baseball final, the highways around the stadium were ＿＿＿＿ with traffic all day.
+  options:
+    A: choked
+    B: disturbed
+    C: enclosed
+    D: injected
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 35
+    Ph: 55
+    Pl: 20
+    D: 35
+    opt:
+      A: 35
+      B: 31
+      C: 19
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng112-10
+  'no': 10
+  type: single
+  points: 1
+  group: null
+  stem: Studies show that the ＿＿＿＿ unbiased media are in fact often deeply influenced by political ideology.
+  options:
+    A: undoubtedly
+    B: roughly
+    C: understandably
+    D: supposedly
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 37
+    Ph: 55
+    Pl: 26
+    D: 29
+    opt:
+      A: 22
+      B: 25
+      C: 16
+      D: 37
+  explain: ''
+  reviewed: false

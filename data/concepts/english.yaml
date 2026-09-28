@@ -1,0 +1,37 @@
+subject: english
+name: 英文
+modules:
+  - id: V
+    name: 詞彙與語法
+    concepts:
+      - id: V1
+        name: 詞彙題
+        summary: 先讀懂整句的意思，再看空格前後的搭配詞（collocation），例如 tight schedule、grave concerns、stand the test of time。
+        points:
+          - 學測英文第 1–10 題固定是詞彙題，每題 1 分，建議每題 30 秒內完成。
+          - 解題三步驟：①找出句子的語意線索（對比、因果、同位語）②判斷空格詞性 ③比對固定搭配。
+          - 常見陷阱：中文意思相近但搭配不對，例如 harsh concerns（✗）→ grave concerns（✓）、addressed … with his presence（✗）→ graced … with his presence（✓）。
+      - id: V2
+        name: 綜合測驗（克漏字）
+        summary: 看整段文意與上下句的轉折，連接詞題要判斷前後句是「補充、轉折、因果還是結論」。
+  - id: R
+    name: 閱讀
+    concepts:
+      - id: R1
+        name: 文意選填
+        summary: 先把 10 個選項依詞性分類，再依空格前後的文法位置縮小範圍。
+      - id: R2
+        name: 篇章結構
+        summary: 找代名詞、指示詞與轉折詞，確認插入句和前後句的邏輯銜接。
+      - id: R3
+        name: 閱讀測驗
+        summary: 先看題目再讀文章，主旨題看首末段，細節題回原文找對應句。
+  - id: W
+    name: 寫作
+    concepts:
+      - id: W1
+        name: 中譯英
+        summary: 先抓句子主幹（主詞＋動詞），再處理修飾語；時態與單複數最容易被扣分。
+      - id: W2
+        name: 英文作文
+        summary: 依題目要求分段，每段有主題句；用自己有把握的句型，避免文法錯誤。

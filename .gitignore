@@ -1,0 +1,5 @@
+data/ceec/
+__pycache__/
+.DS_Store
+*.pyc
+.env

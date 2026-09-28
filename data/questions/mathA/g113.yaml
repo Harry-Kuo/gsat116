@@ -1,0 +1,1440 @@
+exam: 學測
+year: 113
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0o051426180137211766/03-113%e5%ad%b8%e6%b8%ac%e6%95%b8a%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf
+groups:
+- id: ma113-g18
+  range:
+  - 18
+  - 20
+  intro: 閱讀下文，回答18-20題。
+  image: img/mathA/113-g18.webp
+  passage: 18-20 題為題組
+items:
+- id: ma113-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 89
+    Ph: 99
+    Pl: 74
+    D: 25
+    opt:
+      '1': 3
+      '2': 89
+      '3': 3
+      '4': 4
+      '5': 1
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-01.webp
+  text: |-
+    說明：第1 題至第6 題，每題5 分。
+    1. 研究顯示：服用某藥物後，在使用者體內的藥物殘留量隨時間呈指數型衰退。已知在
+    服用某藥物2 小時後，體內仍殘留有該藥物的一半劑量，試問下列哪一選項正確？
+    (1) 服用3 小時後，體內仍殘留有該藥物的1
+    3 劑量
+    (2) 服用4 小時後，體內仍殘留有該藥物的1
+    4 劑量
+    (3) 服用6 小時後，體內仍殘留有該藥物的1
+    6 劑量
+    (4) 服用8 小時後，體內仍殘留有該藥物的1
+    8 劑量
+    (5) 服用10 小時後，體內仍殘留有該藥物的1
+    10 劑量
+- id: ma113-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 57
+    Ph: 90
+    Pl: 19
+    D: 71
+    opt:
+      '1': 6
+      '2': 10
+      '3': 18
+      '4': 8
+      '5': 57
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-02.webp
+  text: |-
+    2. 如圖，OABC
+    DEFG
+    −
+    為一正方體，試問向量外積AD
+    AG
+    
+    與下列哪一個向量平行？
+    (1) AE
+
+    (2) BE
+
+    (3) CE
+    (4) DE
+
+    (5) OE
+
+
+    A
+    B
+    E
+    F
+    D
+    G
+    O
+    C
+- id: ma113-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 31
+    Ph: 64
+    Pl: 7
+    D: 57
+    opt:
+      '1': 31
+      '2': 13
+      '3': 34
+      '4': 18
+      '5': 4
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-03.webp
+  text: |-
+    3. 設
+    { 6, 4, 2,2,4,6}
+    a−
+    −
+    −
+    ，已知a 為實係數三次多項式
+    ( )
+    f x 的最高次項係數，若函數
+    ( )
+    y
+    f x
+    =
+    的圖形與x 軸交於三點，且其x 坐標成首項為7
+    −、公差為a 的等差數列。試問共
+    有幾個a 使得
+    (0)
+    0
+    f
+    
+    ？
+    (1) 1 個
+    (2) 2 個
+    (3) 3 個
+    (4) 4 個
+    (5) 5 個
+
+
+
+
+
+    
+    
+- id: ma113-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 39
+    Ph: 60
+    Pl: 20
+    D: 40
+    opt:
+      '1': 17
+      '2': 39
+      '3': 23
+      '4': 14
+      '5': 7
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-04.webp
+  text: |-
+    4. 試問有多少個實數x 滿足sin(
+    )
+    sin
+    sin
+    6
+    6
+    x
+    x
+    
+    
+    +
+    =
+    +
+    且0
+    2
+    x
+    
+    
+    
+    ？
+    (1) 1 個
+    (2) 2 個
+    (3) 3 個
+    (4) 4 個
+    (5) 5 個（含）以上
+- id: ma113-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 35
+    Ph: 65
+    Pl: 12
+    D: 53
+    opt:
+      '1': 6
+      '2': 17
+      '3': 18
+      '4': 35
+      '5': 24
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-05.webp
+  text: |-
+    5. 將1 到50 這50 個正整數平分成甲乙兩組，每組各25 個數，使得甲組的中位數比乙組
+    的中位數小1。試問共有幾種分法？
+    (1)
+    50
+    25
+    C
+
+    (2)
+    48
+    24
+    C
+
+    (3)
+    24
+    12
+    C
+
+    (4)
+    24
+    2
+    12
+    (
+    )
+    C
+
+    (5)
+    48
+    24
+    24
+    12
+    C
+    C
+    
+- id: ma113-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 44
+    Ph: 79
+    Pl: 16
+    D: 63
+    opt:
+      '1': 13
+      '2': 16
+      '3': 44
+      '4': 18
+      '5': 8
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-06.webp
+  text: |-
+    6. 在同一平面上，相距7 公里的
+    ,
+    A B 兩砲台，A 在B 的正東方。某次演習時，A 向西偏北
+    方向發射砲彈，B 則向東偏北方向發射砲彈，其中為銳角，觀測回報兩砲彈皆命
+    中9 公里外的同一目標P。接著A 改向西偏北2
+    方向發射砲彈，彈著點為9 公里外的點
+    Q 。試問砲台B 與彈著點Q 的距離BQ 為何？
+    (1) 4 公里
+    (2) 4.5 公里
+    (3) 5 公里
+    (4) 5.5 公里
+    (5) 6 公里
+- id: ma113-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,4
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 47
+    Ph: 64
+    Pl: 29
+    D: 35
+    T: 8
+    opt:
+      '1': 13
+      '2': 78
+      '3': 83
+      '4': 87
+      '5': 20
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-07.webp
+  text: |-
+    說明：第7 題至第12 題，每題5 分。
+    7. 令坐標平面上滿足
+    log
+    y
+    x
+    =
+    的點( , )
+    x y 所成圖形為，試問滿足下列哪些關係式的( , )
+    x y 所
+    成圖形與完全相同？
+    (1)
+    1
+    log(5 )
+    2
+    y
+    x
+    +
+    =
+
+    (2)
+    2
+    2
+    log(
+    )
+    y
+    x
+    =
+
+    (3)
+    3
+    3
+    log(
+    )
+    y
+    x
+    =
+
+    (4)
+    10y
+    x =
+
+    (5)
+    3
+    3
+    (
+    )
+    10 y
+    x =
+- id: ma113-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 66
+    Ph: 86
+    Pl: 45
+    D: 41
+    T: 43
+    opt:
+      '1': 24
+      '2': 92
+      '3': 88
+      '4': 22
+      '5': 25
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-08.webp
+  text: |-
+    8. 對任一正整數
+    2
+    n 
+    ，令
+    nT 表示邊長為,
+    1,
+    2
+    n n
+    n
+    +
+    +
+    的三角形。試選出正確的選項。
+    （註：若三角形的三邊長分別為, ,
+    a b c ，令
+    2
+    a
+    b
+    c
+    s
+    +
+    +
+    =
+    ，
+    則三角形面積為
+    (
+    )(
+    )(
+    )
+    s s
+    a s
+    b s
+    c
+    −
+    −
+    −
+    ）
+    (1)
+    nT 皆為銳角三角形
+    (2)
+    2
+    3
+    4
+    10
+    ,
+    ,
+    ,
+    ,
+    T T T
+    T 的周長形成等差數列
+    (3)
+    nT 的面積隨n增大而增大
+    (4)
+    5T 的三高依序形成等差數列
+    (5)
+    3T 的最大角大於
+    2T 的最大角
+- id: ma113-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 36
+    Ph: 56
+    Pl: 20
+    D: 36
+    T: 12
+    opt:
+      '1': 25
+      '2': 37
+      '3': 77
+      '4': 50
+      '5': 50
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-09.webp
+  text: |-
+    9. 某實驗室蒐集了大量的A、B 兩相似物種，記錄其身長為x（單位：公分）與體重y（單
+    位：公克），得A 、B 兩物種的平均身長分別為
+    5.2
+    A
+    x =
+    、
+    6
+    B
+    x =
+    ，標準差分別為0.3、
+    0.1。令A 、B 兩物種的平均體重分別為
+    A
+    y 、
+    B
+    y 。若A 、B 兩物種其體重y 對身長x 的
+    迴歸直線分別為
+    :
+    2
+    0.6
+    A
+    L
+    y
+    x
+    =
+    −
+    、
+    :
+    1.5
+    0.4
+    B
+    L
+    y
+    x
+    =
+    +
+    ，相關係數分別為0.6、0.3。今發現一
+    隻身長5.6 公分、體重8.6 公克的個體P ，試選出正確的選項。
+    (1)
+    A
+    B
+    y
+    y
+    
+
+    (2) A 物種的體重標準差小於B 物種的體重標準差
+    (3) 就A 物種而言，個體P 的體重與平均體重
+    A
+    y 之差的絕對值大於一個標準差
+    (4) 點(5.6, 8.6)到直線
+    A
+    L 的距離小於其到直線
+    B
+    L 的距離
+    (5) 點(5.6, 8.6)與點(
+    ,
+    A
+    A
+    x
+    y )的距離小於其與點(
+    ,
+    B
+    B
+    x
+    y )的距離
+- id: ma113-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 45
+    Ph: 66
+    Pl: 26
+    D: 40
+    T: 23
+    opt:
+      '1': 39
+      '2': 15
+      '3': 72
+      '4': 53
+      '5': 77
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-10.webp
+  text: |-
+    10. 坐標平面上有一正方形與一正六邊形，正方形在正六邊形的右邊。已知兩正多邊形都有
+    一邊在x 軸上，且正方形中心A 與正六邊形中心B 都在x 軸的上方，且兩多邊形恰有一個
+    交點P ，又知正方形的邊長為6，而點P 到x 軸的距離為2 3 。試選出正確的選項。
+    (1) 點A 到x 軸的距離大於點B 到x 軸的距離
+    (2) 正六邊形的邊長為6
+    (3)
+    (7, 3
+    2 3)
+    BA =
+    −
+
+    (4)
+    10
+    AP 
+
+    (5) 直線AP 斜率大於
+    1
+    3
+    −
+- id: ma113-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 43
+    Ph: 65
+    Pl: 23
+    D: 42
+    T: 25
+    opt:
+      '1': 23
+      '2': 67
+      '3': 73
+      '4': 32
+      '5': 50
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-11.webp
+  text: |-
+    11. 考慮二元一次方程組
+    6
+    6
+    1
+    ax
+    y
+    x
+    by
+    +
+    =
+    +
+    =
+    ，其係數,a b 之值分別由投擲一顆公正骰子與一枚均勻硬
+    幣來決定。令a 值為骰子出現之點數；若硬幣出現正面時b 值為1，若硬幣出現反面時b
+    值為2。試選出正確的選項。
+    (1) 擲出a
+    b
+    =
+    的機率為1
+    3
+    (2) 此方程組無解的機率為1
+    12
+    (3) 此方程組有唯一解的機率為5
+    6
+    (4) 硬幣出現反面且此方程組有解的機率為1
+    2
+    (5) 在硬幣出現反面且此方程組有解的條件下，x 值為正的機率為2
+    5
+
+
+    3
+    0
+    
+    
+- id: ma113-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,4,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 36
+    Ph: 51
+    Pl: 24
+    D: 27
+    T: 11
+    opt:
+      '1': 34
+      '2': 47
+      '3': 31
+      '4': 80
+      '5': 57
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-12.webp
+  text: |-
+    12. 在坐標平面上給定三點
+    (1,0)
+    A
+    、
+    (0,1)
+    B
+    、
+    ( 1,0)
+    C −
+    ，令Γ 為ΔABC 經矩陣
+    3
+    0
+    1
+    T
+    a
+    
+    
+    = 
+    
+    
+    
+    變換後的
+    圖形，其中a 為實數。試選出正確的選項。
+    (1) 若
+    0
+    a =
+    ，則Γ 為等腰直角三角形
+    (2) ΔABC 的邊上至少有兩點經T 變換後坐標不變
+    (3) Γ 必有部分落在第四象限
+    (4) 平面上找得到一個圖形Ω 經T 變換後為ΔABC
+    (5) Γ 的面積為定值
+- id: ma113-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,3,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 67
+    Ph: 94
+    Pl: 28
+    D: 66
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-13.webp
+  text: |-
+    說明：第13 題至第17 題，每題5 分。
+    13. 某銷售站銷售甲、乙、丙三型手機，甲手機每支利潤100 元，乙手機每支利潤400 元，
+    丙手機每支利潤240 元。上年度甲、乙、丙手機各賣出
+    , ,
+    A B C 支，平均每支利潤為260
+    元；且知銷售甲、乙兩型手機共A
+    B
+    +
+    支的平均每支利潤為280 元。則該站上年度售出
+    的三型手機數量比為A ：B ：C =○
+    13-1
+    ：○
+    13-2
+    ：○
+    13-3
+    。（化為最簡整數比）
+- id: ma113-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,3,3
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 38
+    Ph: 76
+    Pl: 4
+    D: 72
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-14.webp
+  text: |-
+    14. 已知
+    ( )
+    f x 、
+    ( )
+    g x 、
+    ( )
+    h x 皆為實係數三次多項式，且除以
+    2
+    2
+    3
+    x
+    x
+    −
+    +
+    的餘式分別為
+    1
+    x + 、
+    3
+    x −、
+    2
+    −。若
+    ( )
+    ( )
+    ( )
+    xf x
+    ag x
+    bh x
+    +
+    +
+    可以被
+    2
+    2
+    3
+    x
+    x
+    −
+    +
+    整除，其中,a b 為實數，
+    則a = ○
+    14-1 ○
+    14-2 ，b = ○
+    14-3
+    。
+- id: ma113-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 48
+    Ph: 82
+    Pl: 12
+    D: 70
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-15.webp
+  text: |-
+    15. 某商場舉辦現場報名的摸彩箱抽獎活動，報名截止後，主持人依報名人數置入同數量的
+    摸彩球，其中有10 顆被標示為幸運獎，其獎項為5000 元禮券及8000 元禮券各5 顆，每
+    顆球被抽中的機率皆相同，抽後不放回。抽獎前，主辦單位依獎項個數與報名人數，主
+    持人公告中獎機率為0.4%。開始抽獎後，每人依序抽球，每個人只有一次抽獎機會。若
+    前100 位參加抽獎者，恰有1 人抽中5000 元禮券且沒有人抽中8000 元禮券，則抽獎順
+    序為第101 號者可獲禮券金額的期望值為○
+    15-1 ○
+    15-2 元。
+- id: ma113-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,5,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 8
+    Ph: 22
+    Pl: 0
+    D: 22
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-16.webp
+  text: |-
+    16. 坐標平面上，已知向量v 在向量(2, 3)
+    −
+    方向的正射影長比原長少1，而在向量(3,2) 方向
+    的正射影長比原長少2。若v 與兩向量(2, 3),(3,2)
+    −
+    的夾角皆為銳角，則v 在向量(4,7) 方
+    向的正射影長為○
+    16-1
+    ○
+    16-2
+    ○
+    16-3
+    。（化為最簡根式）
+- id: ma113-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,3
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 官方鑑別度 D=5，低鑑別題不進主線
+  stats:
+    P: 5
+    Ph: 8
+    Pl: 3
+    D: 5
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-17.webp
+  text: |-
+    17. 坐標平面上，在以
+    (0,0), (0,1), (1,1),
+    (1,0)
+    O
+    A
+    B
+    C
+    為頂點的正方形（含邊界）內，令R 為滿足下
+    述條件的點
+    ( , )
+    P x y 所成區域：與點
+    ( , )
+    P x y 的距離為|
+    |
+    x
+    y
+    −
+    之所有點所成圖形完全落在正方
+    形OABC （含邊界）內。則區域R 的面積為○
+    17-1
+    ○
+    17-2
+    。（化為最簡分數）
+- id: ma113-18
+  'no': 18
+  type: single
+  points: 2
+  group: ma113-g18
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 64
+    Ph: 90
+    Pl: 35
+    D: 55
+    opt:
+      '1': 9
+      '2': 5
+      '3': 13
+      '4': 64
+      '5': 8
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-18.webp
+  text: |-
+    坐標空間中，設O 為原點，E 為平面
+    4
+    x
+    z
+    −
+    =
+    。試回答下列問題。
+    18. 若原點O 在平面E 上的投影點為Q ，且向量OQ 與向量(1,0,0) 的夾角為，則cos之值
+    為下列哪一選項？（單選題，3 分）
+    (1)
+    2
+    2
+    −
+
+    (2)
+    1
+    2
+    −
+
+    (3) 1
+    2
+    (4)
+    2
+    2
+    (5)
+    3
+    2
+
+
+    
+- id: ma113-19
+  'no': 19
+  type: open
+  points: 2
+  group: ma113-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-19.webp
+  text: |-
+    19. 已知空間中有一點
+    ( , , )
+    P a b c 滿足向量OP 與向量(1,0,0) 的夾角
+    6
+    
+    
+    。試說明實數, ,
+    a b c 滿
+    足不等式
+    2
+    2
+    2
+    3(
+    )
+    a
+    b
+    c
+    
+    +
+    。（非選擇題，4 分）
+- id: ma113-20
+  'no': 20
+  type: open
+  points: 2
+  group: ma113-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathA/113-20.webp
+  text: |-
+    20. 承19 題，已知點P 在平面E 上且
+    0
+    b = 。試求c 的最大可能範圍，並求線段OP的最小可
+    能長度。（非選擇題，8 分）
+
+
+
+
+    參考公式及可能用到的數值
+
+    1. 首項為a ，公差為d 的等差數列前n 項之和為
+    (2
+    (
+    1) )
+    2
+    n
+    a
+    n
+    d
+    S
+    +
+    −
+    =
+
+
+    首項為a ，公比為
+    (
+    1)
+    r r 
+    的等比數列前n 項之和為
+    (1
+    )
+    1
+    n
+    a
+    r
+    S
+    r
+    −
+    =
+    −
+
+
+    2. 三角函數的和角公式：sin(
+    )
+    sin
+    cos
+    cos
+    sin
+    A
+    B
+    A
+    B
+    A
+    B
+    +
+    =
+    +
+
+    cos(
+    )
+    cos
+    cos
+    sin
+    sin
+    A
+    B
+    A
+    B
+    A
+    B
+    +
+    =
+    −
+
+    tan
+    tan
+    tan(
+    )
+    1
+    tan
+    tan
+    A
+    B
+    A
+    B
+    A
+    B
+    +
+    +
+    = −
+
+
+    3.
+    ABC
+    
+    的正弦定理：
+    2
+    sin
+    sin
+    sin
+    a
+    b
+    c
+    R
+    A
+    B
+    C
+    =
+    =
+    =
+     （R 為
+    ABC
+    
+    外接圓半徑）
+    ABC
+    
+    的餘弦定理：
+    2
+    2
+    2
+    2
+    cos
+    c
+    a
+    b
+    ab
+    C
+    =
+    +
+    −
+
+
+    4. 一維數據
+    1
+    2
+    :
+    ,
+    ,
+    ,
+    n
+    X x x
+    x
+    
+    ，
+    算術平均數
+    1
+    2
+    1 (
+    )
+    X
+    n
+    x
+    x
+    x
+    n
+    
+    =
+    +
+    + +
+
+    標準差
+    2
+    2
+    2
+    2
+    2
+    2
+    2
+    1
+    2
+    1
+    2
+    1
+    1
+    [(
+    )
+    (
+    )
+    (
+    ) ]
+    [(
+    )
+    ]
+    X
+    X
+    X
+    n
+    X
+    n
+    X
+    x
+    x
+    x
+    x
+    x
+    x
+    n
+    n
+    n
+    
+    
+    
+    
+    
+    =
+    −
+    +
+    −
+    ++
+    −
+    =
+    +
+    ++
+    −
+
+
+    5. 二維數據
+    1
+    1
+    2
+    2
+    (
+    , ):( ,
+    ),(
+    ,
+    ),
+    ,(
+    ,
+    )
+    n
+    n
+    X Y
+    x y
+    x y
+    x y
+    
+    ，
+    相關係數
+    1
+    1
+    2
+    2
+    ,
+    (
+    )(
+    )
+    (
+    )(
+    )
+    (
+    )(
+    )
+    X
+    Y
+    X
+    Y
+    n
+    X
+    n
+    Y
+    X Y
+    X
+    Y
+    x
+    y
+    x
+    y
+    x
+    y
+    r
+    n
+    
+    
+    
+    
+    
+    
+    
+    −
+    −
+    +
+    −
+    −
+    ++
+    −
+    −
+    =
+
+    迴歸直線（最適合直線）方程式
+    ,
+    (
+    )
+    Y
+    Y
+    X Y
+    X
+    X
+    y
+    r
+    x
+    
+    
+    
+    
+    −
+    =
+    −
+
+
+    6. 參考數值：
+    2
+    1.414 ,
+    3
+    1.732 ,
+    5
+    2.236 ,
+    6
+    2.449 ,
+    3.142
+    
+    
+    
+    
+    
+    
+
+
+    7. 對數值：log2
+    0.3010, log3
+    0.4771, log5
+    0.6990, log7
+    0.8451
+    
+    
+    
+    

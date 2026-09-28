@@ -1,0 +1,65 @@
+# 每日練習排程。Day N 的日期＝config.yaml 的開練日＋(N−1) 天（Day 1＝2026/9/30）。
+# 每科列出「基本題」（5 題）；加練由網站依錯題與間隔複習自動組成。
+# 原則：短題優先、每天最多一組長題組；國文配合第 1 週課程主題，其他科先從 115、114 經典題開始。
+
+diag:
+  # 第 1 週課堂的國綜診斷小考（112–113 年，涵蓋 A–D 模組，約 25 分鐘）
+  chinese: [chn113-01, chn113-02, chn112-03, chn113-27, chn113-04, chn111-08, chn113-09, chn113-10, chn112-16, chn113-24, chn112-04, chn112-31]
+
+days:
+  - day: 1
+    theme: {chinese: 字音字形暖身, english: 詞彙暖身, mathA: 機率、函數與矩陣, science: 天文、力學、酸鹼、細胞分裂, social: 公民、清代海防、地名}
+    sets:
+      chinese: [chn114-01, chn112-01, chn114-02, chn111-02, chn114-26]
+      english: [eng115-01, eng115-02, eng115-03, eng115-04, eng115-05]
+      mathA: [ma115-01, ma115-02, ma115-07, ma115-08, ma115-13]
+      science: [sci115-01, sci115-10, sci115-19, sci115-28, sci114-10]
+      social: [soc115-01, soc115-07, soc115-16, soc115-02, soc115-08]
+  - day: 2
+    theme: {chinese: 字音字形＋成語, english: 詞彙（動詞與搭配）, mathA: 指數、計數與向量, science: 宇宙年齡、都卜勒、相變熱, social: 媒體、日治、生態}
+    sets:
+      chinese: [chn111-01, chn110-01, chn110-02, chn113-25, chn111-03]
+      english: [eng115-06, eng115-07, eng115-08, eng115-09, eng115-10]
+      mathA: [ma115-03, ma115-04, ma115-09, ma115-10, ma115-14]
+      science: [sci115-02, sci115-13, sci115-20, sci115-29, sci114-01]
+      social: [soc115-03, soc115-09, soc115-17, soc115-04, soc115-10]
+  - day: 3
+    theme: {chinese: 文言虛詞與句式, english: 詞彙（名詞與形容詞）, mathA: 矩陣、坐標與多項式, science: 天文觀測、交互作用、指示劑, social: GDP、元代海運、生活圈}
+    sets:
+      chinese: [chn114-25, chn111-26, chn110-37, chn114-29, chn112-27]
+      english: [eng114-01, eng114-02, eng114-03, eng114-04, eng114-05]
+      mathA: [ma115-05, ma115-06, ma115-11, ma115-12, ma115-15]
+      science: [sci115-03, sci115-14, sci115-21, sci115-30, sci114-24]
+      social: [soc115-05, soc115-11, soc115-18, soc115-06, soc115-12]
+  - day: 4
+    theme: {chinese: 排序與填句, english: 詞彙（語境判斷）, mathA: 綜合與挑戰題, science: 水氣壓、電場、熱化學、遺傳, social: GIS、朝鮮、全球門戶}
+    sets:
+      chinese: [chn110-03, chn114-05, chn113-05, chn110-09, chn112-06]
+      english: [eng114-06, eng114-07, eng114-08, eng114-09, eng114-10]
+      mathA: [ma114-01, ma114-02, ma115-16, ma114-07, ma115-17]
+      science: [sci115-04, sci115-15, sci115-22, sci115-31, sci114-11]
+      social: [soc115-20, soc115-13, soc115-21, soc114-01, soc115-14]
+  - day: 5
+    theme: {chinese: 閱讀 SOP＋研判題, english: 詞彙（固定用法）, mathA: 計數、三角與數列, science: 地球自轉、物質波、週期表, social: 森林、拉美、咖啡、投票}
+    sets:
+      chinese: [chn113-11, chn113-12, chn110-04, chn114-03, chn110-13]
+      english: [eng113-01, eng113-02, eng113-03, eng113-04, eng113-05]
+      mathA: [ma114-03, ma114-04, ma114-08, ma114-09, ma114-13]
+      science: [sci115-05, sci114-25, sci115-23, sci115-32, sci114-04]
+      social: [soc115-22, soc115-15, soc115-23, soc114-03, soc114-09]
+  - day: 6
+    theme: {chinese: 文言短篇閱讀, english: 詞彙（易混淆字）, mathA: 三角、向量與空間, science: 颱風、交互作用、金屬鍵, social: 航線、啟蒙、法律原則}
+    sets:
+      chinese: [chn110-33, chn110-34, chn111-07, chn110-38, chn112-26]
+      english: [eng113-06, eng113-07, eng113-08, eng113-09, eng113-10]
+      mathA: [ma114-05, ma114-06, ma114-10, ma114-11, ma114-14]
+      science: [sci115-06, sci114-26, sci115-24, sci115-33, sci114-12]
+      social: [soc115-24, soc114-10, soc115-25, soc114-05, soc114-11]
+  - day: 7
+    theme: {chinese: 一週綜合複習, english: 詞彙總複習, mathA: 統計、機率與圓, science: 海水鹽度、電磁感應、演化, social: GIS、東亞與世界史}
+    sets:
+      chinese: [chn114-11, chn114-12, chn111-05, chn110-35, chn110-12]
+      english: [eng112-01, eng112-02, eng112-03, eng112-04, eng112-05]
+      mathA: [ma114-12, ma114-15, ma114-16, ma114-17, ma113-01]
+      science: [sci114-17, sci114-27, sci115-34, sci115-35, sci115-36]
+      social: [soc114-21, soc114-12, soc114-14, soc114-15, soc114-16]

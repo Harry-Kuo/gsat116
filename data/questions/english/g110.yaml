@@ -1,0 +1,444 @@
+exam: 學測
+year: 110
+subject: english
+paper: 英文
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf
+  docx: https://www.ceec.edu.tw/files/file_pool/1/0l069608423827932684/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%20.docx
+groups: []
+items:
+- id: eng110-01
+  'no': 1
+  type: single
+  points: 1
+  group: null
+  stem: Tom is really a naughty boy. He likes to ＿＿＿＿ and play jokes on his younger sister when their parents are not around.
+  options:
+    A: alert
+    B: spare
+    C: tease
+    D: oppose
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 73
+    Ph: 98
+    Pl: 40
+    D: 58
+    opt:
+      A: 6
+      B: 15
+      C: 73
+      D: 6
+  explain: ''
+  reviewed: false
+- id: eng110-02
+  'no': 2
+  type: single
+  points: 1
+  group: null
+  stem: Elderly shoppers in this store are advised to take the elevator rather than the ＿＿＿＿ , which may move too fast for them to keep their balance.
+  options:
+    A: airway
+    B: operator
+    C: escalator
+    D: instrument
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 73
+    Ph: 97
+    Pl: 41
+    D: 56
+    opt:
+      A: 10
+      B: 9
+      C: 73
+      D: 8
+  explain: ''
+  reviewed: false
+- id: eng110-03
+  'no': 3
+  type: single
+  points: 1
+  group: null
+  stem: Upon hearing its master’s call, the dog wagged its tail, and followed her out of the room ＿＿＿＿ .
+  options:
+    A: obediently
+    B: apparently
+    C: logically
+    D: thoroughly
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 61
+    Ph: 95
+    Pl: 26
+    D: 69
+    opt:
+      A: 61
+      B: 17
+      C: 6
+      D: 16
+  explain: ''
+  reviewed: false
+- id: eng110-04
+  'no': 4
+  type: single
+  points: 1
+  group: null
+  stem: Since many of our house plants are from humid jungle environments, they need ＿＿＿＿ air to keep them green and healthy.
+  options:
+    A: moist
+    B: stale
+    C: crisp
+    D: fertile
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 64
+    Ph: 97
+    Pl: 26
+    D: 71
+    opt:
+      A: 64
+      B: 10
+      C: 10
+      D: 16
+  explain: ''
+  reviewed: false
+- id: eng110-05
+  'no': 5
+  type: single
+  points: 1
+  group: null
+  stem: The skydiver managed to land safely after jumping out of the aircraft, even though her ＿＿＿＿ failed to open in midair.
+  options:
+    A: glimpse
+    B: latitude
+    C: segment
+    D: parachute
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 47
+    Ph: 80
+    Pl: 21
+    D: 59
+    opt:
+      A: 13
+      B: 18
+      C: 22
+      D: 47
+  explain: ''
+  reviewed: false
+- id: eng110-06
+  'no': 6
+  type: single
+  points: 1
+  group: null
+  stem: The invention of the steam engine, which was used to power heavy machines, brought about a ＿＿＿＿ change in society.
+  options:
+    A: persuasive
+    B: harmonious
+    C: conventional
+    D: revolutionary
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 59
+    Ph: 96
+    Pl: 22
+    D: 74
+    opt:
+      A: 8
+      B: 11
+      C: 22
+      D: 59
+  explain: ''
+  reviewed: false
+- id: eng110-07
+  'no': 7
+  type: single
+  points: 1
+  group: null
+  stem: To encourage classroom ＿＿＿＿ , the teacher divided the class into groups and asked them to solve a problem together with their partners.
+  options:
+    A: operation
+    B: interaction
+    C: adjustment
+    D: explanation
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 67
+    Ph: 97
+    Pl: 31
+    D: 66
+    opt:
+      A: 13
+      B: 67
+      C: 11
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng110-08
+  'no': 8
+  type: single
+  points: 1
+  group: null
+  stem: Lisa ＿＿＿＿ onto the ground and injured her ankle while she was playing basketball yesterday.
+  options:
+    A: buried
+    B: punched
+    C: scattered
+    D: tumbled
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 60
+    Ph: 86
+    Pl: 31
+    D: 55
+    opt:
+      A: 7
+      B: 20
+      C: 12
+      D: 60
+  explain: ''
+  reviewed: false
+- id: eng110-09
+  'no': 9
+  type: single
+  points: 1
+  group: null
+  stem: Hundreds of residents received free testing ＿＿＿＿ from the city government to find out if their water contained any harmful chemicals.
+  options:
+    A: kits
+    B: trials
+    C: zones
+    D: proofs
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 23
+    Ph: 39
+    Pl: 12
+    D: 27
+    opt:
+      A: 23
+      B: 39
+      C: 13
+      D: 25
+  explain: ''
+  reviewed: false
+- id: eng110-10
+  'no': 10
+  type: single
+  points: 1
+  group: null
+  stem: The 2011 Nobel Peace Prize was awarded ＿＿＿＿ to three women for the efforts they made in fighting for women’s rights.
+  options:
+    A: actively
+    B: earnestly
+    C: jointly
+    D: naturally
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 30
+    Ph: 45
+    Pl: 24
+    D: 21
+    opt:
+      A: 22
+      B: 38
+      C: 30
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng110-11
+  'no': 11
+  type: single
+  points: 1
+  group: null
+  stem: The company is ＿＿＿＿ and making great profits under the wise leadership of the chief executive officer.
+  options:
+    A: applauding
+    B: flourishing
+    C: circulating
+    D: exceeding
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 48
+    Ph: 81
+    Pl: 25
+    D: 56
+    opt:
+      A: 16
+      B: 48
+      C: 13
+      D: 23
+  explain: ''
+  reviewed: false
+- id: eng110-12
+  'no': 12
+  type: single
+  points: 1
+  group: null
+  stem: It is absolutely ＿＿＿＿ to waste your money on an expensive car when you cannot even get a driver’s license.
+  options:
+    A: absurd
+    B: cautious
+    C: vigorous
+    D: obstinate
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 41
+    Ph: 67
+    Pl: 22
+    D: 45
+    opt:
+      A: 41
+      B: 18
+      C: 20
+      D: 22
+  explain: ''
+  reviewed: false
+- id: eng110-13
+  'no': 13
+  type: single
+  points: 1
+  group: null
+  stem: The problem of illegal drug use is very complex and cannot be traced to merely one ＿＿＿＿ reason.
+  options:
+    A: singular
+    B: countable
+    C: favorable
+    D: defensive
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 54
+    Ph: 86
+    Pl: 21
+    D: 65
+    opt:
+      A: 54
+      B: 16
+      C: 13
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng110-14
+  'no': 14
+  type: single
+  points: 1
+  group: null
+  stem: The non-profit organization has ＿＿＿＿ $1 million over five years to finance the construction of the medical center.
+  options:
+    A: equipped
+    B: resolved
+    C: committed
+    D: associated
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 43
+    Ph: 62
+    Pl: 30
+    D: 32
+    opt:
+      A: 18
+      B: 27
+      C: 43
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng110-15
+  'no': 15
+  type: single
+  points: 1
+  group: null
+  stem: One week after the typhoon, some bridges were finally opened and bus service ＿＿＿＿ in the country’s most severely damaged areas.
+  options:
+    A: departed
+    B: resumed
+    C: transported
+    D: corresponded
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 32
+    Ph: 58
+    Pl: 19
+    D: 39
+    opt:
+      A: 14
+      B: 32
+      C: 48
+      D: 6
+  explain: ''
+  reviewed: false

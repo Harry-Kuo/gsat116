@@ -1,0 +1,301 @@
+exam: 學測
+year: 113
+subject: english
+paper: 英文
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0o051427482769341323/02-113%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e7%a7%91%e5%ae%9a%e7%a8%bf.pdf
+  docx: https://www.ceec.edu.tw/files/file_pool/1/0o051427602203220350/02-113%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e7%a7%91%28%e5%ae%9a%e7%a8%bf%29.docx
+groups: []
+items:
+- id: eng113-01
+  'no': 1
+  type: single
+  points: 1
+  group: null
+  stem: People who desire a ＿＿＿＿ figure should exercise regularly and maintain healthy eating habits.
+  options:
+    A: spicy
+    B: slender
+    C: slight
+    D: slippery
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 54
+    Ph: 77
+    Pl: 34
+    D: 43
+    opt:
+      A: 10
+      B: 54
+      C: 29
+      D: 8
+  explain: ''
+  reviewed: false
+- id: eng113-02
+  'no': 2
+  type: single
+  points: 1
+  group: null
+  stem: Watching the sun ＿＿＿＿ from a sea of clouds is a must-do activity for all visitors to Ali Mountain.
+  options:
+    A: emerging
+    B: flashing
+    C: rushing
+    D: floating
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 54
+    Ph: 89
+    Pl: 18
+    D: 71
+    opt:
+      A: 54
+      B: 16
+      C: 12
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng113-03
+  'no': 3
+  type: single
+  points: 1
+  group: null
+  stem: Do you know what time the next bus is ＿＿＿＿ ? I’ve been waiting here for more than 30 minutes.
+  options:
+    A: apt
+    B: due
+    C: bound
+    D: docked
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: false
+  classic_note: 官方鑑別度 D=6，低鑑別題不進主線
+  stats:
+    P: 23
+    Ph: 29
+    Pl: 23
+    D: 6
+    opt:
+      A: 28
+      B: 23
+      C: 24
+      D: 25
+  explain: ''
+  reviewed: false
+- id: eng113-04
+  'no': 4
+  type: single
+  points: 1
+  group: null
+  stem: The roasting heat and high ＿＿＿＿ made me feel hot and sticky, no matter what I did to cool off.
+  options:
+    A: density
+    B: humidity
+    C: circulation
+    D: atmosphere
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 59
+    Ph: 92
+    Pl: 27
+    D: 65
+    opt:
+      A: 11
+      B: 59
+      C: 9
+      D: 21
+  explain: ''
+  reviewed: false
+- id: eng113-05
+  'no': 5
+  type: single
+  points: 1
+  group: null
+  stem: Artwork created by truly great artists such as Picasso and Monet will no doubt ＿＿＿＿ the test of time.
+  options:
+    A: stay
+    B: take
+    C: serve
+    D: stand
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 47
+    Ph: 80
+    Pl: 21
+    D: 59
+    opt:
+      A: 10
+      B: 25
+      C: 18
+      D: 47
+  explain: ''
+  reviewed: false
+- id: eng113-06
+  'no': 6
+  type: single
+  points: 1
+  group: null
+  stem: In some countries, military service is ＿＿＿＿ for men only; women do not have to serve in the military.
+  options:
+    A: forceful
+    B: realistic
+    C: compulsory
+    D: distinctive
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 34
+    Ph: 52
+    Pl: 25
+    D: 27
+    opt:
+      A: 26
+      B: 11
+      C: 34
+      D: 29
+  explain: ''
+  reviewed: false
+- id: eng113-07
+  'no': 7
+  type: single
+  points: 1
+  group: null
+  stem: The team complained that its leader always took the ＿＿＿＿ for all the hard work done by the team members.
+  options:
+    A: advantage
+    B: revenge
+    C: remedy
+    D: credit
+  answer: D
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 29
+    Ph: 49
+    Pl: 18
+    D: 31
+    opt:
+      A: 39
+      B: 16
+      C: 16
+      D: 29
+  explain: ''
+  reviewed: false
+- id: eng113-08
+  'no': 8
+  type: single
+  points: 1
+  group: null
+  stem: Located at the center of the city, the business hotel ＿＿＿＿ not only good service but also convenient public transport.
+  options:
+    A: proposes
+    B: contains
+    C: promises
+    D: confirms
+  answer: C
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: false
+  classic_note: 官方鑑別度 D=-13，低鑑別題不進主線
+  stats:
+    P: 15
+    Ph: 11
+    Pl: 24
+    D: -13
+    opt:
+      A: 17
+      B: 58
+      C: 15
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng113-09
+  'no': 9
+  type: single
+  points: 1
+  group: null
+  stem: As blood supplies have fallen to a critically low level, many hospitals are making an ＿＿＿＿ for the public to donate blood.
+  options:
+    A: appeal
+    B: approach
+    C: operation
+    D: observation
+  answer: A
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 39
+    Ph: 65
+    Pl: 17
+    D: 48
+    opt:
+      A: 39
+      B: 20
+      C: 26
+      D: 16
+  explain: ''
+  reviewed: false
+- id: eng113-10
+  'no': 10
+  type: single
+  points: 1
+  group: null
+  stem: David felt disappointed when he found out that he could not choose his study partners, but would be ＿＿＿＿ placed in a study group.
+  options:
+    A: eligibly
+    B: randomly
+    C: apparently
+    D: consequently
+  answer: B
+  topic: V1
+  tags: []
+  concepts:
+  - V1
+  classic: true
+  stats:
+    P: 59
+    Ph: 93
+    Pl: 26
+    D: 67
+    opt:
+      A: 10
+      B: 59
+      C: 14
+      D: 17
+  explain: ''
+  reviewed: false
