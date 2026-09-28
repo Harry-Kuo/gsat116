@@ -19,7 +19,8 @@ DATA = ROOT / "data"
 OUT = ROOT / "docs" / "data"
 PAPER_NAME = {"chinese": {110: "國文", "default": "國綜"}, "english": "英文", "mathA": {110: "數學", "default": "數學A"},
               "mathB": {110: "數學", "default": "數學B"}, "social": "社會", "science": "自然"}
-ALLOWED = r"</?(?:u|em|sup|sub|br|b|i|table|tbody|tr|td|th|span|div|p|ruby|rt)(?:\s[^<>]*)?/?>"
+# 屬性必須是 name="值" 的形式，避免把數學的「a<b ⇒ t>1」誤認成 <b> 標籤
+ALLOWED = r"""</?(?:u|em|sup|sub|br|b|i|table|tbody|tr|td|th|span|div|p|ruby|rt)(?:\s+[A-Za-z-]+(?:=(?:"[^"]*"|'[^']*'|[^\s"'<>]+))?)*\s*/?>"""
 
 
 def paper_name(subject, year):

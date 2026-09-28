@@ -23,14 +23,14 @@ OUT = ROOT / "notion" / "pages"
 SITE = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--site=")), "{{SITE}}").rstrip("/")
 MAP_FILE = ROOT / "notion" / "notion_map.json"
 MAP = json.loads(MAP_FILE.read_text(encoding="utf-8")) if MAP_FILE.exists() else {}
-NAMES = {"chinese": "國文", "english": "英文", "mathA": "數學A", "science": "自然", "social": "社會"}
+NAMES = {"chinese": "國文", "english": "英文", "mathA": "數學A", "mathB": "數學B", "science": "自然", "social": "社會"}
 TYPE_NAME = {"single": "單選", "multi": "多選", "fill": "選填", "open": "非選"}
 WEEKDAY = "一二三四五六日"
 PART_LIMIT = 14000
 
 # ---------- 行內格式與區塊 ----------
 _ESC = re.compile(r"([\\*~`$\[\]<>{}|^])")
-_TAG = re.compile(r"<(/?)(u|em|b|strong|i|br|span|div|p|ruby|rt)(?:\s[^<>]*)?/?>")
+_TAG = re.compile(r"""<(/?)(u|em|b|strong|i|br|span|div|p|ruby|rt)(?:\s+[A-Za-z-]+(?:=(?:"[^"]*"|'[^']*'|[^\s"'<>]+))?)*\s*/?>""")  # 屬性須為 name="值"，避免誤認數學不等式
 _SUP = ("0123456789+-−=()n", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁻⁼⁽⁾ⁿ")
 _SUB = ("0123456789+-−=()", "₀₁₂₃₄₅₆₇₈₉₊₋₋₌₍₎")
 
@@ -392,7 +392,7 @@ def progress_page():
             "「經典題」＝選擇題與選填題（非選改在課堂與 Notion 練習），並排除官方鑑別度 D \\< 10 的題目。",
             table(rows),
             "- 每天「基本 5 題」走六屆主線；「加練」由網站自動排入錯題（1、3、7 天後再出現）。",
-            "- 依每天 5 題：數學A 約 10 月下旬、國文約 11 月上旬、英文約 11 月下旬、自然與社會約 12 月初做完六屆。",
+            "- 依每天 5 題：數學A、數學B 約 10 月下旬，國文約 11 月上旬，英文約 11 月下旬，自然與社會約 12 月初做完六屆。",
             "- 提早做完的科目改做錯題總複習與 105–109 年經典題。",
             "- 一月：錯題總複習＋限時全真模擬。"]
 
@@ -450,11 +450,11 @@ def home_page():
                           f"👉 [打開今日練習]({SITE}/)（手機用瀏覽器打開後選「加入主畫面」，之後像 App 一樣一鍵開啟）"], color="orange_bg"),
             "## 📣 本週：W1 國文（9/30–10/6）",
             f"- 上課：國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → {w1}",
-            "- 每日練習：國英數自社各 5 題，合計約 30 分鐘（數學A 約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。",
+            "- 每日練習：國文、英文、數學A、數學B、自然、社會各 5 題，合計約 45 分鐘（數學A、數學B 各約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。",
             "## 🧭 學習地圖",
             pg("rules", "考試制度與作答策略"),
             "### 📚 各科重點與考古題",
-            pg("chinese", "國文"), pg("english", "英文"), pg("mathA", "數學A"), pg("science", "自然"), pg("social", "社會"),
+            pg("chinese", "國文"), pg("english", "英文"), pg("mathA", "數學A"), pg("mathB", "數學B"), pg("science", "自然"), pg("social", "社會"),
             "### 🗂️ 考古題",
             db("db:questions", "🗃️ 考古題庫"), pg("past", "歷屆考古題總覽"),
             "### 📅 課程與進度",
@@ -526,7 +526,8 @@ def db_question_rows():
     return rows
 
 
-WEEK_SUBJECTS = ["國文", "英文", "數學A", "自然", "社會"]
+WEEK_SUBJECTS = ["國文", "英文", "數學", "自然", "社會"]  # 數學週同時上數A、數B
+WEEK_LABEL = {"數學": "數學（數A＋數B）"}
 
 
 def db_week_rows():
@@ -536,7 +537,7 @@ def db_week_rows():
         a = start + dt.timedelta(days=7 * (w - 1))
         e = a + dt.timedelta(days=6)
         subj = WEEK_SUBJECTS[(w - 1) % 5] if w < 16 else "總複習"
-        props = {"週次": f"W{w} {subj}", "科目": subj, "date:日期:start": a.isoformat(), "date:日期:end": e.isoformat(),
+        props = {"週次": f"W{w} {WEEK_LABEL.get(subj, subj)}", "科目": subj, "date:日期:start": a.isoformat(), "date:日期:end": e.isoformat(),
                  "date:日期:is_datetime": 0, "狀態": "已備課" if w == 1 else "未開始",
                  "每日練習": f"Day {7 * (w - 1) + 1}–{7 * w}"}
         if w == 1:
@@ -544,7 +545,7 @@ def db_week_rows():
             content = "\n".join(week1_page())
         else:
             props["上課主題"] = "考前全真模擬＋錯題總複習" if w == 16 else "（上課前一週規劃）"
-            content = "\n".join([callout("🗓️", [f"{fmt_day(a)}–{fmt_day(e)}｜輪到 **{subj}**。教案會在上課前一週補上。"]),
+            content = "\n".join([callout("🗓️", [f"{fmt_day(a)}–{fmt_day(e)}｜輪到 **{WEEK_LABEL.get(subj, subj)}**。教案會在上課前一週補上。"]),
                                  "## ✍️ 課後重點", "（上課重點與作業寫在這裡，學生看得到。）"])
         rows.append({"week": w, "properties": props, "content": content})
     return rows
@@ -576,6 +577,7 @@ def main():
     write_page("10_chinese", chinese_page())
     write_page("11_english", skeleton_page("english", "英文 100 分鐘：詞彙 10、綜合測驗 10、文意選填 10、篇章結構 8、閱讀測驗 24（選擇共 62 分）＋混合題 10＋中譯英 8＋英文作文 20。", "**第 2 週（10/7–10/13）上課前補齊**：各大題解題法、高頻詞彙與搭配、翻譯與作文評分重點。"))
     write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課前補齊**：各單元必考觀念、常見題型與解題流程。"))
+    write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課前補齊**：數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。"))
     write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", "**第 4 週（10/21–10/27）上課前補齊**：四科必考觀念、圖表與實驗題解題法。"))
     write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", "**第 5 週（10/28–11/3）上課前補齊**：三科必考觀念、史料與圖表判讀法。"))
     write_page("20_past_exams", past_exams_page())
