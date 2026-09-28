@@ -19,7 +19,7 @@ practice:
   daily_min: 5
   daily_max: 10
   extra_max: 5               # 每日加練上限（錯題重練＋間隔複習）
-backend: ""                  # Apps Script 網頁應用程式網址；空白＝離線模式，"mock"＝本機測試
+backend: "https://script.google.com/macros/s/AKfycbyhIzX8R_AjyeNNzmpLXdnrX3PabfuO298koeubE53-GcU6J5s0mlR0fJH3poOFJ9vw/exec"
 notion: {}                   # 各科/觀念的 Notion 連結（建好 Notion 後由 build 讀 notion/notion_map.json）
 subjects:
   - {id: chinese, name: 國文, short: 國, color: "#c2410c"}
