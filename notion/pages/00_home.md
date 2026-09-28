@@ -5,13 +5,14 @@
 </callout>
 ## 📣 本週：W1 國文（9/30–10/6）
 - 上課：國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → <mention-page url="https://app.notion.com/p/3e9ee100984f8140a3d5dcd06d73e3ca"/>
-- 每日練習：國英數自社各 5 題，合計約 30 分鐘（數學A 約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。
+- 每日練習：國文、英文、數學A、數學B、自然、社會各 5 題，合計約 45 分鐘（數學A、數學B 各約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。
 ## 🧭 學習地圖
 <page url="https://app.notion.com/p/3e9ee100984f81619418ded93a3fc512">考試制度與作答策略</page>
 ### 📚 各科重點與考古題
 <page url="https://app.notion.com/p/3e9ee100984f81d7ba5bcb3d05ddacc5">國文</page>
 <page url="https://app.notion.com/p/3e9ee100984f8121af35c5c71fa99d73">英文</page>
 <page url="https://app.notion.com/p/3e9ee100984f81afba46df922c80b876">數學A</page>
+<page url="https://app.notion.com/p/3e9ee100984f81079928d7b64f1d3182">數學B</page>
 <page url="https://app.notion.com/p/3e9ee100984f81e1804bfe534047ed20">自然</page>
 <page url="https://app.notion.com/p/3e9ee100984f819d9594fcdd7cba62ad">社會</page>
 ### 🗂️ 考古題

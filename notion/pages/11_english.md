@@ -1,8 +1,8 @@
 <callout icon="🧭">
 	英文 100 分鐘：詞彙 10、綜合測驗 10、文意選填 10、篇章結構 8、閱讀測驗 24（選擇共 62 分）＋混合題 10＋中譯英 8＋英文作文 20。
 </callout>
-<callout icon="🚧" color="yellow_bg">
-	**第 2 週（10/7–10/13）上課前補齊**：各大題解題法、高頻詞彙與搭配、翻譯與作文評分重點。
+<callout icon="📌" color="yellow_bg">
+	**第 2 週（10/7–10/13）上課重點**：各大題解題法、高頻詞彙與搭配、翻譯與作文評分重點。完整整理會在上課前放上來。
 </callout>
 ## 🎯 觀念大綱與第 1 週考古題
 每個觀念底下列出第 1 週練習到的考古題；點開可以看題目、答案與解析。
@@ -20,59 +20,57 @@
 ## 📝 第 1 週每日練習
 <details>
 <summary>**Day 1**　9/30（三）　詞彙暖身</summary>
-	- [115 學測英文 第 1 題](https://harry-kuo.github.io/gsat116/#/item/eng115-01)　全國答對率 57%
-	- [115 學測英文 第 2 題](https://harry-kuo.github.io/gsat116/#/item/eng115-02)　全國答對率 48%
-	- [115 學測英文 第 3 題](https://harry-kuo.github.io/gsat116/#/item/eng115-03)　全國答對率 45%
-	- [115 學測英文 第 4 題](https://harry-kuo.github.io/gsat116/#/item/eng115-04)　全國答對率 65%
-	- [115 學測英文 第 5 題](https://harry-kuo.github.io/gsat116/#/item/eng115-05)　全國答對率 63%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81c196bceb484e2585eb"/>　全國答對率 57%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81b58a6ffc1513560bb6"/>　全國答對率 48%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f813ca388fa293649966d"/>　全國答對率 45%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f8123b342fba80237b35a"/>　全國答對率 65%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f8103b7decb8c4737e563"/>　全國答對率 63%
 </details>
 <details>
 <summary>**Day 2**　10/1（四）　詞彙（動詞與搭配）</summary>
-	- [115 學測英文 第 6 題](https://harry-kuo.github.io/gsat116/#/item/eng115-06)　全國答對率 29%
-	- [115 學測英文 第 7 題](https://harry-kuo.github.io/gsat116/#/item/eng115-07)　全國答對率 66%
-	- [115 學測英文 第 8 題](https://harry-kuo.github.io/gsat116/#/item/eng115-08)　全國答對率 47%
-	- [115 學測英文 第 9 題](https://harry-kuo.github.io/gsat116/#/item/eng115-09)　全國答對率 29%
-	- [115 學測英文 第 10 題](https://harry-kuo.github.io/gsat116/#/item/eng115-10)　全國答對率 24%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81cb9e2ed381f0db3fd9"/>　全國答對率 29%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81dabfa6e32949db7a89"/>　全國答對率 66%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81caa59ac5503cb32cc3"/>　全國答對率 47%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81eda043d939f2617275"/>　全國答對率 29%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f810895dbddd50d0d7ae1"/>　全國答對率 24%
 </details>
 <details>
 <summary>**Day 3**　10/2（五）　詞彙（名詞與形容詞）</summary>
-	- [114 學測英文 第 1 題](https://harry-kuo.github.io/gsat116/#/item/eng114-01)　全國答對率 76%
-	- [114 學測英文 第 2 題](https://harry-kuo.github.io/gsat116/#/item/eng114-02)　全國答對率 70%
-	- [114 學測英文 第 3 題](https://harry-kuo.github.io/gsat116/#/item/eng114-03)　全國答對率 47%
-	- [114 學測英文 第 4 題](https://harry-kuo.github.io/gsat116/#/item/eng114-04)　全國答對率 52%
-	- [114 學測英文 第 5 題](https://harry-kuo.github.io/gsat116/#/item/eng114-05)　全國答對率 42%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f810d9326de0492adf56d"/>　全國答對率 76%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f810fb717c9501eb7e6c5"/>　全國答對率 70%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81039376d905a15ec26f"/>　全國答對率 47%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81588c24d40e5777ef2a"/>　全國答對率 52%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81468500d1d3b2573236"/>　全國答對率 42%
 </details>
 <details>
 <summary>**Day 4**　10/3（六）　詞彙（語境判斷）</summary>
-	- [114 學測英文 第 6 題](https://harry-kuo.github.io/gsat116/#/item/eng114-06)　全國答對率 54%
-	- [114 學測英文 第 7 題](https://harry-kuo.github.io/gsat116/#/item/eng114-07)　全國答對率 49%
-	- [114 學測英文 第 8 題](https://harry-kuo.github.io/gsat116/#/item/eng114-08)　全國答對率 47%
-	- [114 學測英文 第 9 題](https://harry-kuo.github.io/gsat116/#/item/eng114-09)　全國答對率 23%
-	- [114 學測英文 第 10 題](https://harry-kuo.github.io/gsat116/#/item/eng114-10)　全國答對率 42%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f8112bac8f250dccf0e6b"/>　全國答對率 54%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81a69f6ee3b0f27566e9"/>　全國答對率 49%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81db9296da3786abfd95"/>　全國答對率 47%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f815f8fe5fba29ef64a4e"/>　全國答對率 23%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f8190a431cc62fb9fc1bb"/>　全國答對率 42%
 </details>
 <details>
 <summary>**Day 5**　10/4（日）　詞彙（固定用法）</summary>
-	- [113 學測英文 第 1 題](https://harry-kuo.github.io/gsat116/#/item/eng113-01)　全國答對率 54%
-	- [113 學測英文 第 2 題](https://harry-kuo.github.io/gsat116/#/item/eng113-02)　全國答對率 54%
-	- [113 學測英文 第 3 題](https://harry-kuo.github.io/gsat116/#/item/eng113-03)　全國答對率 23%
-	- [113 學測英文 第 4 題](https://harry-kuo.github.io/gsat116/#/item/eng113-04)　全國答對率 59%
-	- [113 學測英文 第 5 題](https://harry-kuo.github.io/gsat116/#/item/eng113-05)　全國答對率 47%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f810f9944d27123c44369"/>　全國答對率 54%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81da9bf8d65b7e7a5996"/>　全國答對率 54%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f815ba8e6f0a6db147cb6"/>　全國答對率 23%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f811dbce0cfa8122abd1d"/>　全國答對率 59%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81289fe7fd9f9ed758aa"/>　全國答對率 47%
 </details>
 <details>
 <summary>**Day 6**　10/5（一）　詞彙（易混淆字）</summary>
-	- [113 學測英文 第 6 題](https://harry-kuo.github.io/gsat116/#/item/eng113-06)　全國答對率 34%
-	- [113 學測英文 第 7 題](https://harry-kuo.github.io/gsat116/#/item/eng113-07)　全國答對率 29%
-	- [113 學測英文 第 8 題](https://harry-kuo.github.io/gsat116/#/item/eng113-08)　全國答對率 15%
-	- [113 學測英文 第 9 題](https://harry-kuo.github.io/gsat116/#/item/eng113-09)　全國答對率 39%
-	- [113 學測英文 第 10 題](https://harry-kuo.github.io/gsat116/#/item/eng113-10)　全國答對率 59%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81a7af93ccebcb67b59b"/>　全國答對率 34%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f814d83cdc89dad8a5948"/>　全國答對率 29%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81789acce12f5d8c00e7"/>　全國答對率 15%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f815598e4ed364928732a"/>　全國答對率 39%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81c49c01dfe899252c5d"/>　全國答對率 59%
 </details>
 <details>
 <summary>**Day 7**　10/6（二）　詞彙總複習</summary>
-	- [112 學測英文 第 1 題](https://harry-kuo.github.io/gsat116/#/item/eng112-01)　全國答對率 73%
-	- [112 學測英文 第 2 題](https://harry-kuo.github.io/gsat116/#/item/eng112-02)　全國答對率 88%
-	- [112 學測英文 第 3 題](https://harry-kuo.github.io/gsat116/#/item/eng112-03)　全國答對率 64%
-	- [112 學測英文 第 4 題](https://harry-kuo.github.io/gsat116/#/item/eng112-04)　全國答對率 28%
-	- [112 學測英文 第 5 題](https://harry-kuo.github.io/gsat116/#/item/eng112-05)　全國答對率 57%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81b8a848d32424e53ada"/>　全國答對率 73%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81bcab18c3792a55947f"/>　全國答對率 88%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81829c39ca98ed1f333a"/>　全國答對率 64%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f814ba544cdb56057a680"/>　全國答對率 28%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81b18ca4f31791b380fe"/>　全國答對率 57%
 </details>
-## ✍️ 老師補充
-（輪到本科上課前一週，會補上完整的必考觀念、出題趨勢與考古題。）

@@ -20,7 +20,7 @@ function setup() {
   const roster = ss.getSheetByName(SHEET_ROSTER) || ss.insertSheet(SHEET_ROSTER);
   if (roster.getLastRow() === 0) {
     roster.appendRow(["學生代碼", "暱稱", "是否啟用", "備註"]);
-    roster.appendRow(["TEST01", "老師測試", "TRUE", "老師自己測試用，可刪除"]);
+    roster.appendRow(["TEST01", "老師測試", "TRUE", "老師自己使用的代碼"]);
     roster.appendRow(["STUDENT", "學生", "FALSE", "代碼改成學生的代碼，再把是否啟用改成 TRUE"]);
     roster.setFrozenRows(1);
     roster.getRange("A:A").setNumberFormat("@");

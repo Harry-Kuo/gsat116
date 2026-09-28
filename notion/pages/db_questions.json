@@ -2414,7 +2414,7 @@
    "date:日期:start": "2026-10-02",
    "date:日期:is_datetime": 0
   },
-  "content": "![115 學測數學A 第 15 題](https://harry-kuo.github.io/gsat116/img/mathA/115-15.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：15-1：3　15-2：2**\n\t💡 b 是 a、c 的中點，三點共線 ⇒ log4b 是 log3a、log6c 的平均 ⇒ 16b²＝18ac。\n\ta、b、c 等差 ⇒ b 是 a、c 的中點；三點共線 ⇒ 中間點的 y 值也是平均：\n\t2log(4b)＝log(3a)＋log(6c) ⇒ 16b²＝18ac ⇒ 8b²＝9ac。\n\t代 c＝2b−a：8b²＝9a(2b−a) ⇒ 8t²−18t＋9＝0（t＝b/a）⇒ t＝3/2 或 3/4。\n\ta**1 ⇒ b/a＝3/2 → 15-1＝3，15-2＝2\n\t📊 全國答對率 31%｜鑑別度 56\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/ma115-15)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054344158947111283/03-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8a%e8%a9%a6%e5%8d%b7.pdf)"
+  "content": "![115 學測數學A 第 15 題](https://harry-kuo.github.io/gsat116/img/mathA/115-15.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：15-1：3　15-2：2**\n\t💡 b 是 a、c 的中點，三點共線 ⇒ log4b 是 log3a、log6c 的平均 ⇒ 16b²＝18ac。\n\ta、b、c 等差 ⇒ b 是 a、c 的中點；三點共線 ⇒ 中間點的 y 值也是平均：\n\t2log(4b)＝log(3a)＋log(6c) ⇒ 16b²＝18ac ⇒ 8b²＝9ac。\n\t代 c＝2b−a：8b²＝9a(2b−a) ⇒ 8t²−18t＋9＝0（t＝b/a）⇒ t＝3/2 或 3/4。\n\ta＜b ⇒ t＞1 ⇒ b/a＝3/2 → 15-1＝3，15-2＝2\n\t📊 全國答對率 31%｜鑑別度 56\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/ma115-15)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054344158947111283/03-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8a%e8%a9%a6%e5%8d%b7.pdf)"
  },
  {
   "qid": "ma114-01",
@@ -2917,6 +2917,884 @@
    "date:日期:is_datetime": 0
   },
   "content": "![113 學測數學A 第 1 題](https://harry-kuo.github.io/gsat116/img/mathA/113-01.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：2**\n\t💡 半衰期 2 小時：4 小時後剩 (1/2)²＝1/4。\n\t殘留量＝(1/2)\\^(t/2)。\n\t3 小時：(1/2)\\^1.5≈0.35；4 小時：1/4 ✓；6 小時：1/8；8 小時：1/16；10 小時：1/32\n\t→ 答案 (2)\n\t📊 全國答對率 89%｜鑑別度 25｜各選項選答率 1 3%、2 89%、3 3%、4 4%、5 1%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/ma113-01)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0o051426180137211766/03-113%e5%ad%b8%e6%b8%ac%e6%95%b8a%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)"
+ },
+ {
+  "qid": "mb115-01",
+  "properties": {
+   "題目": "115 數學B 第 1 題｜數與式、指數對數",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 1,
+   "題型": "單選",
+   "觀念": [
+    "數與式、指數對數"
+   ],
+   "答案": "4",
+   "排程": "Day 1",
+   "代碼": "mb115-01",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-01",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.52,
+   "難度": "中",
+   "鑑別度": 73,
+   "date:日期:start": "2026-09-30",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 1 題](https://harry-kuo.github.io/gsat116/img/mathB/115-01.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：4**\n\t💡 \\|N−95\\|/95×100%＜5% ⇔ \\|N−95\\|＜4.75，N＝91～99 共 9 個。\n\t兩邊同乘 95：\\|N−95\\|＜95×5%＝4.75\n\t⇒ −4.75＜N−95＜4.75 ⇒ 90.25＜N＜99.75\n\t整數 N＝91, 92, …, 99，共 9 個 → 答案 (4)\n\t提醒：\\|x−a\\|＜r 就是「x 到 a 的距離小於 r」。\n\t📊 全國答對率 52%｜鑑別度 73｜各選項選答率 1 8%、2 15%、3 19%、4 52%、5 5%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-01)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-02",
+  "properties": {
+   "題目": "115 數學B 第 2 題｜數與式、指數對數",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 2,
+   "題型": "單選",
+   "觀念": [
+    "數與式、指數對數"
+   ],
+   "答案": "5",
+   "排程": "Day 1",
+   "代碼": "mb115-02",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-02",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.46,
+   "難度": "中",
+   "鑑別度": 61,
+   "date:日期:start": "2026-09-30",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 2 題](https://harry-kuo.github.io/gsat116/img/mathB/115-02.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：5**\n\t💡 100e\\^(3n/100)＝135 ⇒ e\\^(3n/100)＝135/100 ⇒ 3n/100＝ln(135/100)。\n\t兩邊除以 100：e\\^(3n/100)＝135/100\n\t兩邊取自然對數：3n/100＝ln(135/100)\n\t⇒ n＝(100/3)·ln(135/100) → 答案 (5)\n\t易錯：(1)(2) 的 ln(135−100) 是錯的。對數把「除法」變成減法：ln(135/100)＝ln 135−ln 100，不是 ln(135−100)。\n\t📊 全國答對率 46%｜鑑別度 61｜各選項選答率 1 11%、2 14%、3 13%、4 16%、5 46%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-02)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-07",
+  "properties": {
+   "題目": "115 數學B 第 7 題｜機率",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 7,
+   "題型": "單選",
+   "觀念": [
+    "機率"
+   ],
+   "答案": "2",
+   "排程": "Day 1",
+   "代碼": "mb115-07",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-07",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.37,
+   "難度": "難",
+   "鑑別度": 40,
+   "date:日期:start": "2026-09-30",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 7 題](https://harry-kuo.github.io/gsat116/img/mathB/115-07.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：2**\n\t💡 p＝P(B、C 至少一個中獎)＝5/6；q＝P(A 中且至少兩個中)÷P(至少兩個中)＝15/17。\n\tp：已知 A 中獎，只要 B、C 至少一個中獎：p＝1−(1/3)(1/2)＝5/6\n\t至少兩個中獎的機率：\n\t三個都中 (3/4)(2/3)(1/2)＝1/4；恰 A、B (3/4)(2/3)(1/2)＝1/4\n\t恰 A、C (3/4)(1/3)(1/2)＝1/8；恰 B、C (1/4)(2/3)(1/2)＝1/12\n\t合計 6/24＋6/24＋3/24＋2/24＝17/24\n\tA 中獎且至少兩個中獎＝(3/4)×(5/6)＝15/24，所以 q＝(15/24)÷(17/24)＝15/17\n\tp/q＝(5/6)÷(15/17)＝(5×17)/(6×15)＝17/18 → 答案 (2)\n\t📊 全國答對率 37%｜鑑別度 40｜各選項選答率 1 18%、2 37%、3 18%、4 15%、5 12%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-07)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-08",
+  "properties": {
+   "題目": "115 數學B 第 8 題｜三角函數與三角測量",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 8,
+   "題型": "多選",
+   "觀念": [
+    "三角函數與三角測量"
+   ],
+   "答案": "3,5",
+   "排程": "Day 1",
+   "代碼": "mb115-08",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-08",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.32,
+   "難度": "難",
+   "鑑別度": 32,
+   "date:日期:start": "2026-09-30",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 8 題](https://harry-kuo.github.io/gsat116/img/mathB/115-08.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：3,5**\n\t💡 sin(θ＋π)＝−sin θ，原函數就是 y＝−3sin(πx/5)＋3；又 sin(θ−π)＝−sin θ。\n\ty＝3sin(πx/5＋π)＋3＝−3sin(πx/5)＋3\n\t(1) 振幅變成 6 ✗\n\t(2) x 的係數變成 π/5＋2π，週期改變了 ✗（2π 要加在整個角度上，不能乘在 x 上）\n\t(3) 3sin(πx/5−π)＋3＝−3sin(πx/5)＋3 ✓\n\t(4) 常數項是 −3，整個圖形往下移了 6 ✗\n\t(5) 就是化簡後的式子 ✓\n\t→ 答案 (3)(5)\n\t📊 全國答對率 32%｜全對率 12%｜鑑別度 32｜各選項選答率 1 27%、2 62%、3 63%、4 32%、5 53%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-08)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-13",
+  "properties": {
+   "題目": "115 數學B 第 13 題｜三角函數與三角測量",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 13,
+   "題型": "選填",
+   "觀念": [
+    "三角函數與三角測量",
+    "直線與坐標幾何"
+   ],
+   "答案": "13-1：1 13-2：4",
+   "排程": "Day 1",
+   "代碼": "mb115-13",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-13",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.29,
+   "難度": "難",
+   "鑑別度": 57,
+   "date:日期:start": "2026-09-30",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 13 題](https://harry-kuo.github.io/gsat116/img/mathB/115-13.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：13-1：1　13-2：4**\n\t💡 看三角形 A(−20,0)、O、交點 P：∠A＝30°、∠AOP＝105°、∠P＝45°，用正弦定理。\n\t設 A(−20, 0)，P 為兩線的交點。\n\t∠PAO＝30°（L₂ 的斜角）；∠AOP＝180°−75°＝105°；∠APO＝180°−30°−105°＝45°\n\t正弦定理：OP/sin30°＝AO/sin45° ⇒ OP＝20×(1/2)÷(√2/2)＝10√2≈14.14\n\t四捨五入到整數是 14 → 答案 14\n\t📊 全國答對率 29%｜鑑別度 57\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-13)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-03",
+  "properties": {
+   "題目": "115 數學B 第 3 題｜矩陣",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 3,
+   "題型": "單選",
+   "觀念": [
+    "矩陣"
+   ],
+   "答案": "2",
+   "排程": "Day 2",
+   "代碼": "mb115-03",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-03",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.62,
+   "難度": "中",
+   "鑑別度": 70,
+   "date:日期:start": "2026-10-01",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 3 題](https://harry-kuo.github.io/gsat116/img/mathB/115-03.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：2**\n\t💡 A 把 (1,1) 送到 (0,1)、把 (1,−1) 送到 (1,0)；反方陣反過來把 (0,1) 送回 (1,1)、(1,0) 送回 (1,−1)。\n\t由 A(1,1)ᵀ＝(0,1)ᵀ 得 A⁻¹(0,1)ᵀ＝(1,1)ᵀ，也就是 A⁻¹ 的第 2 行是 (1,1)ᵀ。\n\t由 A(1,−1)ᵀ＝(1,0)ᵀ 得 A⁻¹(1,0)ᵀ＝(1,−1)ᵀ，也就是 A⁻¹ 的第 1 行是 (1,−1)ᵀ。\n\t所以 A⁻¹ 的第一列是 1, 1，第二列是 −1, 1 → 答案 (2)\n\t驗算：A＝(A⁻¹)⁻¹＝(1/2)\\[\\[1, −1\\], \\[1, 1\\]\\]，A(1,1)ᵀ＝(0,1)ᵀ、A(1,−1)ᵀ＝(1,0)ᵀ ✓\n\t📊 全國答對率 62%｜鑑別度 70｜各選項選答率 1 10%、2 62%、3 12%、4 10%、5 7%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-03)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-04",
+  "properties": {
+   "題目": "115 數學B 第 4 題｜空間概念（經緯度、透視、截痕）",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 4,
+   "題型": "單選",
+   "觀念": [
+    "空間概念（經緯度、透視、截痕）"
+   ],
+   "答案": "3",
+   "排程": "Day 2",
+   "代碼": "mb115-04",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-04",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.44,
+   "難度": "中",
+   "鑑別度": 37,
+   "date:日期:start": "2026-10-01",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 4 題](https://harry-kuo.github.io/gsat116/img/mathB/115-04.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：3**\n\t💡 北緯 60° 的緯線長度只有赤道的 cos60°＝1/2；兩船速率相同，甲走的經度差是乙的 2 倍。\n\t甲從西經 169° 向西到東經 171°：先到 180° 經線走了 11°，再到東經 171° 又走 9°，共 20°。\n\t北緯 60° 緯線的半徑＝R cos60°＝R/2，所以這段經度 20° 的弧長，等於赤道上經度 10° 的弧長。\n\t兩船速率相同，同一段時間乙在赤道上向東走了經度 10°：東經 140°＋10°＝東經 150° → 答案 (3)\n\t易錯：直接用經度差 20° 算，會誤選 (4) 160 度。\n\t📊 全國答對率 44%｜鑑別度 37｜各選項選答率 1 11%、2 11%、3 44%、4 22%、5 12%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-04)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-09",
+  "properties": {
+   "題目": "115 數學B 第 9 題｜多項式與函數圖形",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 9,
+   "題型": "多選",
+   "觀念": [
+    "多項式與函數圖形"
+   ],
+   "答案": "2,4",
+   "排程": "Day 2",
+   "代碼": "mb115-09",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-09",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.35,
+   "難度": "難",
+   "鑑別度": 36,
+   "date:日期:start": "2026-10-01",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 9 題](https://harry-kuo.github.io/gsat116/img/mathB/115-09.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：2,4**\n\t💡 f(x)＝\\[(1−x)(2−x)(4＋x)\\]·(2−x) 可整除；找 c 就令 t＝x−2 展開。\n\t(1) f(x)＝\\[(1−x)(2−x)(4＋x)\\]·(2−x)，整除，餘式是 0 ✗\n\t(2) 令 t＝x−2：(1−x)(4＋x)＝(−1−t)(6＋t)＝−(t²＋7t＋6)\n\tf＝t²·\\[−(t²＋7t＋6)\\]＝−t⁴−7t³−6t²，所以 c＝−6 ✓\n\t(3) (2−x)²≥0，f(x)＞0 ⇔ (1−x)(4＋x)＞0 且 x≠2 ⇔ −4＜x＜1，解區間是 (−4, 1) ✗\n\t(4) f(2026)＝(−2025)(2024)²(2030)，f(−2022)＝(2023)(2024)²(−2018)，兩者都是負數\n\tf(2026)/f(−2022)＝(2025×2030)/(2023×2018)＞1 ✓\n\t(5) 由 (4)，兩者皆負且 \\|f(2026)\\|＞\\|f(−2022)\\|，所以 f(2026)＜f(−2022) ✗\n\t→ 答案 (2)(4)\n\t📊 全國答對率 35%｜全對率 16%｜鑑別度 36｜各選項選答率 1 43%、2 57%、3 33%、4 70%、5 40%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-09)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-10",
+  "properties": {
+   "題目": "115 數學B 第 10 題｜數據分析",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 10,
+   "題型": "多選",
+   "觀念": [
+    "數據分析"
+   ],
+   "答案": "1,4",
+   "排程": "Day 2",
+   "代碼": "mb115-10",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-10",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.35,
+   "難度": "難",
+   "鑑別度": 43,
+   "date:日期:start": "2026-10-01",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 10 題](https://harry-kuo.github.io/gsat116/img/mathB/115-10.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1,4**\n\t💡 B＝0.5A：標準差乘 0.5、與 A 的相關係數是 1；迴歸直線一定通過兩個平均數 (65, 50)。\n\t(1) A 的標準差＝√225＝15，B 的標準差＝0.5×15＝15/2 ✓\n\t(2) 身長的中位數無法推出 A 或 B 的中位數 ✗\n\t(3) B 是 A 的正數倍，兩者完全正相關，相關係數是 1，不是 0.5 ✗\n\t(4) A 對身長的迴歸直線通過 (65, 50)，所以身長 65 時預測 A 濃度＝50 ✓\n\t(5) 乘正數不改變相關係數，B 與身長的相關係數仍是 0.75；斜率＝0.75×(15/2)÷10＝9/16，不是 1/2 ✗\n\t→ 答案 (1)(4)\n\t📊 全國答對率 35%｜全對率 17%｜鑑別度 43｜各選項選答率 1 56%、2 41%、3 42%、4 72%、5 40%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-10)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-14",
+  "properties": {
+   "題目": "115 數學B 第 14 題｜排列組合",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 14,
+   "題型": "選填",
+   "觀念": [
+    "排列組合"
+   ],
+   "答案": "14-1：9 14-2：6",
+   "排程": "Day 2",
+   "代碼": "mb115-14",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-14",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.36,
+   "難度": "難",
+   "鑑別度": 70,
+   "date:日期:start": "2026-10-01",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 14 題](https://harry-kuo.github.io/gsat116/img/mathB/115-14.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：14-1：9　14-2：6**\n\t💡 5、6、7 必須排成 567 或 765，3、4 綁成一塊，再和 1、2 共 4 個單位排列。\n\t6 要同時和 5、7 相鄰，所以 5、6、7 連成一塊且 6 在中間：567 或 765，2 種。\n\t3、4 相鄰：34 或 43，2 種。\n\t「567 塊」「34 塊」、1、2 共 4 個單位排列：4!＝24\n\t共 24×2×2＝96 → 答案 96\n\t📊 全國答對率 36%｜鑑別度 70\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-14)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-05",
+  "properties": {
+   "題目": "115 數學B 第 5 題｜數列、遞迴與規律",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 5,
+   "題型": "單選",
+   "觀念": [
+    "數列、遞迴與規律"
+   ],
+   "答案": "3",
+   "排程": "Day 3",
+   "代碼": "mb115-05",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-05",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.58,
+   "難度": "中",
+   "鑑別度": 51,
+   "date:日期:start": "2026-10-02",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 5 題](https://harry-kuo.github.io/gsat116/img/mathB/115-05.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：3**\n\t💡 照規則算下去會發現：從第 3 次起，每兩次投注金額乘上 (3/2)(3/2)(1/2)＝9/8。\n\t規則：預定金額＝前次×3/2，超過 2N 就再減半。\n\t第 5 次：預定 (3/2)(27/16)N＝81/32 N＞2N → 投注 81/64 N\n\t第 6 次：預定 (3/2)(81/64)N＝243/128 N≈1.90N≤2N → 投注 243/128 N\n\t第 7 次：預定 (3/2)(243/128)N＝729/256 N＞2N → 投注 729/512 N＝3⁶/2⁹ N → 答案 (3)\n\t規律檢查：第 3、5、7 次分別是 (9/8)N、(9/8)²N、(9/8)³N＝3⁶/2⁹ N。\n\t📊 全國答對率 58%｜鑑別度 51｜各選項選答率 1 7%、2 21%、3 58%、4 8%、5 6%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-05)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-06",
+  "properties": {
+   "題目": "115 數學B 第 6 題｜直線與坐標幾何",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 6,
+   "題型": "單選",
+   "觀念": [
+    "直線與坐標幾何"
+   ],
+   "答案": "1",
+   "排程": "Day 3",
+   "代碼": "mb115-06",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-06",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.38,
+   "難度": "難",
+   "鑑別度": 61,
+   "date:日期:start": "2026-10-02",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 6 題](https://harry-kuo.github.io/gsat116/img/mathB/115-06.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1**\n\t💡 領海在基線外側（與 (5,5) 不同側），外緣是與 L 平行、距離 12 的直線 4x＋3y＋48＝0。\n\t與 L 平行的直線寫成 4x＋3y＋c＝0，和 L 的距離＝\\|c＋12\\|÷√(4²＋3²)＝\\|c＋12\\|/5＝12\n\t⇒ c＋12＝±60 ⇒ c＝48 或 c＝−72\n\t(5,5) 代入 4x＋3y−12 得 23＞0，所以內側是「4x＋3y−12＞0」那一側，領海在另一側。\n\t4x＋3y＋48＝0 上的點滿足 4x＋3y−12＝−60＜0，在外側 ✓ → 答案 (1)\n\t易錯：(5) 4x＋3y−72＝0 距離也是 12，但在內側（陸地那一邊）。\n\t📊 全國答對率 38%｜鑑別度 61｜各選項選答率 1 38%、2 13%、3 12%、4 19%、5 18%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-06)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-11",
+  "properties": {
+   "題目": "115 數學B 第 11 題｜空間概念（經緯度、透視、截痕）",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 11,
+   "題型": "多選",
+   "觀念": [
+    "空間概念（經緯度、透視、截痕）"
+   ],
+   "答案": "2,5",
+   "排程": "Day 3",
+   "代碼": "mb115-11",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-11",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.26,
+   "難度": "難",
+   "鑑別度": 16,
+   "date:日期:start": "2026-10-02",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 11 題](https://harry-kuo.github.io/gsat116/img/mathB/115-11.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：2,5**\n\t💡 軸線相同、地面相同，截痕由「地面與軸線的夾角 β」和「圓錐半頂角 α」比大小決定；大燈罩的 α 較大。\n\t設地面與軸線的夾角為 β、圓錐的半頂角為 α：β＞α → 橢圓；β＝α → 拋物線；β＜α → 雙曲線。\n\t兩燈罩軸線相同，β 相同；大燈罩照射範圍較大，所以 α大＞α小。\n\t(1) Γ 是橢圓：β＞α大＞α小，γ 也是橢圓 ✗\n\t(2) Γ 是拋物線：β＝α大＞α小，γ 是橢圓 ✓\n\t(3) Γ 是雙曲線：β＜α大，但 β 與 α小 的大小不確定，γ 不一定是拋物線 ✗\n\t(4) γ 是拋物線：β＝α小＜α大，Γ 是雙曲線 ✗\n\t(5) γ 是雙曲線：β＜α小＜α大，Γ 也是雙曲線 ✓\n\t→ 答案 (2)(5)\n\t📊 全國答對率 26%｜全對率 10%｜鑑別度 16｜各選項選答率 1 32%、2 53%、3 40%、4 55%、5 58%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-11)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-12",
+  "properties": {
+   "題目": "115 數學B 第 12 題｜數列、遞迴與規律",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 12,
+   "題型": "多選",
+   "觀念": [
+    "數列、遞迴與規律"
+   ],
+   "答案": "1,3,4",
+   "排程": "Day 3",
+   "代碼": "mb115-12",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-12",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.27,
+   "難度": "難",
+   "鑑別度": 24,
+   "date:日期:start": "2026-10-02",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 12 題](https://harry-kuo.github.io/gsat116/img/mathB/115-12.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1,3,4**\n\t💡 糖的總量永遠是 100 克；aₙ₊₁＝aₙ/2＋(1/2)(100−aₙ/2)＝aₙ/4＋50，會趨近 200/3。\n\t一次稀釋：A 倒一半到 B，A 剩 aₙ/2；B 有 (100−aₙ)＋aₙ/2 克糖，混勻後倒一半回 A。\n\t(1) A 倒出後剩 50 克、B 有 50 克；B 倒一半（25 克）回 A → a₁＝75 ✓\n\t(2) 糖的總量不變，B 瓶含糖＝100−aₙ ✗（n＝1 時 B 有 25 克，但 50−75/2＝12.5）\n\t(3) aₙ₊₁＝aₙ/2＋(1/2)(100−aₙ＋aₙ/2)＝(1/2)aₙ＋(1/2)(100−(1/2)aₙ) ✓\n\t(4) 化簡得 aₙ₊₁＝aₙ/4＋50。取 c＝200/3（c＝c/4＋50 的解），則 aₙ₊₁−c＝(1/4)(aₙ−c)，公比 1/4 ✓\n\t(5) aₙ＝200/3＋(100/3)(1/4)ⁿ＞200/3≈66.7，不會小於 60 ✗\n\t→ 答案 (1)(3)(4)\n\t📊 全國答對率 27%｜全對率 8%｜鑑別度 24｜各選項選答率 1 70%、2 34%、3 62%、4 44%、5 56%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-12)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb115-15",
+  "properties": {
+   "題目": "115 數學B 第 15 題｜機率",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 15,
+   "題型": "選填",
+   "觀念": [
+    "機率"
+   ],
+   "答案": "15-1：1 15-2：3 15-3：5 15-4：1 15-5：2",
+   "排程": "Day 3",
+   "代碼": "mb115-15",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-15",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.24,
+   "難度": "難",
+   "鑑別度": 53,
+   "date:日期:start": "2026-10-02",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 15 題](https://harry-kuo.github.io/gsat116/img/mathB/115-15.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：15-1：1　15-2：3　15-3：5　15-4：1　15-5：2**\n\t💡 設「有近視且有蛀牙」的比例為 x，則 p＝1/6＋x；兩個條件給出 1/6＜x＜1/4。\n\t設有近視且有蛀牙占 x，填列聯表：\n\t有近視、無蛀牙＝1/2−x；無近視、有蛀牙＝1/3−x；無近視、無蛀牙 p＝1/2−(1/3−x)＝1/6＋x\n\t「有近視的學生中，有蛀牙的占少數」：x÷(1/2)＜1/2 ⇒ x＜1/4\n\t「有蛀牙的學生中，有近視的占多數」：x÷(1/3)＞1/2 ⇒ x＞1/6\n\t所以 1/6＜x＜1/4 ⇒ 1/3＜p＜5/12 → 答案 1/3＜p＜5/12\n\t📊 全國答對率 24%｜鑑別度 53\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-15)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb114-01",
+  "properties": {
+   "題目": "114 數學B 第 1 題｜數與式、指數對數",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 1,
+   "題型": "單選",
+   "觀念": [
+    "數與式、指數對數"
+   ],
+   "答案": "3",
+   "排程": "Day 4",
+   "代碼": "mb114-01",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-01",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.55,
+   "難度": "中",
+   "鑑別度": 64,
+   "date:日期:start": "2026-10-03",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 1 題](https://harry-kuo.github.io/gsat116/img/mathB/114-01.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：3**\n\t💡 1 和 4 相距 3＜4，P 只能在兩點外側，左右各一個：P＝1/2 或 9/2。\n\tP 在 1 與 4 之間時，距離和恆為 3，不可能等於 4。\n\tP 在 1 的左邊：(1−P)＋(4−P)＝4 ⇒ P＝1/2\n\tP 在 4 的右邊：(P−1)＋(P−4)＝4 ⇒ P＝9/2\n\t共 2 個 → 答案 (3)\n\t📊 全國答對率 55%｜鑑別度 64｜各選項選答率 1 14%、2 11%、3 55%、4 6%、5 14%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-01)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-02",
+  "properties": {
+   "題目": "114 數學B 第 2 題｜矩陣",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 2,
+   "題型": "單選",
+   "觀念": [
+    "矩陣"
+   ],
+   "答案": "4",
+   "排程": "Day 4",
+   "代碼": "mb114-02",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-02",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.77,
+   "難度": "易",
+   "鑑別度": 54,
+   "date:日期:start": "2026-10-03",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 2 題](https://harry-kuo.github.io/gsat116/img/mathB/114-02.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：4**\n\t💡 右乘 \\[\\[1,0\\],\\[−1,1\\]\\]：第 1 行＝A 的第 1 行−第 2 行，第 2 行＝A 的第 2 行。\n\t設 A 的兩個行向量為 c₁、c₂。\n\t第 1 行：A(1,−1)ᵀ＝c₁−c₂＝(4,−2,3)ᵀ\n\t第 2 行：A(0,1)ᵀ＝c₂＝(−6,1,5)ᵀ\n\t⇒ c₁＝(4,−2,3)ᵀ＋(−6,1,5)ᵀ＝(−2,−1,8)ᵀ\n\tA(1,0)ᵀ＝c₁，所以 (a,b,c)＝(−2,−1,8)，a＋b＋c＝5 → 答案 (4)\n\t📊 全國答對率 77%｜鑑別度 54｜各選項選答率 1 5%、2 6%、3 9%、4 77%、5 3%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-02)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb115-16",
+  "properties": {
+   "題目": "115 數學B 第 16 題｜多項式與函數圖形",
+   "科目": "數學B",
+   "年度": "115",
+   "題號": 16,
+   "題型": "選填",
+   "觀念": [
+    "多項式與函數圖形"
+   ],
+   "答案": "16-1：4 16-2：3",
+   "排程": "Day 4",
+   "代碼": "mb115-16",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb115-16",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.22,
+   "難度": "難",
+   "鑑別度": 56,
+   "date:日期:start": "2026-10-03",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![115 學測數學B 第 16 題](https://harry-kuo.github.io/gsat116/img/mathB/115-16.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：16-1：4　16-2：3**\n\t💡 g(x)−f(x) 是二次函數，在 x＝1、5 都等於 0，所以 g(x)−f(x)＝k(x−1)(x−5)。\n\tL 過 (1,0)、(5,4)：f(x)＝x−1\n\tL 與 Γ 交於 x＝1、5，所以 g(x)−f(x)＝k(x−1)(x−5)\n\t(2,2) 在 Γ 上：g(2)−f(2)＝2−1＝1＝k(1)(−3) ⇒ k＝−1/3\n\tg(x)−f(x)＝−(1/3)(x−1)(x−5)，開口向下，x＝3 時有最大值 −(1/3)(2)(−2)＝4/3 → 答案 4/3\n\t📊 全國答對率 22%｜鑑別度 56\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb115-16)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054533256912682493/04-115%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e5%8d%b7.pdf)"
+ },
+ {
+  "qid": "mb114-07",
+  "properties": {
+   "題目": "114 數學B 第 7 題｜空間概念（經緯度、透視、截痕）",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 7,
+   "題型": "單選",
+   "觀念": [
+    "空間概念（經緯度、透視、截痕）"
+   ],
+   "答案": "4",
+   "排程": "Day 4",
+   "代碼": "mb114-07",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-07",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.23,
+   "難度": "難",
+   "鑑別度": 23,
+   "date:日期:start": "2026-10-03",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 7 題](https://harry-kuo.github.io/gsat116/img/mathB/114-07.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：4**\n\t💡 柱子離得越遠，畫出來的柱高和「柱底到地平線的距離」按相同比例縮小；兩者的比值越大，實際越高。\n\t地平線是 y＝9。實際高度與「畫面柱高 ÷ (9−柱底的 y 坐標)」成正比：\n\tA：2÷3≈0.67　B：3÷9≈0.33　C：3÷6＝0.5　D：3÷4＝0.75　E：4÷8＝0.5　F：2÷3≈0.67\n\tA、F 的比值相同，和題目說「兩柱實際高度相等」一致。\n\t比值最大的是 D → 答案 (4)\n\t📊 全國答對率 23%｜鑑別度 23｜各選項選答率 1 7%、2 9%、3 9%、4 23%、5 52%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-07)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-08",
+  "properties": {
+   "題目": "114 數學B 第 8 題｜多項式與函數圖形",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 8,
+   "題型": "多選",
+   "觀念": [
+    "多項式與函數圖形"
+   ],
+   "答案": "1,5",
+   "排程": "Day 4",
+   "代碼": "mb114-08",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-08",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.43,
+   "難度": "中",
+   "鑑別度": 58,
+   "date:日期:start": "2026-10-03",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 8 題](https://harry-kuo.github.io/gsat116/img/mathB/114-08.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1,5**\n\t💡 y＝x³−x 是奇函數；x 在 0 附近時 x³ 小到可以忽略，圖形接近 y＝−x。\n\t(1) f(−x)＝−f(x)，圖形對稱於原點 ✓\n\t(2) x 在 0 附近，x³ 遠小於 x，y≈−x，不是 y＝x ✗\n\t(3) 平移後是 (x−h)³−(x−h)＋k，要讓 x² 項消失必須 h＝0，此時 x 項係數仍是 −1，不可能變成 x³＋x＋3 ✗\n\t(4) 對稱於 x 軸的圖形是 y＝−(x³−x)＝−x³＋x，不是 x³＋x ✗\n\t(5) 對稱於 y 軸：把 x 換成 −x，得 y＝(−x)³−(−x)＝−x³＋x ✓\n\t→ 答案 (1)(5)\n\t📊 全國答對率 43%｜全對率 25%｜鑑別度 58｜各選項選答率 1 73%、2 37%、3 40%、4 26%、5 59%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-08)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-03",
+  "properties": {
+   "題目": "114 數學B 第 3 題｜數與式、指數對數",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 3,
+   "題型": "單選",
+   "觀念": [
+    "數與式、指數對數"
+   ],
+   "答案": "3",
+   "排程": "Day 5",
+   "代碼": "mb114-03",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-03",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.55,
+   "難度": "中",
+   "鑑別度": 68,
+   "date:日期:start": "2026-10-04",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 3 題](https://harry-kuo.github.io/gsat116/img/mathB/114-03.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：3**\n\t💡 log a＜0，而 log(a²)＝2log a 比 log a 更小；log b 與 1/log b 都是正數。\n\t1/2＜a＜1 ⇒ log a＜0，且 log(a²)＝2log a＜log a＜0\n\t1＜b＜2 ⇒ 0＜log b＜log 2≈0.301，1/log b＞3\n\t最小的是 log(a²) → 答案 (3)\n\t📊 全國答對率 55%｜鑑別度 68｜各選項選答率 1 21%、2 10%、3 55%、4 3%、5 11%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-03)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-04",
+  "properties": {
+   "題目": "114 數學B 第 4 題｜機率",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 4,
+   "題型": "單選",
+   "觀念": [
+    "機率",
+    "排列組合"
+   ],
+   "答案": "4",
+   "排程": "Day 5",
+   "代碼": "mb114-04",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-04",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.35,
+   "難度": "難",
+   "鑑別度": 38,
+   "date:日期:start": "2026-10-04",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 4 題](https://harry-kuo.github.io/gsat116/img/mathB/114-04.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：4**\n\t💡 選 3 種款式 C(4,3)，其中 1 種抽到 2 次（3 種選法），四次的順序 4!/2!＝12。\n\t恰抽到三種款式 ⇒ 四次中有一種款式出現 2 次，另外兩種各 1 次。\n\t選哪三種：C(4,3)＝4；哪一種出現 2 次：3；四次的順序：4!/2!＝12\n\t機率＝4×3×12÷4⁴＝144/256＝9/16 → 答案 (4)\n\t📊 全國答對率 35%｜鑑別度 38｜各選項選答率 1 15%、2 37%、3 6%、4 35%、5 6%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-04)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-09",
+  "properties": {
+   "題目": "114 數學B 第 9 題｜平面向量",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 9,
+   "題型": "多選",
+   "觀念": [
+    "平面向量"
+   ],
+   "答案": "2,3,4",
+   "排程": "Day 5",
+   "代碼": "mb114-09",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-09",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.52,
+   "難度": "中",
+   "鑑別度": 53,
+   "date:日期:start": "2026-10-04",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 9 題](https://harry-kuo.github.io/gsat116/img/mathB/114-09.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：2,3,4**\n\t💡 逐一解出 α、β，兩個都在 0 到 1 之間的才可能。\n\t(2,2)＝α·A＋β·B，逐一解聯立：\n\t(1) 2α−4β＝2、−3α＋3β＝2 ⇒ β＝−5/3 ✗\n\t(2) 3α＋3β＝2、2α＋4β＝2 ⇒ α＝β＝1/3 ✓\n\t(3) 3α＋4β＝2、4α−β＝2 ⇒ α＝10/19、β＝2/19 ✓\n\t(4) α＋2β＝2、2α＋β＝2 ⇒ α＝β＝2/3 ✓\n\t(5) α＋β＝2、−α＋β＝2 ⇒ α＝0、β＝2 ✗（β＞1）\n\t→ 答案 (2)(3)(4)\n\t📊 全國答對率 52%｜全對率 30%｜鑑別度 53｜各選項選答率 1 20%、2 74%、3 64%、4 71%、5 28%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-09)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-10",
+  "properties": {
+   "題目": "114 數學B 第 10 題｜數據分析",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 10,
+   "題型": "多選",
+   "觀念": [
+    "數據分析"
+   ],
+   "答案": "1,2,5",
+   "排程": "Day 5",
+   "代碼": "mb114-10",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-10",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.46,
+   "難度": "中",
+   "鑑別度": 37,
+   "date:日期:start": "2026-10-04",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 10 題](https://harry-kuo.github.io/gsat116/img/mathB/114-10.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1,2,5**\n\t💡 總用時＝次數×平均；只知道標準差無法判斷全距，但若每次都在 1.4～1.6 秒，標準差不會超過 0.1。\n\t(1) 丙的平均 1.7 秒最大 ✓\n\t(2) 總用時：甲 25×1.2＝30、乙 14×1.5＝21、丙 20×1.7＝34、丁 30×1.2＝36，丁最多 ✓\n\t(3) 平均相同不代表每一次都相同 ✗\n\t(4) 只知道標準差，無法判斷全距的大小 ✗\n\t(5) 乙的平均是 1.5 秒；若每次都在 1.4～1.6 秒，每個離差都不超過 0.1，標準差≤0.1，與 0.3 矛盾，所以不可能 ✓\n\t→ 答案 (1)(2)(5)\n\t📊 全國答對率 46%｜全對率 21%｜鑑別度 37｜各選項選答率 1 84%、2 78%、3 12%、4 55%、5 57%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-10)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-13",
+  "properties": {
+   "題目": "114 數學B 第 13 題｜機率",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 13,
+   "題型": "選填",
+   "觀念": [
+    "機率"
+   ],
+   "答案": "13-1：5 13-2：1",
+   "排程": "Day 5",
+   "代碼": "mb114-13",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-13",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.44,
+   "難度": "中",
+   "鑑別度": 78,
+   "date:日期:start": "2026-10-04",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 13 題](https://harry-kuo.github.io/gsat116/img/mathB/114-13.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：13-1：5　13-2：1**\n\t💡 至少一個有空位＝1−兩個都沒空位＝1−0.7²。\n\t兩個停車場都沒有空位的機率＝0.7×0.7＝0.49\n\t至少一個有空位的機率＝1−0.49＝0.51 → 答案 0.51\n\t📊 全國答對率 44%｜鑑別度 78\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-13)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-05",
+  "properties": {
+   "題目": "114 數學B 第 5 題｜空間概念（經緯度、透視、截痕）",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 5,
+   "題型": "單選",
+   "觀念": [
+    "空間概念（經緯度、透視、截痕）"
+   ],
+   "答案": "1",
+   "排程": "Day 6",
+   "代碼": "mb114-05",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-05",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.3,
+   "難度": "難",
+   "鑑別度": 38,
+   "date:日期:start": "2026-10-05",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 5 題](https://harry-kuo.github.io/gsat116/img/mathB/114-05.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1**\n\t💡 平面與圓錐的軸平行，夾角 0° 小於半頂角 24°，截痕是雙曲線。\n\tM 繞 L 轉一圈，得到以 L 為軸、半頂角 24° 的直圓錐面（上下兩片）。\n\t平面與軸的夾角 β 決定截痕：β＞半頂角 → 橢圓（β＝90° 時是圓）；β＝半頂角 → 拋物線；β＜半頂角 → 雙曲線。\n\tE 與 L 平行，β＝0°＜24°，且 E 不過頂點，會同時切到上下兩片 → 雙曲線 → 答案 (1)\n\t📊 全國答對率 30%｜鑑別度 38｜各選項選答率 1 30%、2 31%、3 18%、4 8%、5 12%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-05)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-06",
+  "properties": {
+   "題目": "114 數學B 第 6 題｜多項式與函數圖形",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 6,
+   "題型": "單選",
+   "觀念": [
+    "多項式與函數圖形"
+   ],
+   "答案": "2",
+   "排程": "Day 6",
+   "代碼": "mb114-06",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-06",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.56,
+   "難度": "中",
+   "鑑別度": 72,
+   "date:日期:start": "2026-10-05",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 6 題](https://harry-kuo.github.io/gsat116/img/mathB/114-06.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：2**\n\t💡 分別代 x＝4、3、1，每次只剩一項，直接解出 a、b、c。\n\t代 x＝4：a(3)(1)＝16 ⇒ a＝16/3\n\t代 x＝3：b(2)(−1)＝9 ⇒ b＝−9/2\n\t代 x＝1：c(−2)(−3)＝1 ⇒ c＝1/6\n\t16/3＞1/6＞−9/2 ⇒ a＞c＞b → 答案 (2)\n\t📊 全國答對率 56%｜鑑別度 72｜各選項選答率 1 13%、2 56%、3 12%、4 9%、5 10%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-06)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-11",
+  "properties": {
+   "題目": "114 數學B 第 11 題｜空間概念（經緯度、透視、截痕）",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 11,
+   "題型": "多選",
+   "觀念": [
+    "空間概念（經緯度、透視、截痕）"
+   ],
+   "答案": "1,3,4",
+   "排程": "Day 6",
+   "代碼": "mb114-11",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-11",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.47,
+   "難度": "中",
+   "鑑別度": 44,
+   "date:日期:start": "2026-10-05",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 11 題](https://harry-kuo.github.io/gsat116/img/mathB/114-11.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1,3,4**\n\t💡 經度 0° 與 180° 的經線合起來是一個通過南北極的大圓，A、B、C、D、E 都在這個大圓上。\n\t用「圓心角」比較最短路徑長（半徑相同）：\n\t(1) 北極到 A、到 B 都是 90°−60°＝30° ✓\n\t(2) A 到 B 經過北極：30°＋30°＝60°；C 到 D：60°＋60°＝120°，不相等 ✗\n\t(3) A、C、E 都在經度 0° 的經線上，A（北緯 60°）到 E（赤道）的最短路徑經過 C（北緯 30°）✓\n\t(4) C 到 D 經過北極的弧是 120°，經過南極的弧是 240°，最短路徑經過北極 ✓\n\t(5) E 到北極 90°，C 到 D 120°，比為 3：4，不是 2：3 ✗\n\t→ 答案 (1)(3)(4)\n\t📊 全國答對率 47%｜全對率 23%｜鑑別度 44｜各選項選答率 1 79%、2 20%、3 81%、4 43%、5 33%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-11)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-12",
+  "properties": {
+   "題目": "114 數學B 第 12 題｜數列、遞迴與規律",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 12,
+   "題型": "多選",
+   "觀念": [
+    "數列、遞迴與規律"
+   ],
+   "答案": "1,2",
+   "排程": "Day 6",
+   "代碼": "mb114-12",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-12",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.29,
+   "難度": "難",
+   "鑑別度": 20,
+   "date:日期:start": "2026-10-05",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 12 題](https://harry-kuo.github.io/gsat116/img/mathB/114-12.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1,2**\n\t💡 9＝1＋kd ⇒ d＝8/k；81＝1＋(n−1)d ⇒ n＝10k＋1（k＝1～9）。\n\t設公差 d，9 是第 k＋1 項：kd＝8 ⇒ d＝8/k（k 為正整數）\n\t末項 81：(n−1)d＝80 ⇒ n−1＝10k ⇒ n＝10k＋1；n≤100 ⇒ k＝1, 2, …, 9\n\t(1) n＝10k＋1 必為奇數 ✓\n\t(2) 41＝1＋jd ⇒ j＝40÷(8/k)＝5k，是正整數且不超過 10k，41 一定在數列中 ✓\n\t(3) k＝3 時 d＝8/3，不是整數 ✗\n\t(4) k 有 9 種，共 9 個數列，不是 10 個 ✗\n\t(5) n∈\\{11, 21, …, 91\\}，7 的倍數有 21 和 91（＝7×13），n 不一定是 21 ✗\n\t→ 答案 (1)(2)\n\t📊 全國答對率 29%｜全對率 6%｜鑑別度 20｜各選項選答率 1 64%、2 70%、3 46%、4 32%、5 64%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-12)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-14",
+  "properties": {
+   "題目": "114 數學B 第 14 題｜直線與坐標幾何",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 14,
+   "題型": "選填",
+   "觀念": [
+    "直線與坐標幾何"
+   ],
+   "答案": "14-1：5 14-2：6",
+   "排程": "Day 6",
+   "代碼": "mb114-14",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-14",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.17,
+   "難度": "難",
+   "鑑別度": 46,
+   "date:日期:start": "2026-10-05",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 14 題](https://harry-kuo.github.io/gsat116/img/mathB/114-14.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：14-1：5　14-2：6**\n\t💡 △ABC 面積 5，左邊 △OAB 只有 1，所以直線要交 AC 於 Q，使 △OQC 的面積是 2.5。\n\t△ABC 面積＝(1/2)×5×2＝5，一半是 2.5；原點 O 在 BC 上。\n\t△OAB 面積＝(1/2)×1×2＝1＜2.5，所以直線 y＝mx 與 AC 相交，設交點為 Q。\n\t△OQC 面積＝(1/2)×4×(Q 的 y 坐標)＝2.5 ⇒ Q 的 y 坐標＝5/4\n\tAC：y＝2−x/2，代入 y＝5/4 得 x＝3/2\n\tm＝(5/4)÷(3/2)＝5/6 → 答案 5/6\n\t📊 全國答對率 17%｜鑑別度 46\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-14)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-15",
+  "properties": {
+   "題目": "114 數學B 第 15 題｜排列組合",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 15,
+   "題型": "選填",
+   "觀念": [
+    "排列組合"
+   ],
+   "答案": "15-1：3 15-2：6",
+   "排程": "Day 7",
+   "代碼": "mb114-15",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-15",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.25,
+   "難度": "難",
+   "鑑別度": 46,
+   "date:日期:start": "2026-10-06",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 15 題](https://harry-kuo.github.io/gsat116/img/mathB/114-15.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：15-1：3　15-2：6**\n\t💡 兩名翻譯各去一個部門（2 種）；研發再從 6 人選 3 人，扣掉有部門沒有工程師的 2 種：C(6,3)−2＝18。\n\t兩個部門各需 1 名翻譯：2 名翻譯各去一個部門，2 種。\n\t研發部門還要 3 人，從 3 名工程師、3 名助理中選：C(6,3)＝20 種，剩下 3 人到測試部門。\n\t扣掉「研發 3 人全是助理」（研發沒有工程師）和「研發 3 人全是工程師」（測試沒有工程師），剩 18 種。\n\t共 2×18＝36 → 答案 36\n\t📊 全國答對率 25%｜鑑別度 46\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-15)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-16",
+  "properties": {
+   "題目": "114 數學B 第 16 題｜空間概念（經緯度、透視、截痕）",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 16,
+   "題型": "選填",
+   "觀念": [
+    "空間概念（經緯度、透視、截痕）",
+    "三角函數與三角測量"
+   ],
+   "答案": "16-1：6 16-2：2",
+   "排程": "Day 7",
+   "代碼": "mb114-16",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-16",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.43,
+   "難度": "中",
+   "鑑別度": 89,
+   "date:日期:start": "2026-10-06",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 16 題](https://harry-kuo.github.io/gsat116/img/mathB/114-16.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：16-1：6　16-2：2**\n\t💡 牆角當原點、三條交界線當坐標軸：A(20,0,0)、B(0,20,0)、C(0,0,10)。\n\t取 O 為原點，A、B 在牆面與地面的交界線上，C 在兩牆面的交界線上：A(20,0,0)、B(0,20,0)、C(0,0,10)\n\t向量 AB＝(−20,20,0)，長 20√2；向量 AC＝(−20,0,10)，長 10√5；內積＝400\n\tcos∠CAB＝400÷(20√2×10√5)＝2/√10，sin∠CAB＝√(1−4/10)＝√6/√10\n\ttan∠CAB＝√6/2 → 答案 √6/2\n\t📊 全國答對率 43%｜鑑別度 89\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-16)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb114-17",
+  "properties": {
+   "題目": "114 數學B 第 17 題｜數列、遞迴與規律",
+   "科目": "數學B",
+   "年度": "114",
+   "題號": 17,
+   "題型": "選填",
+   "觀念": [
+    "數列、遞迴與規律"
+   ],
+   "答案": "17-1：1 17-2：3",
+   "排程": "Day 7",
+   "代碼": "mb114-17",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb114-17",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.11,
+   "難度": "難",
+   "鑑別度": 16,
+   "date:日期:start": "2026-10-06",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![114 學測數學B 第 17 題](https://harry-kuo.github.io/gsat116/img/mathB/114-17.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：17-1：1　17-2：3**\n\t💡 紅、綠同時暗的時段是每 24 秒中的 \\[15,16)，這時藍燈一定要亮。\n\t紅燈週期 6 秒，每週期的第 3～4 秒暗；綠燈週期 8 秒，每週期的第 6～8 秒暗。\n\t0～24 秒內：紅燈暗 \\[3,4)、\\[9,10)、\\[15,16)、\\[21,22)；綠燈暗 \\[6,8)、\\[14,16)、\\[22,24)\n\t兩者同時暗只有 \\[15,16)，之後每 24 秒重複一次。\n\t藍燈週期 15 秒，每週期的 \\[0, k) 亮。15＋24c 除以 15 的餘數依序是 0, 9, 3, 12, 6（之後循環）。\n\t最晚的一段是 \\[12,13)，要亮著需 k≥13；k＝13 時其他時段也都亮著 → 答案 13\n\t📊 全國答對率 11%｜鑑別度 16\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb114-17)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf)"
+ },
+ {
+  "qid": "mb113-01",
+  "properties": {
+   "題目": "113 數學B 第 1 題｜數據分析",
+   "科目": "數學B",
+   "年度": "113",
+   "題號": 1,
+   "題型": "單選",
+   "觀念": [
+    "數據分析"
+   ],
+   "答案": "4",
+   "排程": "Day 7",
+   "代碼": "mb113-01",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb113-01",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0o051423705511545740/04-113%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.58,
+   "難度": "中",
+   "鑑別度": 51,
+   "date:日期:start": "2026-10-06",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![113 學測數學B 第 1 題](https://harry-kuo.github.io/gsat116/img/mathB/113-01.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：4**\n\t💡 210×90%＝189 是整數，第 90 百分位數＝第 189 與第 190 個數的平均。\n\t由小到大排列，持有 1～m 顆的總人數＝1＋2＋…＋m＝m(m＋1)/2\n\tm＝18 時 171 人、m＝19 時 190 人 ⇒ 第 172～190 人都持有 19 顆\n\t210×90/100＝189 是整數 ⇒ 第 90 百分位數＝(第 189 個＋第 190 個)÷2＝(19＋19)÷2＝19 → 答案 (4)\n\t📊 全國答對率 58%｜鑑別度 51｜各選項選答率 1 3%、2 5%、3 22%、4 58%、5 13%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb113-01)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0o051423705511545740/04-113%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)"
+ },
+ {
+  "qid": "mb113-02",
+  "properties": {
+   "題目": "113 數學B 第 2 題｜數與式、指數對數",
+   "科目": "數學B",
+   "年度": "113",
+   "題號": 2,
+   "題型": "單選",
+   "觀念": [
+    "數與式、指數對數"
+   ],
+   "答案": "1",
+   "排程": "Day 7",
+   "代碼": "mb113-02",
+   "練習連結": "https://harry-kuo.github.io/gsat116/#/item/mb113-02",
+   "原卷": "https://www.ceec.edu.tw/files/file_pool/1/0o051423705511545740/04-113%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf",
+   "老師已審閱": "__NO__",
+   "全國答對率": 0.49,
+   "難度": "中",
+   "鑑別度": 75,
+   "date:日期:start": "2026-10-06",
+   "date:日期:is_datetime": 0
+  },
+  "content": "![113 學測數學B 第 2 題](https://harry-kuo.github.io/gsat116/img/mathB/113-02.webp)\n<details>\n<summary>✅ 看答案與解析</summary>\n\t**答案：1**\n\t💡 1＜a＜10 ⇒ 0＜log a＜1，所以 b 在 0 與 1 之間，c＝log b＜0。\n\t1＜a＜10 ⇒ log 1＜log a＜log 10 ⇒ 0＜b＜1\n\t0＜b＜1 ⇒ c＝log b＜0\n\t所以 c＜0＜b＜1 → 答案 (1)\n\t📊 全國答對率 49%｜鑑別度 75｜各選項選答率 1 49%、2 11%、3 30%、4 7%、5 4%\n</details>\n[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/mb113-02)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0o051423705511545740/04-113%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)"
  },
  {
   "qid": "sci115-01",

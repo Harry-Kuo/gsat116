@@ -315,9 +315,9 @@ def chinese_page():
           "- **文言與韻文占比約 35%–53%**，115 年回升到 46%，且文言題組常把核心選文拆成詞義、句式與佐證選項。",
           "- **15 篇核心選文**：〈虯髯客傳〉〈赤壁賦〉〈鴻門宴〉〈諫逐客書〉〈燭之武退秦師〉〈項脊軒志〉〈出師表〉是引用最多的前七名。",
           "- **研判題（①②符合／不符合／無法判斷）幾乎每年 2–3 題**，混合題非選 18–20 分（折合國文考科 9–10 分）。",
-          toggle("看完整統計表", trends + ["說明：主題分類與核心選文次數為 Claude 逐題判讀標註，持續校對中。"]),
+          toggle("看完整統計表", trends + ["說明：主題分類與核心選文出現次數依 110–115 年試題逐題整理。"]),
           "## 🎯 必考觀念與對應考古題",
-          "每個觀念先看重點，再做下面的考古題：點「✅ 看答案與解析」核對，或點「到練習網站作答」（作答會記錄到老師的儀表板）。"]
+          "每個觀念先看重點，再做下面的考古題：點「✅ 看答案與解析」核對，或點「到練習網站作答」（作答紀錄會同步給老師）。"]
     for mod in concepts["modules"]:
         b.append(f"### {mod['id']}. {esc(mod['name'])}")
         for c in mod["concepts"]:
@@ -333,7 +333,6 @@ def chinese_page():
             if others:
                 ch.append(toggle(f"其他相關考古題（{len(others)} 題）", [f"- {ref(it, 'chinese', published)}" for it in others]))
             b.append(toggle(f"**{c['id']} {esc(c['name'])}**" + (f"（近六屆 {len(related)} 題）" if related else ""), ch))
-    b += ["## ✍️ 老師補充", "（這一區留給老師補充上課重點，之後更新頁面時不會覆蓋。）"]
     return b
 
 
@@ -342,7 +341,7 @@ def skeleton_page(subject, structure, focus):
     items, _ = load_subject(subject)
     concepts = qyaml.load(ROOT / "data" / "concepts" / f"{subject}.yaml")
     week = [q for d in plan["days"] for q in d["sets"].get(subject) or []]
-    b = [callout("🧭", [md_inline(structure)]), callout("🚧", [md_inline(focus)], color="yellow_bg"),
+    b = [callout("🧭", [md_inline(structure)]), callout("📌", [md_inline(focus)], color="yellow_bg"),
          "## 🎯 觀念大綱與第 1 週考古題",
          "每個觀念底下列出第 1 週練習到的考古題；點開可以看題目、答案與解析。"]
     for mod in concepts["modules"]:
@@ -362,7 +361,6 @@ def skeleton_page(subject, structure, focus):
             date = start + dt.timedelta(days=d["day"] - 1)
             b.append(toggle(f"**Day {d['day']}**　{fmt_day(date)}　{esc(d['theme'].get(subject, ''))}",
                             [f"- {ref(items[q], subject, published)}" for q in qids]))
-    b += ["## ✍️ 老師補充", "（輪到本科上課前一週，會補上完整的必考觀念、出題趨勢與考古題。）"]
     return b
 
 
@@ -371,11 +369,36 @@ def exam_rules_page():
 
 
 def week1_page():
-    doc = (ROOT / "notion" / "week01_chinese.md").read_text(encoding="utf-8")
-    doc = doc.replace("練習網站 `#/diag/chinese`", "[練習網站診斷小考]({{SITE}}/#/diag/chinese)")
-    doc = doc.replace("練習網站的 `#/diag/chinese`", "[練習網站的診斷小考]({{SITE}}/#/diag/chinese)")
-    doc = re.sub(r"## ✍️ 老師課後筆記\n.*", "## ✍️ 課後重點\n（上課重點與作業寫在這裡，學生看得到；私人備課紀錄請寫在「🔒 老師後台」。）\n", doc, flags=re.S)
-    return convert_md(doc)
+    """第 1 週上課講義（學生看得到）：原稿中的 [[題目:代碼]] 換成完整題目與折疊解析，[[診斷小考]] 換成 12 題。"""
+    _, plan, _, published = plan_info()
+    items, groups = load_subject("chinese")
+    doc = (ROOT / "notion" / "week01_chinese.md").read_text(encoding="utf-8").replace("{{SITE}}", SITE)
+    blocks, chunk, shown = [], [], set()
+
+    def flush():
+        if chunk:
+            blocks.extend(convert_md("# x\n" + "\n".join(chunk)))
+            chunk.clear()
+
+    for i, line in enumerate(doc.split("\n")):
+        if i == 0 and line.startswith("# "):
+            continue
+        if line.startswith("## "):
+            shown = set()  # 每一節重新顯示題組文章，不要「同上一題」跨到上一節
+        m = re.fullmatch(r"\[\[題目:([a-z0-9-]+)\]\]", line.strip())
+        if m:
+            flush()
+            blocks.append(question_toggle(items[m.group(1)], "chinese", groups, published, shown))
+        elif line.strip() == "[[診斷小考]]":
+            flush()
+            diag = (plan.get("diag") or {}).get("chinese") or []
+            dshown = set()
+            blocks.append(toggle(f"📝 診斷小考 {len(diag)} 題與解析（做完小考再打開）",
+                                 [question_toggle(items[q], "chinese", groups, published, dshown) for q in diag]))
+        else:
+            chunk.append(line)
+    flush()
+    return blocks
 
 
 def progress_page():
@@ -538,15 +561,14 @@ def db_week_rows():
         e = a + dt.timedelta(days=6)
         subj = WEEK_SUBJECTS[(w - 1) % 5] if w < 16 else "總複習"
         props = {"週次": f"W{w} {WEEK_LABEL.get(subj, subj)}", "科目": subj, "date:日期:start": a.isoformat(), "date:日期:end": e.isoformat(),
-                 "date:日期:is_datetime": 0, "狀態": "已備課" if w == 1 else "未開始",
+                 "date:日期:is_datetime": 0, "狀態": "已公布" if w == 1 else "未開始",
                  "每日練習": f"Day {7 * (w - 1) + 1}–{7 * w}"}
         if w == 1:
             props["上課主題"] = "國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判"
             content = "\n".join(week1_page())
         else:
-            props["上課主題"] = "考前全真模擬＋錯題總複習" if w == 16 else "（上課前一週規劃）"
-            content = "\n".join([callout("🗓️", [f"{fmt_day(a)}–{fmt_day(e)}｜輪到 **{WEEK_LABEL.get(subj, subj)}**。教案會在上課前一週補上。"]),
-                                 "## ✍️ 課後重點", "（上課重點與作業寫在這裡，學生看得到。）"])
+            props["上課主題"] = "考前全真模擬＋錯題總複習" if w == 16 else "（上課前公布）"
+            content = callout("🗓️", [f"{fmt_day(a)}–{fmt_day(e)}｜第 {w} 週：**{WEEK_LABEL.get(subj, subj)}**。上課內容與重點整理會在上課前放上來。"])
         rows.append({"week": w, "properties": props, "content": content})
     return rows
 
@@ -575,12 +597,13 @@ def main():
     write_page("00_home", home_page())
     write_page("01_exam_rules", exam_rules_page())
     write_page("10_chinese", chinese_page())
-    write_page("11_english", skeleton_page("english", "英文 100 分鐘：詞彙 10、綜合測驗 10、文意選填 10、篇章結構 8、閱讀測驗 24（選擇共 62 分）＋混合題 10＋中譯英 8＋英文作文 20。", "**第 2 週（10/7–10/13）上課前補齊**：各大題解題法、高頻詞彙與搭配、翻譯與作文評分重點。"))
-    write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課前補齊**：各單元必考觀念、常見題型與解題流程。"))
-    write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課前補齊**：數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。"))
-    write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", "**第 4 週（10/21–10/27）上課前補齊**：四科必考觀念、圖表與實驗題解題法。"))
-    write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", "**第 5 週（10/28–11/3）上課前補齊**：三科必考觀念、史料與圖表判讀法。"))
+    write_page("11_english", skeleton_page("english", "英文 100 分鐘：詞彙 10、綜合測驗 10、文意選填 10、篇章結構 8、閱讀測驗 24（選擇共 62 分）＋混合題 10＋中譯英 8＋英文作文 20。", "**第 2 週（10/7–10/13）上課重點**：各大題解題法、高頻詞彙與搭配、翻譯與作文評分重點。完整整理會在上課前放上來。"))
+    write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課重點**：各單元必考觀念、常見題型與解題流程。完整整理會在上課前放上來。"))
+    write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課重點**：數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。完整整理會在上課前放上來。"))
+    write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", "**第 4 週（10/21–10/27）上課重點**：四科必考觀念、圖表與實驗題解題法。完整整理會在上課前放上來。"))
+    write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", "**第 5 週（10/28–11/3）上課重點**：三科必考觀念、史料與圖表判讀法。完整整理會在上課前放上來。"))
     write_page("20_past_exams", past_exams_page())
+    write_page("30_week01", week1_page())  # 每週課程 W1 的頁面內容（分段寫入 Notion 用）
     write_page("40_progress", progress_page())
     write_page("90_teacher", teacher_page())
     q = db_question_rows()
