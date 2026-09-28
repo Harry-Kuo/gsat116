@@ -1,0 +1,1366 @@
+exam: 學測
+year: 114
+subject: mathB
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0p056503860912551449/04-114%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c.pdf
+groups:
+- id: mb114-g18
+  range:
+  - 18
+  - 20
+  intro: 閱讀下文，回答18-20題。
+  image: img/mathB/114-g18.webp
+  passage: |-
+    18-20 題為題組
+    地球受到太陽照射過來的紫外線強度以UVI 數值表示，一單位UVI 的照射強度相當
+    於每平方公尺100 焦耳的能量。根據上述，試回答下列問題。
+items:
+- id: mb114-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 55
+    Ph: 87
+    Pl: 23
+    D: 64
+    opt:
+      '1': 14
+      '2': 11
+      '3': 55
+      '4': 6
+      '5': 14
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-01.webp
+  text: |-
+    說明：第1 題至第7 題，每題5 分。
+    1. 設數線上有一點P 滿足P 到1 的距離加上P 到4 的距離等於4。試問這樣的P 有幾個？
+    (1) 0 個
+    (2) 1 個
+    (3) 2 個
+    (4) 3 個
+    (5) 無限多個
+- id: mb114-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: B7
+  tags: []
+  concepts:
+  - B7
+  classic: true
+  stats:
+    P: 77
+    Ph: 98
+    Pl: 44
+    D: 54
+    opt:
+      '1': 5
+      '2': 6
+      '3': 9
+      '4': 77
+      '5': 3
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-02.webp
+  text: |-
+    2. 設A 為3 2
+    階矩陣，且
+    4
+    6
+    1
+    0
+    2
+    1
+    1
+    1
+    3
+    5
+    A
+    −
+    
+    
+    
+    
+    
+    
+    = −
+    
+    
+    
+    
+    −
+    
+    
+    
+    
+    
+    
+    。若
+    1
+    0
+    a
+    A
+    b
+    c
+    
+    
+    
+    =
+    
+    
+    
+    
+    
+    ，試問a
+    b
+    c
+    + + 之值為何？
+    (1) 0
+    (2) 2
+    (3) 4
+    (4) 5
+    (5) 8
+- id: mb114-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 55
+    Ph: 89
+    Pl: 21
+    D: 68
+    opt:
+      '1': 21
+      '2': 10
+      '3': 55
+      '4': 3
+      '5': 11
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-03.webp
+  text: |-
+    3. 已知實數,a b 滿足1
+    1
+    2
+    a
+    
+    及1
+    2
+    b
+    
+    
+    。試問下列哪個選項的值最小？
+    (1) 0
+    (2) loga
+    (3)
+    2
+    log(
+    )
+    a
+
+    (4) logb
+    (5)
+    1
+    logb
+- id: mb114-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: B10
+  tags:
+  - B9
+  concepts:
+  - B10
+  - B9
+  classic: true
+  stats:
+    P: 35
+    Ph: 59
+    Pl: 21
+    D: 38
+    opt:
+      '1': 15
+      '2': 37
+      '3': 6
+      '4': 35
+      '5': 6
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-04.webp
+  text: |-
+    4. 某商店推出抽獎活動，提供香蕉、鳳梨、蘋果、橘子四種不同款式的水果公仔當獎品。
+    每次抽獎可得1 個公仔，且每種款式被抽中的機率皆相等。某甲決定抽獎四次，試問
+    他恰抽到三種不同款式公仔的機率為何？
+    (1)
+    5
+    16
+    (2) 3
+    8
+    (3) 1
+    2
+    (4)
+    9
+    16
+    (5) 5
+    8
+- id: mb114-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: true
+  stats:
+    P: 30
+    Ph: 50
+    Pl: 12
+    D: 38
+    opt:
+      '1': 30
+      '2': 31
+      '3': 18
+      '4': 8
+      '5': 12
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-05.webp
+  text: |-
+    5. 空間中有兩相交直線
+    ,
+    L M ，其夾角為24。將M 繞著L 轉一圈，可得一個直圓錐面。
+    今有平面E 與直線L 平行，試問平面E 與此直圓錐面的截痕是下列哪一個選項？
+    (1) 雙曲線
+    (2) 拋物線
+    (3) 橢圓（長短軸不相等）
+    (4) 圓
+    (5) 兩相交直線
+- id: mb114-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: true
+  stats:
+    P: 56
+    Ph: 91
+    Pl: 19
+    D: 72
+    opt:
+      '1': 13
+      '2': 56
+      '3': 12
+      '4': 9
+      '5': 10
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-06.webp
+  text: |-
+    6. 設
+    , ,
+    a b c 為實數，且多項式
+    ( )
+    (
+    1)(
+    3)
+    (
+    1)(
+    4)
+    (
+    3)(
+    4)
+    f x
+    a x
+    x
+    b x
+    x
+    c x
+    x
+    =
+    −
+    −
+    +
+    −
+    −
+    +
+    −
+    −
+    經化簡後，
+    得
+    2
+    ( )
+    f x
+    x
+    =
+    。有關
+    , ,
+    a b c 的大小關係，試選出正確的選項。
+    (1) a
+    b
+    c
+    
+    
+    (2) a
+    c
+    b
+    
+    
+
+    (3) b
+    c
+    a
+    
+    
+
+    (4) c
+    a
+    b
+    
+    
+
+    (5) c
+    b
+    a
+    
+    
+- id: mb114-07
+  'no': 7
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: true
+  stats:
+    P: 23
+    Ph: 35
+    Pl: 12
+    D: 23
+    opt:
+      '1': 7
+      '2': 9
+      '3': 9
+      '4': 23
+      '5': 52
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-07.webp
+  text: |-
+    7. 某人使用單點透視法，以地平線上一點為消失點，將地平面上的六根鉛直柱子
+    , , ,
+    , ,
+    A B C D E F 畫在坐標平面上，各柱柱頂與柱底的坐標如下表，並且讓點V(4,9)代表
+    消失點，如圖所示。
+    因圖形中A、F 兩柱的柱底連線與柱頂連線均平行於地平線，故A、F 兩柱的實際高度
+    相等。根據上述，試選出實際高度最大的柱子。
+    柱子
+    A
+    B
+    C
+    D
+    E
+    F
+    柱頂坐標
+    (0,8)
+    (2,3)
+    (4,6)
+    (6,8)
+    (8,5)
+    (10,8)
+    柱底坐標
+    (0,6)
+    (2,0)
+    (4,3)
+    (6,5)
+    (8,1)
+    (10,6)
+    (1) A
+    (2) B
+    (3) C
+    (4) D
+    (5) E
+
+
+    地平線
+- id: mb114-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,5
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: true
+  stats:
+    P: 43
+    Ph: 74
+    Pl: 16
+    D: 58
+    T: 25
+    opt:
+      '1': 73
+      '2': 37
+      '3': 40
+      '4': 26
+      '5': 59
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-08.webp
+  text: |-
+    說明：第8 題至第12 題，每題5 分。
+    8. 設為坐標平面上函數
+    3
+    y
+    x
+    x
+    =
+    −
+    的圖形。試選出正確的選項。
+    (1) 的對稱中心為原點
+    (2) 在
+    0
+    x =
+    附近會近似於直線y
+    x
+    =
+
+    (3) 經適當平移後可與函數
+    3
+    3
+    y
+    x
+    x
+    =
+    +
+    + 的圖形重合
+    (4) 與函數
+    3
+    y
+    x
+    x
+    =
+    +
+    的圖形對稱於x 軸
+    (5) 與函數
+    3
+    y
+    x
+    x
+    = −
+    +
+    的圖形對稱於y 軸
+- id: mb114-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,4
+  topic: B6
+  tags: []
+  concepts:
+  - B6
+  classic: true
+  stats:
+    P: 52
+    Ph: 78
+    Pl: 25
+    D: 53
+    T: 30
+    opt:
+      '1': 20
+      '2': 74
+      '3': 64
+      '4': 71
+      '5': 28
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-09.webp
+  text: |-
+    9. 坐標平面上設O 為原點，且P 點坐標為(2,2) 。已知向量OP
+    OA
+    
+    =
+    OB
+    
+    +
+    ，其中實數
+    ,
+    滿足0
+    1
+    
+    
+    ，0
+    1
+    
+    
+    。下列選項中，試選出可能的A 、B 點坐標。
+    (1)
+    (2, 3)
+    A
+    −
+    、
+    ( 4,3)
+    B −
+
+    (2)
+    (3,2)
+    A
+    、
+    (3,4)
+    B
+
+    (3)
+    (3,4)
+    A
+    、
+    (4, 1)
+    B
+    −
+
+    (4)
+    (1,2)
+    A
+    、
+    (2,1)
+    B
+
+    (5)
+    (1, 1)
+    A
+    −
+    、
+    (1,1)
+    B
+- id: mb114-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,5
+  topic: B11
+  tags: []
+  concepts:
+  - B11
+  classic: true
+  stats:
+    P: 46
+    Ph: 64
+    Pl: 27
+    D: 37
+    T: 21
+    opt:
+      '1': 84
+      '2': 78
+      '3': 12
+      '4': 55
+      '5': 57
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-10.webp
+  text: |-
+    10. 某羽球選手與甲、乙、丙、丁四位選手各比賽一場。賽後蒐集這四場比賽的數據，統計
+    該選手的對手在比賽中殺球的總次數，以及每次殺球用時的平均及標準差，結果如下表
+    所示。例如對手甲在該場殺球次數為25 次、每次殺球用時平均1.2 秒，每次殺球用時
+    標準差0.5 秒。
+    對手
+    該場殺球次數
+    每次殺球用時平均（秒）
+    每次殺球用時標準差（秒）
+    甲
+    25
+    1.2
+    0.5
+    乙
+    14
+    1.5
+    0.3
+    丙
+    20
+    1.7
+    0.2
+    丁
+    30
+    1.2
+    0.4
+    根據上述，對於甲、乙、丙、丁四位選手的表現，試選出正確的選項。
+    (1) 丙在該場中每次殺球用時平均是四位中最多的
+    (2) 丁在該場中花在殺球的總用時是四位中最多的
+    (3) 甲在該場中每次殺球的用時都與丁相同
+    (4) 甲在該場中每次殺球用時的全距，大於丁在該場中每次殺球用時的全距
+    (5) 乙在該場中各次殺球的用時不可能都在1.4 到1.6 秒之間
+- id: mb114-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3,4
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: true
+  stats:
+    P: 47
+    Ph: 69
+    Pl: 25
+    D: 44
+    T: 23
+    opt:
+      '1': 79
+      '2': 20
+      '3': 81
+      '4': 43
+      '5': 33
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-11.webp
+  text: |-
+    11. 設地球是一個球體。地球表面上五個點A、B、C、D、E 的經緯度如下表，例如A 點位在
+    經度0 度，北緯60 度。
+    位置
+    經度0 度
+    經度180 度
+    北緯60 度
+    A
+    B
+    北緯30 度
+    C
+    D
+    緯度0 度
+    E
+
+    大圓為通過球心的平面與球面相交所形成的圓，且球面上相異兩點在大圓上
+    所形成較小的弧為最短路徑。根據上述，試選出正確的選項。
+    (1)「北極點到A 的最短路徑長」等於「北極點到B 的最短路徑長」
+    (2)「A 到B 的最短路徑長」等於「C 到D 的最短路徑長」
+    (3) A 到E 的最短路徑必經過C
+    (4) C 到D 的最短路徑必經過北極點
+    (5)「E 到北極點的最短路徑長」與「C 到D 的最短路徑長」的比為2：3
+- id: mb114-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2
+  topic: B4
+  tags: []
+  concepts:
+  - B4
+  classic: true
+  stats:
+    P: 29
+    Ph: 39
+    Pl: 19
+    D: 20
+    T: 6
+    opt:
+      '1': 64
+      '2': 70
+      '3': 46
+      '4': 32
+      '5': 64
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-12.webp
+  text: |-
+    12. 已知某等差數列的首項是1，末項是81，且9 也在此數列中。設此數列的項數為n，
+    其中
+    100
+    n 
+    。試選出正確的選項。
+    (1) n為奇數
+    (2) 41 必在此等差數列
+    (3) 滿足條件的等差數列，其公差都是整數
+    (4) 滿足條件的等差數列共有10 個
+    (5) 若n為7 的倍數，則
+    21
+    n =
+- id: mb114-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 5,1
+  topic: B10
+  tags: []
+  concepts:
+  - B10
+  classic: true
+  stats:
+    P: 44
+    Ph: 83
+    Pl: 5
+    D: 78
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-13.webp
+  text: |-
+    說明：第13 題至第17 題，每題5 分。
+    13. 某景點旁邊有兩個停車場，假設某日任一停車場沒有空位的機率皆為0.7，且這兩個
+    停車場是否有空位互不影響。若一輛車子在當天來到這兩個停車場外面，則至少有一個
+    停車場內有空位的機率為0.○
+    13-1○
+    13-2 。
+- id: mb114-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 5,6
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: true
+  stats:
+    P: 17
+    Ph: 46
+    Pl: 0
+    D: 46
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-14.webp
+  text: |-
+    14. 坐標平面上，給定三點
+    (0,2)
+    A
+    、
+    ( 1,0)
+    B −
+    、
+    (4,0)
+    C
+    。若直線y
+    mx
+    =
+    將三角形ABC 分成面積
+    相等的兩部分，則m = ○
+    14-1
+    ○
+    14-2
+    。（化為最簡分數）
+- id: mb114-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 3,6
+  topic: B9
+  tags: []
+  concepts:
+  - B9
+  classic: true
+  stats:
+    P: 25
+    Ph: 51
+    Pl: 5
+    D: 46
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-15.webp
+  text: |-
+    15. 某公司聘請8 名新進員工，其中含2 名翻譯、3 名工程師與3 名助理。將此8 人分派給
+    研發、測試兩個部門，其中每個部門各分派4 人，且各需含1 名翻譯與至少1 名工程師。
+    依此共有○
+    15-1○
+    15-2 種分配方法。
+- id: mb114-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 6,2
+  topic: B8
+  tags:
+  - B3
+  concepts:
+  - B8
+  - B3
+  classic: true
+  stats:
+    P: 43
+    Ph: 91
+    Pl: 2
+    D: 89
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-16.webp
+  text: |-
+    16. 教室的某牆角是由牆面和地面兩兩互相垂直所構成。
+    設牆角為點O，現有一個三角形擋板ABC，其中
+    頂點A、B、C 位在牆面間或牆面與地面間的交界線上，
+    並與牆角O 的距離分別為20、20、10 公分；AB 、
+    BC 、CA 三邊與牆面或地面貼合，如圖所示。則
+    tan
+    CAB
+    
+    =
+    ○
+    16-1
+    ○
+    16-2
+    。（化為最簡根式）
+- id: mb114-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,3
+  topic: B4
+  tags: []
+  concepts:
+  - B4
+  classic: true
+  stats:
+    P: 11
+    Ph: 20
+    Pl: 4
+    D: 16
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-17.webp
+  text: |-
+    17. 某液晶面板由紅、綠、藍三種顏色的LED 燈泡組成。已知各色燈泡亮燈的循環規律
+    如下：
+    紅色：「亮3 秒，再暗1 秒，再亮2 秒」
+    綠色：「亮6 秒，再暗2 秒」
+    藍色：「亮k 秒，再暗(15
+    )
+    k
+    −
+    秒」，其中k 為正整數。
+    若在某時刻三種顏色的燈泡同時各自開始作上述循環，面板上都一直有燈亮著，
+    並設各燈泡亮、暗切換的時間極短可被忽略，則k 的最小值為○
+    17-1 ○
+    17-2 。
+- id: mb114-18
+  'no': 18
+  type: single
+  points: 2
+  group: mb114-g18
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 49
+    Ph: 73
+    Pl: 27
+    D: 46
+    opt:
+      '1': 5
+      '2': 9
+      '3': 49
+      '4': 33
+      '5': 3
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-18.webp
+  text: |-
+    18. 已知UVI 數值與所在高度呈指數關係：高度每上升300 公尺，其UVI 數值增加上升前
+    的4%。在地平面上接收到太陽發出每平方公尺400 焦耳的紫外線，則到了離地平面
+    4500 公尺高的山上，接收到紫外線的UVI 數值為下列哪一個選項？（單選題，3 分）
+    (1) 4 (1
+    0.04 15)
+    +
+    
+
+    (2)
+    15
+    4 (1
+    0.04 )
+    +
+
+    (3)
+    15
+    4 (1
+    0.04)
+    +
+
+    (4)
+    15
+    4 100 (1
+    0.04)
+    
+    +
+
+    (5)
+    45
+    4 100 (1
+    0.04 )
+    
+    +
+- id: mb114-19
+  'no': 19
+  type: open
+  points: 2
+  group: mb114-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-19.webp
+  text: |-
+    19. 已知某日某地的日照時數（日出到日落）恰為12 小時，且該地當天日出後x 小時
+    (0
+    12)
+    x
+    
+    
+    的UVI 數值，可用函數
+    ( )
+    sin(
+    )
+    f x
+    a
+    bx
+    =
+    來表示，其中,
+    0
+    a b 
+    。假設日照時UVI
+    數值為正，非日照時UVI 數值為0（即
+    (0)
+    (12)
+    0
+    f
+    f
+    =
+    =
+    ），且當天日出後2 小時的UVI
+    數值為4。試求a、b 之值。（非選擇題，6 分）
+- id: mb114-20
+  'no': 20
+  type: open
+  points: 2
+  group: mb114-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathB/114-20.webp
+  text: |-
+    20. 承19 題，今某人要在該日UVI 數值介於4 2 和4 3 之間（含）時做日光浴。將他可以
+    做日光浴的時間設為日出後t 小時，試求t 的最大可能範圍。（非選擇題，6 分）
+
+
+
+    參考公式及可能用到的數值
+    1. 首項為a ，公差為d 的等差數列前n項之和為
+    (2
+    (
+    1) )
+    2
+    n
+    a
+    n
+    d
+    S
+    +
+    −
+    =
+
+
+    首項為a ，公比為
+    (
+    1)
+    r r 
+    的等比數列前n項之和為
+    (1
+    )
+    1
+    n
+    a
+    r
+    S
+    r
+    −
+    =
+    −
+
+
+    2.
+    ABC
+    
+    的正弦定理：
+    2
+    sin
+    sin
+    sin
+    a
+    b
+    c
+    R
+    A
+    B
+    C
+    =
+    =
+    =
+    （R 為
+    ABC
+    
+    外接圓半徑）
+    ABC
+    
+    的餘弦定理：
+    2
+    2
+    2
+    2
+    cos
+    c
+    a
+    b
+    ab
+    C
+    =
+    +
+    −
+
+
+    3. 一維數據
+    1
+    2
+    :
+    ,
+    ,
+    ,
+    n
+    X x x
+    x ，
+    算術平均數
+    1
+    2
+    1 (
+    )
+    X
+    n
+    x
+    x
+    x
+    n
+    
+    =
+    +
+    + +
+
+    標準差
+    2
+    2
+    2
+    2
+    2
+    2
+    2
+    1
+    2
+    1
+    2
+    1
+    1
+    [(
+    )
+    (
+    )
+    (
+    ) ]
+    [(
+    )
+    ]
+    X
+    X
+    X
+    n
+    X
+    n
+    X
+    x
+    x
+    x
+    x
+    x
+    x
+    n
+    n
+    n
+    
+    
+    
+    
+    
+    +
+    +
+    +
+    +
+    +
+    +
+    =
+    −
+    −
+    −
+    =
+    −
+
+
+    4. 二維數據
+    1
+    1
+    2
+    2
+    (
+    , ):( ,
+    ),(
+    ,
+    ),
+    ,(
+    ,
+    )
+    n
+    n
+    X Y
+    x y
+    x y
+    x y
+    ，
+    相關係數
+    1
+    1
+    2
+    2
+    ,
+    (
+    )(
+    )
+    (
+    )(
+    )
+    (
+    )(
+    )
+    X
+    Y
+    X
+    Y
+    n
+    X
+    n
+    Y
+    X Y
+    X
+    Y
+    x
+    y
+    x
+    y
+    x
+    y
+    r
+    n
+    
+    
+    
+    
+    
+    
+    
+    −
+    −
+    +
+    −
+    −
+    +
+    +
+    −
+    −
+    =
+
+    迴歸直線（最適合直線）方程式
+    ,
+    (
+    )
+    Y
+    Y
+    X Y
+    X
+    X
+    y
+    r
+    x
+    
+    
+    
+    
+    −
+    =
+    −
+
+
+    5. 參考數值：
+    2
+    1.414, 3
+    1.732, 5
+    2.236, 6
+    2.449,
+    3.142
+    
+    
+    
+    
+    
+    
+
+
+    6. 對數值：log2
+    0.3010, log3
+    0.4771, log5
+    0.6990, log7
+    0.8451
+    
+    
+    
+    

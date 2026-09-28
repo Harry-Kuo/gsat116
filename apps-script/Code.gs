@@ -5,7 +5,8 @@
  *   1. 在試算表選「擴充功能 › Apps Script」，把本檔內容整份貼上並儲存。
  *   2. 上方函式選單選 setup → 執行 → 依畫面完成授權。執行紀錄會顯示「老師密鑰」。
  *   3. 「部署 › 新增部署作業 › 類型：網頁應用程式」，執行身分：我；存取權：任何人 → 部署，複製網址給 Claude。
- *   4. 在「名冊」工作表確認學生代碼（預設 S01，可改成英數 2–12 碼）與暱稱。
+ *   4. 在「名冊」工作表填入學生代碼（英數 2–12 碼，不分大小寫）與暱稱，「是否啟用」設 TRUE。
+ *      名冊裡沒有、或「是否啟用」為 FALSE 的代碼都進不了練習網站。
  * 之後修改程式要重新部署：「部署 › 管理部署作業 › 編輯（鉛筆）› 版本：新版本」，網址不變。
  */
 const SHEET_ROSTER = "名冊";
@@ -20,7 +21,7 @@ function setup() {
   if (roster.getLastRow() === 0) {
     roster.appendRow(["學生代碼", "暱稱", "是否啟用", "備註"]);
     roster.appendRow(["TEST01", "老師測試", "TRUE", "老師自己測試用，可刪除"]);
-    roster.appendRow(["S01", "學生", "TRUE", "把代碼和暱稱改成你的學生"]);
+    roster.appendRow(["STUDENT", "學生", "FALSE", "代碼改成學生的代碼，再把是否啟用改成 TRUE"]);
     roster.setFrozenRows(1);
     roster.getRange("A:A").setNumberFormat("@");
   }

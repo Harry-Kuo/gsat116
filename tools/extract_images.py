@@ -1,12 +1,13 @@
 """把數學、自然、社會等含公式或圖表的試題，依題號從原卷 PDF 裁成圖片，並建立題庫 YAML。
 
-用法：python3 tools/extract_images.py <科目> <年度> [--force]
+用法：python3 tools/extract_images.py <科目> <年度> [--force] [--img-dir=暫存資料夾 --no-yaml（只輸出圖片供比對）]
 輸出：docs/img/<科目>/<年度>-<題號>.webp（題組文章為 <年度>-g<起始題號>.webp）
       data/questions/<科目>/g<年度>.yaml（題型、配分、答案、官方統計、圖片路徑、題目文字）
 """
 import io
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import fitz
@@ -110,12 +111,12 @@ def trim(img, pad=12):
     return img.crop((max(0, l - pad), max(0, t - pad), min(img.width, r + pad), min(img.height, b + pad)))
 
 
-def render(doc, pieces):
-    """pieces：[(頁, y0, y1)]，裁切後上下拼接。"""
+def render(doc, pieces, exact=False):
+    """pieces：[(頁, y0, y1)]，裁切後上下拼接。exact＝True 時照範圍精確裁切（數學科的切點已留好空白）。"""
     imgs = []
     for pno, y0, y1 in pieces:
         page = doc[pno]
-        clip = fitz.Rect(0, y0 - 5, page.rect.width, y1 + 1)
+        clip = fitz.Rect(0, y0, page.rect.width, y1) if exact else fitz.Rect(0, y0 - 5, page.rect.width, y1 + 1)
         if clip.height < 8:
             continue
         pix = page.get_pixmap(dpi=DPI, clip=clip)
@@ -167,6 +168,91 @@ def next_start_top(page, y_line, floor=0):
     return top
 
 
+def fine_spans(page, top, bottom, tol=3):
+    """數學科用：把文字行、圖形、圖片的垂直範圍合併成「版面區塊」（間距 tol pt 以內視為相連）。
+    題號行所在的區塊，就是該題含矩陣、分式在內的真正開頭。"""
+    spans = []
+    for b in page.get_text("dict")["blocks"]:
+        if b.get("type") == 1:
+            spans.append((b["bbox"][1], b["bbox"][3]))
+        for line in b.get("lines", []):
+            if "".join(s["text"] for s in line["spans"]).strip():
+                spans.append((line["bbox"][1], line["bbox"][3]))
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if r is not None and r.height < page.rect.height * 0.9:
+            spans.append((r.y0, r.y1))
+    spans = sorted((max(top, a), min(bottom, z)) for a, z in spans if z > top and a < bottom)
+    merged = []
+    for a, z in spans:
+        if merged and a <= merged[-1][1] + tol:
+            merged[-1] = (merged[-1][0], max(merged[-1][1], z))
+        else:
+            merged.append((a, z))
+    return merged
+
+
+def cut_above(spans, y_line, floor):
+    """題號行（或說明框）上方的切點：取所在區塊的上緣，切在它與上一個區塊之間的空白正中間。"""
+    blk = next(((a, z) for a, z in spans if a - 0.5 <= y_line <= z + 0.5), None)
+    a = blk[0] if blk and y_line - blk[0] <= 45 else y_line
+    a = max(a, floor)
+    prev = [z for s, z in spans if z < a - 0.01]
+    pz = max([floor] + prev)
+    return (pz + a) / 2 if a - pz < 20 else a - 6
+
+
+def math_regions(doc, seq, groups, bounds):
+    """數學科的切題：每題從「說明框（若緊接在前）或題號區塊」上方的空白開始，到下一個起點為止。
+    回傳 {題號: pieces}、{題組起始題號: pieces}；pieces 為精確裁切範圍 [(頁, y0, y1)]。"""
+    spans = [fine_spans(pg, *bounds[i]) for i, pg in enumerate(doc)]
+    said = set()  # 說明框的位置（原卷的「說」可能是相容字元 U+F96F，先正規化再比對）
+    for p, pg in enumerate(doc):
+        for b in pg.get_text("dict")["blocks"]:
+            for line in b.get("lines", []):
+                text = unicodedata.normalize("NFKC", "".join(s["text"] for s in line["spans"])).strip()
+                x0, y0 = line["bbox"][0], line["bbox"][1]
+                if text.startswith("說明") and x0 < pg.rect.width * 0.2 and bounds[p][0] <= y0 <= bounds[p][1]:
+                    said.add((p, round(y0, 1)))
+    # 大題標題（第X部分、一、單選題…）與說明框：(頁, y, 是否為說明框)
+    notes = [(p, y, False) for p, y in groups_stop if (p, round(y, 1)) not in said] + [(p, y, True) for p, y in said]
+    starts = []  # (頁, 錨點 y, 切點, 種類, 編號)；依錨點（題號行、說明框、標題行）的位置排序
+    prev_line = {}
+    for no, p, y in seq:
+        floor = prev_line.get(p, bounds[p][0] - 1) + 1
+        # 緊接在題號前的說明框（中間沒有題組標題）才併入本題
+        before = sorted([(n[1], "note") for n in notes if n[0] == p and n[2] and floor < n[1] < y]
+                        + [(g[3], "group") for g in groups if g[2] == p and floor < g[3] < y])
+        anchor = before[-1][0] if before and before[-1][1] == "note" else y
+        starts.append((p, anchor, cut_above(spans[p], anchor, bounds[p][0]), "q", no))
+        prev_line[p] = y
+    for a, z, p, y in groups:
+        starts.append((p, y, cut_above(spans[p], y, bounds[p][0]), "g", a))
+    for p, y, is_note in notes:
+        if not is_note:
+            starts.append((p, y, cut_above(spans[p], y, bounds[p][0]), "h", 0))
+    starts.sort(key=lambda t: (t[0], t[1]))
+
+    def pieces_from(i):
+        p0, c0 = starts[i][0], starts[i][2]
+        p1, c1 = (starts[i + 1][0], starts[i + 1][2]) if i + 1 < len(starts) else (len(doc) - 1, bounds[-1][1])
+        out = []
+        for p in range(p0, p1 + 1):
+            a = c0 if p == p0 else bounds[p][0]
+            z = c1 if p == p1 else bounds[p][1]
+            if z - a > 2:
+                out.append((p, a, z))
+        return out
+
+    qs, gs = {}, {}
+    for i, (p, _, c, kind, no) in enumerate(starts):
+        if kind == "q":
+            qs[no] = pieces_from(i)
+        elif kind == "g":
+            gs[no] = pieces_from(i)
+    return qs, gs
+
+
 def region_text(doc, pieces):
     parts = []
     for pno, y0, y1 in pieces:
@@ -185,27 +271,33 @@ def main():
     key = answer_key(subject, year)
     stats = item_stats(subject, year)
     opts = option_stats(subject, year)
-    img_dir = ROOT / "docs" / "img" / subject
+    img_arg = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--img-dir=")), None)
+    img_dir = Path(img_arg) if img_arg else ROOT / "docs" / "img" / subject
     img_dir.mkdir(parents=True, exist_ok=True)
     pre = PREFIX[subject]
 
     bounds = [page_bounds(pg) for pg in doc]
     occs = [occupied(pg, *bounds[i]) for i, pg in enumerate(doc)]
+    mq, mg = math_regions(doc, seq, groups, bounds) if MATH else ({}, {})
     items, gout = [], []
     heads = sorted([(n, p, y) for n, p, y in seq] + [(g[0] - 0.5, g[2], g[3]) for g in groups]
                    + [(0, p, y) for p, y in groups_stop], key=lambda t: (t[1], t[2]))
     for idx, (no, pno, y0) in enumerate(seq):
-        later = [h for h in heads if (h[1], h[2]) > (pno, y0)]
-        if later:
-            _, np_, ny = later[0]
-            nt = next_start_top(doc[np_], ny, y0 + 12 if np_ == pno else 0)
-            stop = (np_, nt - 7 if nt < ny else nt)  # 下一題上方有公式時多留一點空隙
+        if MATH:
+            pieces = mq[no]
+            img = render(doc, pieces, exact=True)
         else:
-            stop = (len(doc) - 1, bounds[-1][1])
-        prev_same = [t for t in seq[:idx] if t[1] == pno]
-        my_top = next_start_top(doc[pno], y0, prev_same[-1][2] + 12 if prev_same else 0)
-        pieces = region(doc, bounds, occs, (pno, my_top), stop)
-        img = render(doc, pieces)
+            later = [h for h in heads if (h[1], h[2]) > (pno, y0)]
+            if later:
+                _, np_, ny = later[0]
+                nt = next_start_top(doc[np_], ny, y0 + 12 if np_ == pno else 0)
+                stop = (np_, nt - 7 if nt < ny else nt)  # 下一題上方有公式時多留一點空隙
+            else:
+                stop = (len(doc) - 1, bounds[-1][1])
+            prev_same = [t for t in seq[:idx] if t[1] == pno]
+            my_top = next_start_top(doc[pno], y0, prev_same[-1][2] + 12 if prev_same else 0)
+            pieces = region(doc, bounds, occs, (pno, my_top), stop)
+            img = render(doc, pieces)
         name = f"{year}-{no:02d}.webp"
         if img is not None and (force or not (img_dir / name).exists()):
             img.save(img_dir / name, "WEBP", quality=82, method=6)
@@ -247,8 +339,12 @@ def main():
         if first is None:
             continue
         fp, fy = seq[first][1], seq[first][2]
-        pieces = region(doc, bounds, occs, (gp, gy), (fp, next_start_top(doc[fp], fy)))
-        img = render(doc, pieces)
+        if MATH:
+            pieces = mg[a]
+            img = render(doc, pieces, exact=True)
+        else:
+            pieces = region(doc, bounds, occs, (gp, gy), (fp, next_start_top(doc[fp], fy)))
+            img = render(doc, pieces)
         name = f"{year}-g{a:02d}.webp"
         if img is not None and (force or not (img_dir / name).exists()):
             img.save(img_dir / name, "WEBP", quality=82, method=6)
@@ -272,6 +368,9 @@ def main():
             it["points"] = int(m.group(1)) if m else 2
         it.update({"topic": None, "concepts": [], "classic": None, "explain": "", "reviewed": False})
 
+    if "--no-yaml" in sys.argv:
+        print(f"{img_dir}：{len(items)} 題圖、{len(gout)} 題組圖（未寫入題庫 YAML）")
+        return
     out = ROOT / "data" / "questions" / subject / f"g{year}.yaml"
     doc_out = {"exam": "學測", "year": year, "subject": subject, "source": {"pdf": pdf_url},
                "groups": gout, "items": items}

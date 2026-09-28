@@ -1,0 +1,1648 @@
+exam: 學測
+year: 113
+subject: mathB
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0o051423705511545740/04-113%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8b%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf
+groups:
+- id: mb113-g18
+  range:
+  - 18
+  - 20
+  intro: 閱讀下文，回答18-20題。
+  image: img/mathB/113-g18.webp
+  passage: |-
+    18-20 題為題組
+    如圖所示，考慮長方體的石塊上某一頂點A及包含點A的一個面，令這個面的各邊中點
+    分別為
+    , ,
+    ,
+    B E F D 。此長方體上包含點B 的另一個面，令其各邊中點分別為
+    , ,
+    ,
+    B C H G 。已知
+    8,
+    9
+    BC
+    BD
+    DC
+    =
+    =
+    =
+    。現將此石塊截去八個角，使得每個截角的截面恰通過該截角之三鄰邊
+    的中點。根據上述，試回答下列問題。
+items:
+- id: mb113-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: B11
+  tags: []
+  concepts:
+  - B11
+  classic: true
+  stats:
+    P: 58
+    Ph: 81
+    Pl: 30
+    D: 51
+    opt:
+      '1': 3
+      '2': 5
+      '3': 22
+      '4': 58
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-01.webp
+  text: |-
+    說明：第1 題至第7 題，每題5 分。
+    1. 某遊戲共有210 位玩家，每位玩家均持有寶石，其中持有1 顆的有1 位，持有2 顆的
+    有2 位，依此類推，持有20 顆寶石的有20 位。試問這些玩家每人持有寶石數量的第
+    90 百分位數為下列哪一個選項？
+    (1) 16
+    (2) 17
+    (3) 18
+    (4) 19
+    (5) 20
+- id: mb113-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 49
+    Ph: 88
+    Pl: 13
+    D: 75
+    opt:
+      '1': 49
+      '2': 11
+      '3': 30
+      '4': 7
+      '5': 4
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-02.webp
+  text: |-
+    2. 已知, ,
+    a b c 為實數，且滿足1
+    10
+    a
+    <
+    <
+    、
+    log
+    b
+    a
+    =
+    、
+    log
+    c
+    b
+    =
+    ，試選出正確的選項。
+    (1)
+    0
+    1
+    c
+    b
+    <
+    <
+    <
+    (2) 0
+    1
+    c
+    b
+    <
+    < <
+
+    (3) 0
+    1
+    c
+    b
+    <
+    <
+    <
+    (4) 1
+    c
+    b
+    <
+    <
+
+    (5)
+    0
+    c
+    b
+    <
+    <
+- id: mb113-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 70
+    Ph: 86
+    Pl: 52
+    D: 34
+    opt:
+      '1': 8
+      '2': 70
+      '3': 11
+      '4': 4
+      '5': 6
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-03.webp
+  text: |-
+    3. 某射擊遊戲的玩家要避開障礙物射擊目標。今在遊戲畫面
+    中設立一直角坐標系，以長方形螢幕左下角點O 為原點，
+    螢幕下方的邊緣為x 軸、螢幕左方的邊緣為y 軸，目標物
+    放在點
+    (12,10)
+    P
+    。畫面中有兩面牆（牆厚度可忽略不計），
+    一面牆由點
+    (10,5)
+    A
+    水平延伸到點
+    (15,5)
+    B
+    ，另一面牆由點
+    (0,6)
+    C
+    水平延伸到點
+    (9,6)
+    D
+    ，如右圖之示意圖。若玩家在點
+    Q 可直線射擊點P 的目標物，不會被兩面牆阻擋。下列哪一
+    個選項有可能是點Q 的坐標？
+    (1) (6,3)
+    (2) (7,3)
+    (3) (8,5)
+    (4) (9,1)
+    (5) (9,2)
+
+
+
+    P
+    D
+    C
+    Q
+    A
+    B
+    O
+- id: mb113-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 26
+    Ph: 51
+    Pl: 11
+    D: 40
+    opt:
+      '1': 12
+      '2': 17
+      '3': 21
+      '4': 26
+      '5': 24
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-04.webp
+  text: |-
+    4. 已知坐標平面上有一向量
+    ( 2,3)
+    v = −
+    
+    及兩點A、B ，且點A的x 坐標和y 坐標、點B 的
+    x
+    y
+    [
+    ]
+    0,1
+    坐標和
+    坐標都落在區間
+    內
+    v
+    AB
+    +
+    ，試問
+    的最大值為下列哪一個選項？
+    (1)
+    13
+    (2)
+    17
+    (3) 3 2
+    (4) 5
+    (5)
+    2
+    13
+    +
+- id: mb113-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 45
+    Ph: 77
+    Pl: 20
+    D: 57
+    opt:
+      '1': 14
+      '2': 19
+      '3': 45
+      '4': 14
+      '5': 7
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-05.webp
+  text: |-
+    5.
+    2
+    ( )
+    f x
+    x
+    bx
+    c
+    =
+    +
+    +
+    設二次函數
+    ，
+    ,b c
+    其中
+    為實數。已知
+    (
+    2)
+    (
+    2)
+    f x
+    f
+    x
+    −
+    =
+    −−
+    對任意實數x 均
+    成立，且當
+    3
+    1
+    x
+    −≤
+    ≤時，
+    ( )
+    f x 的最大值會是最小值的4 倍，則
+    ( )
+    f x 的最小值是下列哪
+    一個選項？
+    (1) 0
+    (2) 5
+    3
+    (3) 3
+    (4) 4
+    (5) 6
+- id: mb113-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 37
+    Ph: 67
+    Pl: 13
+    D: 54
+    opt:
+      '1': 37
+      '2': 23
+      '3': 15
+      '4': 18
+      '5': 8
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-06.webp
+  text: |-
+    6. 某大樓居民在大樓外牆展示聖誕樹造型燈飾，如圖所示，從五
+    樓外牆某處P 向四樓地板的兩端A,B 拉小燈泡形成等腰三角
+    形PAB，其中PA
+    PB
+    =
+    ；向三樓地板的兩端C,D 拉小燈泡形成
+    等腰三角形PCD；向二樓地板的兩端E,F 拉小燈泡形成等腰
+    三角形PEF。假設每層樓等高且樓地板等長。若五樓地板在
+    三角形PAB 內部所截出的線段長度為樓地板長度的1
+    3 ，則五
+    樓地板在三角形PEF 內部所截出的線段長度是樓地板長度的
+    幾分之幾？（燈飾粗細可忽略不計）
+    (1) 1
+    7
+    (2) 1
+    6
+    (3) 1
+    5
+    (4) 2
+    9
+    (5) 1
+    4
+
+
+
+
+    五樓
+    四樓
+    三樓
+    二樓
+    一樓
+    B
+    D
+    F
+    E
+    C
+    A
+    P
+- id: mb113-07
+  'no': 7
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 15
+    Ph: 24
+    Pl: 11
+    D: 13
+    opt:
+      '1': 5
+      '2': 47
+      '3': 15
+      '4': 15
+      '5': 17
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-07.webp
+  text: |-
+    7. 有一城市分為東、西兩區。兩區各有一個氣溫偵測站，該城市當天的最高溫（單位：
+    攝氏度）是取這兩區當天氣溫的最大值來記錄。下表顯示東、西兩區某月（共30 天）
+    每日最高溫分布的情形。
+    溫度t
+    18
+    24
+    t
+    ≤<
+
+    24
+    30
+    t
+    ≤<
+
+    30
+    36
+    t
+    ≤<
+
+    36
+    t
+    ≤
+    東區（天數）
+    0
+    11
+    14
+    5
+    西區（天數）
+    3
+    12
+    15
+    0
+    根據上表，該城市當月每日最高溫分布的情形如下表。
+    溫度t
+    18
+    24
+    t
+    ≤<
+
+    24
+    30
+    t
+    ≤<
+
+    30
+    36
+    t
+    ≤<
+
+    36
+    t
+    ≤
+    天數
+    A
+    B
+    C
+    D
+    ( , , ,
+    )
+    A B C D
+    試選出有可能為數組
+    的選項。
+    (1) (0,15,15,0)
+    (2) (3,12,15,5)
+    (3) (0,9,16,5)
+    (4) (3,7,15,5)
+    (5) (0,12,13,5)
+- id: mb113-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 56
+    Ph: 85
+    Pl: 22
+    D: 63
+    T: 41
+    opt:
+      '1': 69
+      '2': 87
+      '3': 23
+      '4': 33
+      '5': 66
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-08.webp
+  text: |-
+    說明：第8 題至第12 題，每題5 分。
+    8. 已知正實數數列, , , ,
+    a b c d e 為等比數列，且a
+    b
+    c
+    d
+    e
+    <
+    <
+    <
+    < ，試選出下列為等比數列的選項。
+    (1)
+    ,
+    , ,
+    ,
+    a
+    b c
+    d e
+    −
+    −
+
+    (2)
+    , , , ,
+    e d c b a
+    (3) log ,log ,log ,log ,log
+    a
+    b
+    c
+    d
+    e
+    (4)
+    ,3 ,3 ,3 ,
+    3
+    3
+    a
+    b
+    c
+    d
+    e
+    (5)
+    ,
+    ,
+    abc bcd cde
+- id: mb113-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 29
+    Ph: 44
+    Pl: 18
+    D: 26
+    T: 12
+    opt:
+      '1': 39
+      '2': 71
+      '3': 35
+      '4': 42
+      '5': 39
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-09.webp
+  text: |-
+    9. 已知多項式
+    ( )
+    f x 除以
+    2
+    5
+    1
+    x
+    x
+    +
+    + 後，所得出的商式為
+    3
+    2
+    7
+    3
+    x
+    x
+    x
+    +
+    +
+    +
+    ，試選出下列可能為
+    ( )
+    f x 的選項。
+    (1)
+    3
+    2
+    2
+    2(
+    7
+    3)(
+    5
+    1)
+    x
+    x
+    x
+    x
+    x
+    +
+    +
+    +
+    +
+    +
+
+    (2)
+    3
+    2
+    2
+    (
+    7
+    3)(
+    5
+    1)
+    x
+    x
+    x
+    x
+    x
+    x
+    +
+    +
+    +
+    +
+    +
+    −
+
+    (3)
+    3
+    2
+    2
+    2
+    (
+    7
+    3)(
+    5
+    1)
+    x
+    x
+    x
+    x
+    x
+    x
+    +
+    +
+    +
+    +
+    +
+    +
+
+    (4)
+    3
+    2
+    2
+    (
+    7
+    4)(
+    5
+    1)
+    x
+    x
+    x
+    x
+    x
+    x
+    +
+    +
+    +
+    +
+    +
+    −
+
+    (5)
+    3
+    2
+    2
+    2
+    (
+    7
+    4)(
+    5
+    1)
+    x
+    x
+    x
+    x
+    x
+    x
+    +
+    +
+    +
+    +
+    +
+    −
+- id: mb113-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3,4
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 44
+    Ph: 70
+    Pl: 20
+    D: 50
+    T: 24
+    opt:
+      '1': 79
+      '2': 38
+      '3': 62
+      '4': 63
+      '5': 32
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-10.webp
+  text: |-
+    10. 有兩個光點在一條長度為120 公分的直線形軌道上移動，碰到端點就反向繼續移動。
+    一開始兩點分別在軌道的兩端相向而動，光點A、光點B 的移動速率分別為每秒5 公分
+    及每秒10 公分。試選出正確的選項。
+    (1) 兩個光點第一次相遇的位置，與其中一個端點的距離為40 公分
+    (2) 光點A 的位置呈週期現象，週期為24 秒
+    (3) 當光點A 回到A 的出發點時，光點B 也在B 的出發點
+    (4) 兩個光點第二次相遇在其中一個端點上
+    (5) 兩個光點在軌道上共有3 個不同的相遇位置
+- id: mb113-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4,5
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 31
+    Ph: 56
+    Pl: 14
+    D: 42
+    T: 15
+    opt:
+      '1': 65
+      '2': 39
+      '3': 54
+      '4': 60
+      '5': 59
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-11.webp
+  text: |-
+    11. 某國家過去五年的碳排放總量，由第1 年的X 億公噸二氧化碳當量（CO2e）下降至
+    第5 年的Y 億公噸二氧化碳當量（CO2e），達到每年平均減碳5% 的效益，亦即
+    4
+    (1
+    0.05)
+    Y
+    X
+    =
+    −
+    。將五年的碳排放總量與年成長率記錄如下表，其中
+    第n年碳排放成長率
+
+
+    1
+
+    1
+    n
+    n
+    n
+    −
+    −
+    =
+    −
+    （第
+    年碳排放總量）（第
+    年碳排放總量）
+    第
+    年碳排放總量
+    ，
+    2,3,4,5
+    n =
+    。
+
+    第1 年
+    第2 年
+    第3 年
+    第4 年
+    第5 年
+    碳排放總量
+    （億公噸CO2e）
+    X
+    A
+    B
+    C
+    Y
+    碳排放年成長率
+
+    0.07
+    −
+
+    p
+    q
+    r
+    試選出正確的選項。
+    (1)
+    0.93
+    A
+    X
+    =
+
+    (2)
+    0.8
+    Y
+    X
+    ≤
+
+    (3)
+    0.07
+    0.05
+    4
+    p
+    q
+    r
+    −
+    +
+    +
+    +
+    = −
+
+    (4)
+    4
+    1
+    0.05
+    Y
+    X −= −
+
+    (5)
+    4
+    0.93(1
+    )(1
+    )(1
+    )
+    (0.95)
+    p
+    q
+    r
+    +
+    +
+    +
+    =
+- id: mb113-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 49
+    Ph: 69
+    Pl: 29
+    D: 40
+    T: 26
+    opt:
+      '1': 76
+      '2': 35
+      '3': 27
+      '4': 76
+      '5': 37
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-12.webp
+  text: |-
+    12. 小明寫了一個程式讓機器人在2
+    2
+    ×
+    的棋盤中移動，如圖所示。每執行一次，程式會選
+    擇「上、下、左、右」中的某一個方向，不同方向被選擇的機率均相等，並指示機器人
+    依該方向移動一格，但若選到的方向會跑出棋盤，則機器人該次會停在原地。每次執行
+    都是從上次所在位置依
+    A
+    程式重新選取的方向移動，假設機器人的初始位置在
+    。令執行
+    程式n次後，機器人停留在A、B、C 、D 的機率分別為
+    n
+    a 、
+    nb 、
+    nc 和
+    n
+    d 。試選出正確
+    的選項。
+    (1)
+    1
+    1
+    4
+    b =
+
+    (2)
+    2
+    1
+    8
+    b =
+
+    (3)
+    2
+    2
+    3
+    4
+    a
+    d
+    +
+    =
+
+    (4)
+    99
+    99
+    b
+    c
+    =
+
+    (5)
+    100
+    100
+    1
+    2
+    a
+    d
+    +
+    >
+- id: mb113-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,1
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 63
+    Ph: 93
+    Pl: 22
+    D: 71
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-13.webp
+  text: |-
+    說明：第13 題至第17 題，每題5 分。
+    13. 已知
+    , , ,
+    a b c d 為實數，且1
+    1
+    1
+    3
+    2
+    0
+    a
+    b
+    −
+    
+    
+    
+    =
+    
+    
+    
+    −
+    
+    
+    
+    。若1
+    1
+    2
+    1
+    3
+    2
+    2
+    1
+    a
+    c
+    b
+    d
+    −
+    +
+    
+    
+    
+    
+    =
+    
+    
+    
+    
+    −
+    +
+    
+    
+    
+    
+    ，則
+    3
+    c
+    d
+    −
+    的值為
+    ○
+    13-1 ○
+    13-2
+    。
+- id: mb113-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,7
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 23
+    Ph: 52
+    Pl: 2
+    D: 50
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-14.webp
+  text: |-
+    14. 某校全體高三學生都有報考學測數學A或數學B ，在這些學生中只報考數學A的學生
+    占全體高三學生的3
+    10 。報考數學A的學生中有5
+    8 的學生同時也報考數學B 。則只報考
+    數學B 的學生在該校所有報考數學B 的學生中所占的比例為○
+    14-1
+    ○
+    14-2
+    。（化為最簡分數）
+- id: mb113-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 3,－,6
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 28
+    Ph: 69
+    Pl: 1
+    D: 68
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-15.webp
+  text: |-
+    15. 已知
+    1
+    2
+    1
+    2
+    P P
+    Q
+    Q
+    R
+    、、、、
+    為平面上相異五點，其中
+    1
+    2
+    P P
+    R
+    、、
+    三點不共線，且滿足
+    1
+    1
+    1
+    4
+    PR
+    PQ
+    =
+    ，
+    2
+    2
+    2
+    7
+    P R
+    P Q
+    =
+    ，則
+    1
+    2
+    Q Q =○
+    15-1
+    1
+    1
+    PQ +○
+    15-2 ○
+    15-3
+    2
+    2
+    P Q
+    。
+- id: mb113-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,3
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 15
+    Ph: 36
+    Pl: 2
+    D: 34
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-16.webp
+  text: |-
+    16. 在空間坐標系中，有一球心坐標在
+    (0,0,0)
+    O
+    且北極點在
+    (0,0,2)
+    N
+    的地球儀。已知球面上
+    點A坐標為
+    3 1
+    ,
+    , 3
+    2
+    2
+    
+    
+    
+    
+    
+    
+    
+    
+    ，赤道上距離點A最遠的點為點P，則在通過點A、點P 的大圓上
+    這兩點的劣弧長為○
+    16-1 π
+    ○
+    16-2
+    。（化為最簡分數）
+- id: mb113-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 7,6
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 官方鑑別度 D=3，低鑑別題不進主線
+  stats:
+    P: 1
+    Ph: 3
+    Pl: 0
+    D: 3
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-17.webp
+  text: |-
+    17. 在一圓的圓周上取12 個等分點並以順時針方向依序編1 號至12 號。由這12 個點任取
+    3 點為頂點所形成的三角形中，三個內角的角度由小到大會成等差數列的三角形有
+    ○
+    17-1 ○
+    17-2
+    個。
+- id: mb113-18
+  'no': 18
+  type: single
+  points: 2
+  group: mb113-g18
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 64
+    Ph: 84
+    Pl: 40
+    D: 44
+    opt:
+      '1': 5
+      '2': 6
+      '3': 19
+      '4': 64
+      '5': 5
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-18.webp
+  text: |-
+    18. 截角後的石塊為幾面體？（單選題，3 分）
+    (1)八面體
+    (2)十面體
+    (3)十二面體
+    (4)十四面體
+    (5)十六面體
+- id: mb113-19
+  'no': 19
+  type: open
+  points: 2
+  group: mb113-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-19.webp
+  text: |-
+    19. 試求
+    BCD
+    ∆
+    的面積。（非選擇題，4 分）
+- id: mb113-20
+  'no': 20
+  type: open
+  points: 2
+  group: mb113-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathB/113-20.webp
+  text: |-
+    20. 試求AD 的長度與四面體ABCD 的體積，並求此四面體以
+    BCD
+    ∆
+    為底面時，頂點A 到底
+    面的高度。（角錐體積
+    3
+    ×
+    = 底面積
+    高）（非選擇題，8 分）
+
+
+
+    參考公式及可能用到的數值
+    1. 首項為a ，公差為d 的等差數列前n項之和為
+    (2
+    (
+    1) )
+    2
+    n
+    a
+    n
+    d
+    S
+    +
+    −
+    =
+
+
+    首項為a ，公比為
+    (
+    1)
+    r r ≠
+    的等比數列前n項之和為
+    (1
+    )
+    1
+    n
+    a
+    r
+    S
+    r
+    −
+    =
+    −
+
+
+    2.
+    ABC
+    ∆
+    的正弦定理：
+    2
+    sin
+    sin
+    sin
+    a
+    b
+    c
+    R
+    A
+    B
+    C
+    =
+    =
+    =
+     （R 為
+    ABC
+    ∆
+    外接圓半徑）
+    ABC
+    ∆
+    的餘弦定理：
+    2
+    2
+    2
+    2
+    cos
+    c
+    a
+    b
+    ab
+    C
+    =
+    +
+    −
+
+
+    3. 一維數據
+    1
+    2
+    :
+    ,
+    ,
+    ,
+    n
+    X x x
+    x
+    
+    ，
+    算術平均數
+    1
+    2
+    1 (
+    )
+    X
+    n
+    x
+    x
+    x
+    n
+    µ
+    =
+    +
+    + ⋅⋅⋅+
+
+    標準差
+    2
+    2
+    2
+    2
+    2
+    2
+    2
+    1
+    2
+    1
+    2
+    1
+    1
+    [(
+    )
+    (
+    )
+    (
+    ) ]
+    [(
+    )
+    ]
+    X
+    X
+    X
+    n
+    X
+    n
+    X
+    x
+    x
+    x
+    x
+    x
+    x
+    n
+    n
+    n
+    σ
+    µ
+    µ
+    µ
+    µ
+    =
+    −
+    +
+    −
+    +
+    +
+    −
+    =
+    +
+    +
+    +
+    −
+    
+    
+
+
+    4. 二維數據
+    1
+    1
+    2
+    2
+    (
+    , ):(
+    ,
+    ),(
+    ,
+    ),
+    ,(
+    ,
+    )
+    n
+    n
+    X Y
+    x y
+    x
+    y
+    x
+    y
+    
+    ，相關係數
+    1
+    1
+    2
+    2
+    ,
+    (
+    )(
+    )
+    (
+    )(
+    )
+    (
+    )(
+    )
+    X
+    Y
+    X
+    Y
+    n
+    X
+    n
+    Y
+    X Y
+    X
+    Y
+    x
+    y
+    x
+    y
+    x
+    y
+    r
+    n
+    µ
+    µ
+    µ
+    µ
+    µ
+    µ
+    σ σ
+    −
+    −
+    +
+    −
+    −
+    +
+    +
+    −
+    −
+    =
+    
+
+    迴歸直線（最適合直線）方程式
+    ,
+    (
+    )
+    Y
+    Y
+    X Y
+    X
+    X
+    y
+    r
+    x
+    σ
+    µ
+    µ
+    σ
+    −
+    =
+    −
+
+
+    5. 參考數值：
+    2
+    1.414 ,
+    3
+    1.732 ,
+    5
+    2.236 ,
+    6
+    2.449 ,
+    3.142
+    π
+    ≈
+    ≈
+    ≈
+    ≈
+    ≈
+
+
+    6. 對數值：log2
+    0.3010, log3
+    0.4771, log5
+    0.6990, log7
+    0.8451
+    ≈
+    ≈
+    ≈
+    ≈

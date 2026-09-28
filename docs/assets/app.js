@@ -25,6 +25,19 @@ async function boot() {
   window.addEventListener("online", () => sync());
   route();
   sync();
+  recheck();
+}
+
+// 每次開啟都向老師的試算表確認代碼仍有效：名冊裡被刪除或停用的代碼會被登出（本機作答紀錄保留）
+async function recheck() {
+  const p = S.getProfile();
+  if (!p || backendMode() !== "live" || !navigator.onLine) return;
+  const r = await hello(p.code).catch(() => null);
+  if (r && r.ok === false && !r.error) {
+    S.setProfile(null);
+    go("#/welcome");
+    toast("這個代碼已停用，請跟老師確認");
+  }
 }
 
 function applyLook(p) {
@@ -570,7 +583,7 @@ function viewWelcome() {
     const r = await hello(code).catch(() => null);
     if (!r) return (msg.textContent = "目前連不上老師的試算表，請確認網路後再試一次");
     if (!r.ok) return (msg.textContent = "找不到這個代碼，請跟老師確認");
-    S.setProfile({ code, name: r.name || "", subjects: ["chinese", "english", "mathA", "science", "social"], theme: "auto", font: "normal" });
+    S.setProfile({ code, name: r.name || "", subjects: CFG.subjects.map((s) => s.id), theme: "auto", font: "normal" });
     go("#/settings");
     toast("先選擇你要考的科目");
   });

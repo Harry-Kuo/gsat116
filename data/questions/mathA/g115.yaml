@@ -32,12 +32,25 @@ groups:
     
     
     、
+    (6, 10, 8)
+    AP
+    AB
+    
+    
+    
+    
     
+    ，
+    6
+    AP 
+    。試回答下列問題。
     A
     B
     Q
     P
     S
+    D
+    C
     R
 items:
 - id: ma115-01
@@ -73,6 +86,7 @@ items:
   reviewed: false
   image: img/mathA/115-01.webp
   text: |-
+    一、單選題（占30 分）
     說明：第1 題至第6 題，每題5 分。
     1. 財神廟舉辦抽發財金活動：參加者抽兩次籤，每次抽籤出現「吉」、「祥」的機率皆為1
     3。
@@ -207,9 +221,6 @@ items:
     
     
     
-
-
-    10
 - id: ma115-03
   'no': 3
   type: single
@@ -584,6 +595,7 @@ items:
   reviewed: false
   image: img/mathA/115-07.webp
   text: |-
+    二、多選題（占30 分）
     說明：第7 題至第12 題，每題5 分。
     7. 坐標平面上同時滿足2
     3
@@ -1137,6 +1149,7 @@ items:
   reviewed: false
   image: img/mathA/115-13.webp
   text: |-
+    三、選填題（占25 分）
     說明：第13 題至第17 題，每題5 分。
     13. 某高中聘用的全體教師1
     4 只有學士學位，3
@@ -1377,22 +1390,12 @@ items:
   reviewed: false
   image: img/mathA/115-18.webp
   text: |-
-    (6, 10, 8)
-    AP
-    AB
-    
-    
-    
-    
-    
-    ，
-    6
-    AP 
-    。試回答下列問題。
     18. 試問平行四邊形ABCD 的面積為何？（單選題，3 分）
-    A
-    D
-    C
+    (1) 2 5
+    (2) 5 2
+    (3) 5 3
+    (4) 6 3
+    (5) 10 2
 - id: ma115-19
   'no': 19
   type: open
@@ -1408,13 +1411,7 @@ items:
   explain: ''
   reviewed: false
   image: img/mathA/115-19.webp
-  text: |-
-    (1) 2 5
-    (2) 5 2
-    (3) 5 3
-    (4) 6 3
-    (5) 10 2
-    19. 設B 點坐標為(1,2,0) ，試求平面ABCD 的平面方程式。（非選擇題，4 分）
+  text: 19. 設B 點坐標為(1,2,0) ，試求平面ABCD 的平面方程式。（非選擇題，4 分）
 - id: ma115-20
   'no': 20
   type: open
