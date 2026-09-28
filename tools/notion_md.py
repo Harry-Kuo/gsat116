@@ -287,6 +287,23 @@ def fmt_day(d):
     return f"{d.month}/{d.day}（{WEEKDAY[d.weekday()]}）"
 
 
+def class_days(w, cfg=None):
+    """第 w 週的上課日：config.yaml 的 classes（第一次上課日＋每週上課的星期）。"""
+    c = (cfg or plan_info()[0])["classes"]
+    first = dt.date.fromisoformat(c["first"])
+    monday = first - dt.timedelta(days=first.weekday()) + dt.timedelta(weeks=w - 1)
+    return [monday + dt.timedelta(days=WEEKDAY.index(x)) for x in c["weekdays"]]
+
+
+def fmt_class(w, cfg=None):
+    return "、".join(fmt_day(d) for d in class_days(w, cfg))
+
+
+def focus(w, text):
+    """各科頁頂端的「第 N 週上課重點」說明。"""
+    return f"**第 {w} 週上課重點**：{text}{fmt_class(w)}上課，完整整理會在上課前放上來。"
+
+
 # ---------- 頁面 ----------
 FEATURED = {
     "A1": ["chn115-01", "chn114-01", "chn113-01", "chn112-01", "chn111-01", "chn110-01"],
@@ -372,7 +389,9 @@ def week1_page():
     """第 1 週上課講義（學生看得到）：原稿中的 [[題目:代碼]] 換成完整題目與折疊解析，[[診斷小考]] 換成 12 題。"""
     _, plan, _, published = plan_info()
     items, groups = load_subject("chinese")
-    doc = (ROOT / "notion" / "week01_chinese.md").read_text(encoding="utf-8").replace("{{SITE}}", SITE)
+    d1, d2 = class_days(1)
+    doc = (ROOT / "notion" / "week01_chinese.md").read_text(encoding="utf-8").replace("{{SITE}}", SITE) \
+        .replace("{{CLASS1}}", fmt_day(d1)).replace("{{CLASS2}}", fmt_day(d2))
     blocks, chunk, shown = [], [], set()
 
     def flush():
@@ -471,8 +490,8 @@ def home_page():
     return [f'<embed src="{SITE}/countdown.html">距離 116 學測倒數</embed>',
             callout("📌", ["**116 學測：2027/1/22（五）–1/24（日）**｜每日快答 **9/30（三）Day 1** 開始，每天每科 5 題，12/31 前做完近六屆經典題。",
                           f"👉 [打開今日練習]({SITE}/)（手機用瀏覽器打開後選「加入主畫面」，之後像 App 一樣一鍵開啟）"], color="orange_bg"),
-            "## 📣 本週：W1 國文（9/30–10/6）",
-            f"- 上課：國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → {w1}",
+            "## 📣 本週：W1 國文",
+            f"- 上課：{fmt_class(1, cfg)}，各 {cfg['classes']['hours']:g} 小時｜國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → {w1}",
             "- 每日練習：國文、英文、數學A、數學B、自然、社會各 5 題，合計約 45 分鐘（數學A、數學B 各約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。",
             "## 🧭 學習地圖",
             pg("rules", "考試制度與作答策略"),
@@ -554,21 +573,28 @@ WEEK_LABEL = {"數學": "數學（數A＋數B）"}
 
 
 def db_week_rows():
-    _, _, start, _ = plan_info()
+    """每週課程：日期＝該週上課日（週二、週四）；每日練習＝上課後的 7 天（到學測前一天為止）。"""
+    cfg, _, start, _ = plan_info()
+    last = (dt.date.fromisoformat(cfg["exam"]["days"][0]) - start).days  # 學測前一天是 Day last
     rows = []
-    for w in range(1, 17):
-        a = start + dt.timedelta(days=7 * (w - 1))
-        e = a + dt.timedelta(days=6)
-        subj = WEEK_SUBJECTS[(w - 1) % 5] if w < 16 else "總複習"
-        props = {"週次": f"W{w} {WEEK_LABEL.get(subj, subj)}", "科目": subj, "date:日期:start": a.isoformat(), "date:日期:end": e.isoformat(),
+    for w in range(1, cfg["classes"]["weeks"] + 1):
+        days = class_days(w, cfg)
+        if w <= 15:
+            subj = WEEK_SUBJECTS[(w - 1) % 5]
+            label, topic = WEEK_LABEL.get(subj, subj), "（上課前公布）"
+        elif w == 16:
+            subj, label, topic = "總複習", "總複習", "考前全真模擬＋錯題總複習"
+        else:
+            subj, label, topic = "總複習", "考前衝刺", "考前最後複習＋考場提醒"
+        props = {"週次": f"W{w} {label}", "科目": subj, "date:日期:start": days[0].isoformat(), "date:日期:end": days[-1].isoformat(),
                  "date:日期:is_datetime": 0, "狀態": "已公布" if w == 1 else "未開始",
-                 "每日練習": f"Day {7 * (w - 1) + 1}–{7 * w}"}
+                 "每日練習": f"Day {7 * (w - 1) + 1}–{min(7 * w, last)}"}
         if w == 1:
             props["上課主題"] = "國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判"
             content = "\n".join(week1_page())
         else:
-            props["上課主題"] = "考前全真模擬＋錯題總複習" if w == 16 else "（上課前公布）"
-            content = callout("🗓️", [f"{fmt_day(a)}–{fmt_day(e)}｜第 {w} 週：**{WEEK_LABEL.get(subj, subj)}**。上課內容與重點整理會在上課前放上來。"])
+            props["上課主題"] = topic
+            content = callout("🗓️", [f"{fmt_class(w, cfg)}上課｜第 {w} 週：**{label}**。上課內容與重點整理會在上課前放上來。"])
         rows.append({"week": w, "properties": props, "content": content})
     return rows
 
@@ -597,11 +623,11 @@ def main():
     write_page("00_home", home_page())
     write_page("01_exam_rules", exam_rules_page())
     write_page("10_chinese", chinese_page())
-    write_page("11_english", skeleton_page("english", "英文 100 分鐘：詞彙 10、綜合測驗 10、文意選填 10、篇章結構 8、閱讀測驗 24（選擇共 62 分）＋混合題 10＋中譯英 8＋英文作文 20。", "**第 2 週（10/7–10/13）上課重點**：各大題解題法、高頻詞彙與搭配、翻譯與作文評分重點。完整整理會在上課前放上來。"))
-    write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課重點**：各單元必考觀念、常見題型與解題流程。完整整理會在上課前放上來。"))
-    write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", "**第 3 週（10/14–10/20）上課重點**：數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。完整整理會在上課前放上來。"))
-    write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", "**第 4 週（10/21–10/27）上課重點**：四科必考觀念、圖表與實驗題解題法。完整整理會在上課前放上來。"))
-    write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", "**第 5 週（10/28–11/3）上課重點**：三科必考觀念、史料與圖表判讀法。完整整理會在上課前放上來。"))
+    write_page("11_english", skeleton_page("english", "英文 100 分鐘：詞彙 10、綜合測驗 10、文意選填 10、篇章結構 8、閱讀測驗 24（選擇共 62 分）＋混合題 10＋中譯英 8＋英文作文 20。", focus(2, "各大題解題法、高頻詞彙與搭配、翻譯與作文評分重點。")))
+    write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", focus(3, "各單元必考觀念、常見題型與解題流程。")))
+    write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", focus(3, "數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。")))
+    write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", focus(4, "四科必考觀念、圖表與實驗題解題法。")))
+    write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", focus(5, "三科必考觀念、史料與圖表判讀法。")))
     write_page("20_past_exams", past_exams_page())
     write_page("30_week01", week1_page())  # 每週課程 W1 的頁面內容（分段寫入 Notion 用）
     write_page("40_progress", progress_page())
