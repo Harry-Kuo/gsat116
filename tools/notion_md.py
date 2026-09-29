@@ -326,6 +326,9 @@ def chinese_page():
     b = [callout("🧭", [
         "**考科結構（114、115 相同）**：國綜 90 分鐘＝單選 24 題×2 分＋多選 7 題×4 分＋混合題 1 題組 24 分（非選 20 分）；國寫 90 分鐘＝兩大題各 25 分。",
         "**國文原得總分＝國綜×0.5＋國寫**，所以國寫 1 分＝國綜 2 分。115 年國文級距 5.106 分（約國綜 5 題單選＝1 級分）。"])]
+    if any(MAP.get(k) for k, _ in REF_PAGES):
+        b += ["## 📚 重點整理", "文言虛詞、15 篇核心古文的原文與白話翻譯，以及月份、節日、年齡、題辭等國學常識，都整理在下面三頁。"]
+        b += [f'<page url="{MAP[k]}">{t}</page>' for k, t in REF_PAGES if MAP.get(k)]
     b += ["## 📈 近六屆出題趨勢（110–115）",
           "- **語文知識題是「固定班底」**：第 1 題字音、第 2 題字形六屆從未缺席，但全國平均答對率只有 39% 與 30%，是最容易拉開差距的 4 分。",
           "- **閱讀理解占一半以上配分**，白話知性閱讀與文言閱讀各約 49 題，是分數主體；圖表題答對率最高（65%），是穩拿分題型。",
@@ -417,7 +420,96 @@ def week1_page():
         else:
             chunk.append(line)
     flush()
-    return blocks
+    subs = {"REF_XUCI": mention("ref:xuci", "〈文言虛詞整理〉"), "REF_CORE": mention("ref:core", "〈核心古文 15 篇〉")}
+    return [re.sub(r"\\\{\\\{(REF_[A-Z]+)\\\}\\\}", lambda m: subs[m.group(1)], blk) for blk in blocks]
+
+
+# ---------- 國文重點整理：文言虛詞、核心古文、國學常識 ----------
+REF = ROOT / "data" / "reference"
+REF_PAGES = [("ref:xuci", "文言虛詞整理"), ("ref:core", "核心古文 15 篇"), ("ref:guoxue", "國學常識")]
+
+
+def core_texts():
+    """15 篇核心古文：原文（chinese_core_orig.yaml）加上翻譯與重點（chinese_core/NN.yaml），依檔名順序。"""
+    orig = {t["title"]: t for t in qyaml.load(REF / "chinese_core_orig.yaml")}
+    return [{**orig[n["title"]], **n} for n in (qyaml.load(f) for f in sorted((REF / "chinese_core").glob("*.yaml")))]
+
+
+def core_hits(title, items):
+    """近六屆國綜引用這篇核心古文的題目（依題目的「核心:篇名」標籤）。"""
+    return sorted((it for it in items.values() if f"核心:{title}" in (it.get("tags") or [])),
+                  key=lambda it: (-int(it["_year"]), int(it["no"])))
+
+
+def mention(key, fallback):
+    return f'<mention-page url="{MAP[key]}"/>' if MAP.get(key) else fallback
+
+
+def mark(ex):
+    """例句中用 [ ] 標出的字改成粗體。"""
+    return re.sub(r"\\\[(.+?)\\\]", r"**\1**", esc(ex))
+
+
+def xuci_page():
+    _, _, _, published = plan_info()
+    items, _ = load_subject("chinese")
+    d = qyaml.load(REF / "chinese_xuci.yaml")
+    b = [callout("🔤", [esc(d["intro"])]), "## 答題技巧"] + [f"- {esc(t)}" for t in d["tips"]]
+    b += ["## 常考虛詞",
+          f"點開每個字，看它的各種用法和例句；例句裡的粗體字就是要判斷的字。例句都出自核心古文，原文和翻譯見 {mention('ref:core', '〈核心古文 15 篇〉')}。"]
+    for w in d["words"]:
+        b.append(f'### {esc(w["word"])} {{toggle="true"}}')
+        for u in w["uses"]:
+            line = f"- **{esc(u['use'])}**：「{mark(u['ex'])}」〈{esc(u['src'])}〉"
+            b.append(indent(line + (f"（{esc(u['note'])}）" if u.get("note") else "")))
+    b.append("## 學測考過的虛詞題")
+    b += [f"- {ref(items[q], 'chinese', published)}" for q in d["exams"] if q in items]
+    return b
+
+
+def core_index_page():
+    items, _ = load_subject("chinese")
+    texts = core_texts()
+    rows = [["篇名", "作者", "時代", "近六屆引用"]]
+    for t in texts:
+        rows.append([mention("core:" + t["title"], f"〈{esc(t['title'])}〉"), esc(t["by"]), esc(t["era"]),
+                     f"{len(core_hits(t['title'], items))} 題"])
+    b = [callout("📜", ["108 課綱推薦的 15 篇文言文。學測常把核心古文拆成詞義、句式和佐證選項來考，近六屆國綜有很多題目直接引用這些課文。",
+                        "每一篇都有題解、原文和逐段白話翻譯、閱讀重點、重要字詞、名句與成語，以及引用這篇課文的考古題。"]),
+         table(rows),
+         "原文依國語文學科中心「高中國文學習網」，並對照維基文庫與歷屆試題的引文校訂；白話翻譯以好懂為主，字詞解釋以課本注釋為準。",
+         "## 15 篇課文"]
+    b += [f'<page url="{MAP["core:" + t["title"]]}">{esc(t["title"])}</page>' for t in texts if MAP.get("core:" + t["title"])]
+    return b
+
+
+def core_text_page(t):
+    _, _, _, published = plan_info()
+    items, _ = load_subject("chinese")
+    b = [callout("📜", [f"**{esc(t['by'])}｜{esc(t['era'])}**", esc(t["intro"]), esc(t["author"])]),
+         "## 原文與白話翻譯",
+         "引文框裡是原文，下面接著是白話翻譯。"]
+    for o, tr in zip(t["paras"], t["trans"]):
+        b += [f"> {esc(o)}", esc(tr)]
+    b.append("## 閱讀重點")
+    b += [f"- {esc(x)}" for x in t["focus"]]
+    b.append("## 重要字詞")
+    b += ["- **{}**：{}".format(*map(esc, w.split("：", 1))) for w in t["words"]]
+    b.append("## 名句")
+    b += [f"- {esc(q)}" for q in t["quotes"]]
+    if t.get("idioms"):
+        b.append("## 出自本文的成語與典故")
+        b += ["- **{}**：{}".format(*map(esc, x.split("：", 1))) for x in t["idioms"]]
+    hits = core_hits(t["title"], items)
+    if hits:
+        b.append(f"## 近六屆引用本文的考古題（{len(hits)} 題）")
+        b += [f"- {ref(it, 'chinese', published)}" for it in hits]
+    b.append(f"原文出處：[國語文學科中心高中國文學習網]({t['source']})")
+    return b
+
+
+def guoxue_page():
+    return convert_md((ROOT / "notion" / "chinese_guoxue.md").read_text(encoding="utf-8"))
 
 
 def progress_page():
@@ -628,6 +720,11 @@ def main():
     write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", focus(3, "數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。")))
     write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", focus(4, "四科必考觀念、圖表與實驗題解題法。")))
     write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", focus(5, "三科必考觀念、史料與圖表判讀法。")))
+    write_page("15_chinese_xuci", xuci_page())
+    write_page("16_chinese_core", core_index_page())
+    for i, t in enumerate(core_texts(), 1):
+        write_page(f"16_core_{i:02d}", core_text_page(t))
+    write_page("17_chinese_guoxue", guoxue_page())
     write_page("20_past_exams", past_exams_page())
     write_page("30_week01", week1_page())  # 每週課程 W1 的頁面內容（分段寫入 Notion 用）
     write_page("40_progress", progress_page())

@@ -23,7 +23,7 @@ classes:                     # 上課時間（只有 Notion 每週課程用）�
   first: "2026-09-29"        # W1 第一次上課（週二）
   weekdays: [二, 四]
   hours: 1.5
-  weeks: 17                  # W1–W15 國→英→數→自→社輪替，W16 總複習，W17 考前衝刺（1/19、1/21）
+  weeks: 16                  # W1–W15 國→英→數→自→社輪替，W16 總複習；2026/9/29 老師告知課程暫定到 1/14
 backend: "https://script.google.com/macros/s/AKfycbyhIzX8R_AjyeNNzmpLXdnrX3PabfuO298koeubE53-GcU6J5s0mlR0fJH3poOFJ9vw/exec"
 notion: {}                   # 各科/觀念的 Notion 連結（建好 Notion 後由 build 讀 notion/notion_map.json）
 subjects:
