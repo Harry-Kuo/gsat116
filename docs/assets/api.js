@@ -1,6 +1,6 @@
 // 資料載入與後端（Google Apps Script）溝通。
 // backend 設定：空字串＝離線模式（只存本機）；"mock"＝本機測試用假後端；其他＝Apps Script 網址。
-import { dequeue, getQueue, setMeta } from "./store.js";
+import { dequeue, getMeta, getQueue, setMeta } from "./store.js";
 
 let cfg = null;
 const cache = {};
@@ -80,6 +80,22 @@ export async function flushQueue(code) {
   }
   if (sent) setMeta("lastSync", new Date().toISOString());
   return { sent, pending: getQueue().length };
+}
+
+// 取回這個代碼在老師試算表裡的作答（包含其他裝置的作答）。
+// 後端記得上次讀到第幾列（cursor），之後只回傳新增的列；full＝這次回傳的是完整紀錄。
+// 回傳 null 表示這次沒有取回（離線、連不上，或後端還沒更新到支援同步的版本）。
+export async function pull(code) {
+  const mode = backendMode();
+  if (mode === "offline" || !navigator.onLine) return null;
+  if (mode === "mock") return { rows: mockDb().filter((r) => r.code === code), full: true };
+  const cur = getMeta("pullCursor");
+  const from = cur && cur.code === code ? cur : { row: 0, id: "" };
+  const r = await call({ action: "mine", code, after: from.row, afterId: from.id });
+  if (!r || !r.ok || !Array.isArray(r.attempts)) return null;
+  const rows = r.attempts.map(([id, ts, day, set, subject, qid, m, resp, correct, score, max, sec, text]) =>
+    ({ id, ts, day, set, subject, qid, mode: m, resp, correct, score, max, ms: (Number(sec) || 0) * 1000, text }));
+  return { rows, full: !!r.full, cursor: { code, row: r.row, id: r.rowId } };
 }
 
 // ---- 老師端 ----

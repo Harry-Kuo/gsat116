@@ -1,5 +1,5 @@
 // 116 學測快答：首頁、作答、錯題本、設定。純前端，資料來自 data/*.json。
-import { bank, backendMode, flushQueue, hello, loadConfig, loadJSON } from "./api.js";
+import { bank, backendMode, flushQueue, hello, loadConfig, loadJSON, pull } from "./api.js";
 import * as S from "./store.js";
 import { addDays, countdown, daysBetween, esc, fmtDate, fmtScore, fmtSec, pad, todayStr, toast, uid } from "./util.js";
 
@@ -19,12 +19,17 @@ async function boot() {
     return;
   }
   CFG.subjects.forEach((s) => (SUBJ[s.id] = s));
+  const p = S.getProfile();
+  if (p && !S.getMeta("owner")) S.setMeta("owner", p.code);
   startCountdown();
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
   window.addEventListener("hashchange", route);
   window.addEventListener("online", () => sync());
+  // 切回這個分頁或 App 時，取回其他裝置的作答
+  document.addEventListener("visibilitychange", () => document.visibilityState === "visible" && sync());
+  window.addEventListener("focus", () => sync());
   route();
-  sync();
+  sync(true);
   recheck();
 }
 
@@ -59,12 +64,54 @@ function startCountdown() {
   tick = setInterval(draw, 1000);
 }
 
-async function sync() {
-  const p = S.getProfile();
-  if (!p) return;
-  const r = await flushQueue(p.code).catch(() => null);
-  const el = document.getElementById("sync");
-  if (el && r) el.textContent = syncText();
+// 同步：先上傳這台裝置的作答，再取回其他裝置的作答並合併。同一時間只跑一個，避免上傳和取回互相干擾。
+const PULL_GAP = 15000;
+let syncing = null;
+let again = false;
+let forceNext = false;
+let lastPull = 0;
+
+async function sync(force = false) {
+  forceNext ||= force;
+  if (syncing) {
+    again = true;
+    return syncing;
+  }
+  syncing = (async () => {
+    do {
+      again = false;
+      const p = S.getProfile();
+      if (!p) break;
+      await flushQueue(p.code).catch(() => null);
+      if (!forceNext && Date.now() - lastPull < PULL_GAP) continue;
+      forceNext = false;
+      const r = await pull(p.code).catch(() => null);
+      if (!r || S.getProfile()?.code !== p.code) continue;
+      lastPull = Date.now();
+      const changed = S.mergeRemote(r.rows, r.full);
+      if (r.cursor) S.setMeta("pullCursor", r.cursor);
+      S.setMeta("lastPull", new Date().toISOString());
+      if (changed || r.full) {
+        S.rebuild();
+        refreshView();
+      }
+    } while (again);
+  })();
+  try {
+    await syncing;
+  } finally {
+    syncing = null;
+  }
+  const el = document.getElementById("synctext");
+  if (el) el.textContent = syncText();
+}
+
+// 取回新的作答後，首頁與錯題本重畫；作答中的畫面不打斷
+function refreshView() {
+  const view = location.hash.replace(/^#\/?/, "").split("/")[0];
+  if (!S.getProfile()) return;
+  if (!view) viewHome();
+  else if (view === "wrong") viewWrong();
 }
 
 function syncText() {
@@ -72,8 +119,33 @@ function syncText() {
   const mode = backendMode();
   if (mode === "offline") return "目前為離線模式：作答只存在這台裝置";
   if (pending) return `還有 ${pending} 筆作答等待上傳（連上網路會自動補送）`;
-  const last = S.getMeta("lastSync");
-  return last ? "作答已同步給老師 ✓" : "作答會自動同步給老師";
+  const pulled = S.getMeta("lastPull");
+  if (pulled) {
+    const t = new Intl.DateTimeFormat("zh-TW", { timeZone: "Asia/Taipei", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(pulled));
+    return `作答已同步 ✓（${t}）手機、電腦的進度會自動合併`;
+  }
+  return S.getMeta("lastSync") ? "作答已同步給老師 ✓" : "作答會自動同步給老師";
+}
+
+function syncHTML() {
+  const live = backendMode() !== "offline";
+  return `<div class="sync"><span id="synctext">${syncText()}</span>${live ? ` <button class="linkbtn" id="syncnow">🔄 立即同步</button>` : ""}</div>`;
+}
+
+function bindSync() {
+  app.querySelector("#syncnow")?.addEventListener("click", async (ev) => {
+    const btn = ev.currentTarget;
+    btn.disabled = true;
+    btn.textContent = "同步中…";
+    const before = S.getMeta("lastPull");
+    await sync(true);
+    const ok = S.getMeta("lastPull") !== before;
+    if (btn.isConnected) {
+      btn.disabled = false;
+      btn.textContent = "🔄 立即同步";
+    }
+    toast(ok ? "已取回最新進度" : "目前連不上老師的試算表，稍後會自動再試");
+  });
 }
 
 // ---------------------------------------------------------------- 路由
@@ -197,9 +269,10 @@ async function viewHome() {
       <button class="btn" id="wrong">📕 錯題本 ${wrong || ""}</button>
       <button class="btn" id="set">⚙️ 設定</button>
     </div>
-    <div class="sync" id="sync">${syncText()}</div>
+    ${syncHTML()}
   </div>`;
 
+  bindSync();
   app.querySelector("#go")?.addEventListener("click", () => startToday(firstTodo));
   app.querySelector("#extra")?.addEventListener("click", startExtra);
   app.querySelector("#extra2")?.addEventListener("click", startExtra);
@@ -276,7 +349,7 @@ async function viewQuiz() {
     return viewQuiz();
   }
   const g = it.g ? b.groups[it.g] : null;
-  const rec = sess.answers[entry.qid];
+  const rec = sess.answers[entry.qid] || answeredElsewhere(sess, entry);
   const prevSameGroup = sess.idx > 0 && sess.items[sess.idx - 1] && b.items[sess.items[sess.idx - 1].qid]?.g === it.g && it.g;
   const pct = Math.round((100 * sess.idx) / sess.items.length);
 
@@ -299,6 +372,16 @@ async function viewQuiz() {
   if (it.t === "open") renderOpen(sess, entry, it, rec);
   else if (it.t === "fill") renderFill(sess, entry, it, rec);
   else renderChoice(sess, entry, it, rec);
+}
+
+// 今日快答或補做的題目，如果已經在其他裝置作答過（同步後出現在每日進度裡），直接顯示那次的結果
+function answeredElsewhere(sess, entry) {
+  if (!entry.date || entry.review || !["basic", "extra"].includes(sess.mode)) return null;
+  const rec = S.dayProgress(entry.date, entry.s).answers[entry.qid];
+  if (!rec) return null;
+  sess.answers[entry.qid] = rec;
+  S.setSession(sess);
+  return rec;
 }
 
 function answerKeys(it) {
@@ -353,6 +436,7 @@ function gradeMulti(it, sels) {
 function showChoiceResult(sess, entry, it, rec) {
   const ans = new Set(answerKeys(it));
   const sel = new Set(String(rec.resp || "").includes(",") ? rec.resp.split(",") : String(rec.resp || "").split(""));
+  const wrongN = rec.wrong ?? it.o.filter(([k]) => ans.has(k) !== sel.has(k)).length;
   app.querySelectorAll(".opt").forEach((btn) => {
     const k = btn.dataset.k;
     btn.disabled = true;
@@ -368,7 +452,7 @@ function showChoiceResult(sess, entry, it, rec) {
   if (!rec.correct) {
     cls = rec.score > 0 ? "part" : "bad";
     head = it.t === "multi"
-      ? `${rec.score > 0 ? "🟡" : "❌"} 得 ${fmtScore(rec.score)}／${it.p} 分（錯 ${rec.wrong ?? "?"} 個選項）・正解 ${[...ans].join("")}`
+      ? `${rec.score > 0 ? "🟡" : "❌"} 得 ${fmtScore(rec.score)}／${it.p} 分（錯 ${wrongN} 個選項）・正解 ${[...ans].join("")}`
       : rec.resp ? `❌ 正解是 ${it.a}` : `⏭ 跳過・正解是 ${it.a}`;
   }
   let trap = "";
@@ -464,18 +548,17 @@ function commit(sess, entry, it, result) {
   const rec = { ...result, ms };
   sess.answers[entry.qid] = rec;
   S.setSession(sess);
-  if (entry.date && sess.mode !== "single") {
-    const setLen = (dayEntry(daysBetween(SCHED.start, entry.date) + 1)?.sets?.[entry.s] || []).length;
-    S.saveAnswer(entry.date, entry.s, entry.qid, rec, setLen);
-  }
+  if (entry.date && sess.mode !== "single") S.saveAnswer(entry.date, entry.s, entry.qid, rec);
   S.recordHistory(entry.qid, rec);
   if (it.t !== "open") S.updateSrs(entry.qid, rec.correct);
   const p = S.getProfile();
-  S.enqueue({
+  const attempt = {
     id: uid(), ts: new Date().toISOString(), code: p.code, name: p.name || "", day: todayStr(), set: entry.date || "",
     subject: entry.s, qid: entry.qid, mode: entry.review ? "review" : sess.mode, resp: rec.resp || "",
     correct: rec.correct ? 1 : 0, score: rec.score, max: rec.max, ms, text: rec.text || "",
-  });
+  };
+  S.logAttempt(attempt);
+  S.enqueue(attempt);
   sync();
   if (it.t === "open") return viewQuiz();
   if (it.t === "fill") return showSimpleResult(sess, it, rec, `正解：${answerKeys(it).map((a, i) => `${it.no}-${i + 1}＝${a}`).join("、")}`);
@@ -510,7 +593,7 @@ async function viewSummary(sess) {
     ${wrong.length ? `<div class="card"><b>這幾題會在 1、3、7 天後再出現：</b><ul class="list">${wrong.map((x) => `<li><span class="t">${esc(x.it?.src || x.e.qid)}</span>
       <div>${(x.it?.c || []).map((c) => `<span class="tag">${esc(conceptName(x.e.s, c))}</span>`).join("")}</div></li>`).join("")}</ul></div>`
       : `<div class="card center">全對！🎉</div>`}
-    <div class="sync" id="sync">${syncText()}</div>
+    <div class="sync"><span id="synctext">${syncText()}</span></div>
   </div>
   <div class="dock"><div class="wrap"><button class="btn primary" id="home">回首頁</button></div></div>`;
   app.querySelector("#home").addEventListener("click", () => {
@@ -583,9 +666,11 @@ function viewWelcome() {
     const r = await hello(code).catch(() => null);
     if (!r) return (msg.textContent = "目前連不上老師的試算表，請確認網路後再試一次");
     if (!r.ok) return (msg.textContent = "找不到這個代碼，請跟老師確認");
+    S.switchOwner(code);
     S.setProfile({ code, name: r.name || "", subjects: CFG.subjects.map((s) => s.id), theme: "auto", font: "normal" });
     go("#/settings");
     toast("先選擇你要考的科目");
+    sync(true);
   });
 }
 
@@ -611,7 +696,7 @@ function viewSettings() {
     </div>
     <div class="card">
       <b>本機資料</b>
-      <p class="small muted">待上傳 ${S.getQueue().length} 筆。換手機前請先連上網路，讓作答同步給老師。</p>
+      <p class="small muted">手機、電腦用同一個代碼登入，進度、錯題本會自動合併（需要連上網路）。待上傳 ${S.getQueue().length} 筆。</p>
       <button class="btn" id="reset">清除這台裝置的資料</button>
     </div>
   </div>

@@ -8,6 +8,9 @@
  *   4. 在「名冊」工作表填入學生代碼（英數 2–12 碼，不分大小寫）與暱稱，「是否啟用」設 TRUE。
  *      名冊裡沒有、或「是否啟用」為 FALSE 的代碼都進不了練習網站。
  * 之後修改程式要重新部署：「部署 › 管理部署作業 › 編輯（鉛筆）› 版本：新版本」，網址不變。
+ *
+ * 提供的功能：hello（確認代碼）、submit（上傳作答）、mine（學生取回自己的作答，讓手機和電腦的進度一致）、
+ *            export（老師儀表板，需要老師密鑰）。
  */
 const SHEET_ROSTER = "名冊";
 const SHEET_ATTEMPTS = "作答紀錄";
@@ -48,6 +51,7 @@ function doGet(e) {
   const p = (e && e.parameter) || {};
   try {
     if (p.action === "hello") return json_(hello_(p.code));
+    if (p.action === "mine") return json_(mine_(p.code, p.after, p.afterId));
     if (p.action === "export") return json_(export_(p.key, p.since));
     return json_({ ok: true, service: "116 學測快答後端" });
   } catch (err) {
@@ -114,6 +118,29 @@ function submit_(code, attempts) {
   } finally {
     lock.releaseLock();
   }
+}
+
+// 學生取回自己的作答（手機、電腦同步進度用）。只回傳這個代碼的紀錄，不含其他學生。
+// after／afterId：上次讀到的列號與該列的 id。該列的 id 對不上（老師刪過或排序過紀錄）就整份重讀，並回傳 full: true。
+function mine_(code, after, afterId) {
+  code = String(code || "").trim().toUpperCase();
+  const s = roster_().find((r) => r.code === code && r.active);
+  if (!s) return { ok: false, error: "unknown code" };
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_ATTEMPTS);
+  const last = sh.getLastRow();
+  let from = Math.floor(Number(after)) || 1;
+  if (from > 1 && (from > last || String(sh.getRange(from, 1).getValue()) !== String(afterId || ""))) from = 1;
+  const fmt = (v) => (v instanceof Date ? Utilities.formatDate(v, "Asia/Taipei", "yyyy-MM-dd") : String(v));
+  const out = [];
+  if (last > from) {
+    sh.getRange(from + 1, 1, last - from, HEADERS.length).getValues().forEach((r) => {
+      if (String(r[3]).trim().toUpperCase() !== code) return;
+      // [id, 作答時間, 練習日, 題目所屬日, 科目, 題號, 模式, 作答, 對錯, 得分, 滿分, 用時秒, 作答文字]
+      out.push([String(r[0]), String(r[2]), fmt(r[5]), fmt(r[6]), String(r[7]), String(r[8]), String(r[9]), String(r[10]),
+        Number(r[11]) || 0, Number(r[12]) || 0, Number(r[13]) || 0, Number(r[14]) || 0, String(r[15])]);
+    });
+  }
+  return { ok: true, attempts: out, full: from === 1, row: last, rowId: last > 1 ? String(sh.getRange(last, 1).getValue()) : "" };
 }
 
 function recentIds_(sh) {
