@@ -876,7 +876,7 @@ items:
   type: single
   points: 1
   group: eng114-g21
-  stem: Over centuries, the bells have become a <b><u> 26 </u></b> part of life in Paris, where they are known as “the cathedral’s voice.
+  stem: Over centuries, the bells have become a <b><u> 26 </u></b> part of life in Paris, where they are known as “the cathedral’s voice.”
   options:
     A: reference
     B: bearing

@@ -134,14 +134,14 @@ sci115-22:
     放熱＝0.025×1640＋0.075×3000＝41＋225＝266 kJ
     放熱反應 ΔH 為負 → Q＝−266 kJ → (C) ✓
 sci115-31:
-  key: 從子代反推：X 必須帶 I^A 或 I^B 且帶 i；Y 必須是 I^A i。
+  key: 從子代反推：X 必須帶 Iᴬ 或 Iᴮ 且帶 i；Y 必須是 Iᴬ i。
   explain: |
-    第一代 A×B 生出 AB、A、O 的子女 → 父母分別是 I^A i、I^B i。
-    X×AB（I^A I^B）生出 AB、A、B：
-    ・若 X＝I^A I^A，不可能生出 B 型 ✗；若 X＝ii，不可能生出 AB 型 ✗
-    ・X＝I^A i 或 I^B i 都能生出 AB、A、B ✓
-    O（ii）×Y 生出 A、O → Y 必須同時帶 I^A 與 i → Y＝I^A i
-    符合的組合：(A)(I^A i, I^A i)、(C)(I^B i, I^A i) ✓
+    第一代 A×B 生出 AB、A、O 的子女 → 父母分別是 Iᴬ i、Iᴮ i。
+    X×AB（Iᴬ Iᴮ）生出 AB、A、B：
+    ・若 X＝Iᴬ Iᴬ，不可能生出 B 型 ✗；若 X＝ii，不可能生出 AB 型 ✗
+    ・X＝Iᴬ i 或 Iᴮ i 都能生出 AB、A、B ✓
+    O（ii）×Y 生出 A、O → Y 必須同時帶 Iᴬ 與 i → Y＝Iᴬ i
+    符合的組合：(A)(Iᴬ i, Iᴬ i)、(C)(Iᴮ i, Iᴬ i) ✓
 sci114-11:
   key: 無線電波、紅外線、X 射線都是電磁波；微中子是粒子，重力波是時空漣漪。
   explain: |

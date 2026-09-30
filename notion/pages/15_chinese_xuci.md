@@ -197,4 +197,4 @@
 - <mention-page url="https://app.notion.com/p/3e9ee100984f81fdaa95c7143652cbf3"/>　全國答對率 21%
 - <mention-page url="https://app.notion.com/p/3e9ee100984f81889326da6ace1a1044"/>　全國答對率 42%
 - <mention-page url="https://app.notion.com/p/3e9ee100984f8137b6a6fb5f42540394"/>　全國答對率 50%
-- [111 學測國綜 第 18 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 33%
+- <mention-page url="https://app.notion.com/p/3ebee100984f814694bbc3127eb84ddd"/>　全國答對率 33%

@@ -173,8 +173,8 @@
 	</details>
 	<details>
 	<summary>其他相關考古題（2 題）</summary>
-		- [115 學測國綜 第 3 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 31%
-		- [111 學測國綜 第 32 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 38%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f819197c2f522551f974e"/>　全國答對率 31%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f815caa48f0f5c8644daf"/>　全國答對率 38%
 	</details>
 </details>
 <details>
@@ -184,9 +184,9 @@
 	</callout>
 	<details>
 	<summary>其他相關考古題（3 題）</summary>
-		- [115 學測國綜 第 28 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 37%
-		- [111 學測國綜 第 29 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 32%
-		- [110 學測國文 第 8 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 60%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81c1a883e21022348048"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81269d8cc9f60cd69e9c"/>　全國答對率 32%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f8114b07df98a487832c5"/>　全國答對率 60%
 	</details>
 </details>
 <details>
@@ -197,7 +197,7 @@
 	<details>
 	<summary>其他相關考古題（9 題）</summary>
 		- [115 學測國綜 第 13 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 16%
-		- [114 學測國綜 第 14 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81ff9546db563310875d"/>　全國答對率 37%
 		- [113 學測國綜 第 20 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 66%
 		- [112 學測國綜 第 21 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 63%
 		- [111 學測國綜 第 23 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 48%

@@ -877,7 +877,7 @@ items:
   type: single
   points: 1
   group: eng113-g21
-  stem: 'Sasaki stated in an interview: “Because my thoughts couldn’t be <b><u> 26 </u></b> through a regular phone line, I wanted them to be carried on the wind.'
+  stem: 'Sasaki stated in an interview: “Because my thoughts couldn’t be <b><u> 26 </u></b> through a regular phone line, I wanted them to be carried on the wind.”'
   options:
     A: passed on
     B: bridge
@@ -1082,7 +1082,7 @@ items:
   type: single
   points: 2
   group: eng113-g31
-  stem: When he returned, he felt “pretty good.” <b><u> 31 </u></b> When people have sprained a muscle or tendon, they are usually advised not to go right back to exercising until the pain goes away. But Dr.<br>空格 31 應填入哪一句？
+  stem: When he returned, he felt “pretty good.” <b><u> 31 </u></b> When people have sprained a muscle or tendon, they are usually advised not to go right back to exercising until the pain goes away. But Dr. Weinstein says that approach is outdated and counterproductive.<br>空格 31 應填入哪一句？
   options:
     A: For example, an injured runner might end up cycling and swimming instead of running.
     B: Over time, researchers have come to realize the importance of exercising when injured.
@@ -1111,7 +1111,7 @@ items:
   type: single
   points: 2
   group: eng113-g31
-  stem: Weinstein is not alone in his treatment of sports injury, but the specific advice can differ from specialist to specialist. <b><u> 32 </u></b> They nevertheless caution that a cutback may be necessary, such as running shorter distances or going more slowly. Others say the patients may need to engage in sports outside of their usual, main sport (that is, to cross-train), at least some of the time.<br>空格 32 應填入哪一句？
+  stem: Dr. Weinstein is not alone in his treatment of sports injury, but the specific advice can differ from specialist to specialist. <b><u> 32 </u></b> They nevertheless caution that a cutback may be necessary, such as running shorter distances or going more slowly. Others say the patients may need to engage in sports outside of their usual, main sport (that is, to cross-train), at least some of the time.<br>空格 32 應填入哪一句？
   options:
     A: For example, an injured runner might end up cycling and swimming instead of running.
     B: Over time, researchers have come to realize the importance of exercising when injured.

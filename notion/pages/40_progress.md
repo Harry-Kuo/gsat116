@@ -13,42 +13,42 @@
 		<td>206</td>
 		<td>2.2 題</td>
 		<td>約 42 天做完</td>
-		<td>47</td>
+		<td>82</td>
 	</tr>
 	<tr>
 		<td>英文</td>
 		<td>286</td>
 		<td>3.1 題</td>
 		<td>約 58 天做完</td>
-		<td>35</td>
+		<td>70</td>
 	</tr>
 	<tr>
 		<td>數學A</td>
 		<td>120</td>
 		<td>1.3 題</td>
 		<td>約 24 天做完</td>
-		<td>35</td>
+		<td>70</td>
 	</tr>
 	<tr>
 		<td>數學B</td>
 		<td>120</td>
 		<td>1.3 題</td>
 		<td>約 24 天做完</td>
-		<td>35</td>
+		<td>70</td>
 	</tr>
 	<tr>
 		<td>自然</td>
 		<td>313</td>
 		<td>3.4 題</td>
 		<td>約 63 天做完</td>
-		<td>35</td>
+		<td>70</td>
 	</tr>
 	<tr>
 		<td>社會</td>
 		<td>326</td>
 		<td>3.5 題</td>
 		<td>約 66 天做完</td>
-		<td>35</td>
+		<td>70</td>
 	</tr>
 </table>
 - 每天「基本 5 題」走六屆主線；「加練」由網站自動排入錯題（1、3、7 天後再出現）。

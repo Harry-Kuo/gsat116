@@ -186,7 +186,7 @@
 			(D) 厭常而反古：厭棄 ✗
 			📊 全國答對率 33%｜鑑別度 24｜各選項選答率 A 33%、B 19%、C 35%、D 13%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn111-18)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
 	</details>
 </details>
 <details>
@@ -290,6 +290,6 @@
 		- [115 學測國綜 第 15 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 49%
 		- [111 學測國綜 第 11 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 77%
 		- [111 學測國綜 第 27 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 49%
-		- [110 學測國文 第 36 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 56%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f8160a037f10d506f805f"/>　全國答對率 56%
 	</details>
 </details>

@@ -57,7 +57,8 @@ def block_text(b):
 
 def sentences(par):
     """把一段英文切成句子（保留 <u> 空格標記）。"""
-    parts = re.split(r"(?<=[.!?])(?:[”’\"]|\s*\)\s*)?\s+(?=[A-Z“\"(<])", par)
+    # 句尾引號、括號留在句中；Dr./Mr./Mrs./Ms./St. 後面不斷句
+    parts = re.split(r"(?:(?<=[.!?])|(?<=[.!?][”’\")]))(?<!\bDr\.)(?<!\bMr\.)(?<!\bMrs\.)(?<!\bMs\.)(?<!\bSt\.)\s+(?=[A-Z“\"(<])", par)
     return [p.strip() for p in parts if p.strip()]
 
 
