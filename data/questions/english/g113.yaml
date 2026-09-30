@@ -5,7 +5,75 @@ paper: 英文
 source:
   pdf: https://www.ceec.edu.tw/files/file_pool/1/0o051427482769341323/02-113%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e7%a7%91%e5%ae%9a%e7%a8%bf.pdf
   docx: https://www.ceec.edu.tw/files/file_pool/1/0o051427602203220350/02-113%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e7%a7%91%28%e5%ae%9a%e7%a8%bf%29.docx
-groups: []
+groups:
+- id: eng113-g11
+  range:
+  - 11
+  - 15
+  intro: 第11至15題為題組
+  passage: |-
+    Mystery shoppers are paid consumers who are hired to shop in stores and collect data. They are sent to a wide variety of service-based businesses, including stores, restaurants, and banks—potentially anywhere customers are served. Sometimes referred to as secret shoppers, mystery shoppers <u> 11 </u> regular customers to purchase items, eat in restaurants, make inquiries, or return items. They grade and report on the quality of products, customer service, and environment of the stores <u> 12 </u> they are assigned.
+    When evaluating a business, mystery shoppers have to follow certain standard procedures to avoid <u> 13 </u>. They are often given a checklist that provides directions on what to observe or look out for to ensure consistency. Sometimes these shoppers collect data about their “normal” observations, such as cleanliness of the store or timeliness of the service. They may also pretend to be <u> 14 </u> customers, arguing with a salesperson without a good reason. With the data they collect, mystery shoppers can identify areas for <u> 15 </u> and thereby help enhance the quality of products and services. In this way, these secret shoppers may help a business gain a competitive edge.
+- id: eng113-g16
+  range:
+  - 16
+  - 20
+  intro: 第16至20題為題組
+  passage: |-
+    The modern worker rolls out of bed, groans, and turns off an alarm clock before reluctantly getting up for the day’s work. But how did people get to work on time before alarm clocks were widely used?
+    During the second Industrial Age, people toiled at unusual hours in mines or factories and often had to get up for work early in the morning. They <u> 16 </u> alarm clocks because adjustable alarms had been invented by the mid-19<sup>th</sup> century. But the new device was still relatively expensive and unreliable. British workers thus relied on a human alarm clock known as a “knocker-up.” <u> 17 </u> sticks or pea shooters, the human alarms would tour the streets, tap on windows, or blast them with dried peas, trying to wake paying customers in time for work.
+    Whether they wielded rods or pea shooters, knockers-up became <u> 18 </u> throughout the United Kingdom. Every morning, these people, often older in age, were seen in big streets and small alleys, waking up their customers professionally. They usually would not leave people’s houses until they were sure their customers were awake.
+    While the practice continued in some parts of the country until the 1970s, it <u> 19 </u> as alarm clocks became more widespread and affordable. Today, beeping alarm clocks and smartphones that play morning music are surely simpler and more convenient. However, they cannot <u> 20 </u> the personal attention coming from the distinctive tap of a pea shooter.
+- id: eng113-g21
+  range:
+  - 21
+  - 30
+  intro: 第21至30題為題組
+  passage: |-
+    On a hilltop overlooking the 2011-tsunami hit Otsuchi Town in northeastern Japan, there is a white phone booth standing all alone in the wind. The lonely “wind phone” serves to connect family members to their <u> 21 </u> loved ones who died in the tsunami that claimed 18,000 lives. People come to speak to those they have lost, to say the words they never got to say on that <u> 22 </u> day.
+    The idea for the wind phone was first <u> 23 </u> by a Japanese garden designer named Itaru Sasaki, who was grieving over the death of his cousin in 2010, before the tsunami. Feeling that he needed a private space to help him navigate through the <u> 24 </u>, Sasaki positioned a booth where he could “speak” to the dead relative. The booth he built <u> 25 </u> only an old dial phone with a disconnected phone line. When he stepped into the booth, he could pick up the phone to call his cousin, telling him how he was, and how he missed him. Sasaki stated in an interview: “Because my thoughts couldn’t be <u> 26 </u> through a regular phone line, I wanted them to be carried on the wind.” Hence, the wind phone allows Sasaki to create a one-way conversation with deep, soulful personal meaning, and renders the grieving process more <u> 27 </u> for him.
+    Sasaki opened his wind phone to the public in 2011, after the devastating tsunami. News about the phone gradually spread, and the booth has become a <u> 28 </u> between the living and the dead. Phones resembling the wind phone have since been built around the world. Some were even set up to allow people to call their loved ones lost in the COVID-19 pandemic.
+    Grieving is a natural <u> 29 </u> for coping with loss of a loved one, and people grieve in various ways. For those who speak into the wind phone, <u> 30 </u> is always there: They believe that their messages will—through some unknown way—reach the deceased.
+- id: eng113-g31
+  range:
+  - 31
+  - 34
+  intro: 第31至34題為題組
+  passage: |-
+    While Dr. Weinstein, a surgeon at Dartmouth College, was trying to lift a heavy box, he twisted his back. The pain was agonizing. The surgeon could not sit, and when he lay down he could barely get up. So he decided to go out for a run. He took an aspirin, iced the injured area, and off he went. When he returned, he felt “pretty good.”
+    <u> 31 </u> When people have sprained a muscle or tendon, they are usually advised not to go right back to exercising until the pain goes away. But Dr. Weinstein says that approach is outdated and counterproductive. In fact, when active people consult him, he usually tells them to just keep exercising.
+    Dr. Weinstein is not alone in his treatment of sports injury, but the specific advice can differ from specialist to specialist. <u> 32 </u> They nevertheless caution that a cutback may be necessary, such as running shorter distances or going more slowly. Others say the patients may need to engage in sports outside of their usual, main sport (that is, to cross-train), at least some of the time. Still others say the safest thing to do is cross-train all the time until the pain is gone. <u> 33 </u> Their consensus, however, is that unless the injury involves something as serious as a broken bone or a ripped muscle, moderate exercise can actually speed healing.
+    <u> 34 </u> Thus, more and more patients are now advised to keep moving despite the pain. The rule of thumb, however, is to see a doctor first and get an accurate diagnosis. If a serious injury is ruled out and the pain is not getting worse after exercising, then the exercise “makes a lot of sense.”
+- id: eng113-g35
+  range:
+  - 35
+  - 38
+  intro: 第35至38題為題組
+  passage: |-
+    One fine morning in 1941, Swiss engineer George de Mestral went for a walk in the woods with his dog. Upon their return home, he found a lot of burrs (from plants) stuck to the dog’s fur and his pants. He immediately rushed to his microscope and examined the burrs attached on his pants—feeling a lightbulb moment coming on.
+    Upon closer examination, de Mestral observed that the burrs, which appeared straight to the naked eye, actually contained many small hooks that clung firmly to the loops in the fabric of his pants. He determined that if he could recreate the same thing, making hooks-and-loops that bind to each other firmly, he could produce a strong fastener with many uses.
+    De Mestral’s first challenge was finding a fabric for a strong bonding system. He first tried cotton, but it proved too soft and could not withstand repeated openings and closures. After years of research and testing, he learned that synthetics worked best and eventually settled on heat-treated nylon, a strong and durable substance. By 1955, he had completed an improved version of the product, with each square inch of material containing 300 hooks, which made it stay fastened and yet easy enough to pull apart when needed. Named “Velcro,” from the French words velours (velvet) and crochet (hook), the new product received a patent from the Swiss government in 1955. De Mestral thus began mass-producing Velcro, opening plants in Europe and eventually into Canada and the United States.
+    Initially Velcro did not fare well. As most fashion critics considered it ugly and cheap-looking, the use of Velcro was limited to athletic equipment. In the early 1960s, the product received a huge boost in popularity when NASA began using it in a lot of equipment that went into space along with astronauts. Today, de Mestral’s design is found almost everywhere: clothing and footwear, toys, airline seat cushions, blood pressure cuffs and surgeons’ gowns. Most impressively, the magical fastener was used in the first human artificial heart transplantation to hold together parts of the device.
+- id: eng113-g39
+  range:
+  - 39
+  - 42
+  intro: 第39至42題為題組
+  passage: |-
+    Thomas Moran, a famous painter in the 19<sup>th</sup> century, played an important role in the establishment of American national parks. His vivid paintings brought the splendor of the extraordinary landscapes before the eyes of American people, thus setting the stage for the regions to be widely recognized and officially established as national parks.
+    Moran came to the United States at age 7 with his family and settled in Philadelphia. They came from northwest England, the blackened heart of the Industrial Revolution: Its main street was “a dark, unattractive hole” and the river running through it was a string of dirty water. That was all the nature that Moran knew. Moran began painting by age 15, inspired by the landscape paintings of the British master J.M.W. Turner. There was plenty of landscape for him to paint in America, much different from his hometown. Showing great talent in painting, Moran was soon hired as an illustrator at Scribner’s Monthly, and later appointed chief illustrator by age 34. In 1871, he was appointed to illustrate The Wonders of Yellowstone, a story by Nathaniel P. Langford, who had participated in an expedition to Yellowstone. Captivated by the utterly fantastic sights Langford described, Moran became eager to see this odd territory for himself.
+    In 1871 Moran joined the first US government survey of the Yellowstone region with photographer William Henry Jackson. For two weeks he filled his sketchbook with the landscape’s most stunning sights. Moran’s watercolors—the first color renderings of the area—as well as Jackson’s photos and the survey results were presented to the Congress. His powerful images of Yellowstone fired the imagination of Congress members. In March 1872, lawmakers officially made Yellowstone a national park, the world’s first.
+    Before Moran arrived, Yellowstone in the popular imagination was a harsh, wild place with hot water and steam coming out of hellish holes in the ground. Since the painter’s work appeared, Yellowstone National Park has come to be known as a picturesque wonderland. By the time Moran died, he had painted a dozen other areas that would become national parks or monuments.
+- id: eng113-g43
+  range:
+  - 43
+  - 46
+  intro: 第43至46題為題組
+  passage: |-
+    In 2020, Petur Oddsson, a power station worker in Iceland, was struck by a 60,000-volt current. The electrical shock burned almost half of his body and melted layers of his skin off. Such deep and extensive burns can be fatal. But Oddsson’s life was saved by a creative invention: transplanting codfish skins onto human bodies.
+    A triumph for medical technology, Oddsson’s fish skin transplantation was actually part of the astonishing achievement of “100% Fish,” an ambitious task in promoting environmental efficiency. The Icelandic project, from which this pioneering procedure emerged, strives for making a fundamental change in the marine industry. It aims to encourage full utilization of each fish caught, and to strengthen innovation in seafood products.
+    Reducing waste of fish catch has become a serious issue today, when many countries are faced with food crises. According to a 2003 study, about 60% of a codfish caught in Iceland was lost or wasted during the production process for human consumption. Under the guidance of 100% Fish, however, Icelanders are now using almost 95% of a cod. Cod skin, for example, is made into calcium supplement and energy drinks, and even as material for skin transplantation as in Oddsson’s case. Dried fish heads and spines are exported to West Africa, where they are used as the base of a protein-rich soup. Other groundbreaking products, including Omega-3 capsules, cold virus pretreatment sprays, and dog snacks are made from what was once cod catch detritus.
+    The Icelandic success is accomplished largely through cooperative efforts across various industries. 100% Fish takes the initiative to show seafood companies the importance of collaboration, and facilitate valuable connections between fishing companies and other participants of the project, including academia, start-ups, and research and development teams. By sharing knowledge and information, the different sectors are able to come up with improved processing and handling, through which creation of various innovative products was made possible. The project not only helps Icelanders to get 30% more value from each cod than most developed countries, but also provides an effective model to promote resource efficiency worldwide.
 items:
 - id: eng113-01
   'no': 1
@@ -297,5 +365,1192 @@ items:
       B: 59
       C: 14
       D: 17
+  explain: ''
+  reviewed: false
+- id: eng113-11
+  'no': 11
+  type: single
+  points: 1
+  group: eng113-g11
+  stem: Sometimes referred to as secret shoppers, mystery shoppers <b><u> 11 </u></b> regular customers to purchase items, eat in restaurants, make inquiries, or return items.
+  options:
+    A: call for
+    B: pose as
+    C: attend to
+    D: engage in
+  answer: B
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 42
+    Ph: 75
+    Pl: 19
+    D: 56
+    opt:
+      A: 18
+      B: 42
+      C: 25
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng113-12
+  'no': 12
+  type: single
+  points: 1
+  group: eng113-g11
+  stem: They grade and report on the quality of products, customer service, and environment of the stores <b><u> 12 </u></b> they are assigned.
+  options:
+    A: in that
+    B: with which
+    C: for that
+    D: to which
+  answer: D
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 43
+    Ph: 64
+    Pl: 26
+    D: 38
+    opt:
+      A: 14
+      B: 25
+      C: 19
+      D: 43
+  explain: ''
+  reviewed: false
+- id: eng113-13
+  'no': 13
+  type: single
+  points: 1
+  group: eng113-g11
+  stem: When evaluating a business, mystery shoppers have to follow certain standard procedures to avoid <b><u> 13 </u></b>.
+  options:
+    A: keen competitions
+    B: financial hardship
+    C: racial conflicts
+    D: personal bias
+  answer: D
+  topic: V2
+  tags:
+  - 語意
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 52
+    Ph: 87
+    Pl: 23
+    D: 64
+    opt:
+      A: 14
+      B: 20
+      C: 15
+      D: 52
+  explain: ''
+  reviewed: false
+- id: eng113-14
+  'no': 14
+  type: single
+  points: 1
+  group: eng113-g11
+  stem: They may also pretend to be <b><u> 14 </u></b> customers, arguing with a salesperson without a good reason.
+  options:
+    A: difficult
+    B: potential
+    C: constant
+    D: anonymous
+  answer: A
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 25
+    Ph: 46
+    Pl: 20
+    D: 26
+    opt:
+      A: 25
+      B: 17
+      C: 12
+      D: 45
+  explain: ''
+  reviewed: false
+- id: eng113-15
+  'no': 15
+  type: single
+  points: 1
+  group: eng113-g11
+  stem: With the data they collect, mystery shoppers can identify areas for <b><u> 15 </u></b> and thereby help enhance the quality of products and services.
+  options:
+    A: distribution
+    B: expectation
+    C: improvement
+    D: management
+  answer: C
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 57
+    Ph: 85
+    Pl: 35
+    D: 50
+    opt:
+      A: 12
+      B: 12
+      C: 57
+      D: 19
+  explain: ''
+  reviewed: false
+- id: eng113-16
+  'no': 16
+  type: single
+  points: 1
+  group: eng113-g16
+  stem: They <b><u> 16 </u></b> alarm clocks because adjustable alarms had been invented by the mid-19<sup>th</sup> century.
+  options:
+    A: must be using
+    B: could have used
+    C: had hardly used
+    D: were mostly using
+  answer: B
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 29
+    Ph: 43
+    Pl: 23
+    D: 20
+    opt:
+      A: 10
+      B: 29
+      C: 42
+      D: 19
+  explain: ''
+  reviewed: false
+- id: eng113-17
+  'no': 17
+  type: single
+  points: 1
+  group: eng113-g16
+  stem: <b><u> 17 </u></b> sticks or pea shooters, the human alarms would tour the streets, tap on windows, or blast them with dried peas, trying to wake paying customers in time for work.
+  options:
+    A: Aimed at
+    B: Trained for
+    C: Equipped with
+    D: Exhausted by
+  answer: C
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 61
+    Ph: 92
+    Pl: 31
+    D: 61
+    opt:
+      A: 11
+      B: 15
+      C: 61
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng113-18
+  'no': 18
+  type: single
+  points: 1
+  group: eng113-g16
+  stem: Whether they wielded rods or pea shooters, knockers-up became <b><u> 18 </u></b> throughout the United Kingdom.
+  options:
+    A: familiar presences
+    B: distant memories
+    C: vague images
+    D: public eyesores
+  answer: A
+  topic: V2
+  tags:
+  - 語意
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 43
+    Ph: 70
+    Pl: 24
+    D: 46
+    opt:
+      A: 43
+      B: 13
+      C: 11
+      D: 32
+  explain: ''
+  reviewed: false
+- id: eng113-19
+  'no': 19
+  type: single
+  points: 1
+  group: eng113-g16
+  stem: While the practice continued in some parts of the country until the 1970s, it <b><u> 19 </u></b> as alarm clocks became more widespread and affordable.
+  options:
+    A: remained
+    B: dismissed
+    C: revised
+    D: declined
+  answer: D
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 35
+    Ph: 60
+    Pl: 18
+    D: 42
+    opt:
+      A: 23
+      B: 17
+      C: 25
+      D: 35
+  explain: ''
+  reviewed: false
+- id: eng113-20
+  'no': 20
+  type: single
+  points: 1
+  group: eng113-g16
+  stem: However, they cannot <b><u> 20 </u></b> the personal attention coming from the distinctive tap of a pea shooter.
+  options:
+    A: forget
+    B: change
+    C: match
+    D: regret
+  answer: C
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 22
+    Ph: 35
+    Pl: 18
+    D: 17
+    opt:
+      A: 33
+      B: 35
+      C: 22
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng113-21
+  'no': 21
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: The lonely “wind phone” serves to connect family members to their <b><u> 21 </u></b> loved ones who died in the tsunami that claimed 18,000 lives.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: E
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 35
+    Ph: 73
+    Pl: 8
+    D: 65
+    opt:
+      A: 19
+      B: 4
+      C: 5
+      D: 5
+      E: 35
+      F: 3
+      G: 8
+      H: 5
+      I: 11
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng113-22
+  'no': 22
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: People come to speak to those they have lost, to say the words they never got to say on that <b><u> 22 </u></b> day.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: I
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 40
+    Ph: 69
+    Pl: 21
+    D: 48
+    opt:
+      A: 7
+      B: 3
+      C: 26
+      D: 3
+      E: 8
+      F: 2
+      G: 3
+      H: 6
+      I: 40
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng113-23
+  'no': 23
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: The idea for the wind phone was first <b><u> 23 </u></b> by a Japanese garden designer named Itaru Sasaki, who was grieving over the death of his cousin in 2010, before the tsunami.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: J
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 37
+    Ph: 73
+    Pl: 8
+    D: 65
+    opt:
+      A: 7
+      B: 4
+      C: 4
+      D: 2
+      E: 17
+      F: 6
+      G: 16
+      H: 5
+      I: 2
+      J: 37
+  explain: ''
+  reviewed: false
+- id: eng113-24
+  'no': 24
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: Feeling that he needed a private space to help him navigate through the <b><u> 24 </u></b>, Sasaki positioned a booth where he could “speak” to the dead relative.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: C
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 41
+    Ph: 77
+    Pl: 13
+    D: 64
+    opt:
+      A: 5
+      B: 6
+      C: 41
+      D: 6
+      E: 5
+      F: 16
+      G: 6
+      H: 5
+      I: 5
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng113-25
+  'no': 25
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: The booth he built <b><u> 25 </u></b> only an old dial phone with a disconnected phone line.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: G
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 37
+    Ph: 72
+    Pl: 15
+    D: 57
+    opt:
+      A: 9
+      B: 10
+      C: 4
+      D: 3
+      E: 6
+      F: 11
+      G: 37
+      H: 7
+      I: 3
+      J: 10
+  explain: ''
+  reviewed: false
+- id: eng113-26
+  'no': 26
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: 'Sasaki stated in an interview: “Because my thoughts couldn’t be <b><u> 26 </u></b> through a regular phone line, I wanted them to be carried on the wind.'
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: A
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 44
+    Ph: 76
+    Pl: 21
+    D: 55
+    opt:
+      A: 44
+      B: 2
+      C: 5
+      D: 3
+      E: 12
+      F: 2
+      G: 6
+      H: 9
+      I: 4
+      J: 12
+  explain: ''
+  reviewed: false
+- id: eng113-27
+  'no': 27
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: Hence, the wind phone allows Sasaki to create a one-way conversation with deep, soulful personal meaning, and renders the grieving process more <b><u> 27 </u></b> for him.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: H
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 44
+    Ph: 81
+    Pl: 15
+    D: 66
+    opt:
+      A: 3
+      B: 2
+      C: 6
+      D: 14
+      E: 4
+      F: 3
+      G: 3
+      H: 44
+      I: 17
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng113-28
+  'no': 28
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: News about the phone gradually spread, and the booth has become a <b><u> 28 </u></b> between the living and the dead.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: B
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 68
+    Ph: 98
+    Pl: 26
+    D: 72
+    opt:
+      A: 3
+      B: 68
+      C: 4
+      D: 5
+      E: 2
+      F: 5
+      G: 3
+      H: 4
+      I: 3
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng113-29
+  'no': 29
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: Grieving is a natural <b><u> 29 </u></b> for coping with loss of a loved one, and people grieve in various ways.
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: F
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 44
+    Ph: 79
+    Pl: 14
+    D: 65
+    opt:
+      A: 4
+      B: 5
+      C: 9
+      D: 7
+      E: 5
+      F: 44
+      G: 7
+      H: 6
+      I: 6
+      J: 6
+  explain: ''
+  reviewed: false
+- id: eng113-30
+  'no': 30
+  type: single
+  points: 1
+  group: eng113-g21
+  stem: 'For those who speak into the wind phone, <b><u> 30 </u></b> is always there: They believe that their messages will—through some unknown way—reach the deceased.'
+  options:
+    A: passed on
+    B: bridge
+    C: sorrow
+    D: hope
+    E: departed
+    F: mechanism
+    G: housed
+    H: manageable
+    I: fateful
+    J: brought forth
+  answer: D
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 56
+    Ph: 93
+    Pl: 19
+    D: 74
+    opt:
+      A: 4
+      B: 3
+      C: 4
+      D: 56
+      E: 3
+      F: 6
+      G: 8
+      H: 4
+      I: 4
+      J: 8
+  explain: ''
+  reviewed: false
+- id: eng113-31
+  'no': 31
+  type: single
+  points: 2
+  group: eng113-g31
+  stem: When he returned, he felt “pretty good.” <b><u> 31 </u></b> When people have sprained a muscle or tendon, they are usually advised not to go right back to exercising until the pain goes away. But Dr.<br>空格 31 應填入哪一句？
+  options:
+    A: For example, an injured runner might end up cycling and swimming instead of running.
+    B: Over time, researchers have come to realize the importance of exercising when injured.
+    C: Many suggest that most patients can continue with the sport they love.
+    D: This seems to run counter to the common practice.
+  answer: D
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 49
+    Ph: 84
+    Pl: 22
+    D: 62
+    opt:
+      A: 14
+      B: 25
+      C: 13
+      D: 49
+  explain: ''
+  reviewed: false
+- id: eng113-32
+  'no': 32
+  type: single
+  points: 2
+  group: eng113-g31
+  stem: Weinstein is not alone in his treatment of sports injury, but the specific advice can differ from specialist to specialist. <b><u> 32 </u></b> They nevertheless caution that a cutback may be necessary, such as running shorter distances or going more slowly. Others say the patients may need to engage in sports outside of their usual, main sport (that is, to cross-train), at least some of the time.<br>空格 32 應填入哪一句？
+  options:
+    A: For example, an injured runner might end up cycling and swimming instead of running.
+    B: Over time, researchers have come to realize the importance of exercising when injured.
+    C: Many suggest that most patients can continue with the sport they love.
+    D: This seems to run counter to the common practice.
+  answer: C
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 33
+    Ph: 60
+    Pl: 19
+    D: 41
+    opt:
+      A: 41
+      B: 13
+      C: 33
+      D: 13
+  explain: ''
+  reviewed: false
+- id: eng113-33
+  'no': 33
+  type: single
+  points: 2
+  group: eng113-g31
+  stem: Still others say the safest thing to do is cross-train all the time until the pain is gone. <b><u> 33 </u></b> Their consensus, however, is that unless the injury involves something as serious as a broken bone or a ripped muscle, moderate exercise can actually speed healing.<br>空格 33 應填入哪一句？
+  options:
+    A: For example, an injured runner might end up cycling and swimming instead of running.
+    B: Over time, researchers have come to realize the importance of exercising when injured.
+    C: Many suggest that most patients can continue with the sport they love.
+    D: This seems to run counter to the common practice.
+  answer: A
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 40
+    Ph: 67
+    Pl: 20
+    D: 47
+    opt:
+      A: 40
+      B: 17
+      C: 20
+      D: 23
+  explain: ''
+  reviewed: false
+- id: eng113-34
+  'no': 34
+  type: single
+  points: 2
+  group: eng113-g31
+  stem: <u> 33 </u> Their consensus, however, is that unless the injury involves something as serious as a broken bone or a ripped muscle, moderate exercise can actually speed healing. <b><u> 34 </u></b> Thus, more and more patients are now advised to keep moving despite the pain. The rule of thumb, however, is to see a doctor first and get an accurate diagnosis.<br>空格 34 應填入哪一句？
+  options:
+    A: For example, an injured runner might end up cycling and swimming instead of running.
+    B: Over time, researchers have come to realize the importance of exercising when injured.
+    C: Many suggest that most patients can continue with the sport they love.
+    D: This seems to run counter to the common practice.
+  answer: B
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 47
+    Ph: 74
+    Pl: 26
+    D: 48
+    opt:
+      A: 6
+      B: 47
+      C: 34
+      D: 13
+  explain: ''
+  reviewed: false
+- id: eng113-35
+  'no': 35
+  type: single
+  points: 2
+  group: eng113-g35
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  topic: R3
+  tags:
+  - 圖片
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 81
+    Ph: 98
+    Pl: 52
+    D: 46
+    opt:
+      A: 8
+      B: 81
+      C: 6
+      D: 4
+  explain: ''
+  reviewed: false
+  image: img/english/113-35.webp
+- id: eng113-36
+  'no': 36
+  type: single
+  points: 2
+  group: eng113-g35
+  stem: What does the author mean by “a lightbulb moment” in the first paragraph?
+  options:
+    A: A blessing in disguise.
+    B: A happy ending.
+    C: An unpredictable future.
+    D: A sudden inspiration.
+  answer: D
+  topic: R3
+  tags:
+  - 字義
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 77
+    Ph: 99
+    Pl: 41
+    D: 58
+    opt:
+      A: 8
+      B: 4
+      C: 12
+      D: 77
+  explain: ''
+  reviewed: false
+- id: eng113-37
+  'no': 37
+  type: single
+  points: 2
+  group: eng113-g35
+  stem: Which of the following statements about Velcro is true?
+  options:
+    A: It has been a market favorite since its first appearance.
+    B: Cotton was not durable enough to be used as its materials.
+    C: It was given a French name because it was first produced in France.
+    D: The design was intended to look as shiny and smooth as velvet.
+  answer: B
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 72
+    Ph: 98
+    Pl: 37
+    D: 61
+    opt:
+      A: 6
+      B: 72
+      C: 12
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng113-38
+  'no': 38
+  type: single
+  points: 2
+  group: eng113-g35
+  stem: Which of the following fields is NOT mentioned for Velcro uses in the passage?
+  options:
+    A: Civil engineering.
+    B: Aerospace industry.
+    C: Medical technology.
+    D: Sports and recreation.
+  answer: A
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 55
+    Ph: 85
+    Pl: 23
+    D: 62
+    opt:
+      A: 55
+      B: 10
+      C: 16
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng113-39
+  'no': 39
+  type: single
+  points: 2
+  group: eng113-g39
+  stem: What can we learn from the passage?
+  options:
+    A: How national parks around the world were established.
+    B: How Yellowstone’s natural features were formed.
+    C: Why Moran’s family moved to the United States.
+    D: Why Moran started painting Yellowstone.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 60
+    Ph: 89
+    Pl: 31
+    D: 58
+    opt:
+      A: 12
+      B: 20
+      C: 7
+      D: 60
+  explain: ''
+  reviewed: false
+- id: eng113-40
+  'no': 40
+  type: single
+  points: 2
+  group: eng113-g39
+  stem: Why does the author use “the blackened heart” in paragraph 2 to describe Moran’s hometown?
+  options:
+    A: The place was severely polluted.
+    B: The town was filled with darkened holes.
+    C: There were many evil-hearted industry owners.
+    D: The laborers mostly wore dark and dirty uniforms.
+  answer: A
+  topic: R3
+  tags:
+  - 推論
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 70
+    Ph: 98
+    Pl: 27
+    D: 71
+    opt:
+      A: 70
+      B: 12
+      C: 9
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng113-41
+  'no': 41
+  type: single
+  points: 2
+  group: eng113-g39
+  stem: Which of the following statements is true about the Yellowstone National Park?
+  options:
+    A: Its establishment was proposed by Langford.
+    B: Americans knew little about its beauty before the 1870s.
+    C: The government project was started due to its rich natural resources.
+    D: It was the only national park established because of Moran’s works.
+  answer: B
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 54
+    Ph: 91
+    Pl: 22
+    D: 69
+    opt:
+      A: 14
+      B: 54
+      C: 17
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng113-42
+  'no': 42
+  type: single
+  points: 2
+  group: eng113-g39
+  stem: What can be inferred from the passage?
+  options:
+    A: Scribner’s Monthly was a magazine promoting national parks.
+    B: Moran had visited Yellowstone before he started painting its landscapes.
+    C: Color photos were not common when Moran started painting Yellowstone.
+    D: Watercolor was the most popular form of landscape painting in the 19<sup>th</sup> century.
+  answer: C
+  topic: R3
+  tags:
+  - 推論
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 52
+    Ph: 71
+    Pl: 29
+    D: 42
+    opt:
+      A: 12
+      B: 21
+      C: 52
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng113-43
+  'no': 43
+  type: single
+  points: 2
+  group: eng113-g43
+  stem: What is the primary goal of 100% Fish?
+  options:
+    A: To advance ocean technology.
+    B: To reduce food crises worldwide.
+    C: To enhance cross-industry cooperation.
+    D: To make the most of marine resources.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 45
+    Ph: 78
+    Pl: 18
+    D: 60
+    opt:
+      A: 15
+      B: 25
+      C: 15
+      D: 45
+  explain: ''
+  reviewed: false
+- id: eng113-44
+  'no': 44
+  type: single
+  points: 2
+  group: eng113-g43
+  stem: What does “this pioneering procedure” in the second paragraph refer to?
+  options:
+    A: 100% Fish’s mission.
+    B: Oddsson’s skin transplant.
+    C: A fundamental change in seafood business.
+    D: A new approach to protect the environment.
+  answer: B
+  topic: R3
+  tags:
+  - 指涉
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 27
+    Ph: 39
+    Pl: 21
+    D: 18
+    opt:
+      A: 40
+      B: 27
+      C: 17
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng113-45
+  'no': 45
+  type: single
+  points: 2
+  group: eng113-g43
+  stem: Which of the following is true according to the passage?
+  options:
+    A: Iceland has increased their fish catch by 30% in the last 20 years.
+    B: Petur Oddsson was an important member of the Icelandic project.
+    C: Cross-field collaboration has proved to be very fruitful for 100% Fish.
+    D: 100% Fish is a big international enterprise marketing seafood products.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 51
+    Ph: 87
+    Pl: 26
+    D: 61
+    opt:
+      A: 7
+      B: 24
+      C: 51
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng113-46
+  'no': 46
+  type: single
+  points: 2
+  group: eng113-g43
+  stem: 'Here is a sentence: “Almost nothing of a fish is left for the trash bin.” Which paragraph is most suitable to have it as the final sentence?'
+  options:
+    A: Paragraph 1.
+    B: Paragraph 2.
+    C: Paragraph 3.
+    D: Paragraph 4.
+  answer: C
+  topic: R3
+  tags:
+  - 句子歸位
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 69
+    Ph: 90
+    Pl: 45
+    D: 45
+    opt:
+      A: 5
+      B: 13
+      C: 69
+      D: 13
   explain: ''
   reviewed: false

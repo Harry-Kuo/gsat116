@@ -5,7 +5,73 @@ paper: 英文
 source:
   pdf: https://www.ceec.edu.tw/files/file_pool/1/0n045359274947649605/02-112%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.pdf
   docx: https://www.ceec.edu.tw/files/file_pool/1/0n045359405581528633/02-112%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%28%e5%ae%9a%e7%a8%bf%29.docx
-groups: []
+groups:
+- id: eng112-g11
+  range:
+  - 11
+  - 15
+  intro: 第11至15題為題組
+  passage: |-
+    In certain forests, when you look up you will see a network of cracks formed by gaps between the outermost edges of tree branches. It looks like a precisely engineered jigsaw puzzle, each branch growing just perfectly so it almost, <u> 11 </u>, touches the neighboring tree. This beautiful phenomenon is called crown shyness.
+    Scientists have been discussing crown shyness since the 1920s, proposing <u> 12 </u> explanations for the phenomenon. Some researchers point out that as trees often grow close together, treetops can easily collide and break when swayed by the wind. In order to protect their branches from breakage, trees maintain “shyness gaps”—spaces large enough to prevent them from touching their neighbors.
+    Other scientists suggest that plants, like animals, <u> 13 </u> resources—nutrients, water, space, and light. In forested areas with thick tree crowns, there is intense struggle for these resources. Gaps in the treetops resulting from crown shyness may allow trees to increase their <u> 14 </u> light and enhance photosynthesis. Additionally, by having branches that do not touch those of their neighbors, trees may be able to limit the spread of leaf-eating insects, and potentially also the transmission of diseases from tree to tree. <u> 15 </u> decades of investigation, there is no consensus on exactly what causes the beautiful and mysterious phenomenon of crown shyness.
+- id: eng112-g16
+  range:
+  - 16
+  - 20
+  intro: 第16至20題為題組
+  passage: |-
+    Gravity has been at the top of the science agenda since the start of Mars missions. In the earlier days of space travel, scientists tried to overcome the force of gravity so that a rocket could shoot <u> 16 </u> Earth’s pull in order to land humans on the moon. Today, they are more interested in how reduced gravity affects the astronauts’ <u> 17 </u> condition.
+    Our bodies have evolved to exist within Earth’s gravity (1 g), not in the weightlessness of space (0 g) or the microgravity of Mars (0.3 g). When on Earth, we have more fluids in our lower body because they are pulled down by Earth’s gravity. However, with the absence of gravity in the outer space, our body fluids <u> 18 </u>, shifting toward the upper body and the head. As a result, the astronauts have swollen, puffy faces, very much resembling that of the round-headed Charlie Brown in the famous comic strip. This “Charlie Brown effect” will be more <u> 19 </u> when the astronauts go on their Mars missions, which will take about three years to complete, much longer than missions to the moon. Moreover, the effect is often <u> 20 </u> space motion sickness, headaches, and nausea. Such a syndrome is considered the top health risk for the astronauts, and scientists are still trying to figure out how it may be prevented.
+- id: eng112-g21
+  range:
+  - 21
+  - 30
+  intro: 第21至30題為題組
+  passage: |-
+    Water makes up more than half of our body weight. To sustain this amount of fluid in our bodies, plain water is considered our best choice, for it contains no sugar and no calories. Yet, is water always the healthiest drink we can <u> 21 </u>? Well, it depends on who and where we are, and what we’re doing.
+    Obviously, a physically <u> 22 </u> person with an outdoor job under the sun will need to drink more fluid than a desk-bound person who lives and works in an air-conditioned place. But there’s more to it than that. When a person sweats, he loses water and salt, so he needs to replace both. Replacing lost fluid with just plain water means the body has too much water and not enough salt. To <u> 23 </u> things out, the body will get rid of water by producing urine. For this reason, milk can actually be more <u> 24 </u> than drinking water. Milk naturally contains salt and lactose, a sugar which the human body needs in small amounts to help stimulate water <u> 25 </u>. Coconut water, which contains salt and carbohydrates, is also more functional than water at restoring and maintaining a normal fluid <u> 26 </u> after exercise.
+    For the average person, however, water remains a very good <u> 27 </u> for keeping hydrated—if you know how to drink it. The secret is: Never wait until the body is telling you you’re thirsty, since there must already have been significant changes in your body for it to eventually <u> 28 </u> your consciousness. At that point, it might be well past the best moment to take in fluid. Also, drinking a lot of liquid in one go can cause more water to <u> 29 </u> the body quickly and come out as urine. To <u> 30 </u> this, you need to drink water throughout the day to maintain your hydration levels.
+- id: eng112-g31
+  range:
+  - 31
+  - 34
+  intro: 第31至34題為題組
+  passage: |-
+    Have you ever thought of “coloring” the names of the days of the week? When you listen to someone speaking, do you see a rainbow of colors? Or perhaps Mozart’s music tastes like an apple pie to you? If so, it is very likely that you have synesthesia.
+    Synesthesia is a condition in which people’s senses intermix. In some cases, people with synesthesia may experience colors when they hear, read, or even think of letters and numbers. In others, words can trigger a real sensation of taste on their tongue.
+    <u> 31 </u> In the early 1990s, however, scientists noticed that synesthetic colors do not change over time. When asked what color is evoked by a letter or number, synesthetic people would persistently give the same answer even if tested months or years apart. <u> 32 </u> The most compelling support, however, comes from brain scans, which show that color processing areas in the brain light up when these people listen to certain words.
+    Is synesthesia genetically inherited or acquired after birth? Scientists agree that synesthesia has a genetic basis, because it frequently runs in families. But an actual synesthesia gene (or genes) has not been identified yet. <u> 33 </u> For example, the flavors people with taste-word synesthesia experience are usually childhood flavors, such as chocolate or strawberries. Also, people with color-music synesthesia more often than not have had early musical training.
+    Once thought to be extremely rare, synesthesia is now found to affect about one to four percent of the population. <u> 34 </u> As is often observed, most of us tend to associate lower notes with darker colors and higher notes with brighter colors. Researchers further point out that in most people synesthesia is active only during the first months of their infancy, while this ability remains forever in certain individuals.
+- id: eng112-g35
+  range:
+  - 35
+  - 38
+  intro: 第35至38題為題組
+  passage: |-
+    When did people first experience the joy of the hula hoop? Although the term did not emerge until the 18<sup>th</sup> century, toy hoops twirled around the waist, limbs, or neck can be traced back to ancient times. As early as 1000 BC, Egyptian children played with hoop toys of dried grapevine. They threw, jumped, and slung them around their bodies as we do today. They also struck them with sticks to roll them down the road. Hoop rolling was also popular in ancient Greece. Their hoops, often made of metal, were not merely toys for Greek children but served as exercise devices as well.
+    In the 14<sup>th</sup> century, hoops were popular as a form of recreation in Great Britain. The craze for hoops even resulted in dislocated backs and heart attacks, according to medical records. The term “hula,” however, did not enter the English language until the 1700s, when British sailors first witnessed hula dancing in the Hawaiian Islands. Though no hoops were used, the movements of the ritual dances looked very similar to those in hooping. Thus “hula” and “hoop” came together, resulting in the term “hula hooping.”
+    Hoops spun their way through the cultures of pre-colonial America as well. Often considered as representing the circle of life, hoops featured prominently in the ritual dances of Native Americans. Dancers used small reed hoops as symbolic representations of animals such as eagles or snakes. With very rapid movements, they used the hoops to construct the symbolic forms around their bodies.
+    The hula hoop gained international popularity in the late 1950s, when a plastic version was successfully marketed by California’s Wham-O toy company. Twenty-five million plastic hoops were sold in less than four months. The hula hoop “fad” is still going strong today.
+- id: eng112-g39
+  range:
+  - 39
+  - 42
+  intro: 第39至42題為題組
+  passage: |-
+    When you enjoy your morning cup of tea, you are probably not aware that those tea leaves can mean injury, or even death, for Asian elephants roaming Indian tea gardens.
+    In the Indian state of Assam, growing numbers of tea farms are destroying the Asian elephant’s habitats and endangering their population. Much of the forest land where tea is grown in Assam is flat and thus farmers must dig drainage trenches to prevent water from accumulating and hurting the shrubs. The trenches, however, can be death traps for the elephants. Since the elephants need to use tea plantations as landmarks when navigating forests, they almost inevitably have to move through the farms. Moreover, because there are fewer humans around, pregnant females often use tea-growing areas as safe shelters to give birth. But baby elephants, not used to negotiating rough ground, may easily fall into the trenches and get hurt; and once injured, they might not be able to climb out. When mothers try to dig their babies out, both may be trapped and smothered by thick mud. Furthermore, elephants are known to resist leaving their sick or dying behind, and a herd may linger at a trench with a trapped baby for hours, reluctant to move on until all hope is lost.
+    Is it possible for elephants to coexist with the prosperous tea business? Elephant Friendly Tea is an organization that takes the initiative to make it possible. The organization encourages consumers to choose brands that take precautions to protect elephants and has set up a certification program to reward tea growers who are doing it right. Until now, only smaller tea brands have been certified, but awareness is growing. The organization believes that people may be motivated to buy elephant-friendly brands when they know more about the risk tea can pose to these endangered animals.
+- id: eng112-g43
+  range:
+  - 43
+  - 46
+  intro: 第43至46題為題組
+  passage: |-
+    Situated off the coast of Tanzania and washed by the warm, clean waters of the Indian Ocean, Zanzibar is a tropical archipelago comprised of several scattered islands. This popular beach destination is now famous for its white sand beaches, slender palms, and turquoise seas. But few people know that in the past, control of Zanzibar meant access to unimaginable wealth.
+    From ancient times, Zanzibar has been a trading hotspot, thanks to its location on the trade route between Arabia and Africa. Traders from Asia had already visited the islands 900 years before the arrival of its first permanent settlers from the African mainland (around 1000 AD). In the 8<sup>th</sup> century, Persian merchants built settlements here, which grew over the next four centuries into their trading posts. Between the 12<sup>th</sup> and 15<sup>th</sup> centuries, trade increased between Arabia, Persia, and Zanzibar, bringing the archipelago both wealth and power.
+    During the Age of Exploration, commerce in Zanzibar quickly boomed, largely due to the rise of the spice trade. At the close of the 15<sup>th</sup> century, Europeans’ craze for spices gave rise to the Spice Route, a network of sea lanes joining Europe with the Far East, where most spices came from. In 1498, Portuguese explorer Vasco da Gama made the first sea voyage to India, via the southernmost tip of Africa. In 1499, he arrived at Zanzibar, an archipelago sitting at the crossroads of the Spice Route. The islands soon attracted traders from different lands. Hundreds of ships sailing the Spice Route docked here, bringing spices and goods for transaction, and Zanzibar became one of the biggest trading centers in the world.
+    Since the 16<sup>th</sup> century, Zanzibar has come under the rule of the Portuguese, the Arabians, and then the British, each leaving a mark on the place. The paths of various religions also crossed here: Muslims have lived peacefully with Christians and Buddhists on the islands for centuries. The unique cultural intersections, scented with the aroma of cloves, vanilla, and cinnamon floating in the air, give these jewels on the Indian Ocean an amazing charm that goes far beyond tropical beach fun.
 items:
 - id: eng112-01
   'no': 1
@@ -296,5 +362,1192 @@ items:
       B: 25
       C: 16
       D: 37
+  explain: ''
+  reviewed: false
+- id: eng112-11
+  'no': 11
+  type: single
+  points: 1
+  group: eng112-g11
+  stem: It looks like a precisely engineered jigsaw puzzle, each branch growing just perfectly so it almost, <b><u> 11 </u></b>, touches the neighboring tree.
+  options:
+    A: in no time
+    B: by all means
+    C: but not quite
+    D: and pretty much
+  answer: C
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 29
+    Ph: 45
+    Pl: 20
+    D: 25
+    opt:
+      A: 14
+      B: 28
+      C: 29
+      D: 29
+  explain: ''
+  reviewed: false
+- id: eng112-12
+  'no': 12
+  type: single
+  points: 1
+  group: eng112-g11
+  stem: Scientists have been discussing crown shyness since the 1920s, proposing <b><u> 12 </u></b> explanations for the phenomenon.
+  options:
+    A: universal
+    B: productive
+    C: conventional
+    D: multiple
+  answer: D
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 59
+    Ph: 92
+    Pl: 22
+    D: 70
+    opt:
+      A: 15
+      B: 11
+      C: 15
+      D: 59
+  explain: ''
+  reviewed: false
+- id: eng112-13
+  'no': 13
+  type: single
+  points: 1
+  group: eng112-g11
+  stem: Other scientists suggest that plants, like animals, <b><u> 13 </u></b> resources—nutrients, water, space, and light.
+  options:
+    A: get over
+    B: compete for
+    C: give way to
+    D: make up for
+  answer: B
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 57
+    Ph: 88
+    Pl: 30
+    D: 58
+    opt:
+      A: 8
+      B: 57
+      C: 13
+      D: 22
+  explain: ''
+  reviewed: false
+- id: eng112-14
+  'no': 14
+  type: single
+  points: 1
+  group: eng112-g11
+  stem: Gaps in the treetops resulting from crown shyness may allow trees to increase their <b><u> 14 </u></b> light and enhance photosynthesis.
+  options:
+    A: reliance on
+    B: exposure to
+    C: sensitivity to
+    D: reflection on
+  answer: B
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 58
+    Ph: 92
+    Pl: 28
+    D: 64
+    opt:
+      A: 10
+      B: 58
+      C: 16
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng112-15
+  'no': 15
+  type: single
+  points: 1
+  group: eng112-g11
+  stem: <b><u> 15 </u></b> decades of investigation, there is no consensus on exactly what causes the beautiful and mysterious phenomenon of crown shyness.
+  options:
+    A: For
+    B: Besides
+    C: Despite
+    D: Concerning
+  answer: C
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 53
+    Ph: 80
+    Pl: 34
+    D: 46
+    opt:
+      A: 27
+      B: 10
+      C: 53
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng112-16
+  'no': 16
+  type: single
+  points: 1
+  group: eng112-g16
+  stem: In the earlier days of space travel, scientists tried to overcome the force of gravity so that a rocket could shoot <b><u> 16 </u></b> Earth’s pull in order to land humans on the moon.
+  options:
+    A: back to
+    B: free of
+    C: long before
+    D: straight on
+  answer: B
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 38
+    Ph: 75
+    Pl: 13
+    D: 62
+    opt:
+      A: 17
+      B: 38
+      C: 12
+      D: 33
+  explain: ''
+  reviewed: false
+- id: eng112-17
+  'no': 17
+  type: single
+  points: 1
+  group: eng112-g16
+  stem: Today, they are more interested in how reduced gravity affects the astronauts’ <b><u> 17 </u></b> condition.
+  options:
+    A: physical
+    B: perceptual
+    C: mental
+    D: external
+  answer: A
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 71
+    Ph: 96
+    Pl: 39
+    D: 57
+    opt:
+      A: 71
+      B: 8
+      C: 13
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng112-18
+  'no': 18
+  type: single
+  points: 1
+  group: eng112-g16
+  stem: However, with the absence of gravity in the outer space, our body fluids <b><u> 18 </u></b>, shifting toward the upper body and the head.
+  options:
+    A: redistribute
+    B: redistributed
+    C: redistributing
+    D: being redistributed
+  answer: A
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 22
+    Ph: 40
+    Pl: 16
+    D: 24
+    opt:
+      A: 22
+      B: 35
+      C: 25
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng112-19
+  'no': 19
+  type: single
+  points: 1
+  group: eng112-g16
+  stem: This “Charlie Brown effect” will be more <b><u> 19 </u></b> when the astronauts go on their Mars missions, which will take about three years to complete, much longer than missions to the moon.
+  options:
+    A: contagious
+    B: unusual
+    C: severe
+    D: aggressive
+  answer: C
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 54
+    Ph: 89
+    Pl: 28
+    D: 61
+    opt:
+      A: 14
+      B: 15
+      C: 54
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng112-20
+  'no': 20
+  type: single
+  points: 1
+  group: eng112-g16
+  stem: Moreover, the effect is often <b><u> 20 </u></b> space motion sickness, headaches, and nausea.
+  options:
+    A: varied with
+    B: brought about
+    C: transferred from
+    D: accompanied by
+  answer: D
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 33
+    Ph: 58
+    Pl: 20
+    D: 38
+    opt:
+      A: 13
+      B: 40
+      C: 13
+      D: 33
+  explain: ''
+  reviewed: false
+- id: eng112-21
+  'no': 21
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: Yet, is water always the healthiest drink we can <b><u> 21 </u></b>?
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: J
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 36
+    Ph: 70
+    Pl: 9
+    D: 61
+    opt:
+      A: 9
+      B: 6
+      C: 6
+      D: 11
+      E: 15
+      F: 3
+      G: 3
+      H: 6
+      I: 4
+      J: 36
+  explain: ''
+  reviewed: false
+- id: eng112-22
+  'no': 22
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: Obviously, a physically <b><u> 22 </u></b> person with an outdoor job under the sun will need to drink more fluid than a desk-bound person who lives and works in an air-conditioned place.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: B
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 59
+    Ph: 92
+    Pl: 20
+    D: 72
+    opt:
+      A: 5
+      B: 59
+      C: 7
+      D: 4
+      E: 3
+      F: 4
+      G: 4
+      H: 8
+      I: 2
+      J: 6
+  explain: ''
+  reviewed: false
+- id: eng112-23
+  'no': 23
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: To <b><u> 23 </u></b> things out, the body will get rid of water by producing urine.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: G
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 14
+    Ph: 30
+    Pl: 7
+    D: 23
+    opt:
+      A: 4
+      B: 5
+      C: 11
+      D: 28
+      E: 4
+      F: 3
+      G: 14
+      H: 7
+      I: 15
+      J: 8
+  explain: ''
+  reviewed: false
+- id: eng112-24
+  'no': 24
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: For this reason, milk can actually be more <b><u> 24 </u></b> than drinking water.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: F
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 66
+    Ph: 98
+    Pl: 22
+    D: 76
+    opt:
+      A: 6
+      B: 4
+      C: 3
+      D: 4
+      E: 4
+      F: 66
+      G: 6
+      H: 4
+      I: 1
+      J: 2
+  explain: ''
+  reviewed: false
+- id: eng112-25
+  'no': 25
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: Milk naturally contains salt and lactose, a sugar which the human body needs in small amounts to help stimulate water <b><u> 25 </u></b>.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: A
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 49
+    Ph: 85
+    Pl: 19
+    D: 66
+    opt:
+      A: 49
+      B: 5
+      C: 4
+      D: 6
+      E: 4
+      F: 4
+      G: 10
+      H: 10
+      I: 6
+      J: 1
+  explain: ''
+  reviewed: false
+- id: eng112-26
+  'no': 26
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: Coconut water, which contains salt and carbohydrates, is also more functional than water at restoring and maintaining a normal fluid <b><u> 26 </u></b> after exercise.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: H
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 26
+    Ph: 51
+    Pl: 10
+    D: 41
+    opt:
+      A: 12
+      B: 6
+      C: 4
+      D: 4
+      E: 8
+      F: 4
+      G: 31
+      H: 26
+      I: 4
+      J: 2
+  explain: ''
+  reviewed: false
+- id: eng112-27
+  'no': 27
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: For the average person, however, water remains a very good <b><u> 27 </u></b> for keeping hydrated—if you know how to drink it.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: E
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 50
+    Ph: 82
+    Pl: 19
+    D: 63
+    opt:
+      A: 9
+      B: 5
+      C: 4
+      D: 4
+      E: 50
+      F: 6
+      G: 4
+      H: 15
+      I: 2
+      J: 1
+  explain: ''
+  reviewed: false
+- id: eng112-28
+  'no': 28
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: 'The secret is: Never wait until the body is telling you you’re thirsty, since there must already have been significant changes in your body for it to eventually <b><u> 28 </u></b> your consciousness.'
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: C
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 49
+    Ph: 86
+    Pl: 13
+    D: 73
+    opt:
+      A: 3
+      B: 4
+      C: 49
+      D: 8
+      E: 3
+      F: 3
+      G: 7
+      H: 5
+      I: 7
+      J: 10
+  explain: ''
+  reviewed: false
+- id: eng112-29
+  'no': 29
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: Also, drinking a lot of liquid in one go can cause more water to <b><u> 29 </u></b> the body quickly and come out as urine.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: I
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 50
+    Ph: 83
+    Pl: 19
+    D: 64
+    opt:
+      A: 4
+      B: 7
+      C: 9
+      D: 8
+      E: 2
+      F: 4
+      G: 4
+      H: 5
+      I: 50
+      J: 7
+  explain: ''
+  reviewed: false
+- id: eng112-30
+  'no': 30
+  type: single
+  points: 1
+  group: eng112-g21
+  stem: To <b><u> 30 </u></b> this, you need to drink water throughout the day to maintain your hydration levels.
+  options:
+    A: absorption
+    B: active
+    C: alert
+    D: combat
+    E: option
+    F: effective
+    G: even
+    H: status
+    I: pass through
+    J: reach for
+  answer: D
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 25
+    Ph: 49
+    Pl: 9
+    D: 40
+    opt:
+      A: 4
+      B: 5
+      C: 8
+      D: 25
+      E: 5
+      F: 2
+      G: 8
+      H: 8
+      I: 10
+      J: 26
+  explain: ''
+  reviewed: false
+- id: eng112-31
+  'no': 31
+  type: single
+  points: 2
+  group: eng112-g31
+  stem: In others, words can trigger a real sensation of taste on their tongue. <b><u> 31 </u></b> In the early 1990s, however, scientists noticed that synesthetic colors do not change over time. When asked what color is evoked by a letter or number, synesthetic people would persistently give the same answer even if tested months or years apart.<br>空格 31 應填入哪一句？
+  options:
+    A: This consistency serves as a proof that synesthesia is real.
+    B: Meanwhile, environmental influences seem to shape a person’s synesthesia.
+    C: People with synesthesia used to be accused of making their experiences up.
+    D: Some studies even show that people may all be synesthetic to some degree.
+  answer: C
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 41
+    Ph: 71
+    Pl: 24
+    D: 47
+    opt:
+      A: 21
+      B: 17
+      C: 41
+      D: 21
+  explain: ''
+  reviewed: false
+- id: eng112-32
+  'no': 32
+  type: single
+  points: 2
+  group: eng112-g31
+  stem: When asked what color is evoked by a letter or number, synesthetic people would persistently give the same answer even if tested months or years apart. <b><u> 32 </u></b> The most compelling support, however, comes from brain scans, which show that color processing areas in the brain light up when these people listen to certain words.<br>空格 32 應填入哪一句？
+  options:
+    A: This consistency serves as a proof that synesthesia is real.
+    B: Meanwhile, environmental influences seem to shape a person’s synesthesia.
+    C: People with synesthesia used to be accused of making their experiences up.
+    D: Some studies even show that people may all be synesthetic to some degree.
+  answer: A
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 54
+    Ph: 88
+    Pl: 23
+    D: 65
+    opt:
+      A: 54
+      B: 15
+      C: 14
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng112-33
+  'no': 33
+  type: single
+  points: 2
+  group: eng112-g31
+  stem: But an actual synesthesia gene (or genes) has not been identified yet. <b><u> 33 </u></b> For example, the flavors people with taste-word synesthesia experience are usually childhood flavors, such as chocolate or strawberries. Also, people with color-music synesthesia more often than not have had early musical training.<br>空格 33 應填入哪一句？
+  options:
+    A: This consistency serves as a proof that synesthesia is real.
+    B: Meanwhile, environmental influences seem to shape a person’s synesthesia.
+    C: People with synesthesia used to be accused of making their experiences up.
+    D: Some studies even show that people may all be synesthetic to some degree.
+  answer: B
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 43
+    Ph: 73
+    Pl: 21
+    D: 52
+    opt:
+      A: 9
+      B: 43
+      C: 31
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng112-34
+  'no': 34
+  type: single
+  points: 2
+  group: eng112-g31
+  stem: Once thought to be extremely rare, synesthesia is now found to affect about one to four percent of the population. <b><u> 34 </u></b> As is often observed, most of us tend to associate lower notes with darker colors and higher notes with brighter colors. Researchers further point out that in most people synesthesia is active only during the first months of their infancy, while this ability remains forever in certain individuals.<br>空格 34 應填入哪一句？
+  options:
+    A: This consistency serves as a proof that synesthesia is real.
+    B: Meanwhile, environmental influences seem to shape a person’s synesthesia.
+    C: People with synesthesia used to be accused of making their experiences up.
+    D: Some studies even show that people may all be synesthetic to some degree.
+  answer: D
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 44
+    Ph: 79
+    Pl: 21
+    D: 58
+    opt:
+      A: 15
+      B: 26
+      C: 14
+      D: 44
+  explain: ''
+  reviewed: false
+- id: eng112-35
+  'no': 35
+  type: single
+  points: 2
+  group: eng112-g35
+  stem: What question does the passage answer?
+  options:
+    A: How was the word “hula-hooping” derived?
+    B: Why did Wham-O start making hula hoops?
+    C: Where did Hawaiian hula dancing come from?
+    D: What was the favorite toy of ancient Egyptian kids?
+  answer: A
+  topic: R3
+  tags:
+  - 主旨
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 74
+    Ph: 96
+    Pl: 42
+    D: 54
+    opt:
+      A: 74
+      B: 10
+      C: 11
+      D: 6
+  explain: ''
+  reviewed: false
+- id: eng112-36
+  'no': 36
+  type: single
+  points: 2
+  group: eng112-g35
+  stem: Which of the following statements is true about use of the hoop in history?
+  options:
+    A: The British used it for medical purposes.
+    B: Native Americans used it to train animals.
+    C: Ancient Greeks used it as a tool for workout.
+    D: Hawaiian dancers used it to represent the circle of life.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 45
+    Ph: 81
+    Pl: 21
+    D: 60
+    opt:
+      A: 25
+      B: 13
+      C: 45
+      D: 16
+  explain: ''
+  reviewed: false
+- id: eng112-37
+  'no': 37
+  type: single
+  points: 2
+  group: eng112-g35
+  stem: Which of the following is NOT mentioned as a way of enjoying hula hoop fun?
+  options:
+    A: Striking.
+    B: Twirling.
+    C: Spinning.
+    D: Kicking.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 69
+    Ph: 94
+    Pl: 39
+    D: 55
+    opt:
+      A: 7
+      B: 10
+      C: 14
+      D: 69
+  explain: ''
+  reviewed: false
+- id: eng112-38
+  'no': 38
+  type: single
+  points: 2
+  group: eng112-g35
+  stem: According to the passage, what materials have been used for making hoops?
+  options:
+    A: reed, grapevine, bamboo, plastic
+    B: reed, grapevine, plastic, metal
+    C: reed, bamboo, plastic, animal skin
+    D: grapevine, plastic, metal, animal skin
+  answer: B
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 67
+    Ph: 96
+    Pl: 33
+    D: 63
+    opt:
+      A: 12
+      B: 67
+      C: 9
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng112-39
+  'no': 39
+  type: single
+  points: 2
+  group: eng112-g39
+  stem: Why do farmers in Assam dig trenches in tea gardens?
+  options:
+    A: To protect tea trees.
+    B: To trap elephants.
+    C: To expand tea farms.
+    D: To mark boundaries of tea gardens.
+  answer: A
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 62
+    Ph: 97
+    Pl: 19
+    D: 78
+    opt:
+      A: 62
+      B: 18
+      C: 11
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng112-40
+  'no': 40
+  type: single
+  points: 2
+  group: eng112-g39
+  stem: Why are baby elephants easily injured in the Assam tea gardens according to the passage?
+  options:
+    A: They cannot find a safe shelter when climbing out of the trenches.
+    B: They cannot locate the landmarks while trying to navigate forests.
+    C: They are trapped by the sharp branches of the tea trees.
+    D: They have difficulties moving around the uneven fields.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 40
+    Ph: 72
+    Pl: 15
+    D: 57
+    opt:
+      A: 17
+      B: 19
+      C: 23
+      D: 40
+  explain: ''
+  reviewed: false
+- id: eng112-41
+  'no': 41
+  type: single
+  points: 2
+  group: eng112-g39
+  stem: Which of the following statements about elephants and the tea gardens is true according to the passage?
+  options:
+    A: The elephants use the trenches to roam around the tea gardens.
+    B: The fast growth of the tea gardens destroys the elephants’ food source.
+    C: Elephants are unwilling to leave their injured members behind in the tea gardens.
+    D: Pregnant elephants avoid delivering babies in the tea gardens for fear of being disturbed.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 65
+    Ph: 95
+    Pl: 34
+    D: 61
+    opt:
+      A: 12
+      B: 10
+      C: 65
+      D: 13
+  explain: ''
+  reviewed: false
+- id: eng112-42
+  'no': 42
+  type: single
+  points: 2
+  group: eng112-g39
+  stem: What does “it” in the last paragraph refer to?
+  options:
+    A: To certify elephant-friendly trenches and organizations.
+    B: To reward tea growers for protecting the environment.
+    C: To encourage consumers to choose high-quality brands.
+    D: To create a win-win situation for elephants and tea farms.
+  answer: D
+  topic: R3
+  tags:
+  - 指涉
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 68
+    Ph: 96
+    Pl: 32
+    D: 64
+    opt:
+      A: 17
+      B: 8
+      C: 7
+      D: 68
+  explain: ''
+  reviewed: false
+- id: eng112-43
+  'no': 43
+  type: single
+  points: 2
+  group: eng112-g43
+  stem: Which of the following is true about the earliest traders in Zanzibar?
+  options:
+    A: The earliest traders arrived around 900 AD.
+    B: Most of the earliest merchants came from Africa.
+    C: Asian merchants arrived centuries before the African settlers.
+    D: Traders from Persia settled down permanently around 1000 AD.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 62
+    Ph: 90
+    Pl: 32
+    D: 58
+    opt:
+      A: 9
+      B: 14
+      C: 62
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng112-44
+  'no': 44
+  type: single
+  points: 2
+  group: eng112-g43
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  topic: R3
+  tags:
+  - 圖片
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 45
+    Ph: 57
+    Pl: 35
+    D: 22
+    opt:
+      A: 8
+      B: 45
+      C: 32
+      D: 15
+  explain: ''
+  reviewed: false
+  image: img/english/112-44.webp
+- id: eng112-45
+  'no': 45
+  type: single
+  points: 2
+  group: eng112-g43
+  stem: Which of the following can be inferred from the passage about Zanzibar?
+  options:
+    A: For centuries, Zanzibar has been a heaven for beach lovers.
+    B: Cloves, vanilla, and cinnamon are common spices in Zanzibar.
+    C: Besides spices, Zanzibar is well known for a great variety of jewelry.
+    D: Vasco da Gama was Zanzibar’s first foreign ruler during the Age of Exploration.
+  answer: B
+  topic: R3
+  tags:
+  - 推論
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 47
+    Ph: 73
+    Pl: 27
+    D: 46
+    opt:
+      A: 17
+      B: 47
+      C: 17
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng112-46
+  'no': 46
+  type: single
+  points: 2
+  group: eng112-g43
+  stem: Which set of words is used in the passage to refer to Zanzibar?
+  options:
+    A: islands, settlements, posts, crossroads
+    B: islands, posts, jewels, destination
+    C: archipelago, islands, jewels, destination
+    D: archipelago, settlements, paths, islands
+  answer: C
+  topic: R3
+  tags:
+  - 指涉
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 43
+    Ph: 60
+    Pl: 30
+    D: 30
+    opt:
+      A: 20
+      B: 13
+      C: 43
+      D: 24
   explain: ''
   reviewed: false

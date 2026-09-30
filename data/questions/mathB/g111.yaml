@@ -43,8 +43,10 @@ items:
     '4': ''
     '5': ''
   answer: '1'
-  topic: null
-  concepts: []
+  topic: B1
+  tags: []
+  concepts:
+  - B1
   classic: true
   stats:
     P: 74
@@ -87,8 +89,10 @@ items:
     '4': ''
     '5': ''
   answer: '3'
-  topic: null
-  concepts: []
+  topic: B4
+  tags: []
+  concepts:
+  - B4
   classic: true
   stats:
     P: 83
@@ -127,8 +131,10 @@ items:
     '4': ''
     '5': ''
   answer: '2'
-  topic: null
-  concepts: []
+  topic: B9
+  tags: []
+  concepts:
+  - B9
   classic: true
   stats:
     P: 50
@@ -166,8 +172,12 @@ items:
     '4': ''
     '5': ''
   answer: '2'
-  topic: null
-  concepts: []
+  topic: B6
+  tags:
+  - B1
+  concepts:
+  - B6
+  - B1
   classic: true
   stats:
     P: 49
@@ -235,8 +245,10 @@ items:
     '4': ''
     '5': ''
   answer: '5'
-  topic: null
-  concepts: []
+  topic: B7
+  tags: []
+  concepts:
+  - B7
   classic: true
   stats:
     P: 65
@@ -312,8 +324,10 @@ items:
     '4': ''
     '5': ''
   answer: '3'
-  topic: null
-  concepts: []
+  topic: B8
+  tags: []
+  concepts:
+  - B8
   classic: true
   stats:
     P: 53
@@ -354,8 +368,10 @@ items:
     '4': ''
     '5': ''
   answer: '5'
-  topic: null
-  concepts: []
+  topic: B8
+  tags: []
+  concepts:
+  - B8
   classic: true
   stats:
     P: 27
@@ -458,8 +474,10 @@ items:
     '4': ''
     '5': ''
   answer: 1,2,5
-  topic: null
-  concepts: []
+  topic: B5
+  tags: []
+  concepts:
+  - B5
   classic: true
   stats:
     P: 54
@@ -508,8 +526,10 @@ items:
     '4': ''
     '5': ''
   answer: '1'
-  topic: null
-  concepts: []
+  topic: B2
+  tags: []
+  concepts:
+  - B2
   classic: true
   stats:
     P: 42
@@ -606,8 +626,10 @@ items:
     '4': ''
     '5': ''
   answer: 1,2,4
-  topic: null
-  concepts: []
+  topic: B11
+  tags: []
+  concepts:
+  - B11
   classic: true
   stats:
     P: 46
@@ -671,8 +693,10 @@ items:
     '4': ''
     '5': ''
   answer: 2,3
-  topic: null
-  concepts: []
+  topic: B5
+  tags: []
+  concepts:
+  - B5
   classic: true
   stats:
     P: 50
@@ -751,8 +775,10 @@ items:
     '4': ''
     '5': ''
   answer: 3,5
-  topic: null
-  concepts: []
+  topic: B2
+  tags: []
+  concepts:
+  - B2
   classic: true
   stats:
     P: 39
@@ -879,8 +905,10 @@ items:
   stem: ''
   options: null
   answer: 9,9
-  topic: null
-  concepts: []
+  topic: B1
+  tags: []
+  concepts:
+  - B1
   classic: true
   stats:
     P: 48
@@ -919,8 +947,10 @@ items:
   stem: ''
   options: null
   answer: 1,7
-  topic: null
-  concepts: []
+  topic: B6
+  tags: []
+  concepts:
+  - B6
   classic: true
   stats:
     P: 44
@@ -951,8 +981,10 @@ items:
   stem: ''
   options: null
   answer: 1,4,1,5
-  topic: null
-  concepts: []
+  topic: B10
+  tags: []
+  concepts:
+  - B10
   classic: true
   stats:
     P: 52
@@ -982,8 +1014,10 @@ items:
   stem: ''
   options: null
   answer: 3,1,4,5
-  topic: null
-  concepts: []
+  topic: B10
+  tags: []
+  concepts:
+  - B10
   classic: true
   stats:
     P: 39
@@ -1013,8 +1047,10 @@ items:
   stem: ''
   options: null
   answer: 4,5,6
-  topic: null
-  concepts: []
+  topic: B9
+  tags: []
+  concepts:
+  - B9
   classic: true
   stats:
     P: 7
@@ -1045,8 +1081,10 @@ items:
     '4': ''
     '5': ''
   answer: '4'
-  topic: null
-  concepts: []
+  topic: B3
+  tags: []
+  concepts:
+  - B3
   classic: true
   stats:
     P: 70
@@ -1083,8 +1121,10 @@ items:
   stem: ''
   options: null
   answer: null
-  topic: null
-  concepts: []
+  topic: B3
+  tags: []
+  concepts:
+  - B3
   classic: false
   classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
   explain: ''
@@ -1112,8 +1152,10 @@ items:
   stem: ''
   options: null
   answer: null
-  topic: null
-  concepts: []
+  topic: B3
+  tags: []
+  concepts:
+  - B3
   classic: false
   classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
   explain: ''

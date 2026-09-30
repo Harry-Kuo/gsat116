@@ -1,0 +1,1661 @@
+exam: 學測
+year: 111
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0m052633042401295651/03-111%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8a%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf
+groups:
+- id: ma111-g18
+  range:
+  - 18
+  - 20
+  intro: 閱讀下文，回答18-20題。
+  image: img/mathA/111-g18.webp
+  passage: |-
+    18-20 題為題組
+    坐標平面上有一環狀區域由圓
+    2
+    2
+    3
+    x
+    y
+    
+    
+    的外部與圓
+    2
+    2
+    4
+    x
+    y
+    
+    
+    的內部交集而成。某甲
+    欲用一支長度為1 的筆直掃描棒來掃描此環狀區域之x 軸上方的某區域R。他設計掃描棒
+    黑、白兩端分別在半圓
+    2
+    2
+    1 :
+    3
+    0
+    C
+    x
+    y
+    y
+    
+    
+    
+    （
+    ）、
+    2
+    2
+    2 :
+    4
+    0
+    C
+    x
+    y
+    y
+    
+    
+    
+    （
+    ）上移動。開始時掃描棒
+    黑端在點
+    ( 3,0)
+    A
+    ，白端在
+    2
+    C 的點B。接著黑、白兩端各沿
+    著
+    1
+    C 、
+    2
+    C 逆時針移動，直至白端碰到
+    2
+    C 的點
+    ( 2,0)
+    B
+    便停止
+    掃描。
+
+    y
+    x
+items:
+- id: ma111-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: true
+  stats:
+    P: 29
+    Ph: 35
+    Pl: 21
+    D: 14
+    opt:
+      '1': 5
+      '2': 32
+      '3': 9
+      '4': 29
+      '5': 24
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-01.webp
+  text: |-
+    說明：第1 題至第6 題，每題5 分。
+    1. 某冰淇淋店最少需準備n 桶不同口味的冰淇淋，才能滿足廣告所稱「任選兩球不同口味
+    冰淇淋的組合數超過100 種」。試問來店顧客從n 桶中任選兩球（可為同一口味）共有
+    幾種方法？
+    (1) 101
+    (2) 105
+    (3) 115
+    (4) 120
+    (5) 225
+- id: ma111-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 40
+    Ph: 70
+    Pl: 14
+    D: 56
+    opt:
+      '1': 40
+      '2': 18
+      '3': 28
+      '4': 9
+      '5': 5
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-02.webp
+  text: |-
+    2. 某品牌計算機在計算對數loga b 時需按log （a ，b ）。某生在計算loga b 時（其中
+    1
+    a 
+    且
+    1
+    b ）順序弄錯，誤按log （b ，a ），所得為正確值的9
+    4 倍。試選出,a b 間的關係式。
+    (1)
+    2
+    3
+    a
+    b
+    
+
+    (2)
+    3
+    2
+    a
+    b
+    
+
+    (3)
+    4
+    9
+    a
+    b
+    
+
+    (4) 2
+    3
+    a
+    b
+    
+
+    (5) 3
+    2
+    a
+    b
+    
+- id: ma111-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M6
+  tags:
+  - M4
+  concepts:
+  - M6
+  - M4
+  classic: true
+  stats:
+    P: 12
+    Ph: 22
+    Pl: 5
+    D: 17
+    opt:
+      '1': 63
+      '2': 7
+      '3': 7
+      '4': 10
+      '5': 12
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-03.webp
+  text: |-
+    3. 在處理二維數據時，有種方法是將數據垂直投影到某一直線，並以該直線為數線，進而
+    了解投影點所成一維數據的變異。下圖的一組二維數據，試問投影到哪一選項的直線，
+    所得之一維投影數據的變異數會是最小？
+    (1)
+    2
+    y
+    x
+    
+
+    (2)
+    2
+    y
+    x
+    
+
+    (3) y
+    x
+    
+    (4)
+    2
+    x
+    y 
+
+    (5)
+    2
+    x
+    y 
+
+
+
+    -5
+    -4
+    -3
+    -2
+    -1
+    0
+    1
+    2
+    3
+    4
+    5
+    -5 -4 -3 -2 -1 0 1 2 3 4 5
+- id: ma111-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: M8
+  tags:
+  - M1
+  concepts:
+  - M8
+  - M1
+  classic: true
+  stats:
+    P: 57
+    Ph: 86
+    Pl: 27
+    D: 59
+    opt:
+      '1': 6
+      '2': 11
+      '3': 57
+      '4': 19
+      '5': 6
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-04.webp
+  text: |-
+    4. 設等差數列
+    na
+    之首項
+    1a 與公差d 皆為正數，且
+    1
+    3
+    6
+    log
+    ,log
+    ,log
+    a
+    a
+    a 依序也成等差數列。試
+    選出數列
+    1
+    3
+    6
+    log
+    ,log
+    ,log
+    a
+    a
+    a 的公差。
+    (1) logd
+    (2)
+    2
+    log 3
+    (3)
+    3
+    log 2
+    (4) log2d
+    (5) log3d
+- id: ma111-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: true
+  stats:
+    P: 53
+    Ph: 76
+    Pl: 28
+    D: 48
+    opt:
+      '1': 12
+      '2': 53
+      '3': 16
+      '4': 11
+      '5': 8
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-05.webp
+  text: |-
+    5. 已知某地區有30%的人口感染某傳染病。針對該傳染病的快篩試劑檢驗，有陽性或陰性
+    兩結果。已知該試劑將染病者判為陽性的機率為80%，將未染病者判為陰性的機率則為
+    60%。為降低該試劑將染病者誤判為陰性的情況，專家建議連續採檢三次。若單次採檢判
+    為陰性者中，染病者的機率為P；而連續採檢三次皆判為陰性者中，染病者的機率為
+    '
+    P 。
+    試問
+    '
+    P
+    P 最接近哪一選項？
+    (1) 7
+    (2) 8
+    (3) 9
+    (4) 10
+    (5) 11
+- id: ma111-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M9
+  tags:
+  - M3
+  concepts:
+  - M9
+  - M3
+  classic: true
+  stats:
+    P: 48
+    Ph: 77
+    Pl: 18
+    D: 59
+    opt:
+      '1': 10
+      '2': 14
+      '3': 17
+      '4': 10
+      '5': 49
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-06.webp
+  text: |-
+    6. 設坐標平面上兩直線
+    1
+    2
+    ,
+    L L 的斜率皆為正，且
+    1
+    2
+    ,
+    L L 有一夾角的平分線斜率為11
+    9 。另一直
+    線L通過點
+    1
+    2 3
+    ( ,
+    ) 且與
+    1
+    2
+    ,
+    L L 所圍的有界區域為正三角形，試問L的方程式為下列哪一選
+    項？
+    (1) 11
+    9
+    19
+    x
+    y
+    
+    
+
+    (2) 9
+    11
+    25
+    x
+    y
+    
+    
+
+    (3) 11
+    9
+    25
+    x
+    y
+    
+    
+
+    (4) 27
+    33
+    43
+    x
+    y
+    
+    
+
+    (5) 27
+    33
+    65
+    x
+    y
+    
+    
+- id: ma111-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,4
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 57
+    Ph: 73
+    Pl: 40
+    D: 33
+    T: 37
+    opt:
+      '1': 23
+      '2': 69
+      '3': 27
+      '4': 87
+      '5': 24
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-07.webp
+  text: |-
+    說明：第7 題至第12 題，每題5 分。
+    7. 設整數n 滿足5
+    21
+    7
+    n
+    n
+    
+    
+    。試選出正確的選項。
+    (1) 5
+    7
+    21
+    n
+    n
+    
+    
+
+    (2)
+    7
+    1
+    1
+    5
+    21
+    n
+    n
+    
+    
+    
+
+    (3) 7
+    5
+    21
+    n
+    n
+    
+    
+
+    (4)
+    2
+    2
+    (5
+    21)
+    49
+    n
+    n
+    
+    
+
+    (5) 滿足題設不等式的整數n 有無窮多個
+- id: ma111-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 60
+    Ph: 82
+    Pl: 37
+    D: 45
+    T: 39
+    opt:
+      '1': 95
+      '2': 17
+      '3': 23
+      '4': 70
+      '5': 32
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-08.webp
+  text: |-
+    8. 坐標平面上，
+    ABC
+    
+    三頂點的坐標分別為
+    (0,2),
+    (1,0),
+    (4,1)
+    A
+    B
+    C
+    ，試選出正確的選項。
+    (1)
+    ABC
+    
+    的三邊中，AC 最長
+    (2) sin
+    sin
+    A
+    C
+    
+
+    (3)
+    ABC
+    
+    為銳角三角形
+    (4)
+    7 2
+    sin
+    10
+    B 
+
+    (5)
+    ABC
+    
+    的外接圓半徑比2 小
+- id: ma111-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,4
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 19
+    Ph: 28
+    Pl: 14
+    D: 14
+    T: 4
+    opt:
+      '1': 56
+      '2': 34
+      '3': 57
+      '4': 54
+      '5': 70
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-09.webp
+  text: |-
+    9. 已知P為
+    ABC
+    
+    內一點，且AP
+    a AB b AC
+    
+    
+    
+    
+    ，其中a  , b 為相異實數。設
+    ,
+    Q R 在同一平面
+    上，且AQ
+    b AB a AC
+    
+    
+    
+    ，
+    (
+    0.05)
+    AR
+    a AB
+    b
+    AC
+    
+    
+    
+    
+    
+    。試選出正確的選項。
+    (1)
+    ,
+    Q R 也都在
+    ABC
+    
+    內部
+    (2) AP
+    AQ
+    
+    
+
+    (3)
+    ABP
+    
+    面積
+    ACQ
+    
+    面積
+    (4)
+    BCP
+    
+    面積
+    BCQ
+    
+    面積
+    (5)
+    ABP
+    
+    面積
+    ABR
+    
+    面積
+- id: ma111-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: true
+  stats:
+    P: 20
+    Ph: 29
+    Pl: 13
+    D: 16
+    T: 3
+    opt:
+      '1': 53
+      '2': 66
+      '3': 44
+      '4': 62
+      '5': 50
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-10.webp
+  text: |-
+    10. 給定一實係數三次多項式函數
+    3
+    2
+    ( )
+    3
+    f x
+    ax
+    bx
+    cx
+    
+    
+    
+    。令
+    ( )
+    (
+    )
+    3
+    g x
+    f
+    x
+    
+    
+    ，已知
+    ( )
+    y
+    g x
+    
+    圖形的對稱中心為(1,0) 且
+    ( 1)
+    0
+    g 
+    
+    。試選出正確的選項。
+    (1)
+    ( )
+    0
+    g x 
+    有三相異整數根
+    (2)
+    0
+    a 
+
+    (3)
+    ( )
+    y
+    f x
+    
+    圖形的對稱中心為( 1, 3)
+    
+
+    (4)
+    (100)
+    0
+    f
+    
+
+    (5)
+    ( )
+    y
+    f x
+    
+    的圖形在點( 1,
+    ( 1))
+    f
+    
+    
+    附近會近似於一條斜率為a 的直線
+- id: ma111-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,4
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 38
+    Ph: 54
+    Pl: 24
+    D: 30
+    T: 16
+    opt:
+      '1': 48
+      '2': 73
+      '3': 64
+      '4': 65
+      '5': 30
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-11.webp
+  text: |-
+    11. 下圖為一個積木的示意圖，其中ABC 為一直角三角形，
+    90
+    ACB
+    
+    
+    ，
+    5
+    AC 、
+    6
+    BC 
+    ，
+    且ADEB 與ADFC 皆為矩形。試選出正確的選項。
+    (1) 將此積木沿平面ACE 切下，可切得兩個四面體
+    (2) 平面ADEB 與ADFC 所夾銳角大於45
+    (3)
+    CEB
+    AEB
+    
+    
+
+    (4) tan
+    sin
+    AEC
+    CEB
+    
+    
+    
+
+    (5)
+    CEB
+    AEC
+    
+    
+- id: ma111-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: true
+  stats:
+    P: 21
+    Ph: 31
+    Pl: 13
+    D: 18
+    T: 9
+    opt:
+      '1': 58
+      '2': 52
+      '3': 56
+      '4': 41
+      '5': 55
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-12.webp
+  text: |-
+    12. 設
+    ( ), ( )
+    f x g x 皆為實係數多項式，其中
+    ( )
+    g x 是首項係數為正的二次式。已知
+    2
+    ( ( ))
+    g x
+    除以
+    ( )
+    f x 的餘式為
+    ( )
+    g x ，且
+    ( )
+    y
+    f x
+    
+    的圖形與x 軸無交點。試選出不可能是
+    ( )
+    y
+    g x
+    
+    圖形頂點
+    的y 坐標之選項。
+    (1)
+    2
+    2
+    (2) 1
+    (3)
+    2
+    (4) 2
+    (5) 
+- id: ma111-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,2
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: true
+  stats:
+    P: 46
+    Ph: 69
+    Pl: 21
+    D: 48
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-13.webp
+  text: |-
+    說明：第13 題至第17 題，每題5 分。
+    13. 有一款線上遊戲推出「十連抽」的抽卡機制，「十連抽」意思為系統自動做十次的抽卡
+    動作。若每次「十連抽」需用1500 枚代幣，抽中金卡的機率在前九次皆為2%，在第
+    十次為10%。今某生有代幣23000 枚，且不斷使用「十連抽」，抽到不能再抽為止。則
+    某生抽到金卡張數的期望值為○
+    13-1 .○
+    13-2 張。
+- id: ma111-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,1,2
+  topic: M5
+  tags: []
+  concepts:
+  - M5
+  classic: true
+  stats:
+    P: 21
+    Ph: 46
+    Pl: 3
+    D: 43
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-14.webp
+  text: |-
+    14. 已知a 、b 為實數，且方程組
+    5
+    12
+    4
+    8
+    7
+    3
+    3
+    8
+    1
+    ax
+    y
+    z
+    x
+    ay
+    z
+    x
+    y
+    az
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    恰有一組解，又此方程組經過一系列的高
+    斯消去法運算後，原來的增廣矩陣可化為
+    1
+    2
+    7
+    0
+    5
+    5
+    0
+    0
+    0
+    b
+    b
+    b
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    。則a ○
+    14-1 ，b ○
+    14-2
+    ○
+    14-3
+    。
+    （化為最簡分數）
+- id: ma111-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,9,2
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 16
+    Ph: 37
+    Pl: 2
+    D: 35
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-15.webp
+  text: |-
+    15. 如圖，王家有塊三角形土地
+    ABC
+    
+    ，其中
+    16
+    BC 
+    公尺。政府擬徵收其中梯形DBCE 部分，
+    開闢以直線
+    ,
+    DE BC 為邊線的馬路，其路寬為h 公尺，這讓王家土地
+    只剩原有面積的9
+    16 。經協商，改以開闢平行直線
+    ,
+    BE FC 為邊線的馬
+    路，且路寬不變，其中
+    30
+    EBC
+    
+    
+    ，則只需徵收
+    BCE
+    
+    區域。依此協
+    商，王家剩餘的土地
+    ABE
+    
+    有○
+    15-1 ○
+    15-2 ○
+    15-3 平方公尺。
+
+
+
+
+
+    A
+    D
+    E
+    B
+    C
+    F
+- id: ma111-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,3,－,2,5
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 18
+    Ph: 45
+    Pl: 1
+    D: 44
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-16.webp
+  text: |-
+    16. 坐標空間中，平面
+    2
+    3
+    x
+    y
+    z
+    
+    
+    
+    上有兩相異直線
+    :
+    1
+    1
+    2
+    2
+    x
+    L
+    y
+    z
+    
+    
+    與L。
+    已知L也在另一平面E 上，且L在E 的投影與L重合。
+    則E 的方程式為x ○
+    16-1 ○
+    16-2
+    y ○
+    16-3 ○
+    16-4 z ○
+    16-5 。
+- id: ma111-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,1
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 5
+    Ph: 13
+    Pl: 1
+    D: 12
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-17.webp
+  text: |-
+    17. 坐標空間中一平行六面體，某一底面的其中三頂點為( 1,2,1),( 4,1,3),(2,0, 3)
+    
+    
+    
+    ，另一面之
+    一頂點在xy 平面上且與原點距離為1。滿足前述條件之平行六面體中，最大體積為
+    ○
+    17-1 ○
+    17-2 。
+- id: ma111-18
+  'no': 18
+  type: single
+  points: 2
+  group: ma111-g18
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: true
+  stats:
+    P: 55
+    Ph: 85
+    Pl: 25
+    D: 60
+    opt:
+      '1': 4
+      '2': 7
+      '3': 6
+      '4': 55
+      '5': 26
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-18.webp
+  text: |-
+    18. 試問點B的坐標為下列哪一選項？（單選題，3 分）
+    (1) (0,2)
+    (2) (1, 3)
+    (3) ( 2, 2)
+    (4) ( 3,1)
+    (5) (2,0)
+- id: ma111-19
+  'no': 19
+  type: open
+  points: 2
+  group: ma111-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: M9
+  tags:
+  - M3
+  concepts:
+  - M9
+  - M3
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-19.webp
+  text: |-
+    19. 令O 為原點，掃描棒停止時黑、白兩端所在位置分別為
+    ,
+    A B
+    
+    。試在答題卷上作圖區中
+    以斜線標示掃描棒掃過的區域R；並於求解區內求cos OA B
+    
+    
+    及點A的極坐標。
+    （非選擇題，6 分）
+- id: ma111-20
+  'no': 20
+  type: open
+  points: 2
+  group: ma111-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: M9
+  tags:
+  - M3
+  concepts:
+  - M9
+  - M3
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathA/111-20.webp
+  text: |-
+    20. （承19 題）令表示掃描棒在第一象限所掃過的區域，試分別求與R的面積。
+    （非選擇題，6 分）
+
+
+
+
+
+
+
+
+    參考公式及可能用到的數值
+    1. 首項為a ，公差為d 的等差數列前n 項之和為
+    (2
+    (
+    1) )
+    2
+    n
+    a
+    n
+    d
+    S
+    
+    
+    
+
+
+    首項為a ，公比為
+    (
+    1)
+    r r 
+    的等比數列前n 項之和為
+    (1
+    )
+    1
+    n
+    a
+    r
+    S
+    r
+    
+    
+    
+
+
+    2. 三角函數的和角公式：sin(
+    )
+    sin
+    cos
+    cos
+    sin
+    A
+    B
+    A
+    B
+    A
+    B
+    
+    
+    
+
+    cos(
+    )
+    cos
+    cos
+    sin
+    sin
+    A
+    B
+    A
+    B
+    A
+    B
+    
+    
+    
+
+    tan
+    tan
+    tan(
+    )
+    1 tan
+    tan
+    A
+    B
+    A
+    B
+    A
+    B
+    
+    
+    
+
+
+    3.
+    ABC
+    
+    的正弦定理：
+    2
+    sin
+    sin
+    sin
+    a
+    b
+    c
+    R
+    A
+    B
+    C
+    
+    
+    
+     （R為
+    ABC
+    
+    外接圓半徑）
+    ABC
+    
+    的餘弦定理：
+    2
+    2
+    2
+    2
+    cos
+    c
+    a
+    b
+    ab
+    C
+    
+    
+    
+
+
+    4. 一維數據
+    1
+    2
+    :
+    ,
+    ,
+    ,
+    n
+    X
+    x x
+    x
+    
+    ，
+    算術平均數
+    1
+    2
+    1 (
+    )
+    X
+    n
+    x
+    x
+    x
+    n
+    
+    
+    
+
+    標準差
+    2
+    2
+    2
+    2
+    2
+    2
+    2
+    1
+    2
+    1
+    2
+    1
+    1
+    [(
+    )
+    (
+    )
+    (
+    ) ]
+    [(
+    )
+    ]
+    X
+    X
+    X
+    n
+    X
+    n
+    X
+    x
+    x
+    x
+    x
+    x
+    x
+    n
+    n
+    n
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    5. 二維數據
+    1
+    1
+    2
+    2
+    (
+    , ):(
+    ,
+    ),(
+    ,
+    ),
+    ,(
+    ,
+    )
+    n
+    n
+    X Y
+    x y
+    x
+    y
+    x
+    y
+    
+    ，
+    相關係數
+    1
+    1
+    2
+    2
+    ,
+    (
+    )(
+    )
+    (
+    )(
+    )
+    (
+    )(
+    )
+    X
+    Y
+    X
+    Y
+    n
+    X
+    n
+    Y
+    X Y
+    X
+    Y
+    x
+    y
+    x
+    y
+    x
+    y
+    r
+    n
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    迴歸直線（最適合直線）方程式
+    ,
+    (
+    )
+    Y
+    Y
+    X Y
+    X
+    X
+    y
+    r
+    x
+    
+    
+    
+    
+    
+    
+    
+
+
+    6. 參考數值：
+    2
+    1.414,
+    3
+    1.732 ,
+    5
+    2.236,
+    6
+    2.449,
+    3.142
+    
+    
+    
+    
+    
+    
+
+
+    7. 對數值：log 2
+    0.3010, log3
+    0.4771, log5
+    0.6990, log7
+    0.8451
+    
+    
+    
+    

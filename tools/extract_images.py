@@ -35,6 +35,8 @@ def page_bounds(page):
                 top = max(top, y1 + 2)
             if y0 > page.rect.height - 70 and re.fullmatch(r"[-－–\s\d]+|第\s*\d+\s*頁.*|.*共\s*\d+\s*頁", t):
                 bottom = min(bottom, y0 - 2)
+            if re.sub(r"\s", "", t) in ("背面還有試題", "請翻頁"):  # 頁尾的提示框（框線在文字上方約 14pt）
+                bottom = min(bottom, y0 - 16)
     return top, bottom
 
 

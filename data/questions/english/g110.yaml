@@ -5,7 +5,83 @@ paper: 英文
 source:
   pdf: https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf
   docx: https://www.ceec.edu.tw/files/file_pool/1/0l069608423827932684/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%20.docx
-groups: []
+groups:
+- id: eng110-g16
+  range:
+  - 16
+  - 20
+  intro: 第16至20題為題組
+  passage: |-
+    Street pigeons are a common sight in many European cities. In fact, a visit to a major European city just would not be the same <u> 16 </u> encountering them: bathing in fountains, perching on historic buildings, and flocking in public squares. In Barcelona, however, the birds are now threatening to <u> 17 </u> the city’s historic center, pooping on monuments, buildings, and even tourists.
+    The city council originally proposed <u> 18 </u> the pigeon population by gathering the birds and shooting them. But that idea led to strong protests from numerous animal rights groups. After heated debates and discussions, the government was finally persuaded to consider another <u> 19 </u> effective method: giving the pigeons birth control.
+    In 2016, the city council decided to put its 85,000 pigeon population on a birth control pill to block the formation of eggs in birds. Starting from April 2017, the pills were placed in 40 bird feeders <u> 20 </u> throughout the city. It was predicted that there would be a decrease of 20 percent in the pigeon population in the first year and between 70 and 80 percent in four or five years.
+- id: eng110-g21
+  range:
+  - 21
+  - 25
+  intro: 第21至25題為題組
+  passage: |-
+    Being hit by lightning is a rare event. Over the course of an 80-year life span, the odds of being hit by lightning are 1 in 3,000, <u> 21 </u> the probability of being struck seven different times. Roy Sullivan, a park ranger in the United States, was struck by lightning more recorded times than any other human being. Over his 36-year career, Sullivan was struck by lightning seven times—and <u> 22 </u> each shock!
+    Strikes one, two, and three were pure bad luck, he thought. But after strike four, Sullivan became <u> 23 </u> death and took precautions during lightning strikes. Strike five occurred in 1973 when Sullivan was on patrol. A storm cloud “chased” him until he was struck. The same thing happened again in 1976. Sullivan, while surveying a campground, felt that a cloud was <u> 24 </u> him, and tried all he could to run—but it got him anyway. Finally, on 25 June 1977, a seventh and final bolt struck Sullivan as he was fishing in a pond. “I don’t believe God is after me,” he theorized. “If he was, the first bolt <u> 25 </u> enough. Best I can figure is that I have some chemical, some mineral, in my body that draws lightning. I just wish I knew.”
+- id: eng110-g26
+  range:
+  - 26
+  - 30
+  intro: 第26至30題為題組
+  passage: |-
+    Glaciers are usually associated with colder climates. But some mountain ranges of South America, Africa, and Indonesia are also <u> 26 </u> glaciers and ice sheets. These tropical glaciers serve as a major source of water supply to one-sixth of the world’s population.
+    A newly published study, however, revealed that rising temperatures are posing an <u> 27 </u> threat to the last tropical glaciers in Indonesia’s Papua region. The ice sheets, which once spanned 20 square kilometers, are thinning over five times as quickly compared to a few years ago. <u> 28 </u> already shrunk by 85% to a mere 0.5 square kilometers, Papua’s glaciers will completely disappear within a decade, researchers have predicted.
+    The disappearance of the glaciers will also leave a significant <u> 29 </u> impact. For many indigenous Papuans, the ice sheets represent a sacred symbol. “The mountains and valleys are the arms and legs of their god and the glaciers are the head,” explained the head researcher.
+    The study warned that Papua’s glaciers are only the “first to go” if greenhouse gases are <u> 30 </u> and temperatures continue rising. And this is certainly a serious warning about the depressing fate of other glaciers around the world.
+- id: eng110-g31
+  range:
+  - 31
+  - 40
+  intro: 第31至40題為題組
+  passage: |-
+    If you cannot find ways to fit exercise into your busy daily schedule, don’t worry! Exercise doesn’t always have to be laborious. Research shows that <u> 31 </u> amounts of exercise—even just 15 minutes a day—helps ease depression, enhance self-image, relieve stress, and much more. That’s right. Doing exercise makes you happy, and you don’t have to be a fitness <u> 32 </u> to do it. What you need to do is to make “start slow and have fun” a motto to <u> 33 </u>. Then you’ll be well on your way to using physical activity as a tool to make you feel better every day.
+    The “no pain, no gain” view of exercise is now considered old-fashioned. In fact, <u> 34 </u> health studies prove that exercise doesn’t have to hurt to be effective. You might <u> 35 </u> that if working out doesn’t give you pain, it isn’t working. According to fitness trainers, physically <u> 36 </u> exercises may make you breathe heavily and your muscles may ache temporarily, but exercise should not be painful. In fact, if it is, it may <u> 37 </u> an injury or muscle strain. Many great forms of exercise—like walking, swimming, or gentle stretching—get results without the <u> 38 </u> or discomfort some people associate with exercise.
+    For the sake of your health, it is time to make regular exercise a part of your life. Keep in mind that even short periods of low-impact exercise serve as a powerful <u> 39 </u> to improve your health. So, no matter how busy you are, try to <u> 40 </u> for exercise every day, like a 15-minute walk with your dog. Your body will thank you in many ways.
+- id: eng110-g41
+  range:
+  - 41
+  - 44
+  intro: 第41至44題為題組
+  passage: |-
+    The prickly pear cactus is such a powerful symbol in Mexico that it occupies a prime spot on Mexico’s national flag. The plant was considered sacred by the ancient Aztecs, and modern-day Mexicans eat it, drink it, and even use it in medicines and shampoos. Now scientists have come up with a new use for the bright green plant: producing renewable energy.
+    Known locally as nopal, the prickly pear is farmed on a massive scale in Mexico. Over the years, only the edible soft inner flesh has been used. The cactus’s thick outer layer (i.e., husk), with all those spines, had always been viewed as a waste product until researchers developed a biogas generator to turn the husks into electricity.
+    The pilot project dedicated to developing the cactus biogas generator began in the south of Mexico City. The area produces 200,000 tons a year of prickly pear cactus—up to 10 tons of which ends up as waste on the floor of the cactus market each day. Then, a local green energy startup company got the idea to turn that waste into energy. The generator is now in place at the cactus market, where the vendors are enthusiastic about this new way to utilize the tons of cactus husks that once went directly into the trash.
+    The prickly pear has a number of advantages over other biofuel crops, such as wheat, sugarcane, and soybeans. For one thing, only the husk of the cactus is used for generating biofuel, while its inner flesh is still preserved for food. Therefore, using the plant as a fuel source will not put pressure on food prices. Moreover, the cactus requires minimum water, and thus is not grown on traditional agricultural pasture. This means that no increased competition arises for the water or land presently used for food production.
+    The project in Mexico City has brought new hope to reducing the use of fossil fuels. If it can be expanded, the prickly pear could be the key to Mexico’s energy future.
+- id: eng110-g45
+  range:
+  - 45
+  - 48
+  intro: 第45至48題為題組
+  passage: |-
+    The concept of a travel document, which shows a person is under a ruler’s protection while in a foreign land, has probably existed since rulers and states were first invented. But the earliest mention of an object which we might recognize as a passport appeared in about 450 B.C. The Hebrew Bible states that Nehemiah, an official serving King Artaxerxes of ancient Persia, asked permission to travel to Judah. The King agreed and gave Nehemiah a letter “to the governors of the province beyond the river,” requesting safe passage for him as he travelled through their lands.
+    Later, in the medieval Islamic Caliphate, a form of passport was the bara’a, a receipt for taxes paid. Only people who paid their taxes were permitted to travel to different regions of the Caliphate. In medieval Europe, on the other hand, travel documents were issued by local authorities, and generally contained a list of towns and cities which the document holder was permitted to enter or pass through. On the whole, documents were not required for travel to seaports, which were considered open trading points, but documents were required to travel inland from seaports.
+    King Henry V of England is credited with having invented the first true passport, as a way of helping his subjects prove who they were in foreign lands. The earliest reference to these documents is found in a 15<sup>th</sup>-century Act of Parliament, while the term “passport” came into use about a century later. Nevertheless, passports were not generally required for international travel until the First World War. It was at this time that passports as we would recognize them today began to be used.
+- id: eng110-g49
+  range:
+  - 49
+  - 52
+  intro: 第49至52題為題組
+  passage: |-
+    Benjamin Franklin, one of the Founding Fathers of the United States, was not only a great politician but also a highly accomplished scientist and inventor. Of his many achievements, probably the least well-known are his accomplishments in music. He invented an instrument for which both Mozart and Beethoven composed music—the glass armonica.
+    In 1761, while living in England, Franklin heard a performer playing musical glasses. Franklin was charmed by the music, but felt that there was a better way to create the same sound. He had a glassmaker create thirty-seven hemispheres made of glass, with each being a different size and thickness to produce different pitches. The glass hemispheres were color coded with paint to identify the notes. Franklin ran an iron rod through a hole in the top of each hemisphere so that they could nest together from largest to smallest. He linked all of this to a device shaped like a spinning wheel, with a foot control that turned the rod, making the glass hemispheres rotate. Franklin moistened his fingers and held them against the rims of the glass hemispheres as they turned, producing a unique sound. He mastered the instrument and took it to parties and gatherings to play for his friends and acquaintances. The instrument became so popular that thousands were built and sold.
+    But musical fashions changed. Music was moving out of the relatively small halls of Mozart’s day into the large concert halls of the 19<sup>th</sup> century, and without amplification, the glass armonica simply couldn’t be heard. Concert reviews from the period mourned the fact that the armonica sounded wonderful—only when it could be heard. So, alas, Franklin’s marvelous invention was ultimately abandoned. The popularity of the instrument faded early in the 19<sup>th</sup> century, but it is still played occasionally today.
+- id: eng110-g53
+  range:
+  - 53
+  - 56
+  intro: 第53至56題為題組
+  passage: |-
+    Morgan’s Wonderland, located in San Antonio, Texas, is a theme park geared mainly toward mentally or physically disabled children. The park was built by Gordon Hartman, a former real estate developer. The creation of the park was inspired by his daughter, Morgan, who suffers from severe cognitive delay and physical challenges.
+    The world’s first ultra-accessible family fun park, Morgan’s Wonderland opened in the spring of 2010. Admission for guests with special needs is free, and fees for the general public are set at a much discounted price so that people of all ages and abilities can come together and play in a fun and safe environment.
+    Completely wheelchair-accessible, the park features 25 acres of attractions including rides, playgrounds, a catch-and-release fishing lake, and picnic areas throughout the park. The rides are custom-designed to accommodate wheelchair riders so that every family member can enjoy the fun. The adapted rides include the Off-Road Adventure, where guests can test their driving skills in sporty vehicles. Moreover, each visitor is offered the option to wear a GPS Adventure Band, which allows them to keep track of each other while in the park. The band also enables them to take part in electronic activities. For example, when the riders scan the band at the Off-Road Adventure, a photo will be taken and sent to their email.
+    In June 2017, Morgan’s Wonderland celebrated the opening of Morgan’s Inspiration Island. The new expansion is composed of five themed splash pads and a River Boat Adventure Ride. The wheelchair guests can transfer out of their chairs into unique, waterproof chairs and enjoy the splash park without risking damage to their personal wheelchairs.
+    “Morgan taught me that there’s more to life in many ways than what I saw before,” said Hartman. “The blessing that Morgan has brought is beyond anything that I ever could have imagined and could explain.”
 items:
 - id: eng110-01
   'no': 1
@@ -440,5 +516,1346 @@ items:
       B: 32
       C: 48
       D: 6
+  explain: ''
+  reviewed: false
+- id: eng110-16
+  'no': 16
+  type: single
+  points: 1
+  group: eng110-g16
+  stem: 'In fact, a visit to a major European city just would not be the same <b><u> 16 </u></b> encountering them: bathing in fountains, perching on historic buildings, and flocking in public squares.'
+  options:
+    A: as
+    B: for
+    C: though
+    D: without
+  answer: D
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 26
+    Ph: 45
+    Pl: 14
+    D: 31
+    opt:
+      A: 52
+      B: 16
+      C: 6
+      D: 26
+  explain: ''
+  reviewed: false
+- id: eng110-17
+  'no': 17
+  type: single
+  points: 1
+  group: eng110-g16
+  stem: In Barcelona, however, the birds are now threatening to <b><u> 17 </u></b> the city’s historic center, pooping on monuments, buildings, and even tourists.
+  options:
+    A: set up
+    B: hang on
+    C: take over
+    D: break down
+  answer: C
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 31
+    Ph: 42
+    Pl: 24
+    D: 18
+    opt:
+      A: 13
+      B: 13
+      C: 31
+      D: 42
+  explain: ''
+  reviewed: false
+- id: eng110-18
+  'no': 18
+  type: single
+  points: 1
+  group: eng110-g16
+  stem: The city council originally proposed <b><u> 18 </u></b> the pigeon population by gathering the birds and shooting them.
+  options:
+    A: counting
+    B: reducing
+    C: displaying
+    D: maintaining
+  answer: B
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 70
+    Ph: 96
+    Pl: 36
+    D: 60
+    opt:
+      A: 7
+      B: 70
+      C: 10
+      D: 13
+  explain: ''
+  reviewed: false
+- id: eng110-19
+  'no': 19
+  type: single
+  points: 1
+  group: eng110-g16
+  stem: 'After heated debates and discussions, the government was finally persuaded to consider another <b><u> 19 </u></b> effective method: giving the pigeons birth control.'
+  options:
+    A: nearly
+    B: shortly
+    C: precisely
+    D: similarly
+  answer: D
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 48
+    Ph: 66
+    Pl: 33
+    D: 33
+    opt:
+      A: 8
+      B: 9
+      C: 35
+      D: 48
+  explain: ''
+  reviewed: false
+- id: eng110-20
+  'no': 20
+  type: single
+  points: 1
+  group: eng110-g16
+  stem: Starting from April 2017, the pills were placed in 40 bird feeders <b><u> 20 </u></b> throughout the city.
+  options:
+    A: installing
+    B: installed
+    C: to install
+    D: having installed
+  answer: B
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 50
+    Ph: 73
+    Pl: 34
+    D: 39
+    opt:
+      A: 20
+      B: 50
+      C: 16
+      D: 13
+  explain: ''
+  reviewed: false
+- id: eng110-21
+  'no': 21
+  type: single
+  points: 1
+  group: eng110-g21
+  stem: Over the course of an 80-year life span, the odds of being hit by lightning are 1 in 3,000, <b><u> 21 </u></b> the probability of being struck seven different times.
+  options:
+    A: if it isn’t
+    B: as you can see
+    C: not to mention
+    D: with regard to
+  answer: C
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 50
+    Ph: 89
+    Pl: 19
+    D: 70
+    opt:
+      A: 6
+      B: 24
+      C: 50
+      D: 19
+  explain: ''
+  reviewed: false
+- id: eng110-22
+  'no': 22
+  type: single
+  points: 1
+  group: eng110-g21
+  stem: Over his 36-year career, Sullivan was struck by lightning seven times—and <b><u> 22 </u></b> each shock!
+  options:
+    A: piloted
+    B: rejected
+    C: survived
+    D: tracked
+  answer: C
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 69
+    Ph: 98
+    Pl: 36
+    D: 62
+    opt:
+      A: 6
+      B: 11
+      C: 69
+      D: 14
+  explain: ''
+  reviewed: false
+- id: eng110-23
+  'no': 23
+  type: single
+  points: 1
+  group: eng110-g21
+  stem: But after strike four, Sullivan became <b><u> 23 </u></b> death and took precautions during lightning strikes.
+  options:
+    A: fearful of
+    B: critical of
+    C: doubtful about
+    D: positive about
+  answer: A
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 54
+    Ph: 83
+    Pl: 28
+    D: 55
+    opt:
+      A: 54
+      B: 9
+      C: 13
+      D: 24
+  explain: ''
+  reviewed: false
+- id: eng110-24
+  'no': 24
+  type: single
+  points: 1
+  group: eng110-g21
+  stem: Sullivan, while surveying a campground, felt that a cloud was <b><u> 24 </u></b> him, and tried all he could to run—but it got him anyway.
+  options:
+    A: coming after
+    B: getting over
+    C: holding on to
+    D: watching out for
+  answer: A
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 58
+    Ph: 87
+    Pl: 26
+    D: 61
+    opt:
+      A: 58
+      B: 18
+      C: 13
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng110-25
+  'no': 25
+  type: single
+  points: 1
+  group: eng110-g21
+  stem: “I don’t believe God is after me,” he theorized. “If he was, the first bolt <b><u> 25 </u></b> enough.
+  options:
+    A: was
+    B: had been
+    C: would be
+    D: would have been
+  answer: D
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 30
+    Ph: 45
+    Pl: 19
+    D: 26
+    opt:
+      A: 8
+      B: 21
+      C: 41
+      D: 30
+  explain: ''
+  reviewed: false
+- id: eng110-26
+  'no': 26
+  type: single
+  points: 1
+  group: eng110-g26
+  stem: But some mountain ranges of South America, Africa, and Indonesia are also <b><u> 26 </u></b> glaciers and ice sheets.
+  options:
+    A: home to
+    B: covers of
+    C: roofs over
+    D: room for
+  answer: A
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 28
+    Ph: 55
+    Pl: 11
+    D: 44
+    opt:
+      A: 28
+      B: 54
+      C: 12
+      D: 7
+  explain: ''
+  reviewed: false
+- id: eng110-27
+  'no': 27
+  type: single
+  points: 1
+  group: eng110-g26
+  stem: A newly published study, however, revealed that rising temperatures are posing an <b><u> 27 </u></b> threat to the last tropical glaciers in Indonesia’s Papua region.
+  options:
+    A: occasional
+    B: elaborate
+    C: immediate
+    D: offensive
+  answer: C
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 56
+    Ph: 76
+    Pl: 36
+    D: 40
+    opt:
+      A: 12
+      B: 12
+      C: 56
+      D: 20
+  explain: ''
+  reviewed: false
+- id: eng110-28
+  'no': 28
+  type: single
+  points: 1
+  group: eng110-g26
+  stem: <b><u> 28 </u></b> already shrunk by 85% to a mere 0.5 square kilometers, Papua’s glaciers will completely disappear within a decade, researchers have predicted.
+  options:
+    A: Have
+    B: Had
+    C: Having
+    D: Having been
+  answer: C
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 41
+    Ph: 61
+    Pl: 31
+    D: 30
+    opt:
+      A: 16
+      B: 19
+      C: 41
+      D: 24
+  explain: ''
+  reviewed: false
+- id: eng110-29
+  'no': 29
+  type: single
+  points: 1
+  group: eng110-g26
+  stem: The disappearance of the glaciers will also leave a significant <b><u> 29 </u></b> impact.
+  options:
+    A: cultural
+    B: moral
+    C: political
+    D: environmental
+  answer: A
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 35
+    Ph: 56
+    Pl: 22
+    D: 34
+    opt:
+      A: 35
+      B: 7
+      C: 7
+      D: 51
+  explain: ''
+  reviewed: false
+- id: eng110-30
+  'no': 30
+  type: single
+  points: 1
+  group: eng110-g26
+  stem: The study warned that Papua’s glaciers are only the “first to go” if greenhouse gases are <b><u> 30 </u></b> and temperatures continue rising.
+  options:
+    A: kept balanced
+    B: made released
+    C: seen dismissed
+    D: left unchecked
+  answer: D
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 17
+    Ph: 23
+    Pl: 13
+    D: 10
+    opt:
+      A: 14
+      B: 52
+      C: 17
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng110-31
+  'no': 31
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: Research shows that <b><u> 31 </u></b> amounts of exercise—even just 15 minutes a day—helps ease depression, enhance self-image, relieve stress, and much more.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: J
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 30
+    Ph: 67
+    Pl: 6
+    D: 61
+    opt:
+      A: 10
+      B: 4
+      C: 16
+      D: 3
+      E: 10
+      F: 7
+      G: 7
+      H: 7
+      I: 5
+      J: 30
+  explain: ''
+  reviewed: false
+- id: eng110-32
+  'no': 32
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: Doing exercise makes you happy, and you don’t have to be a fitness <b><u> 32 </u></b> to do it.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: G
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 27
+    Ph: 56
+    Pl: 9
+    D: 47
+    opt:
+      A: 12
+      B: 7
+      C: 2
+      D: 7
+      E: 18
+      F: 3
+      G: 27
+      H: 7
+      I: 5
+      J: 11
+  explain: ''
+  reviewed: false
+- id: eng110-33
+  'no': 33
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: What you need to do is to make “start slow and have fun” a motto to <b><u> 33 </u></b>.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: F
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 35
+    Ph: 75
+    Pl: 4
+    D: 71
+    opt:
+      A: 9
+      B: 6
+      C: 10
+      D: 6
+      E: 6
+      F: 35
+      G: 10
+      H: 7
+      I: 3
+      J: 8
+  explain: ''
+  reviewed: false
+- id: eng110-34
+  'no': 34
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: In fact, <b><u> 34 </u></b> health studies prove that exercise doesn’t have to hurt to be effective.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: H
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 48
+    Ph: 92
+    Pl: 9
+    D: 83
+    opt:
+      A: 3
+      B: 3
+      C: 11
+      D: 2
+      E: 9
+      F: 11
+      G: 4
+      H: 48
+      I: 1
+      J: 7
+  explain: ''
+  reviewed: false
+- id: eng110-35
+  'no': 35
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: You might <b><u> 35 </u></b> that if working out doesn’t give you pain, it isn’t working.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: D
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 61
+    Ph: 97
+    Pl: 20
+    D: 77
+    opt:
+      A: 5
+      B: 4
+      C: 8
+      D: 61
+      E: 5
+      F: 4
+      G: 3
+      H: 3
+      I: 3
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng110-36
+  'no': 36
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: According to fitness trainers, physically <b><u> 36 </u></b> exercises may make you breathe heavily and your muscles may ache temporarily, but exercise should not be painful.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: E
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 26
+    Ph: 59
+    Pl: 7
+    D: 52
+    opt:
+      A: 8
+      B: 8
+      C: 12
+      D: 2
+      E: 26
+      F: 10
+      G: 14
+      H: 5
+      I: 2
+      J: 11
+  explain: ''
+  reviewed: false
+- id: eng110-37
+  'no': 37
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: In fact, if it is, it may <b><u> 37 </u></b> an injury or muscle strain.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: C
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 40
+    Ph: 76
+    Pl: 14
+    D: 62
+    opt:
+      A: 12
+      B: 7
+      C: 40
+      D: 4
+      E: 4
+      F: 20
+      G: 4
+      H: 4
+      I: 1
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng110-38
+  'no': 38
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: Many great forms of exercise—like walking, swimming, or gentle stretching—get results without the <b><u> 38 </u></b> or discomfort some people associate with exercise.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: B
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 55
+    Ph: 91
+    Pl: 20
+    D: 71
+    opt:
+      A: 7
+      B: 55
+      C: 2
+      D: 6
+      E: 6
+      F: 1
+      G: 8
+      H: 5
+      I: 1
+      J: 7
+  explain: ''
+  reviewed: false
+- id: eng110-39
+  'no': 39
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: Keep in mind that even short periods of low-impact exercise serve as a powerful <b><u> 39 </u></b> to improve your health.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: A
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 37
+    Ph: 71
+    Pl: 13
+    D: 58
+    opt:
+      A: 37
+      B: 9
+      C: 2
+      D: 5
+      E: 11
+      F: 2
+      G: 15
+      H: 7
+      I: 3
+      J: 9
+  explain: ''
+  reviewed: false
+- id: eng110-40
+  'no': 40
+  type: single
+  points: 1
+  group: eng110-g31
+  stem: So, no matter how busy you are, try to <b><u> 40 </u></b> for exercise every day, like a 15-minute walk with your dog.
+  options:
+    A: means
+    B: soreness
+    C: point to
+    D: argue
+    E: demanding
+    F: abide by
+    G: fanatic
+    H: current
+    I: make time
+    J: modest
+  answer: I
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 74
+    Ph: 98
+    Pl: 39
+    D: 59
+    opt:
+      A: 2
+      B: 3
+      C: 2
+      D: 3
+      E: 4
+      F: 2
+      G: 3
+      H: 3
+      I: 74
+      J: 4
+  explain: ''
+  reviewed: false
+- id: eng110-41
+  'no': 41
+  type: single
+  points: 2
+  group: eng110-g41
+  stem: What is the purpose of this passage?
+  options:
+    A: To argue for the benefits of nopales.
+    B: To introduce a new source of energy.
+    C: To predict the future agriculture policy of Mexico.
+    D: To change people’s ideas about energy consumption.
+  answer: B
+  topic: R3
+  tags:
+  - 主旨
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 73
+    Ph: 95
+    Pl: 39
+    D: 56
+    opt:
+      A: 6
+      B: 73
+      C: 15
+      D: 6
+  explain: ''
+  reviewed: false
+- id: eng110-42
+  'no': 42
+  type: single
+  points: 2
+  group: eng110-g41
+  stem: Which of the following is NOT mentioned as a function of the prickly pear?
+  options:
+    A: For treating illnesses.
+    B: For personal hygiene.
+    C: For food and beverage.
+    D: For gardening and landscaping.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 58
+    Ph: 93
+    Pl: 25
+    D: 68
+    opt:
+      A: 17
+      B: 18
+      C: 7
+      D: 58
+  explain: ''
+  reviewed: false
+- id: eng110-43
+  'no': 43
+  type: single
+  points: 2
+  group: eng110-g41
+  stem: Which of the following statements about the prickly pear cactus is true?
+  options:
+    A: Its soft inner part is often discarded.
+    B: It was not discovered until the modern era.
+    C: It turns into 200,000 tons of waste in Mexico each year.
+    D: It appears in a prominent place on Mexico’s national flag.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 71
+    Ph: 97
+    Pl: 38
+    D: 59
+    opt:
+      A: 8
+      B: 6
+      C: 14
+      D: 71
+  explain: ''
+  reviewed: false
+- id: eng110-44
+  'no': 44
+  type: single
+  points: 2
+  group: eng110-g41
+  stem: What advantage does the prickly pear cactus have over other biofuel crops?
+  options:
+    A: It generates more energy.
+    B: It will not influence food prices.
+    C: It may replace feed for livestock.
+    D: It can increase global food production.
+  answer: B
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 61
+    Ph: 94
+    Pl: 24
+    D: 70
+    opt:
+      A: 22
+      B: 61
+      C: 7
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng110-45
+  'no': 45
+  type: single
+  points: 2
+  group: eng110-g45
+  stem: How is the information in the passage organized?
+  options:
+    A: In order of time.
+    B: By cause and effect.
+    C: In order of importance.
+    D: By definition and illustration.
+  answer: A
+  topic: R3
+  tags:
+  - 結構
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 57
+    Ph: 95
+    Pl: 19
+    D: 76
+    opt:
+      A: 57
+      B: 18
+      C: 10
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng110-46
+  'no': 46
+  type: single
+  points: 2
+  group: eng110-g45
+  stem: Which of the following statements is true about the earliest travel document?
+  options:
+    A: It was issued by the king of Judah.
+    B: It was given to an official of Persia.
+    C: It appeared more than three thousand years ago.
+    D: It served to invite people to travel beyond the river.
+  answer: B
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 49
+    Ph: 72
+    Pl: 27
+    D: 45
+    opt:
+      A: 15
+      B: 49
+      C: 12
+      D: 23
+  explain: ''
+  reviewed: false
+- id: eng110-47
+  'no': 47
+  type: single
+  points: 2
+  group: eng110-g45
+  stem: When did the term “passport” start being used?
+  options:
+    A: In about 450 B.C.
+    B: During World War I.
+    C: In the 16<sup>th</sup> century.
+    D: During King Henry V’s reign.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 48
+    Ph: 80
+    Pl: 21
+    D: 59
+    opt:
+      A: 18
+      B: 15
+      C: 48
+      D: 19
+  explain: ''
+  reviewed: false
+- id: eng110-48
+  'no': 48
+  type: single
+  points: 2
+  group: eng110-g45
+  stem: Which of the following is NOT mentioned in the passage as a form of passport?
+  options:
+    A: A letter.
+    B: A receipt.
+    C: A proof of identity.
+    D: A list of seaports.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 41
+    Ph: 74
+    Pl: 18
+    D: 56
+    opt:
+      A: 12
+      B: 14
+      C: 32
+      D: 41
+  explain: ''
+  reviewed: false
+- id: eng110-49
+  'no': 49
+  type: single
+  points: 2
+  group: eng110-g49
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  topic: R3
+  tags:
+  - 圖片
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 50
+    Ph: 77
+    Pl: 24
+    D: 53
+    opt:
+      A: 29
+      B: 11
+      C: 11
+      D: 50
+  explain: ''
+  reviewed: false
+  image: img/english/110-49.webp
+- id: eng110-50
+  'no': 50
+  type: single
+  points: 2
+  group: eng110-g49
+  stem: Which of the following statements is true about how the glass armonica works?
+  options:
+    A: Water has to be poured into the glass hemispheres.
+    B: Colored paint makes it sound better and last longer.
+    C: An iron rod is used to strike the thicker glass hemispheres.
+    D: The performer’s fingers have to be slightly wet when playing it.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 53
+    Ph: 91
+    Pl: 19
+    D: 72
+    opt:
+      A: 9
+      B: 7
+      C: 32
+      D: 53
+  explain: ''
+  reviewed: false
+- id: eng110-51
+  'no': 51
+  type: single
+  points: 2
+  group: eng110-g49
+  stem: According to the passage, why did the glass armonica lose its popularity?
+  options:
+    A: The skill of playing the glass armonica was very hard to master.
+    B: Famous musicians like Beethoven had problems composing for it.
+    C: Concert halls became too big for its music to be heard by the audience.
+    D: Reviewers in that time indicated that it was clumsy and not fashionable.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 69
+    Ph: 97
+    Pl: 35
+    D: 62
+    opt:
+      A: 7
+      B: 9
+      C: 69
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng110-52
+  'no': 52
+  type: single
+  points: 2
+  group: eng110-g49
+  stem: What does the highlighted “they” in the second paragraph refer to?
+  options:
+    A: Iron rods.
+    B: Hemispheres.
+    C: Colored notes.
+    D: Musical pitches.
+  answer: B
+  topic: R3
+  tags:
+  - 指涉
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 65
+    Ph: 94
+    Pl: 30
+    D: 64
+    opt:
+      A: 17
+      B: 65
+      C: 7
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng110-53
+  'no': 53
+  type: single
+  points: 2
+  group: eng110-g53
+  stem: What is the passage mainly about?
+  options:
+    A: The new addition to Morgan’s Wonderland.
+    B: The establishment and features of a special theme park.
+    C: The advanced technological devices in Morgan’s Wonderland.
+    D: The needs of people who suffer from physical and mental disabilities.
+  answer: B
+  topic: R3
+  tags:
+  - 主旨
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 72
+    Ph: 99
+    Pl: 36
+    D: 63
+    opt:
+      A: 8
+      B: 72
+      C: 11
+      D: 8
+  explain: ''
+  reviewed: false
+- id: eng110-54
+  'no': 54
+  type: single
+  points: 2
+  group: eng110-g53
+  stem: What does “ultra-accessible” in the second paragraph imply?
+  options:
+    A: It’s easy for all visitors to use the facilities.
+    B: Admission is free for people young and old.
+    C: Wheelchairs are provided for every featured attraction.
+    D: Morgan’s Wonderland is situated in a convenient location.
+  answer: A
+  topic: R3
+  tags:
+  - 字義
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 43
+    Ph: 72
+    Pl: 17
+    D: 55
+    opt:
+      A: 43
+      B: 21
+      C: 27
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng110-55
+  'no': 55
+  type: single
+  points: 2
+  group: eng110-g53
+  stem: Which of the following is NOT mentioned as a fun activity in the park?
+  options:
+    A: Fishing.
+    B: Driving.
+    C: Hiking.
+    D: Picnicking.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 76
+    Ph: 98
+    Pl: 44
+    D: 54
+    opt:
+      A: 7
+      B: 10
+      C: 76
+      D: 6
+  explain: ''
+  reviewed: false
+- id: eng110-56
+  'no': 56
+  type: single
+  points: 2
+  group: eng110-g53
+  stem: Which of the following statements is true about Morgan’s Wonderland?
+  options:
+    A: Waterproof chairs enable visitors to roam all over the park.
+    B: Morgan’s Inspiration Island includes 25 acres of attractions.
+    C: The success of the park is exactly what Morgan intended to achieve.
+    D: GPS bands allow visitors to enjoy the convenience of the electronic devices.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 46
+    Ph: 67
+    Pl: 29
+    D: 38
+    opt:
+      A: 10
+      B: 28
+      C: 16
+      D: 46
   explain: ''
   reviewed: false

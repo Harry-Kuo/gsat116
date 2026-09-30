@@ -1,0 +1,1638 @@
+exam: 學測
+year: 112
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0n045358375872115148/03-112%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8a%e8%a9%a6%e5%8d%b7.pdf
+groups:
+- id: ma112-g18
+  range:
+  - 18
+  - 20
+  intro: 閱讀下文，回答18-20題。
+  image: img/mathA/112-g18.webp
+  passage: |-
+    18-20 題為題組
+    坐標平面上O 為原點，給定
+    (1,0)
+    A
+    、
+    ( 2,0)
+    B 
+    兩點。另有兩點P、Q 在上半平面，
+    且滿足AP
+    OA
+    
+    、BQ
+    OB
+    
+    、
+    POQ
+    
+    為直角，如圖所示。令
+    AOP
+    
+    
+    
+    。根據上述，
+    試回答下列問題。
+
+
+
+
+    B
+    O
+    A
+    P
+    Q
+items:
+- id: ma112-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 78
+    Ph: 94
+    Pl: 55
+    D: 39
+    opt:
+      '1': 9
+      '2': 6
+      '3': 6
+      '4': 78
+      '5': 1
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-01.webp
+  text: |-
+    說明：第1 題至第6 題，每題5 分。
+    1. 若在計算器中鍵入某正整數N，接著連按「
+    」鍵（取正平方根）3 次，視窗顯
+    示得到答案為2，則N 等於下列哪一個選項？
+    (1)
+    32
+    (2)
+    4
+    2
+    (3)
+    62
+    (4)
+    8
+    2
+    (5)
+    12
+    2
+- id: ma112-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 59
+    Ph: 91
+    Pl: 22
+    D: 69
+    opt:
+      '1': 7
+      '2': 11
+      '3': 9
+      '4': 13
+      '5': 59
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-02.webp
+  text: |-
+    2. 坐標平面上，以原點O 為圓心、1 為半徑作圓，分
+    別交坐標軸正向於A、B 兩點。在第一象限的圓弧
+    上取一點C 作圓的切線分別交兩軸於點D、E，
+    如圖所示。令
+    OEC
+    
+    
+    
+    ，試選出為tan的選項。
+    (1) OE
+    (2) OC
+    (3) OD
+    (4) CE
+    (5) CD
+
+
+    y
+    E
+    B
+    C
+    O
+    x
+    θ
+    D
+    A
+    θ
+    C
+- id: ma112-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M6
+  tags:
+  - M1
+  concepts:
+  - M6
+  - M1
+  classic: true
+  stats:
+    P: 51
+    Ph: 82
+    Pl: 23
+    D: 59
+    opt:
+      '1': 11
+      '2': 7
+      '3': 25
+      '4': 51
+      '5': 5
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-03.webp
+  text: |-
+    3. 某生推導出兩物理量,s t 應滿足一等式。為了驗證其
+    理論，他做了實驗得到15 筆兩物理量的數據( , )
+    k
+    k
+    s t ，
+    1,
+    ,15
+    k 
+    。老師建議他將其中的
+    kt 先取對數，在坐標
+    平面上標出對應的點(
+    ,log
+    )
+    k
+    k
+    s
+    t ，
+    1,
+    ,15
+    k 
+    ，如圖所示；
+    其中第一個數據為橫軸坐標，第二個數據為縱軸坐
+    標。利用迴歸直線分析，某生印證了其理論。試問
+    該生所得,s t 的關係式最可能為下列哪一選項？
+
+    (1)
+    2
+    s
+    t
+    
+
+    (2)
+    3
+    s
+    t
+    
+
+    (3)
+    10s
+    t 
+
+    (4)
+    2
+    10s
+    t 
+
+    (5)
+    3
+    10s
+    t 
+
+
+
+    2
+    1
+    0
+    -1
+    -2
+    -2
+    -1
+    2
+    1
+    0
+- id: ma112-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: true
+  stats:
+    P: 44
+    Ph: 72
+    Pl: 18
+    D: 54
+    opt:
+      '1': 44
+      '2': 16
+      '3': 30
+      '4': 4
+      '5': 4
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-04.webp
+  text: |-
+    4. 將數字1、2、3、…、9 等9 個數字排成九位數（數字不得重複），使得前5 位
+    從左至右遞增、且後5 位從左至右遞減。試問共有幾個滿足條件的九位數？
+    (1)
+    8!
+    4!4!
+    (2)
+    8!
+    5!3!
+    (3)
+    9!
+    5!4!
+    (4) 8!
+    5!
+    (5) 9!
+    5!
+- id: ma112-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 47
+    Ph: 68
+    Pl: 26
+    D: 42
+    opt:
+      '1': 12
+      '2': 47
+      '3': 17
+      '4': 10
+      '5': 14
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-05.webp
+  text: |-
+    5. 已知坐標空間中P、Q、R 為平面2
+    3
+    5
+    7
+    x
+    y
+    z
+    
+    
+    
+    上不共線三點。
+    令
+    PQ
+    1
+    1
+    1
+    (
+    ,
+    ,
+    )
+    a b c
+    
+    ，
+    PR
+    2
+    2
+    2
+    (
+    ,
+    ,
+    )
+    a b c
+    
+    。試選出下列行列式中絕對值為最大的選項。
+    (1)
+    1
+    1
+    1
+    2
+    2
+    2
+    1
+    1
+    1
+    a
+    b
+    c
+    a
+    b
+    c
+    
+
+    (2)
+    1
+    1
+    1
+    2
+    2
+    2
+    1
+    1
+    1
+    a
+    b
+    c
+    a
+    b
+    c
+    
+
+    (3)
+    1
+    1
+    1
+    2
+    2
+    2
+    1
+    1
+    1
+    a
+    b
+    c
+    a
+    b
+    c
+    
+
+    (4)
+    1
+    1
+    1
+    2
+    2
+    2
+    1
+    1
+    1
+    a
+    b
+    c
+    a
+    b
+    c
+    
+    
+
+    (5)
+    1
+    1
+    1
+    2
+    2
+    2
+    1
+    1
+    1
+    a
+    b
+    c
+    a
+    b
+    c
+    
+    
+    
+- id: ma112-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: M4
+  tags:
+  - M6
+  concepts:
+  - M4
+  - M6
+  classic: true
+  stats:
+    P: 35
+    Ph: 55
+    Pl: 18
+    D: 37
+    opt:
+      '1': 16
+      '2': 23
+      '3': 36
+      '4': 15
+      '5': 11
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-06.webp
+  text: |-
+    6. 坐標空間中，考慮邊長為1 的正立方體，固定一頂點O。從O 以外的七個頂點
+    隨機選取相異兩點，設此兩點為P、Q，試問所得的內積
+    OP 
+    OQ 之期望值為下
+    列哪一個選項？
+    (1) 4
+    7
+    (2) 5
+    7
+    (3) 6
+    7
+    (4) 1
+    (5) 8
+    7
+- id: ma112-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: M8
+  tags: []
+  concepts:
+  - M8
+  classic: true
+  stats:
+    P: 65
+    Ph: 75
+    Pl: 52
+    D: 23
+    T: 46
+    opt:
+      '1': 20
+      '2': 10
+      '3': 89
+      '4': 26
+      '5': 72
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-07.webp
+  text: |-
+    說明：第7 題至第12 題，每題5 分。
+    7. 某公司有甲、乙兩新進員工，兩人同時間入職且起薪相同。公司承諾給甲、乙兩
+    員工調薪的方式如下：
+    甲：工作滿3 個月，下個月開始月薪增加200 元；以後再每滿3 個月皆依此方式
+    調薪。
+    乙：工作滿12 個月，下個月開始月薪增加1000 元；以後再每滿12 個月皆依此
+    方式調薪。
+    根據以上敘述，試選出正確的選項。
+    (1) 甲工作滿8 個月後，第9 個月的月薪比第1 個月的月薪增加600 元
+    (2) 工作滿一年後，第13 個月甲的月薪比乙的月薪高
+    (3) 工作滿18 個月後，第19 個月甲的月薪比乙的月薪高
+    (4) 工作滿18 個月時，甲總共領到的薪水比乙總共領到的薪水少
+    (5) 工作滿兩年後，在第3 年的12 個月中，恰有3 個月甲的月薪比乙的月薪高
+- id: ma112-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: true
+  stats:
+    P: 44
+    Ph: 74
+    Pl: 22
+    D: 52
+    T: 29
+    opt:
+      '1': 74
+      '2': 25
+      '3': 32
+      '4': 64
+      '5': 43
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-08.webp
+  text: |-
+    8. 某抽獎遊戲單次中獎機率為0.1，每次中獎與否皆為獨立事件。對每一正整數n，
+    令
+    n
+    p 為玩此遊戲n 次至少中獎1 次的機率。試選出正確的選項。
+    (1)
+    1
+    n
+    n
+    p
+    p
+    
+
+    (2)
+    3
+    0.3
+    p 
+
+    (3)
+    n
+    p
+    為等差數列
+    (4) 玩此遊戲兩次以上，第一次未中獎且第二次中獎的機率等於
+    2
+    1
+    p
+    p
+    
+
+    (5) 玩此遊戲n 次且
+    2
+    n 
+    時，至少中獎2 次的機率等於2
+    np
+- id: ma112-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: M8
+  tags:
+  - M1
+  concepts:
+  - M8
+  - M1
+  classic: true
+  stats:
+    P: 46
+    Ph: 66
+    Pl: 26
+    D: 40
+    T: 22
+    opt:
+      '1': 33
+      '2': 34
+      '3': 78
+      '4': 44
+      '5': 73
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-09.webp
+  text: |-
+    9. 設
+    1
+    2
+    3
+    ,
+    ,
+    ,
+    ,
+    n
+    a a a
+    a
+    
+    是首項為3 且公比為3 3 的等比數列。試選出滿足不等式
+    1
+    3
+    1
+    3
+    2
+    3
+    3
+    3
+    4
+    3
+    log
+    log
+    log
+    log
+    ( 1)
+    log
+    18
+    n
+    n
+    a
+    a
+    a
+    a
+    a
+    
+    
+    
+    
+    
+    
+    
+    
+
+    的項數n 之可能選項。
+    (1) 23
+    (2) 24
+    (3) 25
+    (4) 26
+    (5) 27
+- id: ma112-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3,5
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: true
+  stats:
+    P: 45
+    Ph: 63
+    Pl: 28
+    D: 35
+    T: 21
+    opt:
+      '1': 83
+      '2': 27
+      '3': 73
+      '4': 42
+      '5': 56
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-10.webp
+  text: |-
+    10. 考慮坐標平面上的直線L：5
+    (2
+    4)
+    10
+    0
+    y
+    k
+    x
+    k
+    
+    
+    
+    
+    （其中k 為一實數），以及長方
+    形OABC，其頂點坐標為
+    (0,0)
+    O
+    、
+    (10,0)
+    A
+    、
+    (10,6)
+    B
+    、
+    (0,6)
+    C
+    。設L 分別交直線OC、
+    直線AB 於點D、E。試選出正確的選項。
+    (1) 當
+    4
+    k 
+    時，直線L 通過點A
+    (2) 若直線L 通過點C，則L 的斜率為
+    5
+    2
+    
+
+    (3) 若點D 在線段OC 上，則0
+    3
+    k
+    
+    
+
+    (4) 若
+    1
+    2
+    k 
+    ，則線段DE 在長方形OABC 內部(含邊界)
+    (5) 若線段DE 在長方形OABC 內部(含邊界)，則L 的斜率可能為3
+    10
+- id: ma112-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,5
+  topic: M5
+  tags: []
+  concepts:
+  - M5
+  classic: true
+  stats:
+    P: 38
+    Ph: 56
+    Pl: 24
+    D: 32
+    T: 17
+    opt:
+      '1': 38
+      '2': 74
+      '3': 47
+      '4': 38
+      '5': 69
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-11.webp
+  text: |-
+    11. 坐標平面上，設A、B 分別表示以原點為中心，順時針、逆時針旋轉90的旋轉
+    矩陣。設C、D 分別表示以直線x
+    y
+    
+    、x
+    y
+    為鏡射軸的鏡射矩陣。試選出正確的選項。
+    (1)  A、C 將點(1,0)映射到同一點
+    (2) A
+    B
+    
+
+    (3)
+    1
+    C
+    D
+    
+
+    (4) AB
+    CD
+    
+
+    (5) AC
+    BD
+    
+- id: ma112-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,5
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 21
+    Ph: 37
+    Pl: 12
+    D: 25
+    T: 6
+    opt:
+      '1': 61
+      '2': 41
+      '3': 41
+      '4': 71
+      '5': 45
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-12.webp
+  text: |-
+    12. 令
+    ( )
+    sin
+    3cos
+    f x
+    x
+    x
+    
+    
+    ，試選出正確的選項。
+    (1) 鉛直線
+    6
+    x
+    
+    
+    為
+    ( )
+    y
+    f x
+    
+    圖形的對稱軸
+    (2) 若鉛直線x
+    a
+    
+    和x
+    b
+    
+    均為
+    ( )
+    y
+    f x
+    
+    圖形的對稱軸，則
+    ( )
+    ( )
+    f a
+    f b
+    
+
+    (3) 在區間[ 0 , 2
+    )
+    
+    中僅有一個實數x 滿足
+    ( )
+    3
+    f x 
+
+    (4) 在區間[ 0 , 2
+    )
+    
+    中滿足
+    1
+    ( )
+    2
+    f x 
+    的所有實數x 之和不超過2
+    (5)
+    ( )
+    y
+    f x
+    
+    的圖形可由
+    2
+    4sin 2
+    x
+    y 
+    的圖形經適當（左右、上下）平移得到
+- id: ma112-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 8,0
+  topic: M5
+  tags: []
+  concepts:
+  - M5
+  classic: true
+  stats:
+    P: 87
+    Ph: 97
+    Pl: 69
+    D: 28
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-13.webp
+  text: |-
+    說明：第13 題至第17 題，每題5 分。
+    13. 某間新開幕飲料專賣店推出果汁、奶茶、咖啡三種飲料，前3 天各種飲料的銷
+    售數量（單位：杯）與收入總金額（單位：元）如下表，例如第一天果汁、奶茶、
+    咖啡的銷售量分別為60 杯、80 杯與50 杯，收入總金額為12900 元。
+    已知同一種飲料每天的售價皆相同，則咖啡每杯的售價為○
+    13-1 ○
+    13-2 元。
+
+    果汁（杯）
+    奶茶（杯）
+    咖啡（杯）
+    收入總金額（元）
+    第1 天
+    60
+    80
+    50
+    12900
+    第2 天
+    30
+    40
+    30
+    6850
+    第3 天
+    50
+    70
+    40
+    10800
+- id: ma112-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 3,－,9
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: true
+  stats:
+    P: 67
+    Ph: 93
+    Pl: 32
+    D: 61
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-14.webp
+  text: |-
+    14. 設
+    ,a b 為實數（其中
+    0
+    a 
+    ），若多項式
+    2
+    (2
+    )
+    12
+    ax
+    a
+    b x
+    
+    
+    
+    除以
+    2
+    (2
+    )
+    2
+    x
+    a x
+    a
+    
+    
+    
+    所得
+    餘式為6，則數對( , )
+    a b  ( ○
+    14-1 , ○
+    14-2○
+    14-3 )。
+- id: ma112-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 3,4
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 25
+    Ph: 56
+    Pl: 4
+    D: 52
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-15.webp
+  text: |-
+    15. 設O、A、B 為坐標平面上不共線三點，其中向量
+    OA 垂直
+    OB 。若C、D 兩點在
+    直線AB 上，滿足
+    OC
+    3
+    5
+    
+    OA
+    2
+    5
+    
+    OB、3
+    8
+    AD
+    BD
+    
+    ，且
+    OC 垂直
+    OD，則OB
+    OA
+    ○
+    15-1
+    ○
+    15-2
+    。
+    （化為最簡分數）
+- id: ma112-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,2
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 24
+    Ph: 45
+    Pl: 8
+    D: 37
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-16.webp
+  text: |-
+    16. 令E：x+z=2 為坐標空間中過三點
+    (2, 1,0)
+    A
+    
+    、
+    (0,1,2)
+    B
+    、
+    ( 2,1,4)
+    C 
+    的平面。另有一
+    點P 在平面z=1 上且其於E 之投影點與A、B、C 三點等距離。則點P 與平面E
+    的距離為○
+    16-1
+
+    ○
+    16-2
+      。（化為最簡根式）
+- id: ma112-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 5,2
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 10
+    Ph: 25
+    Pl: 3
+    D: 22
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-17.webp
+  text: |-
+    17. 坐標空間中有兩不相交直線
+    1
+    1
+    :
+    1
+    2
+    x
+    t
+    L
+    y
+    t
+    z
+    t
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ，t 為實數、
+    2
+    2
+    2
+    :
+    5
+    6
+    x
+    s
+    L
+    y
+    s
+    z
+    s
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ，s 為實數，另
+    一直線
+    3
+    L 與
+    1L 、
+    2
+    L 皆相交且垂直。若P、Q 兩點分別在
+    1L 、
+    2L 上且與
+    3L 之距離皆為3，
+    則P、Q 兩點的距離為○
+    17-1
+
+    ○
+    17-2
+      。（化為最簡根式）
+- id: ma112-18
+  'no': 18
+  type: single
+  points: 2
+  group: ma112-g18
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 56
+    Ph: 88
+    Pl: 25
+    D: 63
+    opt:
+      '1': 5
+      '2': 8
+      '3': 17
+      '4': 56
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-18.webp
+  text: |-
+    18. 線段OP 長為下列哪一選項？（單選題，3 分）
+    (1) sin
+    (2) cos
+    (3) 2sin
+    (4) 2cos
+    (5) cos2
+- id: ma112-19
+  'no': 19
+  type: open
+  points: 2
+  group: ma112-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: M3
+  tags:
+  - M9
+  concepts:
+  - M3
+  - M9
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-19.webp
+  text: |-
+    19. 若
+    3
+    sin
+    5
+    
+    ，試求點Q 的坐標，並說明
+    BQ  = 2
+    AP 。（非選擇題，6 分）
+- id: ma112-20
+  'no': 20
+  type: open
+  points: 2
+  group: ma112-g18
+  stem: ''
+  options: null
+  answer: null
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/mathA/112-20.webp
+  text: |-
+    20.（承19 題）試求點A 到直線BQ 的距離，並求四邊形PABQ 的面積。
+    （非選擇題，6 分）
+
+
+
+    參考公式及可能用到的數值
+    1. 首項為a ，公差為d 的等差數列前n 項之和為
+    (2
+    (
+    1) )
+    2
+    n
+    a
+    n
+    d
+    S
+    
+    
+    
+
+
+    首項為a ，公比為
+    (
+    1)
+    r r ¹
+    的等比數列前n 項之和為
+    (1
+    )
+    1
+    n
+    a
+    r
+    S
+    r
+    
+    
+    
+
+
+    2. 三角函數的和角公式：sin(
+    )
+    sin
+    cos
+    cos
+    sin
+    A
+    B
+    A
+    B
+    A
+    B
+    
+    
+    
+
+    cos(
+    )
+    cos
+    cos
+    sin
+    sin
+    A
+    B
+    A
+    B
+    A
+    B
+    
+    
+    
+
+    tan
+    tan
+    tan(
+    )
+    1
+    tan
+    tan
+    A
+    B
+    A
+    B
+    A
+    B
+    
+    
+    
+
+
+    3.
+    ABC
+    
+    的正弦定理：
+    2
+    sin
+    sin
+    sin
+    a
+    b
+    c
+    R
+    A
+    B
+    C
+    
+    
+    
+     （R 為
+    ABC
+    
+    外接圓半徑）
+    ABC
+    
+    的餘弦定理：
+    2
+    2
+    2
+    2
+    cos
+    c
+    a
+    b
+    ab
+    C
+    
+    
+    
+
+
+    4. 一維數據
+    1
+    2
+    :
+    ,
+    ,
+    ,
+    n
+    X x x
+    x
+    
+    ，
+    算術平均數
+    1
+    2
+    1 (
+    )
+    X
+    n
+    x
+    x
+    x
+    n
+    
+    
+    
+    
+
+    標準差
+    2
+    2
+    2
+    2
+    2
+    2
+    2
+    1
+    2
+    1
+    2
+    1
+    1
+    [(
+    )
+    (
+    )
+    (
+    ) ]
+    [(
+    )
+    ]
+    X
+    X
+    X
+    n
+    X
+    n
+    X
+    x
+    x
+    x
+    x
+    x
+    x
+    n
+    n
+    n
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    5. 二維數據 (X,Y)：(x1,y1),(x2,y2),… , (xn,yn)
+    相關係數
+    1
+    1
+    2
+    2
+    ,
+    (
+    )(
+    )
+    (
+    )(
+    )
+    (
+    )(
+    )
+    X
+    Y
+    X
+    Y
+    n
+    X
+    n
+    Y
+    X Y
+    X
+    Y
+    x
+    y
+    x
+    y
+    x
+    y
+    r
+    n
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    迴歸直線（最適合直線）方程式
+    ,
+    (
+    )
+    Y
+    Y
+    X Y
+    X
+    X
+    y
+    r
+    x
+    
+    
+    
+    
+    
+    
+    
+
+
+    6. 參考數值：
+    2
+    1.414 ,
+    3
+    1.732 ,
+    5
+    2.236 ,
+    6
+    2.449 ,
+    3.142
+    
+    
+    
+    
+    
+    
+
+
+    7. 對數值：log2
+    0.3010, log3
+    0.4771, log5
+    0.6990, log7
+    0.8451
+    
+    
+    
+    

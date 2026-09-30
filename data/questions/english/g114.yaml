@@ -5,7 +5,75 @@ paper: 英文
 source:
   pdf: https://www.ceec.edu.tw/files/file_pool/1/0p056425554473267580/02-114%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e9%a1%8c.pdf
   docx: https://www.ceec.edu.tw/files/file_pool/1/0p056425600380530021/02-114%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e9%a1%8c.docx
-groups: []
+groups:
+- id: eng114-g11
+  range:
+  - 11
+  - 15
+  intro: 第11至15題為題組
+  passage: |-
+    In 1995, a group of business and academic leaders met at the home of Juanita Brown and David Isaacs in Mill Valley, California. None of them had any idea they were about to create a social innovation that <u> 11 </u> rapidly around the world.
+    The group was supposed to have a large-circle discussion in their beautiful garden. Unfortunately, it started pouring. With their plan <u> 12 </u> by the rain, the two dozen participants squeezed into the living room. They broke into small, intimate table conversations, recording their insights on paper tablecloths. They periodically stopped their conversations to switch tables so the insights and ideas might <u> 13 </u> and deepen. As they moved from one table to another, they noticed new ideas emerging from the discussions. This in turn enriched subsequent rounds of conversation. Over the course of the morning, the innovative discussion process <u> 14 </u> a new form of collective effort that transformed the depth, scope, and quality of their discussion.
+    The World Café was <u> 15 </u> created. Since that rainy morning in Mill Valley, the World Café approach has been applied to multi-group discussions and cooperative actions by businesses, industries, and educational institutions around the world.
+- id: eng114-g16
+  range:
+  - 16
+  - 20
+  intro: 第16至20題為題組
+  passage: |-
+    If you have ever been sick to your stomach on a rocking boat or a bumpy car ride, you know the discomfort of motion sickness. It can <u> 16 </u> suddenly, progressing from a feeling of uneasiness to a cold sweat. Soon, it can lead to dizziness, nausea, and vomiting.
+    Motion sickness occurs when the signals your brain receives from your eyes, ears, and body <u> 17 </u>. Your brain doesn’t know whether you are stationary or moving when these parts send conflicting information: One part of your balance-sensing system detects that your body is moving, but the other parts <u> 18 </u>. Your brain’s confused reaction makes you feel sick. You may experience the discomfort from the motion of cars, boats, or amusement park rides. You may also get sick from playing video games, or looking through a microscope.
+    You can take some <u> 19 </u> to help avoid the discomfort. If you are traveling, reserve seats where motion is felt the least, such as the front row of a car or forward cars of a train. Looking out into the distance from the vehicle can help <u> 20 </u>. You can also take medicine before your ride to avoid or reduce nausea and vomiting.
+- id: eng114-g21
+  range:
+  - 21
+  - 30
+  intro: 第21至30題為題組
+  passage: |-
+    The Notre-Dame de Paris is one of the most famous cathedrals in Europe. Located at the heart of Paris, this medieval cathedral is <u> 21 </u> for its intricate architecture, stunning stained glass windows, and, above all, its bells.
+    Mounted in the two tall towers of the cathedral, Notre-Dame’s bells have been ringing for over 800 years. In fact, there is documented <u> 22 </u> to the ringing of bells even before the cathedral’s construction was completed, dating as far back as the 12<sup>th</sup> century. The 10 bells vary in size, each <u> 23 </u> a name. The largest one, named “Emmanuel,” weighs over 13 tons. It is the only one of the whole group that <u> 24 </u> the French Revolution, while the rest were melted down for weapons. The melted bells were recast in the late 19<sup>th</sup> century. But due to their poor acoustic quality, all of the bells were replaced in 2013—except for Emmanuel, which <u> 25 </u> its renowned, excellent sound. This particular bell, ringing in F sharp, is considered one of the most harmonically beautiful in Europe.
+    Over centuries, the bells have become a <u> 26 </u> part of life in Paris, where they are known as “the cathedral’s voice.” They have been used to mark the hours of the day, to call the <u> 27 </u> to prayer, and to signal emergency situations such as fires and invasions. They have also rung in times of <u> 28 </u> and of mourning, announcing such events as royal weddings and coronations of kings, as well as funerals of heads of state.
+    However, after the devastating fire that damaged the cathedral in 2019, the bells fell <u> 29 </u>. The building went through a complex and time-consuming process of <u> 30 </u>, and the famous monument was finally reopened on December 8, 2024. The sounds of Notre-Dame bells once again filled the air in Paris, and will be heard for generations to come.
+- id: eng114-g31
+  range:
+  - 31
+  - 34
+  intro: 第31至34題為題組
+  passage: |-
+    A capsule hotel, also known as a pod hotel, is a unique type of basic, affordable accommodation. Originated in Japan, these hotels were initially meant for business professionals to stay close to populated business districts without spending a lot. <u> 31 </u>
+    A typical room of a capsule hotel is roughly the length and width of a single bed, with sufficient height for a guest to crawl in and sit up on the bed. The walls of each capsule may be made of wood, metal or any rigid material, but are often fiberglass or plastic. <u> 32 </u> Each capsule is equipped with a comfortable mattress, a small light, and sometimes a television or other entertainment options. Such minimalist design is what makes these hotels both inexpensive and efficient, providing only the essential elements for a good night sleep.
+    The first capsule hotel, the Capsule Inn Osaka, opened in 1979. Since then, capsule hotels have quickly spread to other cities and countries. Chains have emerged in Taiwan, Singapore, and even on resort islands like Bali. Pod hotels are also seen in Europe and North America, especially in big cities like New York, London, and Paris. <u> 33 </u> Instead of the traditional bare pod-sized style, new chains now feature interior design that appeals to digitally connected travelers from around the world. Guests may enjoy facilities such as free Wi-Fi, mobile charging, and even a soundless alarm system that raises the sleeping guests into a seated position while gradually brightening the lights.
+    While offering budget-conscious travelers a unique option, capsule hotels may not be suitable for everyone. Some hotels may not provide air conditioning in the capsules, leading to poor air flow. <u> 34 </u> Also, you may have to share common facilities (such as bathrooms) with other guests. And, if you’re worried about feeling claustrophobic in small spaces, you’d better think twice before making a reservation.
+- id: eng114-g35
+  range:
+  - 35
+  - 38
+  intro: 第35至38題為題組
+  passage: |-
+    While waiting to cross the street at busy intersections, have you ever wondered who invented the traffic light? Most people credit the first traffic light to Nottingham engineer John Peake Knight. A railway manager, Knight specialized in designing the signaling system for Britain’s growing railway network in the 1860s. He saw no reason why this could not be adapted for use on the busy London intersections. Thus, he proposed a signaling system based on the railway movable-arm signal: Arms extending horizontally commanded drivers to stop, whereas arms lowered to a 45-degree angle told drivers to move on, resembling a traffic director’s gestures. Red and green gas lamps were added to the signal for use at night. A police officer was stationed by the side to operate the system.
+    Knight’s traffic signal was installed near London’s Westminster Bridge in December 1868, but the system was short-lived. A gas leak one month later caused an explosion in the lights, injuring the policeman operating it. Deemed a public hazard, the project was immediately dropped, and traffic lights were banned until their return in 1929 back to the British streets.
+    In the early 1900s, versions of the British traffic lights appeared in big cities in America, where traffic was on a sharp rise. Systems using movable arms were popular in Chicago, while those using the red and green lights were adopted in San Francisco. Patents with innovations on Knight’s ideas were filed nationwide. A major breakthrough was the yellow light invented by a Detroit police officer William Potts. Installed in Detroit in 1920, Potts’ three-color system allowed for the added signal “proceed with caution” to be displayed.
+    Now, with the emergence of self-driving cars, researchers have begun to suggest that traffic signals are no longer necessary. Intersections will operate in a way that cars automatically adjust their speed to cross through, while maintaining safe distances from other vehicles. In the near future, we may experience a brand new form of traffic management!
+- id: eng114-g39
+  range:
+  - 39
+  - 42
+  intro: 第39至42題為題組
+  passage: |-
+    Typically featuring zombies and serial killers, horror movies are too frightening to be fun for some people. But many others enjoy a good fear spectacle, and line up to see the latest scary movie. Given the variations in preferences, new studies have started to untangle the benefits and risks of horror movies.
+    One benefit of horror movies revolves around the concept of so-called “safe fear.” When watching a frightening film, people are in the comfort of their own home or theater seats rather than under the threat of any real danger. In a controlled environment, these films may actually reduce the negative impact on viewers and help them become tougher. Secondly, as people are drawn into the story, they tend to take the perspective of the characters and rehearse the plot unconsciously. Researchers believe that viewers are learning vicariously this way, picking up tips on how to handle threats in the real world. In addition, studies show that the thrill and excitement linked with scary films can be therapeutic: It allows viewers to release bottled-up emotions and experience a sense of relief after the movie is over. This probably explains why during the COVID-19 pandemic, horror and pandemic thrillers were the most-watched movies on digital movie apps.
+    However, researchers also find that horror movies can have negative effects on some people. People who are more sensitive to anxiety can panic after viewing a thriller. For those with unpleasant experiences, trauma may be triggered by the themes and images in the movies, which could make their symptoms worse. Furthermore, watching horror movies can disturb sleep patterns, as the residual fear and anxiety they evoke may keep people awake all night, thus leading to fatigue and irritability the following day. Finally, specialists warn that frightening films can have a negative impact on children. Children under 14 who watch horror movies have a greater chance of developing anxiety later in adulthood. Worse yet, exposure to graphic violence and bloodshed can make them less sensitive to real-life violence and more accepting of aggression.
+- id: eng114-g43
+  range:
+  - 43
+  - 46
+  intro: 第43至46題為題組
+  passage: |-
+    Russia is widely portrayed as the most alcohol-dependent country in the world. Critics of the country say that drinking is almost an inherent trait of the Russian people. However, there is more to the story.
+    The consumption of alcoholic beverages was unusual in ancient Russia. Before the adoption of Christianity in Russia (10<sup>th</sup> century), there were no vineyards and therefore no wine. People only drank beverages with low alcohol content. Vodka, Russia’s national drink, was not a Russian invention. The liquid was originally a grape alcohol introduced from France in the late 14<sup>th</sup> century. The first Russian-made vodka appeared in the 15<sup>th</sup> century, and the drink remained relatively low in alcohol content until the mid-18<sup>th</sup> century.
+    There is contradictory information about Russians’ inclination toward alcohol in the 15<sup>th</sup> and 16<sup>th</sup> centuries. Some documents noted that Russians “indulge in excessive drinking whenever the occasion arises,” while others claimed that Russians “rarely drink wine.” The heaviest drinkers in medieval Europe were actually Germans. There were many sayings about their desire for alcohol, such as “drunk as a German.”
+    The Russian state played a significant role in the spread of alcohol consumption in the country. In the 19<sup>th</sup> century, the emperors began to establish a state monopoly, largely due to the rise of illegal production of low-quality vodka. Thus, only the government was permitted to produce the alcohol. This soon filled the state treasury with huge revenues, but it also encouraged vodka consumption. The situation worsened when the industrial production of vodka began in the country, causing its prices to drop sharply and making it available to even low-income citizens.
+    Meanwhile, a powerful anti-alcohol movement started in the 19<sup>th</sup> century. Government policies were made and public organizations established to prevent the spread of alcoholism in the country. The movement continued over the years; however, the problem remains. Although Russia does not occupy first place when it comes to alcohol consumption per capita, it is still close to the top.
 items:
 - id: eng114-01
   'no': 1
@@ -296,5 +364,1192 @@ items:
       B: 26
       C: 17
       D: 16
+  explain: ''
+  reviewed: false
+- id: eng114-11
+  'no': 11
+  type: single
+  points: 1
+  group: eng114-g11
+  stem: None of them had any idea they were about to create a social innovation that <b><u> 11 </u></b> rapidly around the world.
+  options:
+    A: had spread
+    B: would spread
+    C: had been spreading
+    D: would have spread
+  answer: B
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 46
+    Ph: 68
+    Pl: 28
+    D: 40
+    opt:
+      A: 15
+      B: 46
+      C: 19
+      D: 20
+  explain: ''
+  reviewed: false
+- id: eng114-12
+  'no': 12
+  type: single
+  points: 1
+  group: eng114-g11
+  stem: With their plan <b><u> 12 </u></b> by the rain, the two dozen participants squeezed into the living room.
+  options:
+    A: facilitated
+    B: disrupted
+    C: disclosed
+    D: fulfilled
+  answer: B
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 70
+    Ph: 98
+    Pl: 33
+    D: 65
+    opt:
+      A: 6
+      B: 70
+      C: 12
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng114-13
+  'no': 13
+  type: single
+  points: 1
+  group: eng114-g11
+  stem: They periodically stopped their conversations to switch tables so the insights and ideas might <b><u> 13 </u></b> and deepen.
+  options:
+    A: circulate
+    B: emphasize
+    C: recover
+    D: preserve
+  answer: A
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 29
+    Ph: 50
+    Pl: 17
+    D: 33
+    opt:
+      A: 29
+      B: 24
+      C: 21
+      D: 26
+  explain: ''
+  reviewed: false
+- id: eng114-14
+  'no': 14
+  type: single
+  points: 1
+  group: eng114-g11
+  stem: Over the course of the morning, the innovative discussion process <b><u> 14 </u></b> a new form of collective effort that transformed the depth, scope, and quality of their discussion.
+  options:
+    A: made up for
+    B: kept track of
+    C: gave rise to
+    D: looked out for
+  answer: C
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 43
+    Ph: 71
+    Pl: 23
+    D: 48
+    opt:
+      A: 34
+      B: 9
+      C: 43
+      D: 14
+  explain: ''
+  reviewed: false
+- id: eng114-15
+  'no': 15
+  type: single
+  points: 1
+  group: eng114-g11
+  stem: Over the course of the morning, the innovative discussion process <u> 14 </u> a new form of collective effort that transformed the depth, scope, and quality of their discussion. The World Café was <b><u> 15 </u></b> created.
+  options:
+    A: still
+    B: also
+    C: further
+    D: thus
+  answer: D
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 57
+    Ph: 91
+    Pl: 19
+    D: 72
+    opt:
+      A: 19
+      B: 13
+      C: 11
+      D: 57
+  explain: ''
+  reviewed: false
+- id: eng114-16
+  'no': 16
+  type: single
+  points: 1
+  group: eng114-g16
+  stem: It can <b><u> 16 </u></b> suddenly, progressing from a feeling of uneasiness to a cold sweat.
+  options:
+    A: crash
+    B: flush
+    C: burst
+    D: strike
+  answer: D
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 31
+    Ph: 40
+    Pl: 26
+    D: 14
+    opt:
+      A: 12
+      B: 13
+      C: 44
+      D: 31
+  explain: ''
+  reviewed: false
+- id: eng114-17
+  'no': 17
+  type: single
+  points: 1
+  group: eng114-g16
+  stem: Motion sickness occurs when the signals your brain receives from your eyes, ears, and body <b><u> 17 </u></b>.
+  options:
+    A: are not regular
+    B: can hardly move
+    C: do not match
+    D: are rarely cued
+  answer: C
+  topic: V2
+  tags:
+  - 語意
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 50
+    Ph: 82
+    Pl: 22
+    D: 60
+    opt:
+      A: 19
+      B: 20
+      C: 50
+      D: 11
+  explain: ''
+  reviewed: false
+- id: eng114-18
+  'no': 18
+  type: single
+  points: 1
+  group: eng114-g16
+  stem: 'Your brain doesn’t know whether you are stationary or moving when these parts send conflicting information: One part of your balance-sensing system detects that your body is moving, but the other parts <b><u> 18 </u></b>.'
+  options:
+    A: aren’t
+    B: won’t
+    C: don’t
+    D: haven’t
+  answer: C
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 40
+    Ph: 64
+    Pl: 23
+    D: 41
+    opt:
+      A: 43
+      B: 8
+      C: 40
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng114-19
+  'no': 19
+  type: single
+  points: 1
+  group: eng114-g16
+  stem: You can take some <b><u> 19 </u></b> to help avoid the discomfort.
+  options:
+    A: special opportunities
+    B: preventive measures
+    C: potential risks
+    D: significant advantages
+  answer: B
+  topic: V2
+  tags:
+  - 語意
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 73
+    Ph: 99
+    Pl: 35
+    D: 64
+    opt:
+      A: 9
+      B: 73
+      C: 9
+      D: 9
+  explain: ''
+  reviewed: false
+- id: eng114-20
+  'no': 20
+  type: single
+  points: 1
+  group: eng114-g16
+  stem: Looking out into the distance from the vehicle can help <b><u> 20 </u></b>.
+  options:
+    A: as well
+    B: by far
+    C: at least
+    D: after all
+  answer: A
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 73
+    Ph: 96
+    Pl: 42
+    D: 54
+    opt:
+      A: 73
+      B: 8
+      C: 12
+      D: 6
+  explain: ''
+  reviewed: false
+- id: eng114-21
+  'no': 21
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: Located at the heart of Paris, this medieval cathedral is <b><u> 21 </u></b> for its intricate architecture, stunning stained glass windows, and, above all, its bells.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: I
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 29
+    Ph: 59
+    Pl: 6
+    D: 53
+    opt:
+      A: 7
+      B: 10
+      C: 20
+      D: 8
+      E: 10
+      F: 4
+      G: 6
+      H: 3
+      I: 29
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng114-22
+  'no': 22
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: In fact, there is documented <b><u> 22 </u></b> to the ringing of bells even before the cathedral’s construction was completed, dating as far back as the 12<sup>th</sup> century.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: A
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 37
+    Ph: 68
+    Pl: 15
+    D: 53
+    opt:
+      A: 37
+      B: 9
+      C: 9
+      D: 7
+      E: 6
+      F: 4
+      G: 7
+      H: 6
+      I: 11
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng114-23
+  'no': 23
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: In fact, there is documented <u> 22 </u> to the ringing of bells even before the cathedral’s construction was completed, dating as far back as the 12<sup>th</sup> century. The 10 bells vary in size, each <b><u> 23 </u></b> a name.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: B
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 22
+    Ph: 50
+    Pl: 8
+    D: 42
+    opt:
+      A: 9
+      B: 22
+      C: 9
+      D: 16
+      E: 3
+      F: 3
+      G: 1
+      H: 2
+      I: 30
+      J: 4
+  explain: ''
+  reviewed: false
+- id: eng114-24
+  'no': 24
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: It is the only one of the whole group that <b><u> 24 </u></b> the French Revolution, while the rest were melted down for weapons.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: F
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 55
+    Ph: 93
+    Pl: 16
+    D: 77
+    opt:
+      A: 7
+      B: 7
+      C: 4
+      D: 9
+      E: 3
+      F: 55
+      G: 5
+      H: 3
+      I: 4
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng114-25
+  'no': 25
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: But due to their poor acoustic quality, all of the bells were replaced in 2013—except for Emmanuel, which <b><u> 25 </u></b> its renowned, excellent sound.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: D
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 40
+    Ph: 74
+    Pl: 11
+    D: 63
+    opt:
+      A: 9
+      B: 11
+      C: 7
+      D: 40
+      E: 5
+      F: 8
+      G: 4
+      H: 5
+      I: 7
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng114-26
+  'no': 26
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: Over centuries, the bells have become a <b><u> 26 </u></b> part of life in Paris, where they are known as “the cathedral’s voice.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: C
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 42
+    Ph: 66
+    Pl: 21
+    D: 45
+    opt:
+      A: 6
+      B: 4
+      C: 42
+      D: 3
+      E: 24
+      F: 3
+      G: 7
+      H: 3
+      I: 4
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng114-27
+  'no': 27
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: They have been used to mark the hours of the day, to call the <b><u> 27 </u></b> to prayer, and to signal emergency situations such as fires and invasions.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: E
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 26
+    Ph: 49
+    Pl: 9
+    D: 40
+    opt:
+      A: 16
+      B: 7
+      C: 6
+      D: 4
+      E: 26
+      F: 4
+      G: 11
+      H: 7
+      I: 5
+      J: 12
+  explain: ''
+  reviewed: false
+- id: eng114-28
+  'no': 28
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: They have also rung in times of <b><u> 28 </u></b> and of mourning, announcing such events as royal weddings and coronations of kings, as well as funerals of heads of state.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: G
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 46
+    Ph: 83
+    Pl: 11
+    D: 72
+    opt:
+      A: 5
+      B: 25
+      C: 3
+      D: 3
+      E: 3
+      F: 3
+      G: 46
+      H: 5
+      I: 2
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng114-29
+  'no': 29
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: However, after the devastating fire that damaged the cathedral in 2019, the bells fell <b><u> 29 </u></b>.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: J
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 48
+    Ph: 86
+    Pl: 13
+    D: 73
+    opt:
+      A: 5
+      B: 7
+      C: 4
+      D: 5
+      E: 12
+      F: 7
+      G: 2
+      H: 6
+      I: 4
+      J: 48
+  explain: ''
+  reviewed: false
+- id: eng114-30
+  'no': 30
+  type: single
+  points: 1
+  group: eng114-g21
+  stem: The building went through a complex and time-consuming process of <b><u> 30 </u></b>, and the famous monument was finally reopened on December 8, 2024.
+  options:
+    A: reference
+    B: bearing
+    C: familiar
+    D: retained
+    E: faithful
+    F: survived
+    G: celebration
+    H: restoration
+    I: noted
+    J: silent
+  answer: H
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 58
+    Ph: 95
+    Pl: 18
+    D: 77
+    opt:
+      A: 7
+      B: 4
+      C: 3
+      D: 5
+      E: 4
+      F: 4
+      G: 7
+      H: 58
+      I: 3
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng114-31
+  'no': 31
+  type: single
+  points: 2
+  group: eng114-g31
+  stem: Originated in Japan, these hotels were initially meant for business professionals to stay close to populated business districts without spending a lot. <b><u> 31 </u></b><br>空格 31 應填入哪一句？
+  options:
+    A: In response to rising demands, these hotels are embracing a wave of innovation.
+    B: The room’s thin plastic walls easily transmit the sound of snoring made by neighboring guests.
+    C: The chambers are stacked side-by-side, two units high, with the upper rooms reached by a ladder.
+    D: Today, they provide low-budget, overnight lodging in commerce centers in large cities worldwide.
+  answer: D
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 56
+    Ph: 91
+    Pl: 23
+    D: 68
+    opt:
+      A: 24
+      B: 7
+      C: 13
+      D: 56
+  explain: ''
+  reviewed: false
+- id: eng114-32
+  'no': 32
+  type: single
+  points: 2
+  group: eng114-g31
+  stem: The walls of each capsule may be made of wood, metal or any rigid material, but are often fiberglass or plastic. <b><u> 32 </u></b> Each capsule is equipped with a comfortable mattress, a small light, and sometimes a television or other entertainment options. Such minimalist design is what makes these hotels both inexpensive and efficient, providing only the essential elements for a good night sleep.<br>空格 32 應填入哪一句？
+  options:
+    A: In response to rising demands, these hotels are embracing a wave of innovation.
+    B: The room’s thin plastic walls easily transmit the sound of snoring made by neighboring guests.
+    C: The chambers are stacked side-by-side, two units high, with the upper rooms reached by a ladder.
+    D: Today, they provide low-budget, overnight lodging in commerce centers in large cities worldwide.
+  answer: C
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 46
+    Ph: 82
+    Pl: 20
+    D: 62
+    opt:
+      A: 7
+      B: 43
+      C: 46
+      D: 4
+  explain: ''
+  reviewed: false
+- id: eng114-33
+  'no': 33
+  type: single
+  points: 2
+  group: eng114-g31
+  stem: Pod hotels are also seen in Europe and North America, especially in big cities like New York, London, and Paris. <b><u> 33 </u></b> Instead of the traditional bare pod-sized style, new chains now feature interior design that appeals to digitally connected travelers from around the world. Guests may enjoy facilities such as free Wi-Fi, mobile charging, and even a soundless alarm system that raises the sleeping guests into a seated position while gradually brightening the lights.<br>空格 33 應填入哪一句？
+  options:
+    A: In response to rising demands, these hotels are embracing a wave of innovation.
+    B: The room’s thin plastic walls easily transmit the sound of snoring made by neighboring guests.
+    C: The chambers are stacked side-by-side, two units high, with the upper rooms reached by a ladder.
+    D: Today, they provide low-budget, overnight lodging in commerce centers in large cities worldwide.
+  answer: A
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 56
+    Ph: 91
+    Pl: 24
+    D: 67
+    opt:
+      A: 56
+      B: 5
+      C: 14
+      D: 24
+  explain: ''
+  reviewed: false
+- id: eng114-34
+  'no': 34
+  type: single
+  points: 2
+  group: eng114-g31
+  stem: Some hotels may not provide air conditioning in the capsules, leading to poor air flow. <b><u> 34 </u></b> Also, you may have to share common facilities (such as bathrooms) with other guests. And, if you’re worried about feeling claustrophobic in small spaces, you’d better think twice before making a reservation.<br>空格 34 應填入哪一句？
+  options:
+    A: In response to rising demands, these hotels are embracing a wave of innovation.
+    B: The room’s thin plastic walls easily transmit the sound of snoring made by neighboring guests.
+    C: The chambers are stacked side-by-side, two units high, with the upper rooms reached by a ladder.
+    D: Today, they provide low-budget, overnight lodging in commerce centers in large cities worldwide.
+  answer: B
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 46
+    Ph: 83
+    Pl: 17
+    D: 66
+    opt:
+      A: 12
+      B: 46
+      C: 27
+      D: 15
+  explain: ''
+  reviewed: false
+- id: eng114-35
+  'no': 35
+  type: single
+  points: 2
+  group: eng114-g35
+  stem: What is this passage mainly about?
+  options:
+    A: The evolution of traffic control systems.
+    B: The inventors of traffic lights in history.
+    C: The functions of different traffic signals.
+    D: The development of modern transportation.
+  answer: A
+  topic: R3
+  tags:
+  - 主旨
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 47
+    Ph: 84
+    Pl: 12
+    D: 72
+    opt:
+      A: 47
+      B: 43
+      C: 6
+      D: 5
+  explain: ''
+  reviewed: false
+- id: eng114-36
+  'no': 36
+  type: single
+  points: 2
+  group: eng114-g35
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  topic: R3
+  tags:
+  - 圖片
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 52
+    Ph: 74
+    Pl: 29
+    D: 45
+    opt:
+      A: 35
+      B: 8
+      C: 52
+      D: 5
+  explain: ''
+  reviewed: false
+  image: img/english/114-36.webp
+- id: eng114-37
+  'no': 37
+  type: single
+  points: 2
+  group: eng114-g35
+  stem: Which of the following statements is true, according to the passage?
+  options:
+    A: Knight was injured in the explosion of his traffic light.
+    B: Potts’ traffic light was the first one to appear in the USA.
+    C: The first traffic signal originated from the idea of a traffic director.
+    D: Future vehicles may not need traffic lights to cross an intersection.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 56
+    Ph: 90
+    Pl: 18
+    D: 72
+    opt:
+      A: 11
+      B: 11
+      C: 21
+      D: 56
+  explain: ''
+  reviewed: false
+- id: eng114-38
+  'no': 38
+  type: single
+  points: 2
+  group: eng114-g35
+  stem: 'Here is a sentence: “This design was adopted in later traffic light designs across the world.” Which paragraph is most suitable to have it as the final sentence?'
+  options:
+    A: Paragraph 1.
+    B: Paragraph 2.
+    C: Paragraph 3.
+    D: Paragraph 4.
+  answer: C
+  topic: R3
+  tags:
+  - 句子歸位
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 75
+    Ph: 92
+    Pl: 49
+    D: 43
+    opt:
+      A: 7
+      B: 9
+      C: 75
+      D: 8
+  explain: ''
+  reviewed: false
+- id: eng114-39
+  'no': 39
+  type: single
+  points: 2
+  group: eng114-g39
+  stem: What field of study does the research mentioned in the passage most likely belong to?
+  options:
+    A: Psychology.
+    B: Education.
+    C: Philosophy.
+    D: Communication.
+  answer: A
+  topic: R3
+  tags:
+  - 推論
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 66
+    Ph: 93
+    Pl: 33
+    D: 60
+    opt:
+      A: 66
+      B: 11
+      C: 15
+      D: 7
+  explain: ''
+  reviewed: false
+- id: eng114-40
+  'no': 40
+  type: single
+  points: 2
+  group: eng114-g39
+  stem: What does the author mean by “learning vicariously” in the second paragraph?
+  options:
+    A: Making inquiries without reservation.
+    B: Gaining knowledge through observation.
+    C: Acquiring insights by face-to-face interaction.
+    D: Obtaining information from personal experience.
+  answer: B
+  topic: R3
+  tags:
+  - 字義
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 55
+    Ph: 84
+    Pl: 28
+    D: 56
+    opt:
+      A: 8
+      B: 55
+      C: 12
+      D: 25
+  explain: ''
+  reviewed: false
+- id: eng114-41
+  'no': 41
+  type: single
+  points: 2
+  group: eng114-g39
+  stem: Which of the following statements about horror movies can be inferred from the passage?
+  options:
+    A: Most horror movie lovers are prone to aggressive behavior.
+    B: There are far more benefits to horror movies than disadvantages.
+    C: COVID-19 was an important source of inspiration for horror movies.
+    D: Watching horror movies may have a long-term effect on personality.
+  answer: D
+  topic: R3
+  tags:
+  - 推論
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 65
+    Ph: 94
+    Pl: 28
+    D: 66
+    opt:
+      A: 6
+      B: 10
+      C: 19
+      D: 65
+  explain: ''
+  reviewed: false
+- id: eng114-42
+  'no': 42
+  type: single
+  points: 2
+  group: eng114-g39
+  stem: How does the author develop the ideas in this passage?
+  options:
+    A: By defining and illustrating a concept.
+    B: By showing opposing views of an issue.
+    C: By presenting cause and effect of a problem.
+    D: By providing steps for settling a disagreement.
+  answer: B
+  topic: R3
+  tags:
+  - 結構
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 39
+    Ph: 56
+    Pl: 27
+    D: 29
+    opt:
+      A: 16
+      B: 39
+      C: 38
+      D: 7
+  explain: ''
+  reviewed: false
+- id: eng114-43
+  'no': 43
+  type: single
+  points: 2
+  group: eng114-g43
+  stem: What is the main purpose of the second paragraph in the passage?
+  options:
+    A: To discuss the content of alcoholic drinks in ancient Europe.
+    B: To highlight the French impact on Russians’ drinking habits.
+    C: To argue against the assumption that Russians are born drinkers.
+    D: To link Russians’ vodka consumption to their adoption of Christianity.
+  answer: C
+  topic: R3
+  tags:
+  - 結構
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 43
+    Ph: 76
+    Pl: 22
+    D: 54
+    opt:
+      A: 15
+      B: 19
+      C: 43
+      D: 23
+  explain: ''
+  reviewed: false
+- id: eng114-44
+  'no': 44
+  type: single
+  points: 2
+  group: eng114-g43
+  stem: Which of the following is true about vodka production?
+  options:
+    A: Vodka production in Russia started in the 15<sup>th</sup> century.
+    B: The first vodka made from wheat was imported from France.
+    C: Germany was the biggest vodka producer in medieval Europe.
+    D: Russian people were encouraged to make their own vodka in the 19<sup>th</sup> century.
+  answer: A
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 63
+    Ph: 92
+    Pl: 33
+    D: 59
+    opt:
+      A: 63
+      B: 16
+      C: 9
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng114-45
+  'no': 45
+  type: single
+  points: 2
+  group: eng114-g43
+  stem: What does “This” in the fourth paragraph refer to?
+  options:
+    A: The alcohol.
+    B: The government.
+    C: The illegal production.
+    D: The state monopoly.
+  answer: D
+  topic: R3
+  tags:
+  - 指涉
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 42
+    Ph: 80
+    Pl: 12
+    D: 68
+    opt:
+      A: 16
+      B: 16
+      C: 26
+      D: 42
+  explain: ''
+  reviewed: false
+- id: eng114-46
+  'no': 46
+  type: single
+  points: 2
+  group: eng114-g43
+  stem: How does the author conclude the passage in the last paragraph?
+  options:
+    A: By providing further facts.
+    B: By summarizing the main ideas.
+    C: By raising a new problem.
+    D: By making a future prediction.
+  answer: A
+  topic: R3
+  tags:
+  - 結構
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 40
+    Ph: 62
+    Pl: 21
+    D: 41
+    opt:
+      A: 40
+      B: 28
+      C: 20
+      D: 12
   explain: ''
   reviewed: false

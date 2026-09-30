@@ -1,0 +1,188 @@
+# 英文重點整理：近六屆（110–115）學測英文考過的單字、轉折語、片語搭配與文法考點。
+# 題目、答案、答對率取自大考中心公開試題與統計；級別依大考中心《高中英文參考詞彙表（111 學年度起適用）》，
+# 由 tools/wordlist.py 自動查出（base：詞彙表沒有收錄時，列出它的原形字）。意思與說明由 Claude 撰寫。
+# 欄位：word 單字、pos 詞性（依考題中的用法）、mean 意思、use 考題中的搭配、confuse 常被誤選的選項（全國選答率 ≥15%）。
+
+vocab:
+  eng115-01: {word: tight, pos: adj., mean: 緊湊的、排得很滿的, use: a tight schedule 行程很滿, confuse: [routine 例行的]}
+  eng115-02: {word: amateur, pos: adj., mean: 業餘的, use: an amateur art designer 業餘美術設計師（↔ professional 專業的）, confuse: [elementary 初級的, official 官方的]}
+  eng115-03: {word: vacancy, pos: n., mean: 職缺、空缺, use: a teaching vacancy 教職缺額, confuse: [career 職業生涯, expectation 期待]}
+  eng115-04: {word: initially, pos: adv., mean: 起初、原本, use: than initially expected 比原本預期的多, confuse: [], base: initial}
+  eng115-05: {word: consumption, pos: n., mean: 攝取、消耗, use: a balanced consumption of fruit and vegetables 均衡攝取蔬果, confuse: [integration 整合]}
+  eng115-06: {word: dread, pos: v., mean: 非常害怕, use: dread the thought of V-ing 一想到…就害怕, confuse: [stress 強調, escape 逃離]}
+  eng115-07: {word: passion, pos: n., mean: 熱情、熱愛的事物, use: music is his life's passion 音樂是他一生的熱情所在, confuse: [emphasis 強調]}
+  eng115-08: {word: assault, pos: v., mean: 攻擊、毆打（人）, use: assault them with glass bottles 拿玻璃瓶攻擊他們, confuse: [shatter 打碎（物品）]}
+  eng115-09: {word: elbow, pos: v., mean: 用手肘推擠, use: elbow one's way through the crowd 從人群中擠過去, confuse: [struggle 掙扎, crash 撞擊, tumble 跌倒]}
+  eng115-10: {word: grave, pos: adj., mean: 嚴重的、嚴肅的, use: raise grave concerns 引起嚴重的關切, confuse: [harsh 嚴厲的, brutal 殘忍的, swift 迅速的]}
+  eng114-01: {word: container, pos: n., mean: 容器, use: put a container under a leaking faucet 在漏水的水龍頭下放容器, confuse: []}
+  eng114-02: {word: produce, pos: n., mean: 農產品（名詞重音在前）, use: fresh seasonal produce 新鮮的當季農產品, confuse: []}
+  eng114-03: {word: blur, pos: v., mean: 變模糊, use: memories are blurring 記憶越來越模糊, confuse: [drain 排乾、耗盡, trim 修剪]}
+  eng114-04: {word: offensive, pos: adj., mean: 冒犯的、令人不快的, use: offensive and hurtful 冒犯又傷人, confuse: [furious 狂怒的（形容人）]}
+  eng114-05: {word: draft, pos: n., mean: 草稿, use: the first draft of her essay 文章的初稿, confuse: [text 內文, plot 情節]}
+  eng114-06: {word: vacant, pos: adj., mean: 空著的、沒人住的, use: left vacant for years 空置多年, confuse: [remote 偏遠的, fragile 易碎的]}
+  eng114-07: {word: enormous, pos: adj., mean: 極大的, use: enormous courage 極大的勇氣, confuse: [gigantic 巨大的（多指體積）, exclusive 獨有的]}
+  eng114-08: {word: halt, pos: v., mean: 使停止, use: halted or delayed 被暫停或延後, confuse: [hatch 孵化, possess 擁有, reinforce 加強]}
+  eng114-09: {word: grace, pos: v., mean: 使增光, use: grace the ceremony with one's presence 蒞臨典禮增光, confuse: [address 對…演說、處理, praise 稱讚, credit 歸功於]}
+  eng114-10: {word: verbally, pos: adv., mean: 言語上、口頭上, use: verbally abuse 言語辱罵, confuse: [dominantly 佔優勢地, legitimately 合法地, relevantly 相關地], base: verbal}
+  eng113-01: {word: slender, pos: adj., mean: 苗條的, use: a slender figure 苗條的身材, confuse: [slight 輕微的；瘦小的]}
+  eng113-02: {word: emerge, pos: v., mean: 浮現、出現, use: the sun emerging from a sea of clouds 太陽從雲海中升起, confuse: [float 漂浮, flash 閃爍]}
+  eng113-03: {word: due, pos: adj., mean: 預定（到達）的, use: the next bus is due 下一班公車預定到站, confuse: [apt 易於…的, dock 停靠碼頭, bound 開往（bound for）]}
+  eng113-04: {word: humidity, pos: n., mean: 濕度, use: high humidity 濕度高, confuse: [atmosphere 大氣、氣氛]}
+  eng113-05: {word: stand, pos: v., mean: 經得起, use: stand the test of time 經得起時間的考驗, confuse: [take 拿、承擔, serve 服務]}
+  eng113-06: {word: compulsory, pos: adj., mean: 強制的、義務的, use: military service is compulsory 兵役是義務的, confuse: [distinctive 獨特的, forceful 強而有力的]}
+  eng113-07: {word: credit, pos: n., mean: 功勞、讚揚, use: take the credit for… 把…的功勞攬在身上, confuse: [advantage 優勢（take advantage of 利用）, revenge 報仇, remedy 補救]}
+  eng113-08: {word: promise, pos: v., mean: 保證（會有）, use: the hotel promises good service 飯店保證服務好, confuse: [contain 包含, propose 提議]}
+  eng113-09: {word: appeal, pos: n., mean: 呼籲、懇求, use: make an appeal for the public to donate blood 呼籲大眾捐血, confuse: [operation 手術、運作, approach 方法, observation 觀察]}
+  eng113-10: {word: randomly, pos: adv., mean: 隨機地, use: be randomly placed in a group 被隨機分組, confuse: [consequently 因此], base: random}
+  eng112-01: {word: sticky, pos: adj., mean: 黏的, use: chewing gum is sticky 口香糖黏黏的, confuse: []}
+  eng112-02: {word: pose, pos: n., mean: 姿勢, use: adopt an elegant pose 擺出優雅的姿勢, confuse: []}
+  eng112-03: {word: ancestor, pos: n., mean: 祖先, use: trace one's ancestors back to… 把祖先追溯到…, confuse: [commuter 通勤者]}
+  eng112-04: {word: bare, pos: adj., mean: 空的、光禿的, use: the shelves almost bare 貨架幾乎空了, confuse: [blank 空白的, hollow 中空的]}
+  eng112-05: {word: sincerity, pos: n., mean: 誠意、真誠, use: feel any sincerity in his apology 感受到道歉的誠意, confuse: [generosity 慷慨]}
+  eng112-06: {word: recall, pos: n., mean: 記憶力、回想, use: powers of recall 記憶力, confuse: []}
+  eng112-07: {word: counter, pos: v., mean: 反駁、反擊, use: evidence to counter the claims 反駁說法的證據, confuse: [expose 揭露, provoke 激起, convert 轉換]}
+  eng112-08: {word: cripple, pos: v., mean: 使癱瘓、嚴重損害, use: cripple the country's economy 重創國家經濟, confuse: [accelerate 加速, render 使成為]}
+  eng112-09: {word: choke, pos: v., mean: 堵塞、使窒息, use: be choked with traffic 交通堵塞, confuse: [disturb 打擾, enclose 圍住, inject 注射]}
+  eng112-10: {word: supposedly, pos: adv., mean: 據說、表面上, use: the supposedly unbiased media 號稱公正的媒體, confuse: [roughly 大約, undoubtedly 無疑地, understandably 可以理解地]}
+  eng111-01: {word: deliver, pos: v., mean: 遞送, use: have it delivered to his house 請人送到家, confuse: []}
+  eng111-02: {word: assistant, pos: n., mean: 助理, use: the best assistant I have ever had 我遇過最好的助理, confuse: []}
+  eng111-03: {word: puppet, pos: n., mean: 木偶, use: hand puppet shows 布袋戲, confuse: [variety 多樣（variety show 綜藝節目）]}
+  eng111-04: {word: potentially, pos: adv., mean: 潛在地、可能地, use: potentially fatal side effects 可能致命的副作用, confuse: [ambiguously 含糊地], base: potential}
+  eng111-05: {word: tag, pos: v., mean: 加上標籤, use: tag the photos with dates and keywords 幫照片加上日期和關鍵字, confuse: []}
+  eng111-06: {word: agreeable, pos: adj., mean: 隨和的、令人愉快的, use: an agreeable person 隨和好相處的人, confuse: [intimate 親密的]}
+  eng111-07: {word: visible, pos: adj., mean: 看得見的, use: barely visible to passersby 路人幾乎看不到, confuse: [available 可取得的, remarkable 非凡的]}
+  eng111-08: {word: eventual, pos: adj., mean: 最後的、最終的, use: the eventual cost 最後的花費, confuse: []}
+  eng111-09: {word: quest, pos: n., mean: 探索、追尋, use: go on a quest for dinosaur fossils 去尋找恐龍化石, confuse: [trial 試驗、審判, route 路線, strike 罷工、打擊]}
+  eng111-10: {word: blush, pos: v., mean: 臉紅, use: the valley blushes like a young bride 山谷像新娘一樣泛紅（擬人）, confuse: [transfer 轉移, polish 擦亮]}
+  eng110-01: {word: tease, pos: v., mean: 捉弄、嘲弄, use: tease and play jokes on his sister 捉弄妹妹, confuse: [spare 饒恕、騰出]}
+  eng110-02: {word: escalator, pos: n., mean: 手扶梯, use: the elevator rather than the escalator 搭電梯而不是手扶梯, confuse: []}
+  eng110-03: {word: obediently, pos: adv., mean: 順從地、乖乖地, use: followed her out of the room obediently 乖乖跟著她出去, confuse: [apparently 顯然, thoroughly 徹底地], base: obedient}
+  eng110-04: {word: moist, pos: adj., mean: 潮濕的、濕潤的, use: moist air 濕潤的空氣, confuse: [fertile 肥沃的]}
+  eng110-05: {word: parachute, pos: n., mean: 降落傘, use: her parachute failed to open 降落傘沒打開, confuse: [segment 部分、片段, latitude 緯度]}
+  eng110-06: {word: revolutionary, pos: adj., mean: 革命性的, use: a revolutionary change 革命性的改變, confuse: [conventional 傳統的]}
+  eng110-07: {word: interaction, pos: n., mean: 互動, use: classroom interaction 課堂互動, confuse: []}
+  eng110-08: {word: tumble, pos: v., mean: 跌倒、滾落, use: tumble onto the ground 跌倒在地, confuse: [punch 用拳頭打]}
+  eng110-09: {word: kit, pos: n., mean: 一套用具、套組, use: free testing kits 免費的檢測套組, confuse: [trial 試驗, proof 證據]}
+  eng110-10: {word: jointly, pos: adv., mean: 共同地, use: be awarded jointly to three women 由三位女性共同獲獎, confuse: [earnestly 認真地, actively 積極地], base: joint}
+  eng110-11: {word: flourish, pos: v., mean: 興旺、繁榮, use: the company is flourishing 公司生意興隆, confuse: [exceed 超過, applaud 鼓掌]}
+  eng110-12: {word: absurd, pos: adj., mean: 荒謬的, use: absolutely absurd to waste your money 浪費錢實在荒謬, confuse: [obstinate 固執的, vigorous 精力充沛的, cautious 謹慎的]}
+  eng110-13: {word: singular, pos: adj., mean: 單一的, use: merely one singular reason 只有一個原因, confuse: [defensive 防禦的, countable 可數的]}
+  eng110-14: {word: commit, pos: v., mean: 承諾撥出（資金、時間）, use: commit $1 million to… 承諾投入一百萬美元, confuse: [resolve 決心、解決, equip 裝備]}
+  eng110-15: {word: resume, pos: v., mean: 恢復、重新開始, use: bus service resumed 公車恢復行駛, confuse: [transport 運送（要接受詞）]}
+
+fill:
+  eng115-21: {word: unproductive, pos: adj., mean: 沒有生產力的、浪費時間的, use: by no means unproductive 絕不是浪費時間, base: productive}
+  eng115-22: {word: function, pos: n., mean: 功能、機能, use: brain size and function 大腦的大小與功能}
+  eng115-23: {word: risk, pos: n., mean: 風險, use: increase dementia risk 提高失智風險}
+  eng115-24: {word: delay, pos: v., mean: 延緩, use: delay age-related brain shrinkage 延緩老化造成的大腦萎縮}
+  eng115-25: {word: retain, pos: v., mean: 保留、記住, use: retain acquired knowledge 記住學到的知識}
+  eng115-26: {word: point to, pos: phr., mean: 指出、傾向於（某個結論）, use: others point to shorter naps 其他研究則指出較短的午睡較好}
+  eng115-27: {word: depend on, pos: phr., mean: 取決於, use: depend on a person's physical condition 取決於身體狀況}
+  eng115-28: {word: dramatic, pos: adj., mean: 顯著的、戲劇性的, use: surprisingly dramatic benefits 驚人的顯著好處}
+  eng115-29: {word: minimal, pos: adj., mean: 極少的, use: a quiet place with minimal light 光線很少的安靜地方}
+  eng115-30: {word: atmosphere, pos: n., mean: 氣氛、氛圍, use: create a relaxing atmosphere 營造放鬆的氣氛}
+  eng114-21: {word: noted, pos: adj., mean: 著名的, use: be noted for… 以…聞名, base: note}
+  eng114-22: {word: reference, pos: n., mean: 提及、參考, use: documented reference to… 有文獻提到…}
+  eng114-23: {word: bear, pos: v., mean: 帶有、具有, use: each bearing a name 每一口鐘都有名字}
+  eng114-24: {word: survive, pos: v., mean: 從…中倖存, use: survived the French Revolution 在法國大革命中倖存}
+  eng114-25: {word: retain, pos: v., mean: 保有, use: retained its renowned sound 保有著名的音色}
+  eng114-26: {word: familiar, pos: adj., mean: 熟悉的, use: a familiar part of life in Paris 巴黎生活中熟悉的一部分}
+  eng114-27: {word: faithful, pos: n., mean: （the faithful）信徒；形容詞是「忠實的」, use: call the faithful to prayer 召喚信徒禱告}
+  eng114-28: {word: celebration, pos: n., mean: 慶祝, use: in times of celebration and of mourning 在歡慶與哀悼的時刻}
+  eng114-29: {word: silent, pos: adj., mean: 沉默的、無聲的, use: the bells fell silent 鐘聲停了下來}
+  eng114-30: {word: restoration, pos: n., mean: 修復, use: a process of restoration 修復的過程}
+  eng113-21: {word: departed, pos: adj., mean: 已故的, use: their departed loved ones 已故的親人, base: depart}
+  eng113-22: {word: fateful, pos: adj., mean: 決定命運的、帶來重大（不幸）影響的, use: on that fateful day 在那個改變命運的日子, base: fate}
+  eng113-23: {word: bring forth, pos: phr., mean: 提出、產生, use: was first brought forth by… 最早由…提出}
+  eng113-24: {word: sorrow, pos: n., mean: 悲傷, use: navigate through the sorrow 走過悲傷}
+  eng113-25: {word: house, pos: v., mean: 容納、放置, use: the booth housed only an old phone 亭子裡只放了一支舊電話}
+  eng113-26: {word: pass on, pos: phr., mean: 傳達、傳遞, use: couldn't be passed on through a phone line 無法透過電話線傳達}
+  eng113-27: {word: manageable, pos: adj., mean: 可以處理的、承受得住的, use: renders the grieving process more manageable 讓哀悼的過程比較能承受, base: manage}
+  eng113-28: {word: bridge, pos: n., mean: 橋梁, use: a bridge between the living and the dead 生者與亡者之間的橋梁}
+  eng113-29: {word: mechanism, pos: n., mean: 機制, use: a natural mechanism for coping with loss 面對失去的自然機制}
+  eng113-30: {word: hope, pos: n., mean: 希望, use: hope is always there 希望一直都在}
+  eng112-21: {word: reach for, pos: phr., mean: 伸手去拿, use: the healthiest drink we can reach for 我們能拿來喝的最健康飲料}
+  eng112-22: {word: active, pos: adj., mean: 活躍的、活動量大的, use: a physically active person 活動量大的人}
+  eng112-23: {word: even, pos: v., mean: 使平衡（even out 使平均）, use: to even things out 為了取得平衡}
+  eng112-24: {word: effective, pos: adj., mean: 有效的, use: milk can be more effective than water 牛奶可能比水更有效}
+  eng112-25: {word: absorption, pos: n., mean: 吸收, use: stimulate water absorption 促進水分吸收, base: absorb}
+  eng112-26: {word: status, pos: n., mean: 狀態、地位, use: a normal fluid status 正常的體液狀態}
+  eng112-27: {word: option, pos: n., mean: 選擇, use: a very good option for keeping hydrated 保持水分的好選擇}
+  eng112-28: {word: alert, pos: v., mean: 提醒、使警覺, use: alert your consciousness 讓你意識到（口渴）}
+  eng112-29: {word: pass through, pos: phr., mean: 通過, use: pass through the body quickly 很快就流過身體}
+  eng112-30: {word: combat, pos: v., mean: 對抗, use: to combat this 為了對抗這個問題}
+  eng111-21: {word: risky, pos: adj., mean: 危險的、有風險的, use: too risky for the regular actor 對一般演員來說太危險}
+  eng111-22: {word: necessity, pos: n., mean: 必要、需要, use: emerge out of necessity 因需要而產生}
+  eng111-23: {word: professional, pos: adj., mean: 專業的, use: professional crew members 專業的工作人員}
+  eng111-24: {word: try out, pos: phr., mean: 試做、嘗試, use: tried out things for the first time 第一次嘗試做某些事}
+  eng111-25: {word: cost, pos: v., mean: 使付出（代價）, use: cost some their lives 讓一些人賠上性命}
+  eng111-26: {word: call for, pos: phr., mean: 需要、要求, use: called for the use of stunt people 需要用到特技演員}
+  eng111-27: {word: career, pos: n., mean: 職業、生涯, use: found a new career as a stunt person 找到當特技演員的新工作}
+  eng111-28: {word: witness, pos: v., mean: 見證（某時代發生某事）, use: the 1960s and '70s witnessed the development of… 1960、70 年代見證了…的發展}
+  eng111-29: {word: possible, pos: adj., mean: 可能的, use: it is now possible to create… 現在可以做出…}
+  eng111-30: {word: sensation, pos: n., mean: 感覺、轟動, use: the thrilling sensation of an actual stunt 真實特技的刺激感}
+  eng110-31: {word: modest, pos: adj., mean: 適度的、不多的, use: modest amounts of exercise 適量的運動}
+  eng110-32: {word: fanatic, pos: n., mean: 狂熱者, use: a fitness fanatic 健身狂}
+  eng110-33: {word: abide by, pos: phr., mean: 遵守, use: a motto to abide by 要遵守的座右銘}
+  eng110-34: {word: current, pos: adj., mean: 目前的、最新的, use: current health studies 最新的健康研究}
+  eng110-35: {word: argue, pos: v., mean: 主張、爭論, use: you might argue that… 你也許會說…}
+  eng110-36: {word: demanding, pos: adj., mean: 費力的、要求高的, use: physically demanding exercises 體能負荷大的運動, base: demand}
+  eng110-37: {word: point to, pos: phr., mean: 表示、暗示（可能是…）, use: it may point to an injury 可能表示受傷了}
+  eng110-38: {word: soreness, pos: n., mean: 痠痛, use: without the soreness or discomfort 不會痠痛或不舒服, base: sore}
+  eng110-39: {word: means, pos: n., mean: 方法、手段（單複數同形）, use: a powerful means to improve your health 增進健康的有效方法}
+  eng110-40: {word: make time, pos: phr., mean: 騰出時間, use: make time for exercise 抽出時間運動}
+
+# 常見轉折語（依功能分類，供克漏字、篇章結構與寫作使用）
+transitions:
+  - {kind: 補充, words: "moreover、furthermore、in addition、besides、what is more（而且）、also、as well（也）、not to mention（更不用說）"}
+  - {kind: 轉折、對比, words: "however、nevertheless、yet、on the other hand、in contrast、instead、while／whereas（然而、而）"}
+  - {kind: 讓步, words: "although／even though（＋子句）、despite／in spite of（＋名詞或 V-ing）、even so（即使如此）"}
+  - {kind: 因果, words: "therefore、thus、hence、as a result、consequently、as such（因此、正因如此）"}
+  - {kind: 舉例, words: "for example、for instance、such as、including"}
+  - {kind: 換句話說, words: "in other words、that is (to say)、namely"}
+  - {kind: 揭露事實, words: "in fact、actually、it turns out／as it turns out（結果發現、原來）"}
+  - {kind: 條件, words: "if so（如果是這樣）、otherwise（否則）、unless（除非）"}
+  - {kind: 時間, words: "by then（到那時）、meanwhile（同時）、eventually（最後）"}
+  - {kind: 除外, words: "except for、other than、apart from（除了…之外）"}
+  - {kind: 總結, words: "in short、in conclusion、all in all（總而言之）；after all 是「畢竟」，不是總結"}
+
+# 綜合測驗考過的轉折語、片語搭配、文法（例句由題目自動產生，只寫意思）
+transition_items:
+  eng115-11: {phrase: it turns out, mean: 結果發現、原來（插入句中）}
+  eng115-19: {phrase: as such, mean: 因此、正因如此}
+  eng114-15: {phrase: thus, mean: 因此、就這樣}
+  eng114-20: {phrase: as well, mean: 也（放句尾）}
+  eng112-11: {phrase: but not quite, mean: 但不完全（幾乎…卻沒有）}
+  eng112-15: {phrase: despite, mean: 儘管（後接名詞）}
+  eng111-16: {phrase: other than, mean: 除了…之外（＝except）}
+  eng110-16: {phrase: without, mean: 沒有（would not be the same without V-ing 少了…就不一樣）}
+  eng110-19: {phrase: similarly, mean: 同樣地（similarly effective 同樣有效）}
+  eng110-21: {phrase: not to mention, mean: 更不用說}
+phrase_items:
+  eng115-15: {phrase: be responsive to, mean: 對…有反應}
+  eng115-18: {phrase: be meant to be, mean: 本來就是要…}
+  eng114-14: {phrase: give rise to, mean: 導致、產生}
+  eng113-11: {phrase: pose as, mean: 假扮成}
+  eng113-17: {phrase: be equipped with, mean: 配備著}
+  eng112-13: {phrase: compete for, mean: 爭奪}
+  eng112-14: {phrase: exposure to, mean: 接觸、暴露於}
+  eng112-16: {phrase: free of, mean: 擺脫、不受…束縛}
+  eng112-20: {phrase: be accompanied by, mean: 伴隨著}
+  eng111-19: {phrase: spell disaster, mean: 招致災難}
+  eng110-17: {phrase: take over, mean: 接管、佔據}
+  eng110-23: {phrase: be fearful of, mean: 害怕}
+  eng110-24: {phrase: come after, mean: 追趕、找上門}
+  eng110-26: {phrase: be home to, mean: 是…的所在地、有…棲息}
+  eng110-30: {phrase: be left unchecked, mean: 被放任不管}
+grammar_items:
+  eng115-17: {point: have yet to V, mean: 還沒有…（had yet to develop＝當時還沒發展）}
+  eng114-11: {point: would＋原形動詞, mean: 從過去的時間點看未來（當時還不知道會擴散）}
+  eng114-18: {point: 代動詞 don't, mean: 代替前面的 detect that your body is moving，避免重複}
+  eng113-12: {point: 介系詞＋which, mean: be assigned to the stores → the stores to which they are assigned}
+  eng113-16: {point: could have＋p.p., mean: 過去本來可以…（實際上沒有）}
+  eng112-18: {point: 句子的主要動詞, mean: our body fluids 後面缺主要動詞，用現在式 redistribute（敘述一般事實）；後面的 shifting… 是分詞構句}
+  eng111-12: {point: 現在完成進行式, mean: Since the 1970s → have been springing up（從過去到現在持續）}
+  eng111-17: {point: used to＋原形動詞, mean: 過去曾經（現在不是了）}
+  eng110-20: {point: 過去分詞當形容詞, mean: bird feeders installed…＝被安裝在…的餵鳥器}
+  eng110-25: {point: would have＋p.p.（假設語氣）, mean: 如果上帝真的要他的命，第一道閃電就夠了（事實上他活下來了）}
+  eng110-28: {point: 分詞構句（完成式）, mean: Having already shrunk…＝（冰河）已經縮小了…}

@@ -5,7 +5,76 @@ paper: 英文
 source:
   pdf: https://www.ceec.edu.tw/files/file_pool/1/0m053357638065462325/02-111%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.pdf
   docx: https://www.ceec.edu.tw/files/file_pool/1/0m052625333586016950/02-111%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.docx
-groups: []
+groups:
+- id: eng111-g11
+  range:
+  - 11
+  - 15
+  intro: 第11至15題為題組
+  passage: |-
+    A book town is a rural town in which second-hand and antiquarian bookshops are concentrated. The concept was <u> 11 </u> by Richard Booth, who opened the first second-hand bookshop in Hay-on-Wye, UK in 1961. Following him, many local people opened their own bookshops, and the small town soon became a model of sustainable rural development and tourism. Since the 1970s, book towns like Hay-on-Wye <u> 12 </u> up all over the world.
+    Although all book towns have a great number of bookshops, that’s where the similarities <u> 13 </u>. Each of these towns shows unique features of its own. Some have many small private shops, while others have organizations steered by volunteers. Some even run regular activities to attract visitors. For example, an annual book festival is held in Hay-on-Wye. Clunes, in Australia, holds a monthly book talk that hosts authors to discuss their latest <u> 14 </u>.
+    As digital reading is changing our traditional way of reading, book towns like Hay-on-Wye are particularly important to <u> 15 </u>. The feel of a book, the smell, the weight, and the knowledge that a particular book might be more than a hundred years old—all these highlight the importance of preserving the physical book as a complement to technology.
+- id: eng111-g16
+  range:
+  - 16
+  - 20
+  intro: 第16至20題為題組
+  passage: |-
+    Airline passengers may have noticed that all plane windows have rounded edges, instead of the hard corners commonly found in our house. The round windows are indeed pleasant to the eye, but they actually were designed for reasons <u> 16 </u> aesthetics.
+    In the early days of aviation, plane windows <u> 17 </u> square in shape. Then as commercial air travel became popular in the 1950s and airplanes began flying higher and faster, three planes mysteriously broke apart in midair. The cause? Square windows. Scientists found that sharp corners are natural weak spots where stress concentrates. The problem is <u> 18 </u> when airplanes fly at higher altitudes, where the difference between the inside and outside pressure increases, causing added stress. When subjected to repeated pressurization high in the sky, the four corners on a square window may <u> 19 </u>.
+    Curved windows, on the other hand, distribute stress around more evenly, reducing the likelihood of cracks or breaks. Circular shapes are also stronger and resist deformation, and therefore can <u> 20 </u> extreme differences in pressure inside and outside of an aircraft.
+    Thus, round windows are a major safety innovation that keeps planes from disintegrating mid-flight. They are also used on ships and spacecraft for their greater structural integrity.
+- id: eng111-g21
+  range:
+  - 21
+  - 30
+  intro: 第21至30題為題組
+  passage: |-
+    A stunt person is a man or a woman who performs dangerous acts, usually in the television or movie industry. In this line of work, the person is paid to do daring actions that are deemed too <u> 21 </u> for the regular actor to perform, including jumping from heights, crashing cars, or fighting with weapons.
+    Stunt work emerged out of <u> 22 </u> over time. In the early days of the film industry, actors themselves shot acrobatic acts and dangerous scenes, until they began to get injured. There were, however, no <u> 23 </u> crew members to perform impressive stunts at that time. If something dangerous needed to be done for a scene, the producers would hire anyone crazy or desperate enough to do it. These people were not trained to perform stunts, so they often <u> 24 </u> things for the first time during the actual shooting. They had to learn from their own mistakes, which <u> 25 </u> some their lives, and almost all suffered light or severe injuries.
+    Beginning around 1910, audiences developed a taste for serial action movies, which <u> 26 </u> the use of dedicated stunt people to perform in dangerous scenes. Such demand increased with the rise of western movies, and many cowboys with masterful skills on horseback found a new <u> 27 </u> as a stunt person. Tom Mix and Yakima Canutt were among the most famous. The 1960s and ’70s <u> 28 </u> the development of most modern stunt technology, like air rams and bullet squibs. That technology has continued to evolve into the present.
+    Today, CGI (computer generated imagery) is widely used in filmmaking, and it is now <u> 29 </u> to create very lifelike scenes without using real stunt people. However, CGI has difficulties of its own, and there will always be a demand for the realism and thrilling <u> 30 </u> of an actual stunt. So the stunt industry is probably in no immediate danger of dying off.
+- id: eng111-g31
+  range:
+  - 31
+  - 34
+  intro: 第31至34題為題組
+  passage: |-
+    Obon, or the Bon Festival, is a Japanese holiday that honors the spirits of the dead. <u> 31 </u> The festival usually lasts for four to five days in August. During this period, many people travel back to their hometowns and spend time with loved ones, both past and present.
+    Though not a national holiday, Obon is surely one of the most traditional events of the year. Celebration often begins with mukaebi (welcoming fire), during which people make a small bonfire in front of their house to guide spirits upon their return back home. <u> 32 </u> Food offerings are presented at house altars and temples. Some regions prepare horses made of cucumbers and cows made of eggplants, hoping that the spirits will come back to Earth quickly, on a horse, and leave slowly, riding the cow.
+    <u> 33 </u> Paper lanterns and offerings are sent floating down rivers to accompany the ancestors back to their resting place. Many areas will also organize bon-odori dances. The style of the dances varies from region to region but is normally based on the rhythms of taiko drums. Performers usually play on a tall stage with lanterns and banners strung all around. Participants, often dressed in light cotton kimonos, are encouraged to dance to the music around the stage. <u> 34 </u> Originally dedicated to the deceased, the dances have now become a symbol of the summer festival themselves.
+- id: eng111-g35
+  range:
+  - 35
+  - 38
+  intro: 第35至38題為題組
+  passage: |-
+    Standing proud in the savannah with their red blankets and painted shields, the Maasai people are one of the widely known symbols of East Africa. Their unique style, as remarked by Karen Blixen, author of Out of Africa, “has grown from the inside, and is an expression of the race and its history.”
+    The Maasai are a semi-nomadic group in Kenya and northern Tanzania, wandering in bands and living almost entirely on the meat, blood, and milk of their herds. Over the years, the fearless tribesmen have stood strong against slavery, and resisted the urging of the Kenyan and Tanzanian governments to adopt a more modern lifestyle. In fact, they are one of the few tribes that have retained most of their traditions. Up until recently, the only way for a Maasai boy to achieve warrior status was to single-handedly kill a lion with his spear.
+    Maasai clothing varies with age, gender, and place. The most recognizable piece of clothing is the shúkà, a sheet of fabric worn wrapped around the body. Red is a popular color, and women generally opt for checked, striped, or patterned pieces of cloth. Young men wear black for several months after their circumcision, a ritual signifying their coming of age. A Maasai warrior is rarely seen without his spear and shield. In Blixen’s words, “their weapons and finery are as much a part of their being as are a stag’s antlers” (a male deer’s horns).
+    Beadwork is an important part of Maasai culture. Beaded jewelry is made by women, and is famous for its complexity. Natural materials such as clay, shells, and ivory were used before trading with the Europeans in the 19<sup>th</sup> century. They were then replaced by colorful glass beads, allowing for more detailed beadwork and color patterns. Multicolored beadwork is popular among both men and women. Each color holds a special meaning: White stands for peace, green for land and production, while red—the most favored color among the Maasai—is the symbol of unity and bravery.
+- id: eng111-g39
+  range:
+  - 39
+  - 42
+  intro: 第39至42題為題組
+  passage: |-
+    A hard hat is a helmet used mostly at worksites to protect the head from injuries due to falling objects. Since its introduction in the early 20<sup>th</sup> century, the headgear has saved countless lives and is considered the number one safety tool for construction workers.
+    The hard hat was invented in 1919 by Edward W. Bullard, who had just returned from World War I. Before the war, workers used to smear their hats with coal tar for protection of their head. Bullard, having witnessed the life-saving power of the metal helmet in the War, decided to produce a head protection device that was affordable for every worker and lightweight enough to be worn all day long. The Hard Boiled Hat was thus born, using steamed canvas and leather, covered with black paint, and featuring a suspension system to reduce impact. Soon, hard hats became widely used. The headgear was later made mandatory at construction sites in major construction projects, such as the Hoover Dam in 1931 and the Golden Gate Bridge in 1933.
+    Over the past century, hard hats have advanced considerably, evolving from canvas and leather to aluminum, fiberglass, and, eventually, to thermoplastic. Recently, new models have been introduced and accessories added to meet the needs of laborers working on various job sites. For instance, a ventilated hard hat was developed to keep wearers cooler, and see-through face shields were attached to better see the hazards lurking above. Today, attachments include radios, sensors, cameras, and a lot more. A common color code has also been developed for recognizing people and their roles on site. Yellow is used for general laborers and contractors, white (or sometimes black) for supervisors and managers, and green for inspectors and new workers.
+    New products continue to expand the market. Global sales of hard hats totaled USD 2.1 billion in 2016, and are expected to reach USD 3.19 billion in 2025.
+- id: eng111-g43
+  range:
+  - 43
+  - 46
+  intro: 第43至46題為題組
+  passage: |-
+    Zebrafish, named for their characteristic stripes, have been a popular test subject for researchers. Only a few centimeters in length, the fish breed easily in captivity, grow quickly, and their transparent body makes it easy to study their organs. Above all, they possess some amazing “self-healing” power. When part of their heart is removed, they can grow it back in a matter of weeks. When blinded, they can quickly regain the ability to see.
+    Recent studies show that humans and zebrafish have the same major organs and share 70 percent of the genes. Moreover, 84 percent of human genes associated with disease find a counterpart in zebrafish. Scientists thus hope that understanding the self-healing mystery of the fish may one day allow humans to regenerate such organs as eyes, hearts, and spines.
+    Researchers at Vanderbilt University are particularly interested in zebrafish retina regeneration. They have learned that damage of retina can cause blindness in zebrafish, yet it only takes about three to four weeks before vision is restored. The structure and cell types of zebrafish retinas are almost identical to those of humans. If the process can be replicated in humans, it may give rise to new treatments for blindness caused by retinal damage.
+    In order to know exactly how zebrafish retina is regenerated, the team looked at the neurotransmitter gamma-aminobutyric acid (GABA), a chemical messenger in the brain that reduces the activity of neurons. They found that lowering GABA levels in zebrafish can trigger retina regeneration, while a high level of GABA concentration will suppress the regeneration process. This suggested that GABA plays an important role in the fish’s ability to regain their sight.
+    The team is beginning to test the GABA theory on mice. If that works, human trials will be next on the agenda. If the research proves successful in humans, some of the nearly 40 million blind people worldwide may one day have a tiny, striped fish to thank.
 items:
 - id: eng111-01
   'no': 1
@@ -295,5 +364,1192 @@ items:
       B: 45
       C: 18
       D: 26
+  explain: ''
+  reviewed: false
+- id: eng111-11
+  'no': 11
+  type: single
+  points: 1
+  group: eng111-g11
+  stem: The concept was <b><u> 11 </u></b> by Richard Booth, who opened the first second-hand bookshop in Hay-on-Wye, UK in 1961.
+  options:
+    A: initiated
+    B: represented
+    C: acknowledged
+    D: manipulated
+  answer: A
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 52
+    Ph: 82
+    Pl: 25
+    D: 57
+    opt:
+      A: 52
+      B: 23
+      C: 14
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng111-12
+  'no': 12
+  type: single
+  points: 1
+  group: eng111-g11
+  stem: Since the 1970s, book towns like Hay-on-Wye <b><u> 12 </u></b> up all over the world.
+  options:
+    A: spring
+    B: sprang
+    C: had sprung
+    D: have been springing
+  answer: D
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 56
+    Ph: 75
+    Pl: 33
+    D: 42
+    opt:
+      A: 8
+      B: 9
+      C: 28
+      D: 56
+  explain: ''
+  reviewed: false
+- id: eng111-13
+  'no': 13
+  type: single
+  points: 1
+  group: eng111-g11
+  stem: Although all book towns have a great number of bookshops, that’s where the similarities <b><u> 13 </u></b>.
+  options:
+    A: form
+    B: count
+    C: end
+    D: matter
+  answer: C
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 20
+    Ph: 39
+    Pl: 14
+    D: 25
+    opt:
+      A: 47
+      B: 15
+      C: 20
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng111-14
+  'no': 14
+  type: single
+  points: 1
+  group: eng111-g11
+  stem: Clunes, in Australia, holds a monthly book talk that hosts authors to discuss their latest <b><u> 14 </u></b>.
+  options:
+    A: trends
+    B: releases
+    C: agendas
+    D: announcements
+  answer: B
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 52
+    Ph: 84
+    Pl: 28
+    D: 56
+    opt:
+      A: 16
+      B: 52
+      C: 15
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng111-15
+  'no': 15
+  type: single
+  points: 1
+  group: eng111-g11
+  stem: As digital reading is changing our traditional way of reading, book towns like Hay-on-Wye are particularly important to <b><u> 15 </u></b>.
+  options:
+    A: get their worldwide fame
+    B: conform to the new mode
+    C: make their visitors satisfied
+    D: keep the printed word alive
+  answer: D
+  topic: V2
+  tags:
+  - 語意
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 52
+    Ph: 81
+    Pl: 28
+    D: 53
+    opt:
+      A: 9
+      B: 21
+      C: 17
+      D: 52
+  explain: ''
+  reviewed: false
+- id: eng111-16
+  'no': 16
+  type: single
+  points: 1
+  group: eng111-g16
+  stem: The round windows are indeed pleasant to the eye, but they actually were designed for reasons <b><u> 16 </u></b> aesthetics.
+  options:
+    A: contrary to
+    B: except for
+    C: more of
+    D: other than
+  answer: D
+  topic: V2
+  tags:
+  - 轉折語
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 21
+    Ph: 31
+    Pl: 18
+    D: 13
+    opt:
+      A: 17
+      B: 28
+      C: 34
+      D: 21
+  explain: ''
+  reviewed: false
+- id: eng111-17
+  'no': 17
+  type: single
+  points: 1
+  group: eng111-g16
+  stem: In the early days of aviation, plane windows <b><u> 17 </u></b> square in shape.
+  options:
+    A: used to be
+    B: were to be
+    C: would have been
+    D: must have been
+  answer: A
+  topic: V2
+  tags:
+  - 文法
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 73
+    Ph: 94
+    Pl: 44
+    D: 50
+    opt:
+      A: 73
+      B: 13
+      C: 9
+      D: 5
+  explain: ''
+  reviewed: false
+- id: eng111-18
+  'no': 18
+  type: single
+  points: 1
+  group: eng111-g16
+  stem: The problem is <b><u> 18 </u></b> when airplanes fly at higher altitudes, where the difference between the inside and outside pressure increases, causing added stress.
+  options:
+    A: disguised
+    B: understood
+    C: confronted
+    D: intensified
+  answer: D
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 32
+    Ph: 50
+    Pl: 20
+    D: 30
+    opt:
+      A: 11
+      B: 15
+      C: 41
+      D: 32
+  explain: ''
+  reviewed: false
+- id: eng111-19
+  'no': 19
+  type: single
+  points: 1
+  group: eng111-g16
+  stem: When subjected to repeated pressurization high in the sky, the four corners on a square window may <b><u> 19 </u></b>.
+  options:
+    A: cause conflict
+    B: rebuild strength
+    C: spell disaster
+    D: endure shock
+  answer: C
+  topic: V2
+  tags:
+  - 片語搭配
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 41
+    Ph: 68
+    Pl: 24
+    D: 44
+    opt:
+      A: 21
+      B: 17
+      C: 41
+      D: 20
+  explain: ''
+  reviewed: false
+- id: eng111-20
+  'no': 20
+  type: single
+  points: 1
+  group: eng111-g16
+  stem: Circular shapes are also stronger and resist deformation, and therefore can <b><u> 20 </u></b> extreme differences in pressure inside and outside of an aircraft.
+  options:
+    A: tolerate
+    B: improve
+    C: justify
+    D: obtain
+  answer: A
+  topic: V2
+  tags:
+  - 詞彙
+  concepts:
+  - V2
+  classic: true
+  stats:
+    P: 54
+    Ph: 90
+    Pl: 18
+    D: 72
+    opt:
+      A: 54
+      B: 24
+      C: 9
+      D: 14
+  explain: ''
+  reviewed: false
+- id: eng111-21
+  'no': 21
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: In this line of work, the person is paid to do daring actions that are deemed too <b><u> 21 </u></b> for the regular actor to perform, including jumping from heights, crashing cars, or fighting with weapons.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: C
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 64
+    Ph: 97
+    Pl: 26
+    D: 71
+    opt:
+      A: 6
+      B: 4
+      C: 64
+      D: 3
+      E: 4
+      F: 9
+      G: 1
+      H: 2
+      I: 5
+      J: 2
+  explain: ''
+  reviewed: false
+- id: eng111-22
+  'no': 22
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: In this line of work, the person is paid to do daring actions that are deemed too <u> 21 </u> for the regular actor to perform, including jumping from heights, crashing cars, or fighting with weapons. Stunt work emerged out of <b><u> 22 </u></b> over time.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: I
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 29
+    Ph: 58
+    Pl: 8
+    D: 50
+    opt:
+      A: 6
+      B: 26
+      C: 8
+      D: 10
+      E: 5
+      F: 4
+      G: 2
+      H: 2
+      I: 29
+      J: 8
+  explain: ''
+  reviewed: false
+- id: eng111-23
+  'no': 23
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: There were, however, no <b><u> 23 </u></b> crew members to perform impressive stunts at that time.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: F
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 53
+    Ph: 92
+    Pl: 13
+    D: 79
+    opt:
+      A: 10
+      B: 6
+      C: 5
+      D: 3
+      E: 6
+      F: 53
+      G: 5
+      H: 2
+      I: 6
+      J: 5
+  explain: ''
+  reviewed: false
+- id: eng111-24
+  'no': 24
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: These people were not trained to perform stunts, so they often <b><u> 24 </u></b> things for the first time during the actual shooting.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: H
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 56
+    Ph: 87
+    Pl: 22
+    D: 65
+    opt:
+      A: 3
+      B: 3
+      C: 4
+      D: 6
+      E: 12
+      F: 2
+      G: 6
+      H: 56
+      I: 3
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng111-25
+  'no': 25
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: They had to learn from their own mistakes, which <b><u> 25 </u></b> some their lives, and almost all suffered light or severe injuries.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: D
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 53
+    Ph: 90
+    Pl: 15
+    D: 75
+    opt:
+      A: 4
+      B: 4
+      C: 5
+      D: 53
+      E: 10
+      F: 2
+      G: 8
+      H: 7
+      I: 4
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng111-26
+  'no': 26
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: Beginning around 1910, audiences developed a taste for serial action movies, which <b><u> 26 </u></b> the use of dedicated stunt people to perform in dangerous scenes.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: G
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 44
+    Ph: 79
+    Pl: 16
+    D: 63
+    opt:
+      A: 5
+      B: 5
+      C: 4
+      D: 7
+      E: 14
+      F: 3
+      G: 44
+      H: 8
+      I: 6
+      J: 3
+  explain: ''
+  reviewed: false
+- id: eng111-27
+  'no': 27
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: Such demand increased with the rise of western movies, and many cowboys with masterful skills on horseback found a new <b><u> 27 </u></b> as a stunt person.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: J
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 58
+    Ph: 92
+    Pl: 20
+    D: 72
+    opt:
+      A: 7
+      B: 12
+      C: 4
+      D: 2
+      E: 3
+      F: 6
+      G: 2
+      H: 1
+      I: 6
+      J: 58
+  explain: ''
+  reviewed: false
+- id: eng111-28
+  'no': 28
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: The 1960s and ’70s <b><u> 28 </u></b> the development of most modern stunt technology, like air rams and bullet squibs.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: E
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 35
+    Ph: 73
+    Pl: 10
+    D: 63
+    opt:
+      A: 3
+      B: 6
+      C: 3
+      D: 6
+      E: 35
+      F: 4
+      G: 23
+      H: 10
+      I: 4
+      J: 4
+  explain: ''
+  reviewed: false
+- id: eng111-29
+  'no': 29
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: Today, CGI (computer generated imagery) is widely used in filmmaking, and it is now <b><u> 29 </u></b> to create very lifelike scenes without using real stunt people.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: A
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 55
+    Ph: 92
+    Pl: 17
+    D: 75
+    opt:
+      A: 55
+      B: 4
+      C: 3
+      D: 4
+      E: 4
+      F: 6
+      G: 3
+      H: 6
+      I: 10
+      J: 4
+  explain: ''
+  reviewed: false
+- id: eng111-30
+  'no': 30
+  type: single
+  points: 1
+  group: eng111-g21
+  stem: However, CGI has difficulties of its own, and there will always be a demand for the realism and thrilling <b><u> 30 </u></b> of an actual stunt.
+  options:
+    A: possible
+    B: sensation
+    C: risky
+    D: cost
+    E: witnessed
+    F: professional
+    G: called for
+    H: tried out
+    I: necessity
+    J: career
+  answer: B
+  topic: R1
+  tags: []
+  concepts:
+  - R1
+  classic: true
+  stats:
+    P: 36
+    Ph: 63
+    Pl: 13
+    D: 50
+    opt:
+      A: 6
+      B: 36
+      C: 6
+      D: 5
+      E: 5
+      F: 7
+      G: 2
+      H: 3
+      I: 23
+      J: 7
+  explain: ''
+  reviewed: false
+- id: eng111-31
+  'no': 31
+  type: single
+  points: 2
+  group: eng111-g31
+  stem: Obon, or the Bon Festival, is a Japanese holiday that honors the spirits of the dead. <b><u> 31 </u></b> The festival usually lasts for four to five days in August. During this period, many people travel back to their hometowns and spend time with loved ones, both past and present.<br>空格 31 應填入哪一句？
+  options:
+    A: Some people also visit the cemetery to clean up the family graves and pray for their ancestors.
+    B: Such festive activities are usually held in parks, temples, and other public places around Japan.
+    C: Obon concludes with another bonfire, okuribi, lighting up the sky to see the ancestors’ spirits off.
+    D: Originating from the Chinese Ghost Festival, this annual event has evolved into a time of family reunion.
+  answer: D
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 63
+    Ph: 90
+    Pl: 32
+    D: 58
+    opt:
+      A: 8
+      B: 20
+      C: 9
+      D: 63
+  explain: ''
+  reviewed: false
+- id: eng111-32
+  'no': 32
+  type: single
+  points: 2
+  group: eng111-g31
+  stem: Celebration often begins with mukaebi (welcoming fire), during which people make a small bonfire in front of their house to guide spirits upon their return back home. <b><u> 32 </u></b> Food offerings are presented at house altars and temples. Some regions prepare horses made of cucumbers and cows made of eggplants, hoping that the spirits will come back to Earth quickly, on a horse, and leave slowly, riding the cow.<br>空格 32 應填入哪一句？
+  options:
+    A: Some people also visit the cemetery to clean up the family graves and pray for their ancestors.
+    B: Such festive activities are usually held in parks, temples, and other public places around Japan.
+    C: Obon concludes with another bonfire, okuribi, lighting up the sky to see the ancestors’ spirits off.
+    D: Originating from the Chinese Ghost Festival, this annual event has evolved into a time of family reunion.
+  answer: A
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 45
+    Ph: 58
+    Pl: 32
+    D: 26
+    opt:
+      A: 45
+      B: 19
+      C: 29
+      D: 7
+  explain: ''
+  reviewed: false
+- id: eng111-33
+  'no': 33
+  type: single
+  points: 2
+  group: eng111-g31
+  stem: Some regions prepare horses made of cucumbers and cows made of eggplants, hoping that the spirits will come back to Earth quickly, on a horse, and leave slowly, riding the cow. <b><u> 33 </u></b> Paper lanterns and offerings are sent floating down rivers to accompany the ancestors back to their resting place. Many areas will also organize bon-odori dances.<br>空格 33 應填入哪一句？
+  options:
+    A: Some people also visit the cemetery to clean up the family graves and pray for their ancestors.
+    B: Such festive activities are usually held in parks, temples, and other public places around Japan.
+    C: Obon concludes with another bonfire, okuribi, lighting up the sky to see the ancestors’ spirits off.
+    D: Originating from the Chinese Ghost Festival, this annual event has evolved into a time of family reunion.
+  answer: C
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 47
+    Ph: 64
+    Pl: 29
+    D: 35
+    opt:
+      A: 28
+      B: 13
+      C: 47
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng111-34
+  'no': 34
+  type: single
+  points: 2
+  group: eng111-g31
+  stem: Participants, often dressed in light cotton kimonos, are encouraged to dance to the music around the stage. <b><u> 34 </u></b> Originally dedicated to the deceased, the dances have now become a symbol of the summer festival themselves.<br>空格 34 應填入哪一句？
+  options:
+    A: Some people also visit the cemetery to clean up the family graves and pray for their ancestors.
+    B: Such festive activities are usually held in parks, temples, and other public places around Japan.
+    C: Obon concludes with another bonfire, okuribi, lighting up the sky to see the ancestors’ spirits off.
+    D: Originating from the Chinese Ghost Festival, this annual event has evolved into a time of family reunion.
+  answer: B
+  topic: R2
+  tags: []
+  concepts:
+  - R2
+  classic: true
+  stats:
+    P: 50
+    Ph: 80
+    Pl: 22
+    D: 58
+    opt:
+      A: 18
+      B: 50
+      C: 15
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng111-35
+  'no': 35
+  type: single
+  points: 2
+  group: eng111-g35
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  topic: R3
+  tags:
+  - 圖片
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 78
+    Ph: 97
+    Pl: 54
+    D: 43
+    opt:
+      A: 4
+      B: 78
+      C: 6
+      D: 12
+  explain: ''
+  reviewed: false
+  image: img/english/111-35.webp
+- id: eng111-36
+  'no': 36
+  type: single
+  points: 2
+  group: eng111-g35
+  stem: What can we learn from the passage about the Maasai people?
+  options:
+    A: They have been urged by governments to leave behind their traditions.
+    B: They resist foreign influence because they were enslaved in the past.
+    C: A boy has to kill a lion by himself before becoming an adult.
+    D: A Maasai woman is usually good at beadwork and farming.
+  answer: A
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 39
+    Ph: 64
+    Pl: 20
+    D: 44
+    opt:
+      A: 39
+      B: 17
+      C: 33
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng111-37
+  'no': 37
+  type: single
+  points: 2
+  group: eng111-g35
+  stem: Which of the following is true about Maasai clothing and beadwork?
+  options:
+    A: Striped and patterned cloth is preferred by young adults.
+    B: Young men cannot wear black until they become warriors.
+    C: Colorful glass jewelry became popular after the 19<sup>th</sup> century.
+    D: The color of the shúkà represented one’s importance in the tribe.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 49
+    Ph: 73
+    Pl: 33
+    D: 40
+    opt:
+      A: 7
+      B: 10
+      C: 49
+      D: 33
+  explain: ''
+  reviewed: false
+- id: eng111-38
+  'no': 38
+  type: single
+  points: 2
+  group: eng111-g35
+  stem: Why does the author quote Blixen’s comment at the end of the third paragraph?
+  options:
+    A: To explain how Maasai warriors hunt for deer in the wild.
+    B: To exemplify the types of weapons used by Maasai warriors.
+    C: To emphasize that weapons are an inseparable part of a Maasai warrior’s outfit.
+    D: To show the similarities between the behavior of a Maasai warrior and that of a male deer.
+  answer: C
+  topic: R3
+  tags:
+  - 推論
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 68
+    Ph: 97
+    Pl: 33
+    D: 64
+    opt:
+      A: 6
+      B: 14
+      C: 68
+      D: 12
+  explain: ''
+  reviewed: false
+- id: eng111-39
+  'no': 39
+  type: single
+  points: 2
+  group: eng111-g39
+  stem: Which of the following aspects about hard hats is NOT discussed in the passage?
+  options:
+    A: Their functions.
+    B: Their appearances.
+    C: Their materials.
+    D: Their limitations.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 74
+    Ph: 99
+    Pl: 34
+    D: 65
+    opt:
+      A: 6
+      B: 9
+      C: 12
+      D: 74
+  explain: ''
+  reviewed: false
+- id: eng111-40
+  'no': 40
+  type: single
+  points: 2
+  group: eng111-g39
+  stem: In what order did the following protective hats appear?<br>a. fiberglass hats<br>b. hats with see-through shields<br>c. hats with canvas and leather<br>d. hats with tar over them
+  options:
+    A: d → c → a → b
+    B: c → d → b → a
+    C: c → b → a → d
+    D: d → c → b → a
+  answer: A
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 69
+    Ph: 95
+    Pl: 34
+    D: 61
+    opt:
+      A: 69
+      B: 10
+      C: 11
+      D: 10
+  explain: ''
+  reviewed: false
+- id: eng111-41
+  'no': 41
+  type: single
+  points: 2
+  group: eng111-g39
+  stem: According to the passage, which of the following statements is true about the hard hat?
+  options:
+    A: Global sales have doubled every ten years.
+    B: The inspiration came from the inventor’s wartime experience.
+    C: It was standard equipment for construction workers in the 1920s.
+    D: Different colors are used in different industries to signal the roles of people on site.
+  answer: B
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 51
+    Ph: 83
+    Pl: 27
+    D: 56
+    opt:
+      A: 5
+      B: 51
+      C: 11
+      D: 33
+  explain: ''
+  reviewed: false
+- id: eng111-42
+  'no': 42
+  type: single
+  points: 2
+  group: eng111-g39
+  stem: Which of the following words are used in the passage to refer to the hard hat?<br>a. tool b. code c. device d. helmet e. accessory f. headgear
+  options:
+    A: a, b, d, e
+    B: a, c, d, f
+    C: c, d, e, f
+    D: a, d, e, f
+  answer: B
+  topic: R3
+  tags:
+  - 指涉
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 51
+    Ph: 74
+    Pl: 30
+    D: 44
+    opt:
+      A: 10
+      B: 51
+      C: 21
+      D: 18
+  explain: ''
+  reviewed: false
+- id: eng111-43
+  'no': 43
+  type: single
+  points: 2
+  group: eng111-g43
+  stem: What can we learn about zebrafish from the passage?
+  options:
+    A: How they should be studied in labs.
+    B: Where they derive their regenerative ability.
+    C: Why they share humans’ genetic code.
+    D: What they may offer in medical advancements.
+  answer: D
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 60
+    Ph: 90
+    Pl: 25
+    D: 65
+    opt:
+      A: 9
+      B: 18
+      C: 13
+      D: 60
+  explain: ''
+  reviewed: false
+- id: eng111-44
+  'no': 44
+  type: single
+  points: 2
+  group: eng111-g43
+  stem: Which of the following statements is true regarding GABA in zebrafish?
+  options:
+    A: Increasing GABA level facilitates neuron activities.
+    B: There is a high level of GABA in the brain of zebrafish.
+    C: Lowering GABA levels in the brain can stimulate retina regrowth.
+    D: GABA contains chemical elements that trigger the growth of neurons.
+  answer: C
+  topic: R3
+  tags:
+  - 細節
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 58
+    Ph: 90
+    Pl: 29
+    D: 61
+    opt:
+      A: 11
+      B: 14
+      C: 58
+      D: 17
+  explain: ''
+  reviewed: false
+- id: eng111-45
+  'no': 45
+  type: single
+  points: 2
+  group: eng111-g43
+  stem: Which of the following is closest in meaning to “replicated” in the third paragraph?
+  options:
+    A: Reproduced.
+    B: Reassembled.
+    C: Recycled.
+    D: Restored.
+  answer: A
+  topic: R3
+  tags:
+  - 字義
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 48
+    Ph: 70
+    Pl: 25
+    D: 45
+    opt:
+      A: 48
+      B: 25
+      C: 11
+      D: 16
+  explain: ''
+  reviewed: false
+- id: eng111-46
+  'no': 46
+  type: single
+  points: 2
+  group: eng111-g43
+  stem: According to the passage, which of the following is an opinion, but NOT a fact?
+  options:
+    A: Humans and zebrafish have 70 percent of genes in common.
+    B: Zebrafish can quickly recover vision after damage to the retina.
+    C: Scientists are testing if the GABA theory works on mice as it does on zebrafish.
+    D: Understanding regeneration in zebrafish may allow humans to regrow their organs.
+  answer: D
+  topic: R3
+  tags:
+  - 推論
+  concepts:
+  - R3
+  classic: true
+  stats:
+    P: 48
+    Ph: 78
+    Pl: 23
+    D: 55
+    opt:
+      A: 10
+      B: 19
+      C: 22
+      D: 48
   explain: ''
   reviewed: false

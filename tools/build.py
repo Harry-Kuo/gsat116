@@ -95,9 +95,13 @@ def load_subject(subject):
         for g in doc.get("groups") or []:
             if g["id"] in overlay and overlay[g["id"]].get("passage"):
                 g["passage"] = overlay[g["id"]]["passage"]
+            html = to_html(g.get("passage"))
+            if g.get("image"):
+                # 數學、自然、社會的題組文章以原卷裁切圖呈現（抽出的文字含公式與圖表標籤，無法直接閱讀）
+                img = f'<img class="qimg" src="{g["image"]}" alt="題組文章與圖表" loading="lazy">'
+                html = img if subject in IMAGE_SECONDS else html + img
             groups[g["id"]] = {"id": g["id"], "range": g["range"], "intro": g.get("intro", ""),
-                               "html": to_html(g.get("passage")),
-                               "read": int(plain_len(g.get("passage")) / 8)}
+                               "html": html, "read": int(plain_len(g.get("passage")) / 8)}
         for it in doc["items"]:
             for field in ("explain", "key", "reference", "stem", "options", "image"):
                 if field in overlay.get(it["id"], {}):
