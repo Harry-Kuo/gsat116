@@ -1,6 +1,6 @@
 """計算各科「近六屆經典題」題池大小（依官方答案與答對率表，不需先抽題）。
 
-規則：選擇題與選填題（非選不列入快答）、官方鑑別度 D ≥ 10；110 年數學另扣除 108 課綱範圍外的題目。
+規則：選擇題與選填題（非選不列入快答）、官方鑑別度 D ≥ 10；英文混合題不列入；110 年數學另扣除 108 課綱範圍外的題目。
 輸出：data/stats/pools.json  {科目: {年度: 題數, "total": 合計}}
 """
 import json
@@ -27,6 +27,9 @@ def main(lo=110, hi=115):
                 print("略過", s, y, e)
                 continue
             nos = {k.split("-")[0] for k, v in key.items() if v != "／"}
+            if s == "english" and y >= 111:
+                # 英文 111 年起第 47–50 題是混合題，和非選一樣不進快答（第 49 題雖是選擇題也不列入）
+                nos = {no for no in nos if int(no) < 47}
             n = sum(1 for no in nos if (stats.get(no) or {}).get("D") is None or stats[no]["D"] >= 10)
             bank = ROOT / "data" / "questions" / s / f"g{y}.yaml"
             if s.startswith("math") and y in (109, 110) and bank.exists():

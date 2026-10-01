@@ -1,48 +1,48 @@
 <details>
 <summary>**Day 16**　10/15（四）　黃河水患與古代防疫</summary>
-	- [115 學測社會 第 57 題](https://harry-kuo.github.io/gsat116/#/item/soc115-57)　全國答對率 48%
-	- [115 學測社會 第 58 題](https://harry-kuo.github.io/gsat116/#/item/soc115-58)　全國答對率 63%
-	- [115 學測社會 第 59 題](https://harry-kuo.github.io/gsat116/#/item/soc115-59)　全國答對率 46%
-	- [115 學測社會 第 61 題](https://harry-kuo.github.io/gsat116/#/item/soc115-61)　全國答對率 71%
-	- [115 學測社會 第 62 題](https://harry-kuo.github.io/gsat116/#/item/soc115-62)　全國答對率 66%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81c8a487d5090b087cfc"/>　全國答對率 48%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8146b1b0dc6a3bd98ae1"/>　全國答對率 63%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8171a237fda0e1c7f82e"/>　全國答對率 46%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f810c928dd84802bda741"/>　全國答對率 71%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81e087e2deab7cefa530"/>　全國答對率 66%
 </details>
 <details>
 <summary>**Day 17**　10/16（五）　違規停車、台積電熊本廠、巴米揚大佛</summary>
-	- [115 學測社會 第 26 題](https://harry-kuo.github.io/gsat116/#/item/soc115-26)　全國答對率 58%
-	- [115 學測社會 第 27 題](https://harry-kuo.github.io/gsat116/#/item/soc115-27)　全國答對率 87%
-	- [115 學測社會 第 28 題](https://harry-kuo.github.io/gsat116/#/item/soc115-28)　全國答對率 74%
-	- [115 學測社會 第 29 題](https://harry-kuo.github.io/gsat116/#/item/soc115-29)　全國答對率 49%
-	- [115 學測社會 第 45 題](https://harry-kuo.github.io/gsat116/#/item/soc115-45)　全國答對率 91%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8183a476f7113b5de066"/>　全國答對率 58%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8124943cfdc6eee6e7f0"/>　全國答對率 87%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81908cacf970a5476003"/>　全國答對率 74%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81b68a51fef932e901c3"/>　全國答對率 49%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81deba65d6a1c569014a"/>　全國答對率 91%
 </details>
 <details>
 <summary>**Day 18**　10/17（六）　臺灣史：日治墓園、異域孤軍、劉銘傳的鐵路</summary>
-	- [115 學測社會 第 34 題](https://harry-kuo.github.io/gsat116/#/item/soc115-34)　全國答對率 58%
-	- [115 學測社會 第 35 題](https://harry-kuo.github.io/gsat116/#/item/soc115-35)　全國答對率 37%
-	- [115 學測社會 第 36 題](https://harry-kuo.github.io/gsat116/#/item/soc115-36)　全國答對率 71%
-	- [115 學測社會 第 38 題](https://harry-kuo.github.io/gsat116/#/item/soc115-38)　全國答對率 77%
-	- [115 學測社會 第 53 題](https://harry-kuo.github.io/gsat116/#/item/soc115-53)　全國答對率 75%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f810da2cccde275879e68"/>　全國答對率 58%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8107a184c1c968cf3382"/>　全國答對率 37%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8108b01edadc5d37d2bc"/>　全國答對率 71%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81cc991afb18918a7286"/>　全國答對率 77%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8131816fe582f682a677"/>　全國答對率 75%
 </details>
 <details>
 <summary>**Day 19**　10/18（日）　貿易戰、文化政策、荷莫茲海峽</summary>
-	- [115 學測社會 第 47 題](https://harry-kuo.github.io/gsat116/#/item/soc115-47)　全國答對率 66%
-	- [115 學測社會 第 48 題](https://harry-kuo.github.io/gsat116/#/item/soc115-48)　全國答對率 39%
-	- [115 學測社會 第 50 題](https://harry-kuo.github.io/gsat116/#/item/soc115-50)　全國答對率 64%
-	- [115 學測社會 第 51 題](https://harry-kuo.github.io/gsat116/#/item/soc115-51)　全國答對率 55%
-	- [115 學測社會 第 64 題](https://harry-kuo.github.io/gsat116/#/item/soc115-64)　全國答對率 32%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f815a8661d04b75858ba3"/>　全國答對率 66%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81d5984afe931821d7ee"/>　全國答對率 39%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8100ad25d6b0de022975"/>　全國答對率 64%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8113925bf493b22ea964"/>　全國答對率 55%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81c6bab7e9f0fc31adea"/>　全國答對率 32%
 </details>
 <details>
 <summary>**Day 20**　10/19（一）　修法程序、勞保補貼、殖民城市、朱一貴事件</summary>
-	- [113 學測社會 第 16 題](https://harry-kuo.github.io/gsat116/#/item/soc113-16)　全國答對率 46%
-	- [114 學測社會 第 29 題](https://harry-kuo.github.io/gsat116/#/item/soc114-29)　全國答對率 38%
-	- [115 學測社會 第 39 題](https://harry-kuo.github.io/gsat116/#/item/soc115-39)　全國答對率 64%
-	- [115 學測社會 第 41 題](https://harry-kuo.github.io/gsat116/#/item/soc115-41)　全國答對率 40%
-	- [115 學測社會 第 55 題](https://harry-kuo.github.io/gsat116/#/item/soc115-55)　全國答對率 38%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f818a864bd8d5c606b53e"/>　全國答對率 46%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f811ca38bfeee95c90f92"/>　全國答對率 38%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f810b9457e1c7d7e2ed0d"/>　全國答對率 64%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8105a642dd5cf8ebe5a7"/>　全國答對率 40%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8126ade1c289822a3a45"/>　全國答對率 38%
 </details>
 <details>
 <summary>**Day 21**　10/20（二）　玉山地形、番茄糊市場、美中關係、大航海與東亞文化圈</summary>
-	- [113 學測社會 第 4 題](https://harry-kuo.github.io/gsat116/#/item/soc113-04)　全國答對率 44%
-	- [113 學測社會 第 14 題](https://harry-kuo.github.io/gsat116/#/item/soc113-14)　全國答對率 63%
-	- [114 學測社會 第 52 題](https://harry-kuo.github.io/gsat116/#/item/soc114-52)　全國答對率 44%
-	- [114 學測社會 第 57 題](https://harry-kuo.github.io/gsat116/#/item/soc114-57)　全國答對率 26%
-	- [115 學測社會 第 43 題](https://harry-kuo.github.io/gsat116/#/item/soc115-43)　全國答對率 61%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81eb956ee72611739b16"/>　全國答對率 44%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81509f32e2c205a46bfb"/>　全國答對率 63%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f817aac92df69d195ae15"/>　全國答對率 44%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81a19d4bd8e88e56dc9d"/>　全國答對率 26%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81eb949bdfa7d5052147"/>　全國答對率 61%
 </details>

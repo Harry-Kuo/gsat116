@@ -18,24 +18,24 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81c7aa3bf37a75399ae4"/>　全國答對率 43%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f810c8988e34d7b046bdd"/>　全國答對率 61%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8152b9fdf9fcdc220f45"/>　全國答對率 41%
-	- [115 學測自然 第 11 題](https://harry-kuo.github.io/gsat116/#/item/sci115-11)　全國答對率 42%
-	- [115 學測自然 第 12 題](https://harry-kuo.github.io/gsat116/#/item/sci115-12)　全國答對率 42%
-	- [115 學測自然 第 17 題](https://harry-kuo.github.io/gsat116/#/item/sci115-17)　全國答對率 65%
-	- [115 學測自然 第 52 題](https://harry-kuo.github.io/gsat116/#/item/sci115-52)　全國答對率 38%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81c68393e8c00f7b942f"/>　全國答對率 42%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8117b32fdd1004e01157"/>　全國答對率 42%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81fbb006dd31c956746e"/>　全國答對率 65%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81adb4c4e579211665e5"/>　全國答對率 38%
 - **電磁學**：電場 E＝F/q；變化的磁場產生感應電流（電磁感應）。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f814bac3ec0b08178cfa4"/>　全國答對率 45%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f812584f5d446893b7472"/>　全國答對率 83%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8141b65cd6cd0c934fa3"/>　全國答對率 42%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81dc875cd530f49a9ee5"/>　全國答對率 39%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f811390f0e604f5c2ee4d"/>　全國答對率 56%
-	- [115 學測自然 第 52 題](https://harry-kuo.github.io/gsat116/#/item/sci115-52)　全國答對率 38%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81adb4c4e579211665e5"/>　全國答對率 38%
 - **近代物理與基本交互作用**：強力＞電磁力＞弱力＞重力；接觸力的本質是電磁力；物質波會干涉。
 	- 每日練習共 9 題，依日期列在下方「📝 每日練習」。
 - **波動與光**：都卜勒效應：接近時頻率升高、遠離時降低。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81399183e468a252165f"/>　全國答對率 71%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f810bbafbded39febd843"/>　全國答對率 81%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81ffaab8f26847362e1a"/>　全國答對率 49%
-	- [113 學測自然 第 21 題](https://harry-kuo.github.io/gsat116/#/item/sci113-21)　全國答對率 50%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81e2bf02d26c838cc360"/>　全國答對率 50%
 ### 化學
 - **化學計量與熱化學**：先換算莫耳數，再乘上每莫耳的熱量；有沒有達到熔點、沸點決定要不要加相變熱。
 	- 每日練習共 12 題，依日期列在下方「📝 每日練習」。
@@ -43,15 +43,15 @@
 	- 每日練習共 9 題，依日期列在下方「📝 每日練習」。
 - **原子結構與週期表**：同週期由左而右半徑變小、陰電性變大；鹼金屬易失去一個電子。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f817b816bd2b3cdbc22d9"/>　全國答對率 62%
-	- [114 學測自然 第 52 題](https://harry-kuo.github.io/gsat116/#/item/sci114-52)　全國答對率 47%
-	- [113 學測自然 第 11 題](https://harry-kuo.github.io/gsat116/#/item/sci113-11)　全國答對率 61%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8166ad8fe20c92022ede"/>　全國答對率 47%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f811fb2abc15c9bcb64b8"/>　全國答對率 61%
 - **物質結構與鍵結**：金屬鍵＝陽離子晶格＋自由電子；離子晶體、共價網狀、分子是不同結構。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f816890cfe770d0ff23ab"/>　全國答對率 56%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f813b9651e7135b0d3cc9"/>　全國答對率 51%
-	- [114 學測自然 第 28 題](https://harry-kuo.github.io/gsat116/#/item/sci114-28)　全國答對率 42%
-	- [115 學測自然 第 43 題](https://harry-kuo.github.io/gsat116/#/item/sci115-43)　全國答對率 45%
-	- [113 學測自然 第 11 題](https://harry-kuo.github.io/gsat116/#/item/sci113-11)　全國答對率 61%
-	- [115 學測自然 第 44 題](https://harry-kuo.github.io/gsat116/#/item/sci115-44)　全國答對率 31%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8110b456d42a11052fae"/>　全國答對率 42%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81368c98faed03d4daa3"/>　全國答對率 45%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f811fb2abc15c9bcb64b8"/>　全國答對率 61%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8138beb4f73787b3042d"/>　全國答對率 31%
 ### 生物
 - **細胞與細胞分裂**：DNA 在間期 S 期複製；同源染色體配對只在減數分裂。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f816ba2decd30b0848fde"/>　全國答對率 20%
@@ -65,7 +65,7 @@
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81e2b15df2ee693441f1"/>　全國答對率 50%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f8138bf7fdbe1f0b3c6a7"/>　全國答對率 67%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8124bd82c2bce06b8a3b"/>　全國答對率 47%
-	- [114 學測自然 第 42 題](https://harry-kuo.github.io/gsat116/#/item/sci114-42)　全國答對率 50%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81cca527dbaac3aedc0a"/>　全國答對率 50%
 - **演化與分類**：鳥類與恐龍親緣最近；分子序列可推論共同祖先。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f810f8638ca816eec6cdb"/>　全國答對率 78%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f812695d2c90886dda64d"/>　全國答對率 50%
@@ -73,13 +73,13 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f813aba3fed5b71989031"/>　全國答對率 81%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81258e0fd1e44ecc469e"/>　全國答對率 70%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81c2998bf612b4b66c7e"/>　全國答對率 65%
-	- [115 學測自然 第 39 題](https://harry-kuo.github.io/gsat116/#/item/sci115-39)　全國答對率 82%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f812b88a5eb0c0d176819"/>　全國答對率 82%
 - **生物技術與實驗**：DNA 水解產生核苷酸；萃取的 DNA 不會自行形成染色體。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f815c9f19e8668cad0629"/>　全國答對率 59%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81ef95e4e29f3c839c09"/>　全國答對率 42%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81e985a1c2c0dd899cdf"/>　全國答對率 63%
-	- [115 學測自然 第 40 題](https://harry-kuo.github.io/gsat116/#/item/sci115-40)　全國答對率 56%
-	- [113 學測自然 第 5 題](https://harry-kuo.github.io/gsat116/#/item/sci113-05)　全國答對率 60%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81748584d89770a90f75"/>　全國答對率 56%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f810aabaaff6651aaa2a3"/>　全國答對率 60%
 ### 地球科學
 - **天文**：光年是距離單位；矮行星：穀神星、冥王星、鬩神星；日食發生在新月。
 	- 每日練習共 11 題，依日期列在下方「📝 每日練習」。
@@ -90,15 +90,15 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81c6a979d14c09e32216"/>　全國答對率 42%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81c8a845caaf34d34e76"/>　全國答對率 76%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81faa70ae0953e2ea4b2"/>　全國答對率 56%
-	- [114 學測自然 第 41 題](https://harry-kuo.github.io/gsat116/#/item/sci114-41)　全國答對率 55%
-	- [113 學測自然 第 32 題](https://harry-kuo.github.io/gsat116/#/item/sci113-32)　全國答對率 43%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8174a22bdd915dd525aa"/>　全國答對率 55%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81c5ac7ce4483014ed15"/>　全國答對率 43%
 - **地質與地球歷史**：由珊瑚年輪推知古代一年天數較多 → 地球自轉逐漸變慢。
 	- 每日練習共 9 題，依日期列在下方「📝 每日練習」。
 - **海洋**：副熱帶海域蒸發旺盛鹽度高；赤道多雨、河口與極區鹽度較低。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f815facf9ef951d6f1ed5"/>　全國答對率 52%
-	- [114 學測自然 第 41 題](https://harry-kuo.github.io/gsat116/#/item/sci114-41)　全國答對率 55%
-	- [113 學測自然 第 29 題](https://harry-kuo.github.io/gsat116/#/item/sci113-29)　全國答對率 64%
-	- [115 學測自然 第 51 題](https://harry-kuo.github.io/gsat116/#/item/sci115-51)　全國答對率 36%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8174a22bdd915dd525aa"/>　全國答對率 55%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8110b3d9c6d31b82711d"/>　全國答對率 64%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8162b47fccecd5ce5eef"/>　全國答對率 36%
 ## 📝 每日練習
 <details>
 <summary>**Day 1**　9/30（三）　天文、力學、酸鹼、細胞分裂</summary>

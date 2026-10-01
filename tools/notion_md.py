@@ -1104,13 +1104,13 @@ def progress_page():
         total = pools[s]["total"]
         rows.append([n, str(total), f"{total / days:.1f} 題", f"約 {(total + 4) // 5} 天做完", str(sched["pools"][s]["published"])])
     return [f"目標：**{start.month}/{start.day} → {goal.month}/{goal.day}（共 {days} 天）**做完 110–115 學測各科的經典題。",
-            "「經典題」＝選擇題與選填題（非選改在課堂與 Notion 練習），並排除官方鑑別度 D \\< 10 的題目。",
+            "「經典題」＝選擇題與選填題（非選和英文混合題改在課堂與 Notion 練習），並排除官方鑑別度 D \\< 10 的題目。",
             table(rows),
             "- 每天「基本 5 題」走六屆主線；「加練」由網站自動排入錯題（1、3、7 天後再出現）。"] + \
            [f"- {NAMES[s]}另排了 {sched['pools'][s]['extra']} 題 109 年學測（109、110 年數學只有一份試卷，數學A、數學B 各排不同的題目），不算在上表。"
             for s in NAMES if sched["pools"][s].get("extra")] + [
             "- 依每天 5 題：數學A、數學B 約 10 月下旬，國文約 11 月上旬，英文約 11 月下旬，自然與社會約 12 月初做完六屆。",
-            "- 提早做完的科目改做錯題總複習與 105–109 年經典題。",
+            "- 六屆題目做完的科目，每日練習改成把之前出過的題目再輪一遍，當作複習。",
             "- 一月：錯題總複習＋限時全真模擬。"]
 
 
