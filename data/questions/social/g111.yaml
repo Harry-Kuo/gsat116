@@ -1,0 +1,2795 @@
+exam: 學測
+year: 111
+subject: social
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0m053364108279287592/05-111%e5%ad%b8%e6%b8%ac%e7%a4%be%e6%9c%83%e8%a9%a6%e5%8d%b7.pdf
+groups:
+- id: soc111-g23
+  range:
+  - 23
+  - 25
+  intro: 閱讀下文，回答23-25題。
+  image: img/social/111-g23.webp
+  passage: |-
+    23-25 為題組
+    ◎ 美雲是單身職業婦女，獨力照顧同住的年邁母親，其餘兄弟並未分擔。近來母親
+    失智情況惡化，她猶豫是否辭去工作照顧或聘請全天看護，但二者皆可能帶來身
+    心與經濟壓力。美雲的困境反映我國因人口日趨老化，家屬照顧年長者的負擔也
+    日益加重。因應上述問題，晚近政府積極改善長期照顧制度，例如：（甲）廣設
+    日間照顧中心；（乙）改善外國籍家庭看護工引進政策；（丙）建立全國長照人
+    員證照制度；（丁）提供直接補助給需要長照的家庭。請問：
+- id: soc111-g26
+  range:
+  - 26
+  - 27
+  intro: 閱讀下文，回答26-27題。
+  image: img/social/111-g26.webp
+  passage: |-
+    26-27 為題組
+    ◎ 同學在進行歷史專題報告時，蒐集到一份1830 年代北臺灣的史料，指出：「淡
+    （水）廳貨之大者，莫如油、米，次（其次）麻、豆，次（其次）糖、菁（染料），
+    至茄藤、通草之屬，多出於內山，樟腦、茶葉惟淡北內港始有之。商人雇船裝載，
+    擇內地可售之處，本省則運至漳、泉、福州，往北則運至寧波、上海，往南則運
+    至澳門等處。凡港路可通者，無不爭相貿易，取其所售之值，購買飲食、衣服及
+    日用必需要物等件，隨船載回發賣。」依據前述記載，請問：
+- id: soc111-g28
+  range:
+  - 28
+  - 29
+  intro: 閱讀下文，回答28-29題。
+  image: img/social/111-g28.webp
+  passage: |-
+    28-29 為題組
+    ◎ 照片1 是甲、乙兩種農作物的收成景象。其中甲作物的播種季節，氣溫需要在15 C
+    
+    以上，且成長期的氣溫還要穩定上升，能維持於
+    C -
+    C
+    20
+     30
+    
+    更有助生長發育。請問：
+    甲
+    ㇠
+    照片1
+- id: soc111-g30
+  range:
+  - 30
+  - 31
+  intro: 閱讀下文，回答30-31題。
+  image: img/social/111-g30.webp
+  passage: |-
+    30-31 為題組
+    ◎ 圖6 為某地的等高線地形圖，甲、乙、丙、丁
+    為該地的四條登山步道，子、丑、寅、卯為該
+    地的四個觀景台。請問：
+    丙
+    登山步道
+    觀景台
+- id: soc111-g32
+  range:
+  - 32
+  - 33
+  intro: 閱讀下文，回答32-33題。
+  image: img/social/111-g32.webp
+  passage: |-
+    32-33 為題組
+    ◎ 石滬是臺灣某些地區重要的文化地景，它是在高低潮間的平坦地區，利用附近的
+    石塊堆築的半圓形或馬蹄形捕魚陷阱，其漁獲原理之一是漲潮時魚群游至被淹沒
+    的石滬內覓食，退潮時魚群被石滬伸腳阻擋，並留置於露出海面的石滬滬房內。
+    請問：
+- id: soc111-g34
+  range:
+  - 34
+  - 35
+  intro: 閱讀下文，回答34-35題。
+  image: img/social/111-g34.webp
+  passage: |-
+    34-35 為題組
+    ◎ 1855 年清代某官僚在日記中指出：在某地區，山坡地上種滿了高粱、玉米，河中
+    的沙洲多已開闢為田園；平地的樹木已被砍伐殆盡，偏遠地區的原始林區也已被
+    開發。據此，他主張：亂世的根源，在於人口數量太多。追求長治久安的方法，
+    就要透過放寬殺女嬰的禁令、發放避孕或墮胎的藥品、延後男女婚姻年齡等策略，
+    以控制人口增加的速度。該官僚分析人口問題的成因雖然正確，但主張的減緩人
+    口成長策略卻過於激進且不人道，並未獲得社會及各級官員認同，也未被政府採
+    納。請問：
+- id: soc111-g36
+  range:
+  - 36
+  - 37
+  intro: 閱讀下文，回答36-37題。
+  image: img/social/111-g36.webp
+  passage: |-
+    36-37 為題組
+    ◎ 圖8 及圖9 為兩個不同年份拍攝的臺灣某高鐵車站及其周邊地區遙測衛星影像
+    圖，照片2 是圖9 中某地的實景照片。請問：
+
+    圖9
+    丙
+    ㇠
+    甲
+    高
+    鐵
+    車
+    站
+    ㇠
+    丙
+    丁
+    高
+    鐵
+    車
+    站
+    圖8
+    照片2
+- id: soc111-g38
+  range:
+  - 38
+  - 41
+  intro: 閱讀下文，回答38-41題。
+  image: img/social/111-g38.webp
+  passage: |-
+    38-41 為題組
+    ◎ 臺灣曾於民國38 年5 月實施戒嚴。當時由警備總部
+    公告的《戒嚴令》第二條規定：「自同日起，除基隆、
+    高雄、馬公三港口在本部監護之下，仍予開放，並規
+    定省內海上交通航線（辦法另行公布）外，其餘各港，
+    一律封鎖，嚴禁出入。」第四條也列舉處以死刑的各
+    項「擾亂治安」行為，包括：造謠惑眾、聚眾暴動、
+    擾亂金融、搶奪財物、鼓動學潮、破壞交通通信、妨
+    害公眾用水及電氣煤氣事業、持有槍彈或爆裂物等。
+    該次戒嚴歷經38 年，直至民國76 年始依總統令解除
+    （圖10）。請問：
+- id: soc111-g42
+  range:
+  - 42
+  - 43
+  intro: 閱讀下文，回答42-43題。
+  image: img/social/111-g42.webp
+  passage: |-
+    42-43 為題組
+    ◎ 由於網路地圖技術的革新，地圖繪製的技術不再專屬於政府和企業，非專業的民
+    眾透過網路協作及編輯，可以參與集體建置和提供具空間分布性質的資料與地圖。
+    以往政府提供的地圖，或企業為商業利益製作的地圖，例如Google 等商用電子地
+    圖服務，主要提供主流群體所需，卻未必符合某些群體的生活體驗或需求。近年
+    來，由民眾參與的開放式電子地圖協作平台，其圖資允許所有人使用及編輯，無
+    須付費，可以將圖資用於個人、教育、商業、政府以及其他用途，如救災資訊地
+    圖、飲水機分布地圖等。請問：
+- id: soc111-g44
+  range:
+  - 44
+  - 46
+  intro: 閱讀下文，回答44-46題。
+  image: img/social/111-g44.webp
+  passage: |-
+    44-46 為題組
+    ◎ 一位出生於阿富汗的思想家，據聞是穆罕默德的後裔，在十九世紀後期見到當時
+    伊斯蘭世界受到西方列強勢力入侵，伊斯蘭族群四分五裂，且當時最大的伊斯蘭
+    帝國—鄂圖曼帝國也無法善盡保護伊斯蘭世界之責。為了讓伊斯蘭世界團結共
+    同抵禦列強，他走訪中東、北非、歐洲各地，倡議「泛伊斯蘭主義」，嘗試建立
+    跨宗派、地域、民族的單一伊斯蘭國度。「泛伊斯蘭主義」不是與西方對抗的軍
+    事行動策略，也非教條儀式與民族主義，而是強調以伊斯蘭的基本信仰為普遍生
+    活倫理規範，以此團結伊斯蘭世界並促進其政治現代化。請問：
+- id: soc111-g47
+  range:
+  - 47
+  - 48
+  intro: 閱讀下文，回答47-48題。
+  image: img/social/111-g47.webp
+  passage: |-
+    47-48 為題組
+    ◎ 公民課自主學習時研讀到下列資料：一般人使用網路後通常會留下數位紀錄，稱
+    為網路「足跡」。某大型網路平台商除經營社交媒體，也跨足各種服務。該平台
+    商自稱擁有用戶的基本資料，當串連到用戶瀏覽紀錄、搜尋關鍵詞、消費行為、
+    社群媒體活動等足跡，就可預知使用者的價值偏好與習慣，進而能幫其客戶向使
+    用者投放準確的廣告或政治宣傳，獲利豐厚。某資訊人權監督團體提出警告：「該
+    平台商的行為經常沒有使用者的充分授權，也未充分告知，但卻擁有左右使用者
+    認知與行為的能力」。然而，大眾對此風險卻不一定能充分認識。曾有調查指出，
+    相較於教育程度高者，教育程度較低者因接觸數位風險教育機會較少，故使用網
+    路服務時更缺乏警覺，也更容易受網路資訊影響。請問：
+- id: soc111-g49
+  range:
+  - 49
+  - 50
+  intro: 閱讀下文，回答49-50題。
+  image: img/social/111-g49.webp
+  passage: |-
+    49-50 為題組
+    ◎ 某國在2015 年修改選舉法規，提高某項民意代表的女性保障席次。表5 是修法
+    前後兩個年度，該項民意代表選舉的比較。請問：
+    表5
+    比較項目
+    年度
+    2014 年
+    2018 年
+    選區數
+    207
+    208
+    總席次
+    987
+    992
+    候選人總數
+    2167
+    2286
+    女性候選人數
+    （占候選人總數的百分比）
+    359
+    （16.6）
+    505
+    （22.1）
+    女性當選席次
+    （占總席次的百分比）
+    176
+    （17.8）
+    225
+    （22.7）
+    法定女性保障名額
+    （占總席次的百分比）
+    99
+    （10.0）
+    170
+    （17.1）
+    透過女性保障名額的當選席次
+    （占女性當選席次的百分比）
+    31
+    （17.6）
+    32
+    （14.2）
+- id: soc111-g51
+  range:
+  - 51
+  - 52
+  intro: 閱讀下文，回答51-52題。
+  image: img/social/111-g51.webp
+  passage: |-
+    51-52 為題組
+    ◎ 某地區因氣候乾燥，雷暴閃電誘發的火苗引發大規模森林野火，經濟損失慘重。
+    此地是著名的葡萄酒鄉，葡萄酒產量占該國的90%，但森林野火波及並燒毀許多
+    葡萄園和酒莊，嚴重影響當年葡萄酒市場。有學者認為，此極端氣候與該國過高
+    的排碳量有關，主要來自石油的消耗。為避免災害再次發生，該國政府將於2035
+    年禁止燃油車的使用並逐步改用綠能發電。此舉不利多數產業的發展，引發許多
+    業者不滿。請問：
+- id: soc111-g53
+  range:
+  - 53
+  - 54
+  intro: 閱讀下文，回答53-54題。
+  image: img/social/111-g53.webp
+  passage: |-
+    53-54 為題組
+    ◎ 大量使用塑膠吸管所造成的健康與海洋生態破壞問題讓人擔憂。假定某國的民意
+    強烈要求政府應立刻大幅度限制塑膠吸管的使用，且依據現行法律，主管機關已
+    有充分法律授權可發布命令、訂定實施細則與開始日期，以管制塑膠吸管使用；
+    但該機關卻認為茲事體大，仍依循該國法律對制訂行政命令的過程，預先將草案
+    公告周知，並依法舉辦聽證，廣納各界意見，再審慎決定規定內容。請問：
+- id: soc111-g55
+  range:
+  - 55
+  - 56
+  intro: 閱讀下文，回答55-56題。
+  image: img/social/111-g55.webp
+  passage: |-
+    55-56 為題組
+    ◎ 西晉末年，北方戰亂，長安、洛陽二京傾覆，山西、河北淪陷。面對時局的變動，
+    人民有不同的作法。學者指出，中原士庶避難者約有兩途，或入遼東，或徙江左。
+    入遼者，接受慕容氏招撫；過江和遷於淮漢流域者，為數尤多，遂創二百七十年
+    偏安之局。其不克遷徙者，則鳩合宗黨，保聚險固，自治自衛，以圖苟免於胡人
+    或寇賊之難。還有一種流人，其背棄鄉貫，轉徙他方，與前者相似；而憑堅乘險，
+    保守塢聚，又與後者彷彿。請問：
+- id: soc111-g57
+  range:
+  - 57
+  - 58
+  intro: 閱讀下文，回答57-58題。
+  image: img/social/111-g57.webp
+  passage: |-
+    57-58 為題組
+    ◎ 經調查，臺灣在COVID-19 疫情三級警戒時期，約40%的企業因異地生產導致產
+    能調配不易；約20%的企業，其產品物流配送受阻；約20%的企業，營運不受疫
+    情影響；另有20%的企業，反受疫情刺激需求而增加訂單。其中工廠據點較分散，
+    在海外疫情熱區設有生產據點的企業，其產能調配受影響最明顯；如一些機械與
+    電機、電子零組件及光電、車輛與金屬產業等，其零組件配送受阻比例較高，研
+    判應是海運作業耽誤所致。為了因應疫情的衝擊，許多企業優先選擇的經營策略
+    是：以資訊科技提供遠端客服或維運，並精簡行銷、研發等以降低營運成本。請
+    問：
+- id: soc111-g59
+  range:
+  - 59
+  - 60
+  intro: 閱讀下文，回答59-60題。
+  image: img/social/111-g59.webp
+  passage: |-
+    59-60 為題組
+    ◎ 美國與墨西哥的經貿關係向來密切，在兩
+    國邊界形成的都會區域（圖11），早已發
+    展出產業分工關係。然而，美國在川普總
+    統主政時，以防止非法移民不斷湧入、保
+    障本國勞工就業機會以及強化國土邊境
+    安全為由，曾在政府預算中編列經費，擴
+    大築牆；但當時國會認為，此舉既浪費納
+    稅人的錢，又製造與鄰國的緊張關係。因
+    築牆爭議無法達成共識，曾一度導致聯邦
+    政府預算無法通過，使得某些政府部門暫
+    時停止運作。請問：
+
+
+
+    聖地牙哥
+    提華納
+    高
+    低
+    人
+    口
+    密
+    度
+    0
+    10 km
+    N
+    圖11
+- id: soc111-g61
+  range:
+  - 61
+  - 64
+  intro: 閱讀下文，回答61-64題。
+  image: img/social/111-g61.webp
+  passage: |-
+    61-64 為題組
+    ◎ 日治時期，臺灣總督府為開發山林資源，拓殖其經濟利益，初期認為山林中的
+    「蕃人」是阻礙開發的「凶惡之徒」，不但不承認其傳統權益，甚至用武力征
+    伐；後期又進行大規模「集團移住」計畫，迫使各原住民部落離開其傳統生活
+    空間，遷移到山腳地帶。部落間原有的往來因此被切斷，重新配置的部落也無
+    法和其他部落建立合作關係，以致內部社會關係瓦解，達到總督府期待的可使
+    原住民「舊來勢力關係中斷」。以立霧溪流域的太魯閣族群來說，集團移住的
+    結果，不僅部落被撤離原居住地，且多數部落遭到分割，還有許多部落被嵌入
+    布農族的傳統領域，造成賽德克族、太魯閣族及布農族混居的情況。請問：
+- id: soc111-g65
+  range:
+  - 65
+  - 67
+  intro: 閱讀下文，回答65-67題。
+  image: img/social/111-g65.webp
+  passage: |-
+    65-67 為題組
+    ◎ 猶太教與基督教的信仰屬性，及其對「神的選民」的看法略有異同，以致二者常
+    有紛爭。西元一世紀，猶太宗
+    教領袖在耶路撒冷以基督教傳
+    道者保羅褻瀆猶太教，且無法
+    證明自己清白為由，控告保羅
+    並要求對其處刑。當時羅馬法
+    律規定：非經審判，羅馬公民
+    不得被捆綁、監禁或鞭打。保
+    羅因具有羅馬公民身分，故要
+    求交羅馬當局處理，於是當地
+    總督在夏季末期，將保羅押送
+    至羅馬審判。圖12 為羅馬帝國
+    時期東地中海的航運路線圖，
+    虛線為押送保羅航線，實線為
+    地中海貿易線。請問：
+    亞歷山大
+    克里特島
+    羅馬
+    耶
+    路
+    撒
+    冷
+    圖12
+items:
+- id: soc111-01
+  'no': 1
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-01.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    1. 某國媒體報導，該國原住民族罹患心理疾病比率、自殺率、平均壽命與全國之
+    比較，如表1。該報導在未詳查原住民族生活困境的情形下，即宣稱這是因為原
+    住民族不注重身心健
+    康，例如偏好高脂肪、高
+    甜度垃圾食物所致。類
+    似此種缺乏同理與理解
+    的報導，最可能引導社
+    會大眾對原住民個人或
+    民族形成何種更加不利
+    的社會印象？
+    (A)原住民個人常缺少改變傳統習慣的意願
+    (B)原住民個人缺少為自己健康負責的態度
+    (C)原住民族缺少傳統飲食文化的知識傳承
+    (D)原住民族缺少改變現代生活步調的策略
+    表1
+
+    原住民族
+    全國
+    罹患心理疾病比率（%）
+    14.2
+    9.0
+    自殺率（人／每十萬人）
+    15.7
+    8.8
+    平均壽命（歲）
+    69.3
+    76.1
+  stats:
+    P: 81
+    Ph: 91
+    Pl: 68
+    D: 23
+    opt:
+      A: 6
+      B: 81
+      C: 4
+      D: 9
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-02
+  'no': 2
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-02.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    2. 圖1 是某國政治宣傳的圖片，有學者指出：此圖呈現該國執政領袖、執政黨和人
+    民三者的關係，可清楚看出民主國家運作與該國存
+    有最根本的差異。請問下列何者應為該學者所指的
+    最根本差異？
+    (A)存在多黨競爭，難有全民效忠服從的政黨
+    (B)肯認多元認同，不易服從單一的政治領袖
+    (C)執政領袖和執政黨皆是國家管理人，而非效忠對象
+    (D)執政領袖和執政黨只是代表政府，人民應效忠政府
+    圖1
+  stats:
+    P: 49
+    Ph: 65
+    Pl: 35
+    D: 30
+    opt:
+      A: 8
+      B: 9
+      C: 49
+      D: 34
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-03
+  'no': 3
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-03.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    3. 小安研究某國財產制度，蒐集該國某年遺產繼承統計資料（表2）。她推論造成
+    男女數據差異的成因，除與該
+    國傳統社會觀念有關外，與其
+    民法繼承法律的規定亦有關
+    聯。下列該國繼承制度所採取
+    的原理原則，何者與表中數據
+    所呈現之性別差異最為相關？
+    (A)民法繼承法律在繼承權利方面採取性別平權的原則
+    (B)准許被繼承人在生前以遺囑自由處置一定範圍財產
+    (C)以特定親屬繼承為原則，並以配偶為當然的繼承人
+    (D)繼承人償還被繼承人的債務，以繼承所得遺產為限
+    表2
+    所有法定繼承人之
+    性別比
+    法定繼承人中實際取得
+    遺產者之性別比
+    男
+    女
+    男
+    女
+    64%
+    36%
+    72%
+    28%
+  stats:
+    P: 68
+    Ph: 87
+    Pl: 45
+    D: 42
+    opt:
+      A: 16
+      B: 68
+      C: 12
+      D: 4
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-04
+  'no': 4
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-04.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    4. 表3 是某市府對購買新型低汙染機車，
+    以及報廢舊機車換購新型低汙染機車
+    （汰舊換新）的補助。若這兩年新購置
+    機車的數量與品質皆相同，僅有政府補
+    助金額改變，則今年相較於去年，對消
+    費者行為和空氣汙染的影響為何？
+    (A)更多人願意汰舊換新，但去年的政策比較能改善空汙
+    (B)更多人願意汰舊換新，且今年的政策比較能改善空汙
+    (C)更多人願意新購機車，且今年的政策比較能改善空汙
+    (D)更多人願意新購機車，但去年的政策比較能改善空汙
+    表3
+    年份
+    新購機車補助
+    汰舊換新補助
+    去年
+    10000元
+    8000元
+    今年
+    6000元
+    10000元
+  stats:
+    P: 75
+    Ph: 80
+    Pl: 70
+    D: 10
+    opt:
+      A: 17
+      B: 75
+      C: 5
+      D: 2
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-05
+  'no': 5
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-05.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    5. 某校歷史課程進行「歷史考察」學習時，要求同學事先蒐集族譜、臺灣總督府旅
+    券（護照）、同鄉會名簿等史料，並進入內政部網站閱讀人口和戶口調查資料。
+    該「歷史考察」的主題最可能是：
+    (A)人群的移動與交流
+    (B)國家的建立與形塑
+    (C)文化的類型與變遷
+    (D)宗教的起源與傳播
+  stats:
+    P: 89
+    Ph: 98
+    Pl: 76
+    D: 22
+    opt:
+      A: 89
+      B: 4
+      C: 5
+      D: 1
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-06
+  'no': 6
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-06.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    6. 一位學者提到：過去歷史研究的主體，往往偏重於統治者的歷史，比較忽略人民
+    的歷史，其實，人民才是我們應該關心的主體。下列哪個主題最接近這位學者主
+    張的研究方向？
+    (A)鄭氏王朝在臺的屯田政策
+
+    (B)清代臺灣職官制度的演變
+    (C)清代臺灣沿海的王爺信仰
+
+    (D)日本在臺殖民體制的建立
+  stats:
+    P: 79
+    Ph: 97
+    Pl: 52
+    D: 45
+    opt:
+      A: 6
+      B: 5
+      C: 79
+      D: 10
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-07
+  'no': 7
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-07.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    7. 二十世紀初期，某人嚴厲抨擊貨幣的使用：「誰還需要該死的貨幣？生活意味著
+    食物、衣服、房子與休息，沒有貨幣這種金屬與碎紙片，我們依然可以快樂生活。
+    貨幣將會失去意義，政府應以實物取代貨幣，作為工作所得」。此人的論述反映
+    下列哪個主義的觀點？
+    (A)重商主義
+    (B)自由主義
+    (C)共產主義
+    (D)法西斯主義
+  stats:
+    P: 47
+    Ph: 72
+    Pl: 25
+    D: 47
+    opt:
+      A: 15
+      B: 13
+      C: 47
+      D: 26
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-08
+  'no': 8
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-08.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    8. 中國傳統政治制度歷經漢、唐的演變而大備，日、韓等國立國較晚，其各種制度
+    參酌中國者甚多，也有徒取其形式而忽略其精神的。例如：有某個制度在中國具
+    有公平與促進社會流動的意義，在東亞的日本、朝鮮卻成為保障特定對象的工具。
+    這個制度最可能是：
+    (A)戶籍
+    (B)律令
+    (C)賦役
+    (D)科舉
+  stats:
+    P: 68
+    Ph: 93
+    Pl: 39
+    D: 54
+    opt:
+      A: 6
+      B: 14
+      C: 11
+      D: 68
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-09
+  'no': 9
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-09.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    9. 十五至十六世紀間，某王國曾興建一座大型的宮殿，此建築物分為三部分：正殿
+    為國王舉行各種典禮和議政的場所；北殿專為接待中國的冊封使之用；南殿則自
+    十七世紀初期開始，用來接待日本薩摩藩官員。該宮殿最可能位於：
+    (A)朝鮮
+    (B)暹羅
+    (C)安南
+    (D)琉球
+  stats:
+    P: 18
+    Ph: 30
+    Pl: 11
+    D: 19
+    opt:
+      A: 51
+      B: 23
+      C: 8
+      D: 18
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-10
+  'no': 10
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-10.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    10. 某校歷史課進行「歐洲與非、美兩洲的交流」探究學習時，以一幅歐洲十七世紀
+    流傳的蔗糖生產過程圖（圖2），說明當時蔗糖逐漸取代蜂蜜，成為歐洲人最重
+    要的甜味來源。圖中糖廠最可能在何地區？
+
+
+
+
+
+
+
+
+
+
+    (A)北非的阿爾及利亞
+    (B)中美洲西印度群島
+    (C)北美洲的紐芬蘭島
+    (D)中部非洲剛果盆地
+    圖2
+  stats:
+    P: 59
+    Ph: 79
+    Pl: 41
+    D: 38
+    opt:
+      A: 15
+      B: 59
+      C: 7
+      D: 19
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-11
+  'no': 11
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-11.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    11. 清宣統三年十二月二十五日（1912 年2 月12 日），清帝溥儀頒布退位詔書。但
+    在國立故宮博物院典藏的清代檔案中，發現一件進呈給溥儀的奏摺，時間標註為
+    「宣統十六年七月」。我們應如何解釋這個現象？
+    (A)宣統朝只有三年，應該是清政府官員誤植年代的奏摺
+    (B)清帝雖退位，政府仍同意其繼續使用帝號和原有紀年
+    (C)洪憲帝制時，為獲滿族支持而以宣統紀年進呈的奏摺
+    (D)滿洲國成立，其政府官員上奏給溥儀，故以宣統紀年
+  stats:
+    P: 17
+    Ph: 12
+    Pl: 25
+    D: -13
+    opt:
+      A: 2
+      B: 17
+      C: 19
+      D: 62
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-12
+  'no': 12
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-12.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    12. 金門有許多洋樓，建築上裝飾著象徵吉祥如意的鳳梨、祈求多子多孫的麥穗、象
+    徵科舉及第的螃蟹（以「甲殼」比喻「科甲」）、表示時間的西洋時鐘或扛著屋
+    簷的印度苦力（象徵屋主的社會地位）。這些建築裝飾反映以下何種歷史現象？
+    (A)荷蘭人主導遠東貿易時期，當時盛行的建築風格也流傳至金門
+    (B)鄭成功家族前往巴達維亞貿易，並將當地的建築特色帶回金門
+    (C)民國早期，僑民從南洋帶回西方建築風格並融入金門傳統裝飾
+    (D)日本占領金門時，其商人引進當時歐洲最流行的巴洛克式裝飾
+  stats:
+    P: 47
+    Ph: 61
+    Pl: 36
+    D: 25
+    opt:
+      A: 28
+      B: 17
+      C: 47
+      D: 7
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-13
+  'no': 13
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-13.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    13. 據統計，二次世界大戰期間德國平民死亡約117 萬人，占該國1939 年總人口
+    1.6%；蘇聯平民死亡約1400 萬人，占該國1939 年總人口7.3%。蘇聯平民死亡
+    人數與比率均遠多於德國的原因為何？
+    (A)納粹黨在東歐多處設立大型滅絕營，用毒氣殺害當地人
+    (B)蘇聯是主要戰場，戰火摧殘人命外，還有缺糧飢荒問題
+    (C)德、義、日軸心國武器優越，超過蘇聯、英、美同盟國
+    (D)為對付全球反共產勢力，大量的蘇聯士兵駐防東歐國家
+  stats:
+    P: 59
+    Ph: 67
+    Pl: 52
+    D: 15
+    opt:
+      A: 21
+      B: 59
+      C: 3
+      D: 16
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-14
+  'no': 14
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-14.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    14. 圖3 為1500 年至1799 年間，從歐洲出發，前往亞洲海域貿易前三名國家的船隻
+    數量變化圖。根據該圖，甲、乙、丙依序是哪些國家？
+
+
+
+
+
+
+
+
+
+
+
+    (A)葡萄牙、荷蘭、英國
+    (B)西班牙、英國、荷蘭
+    (C)荷蘭、英國、西班牙
+    (D)英國、葡萄牙、荷蘭
+    （
+    單
+    位
+    ：
+    艘
+    ）
+
+    0
+    500
+    1000
+    1500
+    2000
+    1500-1549
+    1550-1599
+    1600-1649
+    1650-1699
+    1700-1749
+    1750-1799
+    甲國
+    乙國
+    丙國
+    （年）
+    圖3
+  stats:
+    P: 56
+    Ph: 75
+    Pl: 36
+    D: 39
+    opt:
+      A: 56
+      B: 24
+      C: 14
+      D: 6
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-15
+  'no': 15
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-15.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    15. 中國的百貨公司成立以來，多以「洋貨」為主打商品。民國初年，某一事件發生
+    期間，上海一間百貨公司在報紙上刊登「敬告國人書」：「外交失敗，悲憤同深，……
+    敝公司雖係統辦環球貨品，然宗旨首重國貨，歐美貨次之，其某國貨，則僅供市
+    上之需求耳。」並表示某國貨品存貨出清，即不再販售。不過，抵制某國貨品的
+    聲浪如排山倒海而來，該公司只好再度聲明：概將某國貨品「完全收束不賣，寧
+    願犧牲血本，以示與眾共棄之決心。」請問「某一事件」指的是：
+    (A)三一運動
+    (B)五四運動
+    (C)九一八事變
+    (D)七七事變
+  stats:
+    P: 44
+    Ph: 66
+    Pl: 30
+    D: 36
+    opt:
+      A: 14
+      B: 44
+      C: 26
+      D: 16
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-16
+  'no': 16
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-16.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    16. 一份資料提到：1933 年的雙十國慶酒會選在臺北的鐵道旅館舉辦，出席的貴賓
+    有美國、義大利駐臺領事及臺灣總督府高級長官。會場懸掛中華民國國旗，慶典
+    中除演奏中華民國國歌外，還高呼「中華民國萬歲」。這段資料如何解讀最合理？
+    (A)當時滿洲國成立不久，日本乃邀請滿洲國官員來臺舉辦慶祝雙十國慶活動
+    (B)當時中日兩國的關係親密和善，臺灣總督府乃主動舉辦慶祝雙十國慶酒會
+    (C)當時來臺的中國僑民日多，國府已在臺北設立領事館，故能舉辦國慶活動
+    (D)當時的臺灣總督府正在進行皇民化政策，故舉辦雙十酒會來攏絡臺灣人民
+  stats:
+    P: 36
+    Ph: 41
+    Pl: 32
+    D: 9
+    opt:
+      A: 22
+      B: 14
+      C: 36
+      D: 28
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-17
+  'no': 17
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-17.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    17. 某國的動力織布機技術在十九世紀初獨步全球，該國嚴格控管此關鍵技術，避免
+    秘密外洩。一名外國技師刻意潛入該國工廠學習，花費六個月將所有技術細節記
+    在腦中，回國後憑記憶建立相同的動力織布工廠，推動自己國家的工業技術革新。
+    此情況最可能是：
+    (A)他從英國偷學技術，帶回美國
+    (B)他從英國偷學技術，帶回日本
+    (C)他從美國偷學技術，帶回印度
+    (D)他從美國偷學技術，帶回俄國
+  stats:
+    P: 41
+    Ph: 51
+    Pl: 32
+    D: 19
+    opt:
+      A: 41
+      B: 46
+      C: 7
+      D: 6
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-18
+  'no': 18
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-18.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    18. 表4 為聯合國2020 年發表的都市化資料，推估到2030 年全球將有60.4%人口居
+    住在都市地區。其中與歐、北美兩洲都市化程度相當的某洲，其經濟發展程度卻
+    無歐、北美兩洲高。造成此現象的主要原因，最可能為下列何者？
+
+
+
+
+
+
+
+
+    (A)人口數量為全球第一且全部集中在都市
+    (B)都市皆主要生產農業加工品經濟價值低
+    (C)都市的基礎設施健全吸引鄉村人口移居
+    (D)鄉村生計艱困導致大量人口湧進大都市
+    表4
+    區域
+    都市化程度（%）
+    2000 年
+    2010 年
+    2020 年
+    2030 年
+    （推估）
+    全球
+    46.7
+    51.7
+    56.2
+    60.4
+    非洲
+    35
+    38.9
+    43.5
+    48.4
+    亞洲
+    37.5
+    44.8
+    51.1
+    56.7
+    歐洲
+    71.1
+    72.9
+    74.9
+    77.5
+    中南美洲
+    75.5
+    78.6
+    81.2
+    83.6
+    北美洲
+    79.1
+    80.8
+    82.6
+    84.7
+  stats:
+    P: 69
+    Ph: 94
+    Pl: 39
+    D: 55
+    opt:
+      A: 3
+      B: 17
+      C: 10
+      D: 69
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-19
+  'no': 19
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-19.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    19. COVID-19 疫情爆發以後，許多國家積極研發與生產疫苗。2021 年，歐盟與美國、
+    中國、印度、臺灣等已有疫苗生產廠，但大多實施出口管制，優先留給其公民施
+    打；相較下，非洲地區目前疫苗嚴重不足，而非洲聯盟也計畫在2040 年擴大疫
+    苗生產到足敷非洲大陸60%所需。COVID-19 疫苗生產的時空差異，最適合以下
+    列哪個概念解釋？
+    (A)時空收斂
+    (B)區位移轉
+    (C)擴散與反吸
+    (D)核心與邊陲
+  stats:
+    P: 76
+    Ph: 93
+    Pl: 50
+    D: 43
+    opt:
+      A: 7
+      B: 8
+      C: 10
+      D: 76
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-20
+  'no': 20
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-20.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    20. 某小組在進行地理問題探究學習時，蒐集到1960、1980、2000 和2020 等4 年臺
+    東地區工商消費電話簿，電話簿載有各行業營業場所的地址和電話號碼。該學習
+    小組探究的主題最可能是下列何者？
+    (A)臺東市都市機能結構變遷
+    (B)臺東市都市住宅用地擴張
+    (C)臺東市土地競租曲線消長
+    (D)臺東地區都市成長的歷程
+  stats:
+    P: 64
+    Ph: 75
+    Pl: 50
+    D: 25
+    opt:
+      A: 64
+      B: 6
+      C: 7
+      D: 23
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-21
+  'no': 21
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-21.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    21. 公平貿易指的是在農產品的產銷過程中，
+    確保生產者獲得公平的報酬、勞動者獲得
+    應有的保障、環境可以得到保護的一種制
+    度。圖4 為參與公平貿易生產商的分布，
+    這些生產商的分布區，具有哪些共同的時
+    空背景？
+
+
+    (A)多位於熱帶沙漠區，八至九世紀時曾為阿拉伯帝國的勢力範圍
+    (B)多位於熱帶季風區，十至十三世紀曾為東亞人群外流的移入地
+    (C)多位於熱帶氣候區，二十世紀中期以前曾先後遭歐洲列強殖民
+    (D)多位於信風帶，二十世紀後期冷戰期間曾為美蘇競爭的緩衝區
+    圖4
+  stats:
+    P: 82
+    Ph: 97
+    Pl: 58
+    D: 39
+    opt:
+      A: 3
+      B: 10
+      C: 82
+      D: 5
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-22
+  'no': 22
+  type: single
+  points: 2
+  group: null
+  image: img/social/111-22.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    22. 據統計，2020 年澳大利亞農業缺工嚴重，導致部分農產品無人收成、處理，以
+    致許多農產品價格高漲。形成此現象的原因之一，為澳大利亞因應COVID-19 疫
+    情而進行邊境管制，使過去占農場勞力來源高達八成的國外背包打工客，在2020
+    年來澳的人數大減。若僅針對上述澳大利亞的農業發展、農產價格與背包打工客
+    的關係，擬定相關的全球化議題進行探究，下列哪個議題最為適合？
+    (A)全球化與區域結盟
+    (B)全球化與交通革新
+    (C)全球化與多元文化
+    (D)全球化的貢獻與挑戰
+  stats:
+    P: 64
+    Ph: 85
+    Pl: 40
+    D: 45
+    opt:
+      A: 11
+      B: 18
+      C: 7
+      D: 64
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-23
+  'no': 23
+  type: single
+  points: 2
+  group: soc111-g23
+  image: img/social/111-23.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    23. 依據題文資訊，政府改善長照制度所欲達成的最重要政策目標為何？
+    (A)保障勞動參與：增加長照勞力供給以保障勞工的就業機會
+    (B)提倡兩性平權：確保家庭照護之責任由子女共同平均分擔
+    (C)促進社會安全：因應人口結構變遷以保障人民生活的尊嚴
+    (D)促進經濟平等：藉社會福利制度達成財富與資源重新分配
+  stats:
+    P: 61
+    Ph: 82
+    Pl: 37
+    D: 45
+    opt:
+      A: 23
+      B: 3
+      C: 61
+      D: 13
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-24
+  'no': 24
+  type: single
+  points: 2
+  group: soc111-g23
+  image: img/social/111-24.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    24. 依據題文資訊，政府實際執行（甲）與（丁）政策對當年GDP 的計算與直接影
+    響為何？
+    (A)甲政策計入政府支出，不影響GDP
+    (B)甲政策計入政府移轉性支付，將增加GDP
+    (C)丁政策計入政府支出，將增加GDP
+    (D)丁政策計入政府移轉性支付，不影響GDP
+  stats:
+    P: 50
+    Ph: 72
+    Pl: 28
+    D: 44
+    opt:
+      A: 11
+      B: 19
+      C: 21
+      D: 50
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-25
+  'no': 25
+  type: single
+  points: 2
+  group: soc111-g23
+  image: img/social/111-25.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    25.依據題文資訊，政府改善長照制度的政策作為，何者最適合由政府委託民間執行？
+    (A)甲
+    (B)乙
+    (C)丙
+    (D)丁
+  stats:
+    P: 83
+    Ph: 97
+    Pl: 60
+    D: 37
+    opt:
+      A: 83
+      B: 5
+      C: 8
+      D: 5
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-26
+  'no': 26
+  type: single
+  points: 2
+  group: soc111-g26
+  image: img/social/111-26.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    26. 該同學如要去考察最靠近樟腦和茶葉產地的地點，下列何地最適合？
+    (A)基隆（雞籠）
+    (B)萬華（艋舺）
+    (C)淡水（滬尾）
+    (D)大溪（大嵙崁）
+  stats:
+    P: 16
+    Ph: 22
+    Pl: 14
+    D: 8
+    opt:
+      A: 7
+      B: 31
+      C: 45
+      D: 16
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-27
+  'no': 27
+  type: single
+  points: 2
+  group: soc111-g26
+  image: img/social/111-27.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    27. 上述史料最適合作為下列哪項推論的佐證？
+    (A)外國洋行已在臺灣設立並發展
+    (B)漢人和原住民族貿易相當熱絡
+    (C)農業和農產加工技術已很成熟
+    (D)兩岸物產可互補形成生產分工
+  stats:
+    P: 71
+    Ph: 93
+    Pl: 44
+    D: 49
+    opt:
+      A: 18
+      B: 3
+      C: 8
+      D: 71
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-28
+  'no': 28
+  type: single
+  points: 2
+  group: soc111-g28
+  image: img/social/111-28.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    28. 圖5是歐洲行政區域簡圖。若僅考慮作物生
+    長與氣溫的關係，2010年代中期甲作物在
+    歐洲的主要產區，最可能為下列何者？
+    (A)子
+    (B)丑
+    (C)寅
+    (D)卯
+
+
+
+
+
+
+    子
+    丑
+    卯
+    寅
+    圖5
+  stats:
+    P: 42
+    Ph: 62
+    Pl: 25
+    D: 37
+    opt:
+      A: 22
+      B: 28
+      C: 42
+      D: 8
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-29
+  'no': 29
+  type: single
+  points: 2
+  group: soc111-g28
+  image: img/social/111-29.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    29. 透過甲、乙兩張照片推論這兩個農業生產活動，最可能具有下列哪項共同的經營
+    特色？
+    (A)自然投入重灌溉，人為投入重視生物科技
+    (B) 在農場旁設立工廠，進行農產品初級加工
+    (C) 採取專業化耕作，呈現規模經濟經營型態
+    (D)作物送往畜牧場，形成農牧產業連鎖關係
+  stats:
+    P: 80
+    Ph: 88
+    Pl: 70
+    D: 18
+    opt:
+      A: 4
+      B: 14
+      C: 80
+      D: 3
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-30
+  'no': 30
+  type: single
+  points: 2
+  group: soc111-g30
+  image: img/social/111-30.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    30. 若要觀看東北方向的低處景觀，圖6 中哪個
+    觀景台的視野最開闊？
+    (A)子
+    (B)丑
+    (C)寅
+    (D)卯
+    丑
+    乙
+    甲
+    卯
+    子
+  stats:
+    P: 70
+    Ph: 86
+    Pl: 51
+    D: 35
+    opt:
+      A: 70
+      B: 17
+      C: 7
+      D: 5
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-31
+  'no': 31
+  type: single
+  points: 2
+  group: soc111-g30
+  image: img/social/111-31.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    31. 圖6 中哪條登山步道，最可能是沿著谷地設
+    置？
+    (A)甲
+    (B)乙
+    (C)丙
+    (D)丁
+    丁
+    寅
+    0
+    0.15
+    0.3 KM
+    N
+    圖6
+  stats:
+    P: 74
+    Ph: 91
+    Pl: 53
+    D: 38
+    opt:
+      A: 5
+      B: 7
+      C: 14
+      D: 74
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-32
+  'no': 32
+  type: single
+  points: 2
+  group: soc111-g32
+  image: img/social/111-32.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    32. 石滬最可能出現在下列哪種海岸地形上？
+    (A)潟湖
+    (B)沙嘴
+    (C)海階
+    (D)海蝕平台
+  stats:
+    P: 20
+    Ph: 23
+    Pl: 19
+    D: 4
+    opt:
+      A: 47
+      B: 13
+      C: 20
+      D: 20
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-33
+  'no': 33
+  type: single
+  points: 2
+  group: soc111-g32
+  image: img/social/111-33.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    33. 依據石滬捕魚的原理，漁民為獲取最大漁獲量，設置石滬時最可能採取圖7 中哪
+    種開口方向？
+
+
+
+
+
+
+
+
+
+
+    (A)甲
+    (B)乙
+    (C)丙
+    (D)丁
+
+    滬房
+    伸腳
+    陸地
+    2
+    1
+    水
+    深
+    (m)
+    甲
+    ㇠
+    丙
+    丁
+    圖7
+  stats:
+    P: 35
+    Ph: 39
+    Pl: 30
+    D: 9
+    opt:
+      A: 35
+      B: 4
+      C: 59
+      D: 2
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-34
+  'no': 34
+  type: single
+  points: 2
+  group: soc111-g34
+  image: img/social/111-34.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    34. 該官僚在日記中的論述，最適合作為該地區當時下列哪項事實的佐證？
+    (A)超過環境負載力上限
+    (B)區域互賴已超過限度
+    (C)原住居民已遷徙他鄉
+    (D)產業分工已發展成熟
+  stats:
+    P: 93
+    Ph: 99
+    Pl: 83
+    D: 16
+    opt:
+      A: 93
+      B: 3
+      C: 3
+      D: 2
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-35
+  'no': 35
+  type: single
+  points: 2
+  group: soc111-g34
+  image: img/social/111-35.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    35. 由該官僚主張的減緩人口成長策略判斷，其所處的時代，經濟活動最可能有何特
+    徵？
+    (A)資源採集需要族群密切合作
+    (B)貿易活動需要精確計算能力
+    (C)農業生產需要大量體力勞動
+    (D)城市對鄰近鄉村依賴程度低
+  stats:
+    P: 65
+    Ph: 81
+    Pl: 47
+    D: 34
+    opt:
+      A: 7
+      B: 11
+      C: 65
+      D: 17
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-36
+  'no': 36
+  type: single
+  points: 2
+  group: soc111-g36
+  image: img/social/111-36.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    36. 照片2 最可能位於圖9 中何處？
+    (A)甲
+    (B)乙
+    (C)丙
+    (D)丁
+  stats:
+    P: 95
+    Ph: 99
+    Pl: 88
+    D: 11
+    opt:
+      A: 1
+      B: 3
+      C: 95
+      D: 1
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-37
+  'no': 37
+  type: single
+  points: 2
+  group: soc111-g36
+  image: img/social/111-37.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    37. 依據圖8、圖9 影像資訊的差異，下列對於該地區的推論，哪項最為合理？
+    (A)中心商業區進行市地重劃
+
+    (B)農地多轉為發展休閒農業
+    (C)河川曾因洪患災害而改道
+
+    (D)鐵道建設早於此區的發展
+  stats:
+    P: 43
+    Ph: 56
+    Pl: 30
+    D: 26
+    opt:
+      A: 46
+      B: 6
+      C: 5
+      D: 43
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-38
+  'no': 38
+  type: single
+  points: 2
+  group: soc111-g38
+  image: img/social/111-38.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    38. 若僅依照《戒嚴令》第二條規定的內容，下列哪兩地
+    的交通航線仍有機會從事貨物運輸的往來？
+    (A)蘇澳－安平
+
+    (B)新竹－廈門
+
+    (C)臺中－香港
+
+    (D)花蓮－東京
+    圖10
+  stats:
+    P: 71
+    Ph: 87
+    Pl: 53
+    D: 34
+    opt:
+      A: 71
+      B: 14
+      C: 10
+      D: 5
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-39
+  'no': 39
+  type: single
+  points: 2
+  group: soc111-g38
+  image: img/social/111-39.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    39. 《戒嚴令》第二條規定最主要的目的應是：
+    (A)禁止臺灣生產的米、糖外銷，以免發生糧荒
+    (B)切斷臺灣與前殖民母國日本之間的政治聯繫
+    (C)管制大陸地區軍民撤離來臺以穩定臺灣政情
+    (D)與美國共同協議以便執行圍堵共產主義政策
+  stats:
+    P: 57
+    Ph: 63
+    Pl: 48
+    D: 15
+    opt:
+      A: 13
+      B: 16
+      C: 57
+      D: 13
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-40
+  'no': 40
+  type: single
+  points: 2
+  group: soc111-g38
+  image: img/social/111-40.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    40. 《戒嚴令》第四條的規定，因為下列哪項理由而「違反」法治國家應遵循的法律
+    原則？
+    (A)國家禁止的行為與防止擾亂治安無關
+    (B)國家對於違反行為不分輕重均判死刑
+    (C)國家只限制部分違法行為而違反平等
+    (D)國家以法規範事後溯及既往處罰人民
+  stats:
+    P: 84
+    Ph: 96
+    Pl: 65
+    D: 31
+    opt:
+      A: 5
+      B: 84
+      C: 5
+      D: 6
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-41
+  'no': 41
+  type: single
+  points: 2
+  group: soc111-g38
+  image: img/social/111-41.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    41. 圖10 的解除《戒嚴令》公告，同時有3 人署名，可用以佐證我國憲政體制的何
+    種特徵？
+    (A)總統為三軍統帥且國防部為行政院各部會之首
+    (B)總統發布命令皆須行政院長與國防部長之副署
+    (C)行政院長與國防部長皆須遵循總統的命令行事
+    (D)總統和行政院的關係及運作含有內閣制的精神
+  stats:
+    P: 43
+    Ph: 64
+    Pl: 25
+    D: 39
+    opt:
+      A: 8
+      B: 33
+      C: 15
+      D: 43
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-42
+  'no': 42
+  type: single
+  points: 2
+  group: soc111-g42
+  image: img/social/111-42.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    42. 依據題文所述的協作平台特性，對電子地圖市場的經濟效率最可能產生下列何
+    種影響？
+    (A)免費查詢地圖資訊可降低外部成本，提升經濟效率
+    (B)自由編輯地圖可滿足更多市場需求，提升經濟效率
+    (C)開放式地圖只有滿足特定群體需求，減少經濟效率
+    (D)免費的圖資降低電子地圖市場價值，減少經濟效率
+  stats:
+    P: 70
+    Ph: 81
+    Pl: 54
+    D: 27
+    opt:
+      A: 13
+      B: 70
+      C: 3
+      D: 14
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-43
+  'no': 43
+  type: single
+  points: 2
+  group: soc111-g42
+  image: img/social/111-43.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    43. 由於開放式電子地圖協作平台允許使用者新增屬性及空間資料，下列何者最可
+    能是由民眾透過上述協作平台產出的空間資料及可運用的服務？
+    (A)中央氣象局製作的地面天氣圖，可觀測各地的沙塵暴
+    (B)社群自行建置登山步道地圖，可即時查詢及記錄路徑
+    (C)查詢由政府委製的公車APP即時資訊，減少候車時間
+    (D)鐵路局製作女性專用車廂車次表，提高女性乘車意願
+  stats:
+    P: 85
+    Ph: 95
+    Pl: 68
+    D: 27
+    opt:
+      A: 4
+      B: 85
+      C: 9
+      D: 2
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-44
+  'no': 44
+  type: single
+  points: 2
+  group: soc111-g44
+  image: img/social/111-44.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    44. 當時鄂圖曼帝國面臨的危機為何？
+    (A)帝國多次進攻基督教大城維也納未果，伊斯蘭勢力擴張失敗
+    (B)新帝國主義者覬覦近東地理區位與資源，使得國土深受威脅
+    (C)世界大戰爆發，帝國加入德、奧匈帝國陣營，戰後國勢衰弱
+    (D)軍人凱末爾推動西化政策，引起保守者反抗，國內政局不安
+  stats:
+    P: 46
+    Ph: 61
+    Pl: 33
+    D: 28
+    opt:
+      A: 12
+      B: 46
+      C: 26
+      D: 15
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-45
+  'no': 45
+  type: single
+  points: 2
+  group: soc111-g44
+  image: img/social/111-45.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    45. 依據題文資訊，下列有關該思想家主張的敘述，何者最能凸顯「泛伊斯蘭主義」
+    的社會規範功能？
+    (A)對抗西方諸列強入侵的武力團結主義
+    (B)避免伊斯蘭世界分裂的國家民族主義
+    (C)重建伊斯蘭文化共同價值與集體信念
+    (D)教育穆斯林信徒遵守伊斯蘭宗教儀式
+  stats:
+    P: 76
+    Ph: 90
+    Pl: 58
+    D: 32
+    opt:
+      A: 4
+      B: 10
+      C: 76
+      D: 10
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-46
+  'no': 46
+  type: single
+  points: 2
+  group: soc111-g44
+  image: img/social/111-46.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    46. 該思想家的出生地被納入伊斯蘭世界的一部分，最可能是透過下列哪種文化擴
+    散過程？
+    (A)從尼羅河流域向西越過撒哈拉沙漠擴散而來
+    (B)從尼羅河流域向北越過地中海海域擴散而來
+    (C)從阿拉伯半島向東南經過南洋群島擴散而來
+    (D)從阿拉伯半島向東北經過伊朗高原擴散而來
+  stats:
+    P: 69
+    Ph: 91
+    Pl: 42
+    D: 49
+    opt:
+      A: 7
+      B: 12
+      C: 12
+      D: 69
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-47
+  'no': 47
+  type: single
+  points: 2
+  group: soc111-g47
+  image: img/social/111-47.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    47. 依資訊人權監督團體所提出的警告，顯示其最擔心網路平台商下列哪項行為？
+    (A)蒐集並分析使用者的網路足跡
+
+    (B)提供政黨關於民意走向的分析
+    (C)製作廣告資訊影響消費者偏好
+
+    (D)持續監視並且操縱使用者行為
+  stats:
+    P: 60
+    Ph: 68
+    Pl: 51
+    D: 17
+    opt:
+      A: 18
+      B: 3
+      C: 19
+      D: 60
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-48
+  'no': 48
+  type: open
+  points: 2
+  group: soc111-g47
+  image: img/social/111-48.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    48. 某學習小組依據題文資訊提出：上述廠商的行為「將使社會不平等現象更加嚴
+    重」。請問該小組論點所指的現象應為何？請在答題卷表格中勾選一項，並從
+    題文中摘述能支持此論點的依據。（3 分，30 字內）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-49
+  'no': 49
+  type: single
+  points: 2
+  group: soc111-g49
+  image: img/social/111-49.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    49. 表5 資料最足以支持下列哪項關於該國女性參政的推論？
+    (A)女性當選席次的成長，主要是受惠於女性保障名額的增加
+    (B)女性保障名額與保障名額的當選席次，兩者具有正向相關
+    (C)女性保障名額當選席次變化，可證明積極平權措施的效益
+    (D)女性保障名額的主要效益，在於強化女性投入選舉的誘因
+  stats:
+    P: 37
+    Ph: 57
+    Pl: 19
+    D: 38
+    opt:
+      A: 14
+      B: 17
+      C: 31
+      D: 37
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-50
+  'no': 50
+  type: open
+  points: 2
+  group: soc111-g49
+  image: img/social/111-50.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    50. 從表5 資料判斷，該國該項選舉制度，與我國哪項民意代表選舉最接近？請在答
+    題卷表格中勾選一項，並依據表5 資料說明判斷的理由。（3 分，20 字內）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-51
+  'no': 51
+  type: single
+  points: 2
+  group: soc111-g51
+  image: img/social/111-51.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    51. 依據題文，下列何者最能呈現該國面臨的問題？
+    (A)石油消耗過多造成油價高漲，迫使政府改用綠色能源的問題
+    (B)氣候的變遷導致環境保護與生產成本之間所面臨的兩難問題
+    (C)綠能發展與作物轉型兩者之間將形成資源配置上的取捨問題
+    (D)葡萄酒產業使資源消耗殆盡，進而造成氣候變遷與環保問題
+  stats:
+    P: 84
+    Ph: 95
+    Pl: 69
+    D: 26
+    opt:
+      A: 2
+      B: 84
+      C: 11
+      D: 2
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-52
+  'no': 52
+  type: open
+  points: 2
+  group: soc111-g51
+  image: img/social/111-52.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    52. 依據題文資訊並從供需架構分析，森林野火對該國當年葡萄酒市場有何影響？
+    請在答題卷表格中勾選一項變化，並說明若葡萄酒價格不變，此時供給量與需求
+    量之間出現的現象可稱為？（3 分，10 字內）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-53
+  'no': 53
+  type: single
+  points: 2
+  group: soc111-g53
+  image: img/social/111-53.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: B
+  text: |-
+    53. 從外部成本的觀點，下列敘述何者符合該國政府政策的意涵？
+    (A)社會成本高於私人成本，從市場經濟的觀點塑膠吸管的生產數量過多
+    (B)社會成本高於私人成本，從整體社會的觀點塑膠吸管的生產數量過多
+    (C)私人成本高於社會成本，從市場經濟的觀點政府應管制塑膠吸管使用
+    (D)私人成本高於社會成本，從整體社會的觀點政府應管制塑膠吸管使用
+  stats:
+    P: 53
+    Ph: 68
+    Pl: 37
+    D: 31
+    opt:
+      A: 8
+      B: 53
+      C: 6
+      D: 32
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-54
+  'no': 54
+  type: open
+  points: 2
+  group: soc111-g53
+  image: img/social/111-54.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    54. 依據題文，若該國行政法的原理原則與我國相同，則其主管機關訂定行政命令
+    的過程，最適宜用哪項法律原則說明？請在答題卷表格中勾選一項（2 分），
+    並從題文中摘述判斷的依據（1 分，35 字內）。（法律原則勾選不正確者本題
+    不給分）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-55
+  'no': 55
+  type: single
+  points: 2
+  group: soc111-g55
+  image: img/social/111-55.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    55. 上述史事的時代背景，應是：
+    (A)遊牧民族避寒南侵
+
+    (B)匈奴勢盛南下牧馬
+    (C)內遷胡人舉兵起事
+
+    (D)蒙古鐵騎橫掃中原
+  stats:
+    P: 47
+    Ph: 60
+    Pl: 33
+    D: 27
+    opt:
+      A: 13
+      B: 27
+      C: 47
+      D: 12
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-56
+  'no': 56
+  type: open
+  points: 2
+  group: soc111-g55
+  image: img/social/111-56.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    56. 題文中的「前者」、「後者」，他們面對時局變動的作法分別為何？請在答題卷
+    表格中依序作答，並從二者擇一勾選何者形成當地政治文化勢力？（3 分，各35
+    字內）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-57
+  'no': 57
+  type: single
+  points: 2
+  group: soc111-g57
+  image: img/social/111-57.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    57. 許多企業為了因應疫情衝擊而優先選擇的經營策略，需要下列哪項要素的配合，
+    才能有效達成？
+    (A)知識經濟發達
+    (B)產業群聚普遍
+    (C)經濟結構轉型
+    (D)產品規格化普及
+  stats:
+    P: 51
+    Ph: 78
+    Pl: 21
+    D: 57
+    opt:
+      A: 51
+      B: 7
+      C: 30
+      D: 12
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-58
+  'no': 58
+  type: open
+  points: 2
+  group: soc111-g57
+  image: img/social/111-58.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    58. 文中提及有些企業在疫情影響下，產能調配受到的影響最為明顯。此現象的形成
+    背景，適合以哪項概念說明？請在答題卷表格中勾選一項，並說明對應此概念的
+    判斷依據。（3 分，30 字內）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-59
+  'no': 59
+  type: single
+  points: 2
+  group: soc111-g59
+  image: img/social/111-59.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    59. 題文所述之築牆爭議導致某些聯邦政府部門停擺，其原因最可能與該國哪項政
+    府體制的特性及運作有關？
+    (A)國會有權拒絕副署總統簽署的法案，阻礙法案公布和施行
+    (B)國會對於涉及鄰國邊界的重要外交事務，依法擁有否決權
+    (C)總統為國家最高行政首長，有權暫時停止政府部門的運作
+    (D)總統與國會各自代表的兩權完全分立，易有政治對立僵局
+  stats:
+    P: 46
+    Ph: 69
+    Pl: 26
+    D: 43
+    opt:
+      A: 31
+      B: 15
+      C: 8
+      D: 46
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-60
+  'no': 60
+  type: open
+  points: 2
+  group: soc111-g59
+  image: img/social/111-60.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    60. 圖中最大跨邊界，分屬美、墨的「聖地牙哥─提華納」都會區，自1965 年起即
+    利用都市本身的優勢合作發展。請比較聖地牙哥與提華納二個都市在技術、資本
+    及勞工的區位要素上，各自的優勢為何？請在答題卷表格中作答。（3 分）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-61
+  'no': 61
+  type: single
+  points: 2
+  group: soc111-g61
+  image: img/social/111-61.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: A
+  text: |-
+    61. 當今哪項原住民族議題，和臺灣總督府推動的原住民族集團移住計畫關係最密切？
+    (A)傳統領域的劃設
+    (B)傳統姓名的回復
+    (C)正名運動的展開
+    (D)族語復振的推展
+  stats:
+    P: 83
+    Ph: 92
+    Pl: 68
+    D: 24
+    opt:
+      A: 83
+      B: 3
+      C: 10
+      D: 4
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-62
+  'no': 62
+  type: single
+  points: 2
+  group: soc111-g61
+  image: img/social/111-62.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: D
+  text: |-
+    62. 題文所述總督府的支配控制及治理措施，有些仍影響至今，包括現行有關原住民
+    族權益的相關法制；但也有些已經因應國際人權觀念趨勢、多元文化發展而有所
+    改變。下列政策何者最能凸顯這樣的改變？
+    (A)國家為國有林地所有權人，原住民得由政府機構許可取用森林資源
+    (B)將原住民立法委員的選舉，分為「山地」與「平地」原住民選舉區
+    (C)設立原住民保留地以保障原住民生計，並限制將土地轉予非原住民
+    (D)設有部落會議的原住民族部落，經核定後可取得公法人的主體地位
+  stats:
+    P: 44
+    Ph: 55
+    Pl: 33
+    D: 22
+    opt:
+      A: 8
+      B: 15
+      C: 32
+      D: 44
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-63
+  'no': 63
+  type: open
+  points: 2
+  group: soc111-g61
+  image: img/social/111-63.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    63. 總督府推行集團移住期待「可使原住民『舊來勢力關係中斷』」，就此來看，總
+    督府推行集團移住的主要目的為何？請在答題卷表格中勾選一項，並說明判斷
+    的理由。（3 分，50 字內）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-64
+  'no': 64
+  type: open
+  points: 2
+  group: soc111-g61
+  image: img/social/111-64.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    64. 請在答題卷作答區繪出一組「連接線」與
+    「箭頭」來代表從移出地地點遷移到移入
+    地地點，以作為文中說明「集團移住造成
+    賽德克族、太魯閣族與布農族混居情況」
+    的輔助地圖。（3 分）
+
+
+
+
+
+
+
+
+
+
+    繪製集團移住示意圖示例
+    兩個圓點分別代表移出地與移入地
+    箭頭代表移出地遷移到移入地的方向
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-65
+  'no': 65
+  type: single
+  points: 2
+  group: soc111-g65
+  image: img/social/111-65.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    65. 文中所敘述之事件，乃發生於羅馬人統治的時代。時至今日，若以法治國家理念
+    檢視此案，可看出題文中羅馬法律保障羅馬公民的規定，與下列何種近代法律重
+    要原則的精神最為接近？
+    (A)自由心證原則
+
+    (B)公開審理原則
+    (C)無罪推定原則
+
+    (D)偵查不公開原則
+  stats:
+    P: 81
+    Ph: 95
+    Pl: 59
+    D: 36
+    opt:
+      A: 4
+      B: 12
+      C: 81
+      D: 3
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-66
+  'no': 66
+  type: single
+  points: 2
+  group: soc111-g65
+  image: img/social/111-66.webp
+  stem: ''
+  options:
+    A: ''
+    B: ''
+    C: ''
+    D: ''
+  answer: C
+  text: |-
+    66. 保羅從耶路撒冷被押解去羅馬的航程中，前期與一般貿易航線類似，沿著陸地前
+    行，利用地形來減輕航行的障礙。若從行星風系的大氣環流角度，押解保羅的航
+    程沿陸地前行，最可能是為了避開哪一行星風帶或氣壓帶的影響？
+    (A)東北信風帶
+
+    (B)極圈氣旋帶
+    (C)盛行西風帶
+
+    (D)副熱帶高壓帶
+  stats:
+    P: 50
+    Ph: 61
+    Pl: 38
+    D: 23
+    opt:
+      A: 18
+      B: 4
+      C: 50
+      D: 27
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false
+- id: soc111-67
+  'no': 67
+  type: open
+  points: 2
+  group: soc111-g65
+  image: img/social/111-67.webp
+  stem: ''
+  options: null
+  answer: null
+  text: |-
+    67. 請問猶太教與基督教的信仰屬性分別是「一神信仰」或「多神信仰」？以及此二
+    宗教對「神的選民」之看法分別為何？請在答題卷表格中作答。（3 分）
+  topic: null
+  concepts: []
+  classic: null
+  explain: ''
+  reviewed: false

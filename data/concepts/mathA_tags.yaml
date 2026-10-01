@@ -93,23 +93,45 @@ ma111-18: [M9]
 ma111-19: [M9, M3]
 ma111-20: [M9, M3]
 # 110 學測數學（舊課綱，數A、數B 共用一份試卷）：超出 108 課綱學測範圍的題目標 out，不進每日練習主線
-ma110-01: [M5]
+ma110-01: {topic: M5, tags: [], dup: mathB}
 ma110-02: [M8, M1]
-ma110-03: [M3]
+ma110-03: {topic: M3, tags: [], dup: mathB}
 ma110-04: [M4]
 ma110-05: [M2]
 ma110-06: {topic: M9, tags: [], out: 橢圓方程式（二次曲線）不在學測數A範圍}
-ma110-07: [M6]
+ma110-07: {topic: M6, tags: [], dup: mathB}
 ma110-08: [M9, M4]
-ma110-09: [M1]
+ma110-09: {topic: M1, tags: [], dup: mathB}
 ma110-10: [M3]
-ma110-11: [M4, M3]
+ma110-11: {topic: M4, tags: [M3], dup: mathB}
 ma110-12: [M6, M7]
 ma110-13: {topic: M2, tags: [], out: 選項用到虛根（複數），不在學測數A範圍}
-ma110-14: [M8]
+ma110-14: {topic: M8, tags: [], dup: mathB}
 ma110-15: [M4]
 ma110-16: [M6, M7]
 ma110-17: [M1]
 ma110-18: [M1]
 ma110-19: [M3]
 ma110-20: [M4]
+
+# 109 學測數學（舊課綱，與數B 共用同一份試卷；每題只排在一科）
+ma109-01: {topic: M3, tags: [], dup: mathB}
+ma109-02: [M4]
+ma109-03: {topic: M4, tags: [], dup: mathB}
+ma109-04: {topic: M5, tags: [], dup: mathB}
+ma109-05: {topic: M1, tags: [], dup: mathB}
+ma109-06: [M6, M1]
+ma109-07: {topic: M2, tags: [M3], dup: mathB}
+ma109-08: {topic: M8, tags: [M7], dup: mathB}
+ma109-09: {topic: M4, tags: [], dup: mathB}
+ma109-10: {topic: M2, tags: [], dup: mathB}
+ma109-11: [M1]
+ma109-12: {topic: M6, tags: [], dup: mathB}
+ma109-13: [M4]
+ma109-14: [M8]
+ma109-15: {topic: M6, tags: [], dup: mathB}
+ma109-16: [M9]
+ma109-17: {topic: M3, tags: [], dup: mathB}
+ma109-18: [M4]
+ma109-19: {topic: M9, tags: [], out: 拋物線方程式與焦距（二次曲線）不在學測數A範圍}
+ma109-20: [M3]

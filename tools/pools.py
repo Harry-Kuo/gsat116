@@ -29,7 +29,7 @@ def main(lo=110, hi=115):
             nos = {k.split("-")[0] for k, v in key.items() if v != "／"}
             n = sum(1 for no in nos if (stats.get(no) or {}).get("D") is None or stats[no]["D"] >= 10)
             bank = ROOT / "data" / "questions" / s / f"g{y}.yaml"
-            if s.startswith("math") and y == 110 and bank.exists():
+            if s.startswith("math") and y in (109, 110) and bank.exists():
                 # 110 年是舊課綱的數學卷：選填題答案依列號給（不能用來數題數），且要扣掉 108 課綱範圍外的題目
                 n = sum(1 for it in qyaml.load(bank)["items"] if it.get("classic"))
             out[s][str(y)] = n

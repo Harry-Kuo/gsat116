@@ -12,10 +12,10 @@ CEEC = ROOT / "data" / "ceec"
 
 # 內部科目代碼 → (各年度試題清單的科目名稱, 統計表工作表名稱)
 SUBJECTS = {
-    "chinese": {"paper": {110: "國文（選擇題）", "default": "國綜"}, "sheet": "國文"},
+    "chinese": {"paper": {109: "國文（選擇題）", 110: "國文（選擇題）", "default": "國綜"}, "sheet": "國文"},
     "english": {"paper": {"default": "英文"}, "sheet": "英文"},
-    "mathA": {"paper": {110: "數學", "default": "數學A"}, "sheet": {110: "數學", "default": "數學A"}},
-    "mathB": {"paper": {110: "數學", "default": "數學B"}, "sheet": {110: "數學", "default": "數學B"}},
+    "mathA": {"paper": {109: "數學", 110: "數學", "default": "數學A"}, "sheet": {109: "數學", 110: "數學", "default": "數學A"}},
+    "mathB": {"paper": {109: "數學", 110: "數學", "default": "數學B"}, "sheet": {109: "數學", 110: "數學", "default": "數學B"}},
     "social": {"paper": {"default": "社會"}, "sheet": "社會"},
     "science": {"paper": {"default": "自然"}, "sheet": "自然"},
 }

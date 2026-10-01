@@ -1,0 +1,1353 @@
+exam: 學測
+year: 109
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0k050353241892403895/03-109%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf
+groups: []
+items:
+- id: ma109-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 79
+    Ph: 99
+    Pl: 49
+    D: 50
+    opt:
+      '1': 5
+      '2': 79
+      '3': 8
+      '4': 4
+      '5': 4
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-01.webp
+  text: |-
+    說明：第1 題至第7 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請畫記
+    在答案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或畫記多
+    於一個選項者，該題以零分計算。
+
+    1. 已知兩個直角三角形三邊長分別為3,4,5、5,12,13，
+    ,
+    分別為它們的一角，如
+    下圖所示。試選出正確的選項。
+    (1) sin
+    sin
+    sin30
+    
+    
+    
+    
+    
+    (2) sin
+    sin30
+    sin
+    
+    
+    
+    
+
+    (3) sin
+    sin
+    sin30
+    
+    
+    
+    
+    
+    (4) sin
+    sin30
+    sin
+    
+    
+    
+    
+
+    (5) sin30
+    sin
+    sin
+    
+    
+    
+    
+
+
+    13
+    5
+    12
+    β
+    5
+    3
+    4
+    α
+- id: ma109-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 43
+    Ph: 84
+    Pl: 10
+    D: 74
+    opt:
+      '1': 43
+      '2': 23
+      '3': 14
+      '4': 10
+      '5': 10
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-02.webp
+  text: |-
+    2. 空間中有相異四點
+    , , ,
+    A B C D ，已知內積
+    AB ∙
+    AC ＝
+    AB ∙
+    AD。試選出正確的選項。
+    (1) 
+    AB ∙
+    CD＝0
+    (2) AC
+    AD
+    
+
+    (3) 
+    AB 與
+    CD平行
+    (4) 
+    AD∙
+    BC ＝0
+    (5)
+    , , ,
+    A B C D 四點在同一平面上
+- id: ma109-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 76
+    Ph: 99
+    Pl: 41
+    D: 58
+    opt:
+      '1': 3
+      '2': 76
+      '3': 11
+      '4': 8
+      '5': 2
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-03.webp
+  text: |-
+    3. 如圖所示，O 為正六邊形之中心。試問下列哪個向量的終點P 落在
+    ODE
+    
+    內部
+    （不含邊界）？
+    (1) 
+    OP＝
+    OC＋
+    OE
+    (2) 
+    OP＝1
+    4
+    
+    OC＋1
+    2
+    
+    OE
+    (3) 
+    OP＝
+    1
+    4
+    
+    OC＋1
+    2
+    
+    OE
+    (4) 
+    OP＝1
+    4
+    
+    OC－1
+    2
+    
+    OE
+    (5) 
+    OP＝
+    1
+    4
+    
+    OC－1
+    2
+    
+    OE
+    D
+    E
+    O
+    F
+    C
+    A
+    B
+- id: ma109-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M5
+  tags: []
+  concepts:
+  - M5
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 61
+    Ph: 89
+    Pl: 24
+    D: 65
+    opt:
+      '1': 5
+      '2': 14
+      '3': 10
+      '4': 10
+      '5': 61
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-04.webp
+  text: |-
+    4. 令
+    1
+    0
+    0
+    1
+    I
+    
+    
+    
+    
+    
+    
+    ，
+    1
+    1
+    3
+    4
+    A
+    
+    
+    
+    
+    
+    
+    ，
+    1
+    B
+    I
+    A
+    A
+    
+    
+    
+    ，試選出代表BA的選項。
+    (1)
+    1
+    0
+    0
+    1
+    
+    
+    
+    
+    
+    
+
+    (2)
+    6
+    0
+    0
+    6
+    
+    
+    
+    
+    
+    
+
+    (3)
+    4
+    1
+    3
+    1
+    
+    
+    
+    
+    
+    
+    
+    
+
+    (4)
+    1
+    1
+    3
+    4
+    
+    
+    
+    
+    
+    
+
+    (5)
+    6
+    6
+    18
+    24
+    
+    
+    
+    
+    
+    
+- id: ma109-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 68
+    Ph: 94
+    Pl: 35
+    D: 59
+    opt:
+      '1': 11
+      '2': 13
+      '3': 68
+      '4': 6
+      '5': 2
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-05.webp
+  text: |-
+    5. 試問數線上有多少個整數點與點
+    101 的距離小於5，但與點
+    38 的距離大於3？
+    (1) 1 個
+    (2) 4 個
+    (3) 6 個
+    (4) 8 個
+    (5) 10 個
+- id: ma109-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M6
+  tags:
+  - M1
+  concepts:
+  - M6
+  - M1
+  classic: true
+  stats:
+    P: 61
+    Ph: 95
+    Pl: 23
+    D: 72
+    opt:
+      '1': 7
+      '2': 6
+      '3': 16
+      '4': 61
+      '5': 9
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-06.webp
+  text: |-
+    6. 連續投擲一公正骰子兩次，設出現的點數依序為
+    ,a b 。試問發生
+    
+    
+    2
+    log
+    log
+    1
+    a
+    b
+    
+    
+    的機率為多少？
+    (1) 1
+    3
+    (2) 1
+    2
+    (3) 2
+    3
+    (4) 3
+    4
+    (5) 5
+    6
+- id: ma109-07
+  'no': 7
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M2
+  tags:
+  - M3
+  concepts:
+  - M2
+  - M3
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 46
+    Ph: 87
+    Pl: 15
+    D: 72
+    opt:
+      '1': 13
+      '2': 15
+      '3': 14
+      '4': 46
+      '5': 11
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-07.webp
+  text: |-
+    7. 坐標平面上，函數圖形
+    3
+    3
+    y
+    x
+    
+    上有兩點
+    ,
+    P Q 到原點距離皆為1。已知點P 坐標
+    為(cos ,sin )
+    
+    ，試問點Q 坐標為何？
+    (1) 
+    
+    cos(
+    ),sin(
+    )
+    
+    
+    
+    
+
+    (2) 
+    
+    cos ,sin
+    
+    
+    
+
+    (3) 
+    
+    cos(
+    ), sin
+    
+    
+    
+    
+
+    (4) 
+    
+    cos ,sin(
+    )
+    
+    
+    
+    
+
+    (5) 
+    
+    cos , sin
+    
+    
+    
+- id: ma109-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2
+  topic: M8
+  tags:
+  - M7
+  concepts:
+  - M8
+  - M7
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 72
+    Ph: 93
+    Pl: 44
+    D: 49
+    T: 58
+    opt:
+      '1': 78
+      '2': 85
+      '3': 8
+      '4': 25
+      '5': 8
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-08.webp
+  text: |-
+    說明：第8 題至第13 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選項
+    畫記在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答對者，
+    得5 分；答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2 個選項
+    或所有選項均未作答者，該題以零分計算。
+
+    8. 有一個遊戲的規則如下：丟三顆公正骰子，若所得的點數恰滿足下列（A）或
+    （B）兩個條件之一，可得到獎金100 元；若兩個條件都滿足，則共得200 元
+    獎金；若兩個條件都不滿足，則無獎金。
+    （A）三個點數皆為奇數或者皆為偶數
+    （B）三個點數由小排到大為等差數列
+    若已知有兩顆骰子的點數分別為1,3，且所得獎金為100 元，則未知的骰子點
+    數可能為何？
+    (1) 2
+    (2) 3
+    (3) 4
+    (4) 5
+    (5) 6
+- id: ma109-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 4,5
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 42
+    Ph: 81
+    Pl: 13
+    D: 68
+    T: 31
+    opt:
+      '1': 36
+      '2': 40
+      '3': 33
+      '4': 68
+      '5': 60
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-09.webp
+  text: |-
+    9. 在坐標平面上，有一通過原點O 的直線L ，以及一半徑為
+    2、圓心為原點O 的
+    圓。
+    ,
+    P Q 為上相異2 點，且
+    ,
+    OP OQ 分別與L 所夾的銳角皆為30，試選出內積
+    
+    OP 
+    OQ之值可能發生的選項。
+    (1) 2 3
+    (2)
+    2 3
+    
+
+    (3) 0
+    (4)
+    2
+    
+    (5)
+    4
+    
+- id: ma109-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 54
+    Ph: 86
+    Pl: 21
+    D: 65
+    T: 33
+    opt:
+      '1': 78
+      '2': 21
+      '3': 53
+      '4': 79
+      '5': 20
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-10.webp
+  text: |-
+    10. 考慮多項式
+    4
+    2
+    ( )
+    3
+    11
+    4
+    f x
+    x
+    x
+    
+    
+    
+    ，試選出正確的選項。
+    (1)
+    ( )
+    y
+    f x
+    
+    的圖形和y 軸交點的y 坐標小於0
+    (2)
+    ( )
+    0
+    f x 
+    有4 個實根
+    (3)
+    ( )
+    0
+    f x 
+    至少有一個有理根
+    (4)
+    ( )
+    0
+    f x 
+    有一根介於0 與1 之間
+    (5)
+    ( )
+    0
+    f x 
+    有一根介於1 與2 之間
+- id: ma109-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 62
+    Ph: 95
+    Pl: 22
+    D: 73
+    T: 50
+    opt:
+      '1': 22
+      '2': 23
+      '3': 76
+      '4': 26
+      '5': 78
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-11.webp
+  text: |-
+    11. 設
+    , ,
+    a b c 為實數且滿足log
+    1.1
+    a 
+    、log
+    2.2
+    b 
+    、log
+    3.3
+    c 
+    。試選出正確的選項。
+    (1)
+    2
+    a
+    c
+    b
+    
+
+    (2) 1
+    10
+    a
+    
+    
+
+    (3) 1000
+    2000
+    c
+    
+
+    (4)
+    2
+    b
+    a
+    
+
+    (5)
+    , ,
+    a b c 成等比數列
+- id: ma109-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 76
+    Ph: 93
+    Pl: 55
+    D: 38
+    T: 61
+    opt:
+      '1': 92
+      '2': 14
+      '3': 82
+      '4': 11
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-12.webp
+  text: |-
+    12. 下表是2011 年至2018 年某國總就業人口與農業就業人口的部分相關數據，
+    各年度的人口以人數計，有些是以千人計，有些以萬人計，例如2011 年總就
+    業人口為1,070.9 萬人，65 歲以上男性農業就業人口為69.1 千人。試根據表
+    格資料選出正確的選項。
+
+    就業人口
+    男性農業就業人口按年齡別分
+    年別
+    總就業人口
+    （萬人）
+    農業就業
+    人口
+    （萬人）
+    男性農業
+    就業人口
+    （千人）
+    39 歲以下
+    （千人）
+    40-49 歲
+    （千人）
+    50-64 歲
+    （千人）
+    65 歲以上
+    （千人）
+    2011 年
+    1,070.9
+    54.2
+    386.3
+    67.6
+    85.4
+    164.2
+    69.1
+    2012 年
+    1,086.0
+    54.4
+    394.9
+    67.5
+    87.0
+    169.5
+    70.9
+    2013 年
+    1,096.7
+    54.4
+    391.5
+    66.6
+    83.9
+    171.3
+    69.7
+    2014 年
+    1,107.9
+    54.8
+    391.2
+    65.8
+    79.8
+    173.0
+    72.6
+    2015 年
+    1,119.8
+    55.5
+    403.1
+    71.7
+    76.9
+    181.3
+    73.2
+    2016 年
+    1,126.7
+    55.7
+    404.5
+    77.4
+    77.4
+    176.4
+    73.3
+    2017 年
+    1,135.2
+    55.7
+    405.1
+    73.9
+    78.1
+    178.3
+    74.8
+    2018 年
+    1,143.4
+    56.1
+    415.1
+    72.0
+    78.8
+    184.9
+    79.4
+
+    (1) 從2013 年至2018 年，65 歲以上的男性農業就業人口逐年遞增
+    (2) 從2013 年至2018 年，50 歲至64 歲之男性農業就業人口逐年遞增
+    (3) 上表中，每一年的男性農業就業人口占總就業人口的比率都小於百分之五
+    (4) 上表中，每一年50 歲至64 歲之男性農業就業人口都少於49 歲以下之男
+    性農業就業人口
+    (5) 就65 歲以上之男性農業就業人口而言，2018 年比2011 年增加了不到一萬人
+- id: ma109-13
+  'no': 13
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,4
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 64
+    Ph: 84
+    Pl: 43
+    D: 41
+    T: 44
+    opt:
+      '1': 17
+      '2': 87
+      '3': 14
+      '4': 79
+      '5': 36
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-13.webp
+  text: |-
+    13. 如示意圖，四面體OABC 中，
+    OAB
+    
+    和
+    OAC
+    
+    均為正三角形，
+    30
+    BOC
+    
+    
+    。試選出
+    正確的選項。
+    (1) BC
+    OC
+    
+
+    (2)
+    OBC
+    
+    是等腰三角形
+    (3)
+    OBC
+    
+    的面積大於
+    OAB
+    
+    的面積
+    (4)
+    30
+    CAB
+    
+    
+    
+    (5) 平面OAB 和平面OAC 的夾角（以銳角計）小於30
+
+
+    O
+    C
+    B
+    A
+- id: ma109-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 3,0,0
+  topic: M8
+  tags: []
+  concepts:
+  - M8
+  classic: true
+  stats:
+    P: 78
+    Ph: 97
+    Pl: 50
+    D: 47
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-14.webp
+  text: |-
+    說明：1.第A 至G 題，將答案畫記在答案卡之「選擇（填）題答案區」所標示的列號（14–36）
+    2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+
+    A. 網路賣家以200 元的成本取得某件模型，並以成本的5 倍作為售價，差價即為
+    利潤。但過了一段時間無人問津，因此賣家決定以逐次減少一半利潤的方式調
+    降售價。若依此方式進行，則調降三次後該模型的售價為○
+    14 ○
+    15 ○
+    16 元。
+  label: 選填 A
+  cells:
+  - '14'
+  - '15'
+  - '16'
+- id: ma109-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,9
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 69
+    Ph: 96
+    Pl: 31
+    D: 65
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-15.webp
+  text: |-
+    B. 有一按鈕遊戲機，每投幣一枚，可按遊戲機三次。第一次按下會出現黑色或白
+    色的機率各為1
+    2 ；第二或第三次按下，出現與前一次同色的機率為1
+    3 ，不同色的
+    機率為2
+    3 。今某甲投幣一枚後，按三次均出現同色的機率為○
+    17
+    ○
+    18
+    。（化為最簡分
+    數）
+  label: 選填 B
+  cells:
+  - '17'
+  - '18'
+- id: ma109-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,5
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: true
+  stats:
+    P: 53
+    Ph: 93
+    Pl: 11
+    D: 82
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-16.webp
+  text: |-
+    C. 設S 為坐標平面上直線2
+    10
+    x
+    y
+    
+    
+    被平行線
+    2
+    15
+    0
+    x
+    y
+    
+    
+    
+    與
+    2
+    0
+    x
+    y
+    
+    
+    所截的線段
+    （含端點）。若直線3x
+    y
+    c
+    
+    
+    與S 有交點，則c 的最小值為○
+    19 ○
+    20 。
+  label: 選填 C
+  cells:
+  - '19'
+  - '20'
+- id: ma109-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,1,0,5
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 35
+    Ph: 84
+    Pl: 1
+    D: 83
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-17.webp
+  text: |-
+    D. 平面上有一箏形ABCD，其中
+    2
+    AB
+    BC
+    
+    
+    ，
+    2
+    AD
+    CD
+    
+    
+    ，
+    135
+    BAD
+    
+    
+    。
+    則AC ○
+     21
+    ○
+     22 ○
+     23
+    ○
+     24
+    。（化為最簡根式）
+  label: 選填 D
+  cells:
+  - '21'
+  - '22'
+  - '23'
+  - '24'
+- id: ma109-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,3,－,1,－,2
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 33
+    Ph: 83
+    Pl: 0
+    D: 83
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-18.webp
+  text: |-
+    E. 空間中有三點
+    (1,7,2)
+    A
+    、
+    (2, 6,3)
+    B
+    
+    、
+    (0, 4,1)
+    C
+    
+    。若直線L 通過A 點並與直線BC 相交
+    且垂直，則L 和直線BC 的交點坐標為( ○
+    25 ○
+    26 , ○
+    27 ○
+    28 , ○
+    29 ○
+    30 )。
+  label: 選填 E
+  cells:
+  - '25'
+  - '26'
+  - '27'
+  - '28'
+  - '29'
+  - '30'
+- id: ma109-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 5,5,6
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 108 課綱範圍外：拋物線方程式與焦距（二次曲線）不在學測數A範圍
+  stats:
+    P: 21
+    Ph: 55
+    Pl: 0
+    D: 55
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-19.webp
+  text: |-
+    F. 坐標平面上有一條拋物線，其上有四個點構成等腰梯形，且等腰梯形的對稱
+    軸與的對稱軸重合。已知該等腰梯形的上底為4、下底為6、高為14，則
+    的焦距為
+    ○
+    31
+    ○
+    32 ○
+    33
+    。（化為最簡分數）
+  label: 選填 F
+  cells:
+  - '31'
+  - '32'
+  - '33'
+- id: ma109-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,6,3
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 48
+    Ph: 91
+    Pl: 6
+    D: 85
+  explain: ''
+  reviewed: false
+  image: img/mathA/109-20.webp
+  text: |-
+    G. 設計師為天文館設計以不銹鋼片製成的月亮形
+    狀，其中有一款設計圖如右圖所示：圖中，圓弧
+    QRT 是一個以O 點為圓心、QT 為直徑的半圓，
+    2 3
+    QT 
+    。圓弧QST 的圓心在P 點，
+    2
+    PQ
+    PT
+    
+    
+    。圓
+    弧QRT 與圓弧QST 所圍出的灰色區域QRTSQ 即為
+    某一天所見的月亮形狀。設此灰色區域的面積為
+    a
+    b
+    
+    ，其中為圓周率，a 為有理數，b 為整數，
+    則a ○
+    34
+    ○
+    35
+    （化為最簡分數），b ○
+    36 。
+
+
+
+
+    Q
+    O
+    P
+    R
+    S
+    T
+  label: 選填 G
+  cells:
+  - '34'
+  - '35'
+  - '36'

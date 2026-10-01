@@ -22,7 +22,8 @@ items:
   tags: []
   concepts:
   - M5
-  classic: true
+  classic: false
+  classic_note: 110 年學測數學只有一份試卷，這題排在數學B的練習
   stats:
     P: 84
     Ph: 100
@@ -155,7 +156,8 @@ items:
   tags: []
   concepts:
   - M3
-  classic: true
+  classic: false
+  classic_note: 110 年學測數學只有一份試卷，這題排在數學B的練習
   stats:
     P: 50
     Ph: 79
@@ -377,7 +379,8 @@ items:
   tags: []
   concepts:
   - M6
-  classic: true
+  classic: false
+  classic_note: 110 年學測數學只有一份試卷，這題排在數學B的練習
   stats:
     P: 81
     Ph: 94
@@ -521,7 +524,8 @@ items:
   tags: []
   concepts:
   - M1
-  classic: true
+  classic: false
+  classic_note: 110 年學測數學只有一份試卷，這題排在數學B的練習
   stats:
     P: 34
     Ph: 54
@@ -670,7 +674,8 @@ items:
   concepts:
   - M4
   - M3
-  classic: true
+  classic: false
+  classic_note: 110 年學測數學只有一份試卷，這題排在數學B的練習
   stats:
     P: 27
     Ph: 36
@@ -931,7 +936,8 @@ items:
   tags: []
   concepts:
   - M8
-  classic: true
+  classic: false
+  classic_note: 110 年學測數學只有一份試卷，這題排在數學B的練習
   stats:
     P: 70
     Ph: 93

@@ -17,8 +17,8 @@ import qyaml  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = ROOT / "docs" / "data"
-PAPER_NAME = {"chinese": {110: "國文", "default": "國綜"}, "english": "英文", "mathA": {110: "數學", "default": "數學A"},
-              "mathB": {110: "數學", "default": "數學B"}, "social": "社會", "science": "自然"}
+PAPER_NAME = {"chinese": {109: "國文", 110: "國文", "default": "國綜"}, "english": "英文", "mathA": {109: "數學", 110: "數學", "default": "數學A"},
+              "mathB": {109: "數學", 110: "數學", "default": "數學B"}, "social": "社會", "science": "自然"}
 # 屬性必須是 name="值" 的形式，避免把數學的「a<b ⇒ t>1」誤認成 <b> 標籤
 ALLOWED = r"""</?(?:u|em|sup|sub|br|b|i|table|tbody|tr|td|th|span|div|p|ruby|rt)(?:\s+[A-Za-z-]+(?:=(?:"[^"]*"|'[^']*'|[^\s"'<>]+))?)*\s*/?>"""
 
@@ -181,8 +181,10 @@ def main():
             pools[s] = {"total": 0, "published": 0}
             continue
         bank, groups = load_subject(s)
+        # 題池只算 110–115 六屆；109 年等更早的補充題另計（extra），不併入完成度
+        six = sum(1 for q in used[s] if (bank.get(q) or {}).get("_year", 999) >= 110)
         pools[s] = {"total": official_pools.get(s, {}).get("total") or sum(1 for it in bank.values() if it.get("classic")),
-                    "published": len(used[s])}
+                    "published": six, "extra": len(used[s]) - six}
         items, gout = {}, {}
         for qid in sorted(used[s]):
             it = bank.get(qid)

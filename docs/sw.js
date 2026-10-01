@@ -1,5 +1,5 @@
 // 離線快取：網站外殼先用快取；資料（JSON）先上網、失敗再用快取；題目圖片快取優先。
-const VERSION = "20261001094738";
+const VERSION = "20261001124417";
 const SHELL = ["./", "index.html", "countdown.html", "assets/style.css", "assets/app.js", "assets/api.js", "assets/store.js",
   "assets/util.js", "manifest.webmanifest", "icons/icon-192.png"];
 const CACHE = "g116-" + VERSION;

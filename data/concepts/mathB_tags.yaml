@@ -94,22 +94,44 @@ mb111-19: [B3]
 mb111-20: [B3]
 # 110 學測數學（舊課綱，數A、數B 共用一份試卷）：超出 108 課綱數B 範圍的題目標 out，不進每日練習主線
 mb110-01: [B7]
-mb110-02: [B4, B1]
+mb110-02: {topic: B4, tags: [B1], dup: mathA}
 mb110-03: [B3]
 mb110-04: {topic: B6, tags: [], out: 要用行列式求向量所張的面積，數B 不考}
-mb110-05: [B2]
+mb110-05: {topic: B2, tags: [], dup: mathA}
 mb110-06: {topic: B8, tags: [], out: 橢圓方程式（二次曲線）不在學測數B範圍}
 mb110-07: [B10]
-mb110-08: [B5, B6]
+mb110-08: {topic: B5, tags: [B6], dup: mathA}
 mb110-09: [B1]
-mb110-10: [B3]
+mb110-10: {topic: B3, tags: [], dup: mathA}
 mb110-11: [B6, B3]
-mb110-12: [B10, B9]
+mb110-12: {topic: B10, tags: [B9], dup: mathA}
 mb110-13: {topic: B2, tags: [], out: 選項用到虛根（複數），不在學測數B範圍}
 mb110-14: [B4]
 mb110-15: {topic: B8, tags: [], out: 空間中的直線與平面方程式，數B 不考}
-mb110-16: [B10, B9]
-mb110-17: [B1]
-mb110-18: [B1]
-mb110-19: [B3]
+mb110-16: {topic: B10, tags: [B9], dup: mathA}
+mb110-17: {topic: B1, tags: [], dup: mathA}
+mb110-18: {topic: B1, tags: [], dup: mathA}
+mb110-19: {topic: B3, tags: [], dup: mathA}
 mb110-20: {topic: B8, tags: [], out: 點到平面的距離（空間向量），數B 不考}
+
+# 109 學測數學（舊課綱，與數A 共用同一份試卷；每題只排在一科）
+mb109-01: [B3]
+mb109-02: {topic: B6, tags: [], out: 空間向量的內積，數B 不考}
+mb109-03: [B6]
+mb109-04: [B7]
+mb109-05: [B1]
+mb109-06: {topic: B10, tags: [B1], dup: mathA}
+mb109-07: [B2, B3]
+mb109-08: [B4, B9]
+mb109-09: [B6]
+mb109-10: [B2]
+mb109-11: {topic: B1, tags: [], dup: mathA}
+mb109-12: [B11]
+mb109-13: {topic: B8, tags: [], dup: mathA}
+mb109-14: {topic: B4, tags: [], dup: mathA}
+mb109-15: [B10]
+mb109-16: [B5]
+mb109-17: [B3]
+mb109-18: {topic: B8, tags: [], out: 空間中的直線（垂足坐標），數B 不考}
+mb109-19: {topic: B5, tags: [], out: 拋物線方程式與焦距（二次曲線）不在學測數B範圍}
+mb109-20: {topic: B3, tags: [], dup: mathA}

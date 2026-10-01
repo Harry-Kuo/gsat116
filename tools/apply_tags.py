@@ -3,6 +3,7 @@
 用法：python3 tools/apply_tags.py chinese
 經典必考（classic）規則：非選題不進快答主線；官方鑑別度 D < 10 視為低鑑別，不列入主線（仍保留在題庫）。
 舊課綱（110 年）超出 108 課綱範圍的題目，在 _tags.yaml 寫成 {topic: M9, tags: [], out: 理由}，同樣不進主線。
+109、110 年學測數學只有一份試卷，數A、數B 題庫各存一份；每題只排在一科，另一科寫成 {topic: B1, tags: [], dup: mathA}。
 """
 import sys
 from pathlib import Path
@@ -33,9 +34,9 @@ def main(subject):
         doc = qyaml.load(path)
         for it in doc["items"]:
             entry = tags_map.get(it["id"])
-            out_note = None
+            out_note = dup = None
             if isinstance(entry, dict):
-                out_note = entry.get("out")
+                out_note, dup = entry.get("out"), entry.get("dup")
                 entry = [entry["topic"], *(entry.get("tags") or [])]
             if entry:
                 topic, tags = entry[0], entry[1:]
@@ -50,6 +51,9 @@ def main(subject):
             if out_note:
                 it["classic"] = False
                 it["classic_note"] = f"108 課綱範圍外：{out_note}"
+            elif dup:
+                it["classic"] = False
+                it["classic_note"] = f"{it['id'][2:5]} 年學測數學只有一份試卷，這題排在{ {'mathA': '數學A', 'mathB': '數學B'}[dup] }的練習"
             elif it["type"] == "open":
                 it["classic"] = False
                 it["classic_note"] = "非選題：放在課堂與 Notion 練習，不進快答主線"
