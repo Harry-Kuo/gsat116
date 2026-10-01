@@ -1764,8 +1764,10 @@ items:
     D: ''
     E: ''
   answer: AC
-  topic: null
-  concepts: []
+  topic: C4
+  tags: []
+  concepts:
+  - C4
   classic: true
   stats:
     P: 42
@@ -1806,8 +1808,10 @@ items:
     D: ''
     E: ''
   answer: AE
-  topic: null
-  concepts: []
+  topic: C2
+  tags: []
+  concepts:
+  - C2
   classic: true
   stats:
     P: 33
@@ -2462,8 +2466,12 @@ items:
     D: ''
     E: ''
   answer: ACD
-  topic: null
-  concepts: []
+  topic: E4
+  tags:
+  - E2
+  concepts:
+  - E4
+  - E2
   classic: true
   stats:
     P: 55
@@ -2504,8 +2512,10 @@ items:
     D: ''
     E: ''
   answer: CE
-  topic: null
-  concepts: []
+  topic: B3
+  tags: []
+  concepts:
+  - B3
   classic: true
   stats:
     P: 50
@@ -2864,8 +2874,10 @@ items:
     D: ''
     E: ''
   answer: BE
-  topic: null
-  concepts: []
+  topic: P3
+  tags: []
+  concepts:
+  - P3
   classic: true
   stats:
     P: 57
@@ -2955,8 +2967,12 @@ items:
     D: ''
     E: ''
   answer: CE
-  topic: null
-  concepts: []
+  topic: C1
+  tags:
+  - C3
+  concepts:
+  - C1
+  - C3
   classic: true
   stats:
     P: 47
@@ -3071,8 +3087,10 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: C1
+  tags: []
+  concepts:
+  - C1
   classic: true
   stats:
     P: 40
@@ -3127,8 +3145,10 @@ items:
     D: ''
     E: ''
   answer: AE
-  topic: null
-  concepts: []
+  topic: C1
+  tags: []
+  concepts:
+  - C1
   classic: true
   stats:
     P: 49

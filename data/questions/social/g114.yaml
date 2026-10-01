@@ -1502,8 +1502,10 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: H1
+  tags: []
+  concepts:
+  - H1
   classic: true
   stats:
     P: 38
@@ -2313,8 +2315,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: D5
+  tags:
+  - D1
+  concepts:
+  - D5
+  - D1
   classic: true
   stats:
     P: 44
@@ -2445,8 +2451,10 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: G4
+  tags: []
+  concepts:
+  - G4
   classic: true
   stats:
     P: 26

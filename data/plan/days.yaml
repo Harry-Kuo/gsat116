@@ -133,3 +133,66 @@ days:
       mathB: [mb112-07, mb111-06, mb111-05, mb111-14, mb112-17]
       science: [sci115-25, sci115-26, sci115-27, sci114-37, sci114-39]
       social: [soc114-59, soc114-60, soc114-50, soc114-54, soc114-62]
+  - day: 15
+    theme: {chinese: 白話閱讀：情緒與心結, english: 綜合測驗（113 第一篇）, mathA: 數與式、指數對數, mathB: 數與式、指數對數, science: 地震海嘯預警、起重機的力與能量、DNA 鹼基, social: 原住民族與土地}
+    sets:
+      chinese: [chn110-05, chn110-06, chn113-18, chn113-19, chn113-20]
+      english: [eng113-11, eng113-12, eng113-13, eng113-14, eng113-15]
+      mathA: [ma111-02, ma111-07, ma110-17, ma110-18, ma109-11]
+      mathB: [mb111-01, mb111-13, mb114-18, mb110-09, mb109-05]
+      science: [sci113-06, sci115-07, sci115-08, sci115-11, sci115-12]
+      social: [soc113-09, soc115-30, soc115-31, soc115-32, soc115-33]
+  - day: 16
+    theme: {chinese: 文言小品：寓言、筆記與自序, english: 綜合測驗（113 第二篇）, mathA: 多項式與數列, mathB: 多項式與數列, science: 啤酒苦味的萃取、溫度決定性別、眼睛與相機, social: 黃河水患與古代防疫}
+    sets:
+      chinese: [chn110-40, chn112-07, chn111-30, chn111-12, chn111-13]
+      english: [eng113-16, eng113-17, eng113-18, eng113-19, eng113-20]
+      mathA: [ma111-10, ma111-12, ma110-05, ma110-02, ma109-14]
+      mathB: [mb111-09, mb111-12, mb109-10, mb110-14, mb109-08]
+      science: [sci113-21, sci114-28, sci114-29, sci115-37, sci115-39]
+      social: [soc115-57, soc115-58, soc115-59, soc115-61, soc115-62]
+  - day: 17
+    theme: {chinese: 文言題組：海防策論與題跋, english: 文意選填（上）, mathA: 三角函數與三角形, mathB: 三角函數與三角測量, science: 月球溫度與核能、海洋水色與聖嬰、化學計量, social: 違規停車、台積電熊本廠、巴米揚大佛}
+    sets:
+      chinese: [chn115-29, chn112-15, chn112-17, chn112-19, chn112-20]
+      english: [eng113-21, eng113-22, eng113-23, eng113-24, eng113-25]
+      mathA: [ma111-15, ma112-18, ma110-10, ma110-19, ma109-20]
+      mathB: [mb111-18, mb110-03, mb109-01, mb109-17, mb109-07]
+      science: [sci113-14, sci115-17, sci115-18, sci114-41, sci114-42]
+      social: [soc115-26, soc115-27, soc115-28, soc115-29, soc115-45]
+  - day: 18
+    theme: {chinese: 跨文本：檳榔與硃砂, english: 文意選填（下）, mathA: 坐標幾何與平面向量, mathB: 坐標幾何與平面向量, science: 烷類燃燒熱、潮汐與潮汐發電、海洋的時間尺度, social: 臺灣史：日治墓園、異域孤軍、劉銘傳的鐵路}
+    sets:
+      chinese: [chn113-29, chn114-27, chn112-23, chn112-24, chn112-25]
+      english: [eng113-26, eng113-27, eng113-28, eng113-29, eng113-30]
+      mathA: [ma111-06, ma111-18, ma111-09, ma110-04, ma110-08]
+      mathB: [mb111-08, mb111-11, mb111-04, mb115-18, mb112-18]
+      science: [sci113-29, sci114-55, sci114-57, sci115-51, sci115-52]
+      social: [soc115-34, soc115-35, soc115-36, soc115-38, soc115-53]
+  - day: 19
+    theme: {chinese: 詩詞：杜甫與現代詩, english: 篇章結構＋詞彙, mathA: 空間向量與平面, mathB: 向量、矩陣與空間概念, science: 光觸媒的能隙、花蜜的苄丙酮與尼古丁、溫帶氣旋, social: 貿易戰、文化政策、荷莫茲海峽}
+    sets:
+      chinese: [chn110-07, chn112-30, chn110-42, chn115-22, chn115-23]
+      english: [eng113-31, eng113-32, eng113-33, eng113-34, eng112-09]
+      mathA: [ma111-11, ma111-16, ma113-18, ma110-15, ma110-20]
+      mathB: [mb113-18, mb111-07, mb110-11, mb109-03, mb110-01]
+      science: [sci113-32, sci114-50, sci114-52, sci115-40, sci115-43]
+      social: [soc115-47, soc115-48, soc115-50, soc115-51, soc115-64]
+  - day: 20
+    theme: {chinese: 小說與散文, english: 閱讀測驗（一）＋詞彙, mathA: 機率與統計, mathB: 機率與數據分析, science: 汞能階與極紫外光、隕石定年與隕石坑、第二週期元素, social: 修法程序、勞保補貼、殖民城市、朱一貴事件}
+    sets:
+      chinese: [chn110-39, chn111-28, chn112-28, chn113-16, chn113-17]
+      english: [eng113-35, eng113-36, eng113-37, eng113-38, eng112-10]
+      mathA: [ma111-03, ma111-13, ma110-12, ma110-16, ma109-06]
+      mathB: [mb111-15, mb111-16, mb111-10, mb110-07, mb109-15]
+      science: [sci113-11, sci115-47, sci115-48, sci115-55, sci115-56]
+      social: [soc113-16, soc114-29, soc115-39, soc115-41, soc115-55]
+  - day: 21
+    theme: {chinese: 填句與語意邏輯, english: 閱讀測驗（二）＋詞彙, mathA: 計數、矩陣與空間挑戰, mathB: 計數、矩陣與綜合, science: 量子點、mRNA、基本交互作用、地震預警, social: 玉山地形、番茄糊市場、美中關係、大航海與東亞文化圈}
+    sets:
+      chinese: [chn111-27, chn110-31, chn110-32, chn112-21, chn112-22]
+      english: [eng113-39, eng113-40, eng113-41, eng113-42, eng111-03]
+      mathA: [ma111-01, ma111-14, ma111-17, ma109-13, ma109-18]
+      mathB: [mb111-03, mb111-17, mb109-12, mb109-04, mb109-09]
+      science: [sci113-05, sci113-20, sci113-31, sci115-44, sci115-45]
+      social: [soc113-04, soc113-14, soc114-52, soc114-57, soc115-43]

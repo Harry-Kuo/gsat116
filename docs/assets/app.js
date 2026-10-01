@@ -466,19 +466,26 @@ function showChoiceResult(sess, entry, it, rec) {
 }
 
 function feedbackHTML(it, cls, head, extra = "") {
-  const cnames = (it.c || []).map((c) => conceptName(it.s, c)).filter(Boolean);
+  const tags = conceptTags(it.s, it.c);
   return `<div class="fb ${cls}">
     <h3>${head}</h3>
     ${extra ? `<div class="small">${esc(extra)}</div>` : ""}
     ${it.k ? `<p class="keyline">💡 ${esc(it.k)}</p>` : ""}
-    ${cnames.length ? `<div>${cnames.map((n) => `<span class="tag">${esc(n)}</span>`).join("")}</div>` : ""}
+    ${tags ? `<div>${tags}</div>` : ""}
     <details class="ex"><summary>看完整解析</summary><div class="body">${it.ex || '<p class="muted">解析整理中，先看上面的重點，或請老師在課堂講解。</p>'}</div></details>
   </div>`;
 }
 
-function conceptName(s, cid) {
-  for (const m of CONCEPTS[s]?.modules || []) for (const c of m.concepts) if (c.id === cid) return c.name;
-  return "";
+function findConcept(s, cid) {
+  for (const m of CONCEPTS[s]?.modules || []) for (const c of m.concepts) if (c.id === cid) return c;
+  return null;
+}
+
+// 觀念標籤：有對應的 Notion 重點頁就做成連結，在新分頁開啟
+function conceptTags(s, cids) {
+  return (cids || []).map((cid) => findConcept(s, cid)).filter(Boolean).map((c) => c.notion
+    ? `<a class="tag" href="${esc(c.notion)}" target="_blank" rel="noopener">📚 ${esc(c.name)}</a>`
+    : `<span class="tag">${esc(c.name)}</span>`).join("");
 }
 
 // 選填題的作答格名稱：新制是「題號-第幾格」（13-1）；110 年以前是原卷的列號（14、15…）
@@ -594,7 +601,7 @@ async function viewSummary(sess) {
       <div class="muted">答對 ${recs.length - wrong.length}/${recs.length} 題・用時 ${fmtSec(sec)}</div>
     </div>
     ${wrong.length ? `<div class="card"><b>這幾題會在 1、3、7 天後再出現：</b><ul class="list">${wrong.map((x) => `<li><span class="t">${esc(x.it?.src || x.e.qid)}</span>
-      <div>${(x.it?.c || []).map((c) => `<span class="tag">${esc(conceptName(x.e.s, c))}</span>`).join("")}</div></li>`).join("")}</ul></div>`
+      <div>${conceptTags(x.e.s, x.it?.c)}</div></li>`).join("")}</ul></div>`
       : `<div class="card center">全對！🎉</div>`}
     <div class="sync"><span id="synctext">${syncText()}</span></div>
   </div>
@@ -620,7 +627,7 @@ async function viewWrong() {
     <div class="qhead"><span>📕 錯題本（${rows.length} 題）</span><button class="x" id="exit">×</button></div>
     ${rows.length ? `<div class="card"><ul class="list">${rows.map((r) => `<li data-q="${esc(r.qid)}">
         <div class="t">${esc(r.it.src)}</div>
-        <div>${(r.it.c || []).map((c) => `<span class="tag">${esc(conceptName(r.s, c))}</span>`).join("")}<span class="muted small">錯 ${r.tries} 次・${esc(r.last)}</span></div>
+        <div>${conceptTags(r.s, r.it.c)}<span class="muted small">錯 ${r.tries} 次・${esc(r.last)}</span></div>
         <button class="btn" style="margin-top:8px;min-height:44px" data-redo="${esc(r.qid)}">重練這題</button></li>`).join("")}</ul></div>`
       : `<div class="card center">目前沒有錯題 👍</div>`}
   </div>

@@ -107,7 +107,7 @@
 		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf)
 	</details>
 	<details>
-	<summary>已排進每日練習的考古題（38 題）</summary>
+	<summary>已排進每日練習的考古題（41 題）</summary>
 		- <mention-page url="https://app.notion.com/p/3e9ee100984f81c196bceb484e2585eb"/>　全國答對率 57%
 		- <mention-page url="https://app.notion.com/p/3e9ee100984f81b58a6ffc1513560bb6"/>　全國答對率 48%
 		- <mention-page url="https://app.notion.com/p/3e9ee100984f813ca388fa293649966d"/>　全國答對率 45%
@@ -146,6 +146,9 @@
 		- <mention-page url="https://app.notion.com/p/3ebee100984f818c8777cf52a595a778"/>　全國答對率 70%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81d9b8a9e96249348484"/>　全國答對率 23%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f811faf0dd0393464d967"/>　全國答對率 41%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f812cb47defe5255ce43e"/>　全國答對率 35%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81f7add6c980b8fe8fc6"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81119cd0f79d155f6a9e"/>　全國答對率 50%
 	</details>
 </details>
 <details>
@@ -160,7 +163,7 @@
 	- 片語搭配題：看空格後面的介系詞或受詞，例如 give rise to（導致）、exposure to（接觸）、be responsive to（對…有反應）。
 	- 語意題（選項是片語或子句）：讀完整段再選，答案要和前後文的意思一致。
 	<details>
-	<summary>已排進每日練習的考古題（10 題）</summary>
+	<summary>已排進每日練習的考古題（20 題）</summary>
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81adb3f0f127456837d2"/>　全國答對率 46%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f8127a9c0e85f24ed0936"/>　全國答對率 70%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81128c10e42237b8ac93"/>　全國答對率 29%
@@ -171,6 +174,16 @@
 		- <mention-page url="https://app.notion.com/p/3ebee100984f818aa208e96f7bdf79ea"/>　全國答對率 40%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81bd9710c6baa284dc66"/>　全國答對率 73%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f814ba38ceb766af80db1"/>　全國答對率 73%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81f8b23fe92738d8fc86"/>　全國答對率 42%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f8157aa87c9990a1be3cc"/>　全國答對率 43%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f815fbda7d1687abeb426"/>　全國答對率 52%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81399a0eddcd42a587a4"/>　全國答對率 25%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f8134b6c3d48c10d54a72"/>　全國答對率 57%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f819e9759c320afcdfa4f"/>　全國答對率 29%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81f68373f5a3f651d7a5"/>　全國答對率 61%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f812bb074f54b26b8ff15"/>　全國答對率 43%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81b6974aecc5271669af"/>　全國答對率 35%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81f39cf7c543135afa6f"/>　全國答對率 22%
 	</details>
 </details>
 ### R. 閱讀
@@ -185,7 +198,7 @@
 	- 留意單複數與時態：a 後面要單數名詞；主詞是第三人稱單數時，現在式動詞要加 s。
 	- 最有把握的先填，用過的選項劃掉；最後剩下的 2–3 格再用文意決定。
 	<details>
-	<summary>已排進每日練習的考古題（10 題）</summary>
+	<summary>已排進每日練習的考古題（20 題）</summary>
 		- <mention-page url="https://app.notion.com/p/3ebee100984f819da8cff2f5c158f7d3"/>　全國答對率 29%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81efb7d8e39b329eefbc"/>　全國答對率 37%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81ca9d96dfd5ee90864a"/>　全國答對率 22%
@@ -196,45 +209,15 @@
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81498dbbda442f82d742"/>　全國答對率 46%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f816da578c921ce0c33f6"/>　全國答對率 48%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f8162843fef0b2146c314"/>　全國答對率 58%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81df923cd8cb726d2b0d"/>　全國答對率 35%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81528425c217391f2757"/>　全國答對率 40%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81978294eac40299faa6"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f810b83a6ff42220d6170"/>　全國答對率 41%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f818aa0d8ce8bd9d16bcd"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81e19b43c270cab251be"/>　全國答對率 44%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f8136ae6dc99b6bc3951a"/>　全國答對率 44%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81e7aa4dd75a569a55b5"/>　全國答對率 68%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f813499cbc4aff385e0ee"/>　全國答對率 44%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81eaa3e8c5e37ce9631f"/>　全國答對率 56%
 	</details>
 </details>
-<details>
-<summary>**R2 篇章結構**（近六屆 20 題）</summary>
-	<callout icon="💡">
-		找代名詞、指示詞與轉折詞，確認插入句和前後句的邏輯銜接。
-	</callout>
-	- 第 31–34 題，4 個空格、5 個句子選 4 個（有 1 個多餘），每題 2 分；近六屆平均答對率 50%。
-	- 線索：代名詞（they、this、these）指的是誰、轉折語（However、In fact、Another）接在什麼內容後面、前後句重複出現的關鍵字。
-	- 空格在段首通常是主題句，要能概括整段；空格在段尾通常是結論或轉到下一段。
-	- 填進去之後，把「前一句＋空格＋後一句」連起來讀一次，確認意思接得上。
-	<details>
-	<summary>已排進每日練習的考古題（4 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81bcaaa3d4921f794106"/>　全國答對率 56%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f813a8be3c4882857aafc"/>　全國答對率 46%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f811a98d5f43504fac21b"/>　全國答對率 56%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f8155a52cca3f8147c461"/>　全國答對率 46%
-	</details>
-</details>
-<details>
-<summary>**R3 閱讀測驗**（近六屆 76 題）</summary>
-	<callout icon="💡">
-		先看題目再讀文章，主旨題看首末段，細節題回原文找對應句。
-	</callout>
-	- 第 35–46 題，三篇文章共 12 題，每題 2 分（24 分），是選擇題配分最重的大題；近六屆平均答對率 56%。
-	- 近六屆題型：細節題最多（35 題，答對率 57%），其次是推論、指涉（各 8 題）、主旨（7 題）、字義、圖片（各 6 題）、段落結構（4 題）；段落結構題（例如「作者如何安排這篇文章」）答對率最低，只有 45%。
-	- 細節題：選項常把原文「換句話說」，一定要回原文找到對應的句子；與原文矛盾、原文沒提到、過度推論的選項先刪。
-	- 字義與指涉題：不要只靠字典意思，要看上下文；把答案代回原句檢查意思通不通。
-	- 圖片或地圖題：把文章中描述位置、順序、外觀的句子標出來，再一張一張比對。
-	<details>
-	<summary>已排進每日練習的考古題（8 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81f5a7fae98221a0b270"/>　全國答對率 47%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81088442c960699420da"/>　全國答對率 52%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81e9b13ee8e06c147898"/>　全國答對率 56%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81f88f5bf188b819b9e8"/>　全國答對率 75%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f817c9cb7c008f2f715cc"/>　全國答對率 66%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81e4926ef7ad4873a343"/>　全國答對率 55%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f812492fcce838b3b2c64"/>　全國答對率 65%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81fd9c87ffb2827c3850"/>　全國答對率 39%
-	</details>
-</details>
-### M. 混合題

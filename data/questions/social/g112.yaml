@@ -466,7 +466,6 @@ items:
   type: single
   points: 2
   group: null
-  image: img/social/112-01.webp
   stem: ''
   options:
     A: ''
@@ -474,16 +473,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    1.  某民間協會致力於聘用智力缺損者投入勞動市場、參與社會，承包多處市府公共
-    空間的清掃工作，但後來因為工作太重、人力不足，被迫放棄承攬並解散協會。
-    有網友認為，基於社會正義，市政府應給予該協會在工作範圍或經費上更大的彈
-    性協助。從該網友所持立場推論，當面對下列校園議題時，其關心的議題最可能
-    為何？
-    (A)推廣雙語教育
-    (B)建造無障礙環境
-    (C)提供免費營養午餐
-    (D)提供升學或就業輔導
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 60
     Ph: 74
@@ -494,17 +486,24 @@ items:
       B: 60
       C: 7
       D: 32
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-01.webp
+  text: |-
+    1.  某民間協會致力於聘用智力缺損者投入勞動市場、參與社會，承包多處市府公共
+    空間的清掃工作，但後來因為工作太重、人力不足，被迫放棄承攬並解散協會。
+    有網友認為，基於社會正義，市政府應給予該協會在工作範圍或經費上更大的彈
+    性協助。從該網友所持立場推論，當面對下列校園議題時，其關心的議題最可能
+    為何？
+    (A)推廣雙語教育
+    (B)建造無障礙環境
+    (C)提供免費營養午餐
+    (D)提供升學或就業輔導
 - id: soc112-02
   'no': 2
   type: single
   points: 2
   group: null
-  image: img/social/112-02.webp
   stem: ''
   options:
     A: ''
@@ -512,14 +511,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    2.  甲與前妻育有一子一女，甲立遺囑將其名下僅有財產（房屋一棟）留給兒子。甲
-    死後，其女認為父親重男輕女，不服遺囑內容，向法院提起訴訟。若該遺囑符合
-    成立要件，針對此一繼承爭議，下列見解何者正確？
-    (A)甲為屋主，依法得預立遺囑全權決定房屋所有權歸屬
-    (B)前妻是其子女的母親，有權與甲之子女共同繼承遺產
-    (C)遺囑明顯重男輕女，法院應判決房屋由甲的兒女均分
-    (D)遺囑違反民法分配遺產規定，其女有權繼承部分財產
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 64
     Ph: 83
@@ -530,17 +524,22 @@ items:
       B: 6
       C: 4
       D: 64
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-02.webp
+  text: |-
+    2.  甲與前妻育有一子一女，甲立遺囑將其名下僅有財產（房屋一棟）留給兒子。甲
+    死後，其女認為父親重男輕女，不服遺囑內容，向法院提起訴訟。若該遺囑符合
+    成立要件，針對此一繼承爭議，下列見解何者正確？
+    (A)甲為屋主，依法得預立遺囑全權決定房屋所有權歸屬
+    (B)前妻是其子女的母親，有權與甲之子女共同繼承遺產
+    (C)遺囑明顯重男輕女，法院應判決房屋由甲的兒女均分
+    (D)遺囑違反民法分配遺產規定，其女有權繼承部分財產
 - id: soc112-03
   'no': 3
   type: single
   points: 2
   group: null
-  image: img/social/112-03.webp
   stem: ''
   options:
     A: ''
@@ -548,13 +547,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    3.  國中生甲勒索同學乙，後來甲被移送法院，但法院審理甲的案件時不開放法庭旁
-    聽。本案不開放的理由，與下列哪種少年事件處理措施相同？
-    (A)在審理案件的過程中，讓甲有到庭陳述意見的機會
-    (B)在審理案件的過程中，讓乙有到庭陳述意見的機會
-    (C)在甲接受輔導處分一段時間後，塗銷該項案件紀錄
-    (D)在獲得乙同意的情況下，命甲對乙負損害賠償責任
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 72
     Ph: 94
@@ -565,17 +560,21 @@ items:
       B: 7
       C: 72
       D: 4
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-03.webp
+  text: |-
+    3.  國中生甲勒索同學乙，後來甲被移送法院，但法院審理甲的案件時不開放法庭旁
+    聽。本案不開放的理由，與下列哪種少年事件處理措施相同？
+    (A)在審理案件的過程中，讓甲有到庭陳述意見的機會
+    (B)在審理案件的過程中，讓乙有到庭陳述意見的機會
+    (C)在甲接受輔導處分一段時間後，塗銷該項案件紀錄
+    (D)在獲得乙同意的情況下，命甲對乙負損害賠償責任
 - id: soc112-04
   'no': 4
   type: single
   points: 2
   group: null
-  image: img/social/112-04.webp
   stem: ''
   options:
     A: ''
@@ -583,6 +582,22 @@ items:
     C: ''
     D: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 53
+    Ph: 70
+    Pl: 34
+    D: 36
+    opt:
+      A: 12
+      B: 22
+      C: 12
+      D: 53
+  explain: ''
+  reviewed: false
+  image: img/social/112-04.webp
   text: |-
     4.  阿芬打算租屋，選擇的唯一考量是每坪房租
     高低，表1 是她蒐集某區不同格局的租屋資
@@ -610,27 +625,11 @@ items:
     50
     32000
     表1
-  stats:
-    P: 53
-    Ph: 70
-    Pl: 34
-    D: 36
-    opt:
-      A: 12
-      B: 22
-      C: 12
-      D: 53
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-05
   'no': 5
   type: single
   points: 2
   group: null
-  image: img/social/112-05.webp
   stem: ''
   options:
     A: ''
@@ -638,16 +637,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    5.  學者在臺灣北部的十三行遺址中，發現七世紀中國與十七世紀日本鑄造的兩種銅
-    錢，並指出它們是出土於墓葬的陪葬品。這些銅錢可用於討論臺灣史前文化的哪
-    項議題？
-    (A)文化的傳承關係
-
-    (B)東亞各國的交流
-    (C)交易的貨幣單位
-
-    (D)人群遷徙的方向
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 75
     Ph: 93
@@ -658,17 +650,24 @@ items:
       B: 75
       C: 16
       D: 3
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-05.webp
+  text: |-
+    5.  學者在臺灣北部的十三行遺址中，發現七世紀中國與十七世紀日本鑄造的兩種銅
+    錢，並指出它們是出土於墓葬的陪葬品。這些銅錢可用於討論臺灣史前文化的哪
+    項議題？
+    (A)文化的傳承關係
+
+    (B)東亞各國的交流
+    (C)交易的貨幣單位
+
+    (D)人群遷徙的方向
 - id: soc112-06
   'no': 6
   type: single
   points: 2
   group: null
-  image: img/social/112-06.webp
   stem: ''
   options:
     A: ''
@@ -676,14 +675,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    6.  西漢初年，政府官員主要由宗室、軍人、富人組成。漢武帝推動政制改革，採納
-    董仲舒建議，擴大推行察舉制度，大量任用讀書人為官。下列何者最適合描述漢
-    武帝採納董仲舒建議所造成的結果？
-    (A)地方權力提高，君權弱化
-    (B)儒生成為官員的主要來源
-    (C)政府壓抑商人，經濟停滯
-    (D)政府建立官員的輪調制度
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 83
     Ph: 92
@@ -694,17 +688,22 @@ items:
       B: 83
       C: 3
       D: 5
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-06.webp
+  text: |-
+    6.  西漢初年，政府官員主要由宗室、軍人、富人組成。漢武帝推動政制改革，採納
+    董仲舒建議，擴大推行察舉制度，大量任用讀書人為官。下列何者最適合描述漢
+    武帝採納董仲舒建議所造成的結果？
+    (A)地方權力提高，君權弱化
+    (B)儒生成為官員的主要來源
+    (C)政府壓抑商人，經濟停滯
+    (D)政府建立官員的輪調制度
 - id: soc112-07
   'no': 7
   type: single
   points: 2
   group: null
-  image: img/social/112-07.webp
   stem: ''
   options:
     A: ''
@@ -712,15 +711,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    7.  十九世紀中期有人在某個紀念日控訴：「各位，我與我所代表的人，跟你們的紀
-    念日有何關連？你們歷史上偉大宣言所揭櫫的偉大原則，有擴及到我們嗎？我們
-    並不被包括在這個紀念日內，我們與你們是不平等的。你們前輩留下的遺產：正
-    義、自由、繁榮與獨立，只由你們享受，而我們沒有。」這個控訴最可能發表於：
-    (A)美國獨立紀念日；控訴黑人與白人不平等
-    (B)拿破崙戰爭紀念日；控訴女性與男性不平等
-    (C)俄國革命紀念日；控訴勞動者與資本家不平等
-    (D)印度獨立紀念日；控訴印度教徒與穆斯林不平等
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 85
     Ph: 96
@@ -731,17 +724,23 @@ items:
       B: 3
       C: 8
       D: 3
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-07.webp
+  text: |-
+    7.  十九世紀中期有人在某個紀念日控訴：「各位，我與我所代表的人，跟你們的紀
+    念日有何關連？你們歷史上偉大宣言所揭櫫的偉大原則，有擴及到我們嗎？我們
+    並不被包括在這個紀念日內，我們與你們是不平等的。你們前輩留下的遺產：正
+    義、自由、繁榮與獨立，只由你們享受，而我們沒有。」這個控訴最可能發表於：
+    (A)美國獨立紀念日；控訴黑人與白人不平等
+    (B)拿破崙戰爭紀念日；控訴女性與男性不平等
+    (C)俄國革命紀念日；控訴勞動者與資本家不平等
+    (D)印度獨立紀念日；控訴印度教徒與穆斯林不平等
 - id: soc112-08
   'no': 8
   type: single
   points: 2
   group: null
-  image: img/social/112-08.webp
   stem: ''
   options:
     A: ''
@@ -749,14 +748,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    8.  十七世紀西班牙傳教士提及：中國商人帶大量貨物來基隆，若貨物只能賣給西班
-    牙駐軍，駐軍又因未領薪而缺錢購買商品，那麼中國商人將不再來基隆貿易。由
-    此來看，基隆吸引中國商人前來貿易的主因是：
-    (A)此處為天然良港，適合作為貿易據點
-    (B)當地有西班牙駐軍，可保障交易安全
-    (C)在此處與駐軍貿易，可取得美洲白銀
-    (D)港區已是龐大市場，有利於發展貿易
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 52
     Ph: 67
@@ -767,17 +761,22 @@ items:
       B: 7
       C: 52
       D: 21
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-08.webp
+  text: |-
+    8.  十七世紀西班牙傳教士提及：中國商人帶大量貨物來基隆，若貨物只能賣給西班
+    牙駐軍，駐軍又因未領薪而缺錢購買商品，那麼中國商人將不再來基隆貿易。由
+    此來看，基隆吸引中國商人前來貿易的主因是：
+    (A)此處為天然良港，適合作為貿易據點
+    (B)當地有西班牙駐軍，可保障交易安全
+    (C)在此處與駐軍貿易，可取得美洲白銀
+    (D)港區已是龐大市場，有利於發展貿易
 - id: soc112-09
   'no': 9
   type: single
   points: 2
   group: null
-  image: img/social/112-09.webp
   stem: ''
   options:
     A: ''
@@ -785,6 +784,22 @@ items:
     C: ''
     D: ''
   answer: B
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 43
+    Ph: 60
+    Pl: 28
+    D: 32
+    opt:
+      A: 35
+      B: 43
+      C: 4
+      D: 18
+  explain: ''
+  reviewed: false
+  image: img/social/112-09.webp
   text: |-
     9.  泉州又名刺桐城，宋元時期是海外貿易重要港口，曾發現一方波斯人墓碑，刻有
     漢文、阿拉伯文與波斯文。阿拉伯文為：「人人都要嚐死的滋味。」波斯文為：
@@ -796,27 +811,11 @@ items:
     (B)會與漢人相互通婚
     (C)全數已經改信回教
     (D)採用儒家喪葬儀式
-  stats:
-    P: 43
-    Ph: 60
-    Pl: 28
-    D: 32
-    opt:
-      A: 35
-      B: 43
-      C: 4
-      D: 18
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-10
   'no': 10
   type: single
   points: 2
   group: null
-  image: img/social/112-10.webp
   stem: ''
   options:
     A: ''
@@ -824,14 +823,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    10. 十九世紀晚期臺灣開港通商，西方傳教士來傳教，但在漢人市街多遇反彈，故部
-    分傳教士在洋行商人協助下，進入淺山地區的「熟番」部落傳教。此傳教活動範
-    圍的擴張最可能和洋行商人經營哪項事業有關？
-    (A)種椰取汁
-    (B)圍獵捕鹿
-    (C)插蔗煮糖
-    (D)伐樟結腦
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 61
     Ph: 78
@@ -842,17 +836,22 @@ items:
       B: 23
       C: 15
       D: 61
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-10.webp
+  text: |-
+    10. 十九世紀晚期臺灣開港通商，西方傳教士來傳教，但在漢人市街多遇反彈，故部
+    分傳教士在洋行商人協助下，進入淺山地區的「熟番」部落傳教。此傳教活動範
+    圍的擴張最可能和洋行商人經營哪項事業有關？
+    (A)種椰取汁
+    (B)圍獵捕鹿
+    (C)插蔗煮糖
+    (D)伐樟結腦
 - id: soc112-11
   'no': 11
   type: single
   points: 2
   group: null
-  image: img/social/112-11.webp
   stem: ''
   options:
     A: ''
@@ -860,15 +859,10 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    11. 日治時期某報紙發刊詞提及：「… … 臺灣學堂裡的教科（科目），又多不用到漢
-    文，對於漢文一學很不用工（很消極）… … 漢文因這樣難懂又沒獎勵的機會，所
-    以我們臺灣的兄弟自二十年來已經廢棄不慣了。」此發刊詞的寫作背景，和日本
-    殖民政府正在推行的哪項政策有關？
-    (A)因應教師、通譯的需求，成立國語學校
-    (B)公學校皆改為國民學校，推動義務教育
-    (C)推行日臺共學，常用日語者可入小學校
-    (D)日本領臺初期，將書房、義塾納入管理
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 官方鑑別度 D=-4，低鑑別題不進主線
   stats:
     P: 33
     Ph: 31
@@ -879,17 +873,23 @@ items:
       B: 34
       C: 33
       D: 7
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-11.webp
+  text: |-
+    11. 日治時期某報紙發刊詞提及：「… … 臺灣學堂裡的教科（科目），又多不用到漢
+    文，對於漢文一學很不用工（很消極）… … 漢文因這樣難懂又沒獎勵的機會，所
+    以我們臺灣的兄弟自二十年來已經廢棄不慣了。」此發刊詞的寫作背景，和日本
+    殖民政府正在推行的哪項政策有關？
+    (A)因應教師、通譯的需求，成立國語學校
+    (B)公學校皆改為國民學校，推動義務教育
+    (C)推行日臺共學，常用日語者可入小學校
+    (D)日本領臺初期，將書房、義塾納入管理
 - id: soc112-12
   'no': 12
   type: single
   points: 2
   group: null
-  image: img/social/112-12.webp
   stem: ''
   options:
     A: ''
@@ -897,14 +897,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    12. 某一歷史時期的移民群體，遷居已經八、九代，以領俸祿為生，若有土地也全交
-    給佃客耕種，而不親自下田，完全不懂人情世故，所以當官不明事理，治家也不
-    行。這種現象最可能出現於何時？
-    (A)春秋時期
-    (B)兩漢時期
-    (C)魏晉時期
-    (D)宋明時期
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 50
     Ph: 67
@@ -915,17 +910,22 @@ items:
       B: 19
       C: 50
       D: 21
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-12.webp
+  text: |-
+    12. 某一歷史時期的移民群體，遷居已經八、九代，以領俸祿為生，若有土地也全交
+    給佃客耕種，而不親自下田，完全不懂人情世故，所以當官不明事理，治家也不
+    行。這種現象最可能出現於何時？
+    (A)春秋時期
+    (B)兩漢時期
+    (C)魏晉時期
+    (D)宋明時期
 - id: soc112-13
   'no': 13
   type: single
   points: 2
   group: null
-  image: img/social/112-13.webp
   stem: ''
   options:
     A: ''
@@ -933,16 +933,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    13. 一份資料寫道：「痛只痛，甲午年，打下敗陣。痛只痛，庚子歲，慘遭殺傷。痛
-    只痛，割去地，萬古不返。痛只痛，所賠款，永世難償。… … 雪仇恥，驅外族，
-    復我冠裳。到那時，齊叫道，中華萬歲。」這份資料最可能出自哪份文件？
-    (A)太平天國時，洪李太平軍的告民書
-
-    (B)戊戌變法後，康、梁維新派的宣言
-    (C)八國聯軍後，革命黨人的宣傳書冊
-
-    (D)立憲運動時，各省仕紳的改革方案
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 58
     Ph: 75
@@ -953,17 +946,24 @@ items:
       B: 18
       C: 58
       D: 12
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-13.webp
+  text: |-
+    13. 一份資料寫道：「痛只痛，甲午年，打下敗陣。痛只痛，庚子歲，慘遭殺傷。痛
+    只痛，割去地，萬古不返。痛只痛，所賠款，永世難償。… … 雪仇恥，驅外族，
+    復我冠裳。到那時，齊叫道，中華萬歲。」這份資料最可能出自哪份文件？
+    (A)太平天國時，洪李太平軍的告民書
+
+    (B)戊戌變法後，康、梁維新派的宣言
+    (C)八國聯軍後，革命黨人的宣傳書冊
+
+    (D)立憲運動時，各省仕紳的改革方案
 - id: soc112-14
   'no': 14
   type: single
   points: 2
   group: null
-  image: img/social/112-14.webp
   stem: ''
   options:
     A: ''
@@ -971,6 +971,22 @@ items:
     C: ''
     D: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 45
+    Ph: 55
+    Pl: 33
+    D: 22
+    opt:
+      A: 22
+      B: 7
+      C: 25
+      D: 45
+  explain: ''
+  reviewed: false
+  image: img/social/112-14.webp
   text: |-
     14. 學者指出，蒙古人統治各地區後，對各地宗教都一視同仁而給予優遇；在元代戶
     口職業世襲制度下，儒戶待遇約略等於佛僧和道士，是諸色戶口職業中較受優遇
@@ -982,27 +998,11 @@ items:
     (C)貶抑儒士而削減其入仕機會
 
     (D)類同宗教神職人員予以尊重
-  stats:
-    P: 45
-    Ph: 55
-    Pl: 33
-    D: 22
-    opt:
-      A: 22
-      B: 7
-      C: 25
-      D: 45
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-15
   'no': 15
   type: single
   points: 2
   group: null
-  image: img/social/112-15.webp
   stem: ''
   options:
     A: ''
@@ -1010,6 +1010,22 @@ items:
     C: ''
     D: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 51
+    Ph: 70
+    Pl: 32
+    D: 38
+    opt:
+      A: 6
+      B: 9
+      C: 34
+      D: 51
+  explain: ''
+  reviewed: false
+  image: img/social/112-15.webp
   text: |-
     15. 老師請同學針對某時期英國提出討論資料，甲同學提出圖像
     （圖1），乙同學找到新聞報導：「從香港到義大利的戰場，從
@@ -1021,27 +1037,11 @@ items:
     (C)英國號召帝國殖民地人民，加入第一次世界大戰協約國陣營
     (D)英國招募自治領與殖民地的軍隊，共同參與第二次世界大戰
     圖1
-  stats:
-    P: 51
-    Ph: 70
-    Pl: 32
-    D: 38
-    opt:
-      A: 6
-      B: 9
-      C: 34
-      D: 51
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-16
   'no': 16
   type: single
   points: 2
   group: null
-  image: img/social/112-16.webp
   stem: ''
   options:
     A: ''
@@ -1049,16 +1049,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    16. 某國文化部長憤怒的說：「許多我國古代雕像都在別國博物館內，這些雕像原本
-    在宗教建築內。後來基督信仰普及、伊斯蘭勢力也進來，都說雕像是異教物而棄
-    置，建築物被當成彈藥庫，毀壞後成了大廢墟。接著一些外國人來，欣賞廢墟又
-    喜愛殘破雕像，說這是文明成就，而且把雕像帶回國，至今不願歸還我們，還強
-    辯說是合法取得的藝術品！」文化部長批評的是：
-    (A)十字軍東征時，士兵從西亞的墓穴取下雕像
-    (B)鄂圖曼帝國時，土耳其人拿下東歐教堂雕像
-    (C)西方帝國主義擴張時，英國人帶走希臘雕像
-    (D)英法聯軍侵略中國時，帶走了圓明園內雕像
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 25
     Ph: 38
@@ -1069,17 +1062,24 @@ items:
       B: 31
       C: 25
       D: 31
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-16.webp
+  text: |-
+    16. 某國文化部長憤怒的說：「許多我國古代雕像都在別國博物館內，這些雕像原本
+    在宗教建築內。後來基督信仰普及、伊斯蘭勢力也進來，都說雕像是異教物而棄
+    置，建築物被當成彈藥庫，毀壞後成了大廢墟。接著一些外國人來，欣賞廢墟又
+    喜愛殘破雕像，說這是文明成就，而且把雕像帶回國，至今不願歸還我們，還強
+    辯說是合法取得的藝術品！」文化部長批評的是：
+    (A)十字軍東征時，士兵從西亞的墓穴取下雕像
+    (B)鄂圖曼帝國時，土耳其人拿下東歐教堂雕像
+    (C)西方帝國主義擴張時，英國人帶走希臘雕像
+    (D)英法聯軍侵略中國時，帶走了圓明園內雕像
 - id: soc112-17
   'no': 17
   type: single
   points: 2
   group: null
-  image: img/social/112-17.webp
   stem: ''
   options:
     A: ''
@@ -1087,6 +1087,22 @@ items:
     C: ''
     D: ''
   answer: A
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 32
+    Ph: 54
+    Pl: 17
+    D: 37
+    opt:
+      A: 32
+      B: 22
+      C: 32
+      D: 14
+  explain: ''
+  reviewed: false
+  image: img/social/112-17.webp
   text: |-
     17. 一位歷史人物的紀念展覽開幕時，貴賓致詞重點如下：
     甲：「他認為暴君違反上帝旨意，人民有責任抵抗，我們祖先依此說法開始反抗，
@@ -1100,27 +1116,11 @@ items:
     (B)德國紀念馬丁路德
     (C)英國紀念亞當斯密
     (D)法國紀念孟德斯鳩
-  stats:
-    P: 32
-    Ph: 54
-    Pl: 17
-    D: 37
-    opt:
-      A: 32
-      B: 22
-      C: 32
-      D: 14
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-18
   'no': 18
   type: single
   points: 2
   group: null
-  image: img/social/112-18.webp
   stem: ''
   options:
     A: ''
@@ -1128,15 +1128,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    18. 「1997 年花蓮縣吉安鄉是臺灣龍鬚菜種植面積最大的鄉鎮，可達57 公頃，比當
-    時第二名南投縣信義鄉多約12 公頃。到了2021 年，吉安鄉龍鬚菜種植面積已增
-    至180 公頃，仍居全臺之冠，第二名的高雄市那瑪夏區僅51 公頃。」上述現象
-    的形成過程，最適合以下列哪個概念解釋？
-    (A)都市外圍區位租較低，農作物生產區往外擴張
-    (B)臺灣產業結構轉型，促使東西部經濟空間重組
-    (C)中地等級向上提升，帶動農作物市場範圍擴大
-    (D)農業生產因地制宜，逐漸形成區域生產專業化
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 73
     Ph: 88
@@ -1147,17 +1141,23 @@ items:
       B: 6
       C: 9
       D: 73
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-18.webp
+  text: |-
+    18. 「1997 年花蓮縣吉安鄉是臺灣龍鬚菜種植面積最大的鄉鎮，可達57 公頃，比當
+    時第二名南投縣信義鄉多約12 公頃。到了2021 年，吉安鄉龍鬚菜種植面積已增
+    至180 公頃，仍居全臺之冠，第二名的高雄市那瑪夏區僅51 公頃。」上述現象
+    的形成過程，最適合以下列哪個概念解釋？
+    (A)都市外圍區位租較低，農作物生產區往外擴張
+    (B)臺灣產業結構轉型，促使東西部經濟空間重組
+    (C)中地等級向上提升，帶動農作物市場範圍擴大
+    (D)農業生產因地制宜，逐漸形成區域生產專業化
 - id: soc112-19
   'no': 19
   type: single
   points: 2
   group: null
-  image: img/social/112-19.webp
   stem: ''
   options:
     A: ''
@@ -1165,16 +1165,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    19. 十五至十七世紀馬來半島南部海岸，有許多自殖民母國遷入該地的男性商人、船
-    員與苦力，在與當地女性通婚後，逐漸在當地形成一混血的少數族群，並保有原
-    鄉海神節的慶典習俗。該族群在節慶當天，會先在海邊進行彌撒，接著抬出聖彼
-    得神像遊行，最後來到船隻旁灑聖水祈福。根據前述，該族群的先人最可能來自
-    下列哪個地區？
-    (A)中國東南沿海
-    (B)西亞肥沃月灣
-    (C)澳洲東部沿岸
-    (D)伊比利半島西部
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 57
     Ph: 78
@@ -1185,17 +1178,24 @@ items:
       B: 24
       C: 9
       D: 57
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-19.webp
+  text: |-
+    19. 十五至十七世紀馬來半島南部海岸，有許多自殖民母國遷入該地的男性商人、船
+    員與苦力，在與當地女性通婚後，逐漸在當地形成一混血的少數族群，並保有原
+    鄉海神節的慶典習俗。該族群在節慶當天，會先在海邊進行彌撒，接著抬出聖彼
+    得神像遊行，最後來到船隻旁灑聖水祈福。根據前述，該族群的先人最可能來自
+    下列哪個地區？
+    (A)中國東南沿海
+    (B)西亞肥沃月灣
+    (C)澳洲東部沿岸
+    (D)伊比利半島西部
 - id: soc112-20
   'no': 20
   type: single
   points: 2
   group: null
-  image: img/social/112-20.webp
   stem: ''
   options:
     A: ''
@@ -1203,6 +1203,22 @@ items:
     C: ''
     D: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 42
+    Ph: 62
+    Pl: 25
+    D: 37
+    opt:
+      A: 19
+      B: 31
+      C: 42
+      D: 9
+  explain: ''
+  reviewed: false
+  image: img/social/112-20.webp
   text: |-
     20. 圖2 為2018 年全球五個大洲各種
     規模都市的都市人口比例圖。若將
@@ -1234,27 +1250,11 @@ items:
     500~1000萬
     >1000萬
     圖2
-  stats:
-    P: 42
-    Ph: 62
-    Pl: 25
-    D: 37
-    opt:
-      A: 19
-      B: 31
-      C: 42
-      D: 9
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-21
   'no': 21
   type: single
   points: 2
   group: null
-  image: img/social/112-21.webp
   stem: ''
   options:
     A: ''
@@ -1262,16 +1262,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    21. 2022 年中國與太平洋的索羅門群島島國起草一份安全協議，中國將在索國設立軍
-    事基地，因此引發澳大利亞的緊張。長期以來澳大利亞一直是索國主要的防衛夥
-    伴，以及最大的援助國，因此特別關切「任何危害區域穩定和安全的行動，包括
-    建立軍事基地的常在性設施」，但索國政府表示「正在擴大與更多國家安全合作，
-    其中也包括中國」。索國的作法最可能帶來下列哪種國際情勢發展？
-    (A)大洋洲地緣樞紐角色漸漸不再由南島語族國家掌控
-    (B)大洋洲各島國將逐步取代紐澳兩國的區域核心角色
-    (C)同屬大洋洲的塔斯馬尼亞可能與中國建立合作關係
-    (D)紐西蘭外交單位可能提出對大洋洲區域和平的立場
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 30
     Ph: 45
@@ -1282,17 +1275,24 @@ items:
       B: 13
       C: 40
       D: 30
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-21.webp
+  text: |-
+    21. 2022 年中國與太平洋的索羅門群島島國起草一份安全協議，中國將在索國設立軍
+    事基地，因此引發澳大利亞的緊張。長期以來澳大利亞一直是索國主要的防衛夥
+    伴，以及最大的援助國，因此特別關切「任何危害區域穩定和安全的行動，包括
+    建立軍事基地的常在性設施」，但索國政府表示「正在擴大與更多國家安全合作，
+    其中也包括中國」。索國的作法最可能帶來下列哪種國際情勢發展？
+    (A)大洋洲地緣樞紐角色漸漸不再由南島語族國家掌控
+    (B)大洋洲各島國將逐步取代紐澳兩國的區域核心角色
+    (C)同屬大洋洲的塔斯馬尼亞可能與中國建立合作關係
+    (D)紐西蘭外交單位可能提出對大洋洲區域和平的立場
 - id: soc112-22
   'no': 22
   type: single
   points: 2
   group: soc112-g22
-  image: img/social/112-22.webp
   stem: ''
   options:
     A: ''
@@ -1300,6 +1300,22 @@ items:
     C: ''
     D: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 72
+    Ph: 83
+    Pl: 58
+    D: 25
+    opt:
+      A: 5
+      B: 17
+      C: 72
+      D: 6
+  explain: ''
+  reviewed: false
+  image: img/social/112-22.webp
   text: |-
     22. 比較圖3 中1633 和1638 年生絲毛利潤
     的變動，假設此期間其他條件不變且東
@@ -1319,27 +1335,11 @@ items:
     1637
     1639
     1641
-  stats:
-    P: 72
-    Ph: 83
-    Pl: 58
-    D: 25
-    opt:
-      A: 5
-      B: 17
-      C: 72
-      D: 6
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-23
   'no': 23
   type: single
   points: 2
   group: soc112-g22
-  image: img/social/112-23.webp
   stem: ''
   options:
     A: ''
@@ -1347,14 +1347,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    23. 某生在估計1638 年日本的GDP 時，疏忽了題文與圖3 的相關貿易資料，經提醒
-    納入後重新計算得到較高的GDP 估計值。該生補上的必須是下列哪項資料才能
-    得到這個結果？
-    (A)東印度公司該年度對日貿易的總收益高於總成本
-    (B)東印度公司該年度對日貿易的總金額高於上年度
-    (C)東印度公司販售商品給日本的金額低於向日本買入的金額
-    (D)東印度公司賣生絲給日本的金額高於買入其他商品的金額
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 32
     Ph: 48
@@ -1365,17 +1360,22 @@ items:
       B: 22
       C: 32
       D: 18
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-23.webp
+  text: |-
+    23. 某生在估計1638 年日本的GDP 時，疏忽了題文與圖3 的相關貿易資料，經提醒
+    納入後重新計算得到較高的GDP 估計值。該生補上的必須是下列哪項資料才能
+    得到這個結果？
+    (A)東印度公司該年度對日貿易的總收益高於總成本
+    (B)東印度公司該年度對日貿易的總金額高於上年度
+    (C)東印度公司販售商品給日本的金額低於向日本買入的金額
+    (D)東印度公司賣生絲給日本的金額高於買入其他商品的金額
 - id: soc112-24
   'no': 24
   type: single
   points: 2
   group: soc112-g24
-  image: img/social/112-24.webp
   stem: ''
   options:
     A: ''
@@ -1383,13 +1383,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    24. 題文中，中央必須「先修訂食安法、再公告殘留標準」背後的法理考量，與下列
-    何種情況的法理考量最為相似？
-    (A)憲法規定命令如違反國會所制定的法律則無效
-    (B)課徵人民稅捐涉及憲法上財產權應由法律規範
-    (C)子女從父姓或母姓在民法規定由父母自行約定
-    (D)少年犯罪應優先適用少年事件處理法而非刑法
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 35
     Ph: 47
@@ -1400,17 +1396,21 @@ items:
       B: 35
       C: 5
       D: 16
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-24.webp
+  text: |-
+    24. 題文中，中央必須「先修訂食安法、再公告殘留標準」背後的法理考量，與下列
+    何種情況的法理考量最為相似？
+    (A)憲法規定命令如違反國會所制定的法律則無效
+    (B)課徵人民稅捐涉及憲法上財產權應由法律規範
+    (C)子女從父姓或母姓在民法規定由父母自行約定
+    (D)少年犯罪應優先適用少年事件處理法而非刑法
 - id: soc112-25
   'no': 25
   type: single
   points: 2
   group: soc112-g24
-  image: img/social/112-25.webp
   stem: ''
   options:
     A: ''
@@ -1418,13 +1418,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    25. 其他條件不變下，原產地標示原則的實施，對於國產豬肉與萊豬市場的均衡價格
-    與數量，最有可能造成何種變化？
-    (A)國產豬肉價格上升，數量上升；萊豬的價格下降，數量下降
-    (B)國產豬肉價格上升，數量下降；萊豬的價格下降，數量上升
-    (C)國產豬肉價格下降，數量下降；萊豬的價格上升，數量上升
-    (D)國產豬肉價格下降，數量上升；萊豬的價格上升，數量下降
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 45
     Ph: 66
@@ -1435,17 +1431,21 @@ items:
       B: 42
       C: 5
       D: 8
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-25.webp
+  text: |-
+    25. 其他條件不變下，原產地標示原則的實施，對於國產豬肉與萊豬市場的均衡價格
+    與數量，最有可能造成何種變化？
+    (A)國產豬肉價格上升，數量上升；萊豬的價格下降，數量下降
+    (B)國產豬肉價格上升，數量下降；萊豬的價格下降，數量上升
+    (C)國產豬肉價格下降，數量下降；萊豬的價格上升，數量上升
+    (D)國產豬肉價格下降，數量上升；萊豬的價格上升，數量下降
 - id: soc112-26
   'no': 26
   type: single
   points: 2
   group: soc112-g24
-  image: img/social/112-26.webp
   stem: ''
   options:
     A: ''
@@ -1453,12 +1453,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    26. 依據題文，下列何者最足以作為函告該自治條例無效的理由？
-    (A)未經由地方議會針對該條例審議通過
-    (B)未舉辦地方公民投票由民眾投票決議
-    (C)與行政院相關部會的政策立場相違背
-    (D)與立法院通過之食安法內容相互牴觸
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 70
     Ph: 88
@@ -1469,17 +1466,20 @@ items:
       B: 6
       C: 11
       D: 70
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-26.webp
+  text: |-
+    26. 依據題文，下列何者最足以作為函告該自治條例無效的理由？
+    (A)未經由地方議會針對該條例審議通過
+    (B)未舉辦地方公民投票由民眾投票決議
+    (C)與行政院相關部會的政策立場相違背
+    (D)與立法院通過之食安法內容相互牴觸
 - id: soc112-27
   'no': 27
   type: single
   points: 2
   group: soc112-g27
-  image: img/social/112-27.webp
   stem: ''
   options:
     A: ''
@@ -1487,14 +1487,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    27. 對於該國數位身分證計畫引發的爭議，某公民團體發表聲明指出：國家
-    的           ，因此政策制訂過程應該更審慎。依據題文資訊，下列何者最
-    適合填入該聲明的空格內？
-    (A)資訊服務涉及特別的跨部會合作機制
-    (B)職責在於提供人民更便捷的政府服務
-    (C)願景實現攸關能否讓人民產生認同感
-    (D)權力行使範圍及其影響既廣泛且深遠
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 58
     Ph: 79
@@ -1505,17 +1500,22 @@ items:
       B: 7
       C: 11
       D: 58
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-27.webp
+  text: |-
+    27. 對於該國數位身分證計畫引發的爭議，某公民團體發表聲明指出：國家
+    的           ，因此政策制訂過程應該更審慎。依據題文資訊，下列何者最
+    適合填入該聲明的空格內？
+    (A)資訊服務涉及特別的跨部會合作機制
+    (B)職責在於提供人民更便捷的政府服務
+    (C)願景實現攸關能否讓人民產生認同感
+    (D)權力行使範圍及其影響既廣泛且深遠
 - id: soc112-28
   'no': 28
   type: single
   points: 2
   group: soc112-g27
-  image: img/social/112-28.webp
   stem: ''
   options:
     A: ''
@@ -1523,13 +1523,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    28. 針對該高中生的疑惑，從資訊利用行為與個人權利的角度來看，下列何種見解最
-    為合理？
-    (A)疫苗地圖增強人民行動自由，數位身分證增強人民知的權利，應予相同評價
-    (B)疫苗地圖增強人民知的權利，數位身分證削弱人民的隱私權，應予不同評價
-    (C)疫苗地圖削弱人民的隱私權，數位身分證增強人民人身自由，應予不同評價
-    (D)疫苗地圖削弱人民人身自由，數位身分證削弱人民行動自由，應予相同評價
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 86
     Ph: 98
@@ -1540,17 +1536,21 @@ items:
       B: 86
       C: 6
       D: 3
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-28.webp
+  text: |-
+    28. 針對該高中生的疑惑，從資訊利用行為與個人權利的角度來看，下列何種見解最
+    為合理？
+    (A)疫苗地圖增強人民行動自由，數位身分證增強人民知的權利，應予相同評價
+    (B)疫苗地圖增強人民知的權利，數位身分證削弱人民的隱私權，應予不同評價
+    (C)疫苗地圖削弱人民的隱私權，數位身分證增強人民人身自由，應予不同評價
+    (D)疫苗地圖削弱人民人身自由，數位身分證削弱人民行動自由，應予相同評價
 - id: soc112-29
   'no': 29
   type: single
   points: 2
   group: soc112-g27
-  image: img/social/112-29.webp
   stem: ''
   options:
     A: ''
@@ -1558,12 +1558,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    29. 依題文資訊，下列何者最可能是該國政府放棄換發計畫所產生的機會成本？
-    (A)政府整合資訊減低民眾申辦政府業務的交易成本
-    (B)政府為了保護民眾的個人資料所降低的外部成本
-    (C)政府蒐集民眾的資訊進行數位整合而投入的成本
-    (D)政府制定特別法規範自身行為所產生的額外成本
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 25
     Ph: 40
@@ -1574,17 +1571,20 @@ items:
       B: 21
       C: 36
       D: 18
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-29.webp
+  text: |-
+    29. 依題文資訊，下列何者最可能是該國政府放棄換發計畫所產生的機會成本？
+    (A)政府整合資訊減低民眾申辦政府業務的交易成本
+    (B)政府為了保護民眾的個人資料所降低的外部成本
+    (C)政府蒐集民眾的資訊進行數位整合而投入的成本
+    (D)政府制定特別法規範自身行為所產生的額外成本
 - id: soc112-30
   'no': 30
   type: single
   points: 2
   group: soc112-g30
-  image: img/social/112-30.webp
   stem: ''
   options:
     A: ''
@@ -1592,12 +1592,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    30. 依據表2，何人是土地調查時臺灣總督府認為的實際土地所有人？
-    (A)劉大
-    (B)劉四
-    (C)林三
-    (D)徐六
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 39
     Ph: 48
@@ -1608,17 +1605,20 @@ items:
       B: 40
       C: 40
       D: 12
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-30.webp
+  text: |-
+    30. 依據表2，何人是土地調查時臺灣總督府認為的實際土地所有人？
+    (A)劉大
+    (B)劉四
+    (C)林三
+    (D)徐六
 - id: soc112-31
   'no': 31
   type: single
   points: 2
   group: soc112-g30
-  image: img/social/112-31.webp
   stem: ''
   options:
     A: ''
@@ -1626,12 +1626,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    31. 該資料最適合作為該生探究下列哪項主題的佐證史料？
-    (A)保甲制度
-    (B)減四留六
-    (C)割地換水
-    (D)三七五減租
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 39
     Ph: 63
@@ -1642,17 +1639,20 @@ items:
       B: 39
       C: 5
       D: 40
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-31.webp
+  text: |-
+    31. 該資料最適合作為該生探究下列哪項主題的佐證史料？
+    (A)保甲制度
+    (B)減四留六
+    (C)割地換水
+    (D)三七五減租
 - id: soc112-32
   'no': 32
   type: single
   points: 2
   group: soc112-g32
-  image: img/social/112-32.webp
   stem: ''
   options:
     A: ''
@@ -1660,13 +1660,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    32. 若將遷徙流線圖與資料進行配對，資料一、二、三最適合的配對，最可能為下列
-    何者？
-    (A)資料一：圖5，資料二：圖6
-    (B)資料一：圖6，資料二：圖5
-    (C)資料一：圖5，資料三：圖6
-    (D)資料一：圖6，資料三：圖5
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 74
     Ph: 91
@@ -1677,17 +1673,21 @@ items:
       B: 18
       C: 4
       D: 74
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-32.webp
+  text: |-
+    32. 若將遷徙流線圖與資料進行配對，資料一、二、三最適合的配對，最可能為下列
+    何者？
+    (A)資料一：圖5，資料二：圖6
+    (B)資料一：圖6，資料二：圖5
+    (C)資料一：圖5，資料三：圖6
+    (D)資料一：圖6，資料三：圖5
 - id: soc112-33
   'no': 33
   type: single
   points: 2
   group: soc112-g32
-  image: img/social/112-33.webp
   stem: ''
   options:
     A: ''
@@ -1695,12 +1695,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    33. 透過圖5 與圖6，最適合用來解釋臺灣這段時期具有下列哪種區域發展過程？
-    (A)部分核心持續成長，但多數地區開始出現反吸隱憂
-    (B)都市對外聯繫密切，對區域發展持續帶來擴散效應
-    (C)北部經濟成長快速，但與南部呈現不平等交換問題
-    (D)人口多往都市集中，各地都市化程度明顯持續成長
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 24
     Ph: 34
@@ -1711,17 +1708,20 @@ items:
       B: 6
       C: 39
       D: 32
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-33.webp
+  text: |-
+    33. 透過圖5 與圖6，最適合用來解釋臺灣這段時期具有下列哪種區域發展過程？
+    (A)部分核心持續成長，但多數地區開始出現反吸隱憂
+    (B)都市對外聯繫密切，對區域發展持續帶來擴散效應
+    (C)北部經濟成長快速，但與南部呈現不平等交換問題
+    (D)人口多往都市集中，各地都市化程度明顯持續成長
 - id: soc112-34
   'no': 34
   type: single
   points: 2
   group: soc112-g34
-  image: img/social/112-34.webp
   stem: ''
   options:
     A: ''
@@ -1729,12 +1729,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    34. 該地具有風速強勁的特色，下列何者是形成此特色的主要原因？
-    (A)緊鄰大陸且無山勢屏障，導致冷鋒常夾帶強風長驅南下
-    (B)太平洋熱帶性低氣壓擾動頻繁，導致強風吹襲日數較多
-    (C)季風通過臺灣海峽，由於海峽寬度縮減，導致風速增強
-    (D)太陽幾乎終年直射，對流旺盛，導致白天常有強風發生
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 30
     Ph: 38
@@ -1745,17 +1742,20 @@ items:
       B: 10
       C: 30
       D: 3
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-34.webp
+  text: |-
+    34. 該地具有風速強勁的特色，下列何者是形成此特色的主要原因？
+    (A)緊鄰大陸且無山勢屏障，導致冷鋒常夾帶強風長驅南下
+    (B)太平洋熱帶性低氣壓擾動頻繁，導致強風吹襲日數較多
+    (C)季風通過臺灣海峽，由於海峽寬度縮減，導致風速增強
+    (D)太陽幾乎終年直射，對流旺盛，導致白天常有強風發生
 - id: soc112-35
   'no': 35
   type: single
   points: 2
   group: soc112-g34
-  image: img/social/112-35.webp
   stem: ''
   options:
     A: ''
@@ -1763,15 +1763,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    35. 若該生要獲得較具科學性的成果，除利用GPS 工具外，還適合透過下列哪三項
-    資料作為支持此探究主題的材料？甲、遊客問卷結果；乙、耆老訪談紀錄；丙、
-    聚落分布圖（比例尺1/400000）；丁、聚落內部測繪圖（比例尺1/1000）；戊、
-    聚落附近測站的氣候數據；己、田野調查當天的風向風速計測量數據。
-    (A)甲丙戊
-    (B)甲丁己
-    (C)乙丙己
-    (D)乙丁戊
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 53
     Ph: 70
@@ -1782,17 +1776,23 @@ items:
       B: 7
       C: 30
       D: 53
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-35.webp
+  text: |-
+    35. 若該生要獲得較具科學性的成果，除利用GPS 工具外，還適合透過下列哪三項
+    資料作為支持此探究主題的材料？甲、遊客問卷結果；乙、耆老訪談紀錄；丙、
+    聚落分布圖（比例尺1/400000）；丁、聚落內部測繪圖（比例尺1/1000）；戊、
+    聚落附近測站的氣候數據；己、田野調查當天的風向風速計測量數據。
+    (A)甲丙戊
+    (B)甲丁己
+    (C)乙丙己
+    (D)乙丁戊
 - id: soc112-36
   'no': 36
   type: single
   points: 2
   group: soc112-g36
-  image: img/social/112-36.webp
   stem: ''
   options:
     A: ''
@@ -1800,12 +1800,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    36. 照片中聚落的災情，其形成原因最可能為下列何者？
-    (A)洪水從甲河段襲來，沖擊位於滑走坡的聚落
-    (B)洪水從甲河段襲來，沖擊位於基蝕坡的聚落
-    (C)洪水從乙河段襲來，沖擊位於滑走坡的聚落
-    (D)洪水從乙河段襲來，沖擊位於基蝕坡的聚落
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 40
     Ph: 53
@@ -1816,17 +1813,20 @@ items:
       B: 40
       C: 11
       D: 8
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-36.webp
+  text: |-
+    36. 照片中聚落的災情，其形成原因最可能為下列何者？
+    (A)洪水從甲河段襲來，沖擊位於滑走坡的聚落
+    (B)洪水從甲河段襲來，沖擊位於基蝕坡的聚落
+    (C)洪水從乙河段襲來，沖擊位於滑走坡的聚落
+    (D)洪水從乙河段襲來，沖擊位於基蝕坡的聚落
 - id: soc112-37
   'no': 37
   type: single
   points: 2
   group: soc112-g36
-  image: img/social/112-37.webp
   stem: ''
   options:
     A: ''
@@ -1834,13 +1834,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    37. 若以行星風系的尺度，造成該次降水事件的原因，最可能與下列哪個風帶或氣壓
-    帶關係密切？
-    (A)極圈氣旋帶
-    (B)極地高壓帶
-    (C)東北信風帶
-    (D)副熱帶高壓帶
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 22
     Ph: 40
@@ -1851,17 +1847,21 @@ items:
       B: 6
       C: 46
       D: 26
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-37.webp
+  text: |-
+    37. 若以行星風系的尺度，造成該次降水事件的原因，最可能與下列哪個風帶或氣壓
+    帶關係密切？
+    (A)極圈氣旋帶
+    (B)極地高壓帶
+    (C)東北信風帶
+    (D)副熱帶高壓帶
 - id: soc112-38
   'no': 38
   type: single
   points: 2
   group: soc112-g38
-  image: img/social/112-38.webp
   stem: ''
   options:
     A: ''
@@ -1869,16 +1869,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    38. 文中提到臺灣成為世界晶片重要供應地的原因，最可能是該產業具有下列哪項發
-    展特性？
-    (A)產業連鎖較緊密
-
-    (B)規模經濟較龐大
-
-    (C)工業慣性較明顯
-
-    (D)生產趨向標準化
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 69
     Ph: 87
@@ -1889,17 +1882,24 @@ items:
       B: 10
       C: 7
       D: 15
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-38.webp
+  text: |-
+    38. 文中提到臺灣成為世界晶片重要供應地的原因，最可能是該產業具有下列哪項發
+    展特性？
+    (A)產業連鎖較緊密
+
+    (B)規模經濟較龐大
+
+    (C)工業慣性較明顯
+
+    (D)生產趨向標準化
 - id: soc112-39
   'no': 39
   type: single
   points: 2
   group: soc112-g38
-  image: img/social/112-39.webp
   stem: ''
   options:
     A: ''
@@ -1907,15 +1907,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    39. 若僅針對文中所述，其他亞洲開發中國家短期難以複製臺灣經驗的原因，最可能
-    是下列何者？
-    (A)欠缺良好原料工業區位條件
-
-    (B)知識經濟發展進程相對緩慢
-    (C)企業未能形成垂直整合結構
-
-    (D)國際分工體系尚未完整建立
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 64
     Ph: 85
@@ -1926,17 +1920,23 @@ items:
       B: 64
       C: 26
       D: 5
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-39.webp
+  text: |-
+    39. 若僅針對文中所述，其他亞洲開發中國家短期難以複製臺灣經驗的原因，最可能
+    是下列何者？
+    (A)欠缺良好原料工業區位條件
+
+    (B)知識經濟發展進程相對緩慢
+    (C)企業未能形成垂直整合結構
+
+    (D)國際分工體系尚未完整建立
 - id: soc112-40
   'no': 40
   type: single
   points: 2
   group: soc112-g40
-  image: img/social/112-40.webp
   stem: ''
   options:
     A: ''
@@ -1944,12 +1944,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    40. 該篇學術研究最可能使用到下列哪種地理資訊分析方法？
-    (A)環域分析
-    (B)路徑分析
-    (C)視域分析
-    (D)地形分析
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 80
     Ph: 94
@@ -1960,17 +1957,20 @@ items:
       B: 2
       C: 12
       D: 5
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-40.webp
+  text: |-
+    40. 該篇學術研究最可能使用到下列哪種地理資訊分析方法？
+    (A)環域分析
+    (B)路徑分析
+    (C)視域分析
+    (D)地形分析
 - id: soc112-41
   'no': 41
   type: single
   points: 2
   group: soc112-g40
-  image: img/social/112-41.webp
   stem: ''
   options:
     A: ''
@@ -1978,12 +1978,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    41. 文中提到的社群最可能是以下列哪個族裔為主？
-    (A)亞裔
-    (B)非裔
-    (C)拉丁裔
-    (D)阿拉伯裔
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 46
     Ph: 60
@@ -1994,17 +1991,20 @@ items:
       B: 35
       C: 46
       D: 10
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-41.webp
+  text: |-
+    41. 文中提到的社群最可能是以下列哪個族裔為主？
+    (A)亞裔
+    (B)非裔
+    (C)拉丁裔
+    (D)阿拉伯裔
 - id: soc112-42
   'no': 42
   type: single
   points: 2
   group: soc112-g42
-  image: img/social/112-42.webp
   stem: ''
   options:
     A: ''
@@ -2012,13 +2012,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    42. 依據題文及圖7，鄉公所最可能選擇下列何處作為「災害應變中心避難收容處」
-    的設置地點？
-    (A)甲
-    (B)乙
-    (C)丙
-    (D)丁
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 45
     Ph: 62
@@ -2029,17 +2025,21 @@ items:
       B: 9
       C: 21
       D: 45
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-42.webp
+  text: |-
+    42. 依據題文及圖7，鄉公所最可能選擇下列何處作為「災害應變中心避難收容處」
+    的設置地點？
+    (A)甲
+    (B)乙
+    (C)丙
+    (D)丁
 - id: soc112-43
   'no': 43
   type: single
   points: 2
   group: soc112-g42
-  image: img/social/112-43.webp
   stem: ''
   options:
     A: ''
@@ -2047,12 +2047,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    43. 導致部分賽德克族人被遷居到南豐村的歷史事件是：
-    (A)1906年日警設置隘勇線，被迫退居南豐村
-    (B)1910年林野調查後，喪失地權而遷居此處
-    (C)1930年霧社事件後，因集團移住遷居於此
-    (D)1937年皇民化政策後，強制遷居至川中島
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 64
     Ph: 81
@@ -2063,17 +2060,20 @@ items:
       B: 12
       C: 64
       D: 6
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-43.webp
+  text: |-
+    43. 導致部分賽德克族人被遷居到南豐村的歷史事件是：
+    (A)1906年日警設置隘勇線，被迫退居南豐村
+    (B)1910年林野調查後，喪失地權而遷居此處
+    (C)1930年霧社事件後，因集團移住遷居於此
+    (D)1937年皇民化政策後，強制遷居至川中島
 - id: soc112-44
   'no': 44
   type: single
   points: 2
   group: soc112-g42
-  image: img/social/112-44.webp
   stem: ''
   options:
     A: ''
@@ -2081,12 +2081,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    44. 該部落與政府合作的計畫，最能凸顯以下哪項民主治理的理念？
-    (A)由地方政府推動資源分配計畫，最能代表在地意見
-    (B)經民眾投票產生的多數決，最符合公平的決策模式
-    (C)民眾直接參與決策比由議會決定，更符合公共利益
-    (D)開放地方民眾參與決策過程，更能回應在地的需求
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 75
     Ph: 92
@@ -2097,17 +2094,20 @@ items:
       B: 12
       C: 8
       D: 75
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-44.webp
+  text: |-
+    44. 該部落與政府合作的計畫，最能凸顯以下哪項民主治理的理念？
+    (A)由地方政府推動資源分配計畫，最能代表在地意見
+    (B)經民眾投票產生的多數決，最符合公平的決策模式
+    (C)民眾直接參與決策比由議會決定，更符合公共利益
+    (D)開放地方民眾參與決策過程，更能回應在地的需求
 - id: soc112-45
   'no': 45
   type: single
   points: 2
   group: soc112-g42
-  image: img/social/112-45.webp
   stem: ''
   options:
     A: ''
@@ -2115,12 +2115,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    45.題文中該部落申請之權利，其性質和下列所舉的原住民族權利中的哪種權利相同？
-    (A)選擇信仰的權利
-    (B)傳統領域的權利
-    (C)原住民傳統姓名權
-    (D)申請保留地的權利
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 43
     Ph: 52
@@ -2131,17 +2128,20 @@ items:
       B: 43
       C: 41
       D: 13
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-45.webp
+  text: |-
+    45.題文中該部落申請之權利，其性質和下列所舉的原住民族權利中的哪種權利相同？
+    (A)選擇信仰的權利
+    (B)傳統領域的權利
+    (C)原住民傳統姓名權
+    (D)申請保留地的權利
 - id: soc112-46
   'no': 46
   type: single
   points: 2
   group: soc112-g46
-  image: img/social/112-46.webp
   stem: ''
   options:
     A: ''
@@ -2149,13 +2149,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    46.  若要探究我國是否出現該學者指稱的參與現象，下列何者是最適當且必要的佐證
-    資料？
-    (A)公共政策網路參與平台提案者及附議者的政黨立場分析
-    (B)不同政黨支持者的教育程度及其網路使用行為之相關性
-    (C)民眾網路言論傾向與對不同政黨支持者的好感度之關聯
-    (D)民眾的政黨偏好及其對政府施政滿意度的網路調查分析
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 68
     Ph: 83
@@ -2166,20 +2162,31 @@ items:
       B: 6
       C: 68
       D: 14
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-46.webp
+  text: |-
+    46.  若要探究我國是否出現該學者指稱的參與現象，下列何者是最適當且必要的佐證
+    資料？
+    (A)公共政策網路參與平台提案者及附議者的政黨立場分析
+    (B)不同政黨支持者的教育程度及其網路使用行為之相關性
+    (C)民眾網路言論傾向與對不同政黨支持者的好感度之關聯
+    (D)民眾的政黨偏好及其對政府施政滿意度的網路調查分析
 - id: soc112-47
   'no': 47
   type: open
   points: 2
   group: soc112-g46
-  image: img/social/112-47.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-47.webp
   text: |-
     47. 依題文判斷，該學者所謂的「民主政府組織及運作的最重要原理」，應為下列何
     者？請在答題卷表格先勾選一項最重要的原理，再從題文摘述判斷依據。（3 分，
@@ -2189,17 +2196,11 @@ items:
     □ 政黨輪替 
     □ 三權分立 
     □ 分權制衡
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-48
   'no': 48
   type: single
   points: 2
   group: soc112-g48
-  image: img/social/112-48.webp
   stem: ''
   options:
     A: ''
@@ -2207,12 +2208,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    48. 鎮城隍廟也祀奉各自所屬縣的城隍爺，其主要原因最可能是：
-    (A)鎮城隍廟主神需同樣是周圍農村信仰的神
-    (B)城隍信仰可反映分層管理的地方行政體系
-    (C)從縣城往來市鎮者能夠於交易時順道參拜
-    (D)國家開始在市鎮設置政府機構以管理商業
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 50
     Ph: 58
@@ -2223,20 +2221,30 @@ items:
       B: 50
       C: 23
       D: 6
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-48.webp
+  text: |-
+    48. 鎮城隍廟也祀奉各自所屬縣的城隍爺，其主要原因最可能是：
+    (A)鎮城隍廟主神需同樣是周圍農村信仰的神
+    (B)城隍信仰可反映分層管理的地方行政體系
+    (C)從縣城往來市鎮者能夠於交易時順道參拜
+    (D)國家開始在市鎮設置政府機構以管理商業
 - id: soc112-49
   'no': 49
   type: open
   points: 2
   group: soc112-g48
-  image: img/social/112-49.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-49.webp
   text: |-
     49. 根據題文，明代中期以後江南地區出現鎮城隍廟，反映什麼新的社會現象？請在
     答題卷上勾選一個正確選項（1 分），並從題文內找出論據（2 分，40 字內）。
@@ -2245,17 +2253,11 @@ items:
     □ 市鎮地位提升 
     □ 縣治地位下降 
     □ 土地信仰衰微
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-50
   'no': 50
   type: single
   points: 2
   group: soc112-g50
-  image: img/social/112-50.webp
   stem: ''
   options:
     A: ''
@@ -2263,12 +2265,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    50. 該地獼猴的棲地，最可能屬於下列哪種生態環境？
-    (A)火山邊坡坡地上密布的灌木叢與箭竹林
-    (B)廣大沙丘群上遍布的防風林與保安林木
-    (C)高位河階地上長滿茂密果實的針葉林木
-    (D)海岸隆起珊瑚礁山丘上蓊鬱的闊葉林木
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 34
     Ph: 57
@@ -2279,35 +2278,39 @@ items:
       B: 17
       C: 34
       D: 34
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-50.webp
+  text: |-
+    50. 該地獼猴的棲地，最可能屬於下列哪種生態環境？
+    (A)火山邊坡坡地上密布的灌木叢與箭竹林
+    (B)廣大沙丘群上遍布的防風林與保安林木
+    (C)高位河階地上長滿茂密果實的針葉林木
+    (D)海岸隆起珊瑚礁山丘上蓊鬱的闊葉林木
 - id: soc112-51
   'no': 51
   type: open
   points: 2
   group: soc112-g50
-  image: img/social/112-51.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-51.webp
   text: |-
     51. 從環境負載力的角度，在答題卷的表格中以40 字內寫出猴群移動的趨勢及可能
     原因。（3 分）
     猴群移動趨勢及可能原因
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-52
   'no': 52
   type: single
   points: 2
   group: soc112-g52
-  image: img/social/112-52.webp
   stem: ''
   options:
     A: ''
@@ -2315,12 +2318,9 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    52. 依題文資料推論，上述某國所施行的政策，是想要透過什麼策略來提高生育率？
-    (A)鼓勵新婚夫妻之一方退出職場
-    (B)鼓勵夫妻共同分攤育嬰的責任
-    (C)提升高齡已婚婦女的生育意願
-    (D)提供年輕人早婚並生育的誘因
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 61
     Ph: 68
@@ -2331,17 +2331,20 @@ items:
       B: 61
       C: 7
       D: 28
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-52.webp
+  text: |-
+    52. 依題文資料推論，上述某國所施行的政策，是想要透過什麼策略來提高生育率？
+    (A)鼓勵新婚夫妻之一方退出職場
+    (B)鼓勵夫妻共同分攤育嬰的責任
+    (C)提升高齡已婚婦女的生育意願
+    (D)提供年輕人早婚並生育的誘因
 - id: soc112-53
   'no': 53
   type: single
   points: 2
   group: soc112-g52
-  image: img/social/112-53.webp
   stem: ''
   options:
     A: ''
@@ -2349,12 +2352,9 @@ items:
     C: ''
     D: ''
   answer: A
-  text: |-
-    53. 資料中提及出生率相對較高的國家，其人口轉型最可能處於下列哪個階段？
-    (A)低穩定階段
-    (B)高穩定階段
-    (C)早期擴張階段
-    (D)晚期擴張階段
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 29
     Ph: 44
@@ -2365,20 +2365,30 @@ items:
       B: 30
       C: 19
       D: 21
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-53.webp
+  text: |-
+    53. 資料中提及出生率相對較高的國家，其人口轉型最可能處於下列哪個階段？
+    (A)低穩定階段
+    (B)高穩定階段
+    (C)早期擴張階段
+    (D)晚期擴張階段
 - id: soc112-54
   'no': 54
   type: open
   points: 2
   group: soc112-g52
-  image: img/social/112-54.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-54.webp
   text: |-
     54. 學者甲若依據自己的發現來解釋北歐國家出生率比東亞國家高的現象，最可能選
     擇下列哪個因素來解釋？請在答題卷表格勾選一項，並參考題文說明判斷理由。
@@ -2388,17 +2398,11 @@ items:
     □ 經濟發展 
     □ 社會規範 
     □ 人口政策
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-55
   'no': 55
   type: single
   points: 2
   group: soc112-g55
-  image: img/social/112-55.webp
   stem: ''
   options:
     A: ''
@@ -2406,12 +2410,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    55. 依據題文，下列何者最可能是該沉船打撈起來的貨物？
-    (A)象牙
-    (B)香料
-    (C)銀幣
-    (D)瓷器
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 73
     Ph: 90
@@ -2422,20 +2423,30 @@ items:
       B: 16
       C: 7
       D: 73
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-55.webp
+  text: |-
+    55. 依據題文，下列何者最可能是該沉船打撈起來的貨物？
+    (A)象牙
+    (B)香料
+    (C)銀幣
+    (D)瓷器
 - id: soc112-56
   'no': 56
   type: open
   points: 2
   group: soc112-g55
-  image: img/social/112-56.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-56.webp
   text: |-
     56. 依照文中民國初年學者的研究成
     果，請在東南亞的範圍內，於答題卷
@@ -2458,17 +2469,11 @@ items:
     500 1,000
     分界線
     N
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-57
   'no': 57
   type: single
   points: 2
   group: soc112-g57
-  image: img/social/112-57.webp
   stem: ''
   options:
     A: ''
@@ -2476,13 +2481,10 @@ items:
     C: ''
     D: ''
   answer: B
-  text: |-
-    57. 題文中「玉山」最後的定名，從統治權力運作的觀點來看，與下列哪項事件性質
-    最接近？
-    (A)雍正廢除清朝初建課徵的丁稅（人口稅），改為攤丁入地（畝）
-    (B)阿拉斯加被俄羅斯出售後，曆法制度從原有曆法改為公（西）曆
-    (C)臺灣省政府發行新臺幣，以取代臺灣省行政長官公署發行的臺幣
-    (D)南韓政府將首都官方中文譯名，以首爾取代獨立後即使用的漢城
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 官方鑑別度 D=8，低鑑別題不進主線
   stats:
     P: 21
     Ph: 26
@@ -2493,17 +2495,21 @@ items:
       B: 21
       C: 24
       D: 50
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-57.webp
+  text: |-
+    57. 題文中「玉山」最後的定名，從統治權力運作的觀點來看，與下列哪項事件性質
+    最接近？
+    (A)雍正廢除清朝初建課徵的丁稅（人口稅），改為攤丁入地（畝）
+    (B)阿拉斯加被俄羅斯出售後，曆法制度從原有曆法改為公（西）曆
+    (C)臺灣省政府發行新臺幣，以取代臺灣省行政長官公署發行的臺幣
+    (D)南韓政府將首都官方中文譯名，以首爾取代獨立後即使用的漢城
 - id: soc112-58
   'no': 58
   type: single
   points: 2
   group: soc112-g57
-  image: img/social/112-58.webp
   stem: ''
   options:
     A: ''
@@ -2511,15 +2517,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    58. 不考慮天氣因素，僅由圖9 的等高線疏密與地形走向判斷，圖中哪條路線是沿著
-    山脊前進，並且最有可能在沿路就可遠眺到Morrison 船長駛入的港口？
-    (A)玉山西峰→玉山
-
-    (B)玉山北峰→玉山西峰
-    (C)玉山→玉山北峰
-
-    (D)玉山東峰→玉山北峰
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 31
     Ph: 42
@@ -2530,20 +2530,33 @@ items:
       B: 37
       C: 31
       D: 6
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-58.webp
+  text: |-
+    58. 不考慮天氣因素，僅由圖9 的等高線疏密與地形走向判斷，圖中哪條路線是沿著
+    山脊前進，並且最有可能在沿路就可遠眺到Morrison 船長駛入的港口？
+    (A)玉山西峰→玉山
+
+    (B)玉山北峰→玉山西峰
+    (C)玉山→玉山北峰
+
+    (D)玉山東峰→玉山北峰
 - id: soc112-59
   'no': 59
   type: open
   points: 2
   group: soc112-g57
-  image: img/social/112-59.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-59.webp
   text: |-
     59. 原住民族關於玉山的傳說，可用於討論哪項議題？請在答題卷上勾選一個正確議
     題（1 分），並從題文中找出判斷依據且加以說明（2 分，50 字內）。
@@ -2552,17 +2565,11 @@ items:
     □ 各族的名稱起源 
     □ 各族的活動空間 
     □ 各族的社會階層
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-60
   'no': 60
   type: single
   points: 2
   group: soc112-g60
-  image: img/social/112-60.webp
   stem: ''
   options:
     A: ''
@@ -2570,13 +2577,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    60.某生發現至今仍有很多人誤以為西班牙流感起源於西班牙，為探究此種以訛傳訛、
-    持續發生的認知錯誤問題，該生最適合使用下列哪個概念展開探究？
-    (A)媒體近用
-    (B)媒體壟斷
-    (C)媒體再現
-    (D)媒體守門
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 33
     Ph: 46
@@ -2587,20 +2590,31 @@ items:
       B: 23
       C: 33
       D: 16
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-60.webp
+  text: |-
+    60.某生發現至今仍有很多人誤以為西班牙流感起源於西班牙，為探究此種以訛傳訛、
+    持續發生的認知錯誤問題，該生最適合使用下列哪個概念展開探究？
+    (A)媒體近用
+    (B)媒體壟斷
+    (C)媒體再現
+    (D)媒體守門
 - id: soc112-61
   'no': 61
   type: open
   points: 2
   group: soc112-g60
-  image: img/social/112-61.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-61.webp
   text: |-
     61. 今日若要藉由歷史考察來修正「西班牙流感」這個錯誤名稱，最適合使用的材料
     為何？請在答題卷上勾選一個正確選項（1 分），並說明此材料適合使用的理由
@@ -2611,20 +2625,21 @@ items:
     □ 1918 年各國衛生單位的疫情記錄 
     □ 1918 年各國疫情新聞報導的內容 
     □ 1918 年西班牙的疫情升降曲線圖
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-62
   'no': 62
   type: open
   points: 2
   group: soc112-g60
-  image: img/social/112-62.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-62.webp
   text: |-
     圖例
     死亡人數（人）
@@ -2636,17 +2651,11 @@ items:
     洛杉磯
     62. 依照表3 的數據，請在答題卷的地圖中，以分級符號方式繪製「流感死亡人數」
     的統計地圖，並繪製圖例。（4 分）
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-63
   'no': 63
   type: single
   points: 2
   group: soc112-g63
-  image: img/social/112-63.webp
   stem: ''
   options:
     A: ''
@@ -2654,13 +2663,9 @@ items:
     C: ''
     D: ''
   answer: C
-  text: |-
-    63. 從表4 可見「漠南非洲」飢餓指數高於世界其他地區，其與十九世紀下半葉歐洲
-    多國在非洲的剝削與掠奪有關。以下何者是發生於當時的歷史事件？
-    (A)歐洲海權大國開始尋找到亞洲最短的貿易路線
-    (B)歐洲商人在西非洲沿岸設立了販售黑奴的據點
-    (C)歐洲強權召開國際會議決定非洲勢力劃分原則
-    (D)歐洲人的殖民使當地人團結反抗種族隔離政策
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 54
     Ph: 80
@@ -2671,17 +2676,21 @@ items:
       B: 34
       C: 54
       D: 6
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-63.webp
+  text: |-
+    63. 從表4 可見「漠南非洲」飢餓指數高於世界其他地區，其與十九世紀下半葉歐洲
+    多國在非洲的剝削與掠奪有關。以下何者是發生於當時的歷史事件？
+    (A)歐洲海權大國開始尋找到亞洲最短的貿易路線
+    (B)歐洲商人在西非洲沿岸設立了販售黑奴的據點
+    (C)歐洲強權召開國際會議決定非洲勢力劃分原則
+    (D)歐洲人的殖民使當地人團結反抗種族隔離政策
 - id: soc112-64
   'no': 64
   type: single
   points: 2
   group: soc112-g63
-  image: img/social/112-64.webp
   stem: ''
   options:
     A: ''
@@ -2689,13 +2698,9 @@ items:
     C: ''
     D: ''
   answer: D
-  text: |-
-    64. 若僅針對表4 內容，可推論21 世紀全球的糧食生產，最可能出現下列哪項發展
-    過程？
-    (A)南方區域國家農業技術不及富裕國家，糧食生產總量成長較慢
-    (B)中低收入國家出口糧食給富裕國家，呈現出不平等交換的關係
-    (C)氣候變遷使部分地區糧食減產，糧食貿易全球化程度持續緊密
-    (D)品種改良、灌溉進步等因素，導致糧食增產與人口壓力的減輕
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 27
     Ph: 38
@@ -2706,20 +2711,31 @@ items:
       B: 44
       C: 18
       D: 27
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/social/112-64.webp
+  text: |-
+    64. 若僅針對表4 內容，可推論21 世紀全球的糧食生產，最可能出現下列哪項發展
+    過程？
+    (A)南方區域國家農業技術不及富裕國家，糧食生產總量成長較慢
+    (B)中低收入國家出口糧食給富裕國家，呈現出不平等交換的關係
+    (C)氣候變遷使部分地區糧食減產，糧食貿易全球化程度持續緊密
+    (D)品種改良、灌溉進步等因素，導致糧食增產與人口壓力的減輕
 - id: soc112-65
   'no': 65
   type: open
   points: 2
   group: soc112-g63
-  image: img/social/112-65.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-65.webp
   text: |-
     65. 若以圖10 描述全球小麥及其他糧食的
     生產與消費組合，圖中的P 點為滿足全
@@ -2744,20 +2760,21 @@ items:
     二、非選擇題
     說明：本部分共有 1 題，配分標於題末。限在標示題號作答區內作答。「非選擇題作圖部
     分」使用 2B 鉛筆作答，更正時以橡皮擦擦拭，切勿使用修正帶（液）。
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: soc112-66
   'no': 66
   type: open
   points: 2
   group: null
-  image: img/social/112-66.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/social/112-66.webp
   text: |-
     66. 某公司從某國進口符合該國食用油標準之食用油，但進口時為逃避繁瑣的進口檢
     驗，刻意選擇「工業用途」名義以加速通關。相關食安法律規定，申報不實得處
@@ -2773,8 +2790,3 @@ items:
     □ 正當程序 
     □ 比例原則 
     □ 信賴保護
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false

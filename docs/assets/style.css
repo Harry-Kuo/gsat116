@@ -156,6 +156,7 @@ textarea { min-height: 120px; }
 .list li:last-child { border-bottom: 0; }
 .list .t { font-weight: 600; }
 .tag { display: inline-block; font-size: .78em; padding: 0 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); margin-right: 4px; }
+a.tag { color: var(--accent); border-color: var(--accent); text-decoration: none; }
 .sync { font-size: .82em; color: var(--muted); text-align: center; margin: 8px 0; }
 .linkbtn { background: none; border: 0; padding: 6px 4px; font: inherit; color: var(--accent); text-decoration: underline; cursor: pointer; }
 .linkbtn:disabled { color: var(--muted); text-decoration: none; cursor: default; }

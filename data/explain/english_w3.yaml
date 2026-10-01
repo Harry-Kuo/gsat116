@@ -1,0 +1,247 @@
+# 英文第 3 週：Day 15–21 每日練習（113 年綜合測驗、文意選填、篇章結構、閱讀，以及 111–112 年詞彙題）的解析
+# （Claude 撰寫，老師審閱後可直接修改）
+
+# ---------- Day 15：綜合測驗（113 第一篇：神祕客）----------
+eng113-11:
+  key: pose as＋身分＝假扮成…；神祕客是假裝成一般顧客去消費。
+  explain: |
+    句意：神祕客有時也叫秘密購物者，他們＿＿＿一般顧客，去買東西、到餐廳用餐、詢問或退貨。
+    假裝成一般顧客去觀察 → (B) pose as 假扮成 ✓
+    (C) attend to 照顧、處理（全國 25% 誤選）(A) call for 需要、要求 (D) engage in 從事（後面接活動，不接人）。
+eng113-12:
+  key: they are assigned to the stores → the stores to which they are assigned（介系詞 to 移到 which 前面）。
+  explain: |
+    句意：他們評估並回報被指派前往的商店的產品品質、顧客服務與環境。
+    原本是 they are assigned to the stores，改成關係子句時把 to 移到 which 前面 → (D) to which ✓
+    (B) with which（全國 25% 誤選）：be assigned with 不是這裡的意思。
+    (A) in that 表示「因為」；(C) for that：關係代名詞 that 前面不能放介系詞。
+eng113-13:
+  key: 照標準程序是為了避免 personal bias（個人偏見）；下一句說檢核表是為了確保一致性。
+  explain: |
+    句意：評估商家時，神祕客必須遵守某些標準程序，以避免＿＿＿。
+    下一句：他們常拿到一份檢核表，確保觀察的一致性（consistency）→ 要避免的是 (D) personal bias 個人偏見 ✓
+    (B) financial hardship 經濟困難（全國 20% 誤選）(A) keen competitions 激烈的競爭 (C) racial conflicts 種族衝突。
+eng113-14:
+  key: 後面說「沒有好理由就和店員爭執」→ 假裝成難搞的顧客（difficult customers）。
+  explain: |
+    句意：他們也可能假裝成＿＿＿顧客，沒有好理由就和店員爭執。
+    無理取鬧的顧客＝難搞的顧客 → (A) difficult 難應付的 ✓
+    (D) anonymous 匿名的（全國 45% 誤選，比答對的人還多）：神祕客本來就是匿名的，但「匿名」解釋不了「無故和店員爭執」。
+    (B) potential 潛在的 (C) constant 經常的。
+eng113-15:
+  key: identify areas for improvement＝找出需要改進的地方；後面說能幫忙提升產品與服務品質。
+  explain: |
+    句意：神祕客用蒐集到的資料找出需要＿＿＿的地方，進而幫助提升產品與服務的品質。
+    要提升品質，先找出要「改進」的地方 → (C) improvement 改進 ✓
+    (D) management 管理（全國 19% 誤選）(A) distribution 分配 (B) expectation 期待。
+
+# ---------- Day 16：綜合測驗（113 第二篇：人肉鬧鐘）----------
+eng113-16:
+  key: could have p.p.＝本來可以…（實際上沒有）；下一句 But… 說鬧鐘又貴又不可靠。
+  explain: |
+    句意：他們＿＿＿鬧鐘，因為可調式鬧鐘在 19 世紀中期就已經發明了。但這種新裝置還是相當昂貴、不可靠。
+    「鬧鐘已經發明」是可以用的理由，But 後面說又貴又不可靠 → 本來可以用、實際上沒有用 → (B) could have used ✓
+    (C) had hardly used 幾乎沒用過（全國 42% 誤選）：「因為鬧鐘已經發明了，所以幾乎沒用過」因果不通。
+    (A) must be using 一定正在用 (D) were mostly using 大多在用，都和「又貴又不可靠」矛盾。
+eng113-17:
+  key: Equipped with…＝配備著…；人肉鬧鐘拿著棍子或吹豆槍去敲窗戶。
+  explain: |
+    句意：＿＿＿棍子或吹豆槍，人肉鬧鐘會巡街、敲窗戶，或用乾豌豆射窗戶，叫醒付錢的客戶準時上工。
+    手上帶著工具 → (C) Equipped with 配備著 ✓
+    (B) Trained for 受訓做…（全國 15% 誤選）(A) Aimed at 瞄準 (D) Exhausted by 被…累壞。
+eng113-18:
+  key: 每天早上在大街小巷都看得到 → 他們成了英國各地熟悉的身影（familiar presences）。
+  explain: |
+    句意：不論拿的是棍子還是吹豆槍，人肉鬧鐘在全英國成了＿＿＿。每天早上，大街小巷都看得到這些人專業地叫醒客戶。
+    隨處可見 → (A) familiar presences 熟悉的身影 ✓
+    (D) public eyesores 公共場所的礙眼之物（全國 32% 誤選）：文中說他們工作很專業，沒有負面的評價。
+    (B) distant memories 遙遠的記憶 (C) vague images 模糊的印象。
+eng113-19:
+  key: 鬧鐘越來越普及、便宜 → 這個行業逐漸衰退（declined）。
+  explain: |
+    句意：雖然這種做法在某些地區一直持續到 1970 年代，但隨著鬧鐘更普及、更便宜，它＿＿＿了。
+    While 表示對比：還持續了一陣子，但終究「衰退」→ (D) declined ✓
+    (C) revised 修訂（全國 25% 誤選）、(B) dismissed 解散、不予理會：都要接受詞或用被動，意思也不對。
+    (A) remained 維持（全國 23% 誤選）：和「鬧鐘越來越普及」的因果矛盾。
+eng113-20:
+  key: cannot match…＝比不上…；鬧鐘、手機雖然方便，卻比不上人敲窗戶的貼心。
+  explain: |
+    句意：今天的鬧鐘和手機當然更簡單方便，但它們無法＿＿＿吹豆槍獨特的敲擊聲帶來的個人關照。
+    However 轉折：方便，卻「比不上」人的關照 → (C) match 比得上 ✓
+    (B) change 改變（全國 35% 誤選）(A) forget 忘記（全國 33% 誤選）(D) regret 後悔，放進去都不合句意。
+
+# ---------- Day 17–18：文意選填（113：風之電話）----------
+# 選項：(A) passed on (B) bridge (C) sorrow (D) hope (E) departed (F) mechanism (G) housed (H) manageable (I) fateful (J) brought forth
+eng113-21:
+  key: their＿＿loved ones 中間要形容詞；departed（已故的）和後面 who died in the tsunami 呼應。
+  explain: |
+    詞性分類：名詞 bridge、sorrow、hope、mechanism；動詞或片語 passed on、housed、brought forth；形容詞 departed、manageable、fateful。
+    句意：孤單的「風之電話」把家人和他們＿＿＿親人連在一起，這些親人死於奪走一萬八千條人命的海嘯。
+    所有格 their 和名詞 loved ones 之間要形容詞，意思是「死去的」→ (E) departed 已故的 ✓
+    (A) passed on（全國 19% 誤選）：pass on 雖然有「過世」的意思，但它是動詞片語，不能放在名詞前面當形容詞。
+    (I) fateful 決定命運的（全國 11% 誤選）。
+eng113-22:
+  key: that＿＿day 要形容詞：fateful day＝決定命運（不幸）的那一天。
+  explain: |
+    句意：人們來對失去的親人說話，說出那個＿＿＿日子裡一直沒機會說的話。
+    that 和名詞 day 之間要形容詞；海嘯那天改變了一切 → (I) fateful 決定命運的、災難性的 ✓
+    (C) sorrow 悲傷（全國 26% 誤選）：是名詞，不能直接修飾 day（要用形容詞 sorrowful）。
+eng113-23:
+  key: The idea was first brought forth by…＝這個點子最早是由…提出的（被動語態）。
+  explain: |
+    句意：風之電話的點子最早是由一位名叫佐佐木格的日本庭園設計師＿＿＿的。
+    was＋p.p.＋by 是被動語態，「點子被提出」→ (J) brought forth 提出 ✓
+    (E) departed（全國 17% 誤選）(G) housed（全國 16% 誤選）放進去意思都不通。
+eng113-24:
+  key: the＿＿要名詞；走出喪親之痛 → navigate through the sorrow。
+  explain: |
+    句意：他覺得需要一個私人的空間，幫助自己度過＿＿＿，於是設置了一座電話亭，讓他能和過世的親人「說話」。
+    the 後面要名詞，他在哀悼表哥 → (C) sorrow 悲傷 ✓
+    (F) mechanism 機制（全國 16% 誤選）是第 29 題的答案。
+eng113-25:
+  key: 主詞 The booth he built 後面缺動詞：電話亭裡「容納、裝著」一支舊撥盤電話 → housed。
+  explain: |
+    句意：他建的電話亭裡＿＿＿一支電話線沒有接通的舊撥盤式電話。
+    主詞 The booth (he built) 後面缺主要動詞，而且是過去式 → (G) housed 容納、裝著 ✓
+    (F) mechanism（全國 11% 誤選）是名詞，不能當動詞。
+eng113-26:
+  key: my thoughts couldn't be passed on＝我的思念無法被傳達（被動語態）。
+  explain: |
+    句意：「因為我的思念無法透過一般的電話線＿＿＿，我希望讓風帶走它們。」
+    be＋p.p.，思念「被傳達」→ (A) passed on 傳遞、傳達 ✓
+    (E) departed（全國 12% 誤選）(J) brought forth（全國 12% 誤選）都不合句意。
+eng113-27:
+  key: render＋受詞＋形容詞＝使…變得…：讓哀悼的過程變得比較可以承受（manageable）。
+  explain: |
+    句意：風之電話讓佐佐木能進行一段深刻、單向的對話，使哀悼的過程對他來說更＿＿＿。
+    renders the grieving process more＋形容詞，「更能承受、更容易應付」→ (H) manageable ✓
+    (I) fateful（全國 17% 誤選）、(D) hope（全國 14% 誤選）都放不進去。
+eng113-28:
+  key: a＿＿between A and B：電話亭成了生者與死者之間的「橋梁」。
+  explain: |
+    句意：電話的消息漸漸傳開，這座電話亭成了生者與死者之間的一座＿＿＿。
+    a 後面要單數名詞，連接兩邊 → (B) bridge 橋梁 ✓
+eng113-29:
+  key: a natural mechanism for coping with loss＝面對失去的自然機制。
+  explain: |
+    句意：哀悼是面對失去所愛之人的一種自然＿＿＿，每個人哀悼的方式都不同。
+    a natural 後面要單數名詞，「應對的方式、機制」→ (F) mechanism 機制 ✓
+eng113-30:
+  key: 冒號後面說他們相信訊息會傳到逝者那裡 → 希望（hope）一直都在。
+  explain: |
+    句意：對那些對著風之電話說話的人來說，＿＿＿一直都在：他們相信自己的訊息會以某種未知的方式傳到逝者那裡。
+    空格是主詞，要名詞；冒號後面解釋了內容 → (D) hope 希望 ✓
+
+# ---------- Day 19：篇章結構（113：受傷後要不要運動）＋詞彙 ----------
+# 選項：(A) For example, an injured runner might end up cycling and swimming instead of running.
+# (B) Over time, researchers have come to realize the importance of exercising when injured.
+# (C) Many suggest that most patients can continue with the sport they love.
+# (D) This seems to run counter to the common practice.
+eng113-31:
+  key: This 指前面「受傷後還去跑步」；common practice 由下一句說明：一般建議疼痛消失前不要運動。
+  explain: |
+    前段：Weinstein 醫生扭傷背部後，吃了阿斯匹靈、冰敷，就去跑步，回來覺得「還不錯」。
+    空格後：人們拉傷肌肉或肌腱時，通常會被建議等疼痛消失再運動。
+    (D) This seems to run counter to the common practice.（這似乎和一般的做法相反）✓ ——This 指他受傷還去跑步；common practice 正好由下一句說明。
+    (B)（全國 25% 誤選）講研究者後來的認識，應該放在最後一段 Thus 的前面。
+eng113-32:
+  key: 空格後 They nevertheless caution…（他們卻也提醒要減量）→ 前面要先有「可以繼續原本的運動」。
+  explain: |
+    前句：Weinstein 不是唯一這樣治療運動傷害的人，但每位專家的建議不太一樣。
+    空格後：They nevertheless caution that a cutback may be necessary…（不過他們也提醒可能需要減量，例如跑短一點、慢一點）
+    nevertheless 表示讓步：先說「可以繼續」，再提醒「要減量」→ (C) Many suggest that most patients can continue with the sport they love. ✓
+    (A)（全國 41% 誤選，比答對的人還多）是交叉訓練的例子，要放在提到 cross-train 之後，也就是第 33 題。
+eng113-33:
+  key: 前一句講「交叉訓練」直到不痛，空格舉例：受傷的跑者改騎腳踏車、游泳。
+  explain: |
+    前句：Still others say the safest thing to do is cross-train all the time until the pain is gone.（還有人說最安全的是在疼痛消失前都做交叉訓練）
+    空格舉例說明交叉訓練 → (A) For example, an injured runner might end up cycling and swimming instead of running. ✓
+    空格後的 Their consensus, however…（不過他們的共識是…）把上面幾種說法總結起來。
+    (D)（全國 23% 誤選）的 This 在這裡找不到可以指的做法。
+eng113-34:
+  key: 空格後 Thus, more and more patients are now advised to keep moving…（因此越來越多病人被建議繼續活動）→ 前面要有原因。
+  explain: |
+    空格後：Thus, more and more patients are now advised to keep moving despite the pain.
+    Thus 表示結果，前面要說原因：研究者漸漸了解受傷時運動的重要 → (B) Over time, researchers have come to realize the importance of exercising when injured. ✓
+    (C)（全國 34% 誤選）是第 32 題的答案，講的是「多數病人可以繼續原本的運動」，和 Thus 後面的「越來越多病人被建議」接不起來。
+eng112-09:
+  key: be choked with traffic＝被車流塞住、交通堵塞。
+  explain: |
+    句意：棒球總冠軍賽湧進破紀錄的球迷，球場周邊的公路一整天都被車流＿＿＿。
+    車子多到動彈不得 → (A) choked 堵塞 ✓
+    (B) disturbed 打擾（全國 31% 誤選）(C) enclosed 圍住（全國 19% 誤選）(D) injected 注射。
+
+# ---------- Day 20：閱讀測驗（一）（113：魔鬼氈）＋詞彙 ----------
+eng112-10:
+  key: supposedly＝據說、表面上；後面 in fact（事實上）表示真相相反。
+  explain: |
+    句意：研究顯示，＿＿＿公正的媒體，事實上常深受政治意識型態影響。
+    in fact 表示和前面的說法相反 → 表面上公正、實際不然 → (D) supposedly 據說、表面上 ✓
+    (B) roughly 大約（全國 25% 誤選）(A) undoubtedly 無疑地（全國 22% 誤選）(C) understandably 可以理解地。
+eng113-35:
+  key: 魔鬼氈是「鉤」與「圈」互相黏住的布面扣件，只有 (B) 是。
+  explain: |
+    文中：de Mestral 看到芒刺上的小鉤子勾住褲子布料的線圈，於是做出鉤面與圈面互相黏住的扣件，取名 Velcro（魔鬼氈）。
+    (B) 兩片布面撕開的是魔鬼氈 ✓
+    (A) 壓扣（按扣）(C) 彈簧鑰匙扣 (D) 鉤眼扣，都不是鉤面加圈面的設計。
+eng113-36:
+  key: a lightbulb moment＝靈光一閃（頭上亮起燈泡）。
+  explain: |
+    第一段：他看到黏在狗毛和褲子上的芒刺，馬上衝去用顯微鏡觀察，覺得「a lightbulb moment」來了。
+    燈泡亮起來＝突然有了好點子 → (D) A sudden inspiration. ✓
+    (C) An unpredictable future 無法預測的未來（全國 12% 誤選）(A) 因禍得福 (B) 圓滿的結局。
+eng113-37:
+  key: 第三段：棉布太軟，承受不了反覆開合，後來改用尼龍。
+  explain: |
+    (B) He first tried cotton, but it proved too soft and could not withstand repeated openings and closures. → 棉不夠耐用 ✓
+    (A) 最後一段：Initially Velcro did not fare well（一開始賣得不好）✗
+    (C) 名字取自法文 velours（絲絨）和 crochet（鉤），但它是在瑞士取得專利，文中沒說在法國生產（全國 12% 誤選）✗
+    (D) 文中沒說設計要看起來像絲絨一樣光滑；時尚評論家反而嫌它醜、看起來廉價 ✗
+eng113-38:
+  key: 文中提到的用途：運動器材、太空（NASA）、醫療（血壓計袖帶、手術衣、人工心臟）；沒有土木工程。
+  explain: |
+    這題選「沒有提到」的。
+    (B) 航太：NASA 把它用在送上太空的設備 → 有提到
+    (C) 醫療：血壓計袖帶、外科手術衣，還用在第一次人工心臟移植 → 有提到（全國 16% 誤選）
+    (D) 運動：一開始只用在運動器材（athletic equipment）→ 有提到（全國 18% 誤選）
+    (A) 土木工程：全文沒有提到 ✓
+
+# ---------- Day 21：閱讀測驗（二）（113：畫家 Moran 與黃石公園）＋詞彙 ----------
+eng111-03:
+  key: hand puppet show＝布袋戲（手套式的偶戲）。
+  explain: |
+    句意：廟方舉辦十天的舞獅、歌仔戲和傳統＿＿＿表演來慶祝媽祖節。
+    hand puppet＝套在手上操作的戲偶，傳統 hand puppet shows 就是布袋戲 → (C) puppet 戲偶 ✓
+    (D) variety（全國 34% 誤選）：variety show 是綜藝節目，hand variety show 不成詞。
+    (A) chat 聊天 (B) quiz 小測驗。
+eng113-39:
+  key: 全文寫 Moran 為什麼、怎麼去畫黃石，以及他的畫如何促成國家公園成立。
+  explain: |
+    第二、三段：Moran 替 Langford 寫黃石的故事畫插圖，被文中描述的奇景吸引，渴望親眼看看，於是參加 1871 年政府的調查隊。
+    → (D) Why Moran started painting Yellowstone. ✓
+    (B) 黃石的自然景觀怎麼形成：文中沒有說明（全國 20% 誤選）✗
+    (A) 世界各地國家公園怎麼成立：只寫美國黃石 ✗
+    (C) 文中只說他 7 歲隨家人移民，沒說原因 ✗
+eng113-40:
+  key: 他的家鄉是工業革命的中心：大街是「骯髒的黑洞」、河水汙濁 → 汙染嚴重。
+  explain: |
+    第二段：Moran 來自英格蘭西北部，the blackened heart of the Industrial Revolution，大街是 a dark, unattractive hole，河流是一串髒水。
+    blackened（變黑的）形容工業汙染 → (A) The place was severely polluted. ✓
+    (B) 字面上的「黑洞」只是比喻，不是城裡真的充滿黑洞（全國 12% 誤選）✗
+    (C)(D) 文中沒有提到工廠老闆或工人的制服 ✗
+eng113-41:
+  key: 最後一段：Moran 到之前，大眾想像中的黃石是個荒涼、冒著熱氣的可怕地方。
+  explain: |
+    第一段：他的畫把壯麗的景色帶到美國人眼前；最後一段：在他之前，大眾想像中的黃石是 a harsh, wild place。
+    → 1870 年代以前美國人不太了解黃石的美 → (B) ✓
+    (A) Langford 寫了故事，文中沒說是他提議設立公園（全國 14% 誤選）✗
+    (C) 文中沒說是因為自然資源豐富（全國 17% 誤選）✗
+    (D) 他還畫了十幾個後來成為國家公園或紀念地的地方，不是只有黃石（全國 15% 誤選）✗
+eng113-42:
+  key: Moran 的水彩是「這個地區第一批彩色的描繪」→ 當時還沒有普遍的彩色照片。
+  explain: |
+    第三段：Moran’s watercolors—the first color renderings of the area—as well as Jackson’s photos…
+    攝影師 Jackson 也去了，但第一批「彩色」的描繪是 Moran 的水彩 → 可推論當時彩色照片並不普遍 → (C) ✓
+    (B)（全國 21% 誤選）：他先替 Langford 的故事畫插圖，被描述吸引才想親眼去看，所以畫黃石之前並沒有去過 ✗
+    (A) 文中沒說 Scribner’s Monthly 是推廣國家公園的雜誌 ✗
+    (D) 文中沒說水彩是當時最流行的風景畫 ✗

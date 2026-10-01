@@ -68,8 +68,8 @@
 - **be responsive to**：對…有反應　→ 115 年第 15 題
 - **be meant to be**：本來就是要…　→ 115 年第 18 題
 - **give rise to**：導致、產生　→ <mention-page url="https://app.notion.com/p/3ebee100984f81ceabbeefa34a178cf0"/>　全國答對率 43%
-- **pose as**：假扮成　→ 113 年第 11 題
-- **be equipped with**：配備著　→ 113 年第 17 題
+- **pose as**：假扮成　→ <mention-page url="https://app.notion.com/p/3ecee100984f81f8b23fe92738d8fc86"/>　全國答對率 42%
+- **be equipped with**：配備著　→ <mention-page url="https://app.notion.com/p/3ecee100984f81f68373f5a3f651d7a5"/>　全國答對率 61%
 - **compete for**：爭奪　→ 112 年第 13 題
 - **exposure to**：接觸、暴露於　→ 112 年第 14 題
 - **free of**：擺脫、不受…束縛　→ 112 年第 16 題
@@ -84,8 +84,8 @@
 - **have yet to V**：還沒有…（had yet to develop＝當時還沒發展）　→ 115 年第 17 題
 - **would＋原形動詞**：從過去的時間點看未來（當時還不知道會擴散）　→ <mention-page url="https://app.notion.com/p/3ebee100984f81adb3f0f127456837d2"/>　全國答對率 46%
 - **代動詞 don't**：代替前面的 detect that your body is moving，避免重複　→ <mention-page url="https://app.notion.com/p/3ebee100984f818aa208e96f7bdf79ea"/>　全國答對率 40%
-- **介系詞＋which**：be assigned to the stores → the stores to which they are assigned　→ 113 年第 12 題
-- **could have＋p.p.**：過去本來可以…（實際上沒有）　→ 113 年第 16 題
+- **介系詞＋which**：be assigned to the stores → the stores to which they are assigned　→ <mention-page url="https://app.notion.com/p/3ecee100984f8157aa87c9990a1be3cc"/>　全國答對率 43%
+- **could have＋p.p.**：過去本來可以…（實際上沒有）　→ <mention-page url="https://app.notion.com/p/3ecee100984f819e9759c320afcdfa4f"/>　全國答對率 29%
 - **句子的主要動詞**：our body fluids 後面缺主要動詞，用現在式 redistribute（敘述一般事實）；後面的 shifting… 是分詞構句　→ 112 年第 18 題
 - **現在完成進行式**：Since the 1970s → have been springing up（從過去到現在持續）　→ 111 年第 12 題
 - **used to＋原形動詞**：過去曾經（現在不是了）　→ 111 年第 17 題

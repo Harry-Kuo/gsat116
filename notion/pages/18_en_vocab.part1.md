@@ -55,14 +55,14 @@
 	- **recall** *n.* 記憶力、回想（第 4 級）：powers of recall 記憶力　→ <mention-page url="https://app.notion.com/p/3ebee100984f818c8777cf52a595a778"/>　全國答對率 70%
 	- **counter** *v.* 反駁、反擊（第 4 級）：evidence to counter the claims 反駁說法的證據｜易混淆：expose 揭露、provoke 激起、convert 轉換　→ <mention-page url="https://app.notion.com/p/3ebee100984f81d9b8a9e96249348484"/>　全國答對率 23%
 	- **cripple** *v.* 使癱瘓、嚴重損害（第 5 級）：cripple the country's economy 重創國家經濟｜易混淆：accelerate 加速、render 使成為　→ <mention-page url="https://app.notion.com/p/3ebee100984f811faf0dd0393464d967"/>　全國答對率 41%
-	- **choke** *v.* 堵塞、使窒息（第 4 級）：be choked with traffic 交通堵塞｜易混淆：disturb 打擾、enclose 圍住、inject 注射　→ 112 年第 9 題
-	- **supposedly** *adv.* 據說、表面上（第 5 級）：the supposedly unbiased media 號稱公正的媒體｜易混淆：roughly 大約、undoubtedly 無疑地、understandably 可以理解地　→ 112 年第 10 題
+	- **choke** *v.* 堵塞、使窒息（第 4 級）：be choked with traffic 交通堵塞｜易混淆：disturb 打擾、enclose 圍住、inject 注射　→ <mention-page url="https://app.notion.com/p/3ecee100984f812cb47defe5255ce43e"/>　全國答對率 35%
+	- **supposedly** *adv.* 據說、表面上（第 5 級）：the supposedly unbiased media 號稱公正的媒體｜易混淆：roughly 大約、undoubtedly 無疑地、understandably 可以理解地　→ <mention-page url="https://app.notion.com/p/3ecee100984f81f7add6c980b8fe8fc6"/>　全國答對率 37%
 </details>
 <details>
 <summary>**111 年**（10 題）</summary>
 	- **deliver** *v.* 遞送（第 2 級）：have it delivered to his house 請人送到家　→ 111 年第 1 題
 	- **assistant** *n.* 助理（第 3 級）：the best assistant I have ever had 我遇過最好的助理　→ 111 年第 2 題
-	- **puppet** *n.* 木偶（第 3 級）：hand puppet shows 布袋戲｜易混淆：variety 多樣（variety show 綜藝節目）　→ 111 年第 3 題
+	- **puppet** *n.* 木偶（第 3 級）：hand puppet shows 布袋戲｜易混淆：variety 多樣（variety show 綜藝節目）　→ <mention-page url="https://app.notion.com/p/3ecee100984f81119cd0f79d155f6a9e"/>　全國答對率 50%
 	- **potentially** *adv.* 潛在地、可能地（由 potential（第 4 級）衍生）：potentially fatal side effects 可能致命的副作用｜易混淆：ambiguously 含糊地　→ 111 年第 4 題
 	- **tag** *v.* 加上標籤（第 3 級）：tag the photos with dates and keywords 幫照片加上日期和關鍵字　→ 111 年第 5 題
 	- **agreeable** *adj.* 隨和的、令人愉快的（第 4 級）：an agreeable person 隨和好相處的人｜易混淆：intimate 親密的　→ 111 年第 6 題

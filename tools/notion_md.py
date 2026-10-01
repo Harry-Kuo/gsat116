@@ -383,14 +383,21 @@ def chinese_page():
     return b
 
 
-def skeleton_page(subject, structure, focus):
+def skeleton_page(subject, structure, focus, focus_raw=False):
+    """focus_raw＝True 時 focus 已是 Notion 格式（含頁面提及），不再跳脫。"""
     _, plan, start, published = plan_info()
     items, _ = load_subject(subject)
     concepts = qyaml.load(ROOT / "data" / "concepts" / f"{subject}.yaml")
     week = [q for d in plan["days"] for q in d["sets"].get(subject) or []]
-    b = [callout("🧭", [md_inline(structure)]), callout("📌", [md_inline(focus)], color="yellow_bg"),
-         "## 🎯 觀念大綱與每日練習考古題",
-         "每個觀念底下列出每日練習做到的考古題；點開可以看題目、答案與解析。"]
+    b = [callout("🧭", [md_inline(structure)]), callout("📌", [focus if focus_raw else md_inline(focus)], color="yellow_bg")]
+    if subject in MATH_REF_PAGES and MAP.get(MATH_REF_PAGES[subject][0]):
+        key, title = MATH_REF_PAGES[subject]
+        b += ["## 📚 重點整理", "各單元的必背公式、解題流程與容易錯的地方，以及前兩週答對率最低的代表題。", f'<page url="{MAP[key]}">{title}</page>']
+    if subject in NOTE_PAGES and any(MAP.get(note_key(subject, m)) for m, _, _ in NOTE_PAGES[subject]):
+        b += ["## 📚 重點整理", NOTE_INTRO[subject]]
+        b += [f'<page url="{MAP[note_key(subject, m)]}">{t}</page>' for m, t, _ in NOTE_PAGES[subject] if MAP.get(note_key(subject, m))]
+    b += ["## 🎯 觀念大綱與每日練習考古題",
+          "每個觀念底下列出每日練習做到的考古題；點開可以看題目、答案與解析。"]
     for mod in concepts["modules"]:
         b.append(f"### {esc(mod['name'])}")
         for c in mod["concepts"]:
@@ -428,9 +435,17 @@ def daily_table(plan, start, w):
 
 def week_page(w, md_name, subject):
     """每週上課講義（學生看得到）：原稿中的 [[題目:代碼]] 換成完整題目與折疊解析，[[診斷小考]] 換成診斷題，
-    [[每日練習表]] 換成這一週的每日練習主題；{{CLASS1}}、{{CLASS2}}、{{CLASS_W7}} 換成上課日期。"""
+    [[每日練習表]] 換成這一週的每日練習主題；{{CLASS1}}、{{CLASS2}}、{{CLASS_W7}} 換成上課日期。
+    subject 可以是一個科目或科目清單（數學週同時用數A、數B 的題目）。"""
     cfg, plan, start, published = plan_info()
-    items, groups = load_subject(subject)
+    subjects = [subject] if isinstance(subject, str) else list(subject)
+    items, groups, subj_of = {}, {}, {}
+    for s in subjects:
+        b_items, b_groups = load_subject(s)
+        items.update(b_items)
+        groups.update(b_groups)
+        subj_of.update({q: s for q in b_items})
+    subject = subjects[0]
     d1, d2 = class_days(w, cfg)
     doc = (ROOT / "notion" / md_name).read_text(encoding="utf-8").replace("{{SITE}}", SITE) \
         .replace("{{CLASS1}}", fmt_day(d1)).replace("{{CLASS2}}", fmt_day(d2))
@@ -450,7 +465,7 @@ def week_page(w, md_name, subject):
         m = re.fullmatch(r"\[\[題目:([a-z0-9-]+)\]\]", line.strip())
         if m:
             flush()
-            blocks.append(question_toggle(items[m.group(1)], subject, groups, published, shown))
+            blocks.append(question_toggle(items[m.group(1)], subj_of[m.group(1)], groups, published, shown))
         elif line.strip() == "[[診斷小考]]":
             flush()
             diag = (plan.get("diag") or {}).get(subject) or []
@@ -467,7 +482,8 @@ def week_page(w, md_name, subject):
             "REF_EN_VOCAB": mention("ref:en_vocab", "〈常考單字〉"), "REF_EN_PHRASE": mention("ref:en_phrase", "〈轉折語與片語〉"),
             "REF_EN_WRITING": mention("ref:en_writing", "〈混合題與寫作〉"), "REF_EN_CARDS": mention("ref:en_cards", "〈單字卡〉"),
             "REF_EN_CLOZE": mention("ref:en_cloze", "〈克漏字解題〉"), "REF_EN_READING": mention("ref:en_reading", "〈閱讀與篇章結構〉"),
-            "REF_EN_ROOTS": mention("ref:en_roots", "〈字首字根字尾〉"), "REF_EN_CONFUSE": mention("ref:en_confuse", "〈易混淆字〉")}
+            "REF_EN_ROOTS": mention("ref:en_roots", "〈字首字根字尾〉"), "REF_EN_CONFUSE": mention("ref:en_confuse", "〈易混淆字〉"),
+            "REF_MATH_A": mention("ref:mathA_notes", "〈數學A 公式與解題流程〉"), "REF_MATH_B": mention("ref:mathB_notes", "〈數學B 公式與解題流程〉")}
     return [re.sub(r"\\\{\\\{(REF_[A-Z_]+)\\\}\\\}", lambda m: subs[m.group(1)], blk) for blk in blocks]
 
 
@@ -477,6 +493,100 @@ def week1_page():
 
 def week2_page():
     return week_page(2, "week02_english.md", "english")
+
+
+def week3_page():
+    return week_page(3, "week03_math.md", ["mathA", "mathB"])
+
+
+# ---------- 數學重點整理：各觀念的必背公式、解題流程、易錯點 ----------
+MATH_REF_PAGES = {"mathA": ("ref:mathA_notes", "數學A 公式與解題流程"), "mathB": ("ref:mathB_notes", "數學B 公式與解題流程")}
+
+
+def math_focus(subject):
+    """數學頁頂端的說明：第 3 週講義與重點整理的連結（頁面建立後才會變成提及）。"""
+    key, title = MATH_REF_PAGES[subject]
+    return (f"**第 3 週上課**（{esc(fmt_class(3))}）的講義、上課練習題與混合題參考答案在 {mention('week:3', '📅 每週課程 W3')}；"
+            f"各單元的必背公式、解題流程與容易錯的地方在 {mention(key, '〈' + title + '〉')}。")
+
+
+def math_notes_page(subject):
+    """依觀念列出必背公式、解題流程、易錯點；最後附前兩週（Day 1–14）每日練習中全國答對率最低的題目。"""
+    _, plan, _, published = plan_info()
+    items, _ = load_subject(subject)
+    concepts = qyaml.load(ROOT / "data" / "concepts" / f"{subject}.yaml")
+    notes = qyaml.load(REF / "math_notes.yaml")[subject]
+    done = [q for d in plan["days"] if d["day"] <= 14 for q in d["sets"].get(subject) or []]
+    b = [callout("🧭", ["依單元整理必背公式、解題流程和容易錯的地方。標「考卷附」的公式，考卷最後會附上，但還是要熟到不用查。",
+                       "每個觀念最後列出前兩週每日練習中全國答對率最低的題目，點進去可以看題目、答案與解析。"])]
+    for mod in concepts["modules"]:
+        b.append(f"## {esc(mod['name'])}")
+        for c in mod["concepts"]:
+            n = notes.get(c["id"])
+            if not n:
+                continue
+            ch = [callout("💡", [inline(c.get("summary", ""))]), "**📌 必背**"]
+            ch += [f"- {inline(x)}" for x in n.get("must") or []]
+            ch.append("**🧭 解題流程**")
+            ch += [f"{i}. {inline(x)}" for i, x in enumerate(n.get("steps") or [], 1)]
+            ch.append("**⚠️ 容易錯的地方**")
+            ch += [f"- {inline(x)}" for x in n.get("traps") or []]
+            qs = sorted((items[q] for q in done if c["id"] in (items[q].get("concepts") or [])
+                         and (items[q].get("stats") or {}).get("P") is not None), key=lambda it: it["stats"]["P"])[:3]
+            if qs:
+                ch.append("**📝 代表題**（前兩週做過、全國答對率最低的題目）")
+                ch += [f"- {ref(it, subject, published)}" for it in qs]
+            b.append(toggle(f"**{esc(c['name'])}**", ch))
+    return b
+
+
+# ---------- 自然、社會重點整理：每一科（物理、化學、生物、地科；公民、歷史、地理）一頁 ----------
+NOTE_PAGES = {
+    "science": [("P", "物理重點整理", "🧲"), ("C", "化學重點整理", "🧪"), ("B", "生物重點整理", "🧬"), ("E", "地球科學重點整理", "🌏")],
+    "social": [("G", "公民與社會重點整理", "⚖️"), ("H", "歷史重點整理", "📜"), ("D", "地理重點整理", "🗺️")],
+}
+NOTE_INTRO = {
+    "science": "物理、化學、生物、地球科學各一頁：必背觀念、解題步驟、容易錯的地方，以及前兩週答對率最低的代表題。",
+    "social": "公民與社會、歷史、地理各一頁：必背觀念、作答步驟、容易錯的地方，以及前兩週答對率最低的代表題。",
+}
+STEP_TITLE = {"science": "解題步驟", "social": "作答步驟"}
+
+
+def note_key(subject, mod_id):
+    return f"ref:{subject}_{mod_id}"
+
+
+def notes_page(subject, mod_id):
+    """一科（例如物理）的重點整理：每個觀念一個切換區塊，依序是一句話重點、必背、表格、解題步驟、易錯點，
+    最後附前兩週（Day 1–14）每日練習中、已放進考古題庫的全國答對率最低題目。"""
+    _, plan, _, published = plan_info()
+    items, _ = load_subject(subject)
+    concepts = qyaml.load(ROOT / "data" / "concepts" / f"{subject}.yaml")
+    notes = qyaml.load(REF / f"{subject}_notes.yaml")
+    mod = next(m for m in concepts["modules"] if m["id"] == mod_id)
+    done = [q for d in plan["days"] if d["day"] <= 14 for q in d["sets"].get(subject) or []]
+    b = [callout("🧭", [f"依單元整理{esc(mod['name'])}的必背觀念、{STEP_TITLE[subject]}和容易錯的地方。",
+                       "每個觀念最後列出前兩週每日練習中全國答對率最低的題目，點進去可以看題目、答案與解析。"])]
+    for c in mod["concepts"]:
+        n = notes.get(c["id"])
+        if not n:
+            continue
+        ch = [callout("💡", [inline(n.get("summary") or c.get("summary", ""))]), "**📌 必背**"]
+        ch += [f"- {inline(x)}" for x in n.get("must") or []]
+        for t in n.get("tables") or []:
+            ch += [f"**📋 {inline(t['title'])}**", table([[inline(x) for x in r] for r in t["rows"]])]
+        ch.append(f"**🧭 {STEP_TITLE[subject]}**")
+        ch += [f"{i}. {inline(x)}" for i, x in enumerate(n.get("steps") or [], 1)]
+        ch.append("**⚠️ 容易錯的地方**")
+        ch += [f"- {inline(x)}" for x in n.get("traps") or []]
+        qs = sorted((items[q] for q in done if c["id"] in (items[q].get("concepts") or [])
+                     and (items[q].get("stats") or {}).get("P") is not None and MAP.get(f"q:{q}")),
+                    key=lambda it: it["stats"]["P"])[:3]
+        if qs:
+            ch.append("**📝 代表題**（前兩週做過、全國答對率最低的題目）")
+            ch += [f"- {ref(it, subject, published)}" for it in qs]
+        b.append(toggle(f"**{esc(n.get('name') or c['name'])}**", ch))
+    return b
 
 
 # ---------- 國文重點整理：文言虛詞、核心古文、國學常識 ----------
@@ -879,7 +989,7 @@ def en_reading_page():
           "態度、語氣題常見的形容詞：",
           table([["英文", "中文"]] + [[f"**{esc(a)}**", esc(c)] for a, c in s["attitude_words"]])]
     b += ["## 篇章結構（第 31–34 題）",
-          "- 4 個空格、5 個句子選 4 個（有 1 個多餘），每題 2 分。",
+          "- 4 個空格，每題 2 分。111–114 年是 4 個句子剛好各用一次；115 年改成 5 個句子選 4 個，有 1 個多餘。",
           "### 線索"] + [f"- **{esc(a)}**：{esc(c)}" for a, c in s["structure_clues"]]
     b += ["### 作答步驟"] + [f"{i}. {esc(x)}" for i, x in enumerate(s["structure_steps"], 1)]
     b += ["## 時間分配",
@@ -1053,12 +1163,14 @@ def home_page():
     ms = [["日期", "事項"]] + [[f"{dt.date.fromisoformat(m['date']).month}/{dt.date.fromisoformat(m['date']).day}（{WEEKDAY[dt.date.fromisoformat(m['date']).weekday()]}）", esc(m["name"])] for m in cfg["milestones"]]
     w1 = f'<mention-page url="{MAP["week:1"]}"/>' if MAP.get("week:1") else "📅 每週課程 W1"
     w2 = f'<mention-page url="{MAP["week:2"]}"/>' if MAP.get("week:2") else "📅 每週課程 W2"
+    w3 = f'<mention-page url="{MAP["week:3"]}"/>' if MAP.get("week:3") else "📅 每週課程 W3"
     return [f'<embed src="{SITE}/countdown.html">距離 116 學測倒數</embed>',
             callout("📌", ["**116 學測：2027/1/22（五）–1/24（日）**｜每日快答 **9/30（三）Day 1** 開始，每天每科 5 題，12/31 前做完近六屆經典題。",
                           f"👉 [打開今日練習]({SITE}/)（手機用瀏覽器打開後選「加入主畫面」，之後像 App 一樣一鍵開啟）"], color="orange_bg"),
             "## 📣 上課安排",
             f"- **W1 國文**｜{fmt_class(1, cfg)}｜國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → {w1}",
             f"- **W2 英文**｜{fmt_class(2, cfg)}｜{WEEK_TOPIC[2]} → {w2}",
+            f"- **W3 數學**｜{fmt_class(3, cfg)}｜{WEEK_TOPIC[3]} → {w3}",
             f"- 每週二、四各上課 {cfg['classes']['hours']:g} 小時，國→英→數→自→社輪替，課程到 1/14（W16 總複習）；各週主題見「📅 每週課程」。",
             "- 每日練習：國文、英文、數學A、數學B、自然、社會各 5 題，合計約 45 分鐘（數學A、數學B 各約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。",
             "## 🧭 學習地圖",
@@ -1140,8 +1252,9 @@ def db_question_rows():
 WEEK_SUBJECTS = ["國文", "英文", "數學", "自然", "社會"]  # 數學週同時上數A、數B
 WEEK_LABEL = {"數學": "數學（數A＋數B）"}
 WEEK_TOPIC = {1: "國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判",
-              2: "英文考科結構 × 詞彙 × 綜合測驗 × 文意選填 × 篇章結構 × 閱讀測驗"}
-WEEK_PAGES = {1: week1_page, 2: week2_page}
+              2: "英文考科結構 × 詞彙 × 綜合測驗 × 文意選填 × 篇章結構 × 閱讀測驗",
+              3: "數A、數B 考科結構 × 代數 × 幾何 × 向量與矩陣 × 機率統計與計數 × 混合題"}
+WEEK_PAGES = {1: week1_page, 2: week2_page, 3: week3_page}
 
 
 def db_week_rows():
@@ -1171,10 +1284,11 @@ def db_week_rows():
     return rows
 
 
-def write_page(name, blocks):
+def write_page(name, blocks, limit=PART_LIMIT, first_alone=False):
+    """first_alone＝True：第 1 段只放第一個區塊（建立頁面用），其餘內容分段接在頁面最後。"""
     parts, cur = [], []
-    for blk in blocks:
-        if cur and sum(len(x) + 1 for x in cur) + len(blk) > PART_LIMIT:
+    for i, blk in enumerate(blocks):
+        if cur and (sum(len(x) + 1 for x in cur) + len(blk) > limit or (first_alone and i == 1)):
             parts.append(cur)
             cur = []
         cur.append(blk)
@@ -1206,10 +1320,15 @@ def main():
     write_page("19_en_confuse", en_confuse_page())
     write_page("19_en_cloze", en_cloze_page())
     write_page("19_en_reading", en_reading_page())
-    write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", focus(3, "各單元必考觀念、常見題型與解題流程。")))
-    write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", focus(3, "數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。")))
+    write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", math_focus("mathA"), focus_raw=True))
+    write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", math_focus("mathB"), focus_raw=True))
+    write_page("12c_mathA_notes", math_notes_page("mathA"))
+    write_page("12d_mathB_notes", math_notes_page("mathB"))
     write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", focus(4, "四科必考觀念、圖表與實驗題解題法。")))
     write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", focus(5, "三科必考觀念、史料與圖表判讀法。")))
+    for s, prefix in (("science", "13n"), ("social", "14n")):
+        for m, _, _ in NOTE_PAGES[s]:
+            write_page(f"{prefix}_{s}_{m}", notes_page(s, m), limit=7000, first_alone=True)
     write_page("15_chinese_xuci", xuci_page())
     write_page("16_chinese_core", core_index_page())
     for i, t in enumerate(core_texts(), 1):
@@ -1218,6 +1337,7 @@ def main():
     write_page("20_past_exams", past_exams_page())
     write_page("30_week01", week1_page())  # 每週課程的頁面內容（分段寫入 Notion 用）
     write_page("30_week02", week2_page())
+    write_page("30_week03", week3_page())
     write_page("40_progress", progress_page())
     write_page("90_teacher", teacher_page())
     q = db_question_rows()

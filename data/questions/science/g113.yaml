@@ -540,7 +540,6 @@ items:
   type: single
   points: 2
   group: null
-  image: img/science/113-01.webp
   stem: ''
   options:
     A: ''
@@ -549,15 +548,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    1. 探討活動時，小明觀察染色後細胞的形態並繪得如圖1 的細胞圖。這圖所顯示的
-    細胞最可能是來自下列何處的樣本？
-    (A)血液
-    (B)口腔黏膜
-    (C)洋蔥根尖
-    (D)洋蔥表皮
-    (E)水蘊草葉片
-    圖1
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 82
     Ph: 95
@@ -569,17 +562,23 @@ items:
       C: 4
       D: 11
       E: 2
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-01.webp
+  text: |-
+    1. 探討活動時，小明觀察染色後細胞的形態並繪得如圖1 的細胞圖。這圖所顯示的
+    細胞最可能是來自下列何處的樣本？
+    (A)血液
+    (B)口腔黏膜
+    (C)洋蔥根尖
+    (D)洋蔥表皮
+    (E)水蘊草葉片
+    圖1
 - id: sci113-02
   'no': 2
   type: multi
   points: 2
   group: null
-  image: img/science/113-02.webp
   stem: ''
   options:
     A: ''
@@ -588,6 +587,24 @@ items:
     D: ''
     E: ''
   answer: CD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 73
+    Ph: 86
+    Pl: 57
+    D: 29
+    T: 60
+    opt:
+      A: 5
+      B: 10
+      C: 88
+      D: 68
+      E: 12
+  explain: ''
+  reviewed: false
+  image: img/science/113-02.webp
   text: |-
     2. 學者對甲乙兩葉菜類作物（栽種後約2-3 個月可採收）進行在不同溫度下光合作
     用效率的研究，所得結果如圖2。圖3 是某地的全年氣溫變化圖。根據這些資訊，
@@ -658,29 +675,11 @@ items:
     氣
     溫
     （℃）
-  stats:
-    P: 73
-    Ph: 86
-    Pl: 57
-    D: 29
-    T: 60
-    opt:
-      A: 5
-      B: 10
-      C: 88
-      D: 68
-      E: 12
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-03
   'no': 3
   type: multi
   points: 2
   group: null
-  image: img/science/113-03.webp
   stem: ''
   options:
     A: ''
@@ -689,13 +688,9 @@ items:
     D: ''
     E: ''
   answer: BDE
-  text: |-
-    3. 依據細胞學說的主要內容及其推論，下列哪些正確？（應選3 項）
-    (A)病毒細胞是病毒體的構造與功能最基本單位
-    (B)尺度微小的細菌，其生物體仍由細胞構成
-    (C)紅血球細胞由血液中既存的紅血球分裂而來
-    (D)植物體的成長是綜合其細胞的數量增多和尺寸增大的結果
-    (E)動物體的行為表現複雜，但其功能可由多重細胞協調達成
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 54
     Ph: 76
@@ -708,17 +703,21 @@ items:
       C: 38
       D: 65
       E: 86
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-03.webp
+  text: |-
+    3. 依據細胞學說的主要內容及其推論，下列哪些正確？（應選3 項）
+    (A)病毒細胞是病毒體的構造與功能最基本單位
+    (B)尺度微小的細菌，其生物體仍由細胞構成
+    (C)紅血球細胞由血液中既存的紅血球分裂而來
+    (D)植物體的成長是綜合其細胞的數量增多和尺寸增大的結果
+    (E)動物體的行為表現複雜，但其功能可由多重細胞協調達成
 - id: sci113-04
   'no': 4
   type: multi
   points: 2
   group: null
-  image: img/science/113-04.webp
   stem: ''
   options:
     A: ''
@@ -727,17 +726,9 @@ items:
     D: ''
     E: ''
   answer: ABC
-  text: |-
-    4. 孟德爾進行一系列的豌豆雜交實驗，並將實驗數據分析後，整理出分離律與獨立
-    分配律二個遺傳法則。經過後續科學家的努力後，才逐漸確立這些法則對應的分
-    子生物學基礎。獨立分配律指不同對的遺傳因子分離後，自由分配到子代。實質
-    上，遺傳因子究竟是指什麼，則到二十世紀初才被確認。有關遺傳因子的分子組
-    成及結構的研究，下列哪些正確？（應選3 項）
-    (A)洒吞（薩登）發現細胞行減數分裂時，染色體的分離與遺傳因子的分離相似
-    (B)弗蘭克林以X光繞射技術觀察到DNA結晶的繞射影像
-    (C)華生與克里克建構了DNA的雙股螺旋分子模型
-    (D)史蒂文斯以果蠅的眼色互交試驗研究發現性聯遺傳
-    (E)摩根率先發現核酸為遺傳物質
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 48
     Ph: 73
@@ -750,17 +741,25 @@ items:
       C: 88
       D: 46
       E: 32
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-04.webp
+  text: |-
+    4. 孟德爾進行一系列的豌豆雜交實驗，並將實驗數據分析後，整理出分離律與獨立
+    分配律二個遺傳法則。經過後續科學家的努力後，才逐漸確立這些法則對應的分
+    子生物學基礎。獨立分配律指不同對的遺傳因子分離後，自由分配到子代。實質
+    上，遺傳因子究竟是指什麼，則到二十世紀初才被確認。有關遺傳因子的分子組
+    成及結構的研究，下列哪些正確？（應選3 項）
+    (A)洒吞（薩登）發現細胞行減數分裂時，染色體的分離與遺傳因子的分離相似
+    (B)弗蘭克林以X光繞射技術觀察到DNA結晶的繞射影像
+    (C)華生與克里克建構了DNA的雙股螺旋分子模型
+    (D)史蒂文斯以果蠅的眼色互交試驗研究發現性聯遺傳
+    (E)摩根率先發現核酸為遺傳物質
 - id: sci113-05
   'no': 5
   type: multi
   points: 2
   group: null
-  image: img/science/113-05.webp
   stem: ''
   options:
     A: ''
@@ -769,17 +768,13 @@ items:
     D: ''
     E: ''
   answer: CDE
-  text: |-
-    5. 卡里科和魏斯曼為2023 年諾貝爾生醫獎的得主。他們發現RNA 中的部分尿嘧啶
-    （U）用假尿嘧啶取代後可逃避免疫系統，而延長如RNA 等核酸在細胞內的存
-    活時間。這項發現使得製造mRNA 疫苗得到關鍵性技術，並且快速的發展、應用
-    與上市，適時對抗全球流行的新冠疫情，並做出具體貢獻。下列有關真核細胞的
-    RNA 敘述哪些正確？（應選3 項）
-    (A)尿嘧啶和鳥糞嘌呤以彼此形成鍵結的形式存在RNA中
-    (B)RNA是由嘧啶和嘌呤相互對位鍵結形成的雙股分子
-    (C)正常人體的免疫系統會偵測非自體的RNA
-    (D)將RNA中的尿嘧啶置換為假尿嘧啶，轉譯仍可順利進行
-    (E)將RNA中的尿嘧啶置換為假尿嘧啶，則可提高mRNA疫苗的效力
+  topic: B2
+  tags:
+  - B5
+  concepts:
+  - B2
+  - B5
+  classic: true
   stats:
     P: 60
     Ph: 90
@@ -792,17 +787,25 @@ items:
       C: 81
       D: 80
       E: 82
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-05.webp
+  text: |-
+    5. 卡里科和魏斯曼為2023 年諾貝爾生醫獎的得主。他們發現RNA 中的部分尿嘧啶
+    （U）用假尿嘧啶取代後可逃避免疫系統，而延長如RNA 等核酸在細胞內的存
+    活時間。這項發現使得製造mRNA 疫苗得到關鍵性技術，並且快速的發展、應用
+    與上市，適時對抗全球流行的新冠疫情，並做出具體貢獻。下列有關真核細胞的
+    RNA 敘述哪些正確？（應選3 項）
+    (A)尿嘧啶和鳥糞嘌呤以彼此形成鍵結的形式存在RNA中
+    (B)RNA是由嘧啶和嘌呤相互對位鍵結形成的雙股分子
+    (C)正常人體的免疫系統會偵測非自體的RNA
+    (D)將RNA中的尿嘧啶置換為假尿嘧啶，轉譯仍可順利進行
+    (E)將RNA中的尿嘧啶置換為假尿嘧啶，則可提高mRNA疫苗的效力
 - id: sci113-06
   'no': 6
   type: single
   points: 2
   group: null
-  image: img/science/113-06.webp
   stem: ''
   options:
     A: ''
@@ -811,15 +814,11 @@ items:
     D: ''
     E: ''
   answer: E
-  text: |-
-    6. 已知一段雙股去氧核糖核酸，其中一股的含氮鹼基序列為ATTGCCTTA，A 為腺
-    嘌呤、T 為胸腺嘧啶、C 為胞嘧啶、G 為鳥糞嘌呤，下列有關此段雙股去氧核糖
-    核酸的敘述，何者正確？
-    (A)腺嘌呤個數與胞嘧啶相同
-    (B)腺嘌呤個數為胸腺嘧啶的兩倍
-    (C)嘧啶總個數多於嘌呤總個數
-    (D)嘌呤總個數多於嘧啶總個數
-    (E)鳥糞嘌呤與胞嘧啶個數相加等於腺嘌呤個數
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
   stats:
     P: 50
     Ph: 81
@@ -831,17 +830,23 @@ items:
       C: 20
       D: 6
       E: 50
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-06.webp
+  text: |-
+    6. 已知一段雙股去氧核糖核酸，其中一股的含氮鹼基序列為ATTGCCTTA，A 為腺
+    嘌呤、T 為胸腺嘧啶、C 為胞嘧啶、G 為鳥糞嘌呤，下列有關此段雙股去氧核糖
+    核酸的敘述，何者正確？
+    (A)腺嘌呤個數與胞嘧啶相同
+    (B)腺嘌呤個數為胸腺嘧啶的兩倍
+    (C)嘧啶總個數多於嘌呤總個數
+    (D)嘌呤總個數多於嘧啶總個數
+    (E)鳥糞嘌呤與胞嘧啶個數相加等於腺嘌呤個數
 - id: sci113-07
   'no': 7
   type: multi
   points: 2
   group: null
-  image: img/science/113-07.webp
   stem: ''
   options:
     A: ''
@@ -850,6 +855,24 @@ items:
     D: ''
     E: ''
   answer: BE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 59
+    Ph: 67
+    Pl: 49
+    D: 18
+    T: 46
+    opt:
+      A: 7
+      B: 61
+      C: 28
+      D: 18
+      E: 82
+  explain: ''
+  reviewed: false
+  image: img/science/113-07.webp
   text: |-
     7. 一種微球菌
 
@@ -867,29 +890,11 @@ items:
     (C)K172遵循細胞來自細胞的細胞學說
     (D)K172遵循孟德爾遺傳法則而來
     (E)達爾文提出的天擇所造成的生物適應現象
-  stats:
-    P: 59
-    Ph: 67
-    Pl: 49
-    D: 18
-    T: 46
-    opt:
-      A: 7
-      B: 61
-      C: 28
-      D: 18
-      E: 82
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-08
   'no': 8
   type: single
   points: 2
   group: null
-  image: img/science/113-08.webp
   stem: ''
   options:
     A: ''
@@ -898,6 +903,23 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 84
+    Ph: 96
+    Pl: 64
+    D: 32
+    opt:
+      A: 3
+      B: 6
+      C: 5
+      D: 84
+      E: 2
+  explain: ''
+  reviewed: false
+  image: img/science/113-08.webp
   text: |-
     8. 小明探討演化理論之發展歷史，發現達爾文手繪之共同祖先概念圖饒富科學趣
     味，並仿製達爾文首次繪出的生命樹如圖4；其中之節點為共同祖先，線段表示
@@ -917,28 +939,11 @@ items:
     丁
     ①
     甲
-  stats:
-    P: 84
-    Ph: 96
-    Pl: 64
-    D: 32
-    opt:
-      A: 3
-      B: 6
-      C: 5
-      D: 84
-      E: 2
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-09
   'no': 9
   type: single
   points: 2
   group: null
-  image: img/science/113-09.webp
   stem: ''
   options:
     A: ''
@@ -947,13 +952,9 @@ items:
     D: ''
     E: ''
   answer: E
-  text: |-
-    9. 有關現行的生物分類系統，下列敘述何者正確？
-    (A)階層愈高，其內的（物）種間相似的特徵愈多，成員也較多
-    (B)階層愈低，其內（物）種較少，親緣關係也較疏遠
-    (C)任取兩個同目的（物）種必較同科的兩（物）種在親緣關係上疏遠
-    (D)（物）種是分類的基本單位，只能以形態相區別
-    (E)屬是將（物）種加以歸類後的第一個層級
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 31
     Ph: 52
@@ -965,17 +966,21 @@ items:
       C: 49
       D: 9
       E: 31
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-09.webp
+  text: |-
+    9. 有關現行的生物分類系統，下列敘述何者正確？
+    (A)階層愈高，其內的（物）種間相似的特徵愈多，成員也較多
+    (B)階層愈低，其內（物）種較少，親緣關係也較疏遠
+    (C)任取兩個同目的（物）種必較同科的兩（物）種在親緣關係上疏遠
+    (D)（物）種是分類的基本單位，只能以形態相區別
+    (E)屬是將（物）種加以歸類後的第一個層級
 - id: sci113-10
   'no': 10
   type: single
   points: 2
   group: null
-  image: img/science/113-10.webp
   stem: ''
   options:
     A: ''
@@ -984,6 +989,23 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 59
+    Ph: 91
+    Pl: 27
+    D: 64
+    opt:
+      A: 10
+      B: 12
+      C: 13
+      D: 60
+      E: 6
+  explain: ''
+  reviewed: false
+  image: img/science/113-10.webp
   text: |-
     10. 五種化合物的分子式分別是甲（
     19
@@ -1012,28 +1034,11 @@ items:
     (C)丙
     (D)丁
     (E)戊
-  stats:
-    P: 59
-    Ph: 91
-    Pl: 27
-    D: 64
-    opt:
-      A: 10
-      B: 12
-      C: 13
-      D: 60
-      E: 6
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-11
   'no': 11
   type: multi
   points: 2
   group: null
-  image: img/science/113-11.webp
   stem: ''
   options:
     A: ''
@@ -1042,6 +1047,28 @@ items:
     D: ''
     E: ''
   answer: BDE
+  topic: C3
+  tags:
+  - C4
+  concepts:
+  - C3
+  - C4
+  classic: true
+  stats:
+    P: 61
+    Ph: 92
+    Pl: 25
+    D: 67
+    T: 52
+    opt:
+      A: 27
+      B: 80
+      C: 29
+      D: 78
+      E: 85
+  explain: ''
+  reviewed: false
+  image: img/science/113-11.webp
   text: |-
     11. 在週期表之第二週期中，具有4 個和6 個價電子的元素分別以X 和Y 表示。下
     列哪些正確？（應選3 項）
@@ -1056,29 +1083,11 @@ items:
     (E)
     2
     XY 的水溶液呈弱酸性
-  stats:
-    P: 61
-    Ph: 92
-    Pl: 25
-    D: 67
-    T: 52
-    opt:
-      A: 27
-      B: 80
-      C: 29
-      D: 78
-      E: 85
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-12
   'no': 12
   type: single
   points: 2
   group: sci113-g12
-  image: img/science/113-12.webp
   stem: ''
   options:
     A: ''
@@ -1087,6 +1096,23 @@ items:
     D: ''
     E: ''
   answer: B
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 49
+    Ph: 67
+    Pl: 35
+    D: 32
+    opt:
+      A: 9
+      B: 50
+      C: 14
+      D: 18
+      E: 9
+  explain: ''
+  reviewed: false
+  image: img/science/113-12.webp
   text: |-
     12. 欲測量含硫物質的總濃度時，可選用以下哪種試劑，將水溶液內的硫化物都氧化
     成
@@ -1104,28 +1130,11 @@ items:
     (C) Zn(s)
     (D) HCl(aq)
     (E) KCl(aq)
-  stats:
-    P: 49
-    Ph: 67
-    Pl: 35
-    D: 32
-    opt:
-      A: 9
-      B: 50
-      C: 14
-      D: 18
-      E: 9
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-13
   'no': 13
   type: multi
   points: 2
   group: sci113-g12
-  image: img/science/113-13.webp
   stem: ''
   options:
     A: ''
@@ -1134,6 +1143,24 @@ items:
     D: ''
     E: ''
   answer: ACE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 41
+    Ph: 64
+    Pl: 21
+    D: 43
+    T: 25
+    opt:
+      A: 68
+      B: 42
+      C: 82
+      D: 50
+      E: 68
+  explain: ''
+  reviewed: false
+  image: img/science/113-13.webp
   text: |-
     13. 下列實驗觀察哪些為合理敘述？（應選3 項）
     (A)理論上純度100%的黃鐵礦樣品，其
@@ -1180,29 +1207,11 @@ items:
     4
     SO
     −
-  stats:
-    P: 41
-    Ph: 64
-    Pl: 21
-    D: 43
-    T: 25
-    opt:
-      A: 68
-      B: 42
-      C: 82
-      D: 50
-      E: 68
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-14
   'no': 14
   type: single
   points: 2
   group: null
-  image: img/science/113-14.webp
   stem: ''
   options:
     A: ''
@@ -1211,6 +1220,25 @@ items:
     D: ''
     E: ''
   answer: C
+  topic: C1
+  tags: []
+  concepts:
+  - C1
+  classic: true
+  stats:
+    P: 65
+    Ph: 89
+    Pl: 38
+    D: 51
+    opt:
+      A: 9
+      B: 12
+      C: 65
+      D: 9
+      E: 4
+  explain: ''
+  reviewed: false
+  image: img/science/113-14.webp
   text: |-
     14. 硼烷氨（
     3
@@ -1253,28 +1281,11 @@ items:
     (C)3.68
     (D)4.90
     (E)6.00
-  stats:
-    P: 65
-    Ph: 89
-    Pl: 38
-    D: 51
-    opt:
-      A: 9
-      B: 12
-      C: 65
-      D: 9
-      E: 4
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-15
   'no': 15
   type: single
   points: 2
   group: null
-  image: img/science/113-15.webp
   stem: ''
   options:
     A: ''
@@ -1283,17 +1294,9 @@ items:
     D: ''
     E: ''
   answer: C
-  text: |-
-    15. 李小仁買了一條流行的飛天小丑魚，是一種質量很輕類似氣球的飛行玩具，但是
-    買回來後發現，廠商沒有將飛天小丑魚灌入氣體。於是，李小仁前往附近店家尋
-    找，並填充一定量體積的氦氣，但是找了幾家，發現氦氣的純度有所差異，皆含
-    有體積1%氣體雜質。試問含有下列何種雜質會使飛天小丑魚最容易浮起？
-    （原子量C＝12.0、N＝14.0、O＝16.0、Ne＝20.2、Ar＝40.0）
-    (A)二氧化碳
-    (B)氮氣
-    (C)氖氣
-    (D)氬氣
-    (E)氧氣
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 52
     Ph: 84
@@ -1305,17 +1308,25 @@ items:
       C: 52
       D: 9
       E: 2
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-15.webp
+  text: |-
+    15. 李小仁買了一條流行的飛天小丑魚，是一種質量很輕類似氣球的飛行玩具，但是
+    買回來後發現，廠商沒有將飛天小丑魚灌入氣體。於是，李小仁前往附近店家尋
+    找，並填充一定量體積的氦氣，但是找了幾家，發現氦氣的純度有所差異，皆含
+    有體積1%氣體雜質。試問含有下列何種雜質會使飛天小丑魚最容易浮起？
+    （原子量C＝12.0、N＝14.0、O＝16.0、Ne＝20.2、Ar＝40.0）
+    (A)二氧化碳
+    (B)氮氣
+    (C)氖氣
+    (D)氬氣
+    (E)氧氣
 - id: sci113-16
   'no': 16
   type: single
   points: 2
   group: sci113-g16
-  image: img/science/113-16.webp
   stem: ''
   options:
     A: ''
@@ -1324,14 +1335,9 @@ items:
     D: ''
     E: ''
   answer: D
-  text: |-
-    16. 實驗的結果發現，在水的表面灑上碳化後的咖啡粉，可以增加水的揮發效果，其
-    可能原因為何？
-    (A)碳化後的咖啡粉變輕，與水一起揮發
-    (B)碳化後的咖啡粉變重，把水擠出容器外
-    (C)碳化後的咖啡粉易溶於水，促進水的揮發
-    (D)碳化後的咖啡粉，吸光吸熱的效果增加
-    (E)碳化後的咖啡粉不易吸水，水就容易揮發
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 69
     Ph: 88
@@ -1343,17 +1349,22 @@ items:
       C: 12
       D: 69
       E: 13
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-16.webp
+  text: |-
+    16. 實驗的結果發現，在水的表面灑上碳化後的咖啡粉，可以增加水的揮發效果，其
+    可能原因為何？
+    (A)碳化後的咖啡粉變輕，與水一起揮發
+    (B)碳化後的咖啡粉變重，把水擠出容器外
+    (C)碳化後的咖啡粉易溶於水，促進水的揮發
+    (D)碳化後的咖啡粉，吸光吸熱的效果增加
+    (E)碳化後的咖啡粉不易吸水，水就容易揮發
 - id: sci113-17
   'no': 17
   type: multi
   points: 2
   group: sci113-g16
-  image: img/science/113-17.webp
   stem: ''
   options:
     A: ''
@@ -1362,6 +1373,24 @@ items:
     D: ''
     E: ''
   answer: AE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 60
+    Ph: 85
+    Pl: 35
+    D: 50
+    T: 48
+    opt:
+      A: 80
+      B: 11
+      C: 32
+      D: 9
+      E: 62
+  explain: ''
+  reviewed: false
+  image: img/science/113-17.webp
   text: |-
     17. 在水杯中灑上混有油脂特性的矽烷碳化咖啡粉，可使水的揮發效果更佳，下列敘
     述哪些正確？（應選2 項）
@@ -1377,29 +1406,11 @@ items:
     m
     min
     
-  stats:
-    P: 60
-    Ph: 85
-    Pl: 35
-    D: 50
-    T: 48
-    opt:
-      A: 80
-      B: 11
-      C: 32
-      D: 9
-      E: 62
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-18
   'no': 18
   type: multi
   points: 2
   group: null
-  image: img/science/113-18.webp
   stem: ''
   options:
     A: ''
@@ -1408,6 +1419,24 @@ items:
     D: ''
     E: ''
   answer: ACE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 63
+    Ph: 89
+    Pl: 34
+    D: 55
+    T: 52
+    opt:
+      A: 71
+      B: 28
+      C: 90
+      D: 20
+      E: 85
+  explain: ''
+  reviewed: false
+  image: img/science/113-18.webp
   text: |-
     18. 有甲、乙、丙及丁四種純物質，皆不會相互反應，其熔點、沸點與加水後的情況
     如下表2 所示。
@@ -1446,29 +1475,11 @@ items:
     (C)分離乙與水的混合物的過程可使用濾紙過濾
     (D)甲和丙為強電解質
     (E)丁可能為離子化合物
-  stats:
-    P: 63
-    Ph: 89
-    Pl: 34
-    D: 55
-    T: 52
-    opt:
-      A: 71
-      B: 28
-      C: 90
-      D: 20
-      E: 85
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-19
   'no': 19
   type: multi
   points: 2
   group: null
-  image: img/science/113-19.webp
   stem: ''
   options:
     A: ''
@@ -1477,14 +1488,9 @@ items:
     D: ''
     E: ''
   answer: ACE
-  text: |-
-    19. 臺灣目前的核能電廠利用核燃料以發電，全部過程中主要牽涉到以下哪些形式的
-    能量轉換與反應？（應選3 項）
-    (A)質能轉換
-    (B)聲能轉電能
-    (C)熱能轉動能
-    (D)核融合
-    (E)核分裂
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 75
     Ph: 96
@@ -1497,17 +1503,22 @@ items:
       C: 88
       D: 29
       E: 86
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-19.webp
+  text: |-
+    19. 臺灣目前的核能電廠利用核燃料以發電，全部過程中主要牽涉到以下哪些形式的
+    能量轉換與反應？（應選3 項）
+    (A)質能轉換
+    (B)聲能轉電能
+    (C)熱能轉動能
+    (D)核融合
+    (E)核分裂
 - id: sci113-20
   'no': 20
   type: multi
   points: 2
   group: null
-  image: img/science/113-20.webp
   stem: ''
   options:
     A: ''
@@ -1516,13 +1527,11 @@ items:
     D: ''
     E: ''
   answer: CD
-  text: |-
-    20. 下列關於基本交互作用的敘述，哪些正確？（應選2 項）
-    (A)基本交互作用中，僅有重力的作用範圍可達無窮遠，故為星系形成的主要原因
-    (B)電子繞著原子核運動，主要是因為重力
-    (C)單獨的中子可藉由弱力衰變為質子、電子和其他粒子
-    (D)弱力與強力的作用範圍比原子的尺度還小
-    (E)質子與中子間有強力，但中子與中子間並沒有強力
+  topic: P3
+  tags: []
+  concepts:
+  - P3
+  classic: true
   stats:
     P: 62
     Ph: 89
@@ -1535,17 +1544,21 @@ items:
       C: 74
       D: 75
       E: 20
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-20.webp
+  text: |-
+    20. 下列關於基本交互作用的敘述，哪些正確？（應選2 項）
+    (A)基本交互作用中，僅有重力的作用範圍可達無窮遠，故為星系形成的主要原因
+    (B)電子繞著原子核運動，主要是因為重力
+    (C)單獨的中子可藉由弱力衰變為質子、電子和其他粒子
+    (D)弱力與強力的作用範圍比原子的尺度還小
+    (E)質子與中子間有強力，但中子與中子間並沒有強力
 - id: sci113-21
   'no': 21
   type: single
   points: 2
   group: null
-  image: img/science/113-21.webp
   stem: ''
   options:
     A: ''
@@ -1554,6 +1567,25 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: P4
+  tags: []
+  concepts:
+  - P4
+  classic: true
+  stats:
+    P: 50
+    Ph: 80
+    Pl: 22
+    D: 58
+    opt:
+      A: 3
+      B: 7
+      C: 19
+      D: 51
+      E: 22
+  explain: ''
+  reviewed: false
+  image: img/science/113-21.webp
   text: |-
     21. 眼球的主要結構及成像原理，和相機類似，如圖7 所示。光進入眼球時，會經過
     「角膜」、「瞳孔」與「水晶體」，「瞳孔」如同相機的光
@@ -1574,28 +1606,11 @@ items:
     角膜
     瞳孔
     水晶體
-  stats:
-    P: 50
-    Ph: 80
-    Pl: 22
-    D: 58
-    opt:
-      A: 3
-      B: 7
-      C: 19
-      D: 51
-      E: 22
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-22
   'no': 22
   type: multi
   points: 2
   group: sci113-g22
-  image: img/science/113-22.webp
   stem: ''
   options:
     A: ''
@@ -1604,13 +1619,9 @@ items:
     D: ''
     E: ''
   answer: CE
-  text: |-
-    22. 關於上述四種射束的敘述，下列哪些正確？（應選2 項）
-    (A)質子射束的粒子與射線的粒子相同
-    (B)質子束的粒子數密度必為電子束粒子數密度的37.5倍
-    (C)20 MeV之X光的光子頻率為4 MeV之X光的光子頻率的5倍
-    (D)150 MeV之質子的速率和4 MeV之光子的速率相同
-    (E)四種射束中，只有X光束能夠穿透15公分厚的細胞組織
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 47
     Ph: 71
@@ -1623,17 +1634,21 @@ items:
       C: 54
       D: 26
       E: 66
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-22.webp
+  text: |-
+    22. 關於上述四種射束的敘述，下列哪些正確？（應選2 項）
+    (A)質子射束的粒子與射線的粒子相同
+    (B)質子束的粒子數密度必為電子束粒子數密度的37.5倍
+    (C)20 MeV之X光的光子頻率為4 MeV之X光的光子頻率的5倍
+    (D)150 MeV之質子的速率和4 MeV之光子的速率相同
+    (E)四種射束中，只有X光束能夠穿透15公分厚的細胞組織
 - id: sci113-23
   'no': 23
   type: multi
   points: 2
   group: sci113-g22
-  image: img/science/113-23.webp
   stem: ''
   options:
     A: ''
@@ -1642,14 +1657,9 @@ items:
     D: ''
     E: ''
   answer: BD
-  text: |-
-    23. 若有癌細胞存在於表皮下某處，則依據上面所提供的資訊，下列敘述哪些可以達
-    到「儘量殺除癌細胞、保留正常細胞」的最佳效果？（應選2 項）
-    (A)癌細胞在表皮下10公分處，應使用電子束
-    (B)癌細胞在表皮下10至11公分處，應使用質子束
-    (C)癌細胞在表皮下0至2公分處，應使用4 MeV之X光束
-    (D)癌細胞在表皮下2至10公分處，應使用20 MeV之X光束
-    (E)癌細胞在表皮下3至8公分處，可以結合電子束及質子束一起使用
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 58
     Ph: 70
@@ -1662,17 +1672,22 @@ items:
       C: 41
       D: 74
       E: 10
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-23.webp
+  text: |-
+    23. 若有癌細胞存在於表皮下某處，則依據上面所提供的資訊，下列敘述哪些可以達
+    到「儘量殺除癌細胞、保留正常細胞」的最佳效果？（應選2 項）
+    (A)癌細胞在表皮下10公分處，應使用電子束
+    (B)癌細胞在表皮下10至11公分處，應使用質子束
+    (C)癌細胞在表皮下0至2公分處，應使用4 MeV之X光束
+    (D)癌細胞在表皮下2至10公分處，應使用20 MeV之X光束
+    (E)癌細胞在表皮下3至8公分處，可以結合電子束及質子束一起使用
 - id: sci113-24
   'no': 24
   type: multi
   points: 2
   group: sci113-g24
-  image: img/science/113-24.webp
   stem: ''
   options:
     A: ''
@@ -1681,14 +1696,9 @@ items:
     D: ''
     E: ''
   answer: AC
-  text: |-
-    24. 下列有關電冰箱的敘述，哪些正確？（應選2 項）
-    (A)電冰箱是利用電能作功把冰箱內的熱能轉移到冰箱外
-    (B)電冰箱裡面的壓縮機的功能是把冷媒降溫並增加其壓力
-    (C)於密閉隔熱室內打開空冰箱的門，通電並經長時間運轉後，平均室溫會提高
-    (D)冷媒冷卻冰箱裡的食物時是處於低溫高壓狀態
-    (E)冷媒的溫度低於室溫仍然可以將其熱能直接傳給周遭的空氣
-    轉移的熱能
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 49
     Ph: 69
@@ -1701,17 +1711,22 @@ items:
       C: 61
       D: 23
       E: 31
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-24.webp
+  text: |-
+    24. 下列有關電冰箱的敘述，哪些正確？（應選2 項）
+    (A)電冰箱是利用電能作功把冰箱內的熱能轉移到冰箱外
+    (B)電冰箱裡面的壓縮機的功能是把冷媒降溫並增加其壓力
+    (C)於密閉隔熱室內打開空冰箱的門，通電並經長時間運轉後，平均室溫會提高
+    (D)冷媒冷卻冰箱裡的食物時是處於低溫高壓狀態
+    (E)冷媒的溫度低於室溫仍然可以將其熱能直接傳給周遭的空氣
+    轉移的熱能
 - id: sci113-25
   'no': 25
   type: single
   points: 2
   group: sci113-g24
-  image: img/science/113-25.webp
   stem: ''
   options:
     A: ''
@@ -1720,6 +1735,23 @@ items:
     D: ''
     E: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 53
+    Ph: 87
+    Pl: 23
+    D: 64
+    opt:
+      A: 14
+      B: 18
+      C: 53
+      D: 8
+      E: 7
+  explain: ''
+  reviewed: false
+  image: img/science/113-25.webp
   text: |-
     25. 冰箱、冷凍庫的效率可看其性能係數，其定義為：
     = 轉移的熱能
@@ -1751,28 +1783,11 @@ items:
     7
     1.4 10 J
     
-  stats:
-    P: 53
-    Ph: 87
-    Pl: 23
-    D: 64
-    opt:
-      A: 14
-      B: 18
-      C: 53
-      D: 8
-      E: 7
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-26
   'no': 26
   type: single
   points: 2
   group: sci113-g26
-  image: img/science/113-26.webp
   stem: ''
   options:
     A: ''
@@ -1781,13 +1796,9 @@ items:
     D: ''
     E: ''
   answer: C
-  text: |-
-    26. 根據圖9，開始充氣的安全氣囊，至少約需時多少，可達保護駕駛人的氣壓？
-    (A) 10 ms
-    (B) 20 ms
-    (C) 30 ms
-    (D) 40 ms
-    (E) 50 ms
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 77
     Ph: 96
@@ -1799,17 +1810,21 @@ items:
       C: 77
       D: 9
       E: 9
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-26.webp
+  text: |-
+    26. 根據圖9，開始充氣的安全氣囊，至少約需時多少，可達保護駕駛人的氣壓？
+    (A) 10 ms
+    (B) 20 ms
+    (C) 30 ms
+    (D) 40 ms
+    (E) 50 ms
 - id: sci113-27
   'no': 27
   type: single
   points: 2
   group: sci113-g26
-  image: img/science/113-27.webp
   stem: ''
   options:
     A: ''
@@ -1818,17 +1833,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    27. 質量為50 kg 的駕駛人在國道開車，以108 km/h（即30 m/s）的速度向東前進。
-    假設該車在發生正面撞擊的瞬間，安全帶與車體支撐立即開始施予駕駛人一個固
-    定的水平力，而方向盤的轉軸也立即收縮，致使方向盤向前水平移動，安全氣囊
-    也開始充氣。若駕駛人接觸到氣囊時，其速度為54 km/h 向東，而安全氣囊充氣
-    恰達飽和壓力的一半，則駕駛人受到的水平定力約為多少？
-    (A) 150000 N
-    (B) 25000 N
-    (C) 8880 N
-    (D) 1000 N
-    (E) 250 N
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 51
     Ph: 73
@@ -1840,17 +1847,25 @@ items:
       C: 14
       D: 14
       E: 14
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-27.webp
+  text: |-
+    27. 質量為50 kg 的駕駛人在國道開車，以108 km/h（即30 m/s）的速度向東前進。
+    假設該車在發生正面撞擊的瞬間，安全帶與車體支撐立即開始施予駕駛人一個固
+    定的水平力，而方向盤的轉軸也立即收縮，致使方向盤向前水平移動，安全氣囊
+    也開始充氣。若駕駛人接觸到氣囊時，其速度為54 km/h 向東，而安全氣囊充氣
+    恰達飽和壓力的一半，則駕駛人受到的水平定力約為多少？
+    (A) 150000 N
+    (B) 25000 N
+    (C) 8880 N
+    (D) 1000 N
+    (E) 250 N
 - id: sci113-28
   'no': 28
   type: multi
   points: 2
   group: null
-  image: img/science/113-28.webp
   stem: ''
   options:
     A: ''
@@ -1859,6 +1874,24 @@ items:
     D: ''
     E: ''
   answer: AD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 69
+    Ph: 82
+    Pl: 53
+    D: 29
+    T: 56
+    opt:
+      A: 78
+      B: 15
+      C: 15
+      D: 79
+      E: 11
+  explain: ''
+  reviewed: false
+  image: img/science/113-28.webp
   text: |-
     28. 圖10 為臺灣地質分區圖，由西至東為I：澎湖群島、II：西部濱海平原、III：西
     部麓山帶、IV：雪山山脈、V：中央山脈、VI：花東縱
@@ -1881,29 +1914,11 @@ items:
     Ⅵ
     Ⅶ
     Ⅷ
-  stats:
-    P: 69
-    Ph: 82
-    Pl: 53
-    D: 29
-    T: 56
-    opt:
-      A: 78
-      B: 15
-      C: 15
-      D: 79
-      E: 11
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-29
   'no': 29
   type: single
   points: 2
   group: null
-  image: img/science/113-29.webp
   stem: ''
   options:
     A: ''
@@ -1912,15 +1927,11 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    29. 海洋裡有各種不同時間尺度的運動和現象，例如：（甲）潮汐、（乙）聖嬰現象、
-    （丙）湧浪、（丁）風浪、（戊）溫鹽環流。這些運動和現象的大致週期，從長至
-    短的順序為何？
-    (A)甲乙丙戊丁
-    (B)戊乙甲丙丁
-    (C)戊甲丙丁乙
-    (D)甲丙乙戊丁
-    (E)乙戊甲丙丁
+  topic: E4
+  tags: []
+  concepts:
+  - E4
+  classic: true
   stats:
     P: 64
     Ph: 92
@@ -1932,17 +1943,23 @@ items:
       C: 5
       D: 4
       E: 24
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-29.webp
+  text: |-
+    29. 海洋裡有各種不同時間尺度的運動和現象，例如：（甲）潮汐、（乙）聖嬰現象、
+    （丙）湧浪、（丁）風浪、（戊）溫鹽環流。這些運動和現象的大致週期，從長至
+    短的順序為何？
+    (A)甲乙丙戊丁
+    (B)戊乙甲丙丁
+    (C)戊甲丙丁乙
+    (D)甲丙乙戊丁
+    (E)乙戊甲丙丁
 - id: sci113-30
   'no': 30
   type: multi
   points: 2
   group: null
-  image: img/science/113-30.webp
   stem: ''
   options:
     A: ''
@@ -1951,13 +1968,9 @@ items:
     D: ''
     E: ''
   answer: DE
-  text: |-
-    30. 若空氣中水氣含量不變，下列哪些方式最不可能發生水氣凝結現象？（應選2 項）
-    (A)氣流受到地形抬升，沿著迎風坡爬升
-    (B)暖空氣吹過冷海面
-    (C)地表輻射冷卻導致空氣溫度改變
-    (D)空氣在地面高壓區的上空向下沉
-    (E)空氣塊過山後產生落山風
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 69
     Ph: 92
@@ -1970,17 +1983,21 @@ items:
       C: 14
       D: 69
       E: 83
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-30.webp
+  text: |-
+    30. 若空氣中水氣含量不變，下列哪些方式最不可能發生水氣凝結現象？（應選2 項）
+    (A)氣流受到地形抬升，沿著迎風坡爬升
+    (B)暖空氣吹過冷海面
+    (C)地表輻射冷卻導致空氣溫度改變
+    (D)空氣在地面高壓區的上空向下沉
+    (E)空氣塊過山後產生落山風
 - id: sci113-31
   'no': 31
   type: single
   points: 2
   group: null
-  image: img/science/113-31.webp
   stem: ''
   options:
     A: ''
@@ -1989,17 +2006,11 @@ items:
     D: ''
     E: ''
   answer: C
-  text: |-
-    31. 地震預警是利用地震資訊的快速發布，讓地震波尚未到達的地區能即時因應。假
-    設從地震發生到市民收到中央氣象署預警通知所需時間為10 秒，P 波的速率為
-    每秒5 公里，S 波的速率為每秒3 公里。假設震波速率不變，某地震發生後，若
-    臺北測站測得的P 波比S 波早到20 秒，則臺北市民在這地震的S 波到達前，有
-    多少秒可做緊急應變？
-    (A) 30
-    (B) 35
-    (C) 40
-    (D) 45
-    (E) 50
+  topic: E3
+  tags: []
+  concepts:
+  - E3
+  classic: true
   stats:
     P: 55
     Ph: 86
@@ -2011,17 +2022,25 @@ items:
       C: 55
       D: 4
       E: 6
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-31.webp
+  text: |-
+    31. 地震預警是利用地震資訊的快速發布，讓地震波尚未到達的地區能即時因應。假
+    設從地震發生到市民收到中央氣象署預警通知所需時間為10 秒，P 波的速率為
+    每秒5 公里，S 波的速率為每秒3 公里。假設震波速率不變，某地震發生後，若
+    臺北測站測得的P 波比S 波早到20 秒，則臺北市民在這地震的S 波到達前，有
+    多少秒可做緊急應變？
+    (A) 30
+    (B) 35
+    (C) 40
+    (D) 45
+    (E) 50
 - id: sci113-32
   'no': 32
   type: single
   points: 2
   group: null
-  image: img/science/113-32.webp
   stem: ''
   options:
     A: ''
@@ -2030,6 +2049,25 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: E2
+  tags: []
+  concepts:
+  - E2
+  classic: true
+  stats:
+    P: 43
+    Ph: 70
+    Pl: 20
+    D: 50
+    opt:
+      A: 6
+      B: 7
+      C: 19
+      D: 44
+      E: 25
+  explain: ''
+  reviewed: false
+  image: img/science/113-32.webp
   text: |-
     32. 北半球有一溫帶氣旋，其地面氣壓與鋒面的分布如圖11 所示。下列有關此天氣
     圖的敘述，何者正確？
@@ -2045,28 +2083,11 @@ items:
     甲
     丙
     乙
-  stats:
-    P: 43
-    Ph: 70
-    Pl: 20
-    D: 50
-    opt:
-      A: 6
-      B: 7
-      C: 19
-      D: 44
-      E: 25
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-33
   'no': 33
   type: multi
   points: 2
   group: null
-  image: img/science/113-33.webp
   stem: ''
   options:
     A: ''
@@ -2075,13 +2096,9 @@ items:
     D: ''
     E: ''
   answer: ABE
-  text: |-
-    33. 下列有關臺灣周邊海域潮汐的敘述，哪些正確？（應選3 項）
-    (A)西部海岸的潮差由南北兩端向中部增大
-    (B)基隆與高雄外海的水深較深，受海底地形的影響，其潮差較其他區域小
-    (C)東部海岸因地形開闊又面向太平洋，故潮差較西部大
-    (D)滿潮的時間，東部海岸比西部海岸晚約五小時左右
-    (E)退潮時，海水由臺灣海峽南北端流出
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 48
     Ph: 75
@@ -2094,17 +2111,21 @@ items:
       C: 39
       D: 39
       E: 76
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-33.webp
+  text: |-
+    33. 下列有關臺灣周邊海域潮汐的敘述，哪些正確？（應選3 項）
+    (A)西部海岸的潮差由南北兩端向中部增大
+    (B)基隆與高雄外海的水深較深，受海底地形的影響，其潮差較其他區域小
+    (C)東部海岸因地形開闊又面向太平洋，故潮差較西部大
+    (D)滿潮的時間，東部海岸比西部海岸晚約五小時左右
+    (E)退潮時，海水由臺灣海峽南北端流出
 - id: sci113-34
   'no': 34
   type: multi
   points: 2
   group: null
-  image: img/science/113-34.webp
   stem: ''
   options:
     A: ''
@@ -2113,6 +2134,24 @@ items:
     D: ''
     E: ''
   answer: BE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 49
+    Ph: 74
+    Pl: 23
+    D: 51
+    T: 40
+    opt:
+      A: 14
+      B: 65
+      C: 33
+      D: 26
+      E: 49
+  explain: ''
+  reviewed: false
+  image: img/science/113-34.webp
   text: |-
     34. 一個未飽和空氣塊在上升過程中，假設不與環境交換熱量，每上升1 公里，溫度
     約降低10℃；露點每上升1 公里約降低2℃。假設有五
@@ -2159,29 +2198,11 @@ items:
     甲
     1
     0
-  stats:
-    P: 49
-    Ph: 74
-    Pl: 23
-    D: 51
-    T: 40
-    opt:
-      A: 14
-      B: 65
-      C: 33
-      D: 26
-      E: 49
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-35
   'no': 35
   type: multi
   points: 2
   group: null
-  image: img/science/113-35.webp
   stem: ''
   options:
     A: ''
@@ -2190,15 +2211,9 @@ items:
     D: ''
     E: ''
   answer: BD
-  text: |-
-    35. 環境汙染及全球暖化是全球共同問題，因此各國政府積極發展綠能，當中風力與
-    太陽光電發電扮演重要角色。下列哪些是臺灣在開發相關能源時必須考量的因素？
-    （應選2 項）
-    (A)臺灣風場的主要來源是西南氣流
-    (B)同一風場的風力發電量會有季節性的差異
-    (C)臺灣位處低緯度，因此日照量不足，不適合發展太陽光電
-    (D)太陽光電在發電過程不會產生碳排放，但光電板生產過程中仍有碳排放的問題
-    (E)風力與太陽光電發電互相配合就能不分季節長時間的穩定供電
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 77
     Ph: 93
@@ -2211,17 +2226,23 @@ items:
       C: 5
       D: 77
       E: 13
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-35.webp
+  text: |-
+    35. 環境汙染及全球暖化是全球共同問題，因此各國政府積極發展綠能，當中風力與
+    太陽光電發電扮演重要角色。下列哪些是臺灣在開發相關能源時必須考量的因素？
+    （應選2 項）
+    (A)臺灣風場的主要來源是西南氣流
+    (B)同一風場的風力發電量會有季節性的差異
+    (C)臺灣位處低緯度，因此日照量不足，不適合發展太陽光電
+    (D)太陽光電在發電過程不會產生碳排放，但光電板生產過程中仍有碳排放的問題
+    (E)風力與太陽光電發電互相配合就能不分季節長時間的穩定供電
 - id: sci113-36
   'no': 36
   type: single
   points: 2
   group: null
-  image: img/science/113-36.webp
   stem: ''
   options:
     A: ''
@@ -2230,6 +2251,23 @@ items:
     D: ''
     E: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 43
+    Ph: 62
+    Pl: 27
+    D: 35
+    opt:
+      A: 10
+      B: 38
+      C: 48
+      D: 4
+      E: 5
+  explain: ''
+  reviewed: false
+  image: img/science/113-36.webp
   text: |-
     36. 相對於目前海水面高度，2 萬年前至今的全球海水面變化如圖13。造成近2 萬年
     以來海水面變動最可能的原因為何？
@@ -2258,28 +2296,11 @@ items:
     –100
     –120
     （公尺）
-  stats:
-    P: 43
-    Ph: 62
-    Pl: 27
-    D: 35
-    opt:
-      A: 10
-      B: 38
-      C: 48
-      D: 4
-      E: 5
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-37
   'no': 37
   type: single
   points: 2
   group: sci113-g37
-  image: img/science/113-37.webp
   stem: ''
   options:
     A: ''
@@ -2288,13 +2309,9 @@ items:
     D: ''
     E: ''
   answer: A
-  text: |-
-    37. 依據肉雞育種的目的及手段，下列推論何者不正確？
-    (A)經過育種後的高產肉雞已和原始雞種相異，屬於不同物種
-    (B)人擇達成高產肉雞的過程中仍有基因突變或重組之發生
-    (C)原始雞種族群很可能比高產肉雞含有更多的遺傳變異
-    (D)降低飼養天數和飼料成本是人擇的雙目標
-    (E)飼料配方是否改變也應加入探討育種計畫的成效
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 82
     Ph: 95
@@ -2306,36 +2323,41 @@ items:
       C: 11
       D: 2
       E: 2
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-37.webp
+  text: |-
+    37. 依據肉雞育種的目的及手段，下列推論何者不正確？
+    (A)經過育種後的高產肉雞已和原始雞種相異，屬於不同物種
+    (B)人擇達成高產肉雞的過程中仍有基因突變或重組之發生
+    (C)原始雞種族群很可能比高產肉雞含有更多的遺傳變異
+    (D)降低飼養天數和飼料成本是人擇的雙目標
+    (E)飼料配方是否改變也應加入探討育種計畫的成效
 - id: sci113-38
   'no': 38
   type: open
   points: 2
   group: sci113-g37
-  image: img/science/113-38.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-38.webp
   text: |-
     38. 綜合圖14 與圖15，高產肉雞育種計畫中，同齡雞隻所呈現出的飼料轉化率顯示：
     （a）此選育計畫目標是否達成？（1分）
     （b）比較並說明1970與2000年代的雞隻生長速率、飼料攝取的變化、及此二者
     之關聯性為何，以支持你的結論。（3分）
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-39
   'no': 39
   type: single
   points: 2
   group: sci113-g37
-  image: img/science/113-39.webp
   stem: ''
   options:
     A: ''
@@ -2344,6 +2366,23 @@ items:
     D: ''
     E: ''
   answer: B
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 61
+    Ph: 78
+    Pl: 43
+    D: 35
+    opt:
+      A: 18
+      B: 61
+      C: 3
+      D: 12
+      E: 6
+  explain: ''
+  reviewed: false
+  image: img/science/113-39.webp
   text: |-
     39. 與高產肉雞類似的純種賽馬選育計畫顯示，自1949 年以前的50～100 年間獲得
     相當的秒數進展（以跑快者為勝），但1950 以後則效果不佳（圖16）。下列何者
@@ -2381,28 +2420,11 @@ items:
     （
     秒
     ）
-  stats:
-    P: 61
-    Ph: 78
-    Pl: 43
-    D: 35
-    opt:
-      A: 18
-      B: 61
-      C: 3
-      D: 12
-      E: 6
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-40
   'no': 40
   type: single
   points: 2
   group: sci113-g40
-  image: img/science/113-40.webp
   stem: ''
   options:
     A: ''
@@ -2411,13 +2433,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    40. 有關捕蠅草捕器閉合的機制，下列促使兩側葉片合攏的敘述何者正確？
-    (A)外層細胞的細胞膜施加於細胞壁的壓力變小，內層變大
-    (B)外層細胞的細胞膜施加於細胞壁的壓力變大，內層變小
-    (C)內外層細胞的細胞膜施加於細胞壁的壓力同時變小
-    (D)內外層細胞的細胞膜施加於細胞壁的壓力同時變大
-    (E)僅電位改變，細胞膜施加於細胞壁的壓力維持不變
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 73
     Ph: 90
@@ -2429,20 +2447,31 @@ items:
       C: 4
       D: 6
       E: 3
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-40.webp
+  text: |-
+    40. 有關捕蠅草捕器閉合的機制，下列促使兩側葉片合攏的敘述何者正確？
+    (A)外層細胞的細胞膜施加於細胞壁的壓力變小，內層變大
+    (B)外層細胞的細胞膜施加於細胞壁的壓力變大，內層變小
+    (C)內外層細胞的細胞膜施加於細胞壁的壓力同時變小
+    (D)內外層細胞的細胞膜施加於細胞壁的壓力同時變大
+    (E)僅電位改變，細胞膜施加於細胞壁的壓力維持不變
 - id: sci113-41
   'no': 41
   type: open
   points: 2
   group: sci113-g40
-  image: img/science/113-41.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-41.webp
   text: |-
     41. 捕蠅草有一親緣關係樹上的遠親，稱為豬籠草，它們同稱為食肉植物，表3 為兩
     者的特性。依據此資訊判斷，（a）食肉植物的捕器是否為同功構造？（1 分）
@@ -2470,17 +2499,11 @@ items:
     捕器消化方式
     消化酶
     消化酶及細菌作用
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-42
   'no': 42
   type: multi
   points: 2
   group: sci113-g40
-  image: img/science/113-42.webp
   stem: ''
   options:
     A: ''
@@ -2489,13 +2512,9 @@ items:
     D: ''
     E: ''
   answer: CD
-  text: |-
-    42. 依據上面所提供的資訊，下列哪些敘述最有可能是正確的？（應選2 項）
-    (A)捕蠅草利用葉片彎曲時的彈力來記憶初次觸發
-    (B)每一次觸發焮毛都產生至少14 µ C的充電電量
-    (C)充電電量達14 µ C，可讓水分快速地從內層細胞流入外層細胞
-    (D)水分從外層細胞流入內層細胞，可以讓葉片張開
-    (E)捕蠅草在pH值大於4.5的環境中，充電電量需高於14 µ C才能觸發葉片閉合
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 55
     Ph: 74
@@ -2508,20 +2527,31 @@ items:
       C: 75
       D: 63
       E: 9
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-42.webp
+  text: |-
+    42. 依據上面所提供的資訊，下列哪些敘述最有可能是正確的？（應選2 項）
+    (A)捕蠅草利用葉片彎曲時的彈力來記憶初次觸發
+    (B)每一次觸發焮毛都產生至少14 µ C的充電電量
+    (C)充電電量達14 µ C，可讓水分快速地從內層細胞流入外層細胞
+    (D)水分從外層細胞流入內層細胞，可以讓葉片張開
+    (E)捕蠅草在pH值大於4.5的環境中，充電電量需高於14 µ C才能觸發葉片閉合
 - id: sci113-43
   'no': 43
   type: open
   points: 2
   group: sci113-g40
-  image: img/science/113-43.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-43.webp
   text: |-
     43. 甲同學看完了以上對捕蠅草的敘述後，提出自己的看法：「焮毛第一次被觸發時，
     葉子中肋和葉片間會進行第一次充電，充電電量小於14 µC，第二次觸發會進行
@@ -2561,17 +2591,11 @@ items:
     間間隔越大，累積的
     儲存電量越低
     •
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-44
   'no': 44
   type: single
   points: 2
   group: sci113-g44
-  image: img/science/113-44.webp
   stem: ''
   options:
     A: ''
@@ -2580,6 +2604,23 @@ items:
     D: ''
     E: ''
   answer: E
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 34
+    Ph: 66
+    Pl: 11
+    D: 55
+    opt:
+      A: 8
+      B: 13
+      C: 25
+      D: 19
+      E: 34
+  explain: ''
+  reviewed: false
+  image: img/science/113-44.webp
   text: |-
     44. 考慮磁鐵棒以等速度朝環圈甲移動前進，穿過環圈甲，
     至完全移離環圈甲的整個過程，下列敘述何者正確？
@@ -2592,28 +2633,11 @@ items:
     R
     甲
     乙
-  stats:
-    P: 34
-    Ph: 66
-    Pl: 11
-    D: 55
-    opt:
-      A: 8
-      B: 13
-      C: 25
-      D: 19
-      E: 34
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-45
   'no': 45
   type: multi
   points: 2
   group: sci113-g44
-  image: img/science/113-45.webp
   stem: ''
   options:
     A: ''
@@ -2622,15 +2646,9 @@ items:
     D: ''
     E: ''
   answer: BD
-  text: |-
-    45. 磁鐵棒以等速度朝環圈甲前進，當磁鐵棒中心與環圈甲中心之距離為d 時，迴路
-    的應電流量值為I 。在磁鐵棒速度或迴路性質改變下，而迴路電阻仍為R 、磁鐵
-    棒中心與環圈甲中心之距離仍為d 時，下列敘述哪些正確？（應選2 項）
-    (A)若將環圈甲的面積增大，但磁鐵棒速度不變，則I 不會改變
-    (B)若將環圈乙的面積增大，但磁鐵棒速度不變，則I 不會改變
-    (C)若迴路完全不變，但磁鐵棒以較快速度朝環圈甲前進，則I 的量值將減小
-    (D)若迴路完全不變，但磁鐵棒以較快速度朝環圈甲前進，則I 的量值將增大
-    (E)若環圈甲、乙的圈數加倍，但面積不變、且磁鐵棒速度不變，則I 不會改變
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 60
     Ph: 84
@@ -2643,20 +2661,33 @@ items:
       C: 16
       D: 72
       E: 18
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-45.webp
+  text: |-
+    45. 磁鐵棒以等速度朝環圈甲前進，當磁鐵棒中心與環圈甲中心之距離為d 時，迴路
+    的應電流量值為I 。在磁鐵棒速度或迴路性質改變下，而迴路電阻仍為R 、磁鐵
+    棒中心與環圈甲中心之距離仍為d 時，下列敘述哪些正確？（應選2 項）
+    (A)若將環圈甲的面積增大，但磁鐵棒速度不變，則I 不會改變
+    (B)若將環圈乙的面積增大，但磁鐵棒速度不變，則I 不會改變
+    (C)若迴路完全不變，但磁鐵棒以較快速度朝環圈甲前進，則I 的量值將減小
+    (D)若迴路完全不變，但磁鐵棒以較快速度朝環圈甲前進，則I 的量值將增大
+    (E)若環圈甲、乙的圈數加倍，但面積不變、且磁鐵棒速度不變，則I 不會改變
 - id: sci113-46
   'no': 46
   type: open
   points: 2
   group: sci113-g44
-  image: img/science/113-46.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-46.webp
   text: |-
     46. 磁鐵棒以等速度朝環圈甲前進，在時間為3 秒時磁鐵棒S 極恰接觸環圈甲中心，
     在時間為6 秒時磁鐵棒中心在環圈甲中心。電流以逆時針方向為正，迴路的應電
@@ -2688,17 +2719,11 @@ items:
     恰接觸環圈甲中心
     磁鐵棒中心在
     環圈甲中心
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-47
   'no': 47
   type: multi
   points: 2
   group: sci113-g47
-  image: img/science/113-47.webp
   stem: ''
   options:
     A: ''
@@ -2707,13 +2732,9 @@ items:
     D: ''
     E: ''
   answer: AD
-  text: |-
-    47. 表4 中的反應物與各種產物的路易斯結構，哪些具有雙鍵的鍵結？（應選2 項）
-    (A)二氧化碳
-    (B)水
-    (C)甲醇
-    (D)乙烯
-    (E)正丙醇
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 59
     Ph: 91
@@ -2726,17 +2747,21 @@ items:
       C: 22
       D: 69
       E: 23
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-47.webp
+  text: |-
+    47. 表4 中的反應物與各種產物的路易斯結構，哪些具有雙鍵的鍵結？（應選2 項）
+    (A)二氧化碳
+    (B)水
+    (C)甲醇
+    (D)乙烯
+    (E)正丙醇
 - id: sci113-48
   'no': 48
   type: multi
   points: 2
   group: sci113-g47
-  image: img/science/113-48.webp
   stem: ''
   options:
     A: ''
@@ -2745,13 +2770,9 @@ items:
     D: ''
     E: ''
   answer: ABE
-  text: |-
-    48. 下列對於表4 中相關的敘述，哪些正確？（應選3 項）
-    (A)生成每莫耳甲醇、乙烯與正丙醇產物分別所需質子的莫耳數比為1:2:3
-    (B)混有二氧化碳的乙烯氣體產物，可以利用通過氫氧化鈉水溶液達成乙烯的分離
-    (C)生成正丙醇產物不溶於水，會在反應容器內分層
-    (D)還原每莫耳二氧化碳分別生成甲醇、乙烯與正丙醇所需消耗的電子莫耳數不同
-    (E)常溫常壓下，甲醇與正丙醇皆具有揮發性，是易燃性的有機物質
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 36
     Ph: 61
@@ -2764,20 +2785,31 @@ items:
       C: 50
       D: 46
       E: 73
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-48.webp
+  text: |-
+    48. 下列對於表4 中相關的敘述，哪些正確？（應選3 項）
+    (A)生成每莫耳甲醇、乙烯與正丙醇產物分別所需質子的莫耳數比為1:2:3
+    (B)混有二氧化碳的乙烯氣體產物，可以利用通過氫氧化鈉水溶液達成乙烯的分離
+    (C)生成正丙醇產物不溶於水，會在反應容器內分層
+    (D)還原每莫耳二氧化碳分別生成甲醇、乙烯與正丙醇所需消耗的電子莫耳數不同
+    (E)常溫常壓下，甲醇與正丙醇皆具有揮發性，是易燃性的有機物質
 - id: sci113-49
   'no': 49
   type: open
   points: 2
   group: sci113-g47
-  image: img/science/113-49.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-49.webp
   text: |-
     49. 表5 為各種產物的價格（元/公斤）與以每莫耳電子計算所轉換產物的價格（元/
     莫耳電子）。其中，正丙醇價格尚未計算完成，回答下列各問題。（原子量C＝12.0、
@@ -2799,17 +2831,11 @@ items:
     （b）另有一電化學催化系統，只會產生甲醇與正丙醇。已知每產生1莫耳此混合
     產物需消耗10.8莫耳電子，此混合產物中，列式計算甲醇與正丙醇的莫耳
     數比為何?（2分）
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-50
   'no': 50
   type: multi
   points: 2
   group: sci113-g50
-  image: img/science/113-50.webp
   stem: ''
   options:
     A: ''
@@ -2818,6 +2844,24 @@ items:
     D: ''
     E: ''
   answer: BCE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 48
+    Ph: 73
+    Pl: 25
+    D: 48
+    T: 35
+    opt:
+      A: 34
+      B: 80
+      C: 81
+      D: 38
+      E: 63
+  explain: ''
+  reviewed: false
+  image: img/science/113-50.webp
   text: |-
     50. 下列關於縞狀鐵礦與相關地球歷史事件的敘述，哪些正確？（應選3 項）
     (A)
@@ -2844,32 +2888,21 @@ items:
     2+
     Fe
     的濃度大幅上升
-  stats:
-    P: 48
-    Ph: 73
-    Pl: 25
-    D: 48
-    T: 35
-    opt:
-      A: 34
-      B: 80
-      C: 81
-      D: 38
-      E: 63
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-51
   'no': 51
   type: open
   points: 2
   group: sci113-g50
-  image: img/science/113-51.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-51.webp
   text: |-
     51. 有研究指出，在幾乎無氧的環境下，無氧光自營細菌在光照的情況下，可將亞鐵
     離子反應產生一些產物，其平衡反應式如下：
@@ -2901,17 +2934,11 @@ items:
     2
     6
     (CH O) 可能屬於其中哪一類的化合物？（1分）
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-52
   'no': 52
   type: multi
   points: 2
   group: sci113-g50
-  image: img/science/113-52.webp
   stem: ''
   options:
     A: ''
@@ -2920,13 +2947,9 @@ items:
     D: ''
     E: ''
   answer: ACE
-  text: |-
-    52. 下列觀察或推論哪些正確？（應選3 項）
-    (A)縞狀鐵礦大部分出現在24億年前的地層中
-    (B)亞鐵離子源自岩漿，因此縞狀鐵礦屬於火成岩類
-    (C)今日海水中的亞鐵離子濃度較25億年前為低
-    (D)大氣中的氧氣含量呈現線性增高
-    (E)細菌可存活在極低氧的環境中
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 56
     Ph: 81
@@ -2939,20 +2962,31 @@ items:
       C: 73
       D: 22
       E: 82
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-52.webp
+  text: |-
+    52. 下列觀察或推論哪些正確？（應選3 項）
+    (A)縞狀鐵礦大部分出現在24億年前的地層中
+    (B)亞鐵離子源自岩漿，因此縞狀鐵礦屬於火成岩類
+    (C)今日海水中的亞鐵離子濃度較25億年前為低
+    (D)大氣中的氧氣含量呈現線性增高
+    (E)細菌可存活在極低氧的環境中
 - id: sci113-53
   'no': 53
   type: open
   points: 2
   group: sci113-g50
-  image: img/science/113-53.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-53.webp
   text: |-
     53. （a）依據在地球歷史出現的次序，由早期到晚期排列下列事件：（只須寫出事件
     代碼）（2 分）
@@ -2963,17 +2997,11 @@ items:
     （b）針對（乙）事件，則35～22億年前之間，除了在約23億年前有氧氣量的驟增
     外，若只考量光合作用的進行，還可推論出地球大氣的組成發生了什麼樣的
     改變？（1分）而此組成變化可能對全球氣溫造成的影響為何？（1分）
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci113-54
   'no': 54
   type: multi
   points: 2
   group: sci113-g54
-  image: img/science/113-54.webp
   stem: ''
   options:
     A: ''
@@ -2982,15 +3010,9 @@ items:
     D: ''
     E: ''
   answer: CD
-  text: |-
-    54. 上述的重大成果也常獲得諾貝爾（物理）獎的肯定。回顧20 世紀的諾貝爾獎中，
-    因為天文觀測而獲獎者皆來自無線電波的觀測。我們如何解讀這個現象？
-    （應選2 項）
-    (A)科學家一開始沒有預期到天文現象上有產生其他電磁波的可能性
-    (B)天文現象上產生的高能量電磁波無法傳遞這麼遠的距離而到達地球
-    (C)除了可見光之外，無線電波也可以幾乎不受阻礙的穿過大氣層
-    (D)從太空中觀測，要等到20世紀中期以後進入太空時代才有可能
-    (E)因為當時尚未有手機、基地台等干擾，透過無線電波可以得到較好的觀測成果
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 34
     Ph: 47
@@ -3003,17 +3025,23 @@ items:
       C: 69
       D: 35
       E: 32
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-54.webp
+  text: |-
+    54. 上述的重大成果也常獲得諾貝爾（物理）獎的肯定。回顧20 世紀的諾貝爾獎中，
+    因為天文觀測而獲獎者皆來自無線電波的觀測。我們如何解讀這個現象？
+    （應選2 項）
+    (A)科學家一開始沒有預期到天文現象上有產生其他電磁波的可能性
+    (B)天文現象上產生的高能量電磁波無法傳遞這麼遠的距離而到達地球
+    (C)除了可見光之外，無線電波也可以幾乎不受阻礙的穿過大氣層
+    (D)從太空中觀測，要等到20世紀中期以後進入太空時代才有可能
+    (E)因為當時尚未有手機、基地台等干擾，透過無線電波可以得到較好的觀測成果
 - id: sci113-55
   'no': 55
   type: single
   points: 2
   group: sci113-g54
-  image: img/science/113-55.webp
   stem: ''
   options:
     A: ''
@@ -3022,14 +3050,9 @@ items:
     D: ''
     E: ''
   answer: C
-  text: |-
-    55. 科學家們建造各式各樣的望遠鏡來收集電磁波訊號。新一代地面望遠鏡的口徑都
-    愈來愈大，原因為何？
-    (A)電磁波所行走的路徑會隨著宇宙膨脹而增加，所以需要大口徑望遠鏡
-    (B)口徑愈大，受到大氣擾動的影響愈小，可以看得愈清晰
-    (C)口徑愈大，可以收集到的訊號愈多，可以看到星等數值更大的天體
-    (D)隨著經濟發展，建造大口徑望遠鏡有助於提升國防產業的技術
-    (E)遙遠的天體會隨著宇宙膨脹而變大，所以需要大口徑望遠鏡
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 52
     Ph: 69
@@ -3041,20 +3064,32 @@ items:
       C: 55
       D: 3
       E: 5
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/113-55.webp
+  text: |-
+    55. 科學家們建造各式各樣的望遠鏡來收集電磁波訊號。新一代地面望遠鏡的口徑都
+    愈來愈大，原因為何？
+    (A)電磁波所行走的路徑會隨著宇宙膨脹而增加，所以需要大口徑望遠鏡
+    (B)口徑愈大，受到大氣擾動的影響愈小，可以看得愈清晰
+    (C)口徑愈大，可以收集到的訊號愈多，可以看到星等數值更大的天體
+    (D)隨著經濟發展，建造大口徑望遠鏡有助於提升國防產業的技術
+    (E)遙遠的天體會隨著宇宙膨脹而變大，所以需要大口徑望遠鏡
 - id: sci113-56
   'no': 56
   type: open
   points: 2
   group: sci113-g54
-  image: img/science/113-56.webp
   stem: ''
   options: null
   answer: null
+  topic: null
+  concepts: []
+  classic: false
+  classic_note: 非選題：放在課堂與 Notion 練習，不進快答主線
+  explain: ''
+  reviewed: false
+  image: img/science/113-56.webp
   text: |-
     56. 溫室氣體會造成地表的溫度升高，這是因為這些氣體會吸收來自地表的熱輻射；
     同樣的，這些氣體也會造成來自太空中的部分輻射無法通過大氣層。而地球大氣
@@ -3063,8 +3098,3 @@ items:
     中在對流層，若要進行該波段的觀測，可以藉由飛機將望遠鏡攜帶至大氣
     層中的哪一層？（1分）
     （b）說明電磁波中的紫外線無法從地面進行觀測的原因？（2分）
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false

@@ -1372,8 +1372,10 @@ items:
     '4': ''
     '5': ''
   answer: '3'
-  topic: null
-  concepts: []
+  topic: M4
+  tags: []
+  concepts:
+  - M4
   classic: true
   stats:
     P: 69

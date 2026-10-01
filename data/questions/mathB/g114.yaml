@@ -973,8 +973,10 @@ items:
     '4': ''
     '5': ''
   answer: '3'
-  topic: null
-  concepts: []
+  topic: B1
+  tags: []
+  concepts:
+  - B1
   classic: true
   stats:
     P: 49

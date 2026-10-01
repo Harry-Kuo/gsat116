@@ -1,15 +1,15 @@
 <details>
 <summary>**113 年**（10 題）</summary>
-	- **departed** *adj.* 已故的（由 depart（第 4 級）衍生）：their departed loved ones 已故的親人　→ 113 年第 21 題
-	- **fateful** *adj.* 決定命運的、帶來重大（不幸）影響的（由 fate（第 2 級）衍生）：on that fateful day 在那個改變命運的日子　→ 113 年第 22 題
-	- **bring forth** *phr.* 提出、產生：was first brought forth by… 最早由…提出　→ 113 年第 23 題
-	- **sorrow** *n.* 悲傷（第 3 級）：navigate through the sorrow 走過悲傷　→ 113 年第 24 題
-	- **house** *v.* 容納、放置（第 1 級）：the booth housed only an old phone 亭子裡只放了一支舊電話　→ 113 年第 25 題
-	- **pass on** *phr.* 傳達、傳遞：couldn't be passed on through a phone line 無法透過電話線傳達　→ 113 年第 26 題
-	- **manageable** *adj.* 可以處理的、承受得住的（由 manage（第 2 級）衍生）：renders the grieving process more manageable 讓哀悼的過程比較能承受　→ 113 年第 27 題
-	- **bridge** *n.* 橋梁（第 1 級）：a bridge between the living and the dead 生者與亡者之間的橋梁　→ 113 年第 28 題
-	- **mechanism** *n.* 機制（第 5 級）：a natural mechanism for coping with loss 面對失去的自然機制　→ 113 年第 29 題
-	- **hope** *n.* 希望（第 1 級）：hope is always there 希望一直都在　→ 113 年第 30 題
+	- **departed** *adj.* 已故的（由 depart（第 4 級）衍生）：their departed loved ones 已故的親人　→ <mention-page url="https://app.notion.com/p/3ecee100984f81df923cd8cb726d2b0d"/>　全國答對率 35%
+	- **fateful** *adj.* 決定命運的、帶來重大（不幸）影響的（由 fate（第 2 級）衍生）：on that fateful day 在那個改變命運的日子　→ <mention-page url="https://app.notion.com/p/3ecee100984f81528425c217391f2757"/>　全國答對率 40%
+	- **bring forth** *phr.* 提出、產生：was first brought forth by… 最早由…提出　→ <mention-page url="https://app.notion.com/p/3ecee100984f81978294eac40299faa6"/>　全國答對率 37%
+	- **sorrow** *n.* 悲傷（第 3 級）：navigate through the sorrow 走過悲傷　→ <mention-page url="https://app.notion.com/p/3ecee100984f810b83a6ff42220d6170"/>　全國答對率 41%
+	- **house** *v.* 容納、放置（第 1 級）：the booth housed only an old phone 亭子裡只放了一支舊電話　→ <mention-page url="https://app.notion.com/p/3ecee100984f818aa0d8ce8bd9d16bcd"/>　全國答對率 37%
+	- **pass on** *phr.* 傳達、傳遞：couldn't be passed on through a phone line 無法透過電話線傳達　→ <mention-page url="https://app.notion.com/p/3ecee100984f81e19b43c270cab251be"/>　全國答對率 44%
+	- **manageable** *adj.* 可以處理的、承受得住的（由 manage（第 2 級）衍生）：renders the grieving process more manageable 讓哀悼的過程比較能承受　→ <mention-page url="https://app.notion.com/p/3ecee100984f8136ae6dc99b6bc3951a"/>　全國答對率 44%
+	- **bridge** *n.* 橋梁（第 1 級）：a bridge between the living and the dead 生者與亡者之間的橋梁　→ <mention-page url="https://app.notion.com/p/3ecee100984f81e7aa4dd75a569a55b5"/>　全國答對率 68%
+	- **mechanism** *n.* 機制（第 5 級）：a natural mechanism for coping with loss 面對失去的自然機制　→ <mention-page url="https://app.notion.com/p/3ecee100984f813499cbc4aff385e0ee"/>　全國答對率 44%
+	- **hope** *n.* 希望（第 1 級）：hope is always there 希望一直都在　→ <mention-page url="https://app.notion.com/p/3ecee100984f81eaa3e8c5e37ce9631f"/>　全國答對率 56%
 </details>
 <details>
 <summary>**112 年**（10 題）</summary>

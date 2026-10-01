@@ -144,6 +144,19 @@ def item_json(subject, it, groups, concept_summary):
     return j
 
 
+# 觀念標籤連到的 Notion 重點頁：國文、英文依觀念對到專題頁，自然、社會依模組分頁，數學一科一頁，其餘連到科目頁
+NOTE_REFS = {"chinese": {"A4": "ref:xuci", "B1": "ref:guoxue", "B2": "ref:guoxue", "C8": "ref:core"},
+             "english": {"V1": "ref:en_vocab", "V2": "ref:en_cloze", "R1": "ref:en_cloze", "R2": "ref:en_reading",
+                         "R3": "ref:en_reading", "M1": "ref:en_writing", "W1": "ref:en_writing", "W2": "ref:en_writing"}}
+
+
+def concept_note(notion_map, subject, module_id, cid):
+    keys = [f"{subject}:{cid}", NOTE_REFS.get(subject, {}).get(cid),
+            {"science": f"ref:science_{module_id}", "social": f"ref:social_{module_id}",
+             "mathA": "ref:mathA_notes", "mathB": "ref:mathB_notes"}.get(subject), f"page:{subject}"]
+    return next((notion_map[k] for k in keys if k and notion_map.get(k)), None)
+
+
 def main():
     strict = "--strict" in sys.argv
     cfg = qyaml.load(DATA / "config.yaml")
@@ -174,17 +187,18 @@ def main():
             concepts_out[s] = {"name": cdoc.get("name"), "modules": [
                 {"id": m["id"], "name": m["name"], "concepts": [
                     {"id": c["id"], "name": c["name"], "summary": c.get("summary", ""),
-                     "notion": notion_map.get(f"{s}:{c['id']}")} for c in m["concepts"]]}
+                     "notion": concept_note(notion_map, s, m["id"], c["id"])} for c in m["concepts"]]}
                 for m in cdoc["modules"]]}
             csum = {c["id"]: c.get("summary", "") for m in cdoc["modules"] for c in m["concepts"]}
         if not (DATA / "questions" / s).exists():
             pools[s] = {"total": 0, "published": 0}
             continue
         bank, groups = load_subject(s)
-        # 題池只算 110–115 六屆；109 年等更早的補充題另計（extra），不併入完成度
-        six = sum(1 for q in used[s] if (bank.get(q) or {}).get("_year", 999) >= 110)
+        # 題池只算 110–115 六屆的經典題（低鑑別題不在題池內，排了也不算）；109 年等更早的補充題另計（extra），不併入完成度
+        six = sum(1 for q in used[s] if (bank.get(q) or {}).get("_year", 999) >= 110 and bank[q].get("classic"))
+        older = sum(1 for q in used[s] if (bank.get(q) or {}).get("_year", 999) < 110)
         pools[s] = {"total": official_pools.get(s, {}).get("total") or sum(1 for it in bank.values() if it.get("classic")),
-                    "published": six, "extra": len(used[s]) - six}
+                    "published": six, "extra": older}
         items, gout = {}, {}
         for qid in sorted(used[s]):
             it = bank.get(qid)

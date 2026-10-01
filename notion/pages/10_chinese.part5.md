@@ -87,8 +87,8 @@
 	</details>
 	<details>
 	<summary>📝 113 學測國綜 第 4 題（全國答對率 43%）</summary>
-		下文      處應填入可總括文中所舉四項事例的文句，最適合填入的是：
-		。是以雞知將旦，不能究陰陽之曆數；鵠識夜半，不能極晷景之道度；山鳩知晴雨於將來，不能明天文；蛇螘知潛泉之所居，不能達地理。（《抱朴子》）
+		下文<span underline="true">　　　　</span>處應填入可總括文中所舉四項事例的文句，最適合填入的是：
+		<span underline="true">　　　　　　</span>。是以雞知將旦，不能究陰陽之曆數；鵠識夜半，不能極晷景之道度；山鳩知晴雨於將來，不能明天文；蛇螘知潛泉之所居，不能達地理。（《抱朴子》）
 		> 螘：小蟲。<br>短疢：缺點。
 		(A) 英逸之才，非淺短所識
 		(B) 官達者，才未必當其位
@@ -138,7 +138,7 @@
 		- [112 學測國綜 第 8 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 85%
 		- [112 學測國綜 第 13 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 61%
 		- [110 學測國文 第 22 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 77%
-		- [110 學測國文 第 31 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 29%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f813f85f3d29629a4c26c"/>　全國答對率 29%
 	</details>
 </details>
 ### B. 國學與文化常識
@@ -198,8 +198,8 @@
 	<summary>其他相關考古題（9 題）</summary>
 		- [115 學測國綜 第 13 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 16%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81ff9546db563310875d"/>　全國答對率 37%
-		- [113 學測國綜 第 20 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 66%
-		- [112 學測國綜 第 21 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 63%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81318a54e567a89d685e"/>　全國答對率 66%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f816ab09afa6101be7ad6"/>　全國答對率 63%
 		- [111 學測國綜 第 23 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 48%
 		- [111 學測國綜 第 24 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 69%
 		- [111 學測國綜 第 25 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 52%

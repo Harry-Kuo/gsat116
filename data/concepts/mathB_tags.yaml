@@ -135,3 +135,5 @@ mb109-17: [B3]
 mb109-18: {topic: B8, tags: [], out: 空間中的直線（垂足坐標），數B 不考}
 mb109-19: {topic: B5, tags: [], out: 拋物線方程式與焦距（二次曲線）不在學測數B範圍}
 mb109-20: {topic: B3, tags: [], dup: mathA}
+mb114-18: [B1]
+mb115-18: [B5]

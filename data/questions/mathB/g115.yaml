@@ -1259,8 +1259,10 @@ items:
     '4': ''
     '5': ''
   answer: '1'
-  topic: null
-  concepts: []
+  topic: B5
+  tags: []
+  concepts:
+  - B5
   classic: true
   stats:
     P: 68

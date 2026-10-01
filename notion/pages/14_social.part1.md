@@ -4,6 +4,11 @@
 <callout icon="📌" color="yellow_bg">
 	**第 5 週上課重點**：三科必考觀念、史料與圖表判讀法。10/27（二）、10/29（四）上課，完整整理會在上課前放上來。
 </callout>
+## 📚 重點整理
+公民與社會、歷史、地理各一頁：必背觀念、作答步驟、容易錯的地方，以及前兩週答對率最低的代表題。
+<page url="https://app.notion.com/p/3ecee100984f815c949cf9ee3c497140">公民與社會重點整理</page>
+<page url="https://app.notion.com/p/3ecee100984f813f91e0ca4d520a6351">歷史重點整理</page>
+<page url="https://app.notion.com/p/3ecee100984f81c1a0e7cdf1d03ace6e">地理重點整理</page>
 ## 🎯 觀念大綱與每日練習考古題
 每個觀念底下列出每日練習做到的考古題；點開可以看題目、答案與解析。
 ### 公民與社會
@@ -15,47 +20,49 @@
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f813e9a69f4ca0d1f92ea"/>　全國答對率 80%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8106bf49e71050b4c06b"/>　全國答對率 38%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81519d2bd3e83ba3634c"/>　全國答對率 44%
+	- [115 學測社會 第 39 題](https://harry-kuo.github.io/gsat116/#/item/soc115-39)　全國答對率 64%
 - **法律原則**：罪刑法定、不溯及既往、禁止類推；無罪推定、不自證己罪要分清楚。
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f8159b5f2dd6552fc2eda"/>　全國答對率 81%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81e88f20d4b1e8405127"/>　全國答對率 81%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81a8b475dc4e52a4fc3c"/>　全國答對率 41%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8102a4a3cd24ecaee257"/>　全國答對率 66%
+	- 每日練習共 9 題，依日期列在下方「📝 每日練習」。
 - **經濟學概念**：支出面 GDP＝C＋I＋G＋(X−M)；比例資料不能推論總量；比較利益看機會成本。
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f8182b61bd88665fd1f49"/>　全國答對率 40%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81f19bb0d9e7bcf3b720"/>　全國答對率 71%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8109b811cd36c975f7fd"/>　全國答對率 84%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81f3b373cfd7dc4f837f"/>　全國答對率 96%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8138ae03dc291e49d911"/>　全國答對率 55%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8129ae76feba361be8bc"/>　全國答對率 48%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f815e990ad9f8bde84698"/>　全國答對率 70%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8172a3d1c9164a060f0d"/>　全國答對率 44%
+	- 每日練習共 12 題，依日期列在下方「📝 每日練習」。
 - **全球化與多元文化**：注意政策的「目的」：保障少數族群文化權、全球不平等。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81f795fceeb5259e5627"/>　全國答對率 71%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81fe895ecd18edea00bc"/>　全國答對率 42%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8177b6e8cef7dc831b87"/>　全國答對率 31%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8180b392ddba2504a379"/>　全國答對率 33%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8191a6c5c5daee4f6353"/>　全國答對率 80%
+	- [115 學測社會 第 33 題](https://harry-kuo.github.io/gsat116/#/item/soc115-33)　全國答對率 57%
+	- [115 學測社會 第 47 題](https://harry-kuo.github.io/gsat116/#/item/soc115-47)　全國答對率 66%
+	- [115 學測社會 第 51 題](https://harry-kuo.github.io/gsat116/#/item/soc115-51)　全國答對率 55%
 - **社會規範與社會化**：社會規範會影響個人的選擇，但個人也能在規範中找到突破的空間；注意題文怎麼描述人與規範的關係。
 	- <mention-page url="https://app.notion.com/p/3ebee100984f810f8f62c4ca1aa57986"/>　全國答對率 39%
+	- [115 學測社會 第 50 題](https://harry-kuo.github.io/gsat116/#/item/soc115-50)　全國答對率 64%
 ### 歷史
 - **臺灣史**：清代治臺與海防、日治時期的身分與皇民化；看史料推論官方的關注重點。
-	- 每日練習共 9 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 17 題，依日期列在下方「📝 每日練習」。
 - **中國史**：郡縣制與編戶齊民、元代海運、中共的民族政策。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81988f41eec4fcb1a9db"/>　全國答對率 69%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81edb78ee4a552586f98"/>　全國答對率 60%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f812599efe72049132160"/>　全國答對率 67%
+	- [115 學測社會 第 57 題](https://harry-kuo.github.io/gsat116/#/item/soc115-57)　全國答對率 48%
+	- [115 學測社會 第 58 題](https://harry-kuo.github.io/gsat116/#/item/soc115-58)　全國答對率 63%
 - **世界史**：從史料的時間、人物、用語判斷背景（邱吉爾演說、啟蒙與法國大革命、殖民擴張）。
-	- 每日練習共 14 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 16 題，依日期列在下方「📝 每日練習」。
 - **東亞國際關係**：宗藩（朝貢）體系、十九世紀末列強在朝鮮的角力、滿洲國移民。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81258158c68778fd1c05"/>　全國答對率 54%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f8138a058f8564829ba5c"/>　全國答對率 60%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81159dd8e16e3cae0837"/>　全國答對率 62%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8100b87cf13436ec39bb"/>　全國答對率 60%
+	- [113 學測社會 第 14 題](https://harry-kuo.github.io/gsat116/#/item/soc113-14)　全國答對率 63%
+	- [115 學測社會 第 43 題](https://harry-kuo.github.io/gsat116/#/item/soc115-43)　全國答對率 61%
 ### 地理
 - **地圖與地理資訊系統**：GIS 功能要分清楚：環域、疊圖、路網、屬性查詢；讀地圖先看圖例與分布。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81feaba4e8c0618ac0bb"/>　全國答對率 43%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81478f60cf8eb8a3bc6f"/>　全國答對率 67%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81ea9d83c31261484b18"/>　全國答對率 74%
+	- [115 學測社會 第 57 題](https://harry-kuo.github.io/gsat116/#/item/soc115-57)　全國答對率 48%
+	- [115 學測社會 第 36 題](https://harry-kuo.github.io/gsat116/#/item/soc115-36)　全國答對率 71%
+	- [114 學測社會 第 52 題](https://harry-kuo.github.io/gsat116/#/item/soc114-52)　全國答對率 44%
 - **氣候與生態**：由氣溫雨量圖判斷氣候類型；熱帶高地氣溫溫和、雙雨季。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81059792eb4845040106"/>　全國答對率 31%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f819aaaadd359e07b986d"/>　全國答對率 47%
@@ -63,12 +70,15 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81c4b08fda4376c40611"/>　全國答對率 35%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81929b2ecaf1e990402c"/>　全國答對率 72%
 - **區域與產業**：產業區位看先決條件（資訊通訊、原料、市場）；各區域的優勢產品決定貿易流向。
-	- 每日練習共 11 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 16 題，依日期列在下方「📝 每日練習」。
 - **聚落與交通**：通勤流量可劃分生活圈，反映運輸活動與聚落系統的關係。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81a19bc2c6fc39503e2c"/>　全國答對率 49%
+	- [115 學測社會 第 64 題](https://harry-kuo.github.io/gsat116/#/item/soc115-64)　全國答對率 32%
 - **地形與自然環境**：先認出地形的成因（溶蝕、侵蝕、堆積、火山），再連結當地的氣候、水資源與產業。
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81c4b08fda4376c40611"/>　全國答對率 35%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81448040f67d7a438fb0"/>　全國答對率 58%
+	- [115 學測社會 第 31 題](https://harry-kuo.github.io/gsat116/#/item/soc115-31)　全國答對率 40%
+	- [114 學測社會 第 52 題](https://harry-kuo.github.io/gsat116/#/item/soc114-52)　全國答對率 44%
 - **人口與遷移**：人口轉型看出生率、死亡率的變化；遷移看推力與拉力，例如殖民地的栽培業需要大量勞力。
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8149ae47d227535652e5"/>　全國答對率 56%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f814aaa28e6367512a93e"/>　全國答對率 59%
@@ -184,4 +194,12 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81259885f0bdfc1a8747"/>　全國答對率 71%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8172a3d1c9164a060f0d"/>　全國答對率 44%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81dfb290fd9dc473e162"/>　全國答對率 41%
+</details>
+<details>
+<summary>**Day 15**　10/14（三）　原住民族與土地</summary>
+	- [113 學測社會 第 9 題](https://harry-kuo.github.io/gsat116/#/item/soc113-09)　全國答對率 81%
+	- [115 學測社會 第 30 題](https://harry-kuo.github.io/gsat116/#/item/soc115-30)　全國答對率 66%
+	- [115 學測社會 第 31 題](https://harry-kuo.github.io/gsat116/#/item/soc115-31)　全國答對率 40%
+	- [115 學測社會 第 32 題](https://harry-kuo.github.io/gsat116/#/item/soc115-32)　全國答對率 36%
+	- [115 學測社會 第 33 題](https://harry-kuo.github.io/gsat116/#/item/soc115-33)　全國答對率 57%
 </details>

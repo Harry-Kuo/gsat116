@@ -190,7 +190,6 @@ items:
   type: single
   points: 2
   group: null
-  image: img/science/110-01.webp
   stem: ''
   options:
     A: ''
@@ -199,6 +198,23 @@ items:
     D: ''
     E: ''
   answer: A
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 85
+    Ph: 98
+    Pl: 68
+    D: 30
+    opt:
+      A: 85
+      B: 6
+      C: 4
+      D: 2
+      E: 3
+  explain: ''
+  reviewed: false
+  image: img/science/110-01.webp
   text: |-
     1. 寒流來襲，某地發生因熱水器使用不當造成的一氧化碳（CO）中毒案例，幸經
     施予高壓氧及時救回。依上述說明推測，何者是CO導致死亡的主要原因？
@@ -213,28 +229,11 @@ items:
     (E)與
     2
     CO 競爭血紅素，造成碳酸鹽無法排出體外而產生酸中毒
-  stats:
-    P: 85
-    Ph: 98
-    Pl: 68
-    D: 30
-    opt:
-      A: 85
-      B: 6
-      C: 4
-      D: 2
-      E: 3
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-02
   'no': 2
   type: single
   points: 2
   group: null
-  image: img/science/110-02.webp
   stem: ''
   options:
     A: ''
@@ -243,17 +242,9 @@ items:
     D: ''
     E: ''
   answer: E
-  text: |-
-    2. 顯微鏡下觀察兔子睪丸切片，可看到3 型細胞如下：
-    甲、位於細精管間的細胞
-    乙、靠近細精管壁內緣的細胞
-    丙、靠近細精管腔，蝌蚪形的細胞
-    有關這3型細胞的敘述，何者正確？
-    (A)甲、丙為生殖細胞
-    (B)丙具有雙套染色體
-    (C)乙是甲特化形成
-    (D)丙具減數分裂能力
-    (E)甲大量受損可能導致性激素分泌不足
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 45
     Ph: 85
@@ -265,17 +256,25 @@ items:
       C: 14
       D: 22
       E: 45
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-02.webp
+  text: |-
+    2. 顯微鏡下觀察兔子睪丸切片，可看到3 型細胞如下：
+    甲、位於細精管間的細胞
+    乙、靠近細精管壁內緣的細胞
+    丙、靠近細精管腔，蝌蚪形的細胞
+    有關這3型細胞的敘述，何者正確？
+    (A)甲、丙為生殖細胞
+    (B)丙具有雙套染色體
+    (C)乙是甲特化形成
+    (D)丙具減數分裂能力
+    (E)甲大量受損可能導致性激素分泌不足
 - id: sci110-03
   'no': 3
   type: single
   points: 2
   group: null
-  image: img/science/110-03.webp
   stem: ''
   options:
     A: ''
@@ -284,14 +283,9 @@ items:
     D: ''
     E: ''
   answer: D
-  text: |-
-    3. 某短日照植物的臨界日長為13 小時，若其開花僅受光週期的影響，此植物在哪
-    一情況最不易開花？
-    (A)夏至時在赤道
-    (B)春分時在赤道
-    (C)冬至時在赤道
-    (D)夏至時在北半球高緯度地區
-    (E)秋分時在南半球高緯度地區
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 39
     Ph: 66
@@ -303,17 +297,22 @@ items:
       C: 11
       D: 39
       E: 26
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-03.webp
+  text: |-
+    3. 某短日照植物的臨界日長為13 小時，若其開花僅受光週期的影響，此植物在哪
+    一情況最不易開花？
+    (A)夏至時在赤道
+    (B)春分時在赤道
+    (C)冬至時在赤道
+    (D)夏至時在北半球高緯度地區
+    (E)秋分時在南半球高緯度地區
 - id: sci110-04
   'no': 4
   type: single
   points: 2
   group: null
-  image: img/science/110-04.webp
   stem: ''
   options:
     A: ''
@@ -322,17 +321,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    4. 在適當條件下，某一化學反應的分子示意圖如下所示，其中•和○代表不同元素的
-    原子。
-
-
-    下列關於此反應的敘述，何者錯誤？
-    (A)是分解反應
-    (B)是吸熱反應
-    (C)遵守質量守恆定律
-    (D)有一個物質的標準莫耳生成熱為0
-    (E)有兩個物質的化學組成符合倍比定律
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 46
     Ph: 63
@@ -344,17 +335,25 @@ items:
       C: 6
       D: 22
       E: 17
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-04.webp
+  text: |-
+    4. 在適當條件下，某一化學反應的分子示意圖如下所示，其中•和○代表不同元素的
+    原子。
+
+
+    下列關於此反應的敘述，何者錯誤？
+    (A)是分解反應
+    (B)是吸熱反應
+    (C)遵守質量守恆定律
+    (D)有一個物質的標準莫耳生成熱為0
+    (E)有兩個物質的化學組成符合倍比定律
 - id: sci110-05
   'no': 5
   type: single
   points: 2
   group: null
-  image: img/science/110-05.webp
   stem: ''
   options:
     A: ''
@@ -363,16 +362,9 @@ items:
     D: ''
     E: ''
   answer: D
-  text: |-
-    5. 自然界中，氧化還原反應扮演著重要的角色，下列有關碳循環的過程，何者沒有
-    牽涉到氧化還原反應？
-    (A)細胞呼吸是利用葡萄糖反應產生二氧化碳，並釋出能量
-    (B)生物體內的碳水化合物逐漸在地層中沉積，最後轉變成煤
-    (C)煤和石油在空氣中燃燒產生二氧化碳
-    (D)二氧化碳溶於水，與鈣離子（
-    2
-    Ca ）結合，以碳酸鈣沉澱的方式積存於海底
-    (E)二氧化碳經由光合作用轉變為葡萄糖，並釋放出氧氣
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 47
     Ph: 82
@@ -384,17 +376,24 @@ items:
       C: 10
       D: 47
       E: 7
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-05.webp
+  text: |-
+    5. 自然界中，氧化還原反應扮演著重要的角色，下列有關碳循環的過程，何者沒有
+    牽涉到氧化還原反應？
+    (A)細胞呼吸是利用葡萄糖反應產生二氧化碳，並釋出能量
+    (B)生物體內的碳水化合物逐漸在地層中沉積，最後轉變成煤
+    (C)煤和石油在空氣中燃燒產生二氧化碳
+    (D)二氧化碳溶於水，與鈣離子（
+    2
+    Ca ）結合，以碳酸鈣沉澱的方式積存於海底
+    (E)二氧化碳經由光合作用轉變為葡萄糖，並釋放出氧氣
 - id: sci110-06
   'no': 6
   type: single
   points: 2
   group: null
-  image: img/science/110-06.webp
   stem: ''
   options:
     A: ''
@@ -403,14 +402,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    6. 石蕊在pH 小於4.5 與大於8.3 的溶液中分別呈現紅色與藍色，將白色濾紙分別
-    浸置其中，晾乾可得紅色與藍色石蕊試紙。下列敘述何者正確？
-    (A)人體血漿滴在藍色石蕊試紙上，試紙變成紅色
-    (B)市售胃乳液（含制酸劑）滴在潤溼的紅色石蕊試紙上，試紙變成藍色
-    (C)以石蕊試紙測試10 mL的鹽酸，因酸鹼反應，試紙變成白色
-    (D)將乙酸乙酯滴在潤溼的紅色石蕊試紙上，試紙變成藍色
-    (E) pH 6.4的水溶液滴在紅色石蕊試紙上，試紙變成藍色
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 63
     Ph: 90
@@ -422,17 +416,22 @@ items:
       C: 6
       D: 12
       E: 7
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-06.webp
+  text: |-
+    6. 石蕊在pH 小於4.5 與大於8.3 的溶液中分別呈現紅色與藍色，將白色濾紙分別
+    浸置其中，晾乾可得紅色與藍色石蕊試紙。下列敘述何者正確？
+    (A)人體血漿滴在藍色石蕊試紙上，試紙變成紅色
+    (B)市售胃乳液（含制酸劑）滴在潤溼的紅色石蕊試紙上，試紙變成藍色
+    (C)以石蕊試紙測試10 mL的鹽酸，因酸鹼反應，試紙變成白色
+    (D)將乙酸乙酯滴在潤溼的紅色石蕊試紙上，試紙變成藍色
+    (E) pH 6.4的水溶液滴在紅色石蕊試紙上，試紙變成藍色
 - id: sci110-07
   'no': 7
   type: single
   points: 2
   group: null
-  image: img/science/110-07.webp
   stem: ''
   options:
     A: ''
@@ -441,6 +440,23 @@ items:
     D: ''
     E: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 60
+    Ph: 83
+    Pl: 46
+    D: 37
+    opt:
+      A: 3
+      B: 15
+      C: 60
+      D: 20
+      E: 2
+  explain: ''
+  reviewed: false
+  image: img/science/110-07.webp
   text: |-
     7. 下列甲～丁的球－棍分子模型中，斜影、灰、黑球分別代表氧、氫、碳原子。此
     四個分子中有幾個屬於醇類化合物？
@@ -459,28 +475,11 @@ items:
     甲 
     乙 
     丁
-  stats:
-    P: 60
-    Ph: 83
-    Pl: 46
-    D: 37
-    opt:
-      A: 3
-      B: 15
-      C: 60
-      D: 20
-      E: 2
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-08
   'no': 8
   type: single
   points: 2
   group: null
-  image: img/science/110-08.webp
   stem: ''
   options:
     A: ''
@@ -489,6 +488,23 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 44
+    Ph: 76
+    Pl: 18
+    D: 58
+    opt:
+      A: 6
+      B: 23
+      C: 9
+      D: 44
+      E: 18
+  explain: ''
+  reviewed: false
+  image: img/science/110-08.webp
   text: |-
     8. 硼的原子序為5，平均原子量為10.81。下列關於硼及其化合物的敘述，何者正
     確？
@@ -502,28 +518,11 @@ items:
     4
     4
     NH BF 為分子化合物
-  stats:
-    P: 44
-    Ph: 76
-    Pl: 18
-    D: 58
-    opt:
-      A: 6
-      B: 23
-      C: 9
-      D: 44
-      E: 18
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-09
   'no': 9
   type: single
   points: 2
   group: null
-  image: img/science/110-09.webp
   stem: ''
   options:
     A: ''
@@ -532,6 +531,23 @@ items:
     D: ''
     E: ''
   answer: A
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 57
+    Ph: 81
+    Pl: 30
+    D: 51
+    opt:
+      A: 57
+      B: 11
+      C: 8
+      D: 21
+      E: 3
+  explain: ''
+  reviewed: false
+  image: img/science/110-09.webp
   text: |-
     9. 丙烯（
     3
@@ -566,28 +582,11 @@ items:
     (C)丙酸＜丙醛＜丙烯＜丙酮
     (D)丙烯＜丙醛＜丙酮＜丙酸
     (E)丙烯＜丙酸＜丙酮＜丙醛
-  stats:
-    P: 57
-    Ph: 81
-    Pl: 30
-    D: 51
-    opt:
-      A: 57
-      B: 11
-      C: 8
-      D: 21
-      E: 3
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-10
   'no': 10
   type: single
   points: 2
   group: null
-  image: img/science/110-10.webp
   stem: ''
   options:
     A: ''
@@ -596,14 +595,9 @@ items:
     D: ''
     E: ''
   answer: A
-  text: |-
-    10. 某物質不溶於水，富含一種半導體工業所需的重要元素，且所含另一元素是人體
-    不可或缺的成分之一。下列何者最符合以上所述？
-    (A)石英砂
-    (B)硫化鉛
-    (C)氯化鈣
-    (D)氧化鐵
-    (E)大理石
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 49
     Ph: 90
@@ -615,17 +609,22 @@ items:
       C: 18
       D: 22
       E: 4
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-10.webp
+  text: |-
+    10. 某物質不溶於水，富含一種半導體工業所需的重要元素，且所含另一元素是人體
+    不可或缺的成分之一。下列何者最符合以上所述？
+    (A)石英砂
+    (B)硫化鉛
+    (C)氯化鈣
+    (D)氧化鐵
+    (E)大理石
 - id: sci110-11
   'no': 11
   type: single
   points: 2
   group: null
-  image: img/science/110-11.webp
   stem: ''
   options:
     A: ''
@@ -634,6 +633,23 @@ items:
     D: ''
     E: ''
   answer: E
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 31
+    Ph: 38
+    Pl: 23
+    D: 15
+    opt:
+      A: 11
+      B: 15
+      C: 35
+      D: 7
+      E: 31
+  explain: ''
+  reviewed: false
+  image: img/science/110-11.webp
   text: |-
     11. 某單頻光在一種透明水溶液中的傳播速率與該水溶液的密度成
     反比。今以厚度非常薄的均勻透明玻璃平板組成的立方形容器
@@ -657,28 +673,11 @@ items:
 
 
     圖1
-  stats:
-    P: 31
-    Ph: 38
-    Pl: 23
-    D: 15
-    opt:
-      A: 11
-      B: 15
-      C: 35
-      D: 7
-      E: 31
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-12
   'no': 12
   type: single
   points: 2
   group: null
-  image: img/science/110-12.webp
   stem: ''
   options:
     A: ''
@@ -687,17 +686,9 @@ items:
     D: ''
     E: ''
   answer: A
-  text: |-
-    12. 下列甲、乙、丙描述的狀況，屬於宇宙演化過程中的不同階段：
-    甲、宇宙中大部分粒子為電子與質子，尚未結合成原子
-    乙、宇宙中開始出現氦原子
-    丙、恆星開始形成
-    依時間先後順序排列，下列何者正確？
-    (A)甲乙丙
-    (B)乙甲丙
-    (C)丙乙甲
-    (D)丙甲乙
-    (E)甲丙乙
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 72
     Ph: 85
@@ -709,17 +700,25 @@ items:
       C: 4
       D: 6
       E: 12
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-12.webp
+  text: |-
+    12. 下列甲、乙、丙描述的狀況，屬於宇宙演化過程中的不同階段：
+    甲、宇宙中大部分粒子為電子與質子，尚未結合成原子
+    乙、宇宙中開始出現氦原子
+    丙、恆星開始形成
+    依時間先後順序排列，下列何者正確？
+    (A)甲乙丙
+    (B)乙甲丙
+    (C)丙乙甲
+    (D)丙甲乙
+    (E)甲丙乙
 - id: sci110-13
   'no': 13
   type: single
   points: 2
   group: null
-  image: img/science/110-13.webp
   stem: ''
   options:
     A: ''
@@ -728,13 +727,9 @@ items:
     D: ''
     E: ''
   answer: A
-  text: |-
-    13. 下列關於基本交互作用力的敘述，何者正確？
-    (A)物體的彈性伸縮力和物體間的摩擦力都源自電磁力
-    (B)原子核內質子和中子之間的交互作用主要是弱力
-    (C)強力的作用尺度一定比弱力的作用尺度為小
-    (D)電子會衰變是其內部的弱力作用所造成
-    (E)重力不是物體之間的基本交互作用力
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 45
     Ph: 86
@@ -746,17 +741,21 @@ items:
       C: 9
       D: 25
       E: 5
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-13.webp
+  text: |-
+    13. 下列關於基本交互作用力的敘述，何者正確？
+    (A)物體的彈性伸縮力和物體間的摩擦力都源自電磁力
+    (B)原子核內質子和中子之間的交互作用主要是弱力
+    (C)強力的作用尺度一定比弱力的作用尺度為小
+    (D)電子會衰變是其內部的弱力作用所造成
+    (E)重力不是物體之間的基本交互作用力
 - id: sci110-14
   'no': 14
   type: single
   points: 2
   group: null
-  image: img/science/110-14.webp
   stem: ''
   options:
     A: ''
@@ -765,6 +764,23 @@ items:
     D: ''
     E: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 48
+    Ph: 82
+    Pl: 24
+    D: 58
+    opt:
+      A: 9
+      B: 14
+      C: 48
+      D: 20
+      E: 8
+  explain: ''
+  reviewed: false
+  image: img/science/110-14.webp
   text: |-
     14. 下列以SI 基本單位表示之物理量單位，何者正確？
     (A)電量
@@ -789,28 +805,11 @@ items:
     (E)熱量kg m
     s
     
-  stats:
-    P: 48
-    Ph: 82
-    Pl: 24
-    D: 58
-    opt:
-      A: 9
-      B: 14
-      C: 48
-      D: 20
-      E: 8
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-15
   'no': 15
   type: single
   points: 2
   group: null
-  image: img/science/110-15.webp
   stem: ''
   options:
     A: ''
@@ -819,6 +818,23 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 40
+    Ph: 69
+    Pl: 19
+    D: 50
+    opt:
+      A: 13
+      B: 19
+      C: 25
+      D: 40
+      E: 3
+  explain: ''
+  reviewed: false
+  image: img/science/110-15.webp
   text: |-
     15. 圖2 為水平射出的電子束通過雙狹縫A、B 的實驗示意圖，圖形不依比例繪製。
     結果顯示偵測器測得的電子數目分布為干涉條紋
@@ -841,28 +857,11 @@ items:
     電子束
     圖2
     雙狹縫
-  stats:
-    P: 40
-    Ph: 69
-    Pl: 19
-    D: 50
-    opt:
-      A: 13
-      B: 19
-      C: 25
-      D: 40
-      E: 3
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-16
   'no': 16
   type: single
   points: 2
   group: null
-  image: img/science/110-16.webp
   stem: ''
   options:
     A: ''
@@ -871,6 +870,23 @@ items:
     D: ''
     E: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 66
+    Ph: 92
+    Pl: 35
+    D: 57
+    opt:
+      A: 8
+      B: 14
+      C: 66
+      D: 8
+      E: 3
+  explain: ''
+  reviewed: false
+  image: img/science/110-16.webp
   text: |-
     16. 圖3 為P 波與S 波從震源傳遞到不同距離所需要的時間，又稱地震波走時曲線
     圖。今有一地震發生，在某測站測得P 波
@@ -904,28 +920,11 @@ items:
     （秒）
     距離（公里）
     圖3
-  stats:
-    P: 66
-    Ph: 92
-    Pl: 35
-    D: 57
-    opt:
-      A: 8
-      B: 14
-      C: 66
-      D: 8
-      E: 3
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-17
   'no': 17
   type: single
   points: 2
   group: null
-  image: img/science/110-17.webp
   stem: ''
   options:
     A: ''
@@ -934,6 +933,23 @@ items:
     D: ''
     E: ''
   answer: E
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 33
+    Ph: 53
+    Pl: 20
+    D: 33
+    opt:
+      A: 10
+      B: 33
+      C: 8
+      D: 17
+      E: 33
+  explain: ''
+  reviewed: false
+  image: img/science/110-17.webp
   text: |-
     17. 科學家搭乘潛艇在臺灣東部海域下潛至約四千公尺的深海環境，觀察海水基本性
     質。已知聲速大小與溫度、鹽度、壓力成正比，下列圖片的變化趨勢何者正確？
@@ -979,28 +995,11 @@ items:
     0
     深
     度
-  stats:
-    P: 33
-    Ph: 53
-    Pl: 20
-    D: 33
-    opt:
-      A: 10
-      B: 33
-      C: 8
-      D: 17
-      E: 33
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-18
   'no': 18
   type: single
   points: 2
   group: null
-  image: img/science/110-18.webp
   stem: ''
   options:
     A: ''
@@ -1009,14 +1008,9 @@ items:
     D: ''
     E: ''
   answer: E
-  text: |-
-    18. 科學家嘗試以各種方法重建地球的歷史，下列有關探索地球歷史的敘述，何者正
-    確？
-    (A)古生代的人寫歷史較不精準，所以錯誤百出
-    (B)根據疊置定律，可推測岩脈的生成時間比圍繞岩脈的地層晚
-    (C)相對地質年代係根據放射性元素定年，以分辨岩層年代的早晚
-    (D)利用放射性元素定年，母元素的量經過2個半衰期後只剩原來的二分之一
-    (E)「均變說」是指過去發生地質作用的原理和現在進行地質作用的原理相同
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 26
     Ph: 53
@@ -1028,17 +1022,22 @@ items:
       C: 40
       D: 6
       E: 26
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-18.webp
+  text: |-
+    18. 科學家嘗試以各種方法重建地球的歷史，下列有關探索地球歷史的敘述，何者正
+    確？
+    (A)古生代的人寫歷史較不精準，所以錯誤百出
+    (B)根據疊置定律，可推測岩脈的生成時間比圍繞岩脈的地層晚
+    (C)相對地質年代係根據放射性元素定年，以分辨岩層年代的早晚
+    (D)利用放射性元素定年，母元素的量經過2個半衰期後只剩原來的二分之一
+    (E)「均變說」是指過去發生地質作用的原理和現在進行地質作用的原理相同
 - id: sci110-19
   'no': 19
   type: single
   points: 2
   group: null
-  image: img/science/110-19.webp
   stem: ''
   options:
     A: ''
@@ -1047,16 +1046,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    19. 十九世紀中期，荷蘭氣象學家白貝羅發現：在北半球，若背對風的來向，則高壓
-    在其右邊，低壓在左邊，這就是有名的白貝羅定律（Buys Ballot’s law）。但後
-    來發現，這個經驗定律比較適合應用在航空或航海上，而不太適合在陸地上使用。
-    其最主要的原因為何？
-    (A)因為海上或空中的氣象測站較少，使用經驗定律比較方便
-    (B)因為海上及空中的摩擦力較小，風向比較不會偏轉
-    (C)因為陸地上的氣壓梯度力比較小，風速比較快
-    (D)因為陸上氣象資訊更新較快，不必使用經驗定律
-    (E)因為航運比陸運更需要氣象資訊
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 71
     Ph: 96
@@ -1068,17 +1060,24 @@ items:
       C: 19
       D: 2
       E: 3
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-19.webp
+  text: |-
+    19. 十九世紀中期，荷蘭氣象學家白貝羅發現：在北半球，若背對風的來向，則高壓
+    在其右邊，低壓在左邊，這就是有名的白貝羅定律（Buys Ballot’s law）。但後
+    來發現，這個經驗定律比較適合應用在航空或航海上，而不太適合在陸地上使用。
+    其最主要的原因為何？
+    (A)因為海上或空中的氣象測站較少，使用經驗定律比較方便
+    (B)因為海上及空中的摩擦力較小，風向比較不會偏轉
+    (C)因為陸地上的氣壓梯度力比較小，風速比較快
+    (D)因為陸上氣象資訊更新較快，不必使用經驗定律
+    (E)因為航運比陸運更需要氣象資訊
 - id: sci110-20
   'no': 20
   type: single
   points: 2
   group: null
-  image: img/science/110-20.webp
   stem: ''
   options:
     A: ''
@@ -1087,6 +1086,23 @@ items:
     D: ''
     E: ''
   answer: B
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 57
+    Ph: 91
+    Pl: 24
+    D: 67
+    opt:
+      A: 10
+      B: 57
+      C: 19
+      D: 12
+      E: 2
+  explain: ''
+  reviewed: false
+  image: img/science/110-20.webp
   text: |-
     20. 地球自轉軸固定指向北極星，與黃道面的夾角為66.5。若水手在航行的船上觀察
     北極星的仰角為35，則該船約在北緯幾度？
@@ -1099,28 +1115,11 @@ items:
     (D) 11.5
 
     (E) 0
-  stats:
-    P: 57
-    Ph: 91
-    Pl: 24
-    D: 67
-    opt:
-      A: 10
-      B: 57
-      C: 19
-      D: 12
-      E: 2
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-21
   'no': 21
   type: single
   points: 2
   group: null
-  image: img/science/110-21.webp
   stem: ''
   options:
     A: ''
@@ -1129,6 +1128,23 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 37
+    Ph: 52
+    Pl: 23
+    D: 29
+    opt:
+      A: 5
+      B: 16
+      C: 18
+      D: 37
+      E: 23
+  explain: ''
+  reviewed: false
+  image: img/science/110-21.webp
   text: |-
     21. 臺灣的地形複雜，當颱風侵襲時，颱風中心位於不同地點，所造成的風雨型態也
     不一樣。圖4 上半部為2010 年9 月18 日至20 日，凡那比颱風侵襲臺灣時的路
@@ -1159,28 +1175,11 @@ items:
     11
     05
     17
-  stats:
-    P: 37
-    Ph: 52
-    Pl: 23
-    D: 29
-    opt:
-      A: 5
-      B: 16
-      C: 18
-      D: 37
-      E: 23
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-22
   'no': 22
   type: single
   points: 2
   group: null
-  image: img/science/110-22.webp
   stem: ''
   options:
     A: ''
@@ -1189,6 +1188,23 @@ items:
     D: ''
     E: ''
   answer: E
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 36
+    Ph: 56
+    Pl: 18
+    D: 38
+    opt:
+      A: 18
+      B: 19
+      C: 14
+      D: 13
+      E: 36
+  explain: ''
+  reviewed: false
+  image: img/science/110-22.webp
   text: |-
     潮
     差
@@ -1234,28 +1250,11 @@ items:
     (C) 7月9日上午10時
     (D) 7月11日上午10時
     (E) 7月13日下午3時
-  stats:
-    P: 36
-    Ph: 56
-    Pl: 18
-    D: 38
-    opt:
-      A: 18
-      B: 19
-      C: 14
-      D: 13
-      E: 36
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-23
   'no': 23
   type: multi
   points: 2
   group: null
-  image: img/science/110-23.webp
   stem: ''
   options:
     A: ''
@@ -1264,16 +1263,9 @@ items:
     D: ''
     E: ''
   answer: AE
-  text: |-
-    23. 胎盤的組織所分泌的某激素可進入母體循環系統，以維持母體動情素及黃體激素
-    的分泌與子宮內膜繼續增厚。母體血漿中此激素濃度高時，也會出現在尿液中。
-    驗孕筆即檢驗女性尿液中是否出現該激素，判斷是否懷孕。下列哪些特徵是該激
-    素可作為驗孕的依據？（應選2 項）
-    (A)為胎盤的組織所分泌
-    (B)能維持動情素的分泌
-    (C)能維持黃體激素分泌
-    (D)能維持子宮內膜繼續增厚
-    (E)會出現在尿液中
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 40
     Ph: 50
@@ -1286,17 +1278,24 @@ items:
       C: 35
       D: 42
       E: 59
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-23.webp
+  text: |-
+    23. 胎盤的組織所分泌的某激素可進入母體循環系統，以維持母體動情素及黃體激素
+    的分泌與子宮內膜繼續增厚。母體血漿中此激素濃度高時，也會出現在尿液中。
+    驗孕筆即檢驗女性尿液中是否出現該激素，判斷是否懷孕。下列哪些特徵是該激
+    素可作為驗孕的依據？（應選2 項）
+    (A)為胎盤的組織所分泌
+    (B)能維持動情素的分泌
+    (C)能維持黃體激素分泌
+    (D)能維持子宮內膜繼續增厚
+    (E)會出現在尿液中
 - id: sci110-24
   'no': 24
   type: multi
   points: 2
   group: null
-  image: img/science/110-24.webp
   stem: ''
   options:
     A: ''
@@ -1305,13 +1304,9 @@ items:
     D: ''
     E: ''
   answer: AB
-  text: |-
-    24. 下列有關植物分生組織內細胞的敘述，哪些正確？（應選2 項）
-    (A)分生組織細胞具分化成不同功能細胞的能力
-    (B)根部周鞘具分生組織細胞可發育出支根
-    (C)根部頂端分生組織的細胞位於根冠（根帽）
-    (D)分生組織細胞較小，核也較小
-    (E)分生組織細胞染色體在各階段皆清晰可見
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 45
     Ph: 66
@@ -1324,17 +1319,21 @@ items:
       C: 39
       D: 26
       E: 10
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-24.webp
+  text: |-
+    24. 下列有關植物分生組織內細胞的敘述，哪些正確？（應選2 項）
+    (A)分生組織細胞具分化成不同功能細胞的能力
+    (B)根部周鞘具分生組織細胞可發育出支根
+    (C)根部頂端分生組織的細胞位於根冠（根帽）
+    (D)分生組織細胞較小，核也較小
+    (E)分生組織細胞染色體在各階段皆清晰可見
 - id: sci110-25
   'no': 25
   type: multi
   points: 2
   group: null
-  image: img/science/110-25.webp
   stem: ''
   options:
     A: ''
@@ -1343,14 +1342,9 @@ items:
     D: ''
     E: ''
   answer: BD
-  text: |-
-    25. 下列哪些物質的運輸方式，無細胞膜上運輸蛋白的參與，也不消耗ATP 分子？
-    （應選2 項）
-    (A)植物根部細胞自土壤中吸收無機鹽
-    (B)氧氣在肺泡與肺泡細胞間的交換
-    (C)白血球細胞對細菌的吞噬
-    (D)小腸上皮細胞對脂肪酸的吸收
-    (E)腎小管的管壁細胞對葡萄糖的再吸收
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 43
     Ph: 71
@@ -1363,17 +1357,22 @@ items:
       C: 30
       D: 39
       E: 13
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-25.webp
+  text: |-
+    25. 下列哪些物質的運輸方式，無細胞膜上運輸蛋白的參與，也不消耗ATP 分子？
+    （應選2 項）
+    (A)植物根部細胞自土壤中吸收無機鹽
+    (B)氧氣在肺泡與肺泡細胞間的交換
+    (C)白血球細胞對細菌的吞噬
+    (D)小腸上皮細胞對脂肪酸的吸收
+    (E)腎小管的管壁細胞對葡萄糖的再吸收
 - id: sci110-26
   'no': 26
   type: multi
   points: 2
   group: null
-  image: img/science/110-26.webp
   stem: ''
   options:
     A: ''
@@ -1382,14 +1381,9 @@ items:
     D: ''
     E: ''
   answer: AC
-  text: |-
-    26. 某生參加科學競賽，因壓力與緊張，覺得不適到醫護室休息，測量血壓為收縮壓
-    150 mmHg/舒張壓100 mmHg，下列哪些是造成該血壓的可能因素？（應選2 項）
-    (A)心跳速率較平常為快
-    (B)心臟每分鐘血液輸出量較平常為少
-    (C)動脈平滑肌收縮，造成血壓較平常時高
-    (D)排汗增加，使血壓較正常值為低
-    (E)神經與激素作用較平常時增加，使血管舒張
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 68
     Ph: 87
@@ -1402,17 +1396,22 @@ items:
       C: 70
       D: 5
       E: 26
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-26.webp
+  text: |-
+    26. 某生參加科學競賽，因壓力與緊張，覺得不適到醫護室休息，測量血壓為收縮壓
+    150 mmHg/舒張壓100 mmHg，下列哪些是造成該血壓的可能因素？（應選2 項）
+    (A)心跳速率較平常為快
+    (B)心臟每分鐘血液輸出量較平常為少
+    (C)動脈平滑肌收縮，造成血壓較平常時高
+    (D)排汗增加，使血壓較正常值為低
+    (E)神經與激素作用較平常時增加，使血管舒張
 - id: sci110-27
   'no': 27
   type: multi
   points: 2
   group: null
-  image: img/science/110-27.webp
   stem: ''
   options:
     A: ''
@@ -1421,6 +1420,24 @@ items:
     D: ''
     E: ''
   answer: CD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 59
+    Ph: 93
+    Pl: 26
+    D: 67
+    T: 48
+    opt:
+      A: 13
+      B: 27
+      C: 67
+      D: 75
+      E: 21
+  explain: ''
+  reviewed: false
+  image: img/science/110-27.webp
   text: |-
     27. 於一密閉容器中，將乙烯（
     2
@@ -1436,29 +1453,11 @@ items:
     (C)原混合氣體中，含3莫耳的乙烯
     (D)反應完成後，容器內還有剩餘的氫氣
     (E)產生2莫耳的乙烷
-  stats:
-    P: 59
-    Ph: 93
-    Pl: 26
-    D: 67
-    T: 48
-    opt:
-      A: 13
-      B: 27
-      C: 67
-      D: 75
-      E: 21
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-28
   'no': 28
   type: multi
   points: 2
   group: null
-  image: img/science/110-28.webp
   stem: ''
   options:
     A: ''
@@ -1467,6 +1466,24 @@ items:
     D: ''
     E: ''
   answer: CD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 73
+    Ph: 97
+    Pl: 40
+    D: 57
+    T: 64
+    opt:
+      A: 13
+      B: 15
+      C: 81
+      D: 80
+      E: 8
+  explain: ''
+  reviewed: false
+  image: img/science/110-28.webp
   text: |-
     28. 利用濾紙層析法分析紫色水性彩色筆的染料時，首先用紫色水性彩色筆在圓形濾
     紙圓心部位畫一個實心圓形，如圖6 所示。其次，用滴管在圓心緩慢逐滴加水，
@@ -1500,29 +1517,11 @@ items:
     藍色
     紫色
     紫色
-  stats:
-    P: 73
-    Ph: 97
-    Pl: 40
-    D: 57
-    T: 64
-    opt:
-      A: 13
-      B: 15
-      C: 81
-      D: 80
-      E: 8
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-29
   'no': 29
   type: multi
   points: 2
   group: null
-  image: img/science/110-29.webp
   stem: ''
   options:
     A: ''
@@ -1531,15 +1530,9 @@ items:
     D: ''
     E: ''
   answer: CD
-  text: |-
-    29.科學家從某類似地球環境之星球所收集的標本中，分離出與細胞構造相似的實體，
-    經觀察後具有下列重要特徵，試問哪些可支持「該實體具生命現象，且類似地球
-    上單細胞生物體」？（應選2 項）
-    (A)體積極小只能在顯微鏡下加以觀察
-    (B)可以吸收水分，使體積變大
-    (C)能合成多種特殊分子構成複雜結構，來執行維持實體內部環境穩定的作用
-    (D)一個實體偶而會分裂成兩個個體，每一個體與原實體機能相同
-    (E)顯微鏡下可觀察到多個實體會群聚形成聚落
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 54
     Ph: 73
@@ -1552,17 +1545,23 @@ items:
       C: 56
       D: 82
       E: 17
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-29.webp
+  text: |-
+    29.科學家從某類似地球環境之星球所收集的標本中，分離出與細胞構造相似的實體，
+    經觀察後具有下列重要特徵，試問哪些可支持「該實體具生命現象，且類似地球
+    上單細胞生物體」？（應選2 項）
+    (A)體積極小只能在顯微鏡下加以觀察
+    (B)可以吸收水分，使體積變大
+    (C)能合成多種特殊分子構成複雜結構，來執行維持實體內部環境穩定的作用
+    (D)一個實體偶而會分裂成兩個個體，每一個體與原實體機能相同
+    (E)顯微鏡下可觀察到多個實體會群聚形成聚落
 - id: sci110-30
   'no': 30
   type: multi
   points: 2
   group: null
-  image: img/science/110-30.webp
   stem: ''
   options:
     A: ''
@@ -1571,13 +1570,9 @@ items:
     D: ''
     E: ''
   answer: ACD
-  text: |-
-    30. 有關人體防禦作用，下列哪些敘述正確？（應選3 項）
-    (A) B 細胞與T細胞均由骨髓產生
-    (B)漿細胞可破壞腫瘤細胞
-    (C)發炎紅、腫症狀是因體內釋放組織胺
-    (D)注射疫苗使人體產生抗體，主要為專一性防禦
-    (E)所有T細胞只參與細胞免疫
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 59
     Ph: 79
@@ -1590,17 +1585,21 @@ items:
       C: 88
       D: 90
       E: 25
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-30.webp
+  text: |-
+    30. 有關人體防禦作用，下列哪些敘述正確？（應選3 項）
+    (A) B 細胞與T細胞均由骨髓產生
+    (B)漿細胞可破壞腫瘤細胞
+    (C)發炎紅、腫症狀是因體內釋放組織胺
+    (D)注射疫苗使人體產生抗體，主要為專一性防禦
+    (E)所有T細胞只參與細胞免疫
 - id: sci110-31
   'no': 31
   type: multi
   points: 2
   group: sci110-g31
-  image: img/science/110-31.webp
   stem: ''
   options:
     A: ''
@@ -1609,13 +1608,9 @@ items:
     D: ''
     E: ''
   answer: CE
-  text: |-
-    31. 導線載有穩定電流時，下列關於螺線管磁場的敘述哪些正確？（應選2 項）
-    (A)管外側的磁場強度最大
-    (B)管內中心處的磁場強度為零
-    (C)管兩端相當於磁鐵棒的N極與S極
-    (D)管內的磁場強度與電流量值無關
-    (E)管內的磁場方向可用安培右手定則判斷
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 76
     Ph: 91
@@ -1628,17 +1623,21 @@ items:
       C: 88
       D: 7
       E: 79
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-31.webp
+  text: |-
+    31. 導線載有穩定電流時，下列關於螺線管磁場的敘述哪些正確？（應選2 項）
+    (A)管外側的磁場強度最大
+    (B)管內中心處的磁場強度為零
+    (C)管兩端相當於磁鐵棒的N極與S極
+    (D)管內的磁場強度與電流量值無關
+    (E)管內的磁場方向可用安培右手定則判斷
 - id: sci110-32
   'no': 32
   type: multi
   points: 2
   group: sci110-g31
-  image: img/science/110-32.webp
   stem: ''
   options:
     A: ''
@@ -1647,14 +1646,9 @@ items:
     D: ''
     E: ''
   answer: BD或BC
-  text: |-
-    32. 將螺線管鉛直靜置，當導線的電流穩定時，有一N 極朝下的棒形磁鐵自螺線管上
-    方直線接近，發現磁鐵接近時導線的電流增大。下列哪些敘述正確？（應選2 項）
-    (A)磁鐵尚未接近螺線管之前，管內原來的磁場方向向下
-    (B)磁鐵尚未接近螺線管之前，管內原來的磁場方向向上
-    (C)磁鐵接近螺線管時，管內磁場的方向不變，強度減弱
-    (D)磁鐵接近螺線管時，管內磁場的方向不變，強度增強
-    (E)磁鐵接近螺線管時，管內磁場的方向不變，強度不變
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 65
     Ph: 85
@@ -1667,17 +1661,22 @@ items:
       C: 11
       D: 82
       E: 7
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-32.webp
+  text: |-
+    32. 將螺線管鉛直靜置，當導線的電流穩定時，有一N 極朝下的棒形磁鐵自螺線管上
+    方直線接近，發現磁鐵接近時導線的電流增大。下列哪些敘述正確？（應選2 項）
+    (A)磁鐵尚未接近螺線管之前，管內原來的磁場方向向下
+    (B)磁鐵尚未接近螺線管之前，管內原來的磁場方向向上
+    (C)磁鐵接近螺線管時，管內磁場的方向不變，強度減弱
+    (D)磁鐵接近螺線管時，管內磁場的方向不變，強度增強
+    (E)磁鐵接近螺線管時，管內磁場的方向不變，強度不變
 - id: sci110-33
   'no': 33
   type: multi
   points: 2
   group: null
-  image: img/science/110-33.webp
   stem: ''
   options:
     A: ''
@@ -1686,13 +1685,9 @@ items:
     D: ''
     E: ''
   answer: BCE
-  text: |-
-    33. 下列關於核能的敘述，哪些正確？（應選3 項）
-    (A)核分裂時都會放出夸克，故可發電
-    (B)原子彈和核能電廠都可利用核分裂來釋出能量
-    (C)鈾-235可經由核分裂釋出能量，以供人類使用
-    (D)太陽能板的發電原理是直接將核能轉為電能
-    (E)太陽藉由核融合得以發光，太陽發光越久，其總質量就越小
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 63
     Ph: 89
@@ -1705,17 +1700,21 @@ items:
       C: 91
       D: 17
       E: 69
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-33.webp
+  text: |-
+    33. 下列關於核能的敘述，哪些正確？（應選3 項）
+    (A)核分裂時都會放出夸克，故可發電
+    (B)原子彈和核能電廠都可利用核分裂來釋出能量
+    (C)鈾-235可經由核分裂釋出能量，以供人類使用
+    (D)太陽能板的發電原理是直接將核能轉為電能
+    (E)太陽藉由核融合得以發光，太陽發光越久，其總質量就越小
 - id: sci110-34
   'no': 34
   type: multi
   points: 2
   group: null
-  image: img/science/110-34.webp
   stem: ''
   options:
     A: ''
@@ -1724,6 +1723,24 @@ items:
     D: ''
     E: ''
   answer: CE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 56
+    Ph: 84
+    Pl: 27
+    D: 57
+    T: 45
+    opt:
+      A: 33
+      B: 15
+      C: 86
+      D: 13
+      E: 52
+  explain: ''
+  reviewed: false
+  image: img/science/110-34.webp
   text: |-
     34. 如圖9，一輛車在無風的平地，沿著圓直徑由a 往b 行駛。當通過圓心O 的瞬
     間，車上聲源發出歷時短暫、頻率為
@@ -1783,29 +1800,11 @@ items:
     b
     c
     d
-  stats:
-    P: 56
-    Ph: 84
-    Pl: 27
-    D: 57
-    T: 45
-    opt:
-      A: 33
-      B: 15
-      C: 86
-      D: 13
-      E: 52
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-35
   'no': 35
   type: multi
   points: 2
   group: null
-  image: img/science/110-35.webp
   stem: ''
   options:
     A: ''
@@ -1814,6 +1813,24 @@ items:
     D: ''
     E: ''
   answer: AD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 58
+    Ph: 81
+    Pl: 33
+    D: 48
+    T: 46
+    opt:
+      A: 76
+      B: 13
+      C: 30
+      D: 66
+      E: 15
+  explain: ''
+  reviewed: false
+  image: img/science/110-35.webp
   text: |-
     1949 1952 1955 1958 1961 1964 1967 1970 1973 1976 1979 1982 1985 1988 1991 1994 1997 2000 2003 2006 2009
     1500
@@ -1877,29 +1894,11 @@ items:
     (C)在1989-2009年間，枯水年的降雨強度越來越低
     (D)在1989-2009年間，豐水年的降雨強度越來越高
     (E)豐枯水年在1989-2009年間，與在1949-1989年間發生的頻率差異不大
-  stats:
-    P: 58
-    Ph: 81
-    Pl: 33
-    D: 48
-    T: 46
-    opt:
-      A: 76
-      B: 13
-      C: 30
-      D: 66
-      E: 15
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-36
   'no': 36
   type: multi
   points: 2
   group: null
-  image: img/science/110-36.webp
   stem: ''
   options:
     A: ''
@@ -1908,14 +1907,9 @@ items:
     D: ''
     E: ''
   answer: AE
-  text: |-
-    36. 海流是大洋中特定流向且持續的大規模海水運動。下列哪些是其生成原因？（應
-    選2 項）
-    (A)風吹拂海面
-    (B)日、月引力
-    (C)海底地震
-    (D)地球自轉
-    (E)海水密度不同
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 43
     Ph: 69
@@ -1928,17 +1922,22 @@ items:
       C: 7
       D: 45
       E: 51
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-36.webp
+  text: |-
+    36. 海流是大洋中特定流向且持續的大規模海水運動。下列哪些是其生成原因？（應
+    選2 項）
+    (A)風吹拂海面
+    (B)日、月引力
+    (C)海底地震
+    (D)地球自轉
+    (E)海水密度不同
 - id: sci110-37
   'no': 37
   type: single
   points: 2
   group: sci110-g37
-  image: img/science/110-37.webp
   stem: ''
   options:
     A: ''
@@ -1947,13 +1946,9 @@ items:
     D: ''
     E: ''
   answer: C
-  text: |-
-    37. 人體透過呼吸運動吸進體內的氣體，其最主要成分為何？
-    (A)氧氣
-    (B)二氧化碳
-    (C)氮氣
-    (D)水氣
-    (E)臭氧
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 67
     Ph: 93
@@ -1965,17 +1960,21 @@ items:
       C: 68
       D: 2
       E: 0
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-37.webp
+  text: |-
+    37. 人體透過呼吸運動吸進體內的氣體，其最主要成分為何？
+    (A)氧氣
+    (B)二氧化碳
+    (C)氮氣
+    (D)水氣
+    (E)臭氧
 - id: sci110-38
   'no': 38
   type: multi
   points: 2
   group: sci110-g37
-  image: img/science/110-38.webp
   stem: ''
   options:
     A: ''
@@ -1984,6 +1983,24 @@ items:
     D: ''
     E: ''
   answer: AB
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 52
+    Ph: 82
+    Pl: 22
+    D: 60
+    T: 38
+    opt:
+      A: 73
+      B: 57
+      C: 32
+      D: 26
+      E: 8
+  explain: ''
+  reviewed: false
+  image: img/science/110-38.webp
   text: |-
     38. 有關人體代謝率與體溫維持，下列哪些敘述正確？（應選2 項）
     (A)體溫的恆定可藉由調整
@@ -2003,29 +2020,11 @@ items:
     
     ，神經中樞調升甲狀腺素分泌來減緩代謝產熱
     (E)決定基礎代謝率的因素，不包含靜止休息時單位時間離開人體的淨熱量
-  stats:
-    P: 52
-    Ph: 82
-    Pl: 22
-    D: 60
-    T: 38
-    opt:
-      A: 73
-      B: 57
-      C: 32
-      D: 26
-      E: 8
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-39
   'no': 39
   type: single
   points: 2
   group: sci110-g37
-  image: img/science/110-39.webp
   stem: ''
   options:
     A: ''
@@ -2034,6 +2033,23 @@ items:
     D: ''
     E: ''
   answer: C
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 70
+    Ph: 95
+    Pl: 38
+    D: 57
+    opt:
+      A: 8
+      B: 8
+      C: 70
+      D: 8
+      E: 7
+  explain: ''
+  reviewed: false
+  image: img/science/110-39.webp
   text: |-
     39. 一名質量為50 公斤的學生，在常溫下靜止躺著休息，若他體溫正常且保持恆定
     不變，則其內能之時間變化率的量值應如何表示？
@@ -2071,28 +2087,11 @@ items:
     
     
     瓦特
-  stats:
-    P: 70
-    Ph: 95
-    Pl: 38
-    D: 57
-    opt:
-      A: 8
-      B: 8
-      C: 70
-      D: 8
-      E: 7
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-40
   'no': 40
   type: single
   points: 2
   group: sci110-g37
-  image: img/science/110-40.webp
   stem: ''
   options:
     A: ''
@@ -2101,14 +2100,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    40. 承上題，若他體內新陳代謝所需能量都來自葡萄糖，則他躺著休息2 小時共消耗
-    幾公克葡萄糖？
-    (A) 0.450
-    (B) 22.5
-    (C) 62.5
-    (D) 360
-    (E) 450
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 54
     Ph: 82
@@ -2120,17 +2114,22 @@ items:
       C: 19
       D: 11
       E: 5
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-40.webp
+  text: |-
+    40. 承上題，若他體內新陳代謝所需能量都來自葡萄糖，則他躺著休息2 小時共消耗
+    幾公克葡萄糖？
+    (A) 0.450
+    (B) 22.5
+    (C) 62.5
+    (D) 360
+    (E) 450
 - id: sci110-41
   'no': 41
   type: multi
   points: 2
   group: null
-  image: img/science/110-41.webp
   stem: ''
   options:
     A: ''
@@ -2139,6 +2138,24 @@ items:
     D: ''
     E: ''
   answer: AE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 51
+    Ph: 67
+    Pl: 35
+    D: 32
+    T: 38
+    opt:
+      A: 67
+      B: 22
+      C: 33
+      D: 11
+      E: 65
+  explain: ''
+  reviewed: false
+  image: img/science/110-41.webp
   text: |-
     41. 人口的快速增加造成地球資源快速消耗，對自然界生物造成嚴重威脅。表1 是全
     世界的人口數量變化；圖11 為S 型族群成長曲線。根據表1 及所學判斷，下列
@@ -2203,29 +2220,11 @@ items:
 
     時間
     圖11
-  stats:
-    P: 51
-    Ph: 67
-    Pl: 35
-    D: 32
-    T: 38
-    opt:
-      A: 67
-      B: 22
-      C: 33
-      D: 11
-      E: 65
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-42
   'no': 42
   type: multi
   points: 2
   group: null
-  image: img/science/110-42.webp
   stem: ''
   options:
     A: ''
@@ -2234,13 +2233,9 @@ items:
     D: ''
     E: ''
   answer: AD
-  text: |-
-    42. 有關遺傳與相關疾病，下列哪些敘述正確？（應選2 項）
-    (A)紅綠色盲屬於性聯遺傳疾病
-    (B)人類ABO血型屬於多基因遺傳
-    (C)真核細胞轉錄作用發生在核糖體
-    (D)孟德爾認為每一種性狀均由一對遺傳因子控制
-    (E)有絲分裂中同源染色體聯會提供分離律的細胞學證據
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 57
     Ph: 87
@@ -2253,17 +2248,21 @@ items:
       C: 16
       D: 65
       E: 13
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-42.webp
+  text: |-
+    42. 有關遺傳與相關疾病，下列哪些敘述正確？（應選2 項）
+    (A)紅綠色盲屬於性聯遺傳疾病
+    (B)人類ABO血型屬於多基因遺傳
+    (C)真核細胞轉錄作用發生在核糖體
+    (D)孟德爾認為每一種性狀均由一對遺傳因子控制
+    (E)有絲分裂中同源染色體聯會提供分離律的細胞學證據
 - id: sci110-43
   'no': 43
   type: single
   points: 2
   group: null
-  image: img/science/110-43.webp
   stem: ''
   options:
     A: ''
@@ -2272,6 +2271,23 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 36
+    Ph: 65
+    Pl: 16
+    D: 49
+    opt:
+      A: 22
+      B: 11
+      C: 13
+      D: 37
+      E: 18
+  explain: ''
+  reviewed: false
+  image: img/science/110-43.webp
   text: |-
     43. BrDU 是人工合成的核苷酸，可被細胞吸收並使用為DNA 複製原料，過程中與
     腺嘌呤配對。四位同學甲～丁依上述提出相關論述：
@@ -2286,28 +2302,11 @@ items:
     (C)乙、丁
     (D)甲、丁
     (E)甲、丙
-  stats:
-    P: 36
-    Ph: 65
-    Pl: 16
-    D: 49
-    opt:
-      A: 22
-      B: 11
-      C: 13
-      D: 37
-      E: 18
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-44
   'no': 44
   type: multi
   points: 2
   group: null
-  image: img/science/110-44.webp
   stem: ''
   options:
     A: ''
@@ -2316,13 +2315,9 @@ items:
     D: ''
     E: ''
   answer: AB
-  text: |-
-    44. 有關達爾文的演化論，下列哪些敘述正確？（應選2 項）
-    (A)親代競爭力較強的性狀在後代族群中出現的頻率會提高
-    (B)達爾文提出天擇說時，未參考孟德爾的遺傳定律
-    (C)越常使用的器官會越發達，且此優勢會遺傳到下一代
-    (D)當環境資源有限時，可經由突變提高優勢並增加個體數
-    (E)特有種皆是由不同地理環境的不同始祖演化而來
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 41
     Ph: 64
@@ -2335,17 +2330,21 @@ items:
       C: 25
       D: 44
       E: 14
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-44.webp
+  text: |-
+    44. 有關達爾文的演化論，下列哪些敘述正確？（應選2 項）
+    (A)親代競爭力較強的性狀在後代族群中出現的頻率會提高
+    (B)達爾文提出天擇說時，未參考孟德爾的遺傳定律
+    (C)越常使用的器官會越發達，且此優勢會遺傳到下一代
+    (D)當環境資源有限時，可經由突變提高優勢並增加個體數
+    (E)特有種皆是由不同地理環境的不同始祖演化而來
 - id: sci110-45
   'no': 45
   type: single
   points: 2
   group: null
-  image: img/science/110-45.webp
   stem: ''
   options:
     A: ''
@@ -2354,6 +2353,23 @@ items:
     D: ''
     E: ''
   answer: E
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 30
+    Ph: 50
+    Pl: 14
+    D: 36
+    opt:
+      A: 8
+      B: 5
+      C: 54
+      D: 5
+      E: 32
+  explain: ''
+  reviewed: false
+  image: img/science/110-45.webp
   text: |-
     45. 圖12 中甲、乙、丙是位於臺灣的3 個森林實驗樣區內調查到的植物物種及數量
     分布。有關其所處生態系的敘述，何者最正確？
@@ -2472,28 +2488,11 @@ items:
     乙生態系
     丙生態系
     圖12
-  stats:
-    P: 30
-    Ph: 50
-    Pl: 14
-    D: 36
-    opt:
-      A: 8
-      B: 5
-      C: 54
-      D: 5
-      E: 32
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-46
   'no': 46
   type: multi
   points: 2
   group: null
-  image: img/science/110-46.webp
   stem: ''
   options:
     A: ''
@@ -2502,6 +2501,24 @@ items:
     D: ''
     E: ''
   answer: BCD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 73
+    Ph: 91
+    Pl: 50
+    D: 41
+    T: 64
+    opt:
+      A: 17
+      B: 83
+      C: 85
+      D: 92
+      E: 17
+  explain: ''
+  reviewed: false
+  image: img/science/110-46.webp
   text: |-
     46. 圖13 為臺灣某山區的生物量塔，下列哪些敘述正確？（應選3 項）
 
@@ -2530,29 +2547,11 @@ items:
     初級消費者
     初級生產者
     圖13
-  stats:
-    P: 73
-    Ph: 91
-    Pl: 50
-    D: 41
-    T: 64
-    opt:
-      A: 17
-      B: 83
-      C: 85
-      D: 92
-      E: 17
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-47
   'no': 47
   type: single
   points: 2
   group: null
-  image: img/science/110-47.webp
   stem: ''
   options:
     A: ''
@@ -2561,14 +2560,9 @@ items:
     D: ''
     E: ''
   answer: D
-  text: |-
-    47. 科學家經多年雜交選育獲得了具黑色斑紋的家蠶新品種。下列選項何者與黑色家
-    蠶的培育技術原理相似？
-    (A)以轉殖技術產生的抗蟲玉米
-    (B)複製動物桃莉羊
-    (C)以組織培養繁殖蝴蝶蘭
-    (D)孟德爾豌豆試交實驗
-    (E)殖入生長激素基因的鮭魚
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 76
     Ph: 91
@@ -2580,17 +2574,22 @@ items:
       C: 8
       D: 78
       E: 2
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-47.webp
+  text: |-
+    47. 科學家經多年雜交選育獲得了具黑色斑紋的家蠶新品種。下列選項何者與黑色家
+    蠶的培育技術原理相似？
+    (A)以轉殖技術產生的抗蟲玉米
+    (B)複製動物桃莉羊
+    (C)以組織培養繁殖蝴蝶蘭
+    (D)孟德爾豌豆試交實驗
+    (E)殖入生長激素基因的鮭魚
 - id: sci110-48
   'no': 48
   type: multi
   points: 2
   group: null
-  image: img/science/110-48.webp
   stem: ''
   options:
     A: ''
@@ -2599,6 +2598,24 @@ items:
     D: ''
     E: ''
   answer: ACE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 41
+    Ph: 66
+    Pl: 22
+    D: 44
+    T: 26
+    opt:
+      A: 77
+      B: 44
+      C: 74
+      D: 46
+      E: 67
+  explain: ''
+  reviewed: false
+  image: img/science/110-48.webp
   text: |-
     48. 乾電池的正極是碳棒（石墨棒），負極是外殼的金屬鋅，碳棒周圍是碳粉、
     4
@@ -2681,29 +2698,11 @@ items:
     MnO ，藉此可回收廢電池中的
     2
     MnO
-  stats:
-    P: 41
-    Ph: 66
-    Pl: 22
-    D: 44
-    T: 26
-    opt:
-      A: 77
-      B: 44
-      C: 74
-      D: 46
-      E: 67
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-49
   'no': 49
   type: multi
   points: 2
   group: null
-  image: img/science/110-49.webp
   stem: ''
   options:
     A: ''
@@ -2712,6 +2711,24 @@ items:
     D: ''
     E: ''
   answer: BCE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 45
+    Ph: 68
+    Pl: 27
+    D: 41
+    T: 31
+    opt:
+      A: 37
+      B: 81
+      C: 76
+      D: 48
+      E: 74
+  explain: ''
+  reviewed: false
+  image: img/science/110-49.webp
   text: |-
     49. 價電子數相等的物質常有相似的結構，例如
     3
@@ -2737,29 +2754,11 @@ items:
     成平面網狀的層狀構造，硼層與氮層之間無共價鍵結存在
     (E) BN 形成類似金剛石結構時，每個氮原子與鄰近4個硼原子產生共價鍵結，而每
     個硼原子也與鄰近4個氮原子產生共價鍵結
-  stats:
-    P: 45
-    Ph: 68
-    Pl: 27
-    D: 41
-    T: 31
-    opt:
-      A: 37
-      B: 81
-      C: 76
-      D: 48
-      E: 74
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-50
   'no': 50
   type: multi
   points: 2
   group: null
-  image: img/science/110-50.webp
   stem: ''
   options:
     A: ''
@@ -2768,6 +2767,24 @@ items:
     D: ''
     E: ''
   answer: ABD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 47
+    Ph: 71
+    Pl: 25
+    D: 46
+    T: 32
+    opt:
+      A: 75
+      B: 79
+      C: 35
+      D: 74
+      E: 41
+  explain: ''
+  reviewed: false
+  image: img/science/110-50.webp
   text: |-
     50. 光化學煙霧是汽機車引擎大量排放氮氧化物（
     x
@@ -2819,29 +2836,11 @@ items:
     (C)二氧化氮溶於水，水溶液呈鹼性
     (D)一氧化氮總熱含量高於氮氣和氧氣的總熱含量
     (E)上述反應產生的臭氧有助於修補臭氧層破洞
-  stats:
-    P: 47
-    Ph: 71
-    Pl: 25
-    D: 46
-    T: 32
-    opt:
-      A: 75
-      B: 79
-      C: 35
-      D: 74
-      E: 41
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-51
   'no': 51
   type: multi
   points: 2
   group: sci110-g51
-  image: img/science/110-51.webp
   stem: ''
   options:
     A: ''
@@ -2850,13 +2849,9 @@ items:
     D: ''
     E: ''
   answer: ACD
-  text: |-
-    51. 上述化合物中哪些互為同分異構物？（應選3 項）
-    (A)甲、己
-    (B)甲、丙
-    (C)丙、庚
-    (D)乙、戊
-    (E)戊、庚
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 51
     Ph: 86
@@ -2869,17 +2864,21 @@ items:
       C: 74
       D: 85
       E: 41
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-51.webp
+  text: |-
+    51. 上述化合物中哪些互為同分異構物？（應選3 項）
+    (A)甲、己
+    (B)甲、丙
+    (C)丙、庚
+    (D)乙、戊
+    (E)戊、庚
 - id: sci110-52
   'no': 52
   type: multi
   points: 2
   group: sci110-g51
-  image: img/science/110-52.webp
   stem: ''
   options:
     A: ''
@@ -2888,13 +2887,9 @@ items:
     D: ''
     E: ''
   answer: BE
-  text: |-
-    52. 有關上述化合物的敘述，下列哪些正確？（應選2 項）
-    (A)皆有孤對電子
-    (B)乙與戊互為幾何異構物
-    (C)有兩者屬於芳香烴
-    (D)有六個屬於不飽和烴
-    (E)丙與庚有最多的氫原子數
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 38
     Ph: 58
@@ -2907,17 +2902,21 @@ items:
       C: 29
       D: 43
       E: 50
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-52.webp
+  text: |-
+    52. 有關上述化合物的敘述，下列哪些正確？（應選2 項）
+    (A)皆有孤對電子
+    (B)乙與戊互為幾何異構物
+    (C)有兩者屬於芳香烴
+    (D)有六個屬於不飽和烴
+    (E)丙與庚有最多的氫原子數
 - id: sci110-53
   'no': 53
   type: multi
   points: 2
   group: null
-  image: img/science/110-53.webp
   stem: ''
   options:
     A: ''
@@ -2926,6 +2925,24 @@ items:
     D: ''
     E: ''
   answer: AB
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 31
+    Ph: 36
+    Pl: 23
+    D: 13
+    T: 13
+    opt:
+      A: 74
+      B: 26
+      C: 52
+      D: 27
+      E: 15
+  explain: ''
+  reviewed: false
+  image: img/science/110-53.webp
   text: |-
     53.利用化學方法可將
     60
@@ -2977,29 +2994,11 @@ items:
     可與氫氧化鈉溶液進行酸鹼反應
     圖14
     A
-  stats:
-    P: 31
-    Ph: 36
-    Pl: 23
-    D: 13
-    T: 13
-    opt:
-      A: 74
-      B: 26
-      C: 52
-      D: 27
-      E: 15
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-54
   'no': 54
   type: multi
   points: 2
   group: null
-  image: img/science/110-54.webp
   stem: ''
   options:
     A: ''
@@ -3008,6 +3007,24 @@ items:
     D: ''
     E: ''
   answer: ADE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 52
+    Ph: 67
+    Pl: 35
+    D: 32
+    T: 38
+    opt:
+      A: 79
+      B: 19
+      C: 49
+      D: 81
+      E: 76
+  explain: ''
+  reviewed: false
+  image: img/science/110-54.webp
   text: |-
     54. 科學家在金星大氣層中發現
     3
@@ -3036,29 +3053,11 @@ items:
     (E)金星大氣層中，可能有目前未知的化學反應導致
     3
     PH 的產生
-  stats:
-    P: 52
-    Ph: 67
-    Pl: 35
-    D: 32
-    T: 38
-    opt:
-      A: 79
-      B: 19
-      C: 49
-      D: 81
-      E: 76
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-55
   'no': 55
   type: single
   points: 2
   group: null
-  image: img/science/110-55.webp
   stem: ''
   options:
     A: ''
@@ -3067,14 +3066,9 @@ items:
     D: ''
     E: ''
   answer: C
-  text: |-
-    55. 某星球的平均密度與半徑，分別為地球的0.10 倍與10 倍，則此星球表面的重力
-    加速度量值約是地球表面重力加速度量值的幾倍？
-    (A) 0.010
-    (B) 0.10
-    (C) 1.0
-    (D) 10
-    (E) 100
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 42
     Ph: 77
@@ -3086,17 +3080,22 @@ items:
       C: 43
       D: 13
       E: 11
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-55.webp
+  text: |-
+    55. 某星球的平均密度與半徑，分別為地球的0.10 倍與10 倍，則此星球表面的重力
+    加速度量值約是地球表面重力加速度量值的幾倍？
+    (A) 0.010
+    (B) 0.10
+    (C) 1.0
+    (D) 10
+    (E) 100
 - id: sci110-56
   'no': 56
   type: single
   points: 2
   group: null
-  image: img/science/110-56.webp
   stem: ''
   options:
     A: ''
@@ -3105,6 +3104,23 @@ items:
     D: ''
     E: ''
   answer: D
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 35
+    Ph: 57
+    Pl: 18
+    D: 39
+    opt:
+      A: 14
+      B: 19
+      C: 21
+      D: 36
+      E: 11
+  explain: ''
+  reviewed: false
+  image: img/science/110-56.webp
   text: |-
     56. 2020 年7 月有3 艘太空船從地球出發前往火星，此時地球在A 處、火星在B 處。
     太空船由火箭推動進入橢圓軌道後在重
@@ -3131,28 +3147,11 @@ items:
     圖15
     地球公轉軌道
     火星公轉軌道
-  stats:
-    P: 35
-    Ph: 57
-    Pl: 18
-    D: 39
-    opt:
-      A: 14
-      B: 19
-      C: 21
-      D: 36
-      E: 11
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-57
   'no': 57
   type: multi
   points: 2
   group: null
-  image: img/science/110-57.webp
   stem: ''
   options:
     A: ''
@@ -3161,15 +3160,9 @@ items:
     D: ''
     E: ''
   answer: ABE
-  text: |-
-    57. 下列哪些過程中有涉及到力學能的能量轉換？（應選3 項）
-    (A)隕石墜落到月球表面的過程
-
-    (B)彈簧與物體組合成的系統做週期性振盪運動
-    (C)燃燒煤產生熱的過程
-
-    (D)太陽能發電的過程
-    (E)水力發電的過程
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 65
     Ph: 90
@@ -3182,17 +3175,23 @@ items:
       C: 23
       D: 31
       E: 91
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-57.webp
+  text: |-
+    57. 下列哪些過程中有涉及到力學能的能量轉換？（應選3 項）
+    (A)隕石墜落到月球表面的過程
+
+    (B)彈簧與物體組合成的系統做週期性振盪運動
+    (C)燃燒煤產生熱的過程
+
+    (D)太陽能發電的過程
+    (E)水力發電的過程
 - id: sci110-58
   'no': 58
   type: single
   points: 2
   group: sci110-g58
-  image: img/science/110-58.webp
   stem: ''
   options:
     A: ''
@@ -3201,6 +3200,23 @@ items:
     D: ''
     E: ''
   answer: B
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 72
+    Ph: 90
+    Pl: 44
+    D: 46
+    opt:
+      A: 4
+      B: 72
+      C: 10
+      D: 10
+      E: 4
+  explain: ''
+  reviewed: false
+  image: img/science/110-58.webp
   text: |-
     58. 一跳傘者背負降落傘，以初速率
     0v 從靜止的熱氣球上鉛直跳下，在打開降落傘之
@@ -3242,28 +3258,11 @@ items:
     v
     v
     
-  stats:
-    P: 72
-    Ph: 90
-    Pl: 44
-    D: 46
-    opt:
-      A: 4
-      B: 72
-      C: 10
-      D: 10
-      E: 4
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-59
   'no': 59
   type: multi
   points: 2
   group: sci110-g58
-  image: img/science/110-59.webp
   stem: ''
   options:
     A: ''
@@ -3272,6 +3271,24 @@ items:
     D: ''
     E: ''
   answer: CD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 51
+    Ph: 68
+    Pl: 31
+    D: 37
+    T: 36
+    opt:
+      A: 16
+      B: 19
+      C: 55
+      D: 68
+      E: 27
+  explain: ''
+  reviewed: false
+  image: img/science/110-59.webp
   text: |-
     59. 承上題，此跳傘者除背負相同降落傘外，另攜體積甚小的重物，再次由同一熱氣
     球以相同初速鉛直跳下，在打開降落傘前，達到終端速率
@@ -3312,29 +3329,11 @@ items:
     v
     v
     
-  stats:
-    P: 51
-    Ph: 68
-    Pl: 31
-    D: 37
-    T: 36
-    opt:
-      A: 16
-      B: 19
-      C: 55
-      D: 68
-      E: 27
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-60
   'no': 60
   type: multi
   points: 2
   group: sci110-g60
-  image: img/science/110-60.webp
   stem: ''
   options:
     A: ''
@@ -3343,6 +3342,24 @@ items:
     D: ''
     E: ''
   answer: CE
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 34
+    Ph: 51
+    Pl: 22
+    D: 29
+    T: 20
+    opt:
+      A: 15
+      B: 40
+      C: 48
+      D: 36
+      E: 49
+  explain: ''
+  reviewed: false
+  image: img/science/110-60.webp
   text: |-
     60.令
     1a 與
@@ -3402,29 +3419,11 @@ items:
     
     
     
-  stats:
-    P: 34
-    Ph: 51
-    Pl: 22
-    D: 29
-    T: 20
-    opt:
-      A: 15
-      B: 40
-      C: 48
-      D: 36
-      E: 49
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-61
   'no': 61
   type: multi
   points: 2
   group: sci110-g60
-  image: img/science/110-61.webp
   stem: ''
   options:
     A: ''
@@ -3433,6 +3432,24 @@ items:
     D: ''
     E: ''
   answer: AD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 34
+    Ph: 60
+    Pl: 19
+    D: 41
+    T: 22
+    opt:
+      A: 42
+      B: 33
+      C: 38
+      D: 52
+      E: 26
+  explain: ''
+  reviewed: false
+  image: img/science/110-61.webp
   text: |-
     61. 承上題，當木塊由靜止開始，向左滑動的距離為 s 時，木塊的動能為
     1
@@ -3504,29 +3521,11 @@ items:
     
     
     
-  stats:
-    P: 34
-    Ph: 60
-    Pl: 19
-    D: 41
-    T: 22
-    opt:
-      A: 42
-      B: 33
-      C: 38
-      D: 52
-      E: 26
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-62
   'no': 62
   type: single
   points: 2
   group: null
-  image: img/science/110-62.webp
   stem: ''
   options:
     A: ''
@@ -3535,6 +3534,23 @@ items:
     D: ''
     E: ''
   answer: A
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 32
+    Ph: 56
+    Pl: 12
+    D: 44
+    opt:
+      A: 32
+      B: 26
+      C: 16
+      D: 15
+      E: 11
+  explain: ''
+  reviewed: false
+  image: img/science/110-62.webp
   text: |-
     62. 如圖17 所示，某生走在南北方向峽谷中的甲點，兩旁高山的山坡約60向山谷傾
     斜，在西側山腳有一薄煤層出露，測得煤層傾斜向東、傾角45、走向為南北（走
@@ -3559,28 +3575,11 @@ items:
     乙
     圖17
     水平面
-  stats:
-    P: 32
-    Ph: 56
-    Pl: 12
-    D: 44
-    opt:
-      A: 32
-      B: 26
-      C: 16
-      D: 15
-      E: 11
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-63
   'no': 63
   type: single
   points: 2
   group: sci110-g63
-  image: img/science/110-63.webp
   stem: ''
   options:
     A: ''
@@ -3589,6 +3588,23 @@ items:
     D: ''
     E: ''
   answer: E
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 37
+    Ph: 69
+    Pl: 8
+    D: 61
+    opt:
+      A: 34
+      B: 15
+      C: 9
+      D: 5
+      E: 37
+  explain: ''
+  reviewed: false
+  image: img/science/110-63.webp
   text: |-
     63. 若不考慮星光在太空與地球大氣中受到吸收的影響，恆星的視星等m、絕對星等
     M 與距離d 的關係為m
@@ -3604,28 +3620,11 @@ items:
     (C)丙
     (D)丁
     (E)戊
-  stats:
-    P: 37
-    Ph: 69
-    Pl: 8
-    D: 61
-    opt:
-      A: 34
-      B: 15
-      C: 9
-      D: 5
-      E: 37
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-64
   'no': 64
   type: single
   points: 2
   group: sci110-g63
-  image: img/science/110-64.webp
   stem: ''
   options:
     A: ''
@@ -3634,13 +3633,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    64. 承上題，這5 顆恆星中，何者的表面溫度最高？
-    (A)甲
-    (B)乙
-    (C)丙
-    (D)丁
-    (E)戊
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 62
     Ph: 92
@@ -3652,17 +3647,21 @@ items:
       C: 10
       D: 5
       E: 5
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-64.webp
+  text: |-
+    64. 承上題，這5 顆恆星中，何者的表面溫度最高？
+    (A)甲
+    (B)乙
+    (C)丙
+    (D)丁
+    (E)戊
 - id: sci110-65
   'no': 65
   type: single
   points: 2
   group: null
-  image: img/science/110-65.webp
   stem: ''
   options:
     A: ''
@@ -3671,6 +3670,23 @@ items:
     D: ''
     E: ''
   answer: A
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 46
+    Ph: 65
+    Pl: 25
+    D: 40
+    opt:
+      A: 46
+      B: 22
+      C: 8
+      D: 16
+      E: 8
+  explain: ''
+  reviewed: false
+  image: img/science/110-65.webp
   text: |-
     65. 海面高度差異是影響海流流動的主要因素之一，而高度梯度越大，流速越快。受
     科氏力影響，一般大洋西側的海流流速較快。利用人造衛星對海洋進行雷達測高
@@ -3694,28 +3710,11 @@ items:
     高水位
     低水位
     高水位
-  stats:
-    P: 46
-    Ph: 65
-    Pl: 25
-    D: 40
-    opt:
-      A: 46
-      B: 22
-      C: 8
-      D: 16
-      E: 8
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
 - id: sci110-66
   'no': 66
   type: single
   points: 2
   group: null
-  image: img/science/110-66.webp
   stem: ''
   options:
     A: ''
@@ -3724,15 +3723,9 @@ items:
     D: ''
     E: ''
   answer: C
-  text: |-
-    66. 透過紅色玻璃片，觀看所有景象呈現深淺不一的紅色色調。用來拍攝星空，則所
-    有恆星都呈明亮不同的紅色。現透過望遠鏡用相機拍攝星空，針對同一天區，分
-    別以紅色及藍色玻璃片各拍一幅影像。依此可獲得恆星的何種訊息？
-    (A)比對兩幅影像，能判斷出恆星的年齡
-    (B)比對兩幅影像，能判斷出恆星的距離
-    (C)比對兩幅影像，能辨別出藍色高溫恆星
-    (D)從藍色玻璃片影像中，能辨別哪些是低溫恆星
-    (E)在紅色玻璃片影像中，紅色恆星非常明亮
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 43
     Ph: 54
@@ -3744,17 +3737,23 @@ items:
       C: 44
       D: 26
       E: 13
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-66.webp
+  text: |-
+    66. 透過紅色玻璃片，觀看所有景象呈現深淺不一的紅色色調。用來拍攝星空，則所
+    有恆星都呈明亮不同的紅色。現透過望遠鏡用相機拍攝星空，針對同一天區，分
+    別以紅色及藍色玻璃片各拍一幅影像。依此可獲得恆星的何種訊息？
+    (A)比對兩幅影像，能判斷出恆星的年齡
+    (B)比對兩幅影像，能判斷出恆星的距離
+    (C)比對兩幅影像，能辨別出藍色高溫恆星
+    (D)從藍色玻璃片影像中，能辨別哪些是低溫恆星
+    (E)在紅色玻璃片影像中，紅色恆星非常明亮
 - id: sci110-67
   'no': 67
   type: single
   points: 2
   group: null
-  image: img/science/110-67.webp
   stem: ''
   options:
     A: ''
@@ -3763,15 +3762,9 @@ items:
     D: ''
     E: ''
   answer: B
-  text: |-
-    67. 科學家常從岩石的特性推測當時的沉積環境。今有某鑽井，由上而下，依序鑽出
-    頁岩、砂岩和礫岩。若這些岩層都沒有經過變動，下列有關它們生成的敘述何者
-    正確？
-    (A)沉積環境的水愈晚期愈淺
-    (B)沉積環境的水流速度愈晚期愈慢
-    (C)火山激烈噴發，火山彈四射後，沉積礫岩
-    (D)斷層作用，使原來礫岩粉化成砂岩和頁岩
-    (E)山崩生成礫岩，而後礫岩風化，形成砂岩、頁岩
+  topic: null
+  concepts: []
+  classic: true
   stats:
     P: 37
     Ph: 60
@@ -3783,17 +3776,23 @@ items:
       C: 13
       D: 9
       E: 27
-  topic: null
-  concepts: []
-  classic: null
   explain: ''
   reviewed: false
+  image: img/science/110-67.webp
+  text: |-
+    67. 科學家常從岩石的特性推測當時的沉積環境。今有某鑽井，由上而下，依序鑽出
+    頁岩、砂岩和礫岩。若這些岩層都沒有經過變動，下列有關它們生成的敘述何者
+    正確？
+    (A)沉積環境的水愈晚期愈淺
+    (B)沉積環境的水流速度愈晚期愈慢
+    (C)火山激烈噴發，火山彈四射後，沉積礫岩
+    (D)斷層作用，使原來礫岩粉化成砂岩和頁岩
+    (E)山崩生成礫岩，而後礫岩風化，形成砂岩、頁岩
 - id: sci110-68
   'no': 68
   type: multi
   points: 2
   group: null
-  image: img/science/110-68.webp
   stem: ''
   options:
     A: ''
@@ -3802,6 +3801,24 @@ items:
     D: ''
     E: ''
   answer: AD
+  topic: null
+  concepts: []
+  classic: true
+  stats:
+    P: 40
+    Ph: 68
+    Pl: 20
+    D: 48
+    T: 32
+    opt:
+      A: 49
+      B: 48
+      C: 42
+      D: 49
+      E: 6
+  explain: ''
+  reviewed: false
+  image: img/science/110-68.webp
   text: |-
     68. 探空氣球的觀測資料，有助於瞭解環境大氣的特徵。若板橋氣象站在某星期一、
     星期二量測到的大氣溫度隨高度變化垂直分布如圖18 所示，且兩天的大氣水氣
@@ -3829,20 +3846,3 @@ items:
 
     溫度
     溫度
-  stats:
-    P: 40
-    Ph: 68
-    Pl: 20
-    D: 48
-    T: 32
-    opt:
-      A: 49
-      B: 48
-      C: 42
-      D: 49
-      E: 6
-  topic: null
-  concepts: []
-  classic: null
-  explain: ''
-  reviewed: false
