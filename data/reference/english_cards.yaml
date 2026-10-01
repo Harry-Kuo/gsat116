@@ -1,0 +1,290 @@
+# 單字卡：近六屆（110–115）學測英文「詞彙題」的四個選項、「文意選填」的答案，以及「綜合測驗」詞彙類題目的選項。
+# 答案字的意思與搭配沿用 english_words.yaml；這裡補上其他字。級別由 tools/wordlist.py 查大考中心《高中英文參考詞彙表》。
+# 欄位：pos 考題中的詞性、mean 意思、use 常見搭配或例句、base 衍生字的原形（詞彙表沒收錄時，用原形查級別）。
+# 意思與例句由 Claude 撰寫。
+
+alias:  # 考題中的變化形 → 卡片上的原形
+  understood: understand
+  advanced: advance
+  brought forth: bring forth
+  called for: call for
+  passed on: pass on
+  tried out: try out
+
+cards:
+  # ── 答案字在其他題目當選項時的另一個詞性或意思（會和 english_words.yaml 的解釋合併）──
+  credit: {pos: v., mean: 歸功於, use: credit the success to teamwork 把成功歸功於團隊合作}
+  departed: {pos: v., mean: （depart 的過去式）出發、離開, use: The train departed on time. 火車準時出發。}
+  atmosphere: {pos: n., mean: 大氣（層）, use: the earth's atmosphere 地球的大氣層}
+
+  # ── 衍生字（詞彙表只收原形）──
+  actively: {pos: adv., mean: 積極地、主動地, use: actively take part in the discussion 積極參與討論, base: active}
+  alternatively: {pos: adv., mean: 或者、要不然（提出另一個選擇）, use: "Alternatively, you can take the train. 或者你也可以搭火車。", base: alternative}
+  ambiguously: {pos: adv., mean: 含糊地、模稜兩可地, use: answer the question ambiguously 含糊地回答問題, base: ambiguous}
+  apparently: {pos: adv., mean: 看來、似乎；顯然, use: "Apparently, he forgot the meeting. 看來他忘了開會。", base: apparent}
+  consequently: {pos: adv., mean: 因此、結果, use: "He missed the bus; consequently, he was late. 他沒趕上公車，因此遲到了。", base: consequence}
+  crisp: {pos: adj., mean: 酥脆的；（空氣）清新乾爽的, use: crisp autumn air 秋天乾爽的空氣（和 moist 濕潤的相反）}
+  delicately: {pos: adv., mean: 細緻地、小心翼翼地, use: handle the vase delicately 小心地拿花瓶, base: delicate}
+  dominantly: {pos: adv., mean: 佔優勢地、主要地, use: a dominantly male profession 以男性為主的職業, base: dominant}
+  earnestly: {pos: adv., mean: 認真地、誠懇地, use: earnestly ask for help 誠懇地請求幫忙, base: earnest}
+  eligibly: {pos: adv., mean: 合格地、符合資格地（少用；常見的是 eligible）, use: be eligible to vote 有投票資格, base: eligible}
+  forceful: {pos: adj., mean: 強而有力的、強硬的, use: a forceful speech 強而有力的演說, base: force}
+  fundamentally: {pos: adv., mean: 根本上、從根本上, use: fundamentally different 根本上不同, base: fundamental}
+  genuinely: {pos: adv., mean: 真正地、真誠地, use: be genuinely happy for you 真心為你高興, base: genuine}
+  harmonious: {pos: adj., mean: 和諧的、融洽的, use: a harmonious relationship 和諧的關係, base: harmony}
+  legitimately: {pos: adv., mean: 合法地、正當地, use: be legitimately elected 經合法選出, base: legitimate}
+  logically: {pos: adv., mean: 合乎邏輯地, use: think logically 有邏輯地思考, base: logical}
+  naturally: {pos: adv., mean: 自然地；當然, use: "Naturally, she was upset. 她當然很難過。", base: natural}
+  optionally: {pos: adv., mean: 可自由選擇地（少用；常見的是 optional）, use: optional courses 選修課程, base: optional}
+  perceptual: {pos: adj., mean: 知覺的、感知的, use: perceptual skills 感知能力, base: perception}
+  relevantly: {pos: adv., mean: 切題地、相關地（少用；常見的是 relevant）, use: be relevant to the topic 和主題有關, base: relevant}
+  thoroughly: {pos: adv., mean: 徹底地、完全地, use: clean the room thoroughly 把房間徹底打掃乾淨, base: thorough}
+  timer: {pos: n., mean: 計時器, use: set a timer for ten minutes 設定十分鐘的計時器, base: time}
+  understandably: {pos: adv., mean: 可以理解地、情有可原地, use: be understandably nervous 會緊張是可以理解的, base: understand}
+  unusual: {pos: adj., mean: 不尋常的、罕見的, use: an unusual case 不尋常的案例, base: usual}
+
+  # ── 第 1 級 ──
+  change: {pos: v., mean: 改變；更換, use: change one's mind 改變心意}
+  count: {pos: v., mean: 計算；重要、算數, use: Every vote counts. 每一票都很重要。}
+  difficult: {pos: adj., mean: 困難的；（人）難搞的、刁難的, use: difficult customers 難搞的顧客}
+  end: {pos: v., mean: 結束、終止, use: That's where the similarities end. 相似之處就只有這樣。}
+  forget: {pos: v., mean: 忘記, use: forget to lock the door 忘了鎖門}
+  matter: {pos: v., mean: 要緊、有關係, use: It doesn't matter. 沒關係。}
+  roll: {pos: v., mean: 滾動；捲, use: roll the dice 擲骰子}
+  stay: {pos: v., mean: 停留；保持, use: stay calm 保持冷靜}
+  take: {pos: v., mean: 拿；承擔；需要（時間）, use: take the blame 承擔責任}
+  understand: {pos: v., mean: 了解、理解, use: be widely understood 被普遍理解}
+
+  # ── 第 2 級 ──
+  address: {pos: v., mean: 對…演說；處理（問題）, use: address the problem 處理問題}
+  approach: {pos: n., mean: 方法、途徑；接近, use: a new approach to learning English 學英文的新方法}
+  available: {pos: adj., mean: 可取得的；有空的, use: be available online 在網路上可以取得}
+  blank: {pos: adj., mean: 空白的；茫然的, use: a blank page 空白頁}
+  border: {pos: n., mean: 邊界；邊緣, use: cross the border 越過邊界}
+  brand: {pos: n., mean: 品牌, use: a famous brand 知名品牌}
+  brush: {pos: n., mean: 刷子；畫筆, use: a paint brush 油漆刷}
+  burst: {pos: v., mean: 爆炸、破裂；突然…, use: burst into tears 突然哭出來}
+  clap: {pos: n., mean: 拍手（聲）, use: give a big clap 熱烈鼓掌}
+  contain: {pos: v., mean: 包含、容納, use: This drink contains a lot of sugar. 這飲料含很多糖。}
+  cultural: {pos: adj., mean: 文化的, use: a significant cultural impact 重大的文化影響}
+  display: {pos: v., mean: 展示、陳列, use: display new products 陳列新產品}
+  doubt: {pos: n., mean: 懷疑、疑慮, use: There is no doubt that… 毫無疑問…}
+  emphasize: {pos: v., mean: 強調, use: emphasize the importance of sleep 強調睡眠的重要}
+  environmental: {pos: adj., mean: 環境的, use: environmental protection 環境保護}
+  escape: {pos: v., mean: 逃離、逃避, use: escape from the fire 逃離火場}
+  fashion: {pos: n., mean: 時尚、流行；方式, use: be in fashion 正在流行}
+  form: {pos: v., mean: 形成；組成, use: form a habit 養成習慣}
+  improve: {pos: v., mean: 改善、進步, use: improve your English 加強英文}
+  improvement: {pos: n., mean: 改進、進步, use: areas for improvement 需要改進的地方}
+  influence: {pos: n., mean: 影響（力）, use: have a great influence on young people 對年輕人影響很大}
+  instant: {pos: adj., mean: 立即的；即溶的、速食的, use: instant noodles 泡麵}
+  instrument: {pos: n., mean: 樂器；器具, use: play a musical instrument 演奏樂器}
+  maintain: {pos: v., mean: 維持；保養, use: maintain a healthy weight 維持健康的體重}
+  management: {pos: n., mean: 管理；（公司的）管理階層, use: time management 時間管理}
+  match: {pos: v./n., mean: v. 比得上、與…相配；n. 比賽、火柴, use: No restaurant can match its service. 沒有餐廳的服務比得上它。}
+  offer: {pos: v., mean: 提供, use: offer help 提供幫助}
+  official: {pos: adj., mean: 官方的、正式的, use: the official website 官方網站}
+  operator: {pos: n., mean: 操作員；接線生, use: a machine operator 機器操作員}
+  praise: {pos: v., mean: 稱讚, use: praise him for his courage 稱讚他的勇氣}
+  propose: {pos: v., mean: 提議；求婚, use: propose a new plan 提出新計畫}
+  quiz: {pos: n., mean: 小考、測驗, use: a pop quiz 隨堂小考}
+  recover: {pos: v., mean: 恢復、康復, use: recover from a cold 感冒好了}
+  reject: {pos: v., mean: 拒絕, use: reject the offer 拒絕提議}
+  serve: {pos: v., mean: 服務；供應（餐點）；擔任, use: serve as class leader 擔任班長}
+  stress: {pos: v., mean: 強調（n. 壓力）, use: stress the importance of safety 強調安全的重要}
+  stretch: {pos: v., mean: 伸展；延伸, use: stretch your legs 伸展雙腿}
+  strike: {pos: v./n., mean: v.（災難、疾病）侵襲、突然發生；打擊　n. 罷工, use: Panic can strike suddenly. 恐慌可能突然來襲。／go on strike 罷工}
+  struggle: {pos: v., mean: 掙扎、奮鬥, use: struggle to survive 努力求生}
+  text: {pos: n., mean: 內文、文本；簡訊, use: read the text carefully 仔細讀內文}
+  track: {pos: v., mean: 追蹤, use: track your progress 追蹤自己的進度}
+  trial: {pos: n., mean: 試驗；審判, use: go on trial 受審／a clinical trial 臨床試驗}
+
+  # ── 第 3 級 ──
+  advance: {pos: v., mean: 前進、推進；提前（advanced 也常當形容詞「先進的」）, use: advance to the next round 晉級下一輪}
+  advantage: {pos: n., mean: 優勢、好處, use: take advantage of the chance 利用這個機會}
+  announcement: {pos: n., mean: 宣布、公告, use: make an announcement 發布公告}
+  bury: {pos: v., mean: 埋葬、埋藏, use: be buried under the snow 被埋在雪下}
+  casual: {pos: adj., mean: 隨意的、非正式的, use: casual clothes 便服}
+  chat: {pos: n., mean: 聊天, use: have a chat with a friend 和朋友聊天}
+  clue: {pos: n., mean: 線索, use: provide important clues 提供重要線索}
+  communicate: {pos: v., mean: 溝通、傳達, use: communicate with others 與人溝通}
+  confirm: {pos: v., mean: 確認、證實, use: confirm the reservation 確認訂位}
+  constant: {pos: adj., mean: 持續不斷的；固定的, use: constant noise 不斷的噪音}
+  countable: {pos: adj., mean: 可數的, use: countable nouns 可數名詞}
+  crash: {pos: v., mean: 撞擊、墜毀, use: crash into a tree 撞上樹}
+  dock: {pos: v., mean: （船）停靠碼頭, use: The ship docked at the port. 船停靠在港口。}
+  drain: {pos: v., mean: 排水；耗盡, use: drain one's energy 耗盡體力}
+  expectation: {pos: n., mean: 期待、預期, use: meet one's expectations 符合期待}
+  flash: {pos: v., mean: 閃爍、閃現, use: The lights are flashing. 燈光在閃。}
+  float: {pos: v., mean: 漂浮, use: float on the water 漂在水面上}
+  flock: {pos: v., mean: 成群而來、聚集, use: Tourists flock to the beach. 遊客湧向海灘。}
+  hasty: {pos: adj., mean: 匆忙的、草率的, use: a hasty decision 草率的決定}
+  hatch: {pos: v., mean: 孵化, use: The eggs hatched. 蛋孵化了。}
+  hollow: {pos: adj., mean: 中空的, use: a hollow tree 中空的樹}
+  immediate: {pos: adj., mean: 立即的；直接的, use: an immediate effect 立即的效果}
+  marker: {pos: n., mean: 麥克筆；標記, use: a red marker 紅色麥克筆}
+  mental: {pos: adj., mean: 心理的、精神的, use: mental health 心理健康}
+  mighty: {pos: adj., mean: 強大的, use: a mighty army 強大的軍隊}
+  moral: {pos: adj., mean: 道德的, use: moral values 道德觀}
+  operation: {pos: n., mean: 手術；運作, use: have an operation 動手術}
+  pilot: {pos: v., mean: 駕駛（飛機）；試行, use: pilot a plane 駕駛飛機}
+  political: {pos: adj., mean: 政治的, use: political parties 政黨}
+  politician: {pos: n., mean: 政治人物, use: a well-known politician 知名的政治人物}
+  proof: {pos: n., mean: 證據、證明, use: proof of identity 身分證明}
+  punch: {pos: v., mean: 用拳頭打, use: punch the wall 捶牆}
+  queer: {pos: adj., mean: 奇怪的（舊用法）, use: a queer feeling 奇怪的感覺}
+  reduce: {pos: v., mean: 減少, use: reduce the pigeon population 減少鴿子的數量}
+  regret: {pos: v., mean: 後悔、遺憾, use: regret saying that 後悔說了那句話}
+  release: {pos: n., mean: 新發行的作品（書、電影、唱片）；釋放, use: the authors' latest releases 作家們的最新作品}
+  remain: {pos: v., mean: 仍然是、保持, use: remain silent 保持沉默}
+  remote: {pos: adj., mean: 偏遠的；遙控的, use: a remote village 偏遠的村莊}
+  represent: {pos: v., mean: 代表；象徵, use: represent our school 代表學校}
+  resource: {pos: n., mean: 資源, use: natural resources 天然資源}
+  roughly: {pos: adv., mean: 大約；粗略地, use: roughly 100 people 大約一百人}
+  routine: {pos: adj., mean: 例行的、日常的（n. 例行公事）, use: a routine check 例行檢查}
+  rush: {pos: v., mean: 衝、急忙去, use: rush to the hospital 趕往醫院}
+  scatter: {pos: v., mean: 撒、使分散, use: scatter seeds 撒種子}
+  slippery: {pos: adj., mean: 滑的, use: slippery roads 濕滑的路面}
+  snap: {pos: v./n., mean: v. 啪地折斷、快速拍照　n. 啪的一聲, use: snap a photo 快拍一張照片}
+  stale: {pos: adj., mean: 不新鮮的；（空氣）不流通的, use: stale bread 不新鮮的麵包}
+  stubborn: {pos: adj., mean: 固執的, use: a stubborn child 固執的孩子}
+  swift: {pos: adj., mean: 迅速的, use: a swift response 迅速的回應}
+  toss: {pos: n., mean: 拋、擲, use: a coin toss 擲硬幣}
+  transport: {pos: v., mean: 運送（要接受詞）, use: transport goods by truck 用卡車運貨}
+  trend: {pos: n., mean: 趨勢、潮流, use: the latest fashion trends 最新的流行趨勢}
+  variety: {pos: n., mean: 多樣、種類, use: a variety of food 各式各樣的食物／variety show 綜藝節目}
+  wander: {pos: v., mean: 閒逛、徘徊；（思緒）飄走, use: wander around the night market 在夜市閒逛}
+  zone: {pos: n., mean: 區域, use: a no-parking zone 禁止停車區}
+
+  # ── 第 4 級 ──
+  absolute: {pos: adj., mean: 絕對的、完全的, use: absolute silence 完全的寂靜}
+  adjustment: {pos: n., mean: 調整、適應, use: make some adjustments 做一些調整}
+  aggressive: {pos: adj., mean: 有攻擊性的；積極進取的, use: aggressive behavior 攻擊性的行為}
+  associate: {pos: v., mean: 聯想；把…聯繫在一起, use: associate red with luck 把紅色聯想成好運}
+  bounce: {pos: v., mean: 彈跳, use: bounce a ball 拍球}
+  brutal: {pos: adj., mean: 殘忍的、殘酷的, use: a brutal attack 殘忍的攻擊}
+  circulate: {pos: v., mean: 流通、循環、傳播, use: let ideas circulate 讓想法交流流通}
+  circulation: {pos: n., mean: 循環；流通, use: blood circulation 血液循環}
+  clumsy: {pos: adj., mean: 笨拙的, use: a clumsy movement 笨拙的動作}
+  contribution: {pos: n., mean: 貢獻；捐獻, use: make a contribution to society 對社會有貢獻}
+  conventional: {pos: adj., mean: 傳統的、慣例的, use: conventional methods 傳統的方法}
+  correspond: {pos: v., mean: 符合、相當；通信, use: correspond with the facts 和事實相符}
+  defensive: {pos: adj., mean: 防禦的、防衛的, use: a defensive attitude 防衛的態度}
+  demonstrate: {pos: v., mean: 示範、證明；示威, use: demonstrate how to use the machine 示範怎麼用機器}
+  diligent: {pos: adj., mean: 勤奮的, use: a diligent student 勤奮的學生}
+  disguise: {pos: v., mean: 偽裝、掩飾, use: disguise oneself as a waiter 假扮成服務生}
+  dismiss: {pos: v., mean: 不予理會、駁回；解散, use: dismiss the idea 不理會這個想法}
+  distribution: {pos: n., mean: 分配、分布, use: the distribution of food 食物的分配}
+  disturb: {pos: v., mean: 打擾, use: Do not disturb. 請勿打擾。}
+  elementary: {pos: adj., mean: 初級的、基本的, use: elementary school 小學}
+  emphasis: {pos: n., mean: 強調、重點, use: put emphasis on reading 重視閱讀}
+  enclose: {pos: v., mean: 圍住；（信中）附上, use: a yard enclosed by a fence 用籬笆圍起來的院子}
+  equip: {pos: v., mean: 裝備、配備, use: be equipped with cameras 配備攝影機}
+  explanation: {pos: n., mean: 解釋、說明, use: give a clear explanation 給出清楚的解釋}
+  expose: {pos: v., mean: 揭露；使暴露、使接觸, use: expose the truth 揭露真相／be exposed to sunlight 曬到陽光}
+  favorable: {pos: adj., mean: 有利的；贊同的, use: favorable conditions 有利的條件}
+  fertile: {pos: adj., mean: 肥沃的, use: fertile soil 肥沃的土壤}
+  flush: {pos: v., mean: 臉紅；沖（馬桶）, use: flush the toilet 沖馬桶}
+  fragile: {pos: adj., mean: 易碎的、脆弱的, use: "Fragile! Handle with care. 易碎物品，小心輕放。"}
+  fulfill: {pos: v., mean: 實現；履行, use: fulfill one's dream 實現夢想}
+  furious: {pos: adj., mean: 狂怒的（形容人）, use: be furious with him 對他非常生氣}
+  generosity: {pos: n., mean: 慷慨, use: thank her for her generosity 感謝她的慷慨}
+  gigantic: {pos: adj., mean: 巨大的（多指體積）, use: a gigantic statue 巨大的雕像}
+  glimpse: {pos: n., mean: 一瞥, use: catch a glimpse of the star 瞥見那位明星}
+  greasy: {pos: adj., mean: 油膩的, use: greasy food 油膩的食物}
+  harsh: {pos: adj., mean: 嚴厲的；（環境）惡劣的, use: harsh criticism 嚴厲的批評}
+  identical: {pos: adj., mean: 完全相同的, use: identical twins 同卵雙胞胎}
+  immigrate: {pos: v., mean: 移入（他國）, use: immigrate to Canada 移民到加拿大}
+  impact: {pos: n., mean: 影響、衝擊, use: have an impact on the environment 對環境有影響}
+  inspiration: {pos: n., mean: 靈感；鼓舞, use: a source of inspiration 靈感的來源}
+  instructor: {pos: n., mean: 教練、講師, use: a driving instructor 駕訓班教練}
+  intimate: {pos: adj., mean: 親密的, use: an intimate friend 親密好友}
+  moderate: {pos: adj., mean: 適度的、中等的, use: moderate exercise 適度的運動}
+  multiple: {pos: adj., mean: 多重的、許多的, use: serve multiple purposes 有多種用途}
+  observation: {pos: n., mean: 觀察, use: careful observation 仔細的觀察}
+  obtain: {pos: v., mean: 獲得、取得, use: obtain permission 取得許可}
+  occasional: {pos: adj., mean: 偶爾的, use: occasional showers 偶有陣雨}
+  oppose: {pos: v., mean: 反對, use: oppose the new rule 反對新規定}
+  persuasive: {pos: adj., mean: 有說服力的, use: a persuasive argument 有說服力的論點}
+  physical: {pos: adj., mean: 身體的；物理的, use: physical condition 身體狀況}
+  plot: {pos: n., mean: 情節；陰謀, use: the plot of the movie 電影的情節}
+  polish: {pos: v., mean: 擦亮；潤飾, use: polish the shoes 擦皮鞋}
+  possess: {pos: v., mean: 擁有, use: possess great power 擁有強大的力量}
+  potential: {pos: adj., mean: 潛在的、可能的（n. 潛力）, use: potential customers 潛在顧客}
+  preserve: {pos: v., mean: 保存、維護, use: preserve old buildings 保存老建築}
+  privilege: {pos: n., mean: 特權；榮幸, use: "It's a privilege to work with you. 能和你共事是我的榮幸。"}
+  productive: {pos: adj., mean: 有生產力的、有成效的, use: a productive meeting 有成效的會議}
+  promising: {pos: adj., mean: 有前途的、有希望的, use: a promising young player 有潛力的年輕選手}
+  realistic: {pos: adj., mean: 實際的；寫實的, use: a realistic goal 實際可行的目標}
+  remarkable: {pos: adj., mean: 非凡的、值得注意的, use: a remarkable achievement 非凡的成就}
+  remedy: {pos: n., mean: 補救辦法；藥物, use: a remedy for the problem 解決問題的辦法}
+  resolve: {pos: v., mean: 解決；決心, use: resolve the conflict 解決衝突}
+  revenge: {pos: n., mean: 報仇, use: take revenge on him 向他報仇}
+  revise: {pos: v., mean: 修改、修訂, use: revise the essay 修改文章}
+  route: {pos: n., mean: 路線, use: the shortest route 最短的路線}
+  severe: {pos: adj., mean: 嚴重的；嚴厲的, use: severe damage 嚴重的損害}
+  slight: {pos: adj., mean: 輕微的；瘦小的, use: a slight cold 輕微的感冒}
+  spare: {pos: v., mean: 騰出（時間）；饒恕（adj. 多餘的）, use: spare some time for exercise 騰出時間運動}
+  tolerate: {pos: v., mean: 容忍；承受, use: tolerate extreme pressure 承受極端的壓力}
+  transfer: {pos: v., mean: 轉移；轉學；轉車, use: transfer to another school 轉學}
+  universal: {pos: adj., mean: 普遍的、全世界的, use: a universal language 世界共通的語言}
+
+  # ── 第 5 級 ──
+  accelerate: {pos: v., mean: 加速, use: accelerate economic growth 加速經濟成長}
+  accommodate: {pos: v., mean: 容納；提供住宿, use: accommodate the weary travelers 讓疲憊的旅客有地方休息}
+  acknowledge: {pos: v., mean: 承認；感謝, use: acknowledge one's mistake 承認錯誤}
+  agenda: {pos: n., mean: 議程；待辦事項, use: the first item on the agenda 議程上的第一項}
+  anonymous: {pos: adj., mean: 匿名的, use: an anonymous letter 匿名信}
+  anticipate: {pos: v., mean: 預期、預料, use: anticipate problems 預料到問題}
+  apt: {pos: adj., mean: 易於…的；恰當的, use: be apt to forget names 容易忘記人名}
+  bound: {pos: adj., mean: 開往…的；一定會…, use: a train bound for Taipei 開往台北的火車／be bound to succeed 一定會成功}
+  cautious: {pos: adj., mean: 謹慎的, use: be cautious about strangers 對陌生人很謹慎}
+  commuter: {pos: n., mean: 通勤者, use: daily commuters 每天通勤的人}
+  compensate: {pos: v., mean: 補償；彌補, use: compensate for the loss 補償損失}
+  condemn: {pos: v., mean: 譴責, use: condemn violence 譴責暴力}
+  confront: {pos: v., mean: 面對；對抗, use: confront the problem 面對問題}
+  contagious: {pos: adj., mean: （疾病）有傳染性的, use: a contagious disease 傳染病}
+  convert: {pos: v., mean: 轉換、改變, use: convert sunlight into electricity 把陽光轉換成電}
+  decline: {pos: v., mean: 下降、減少；婉拒, use: decline sharply 急遽下降}
+  density: {pos: n., mean: 密度, use: population density 人口密度}
+  dimension: {pos: n., mean: 面向；尺寸, use: add a new dimension to… 為…增加新的面向}
+  disclose: {pos: v., mean: 透露、揭露, use: disclose personal information 透露個人資料}
+  disrupt: {pos: v., mean: 擾亂、使中斷, use: disrupt traffic 使交通中斷}
+  distinctive: {pos: adj., mean: 獨特的、有特色的, use: a distinctive style 獨特的風格}
+  elaborate: {pos: adj., mean: 精心製作的、詳盡的, use: an elaborate plan 周詳的計畫}
+  exceed: {pos: v., mean: 超過, use: exceed the speed limit 超速}
+  excessive: {pos: adj., mean: 過度的, use: excessive drinking 過度飲酒}
+  exclusive: {pos: adj., mean: 獨有的、專屬的, use: an exclusive interview 獨家專訪}
+  external: {pos: adj., mean: 外部的, use: external factors 外在因素}
+  facilitate: {pos: v., mean: 促進、使容易, use: facilitate learning 促進學習}
+  fraction: {pos: n., mean: 一小部分；分數, use: at a fraction of the cost 只要一小部分的花費}
+  glare: {pos: v., mean: 怒視；發出刺眼的光, use: glare at someone 狠狠瞪著某人}
+  icon: {pos: n., mean: 圖示；代表人物, use: a fashion icon 時尚代表人物}
+  initiate: {pos: v., mean: 開始、發起, use: initiate a project 發起一項計畫}
+  inject: {pos: v., mean: 注射；注入, use: inject a vaccine 注射疫苗}
+  integration: {pos: n., mean: 整合、融合, use: social integration 社會融合}
+  integrity: {pos: n., mean: 正直、誠信；完整, use: a person of integrity 正直的人}
+  intensify: {pos: v., mean: 加強、加劇, use: The problem is intensified. 問題變得更嚴重。}
+  justify: {pos: v., mean: 證明…有理、為…辯護, use: justify one's decision 為自己的決定辯護}
+  liability: {pos: n., mean: （法律）責任；負擔, use: legal liability 法律責任}
+  manipulate: {pos: v., mean: 操控、操縱, use: manipulate public opinion 操控輿論}
+  overturn: {pos: v., mean: 翻覆；推翻, use: The boat overturned. 船翻了。}
+  provision: {pos: n., mean: 提供、供應, use: the provision of medical care 醫療照護的提供}
+  provoke: {pos: v., mean: 激起；挑釁, use: provoke anger 激起怒氣}
+  reinforce: {pos: v., mean: 加強、強化, use: reinforce the bridge 加固橋梁}
+  render: {pos: v., mean: 使成為；提供, use: render the plan useless 使計畫變得沒用}
+  segment: {pos: n., mean: 部分、片段, use: a large segment of the population 一大部分的人口}
+  shatter: {pos: v., mean: 打碎、粉碎（物品）, use: The glass shattered. 玻璃碎了。}
+  sibling: {pos: n., mean: 兄弟姊妹, use: "Do you have any siblings? 你有兄弟姊妹嗎？"}
+  spicy: {pos: adj., mean: 辣的, use: spicy food 辛辣的食物}
+  trim: {pos: v., mean: 修剪, use: trim the bushes 修剪灌木}
+  ultimate: {pos: adj., mean: 最終的、終極的, use: the ultimate goal 最終目標}
+  undoubtedly: {pos: adv., mean: 無疑地, use: "Undoubtedly, she is the best player. 她無疑是最好的選手。"}
+  venture: {pos: v., mean: 冒險前往；冒險做, use: venture into the jungle 冒險進入叢林}
+
+  # ── 第 6 級 ──
+  airway: {pos: n., mean: 航線；呼吸道, use: keep the airway clear 保持呼吸道暢通}
+  applaud: {pos: v., mean: 鼓掌；讚許, use: applaud the performers 為表演者鼓掌}
+  latitude: {pos: n., mean: 緯度, use: high latitudes 高緯度地區}
+  obstinate: {pos: adj., mean: 固執的, use: an obstinate old man 固執的老人}
+  vigorous: {pos: adj., mean: 精力充沛的；強烈的, use: vigorous exercise 劇烈的運動}

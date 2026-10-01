@@ -213,13 +213,14 @@ def load_subject(subject):
 
 
 def src(it, subject):
-    return f"{it['_year']} 學測{paper_name(subject, it['_year'])} 第 {it['no']} 題"
+    return f"{it['_year']} 學測{paper_name(subject, it['_year'])} " + (it.get("label") or f"第 {it['no']} 題")
 
 
 def answer_text(it):
     a = str(it.get("answer") or "")
     if it["type"] == "fill":
-        return "　".join(f"{it['no']}-{i + 1}：{v}" for i, v in enumerate(a.split(",")))
+        names = it.get("cells") or [f"{it['no']}-{i + 1}" for i in range(len(a.split(",")))]
+        return "　".join(f"{n}：{v}" for n, v in zip(names, a.split(",")))
     return a
 
 
@@ -464,7 +465,9 @@ def week_page(w, md_name, subject):
     flush()
     subs = {"REF_XUCI": mention("ref:xuci", "〈文言虛詞整理〉"), "REF_CORE": mention("ref:core", "〈核心古文 15 篇〉"),
             "REF_EN_VOCAB": mention("ref:en_vocab", "〈常考單字〉"), "REF_EN_PHRASE": mention("ref:en_phrase", "〈轉折語與片語〉"),
-            "REF_EN_WRITING": mention("ref:en_writing", "〈混合題與寫作〉")}
+            "REF_EN_WRITING": mention("ref:en_writing", "〈混合題與寫作〉"), "REF_EN_CARDS": mention("ref:en_cards", "〈單字卡〉"),
+            "REF_EN_CLOZE": mention("ref:en_cloze", "〈克漏字解題〉"), "REF_EN_READING": mention("ref:en_reading", "〈閱讀與篇章結構〉"),
+            "REF_EN_ROOTS": mention("ref:en_roots", "〈字首字根字尾〉"), "REF_EN_CONFUSE": mention("ref:en_confuse", "〈易混淆字〉")}
     return [re.sub(r"\\\{\\\{(REF_[A-Z_]+)\\\}\\\}", lambda m: subs[m.group(1)], blk) for blk in blocks]
 
 
@@ -565,7 +568,8 @@ def guoxue_page():
 
 
 # ---------- 英文：考科頁與重點整理（常考單字、轉折語與片語、混合題與寫作） ----------
-EN_REF_PAGES = [("ref:en_vocab", "常考單字"), ("ref:en_phrase", "轉折語與片語"), ("ref:en_writing", "混合題與寫作")]
+EN_REF_PAGES = [("ref:en_cards", "單字卡"), ("ref:en_vocab", "常考單字"), ("ref:en_roots", "字首字根字尾"), ("ref:en_confuse", "易混淆字"),
+                ("ref:en_cloze", "克漏字解題"), ("ref:en_phrase", "轉折語與片語"), ("ref:en_reading", "閱讀與篇章結構"), ("ref:en_writing", "混合題與寫作")]
 EN_FEATURED = {"V1": ["eng111-09", "eng110-09", "eng110-10", "eng110-15"]}
 YEARS = range(115, 109, -1)
 
@@ -676,6 +680,261 @@ def en_writing_page():
     return b
 
 
+# ---------- 英文：單字卡（依級別分 Unit，點開看意思）與解題技巧頁 ----------
+EN_CARD_PAGES = [("ref:en_cards_l12", "第 1–2 級（基礎字）", (1, 2)), ("ref:en_cards_l3", "第 3 級", (3,)),
+                 ("ref:en_cards_l4", "第 4 級", (4,)), ("ref:en_cards_l56", "第 5–6 級與詞表外", (5, 6, None))]
+EN_ROLE = {("V1", True): "詞彙題答案", ("V1", False): "詞彙題選項", ("R1", True): "文意選填答案",
+           ("V2", True): "綜合測驗答案", ("V2", False): "綜合測驗選項"}
+UNIT = 20
+
+
+def en_cards():
+    """近六屆詞彙題四個選項、文意選填答案、綜合測驗「詞彙」類選項 → 依原形整理的單字卡。
+    答案字沿用 english_words.yaml 的意思與搭配，其他字用 english_cards.yaml。"""
+    import wordlist
+    t = wordlist.table()
+    words = qyaml.load(REF / "english_words.yaml")
+    extra = qyaml.load(REF / "english_cards.yaml")
+    alias, cards = extra["alias"], extra["cards"]
+    known = {}
+    for q, w in list(words["vocab"].items()) + list(words["fill"].items()):
+        known.setdefault(w["word"].lower(), []).append(w)
+    tags = qyaml.load(ROOT / "data" / "concepts" / "english_tags.yaml")
+    items, _ = load_subject("english")
+
+    def lemma(form):
+        f = form.lower().strip()
+        f = alias.get(f, f)
+        if f in known or f in cards:
+            return f
+        for stem, pos in wordlist._stems(f):
+            if (stem in known or stem in cards) and (stem not in t or pos is None or pos in t[stem][0]):
+                return stem
+        return f
+
+    out, missing = {}, []
+    for q in sorted(items, key=lambda q: (-int(items[q]["_year"]), int(items[q]["no"]))):
+        it, tg = items[q], tags.get(q) or [None]
+        opts = it.get("options") or {}
+        if tg[0] == "V1":
+            picks = [(v, k == it["answer"]) for k, v in opts.items()]
+        elif tg[0] == "R1":
+            picks = [(opts.get(it["answer"]), True)]
+        elif tg[0] == "V2" and "詞彙" in tg:
+            picks = [(v, k == it["answer"]) for k, v in opts.items()]
+        else:
+            continue
+        for form, is_ans in picks:
+            form = str(form or "").strip()
+            if not re.fullmatch(r"[A-Za-z][A-Za-z' \-]*", form):
+                continue
+            lm = words["vocab"][q]["word"].lower() if tg[0] == "V1" and is_ans and q in words["vocab"] else lemma(form)
+            if lm not in known and lm not in cards:
+                missing.append((q, form))
+                continue
+            c = out.setdefault(lm, {"word": lm, "forms": set(), "refs": []})
+            if form.lower() != lm:
+                c["forms"].add(form.lower())
+            c["refs"].append((it, EN_ROLE[(tg[0], is_ans)]))
+    for lm, c in out.items():
+        ws = (known.get(lm) or []) + ([cards[lm]] if lm in cards else [])  # 答案字的解釋在前，其他題目的用法接在後面
+        c["pos"] = "／".join(dict.fromkeys(w["pos"] for w in ws))
+        c["mean"] = "；".join(dict.fromkeys(w["mean"] for w in ws))
+        c["use"] = "／".join(dict.fromkeys(w["use"] for w in ws if w.get("use")))
+        c["confuse"] = [x for w in ws for x in w.get("confuse") or []]
+        base = next((w.get("base") for w in ws if w.get("base")), None)
+        c["level"] = t[lm][1] if lm in t else None
+        c["base"] = base if c["level"] is None and base and base.lower() in t else None
+        c["base_level"] = t[base.lower()][1] if c["base"] else None
+        c["phrase"] = " " in lm
+    if missing:
+        print("單字卡找不到解釋：", missing)
+    return out
+
+
+def en_card_group(c):
+    if c["phrase"]:
+        return None
+    lv = c["level"] or c["base_level"]
+    return next(k for k, _, lvs in EN_CARD_PAGES if lv in lvs)
+
+
+def en_card_toggle(c):
+    lines = [f"**{esc(c['mean'])}**"]
+    if c["use"]:
+        lines.append(f"例：{esc(c['use'])}")
+    if c["forms"]:
+        lines.append("考題中的寫法：" + "、".join(esc(f) for f in sorted(c["forms"])))
+    if c["base"]:
+        lines.append(f"由 {esc(c['base'])}（第 {c['base_level']} 級）衍生")
+    if c["confuse"]:
+        lines.append("易混淆：" + "、".join(esc(x) for x in c["confuse"]))
+    seen = list(dict.fromkeys(f"{it['_year']} 年第 {it['no']} 題（{role}）" for it, role in c["refs"]))
+    lines.append("出處：" + "；".join(seen))
+    return toggle(f"**{esc(c['word'])}**　*{esc(c['pos'])}*", lines)
+
+
+def en_cards_level_page(key):
+    cards = sorted((c for c in en_cards().values() if en_card_group(c) == key), key=lambda c: c["word"])
+    title = next(t for k, t, _ in EN_CARD_PAGES if k == key)
+    n_units = max(1, -(-len(cards) // UNIT))
+    size = -(-len(cards) // n_units)
+    b = [callout("📇", [f"**{title}**：{len(cards)} 個字，分成 {n_units} 個 Unit。看到英文先在心裡說出中文意思和一個搭配，再點開確認；每個 Unit 最後有總表可以快速複習。"])]
+    for u in range(n_units):
+        chunk = cards[u * size:(u + 1) * size]
+        if not chunk:
+            continue
+        b.append(f"## Unit {u + 1}｜{esc(chunk[0]['word'])} – {esc(chunk[-1]['word'])}")
+        b += [en_card_toggle(c) for c in chunk]
+        b.append(toggle(f"📋 Unit {u + 1} 總表（複習用）",
+                        [table([["單字", "詞性", "意思"]] + [[f"**{esc(c['word'])}**", esc(c["pos"]), esc(c["mean"])] for c in chunk])]))
+    b += ["## 資料來源", "- 單字取自大考中心 110–115 學年度學測英文考科試題（詞彙題、文意選填、綜合測驗）。", "- " + wordlist_note()]
+    return b
+
+
+def en_cards_index_page():
+    cards = en_cards()
+    count = {k: sum(1 for c in cards.values() if en_card_group(c) == k) for k, _, _ in EN_CARD_PAGES}
+    phrases = sorted((c for c in cards.values() if c["phrase"]), key=lambda c: c["word"])
+    b = [callout("📇", [f"近六屆（110–115 年）學測英文考過的 **{len(cards)} 個單字與片語**，做成可以自己測驗的單字卡：看到英文先想中文，再點開確認。",
+                       "收錄範圍：詞彙題的四個選項、文意選填的答案，以及綜合測驗「詞彙」類題目的選項；級別依大考中心〈高中英文參考詞彙表〉。"]),
+         "## 怎麼背",
+         "1. 每天背 1 個 Unit（約 20 字），利用等車、下課的零碎時間。",
+         "2. 看英文，先在心裡說出中文意思和一個搭配，再點開確認；想不起來的字記在筆記本或手機備忘錄。",
+         "3. 隔天先把前一天的 Unit 再測一次；三天後、一週後各再測一次。",
+         "4. 每個 Unit 最後有「總表」，搭車時可以快速掃過整個 Unit。",
+         "5. 建議順序：先快速掃過第 1–2 級（不熟的字才背），再依序背第 3 級、第 4 級、第 5–6 級。學測詞彙題的答案近九成是第 3–5 級的字。",
+         "## 依級別分頁"]
+    b += [f"- {t}：{count[k]} 個字" for k, t, _ in EN_CARD_PAGES]
+    b += [f'<page url="{MAP[k]}">{t}</page>' for k, t, _ in EN_CARD_PAGES if MAP.get(k)]
+    if phrases:
+        b += ["## 文意選填考過的片語"] + [en_card_toggle(c) for c in phrases]
+    b += ["## 資料來源", "- 單字取自大考中心 110–115 學年度學測英文考科試題（詞彙題、文意選填、綜合測驗）。", "- " + wordlist_note()]
+    return b
+
+
+def en_type_stats(kind):
+    """依 english_tags 計算某大題各類型的題數與全國平均答對率：{類型: (題數, 平均答對率)}。"""
+    items, _ = load_subject("english")
+    tags = qyaml.load(ROOT / "data" / "concepts" / "english_tags.yaml")
+    acc = {}
+    for q, tg in tags.items():
+        p = (items.get(q, {}).get("stats") or {}).get("P")
+        if tg and tg[0] == kind and p is not None:
+            acc.setdefault(tg[1] if len(tg) > 1 else "", []).append(p)
+    return {k: (len(v), round(sum(v) / len(v))) for k, v in acc.items()}
+
+
+def en_src(q):
+    m = re.match(r"eng(\d+)-(\d+)", q or "")
+    return f"{m.group(1)} 年第 {int(m.group(2))} 題" if m else ""
+
+
+def en_cloze_page():
+    s = qyaml.load(REF / "english_skills.yaml")
+    st, fill, total = en_type_stats("V2"), en_type_stats("R1").get("", (0, 0)), sum(n for n, _ in en_type_stats("V2").values())
+    avg = round(sum(n * p for n, p in st.values()) / total) if total else 0
+    b = [callout("🧩", [f"綜合測驗（第 11–20 題）與文意選填（第 21–30 題）各 10 分；近六屆綜合測驗 {total} 題平均答對率 {avg}%、文意選填 {fill[0]} 題平均答對率 {fill[1]}%。兩大題的解題方法熟了，是最快拉分的地方。"]),
+         "## 綜合測驗：四個步驟"] + [f"{i}. {esc(x)}" for i, x in enumerate(s["cloze_steps"], 1)]
+    b += ["## 五類考點與線索",
+          table([["類型", "近六屆", "全國答對率", "線索在哪裡", "學測例子"]]
+                + [[f"**{esc(k)}**", f"{st.get(k, (0, 0))[0]} 題", f"{st.get(k, (0, 0))[1]}%", esc(clue), esc(ex)] for k, clue, ex in s["cloze_types"]])]
+    b.append("## 文法考點速查")
+    for point, how, ex, q in s["cloze_grammar"]:
+        b.append(f"- **{esc(point)}**：{esc(how)}")
+        b.append(f"\t- 例：{esc(ex)}" + (f"（{en_src(q)}）" if q else "（自編例句）"))
+    b += ["## 常見陷阱"] + [f"- {esc(x)}" for x in s["cloze_traps"]]
+    b += ["## 文意選填：先判斷詞性",
+          "1. 把 10 個選項依詞性分類：名詞、動詞（注意原形、過去式、V-ing）、形容詞、副詞。",
+          "2. 看空格的位置決定需要的詞性（見下表），每一格通常只剩 3–4 個選項。",
+          "3. 再用單複數、時態與文意決定；最有把握的先填，用過的劃掉。",
+          table([["空格的位置", "需要的詞性"]] + [[esc(a), esc(b_)] for a, b_ in s["fill_positions"]])]
+    b += ["## 練習",
+          f"- 近六屆考過的轉折語、片語與文法考點：{mention('ref:en_phrase', '〈轉折語與片語〉')}",
+          f"- 文意選填與詞彙題的答案字：{mention('ref:en_vocab', '〈常考單字〉')}",
+          "## 資料來源", "- 題數與答對率：大考中心 110–115 學年度學測英文考科試題與答對率統計。"]
+    return b
+
+
+def en_reading_page():
+    s = qyaml.load(REF / "english_skills.yaml")
+    st, r2 = en_type_stats("R3"), en_type_stats("R2").get("", (0, 0))
+    total = sum(n for n, _ in st.values())
+    avg = round(sum(n * p for n, p in st.values()) / total) if total else 0
+    b = [callout("📖", ["閱讀測驗（第 35–46 題）12 題 24 分＋篇章結構（第 31–34 題）4 題 8 分，共 32 分，占選擇題 62 分的一半以上。",
+                       f"近六屆閱讀測驗 {total} 題平均答對率 {avg}%、篇章結構 {r2[0]} 題平均答對率 {r2[1]}%。"]),
+         "## 閱讀測驗的作答順序",
+         "1. 先看題目（先不看選項），圈出關鍵字：人名、年代、數字、專有名詞。",
+         "2. 讀文章時，在和題目有關的句子旁做記號。",
+         "3. 每個選項都回原文找依據，再用刪去法。",
+         "## 題型與解法"]
+    for kind, ask, how in s["reading_types"]:
+        n, p = st.get(kind, (0, 0))
+        b.append(f"- **{esc(kind)}**（近六屆 {n} 題，全國答對率 {p}%）")
+        b.append(f"\t- 問法：{esc(ask)}")
+        b.append(f"\t- 做法：{esc(how)}")
+    b += ["## 刪去法：看到這些就刪"] + [f"- {esc(x)}" for x in s["eliminate"]]
+    b += ["## 題目常見的字",
+          table([["英文", "中文"]] + [[f"**{esc(a)}**", esc(c)] for a, c in s["stem_words"]]),
+          "態度、語氣題常見的形容詞：",
+          table([["英文", "中文"]] + [[f"**{esc(a)}**", esc(c)] for a, c in s["attitude_words"]])]
+    b += ["## 篇章結構（第 31–34 題）",
+          "- 4 個空格、5 個句子選 4 個（有 1 個多餘），每題 2 分。",
+          "### 線索"] + [f"- **{esc(a)}**：{esc(c)}" for a, c in s["structure_clues"]]
+    b += ["### 作答步驟"] + [f"{i}. {esc(x)}" for i, x in enumerate(s["structure_steps"], 1)]
+    b += ["## 時間分配",
+          "- 篇章結構約 6 分鐘、閱讀測驗約 25 分鐘（三篇各約 8 分鐘）；卡住的題目先跳過，最後再回來。",
+          "## 資料來源", "- 題數與答對率：大考中心 110–115 學年度學測英文考科試題與答對率統計。"]
+    return b
+
+
+def en_roots_page():
+    s = qyaml.load(REF / "english_skills.yaml")
+    tbl = lambda head, rows: table([head] + [[f"**{esc(a)}**", esc(m), esc(e)] for a, m, e in rows])
+    return [callout("🌱", ["學測閱讀常出現詞彙表以外的字。認識常見的字首、字根、字尾，就能先拆字猜意思，再用上下文確認。",
+                          "★ 表示這個字在近六屆（110–115 年）學測英文考題中出現過。"]),
+            "## 怎麼拆字",
+            "- unproductive＝un（不）＋product（生產）＋ive（形容詞）→ 沒有生產力的。",
+            "- vacancy＝vac（空）＋ancy（名詞）→ 空缺、職缺。",
+            "- disrupt＝dis（分開）＋rupt（破裂）→ 擾亂、使中斷。",
+            "- 拆字只能幫你猜方向，最後一定要放回句子確認意思。",
+            f"## 字首（{len(s['prefixes'])} 個）", tbl(["字首", "意思", "例字"], s["prefixes"]),
+            f"## 字根（{len(s['roots'])} 個）", tbl(["字根", "意思", "例字"], s["roots"]),
+            f"## 字尾（{len(s['suffixes'])} 個）", tbl(["字尾", "詞性與意思", "例字"], s["suffixes"]),
+            "## 資料來源", "- 標 ★ 的例字出自大考中心 110–115 學年度學測英文考科試題。"]
+
+
+def en_confuse_page():
+    s = qyaml.load(REF / "english_skills.yaml")
+    items, _ = load_subject("english")
+    words = qyaml.load(REF / "english_words.yaml")["vocab"]
+    cards = en_cards()
+    by_form = {f: c for c in cards.values() for f in c["forms"] | {c["word"]}}
+    hard = []
+    for q, w in words.items():
+        it = items.get(q)
+        stats = (it or {}).get("stats") or {}
+        if not it or stats.get("P") is None or not stats.get("opt"):
+            continue
+        wrong = max(((k, v) for k, v in stats["opt"].items() if k != it["answer"]), key=lambda kv: kv[1], default=None)
+        if wrong:
+            hard.append((stats["P"], q, it, w, (it.get("options") or {}).get(wrong[0]), wrong[1]))
+    hard.sort(key=lambda x: x[0])
+    rows = [["題目", "正確答案", "最多人誤選", "全國答對率"]]
+    for p, q, it, w, opt, pct in hard[:12]:
+        c = by_form.get(str(opt).lower()) or {}
+        rows.append([f"{it['_year']} 年第 {it['no']} 題", f"**{esc(w['word'])}** {esc(w['mean'])}　{esc(w.get('use', ''))}",
+                     f"{esc(opt)}" + (f" {esc(c['mean'])}" if c.get("mean") else "") + f"（{pct}%）", f"{p}%"])
+    return [callout("⚖️", ["拼字相近、意思相近或用法容易搞混的字。考試時選錯，常常不是不認識，而是把兩個字弄混了。",
+                          "★ 表示這個字在近六屆（110–115 年）學測英文考題中出現過。"]),
+            "## 拼字相近的字"] + [f"- **{esc(a)}**：{esc(m)}" for a, m in s["confuse"]] + \
+           ["## 用法容易搞混的字"] + [f"- **{esc(a)}**：{esc(m)}" for a, m in s["usage"]] + \
+           ["## 詞彙題最常選錯的 12 題",
+            "答對率最低的 12 題詞彙題，以及全國考生最常誤選的選項。想一想誤選的字為什麼不能填，比多背一個字更有用。",
+            table(rows),
+            "## 資料來源", "- 答對率與選項選答率：大考中心 110–115 學年度學測英文考科答對率與選項分析。"]
+
+
 def english_page():
     cfg, plan, start, published = plan_info()
     items, groups = load_subject("english")
@@ -684,7 +943,10 @@ def english_page():
     b = [callout("🧭", ["**考科結構**：英文 100 分鐘、滿分 100 分＝選擇題 62 分（詞彙 10、綜合測驗 10、文意選填 10、篇章結構 8、閱讀測驗 24）＋混合題 10 分＋中譯英 8 分＋英文作文 20 分。",
                        "115 年英文級距 6.1 分：差 6 題詞彙題或 3 題閱讀題，大約就差 1 級分。"])]
     if any(MAP.get(k) for k, _ in EN_REF_PAGES):
-        b += ["## 📚 重點整理", "近六屆考過的單字（附大考詞彙表級別）、轉折語與片語，以及混合題、中譯英、作文的評分重點，整理在下面三頁。"]
+        b += ["## 📚 重點整理",
+              "- **背單字**：從「單字卡」開始（近六屆考過的字，依級別分 Unit，點開看意思）；「常考單字」依年度列出每一題的答案，「字首字根字尾」「易混淆字」幫你猜字、分辨相近的字。",
+              "- **綜合測驗、文意選填**：看「克漏字解題」（題型、線索、文法速查），考過的轉折語與片語在「轉折語與片語」。",
+              "- **閱讀測驗、篇章結構**：看「閱讀與篇章結構」（題型、刪去法、題目常見的字）；非選擇題看「混合題與寫作」。"]
         b += [f'<page url="{MAP[k]}">{t}</page>' for k, t in EN_REF_PAGES if MAP.get(k)]
     b += ["## 📈 近六屆出題趨勢（110–115）",
           "- **各大題平均答對率**：詞彙 50%、綜合測驗 46%、文意選填 46%、篇章結構 50%、閱讀測驗 56%。閱讀測驗 12 題共 24 分，是選擇題配分最重的大題。",
@@ -855,7 +1117,7 @@ def db_question_rows():
             st = it.get("stats") or {}
             p = st.get("P")
             slot, date = sched[q]
-            props = {"題目": f"{it['_year']} {paper_name(s, it['_year'])} 第 {it['no']} 題｜{cname.get(it.get('topic'), '')}",
+            props = {"題目": f"{it['_year']} {paper_name(s, it['_year'])} " + (it.get("label") or f"第 {it['no']} 題") + f"｜{cname.get(it.get('topic'), '')}",
                      "科目": NAMES[s], "年度": str(it["_year"]), "題號": int(it["no"]), "題型": TYPE_NAME[it["type"]],
                      "觀念": [cname[c] for c in it.get("concepts") or [] if c in cname],
                      "答案": answer_text(it).replace("　", " "), "排程": slot, "代碼": it["id"],
@@ -935,6 +1197,13 @@ def main():
     write_page("18_en_vocab", en_vocab_page())
     write_page("18_en_phrase", en_phrase_page())
     write_page("18_en_writing", en_writing_page())
+    write_page("19_en_cards", en_cards_index_page())
+    for k, _, _ in EN_CARD_PAGES:
+        write_page("19_en_cards_" + k.split("_")[-1], en_cards_level_page(k))
+    write_page("19_en_roots", en_roots_page())
+    write_page("19_en_confuse", en_confuse_page())
+    write_page("19_en_cloze", en_cloze_page())
+    write_page("19_en_reading", en_reading_page())
     write_page("12_mathA", skeleton_page("mathA", "數學A 100 分鐘：單選 6 題×5、多選 6 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", focus(3, "各單元必考觀念、常見題型與解題流程。")))
     write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", focus(3, "數A、數B 共同的觀念，以及數B 特有單元（經緯度、透視、圓錐截痕、數據分析）的解題流程。")))
     write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", focus(4, "四科必考觀念、圖表與實驗題解題法。")))

@@ -117,7 +117,7 @@ def item_json(subject, it, groups, concept_summary):
     stats = it.get("stats") or {}
     j = {
         "id": it["id"], "s": subject, "y": it["_year"], "no": it["no"],
-        "src": f"{it['_year']}學測{paper_name(subject, it['_year'])} 第{it['no']}題",
+        "src": f"{it['_year']}學測{paper_name(subject, it['_year'])} " + (it.get("label") or f"第{it['no']}題"),
         "t": it["type"], "p": it["points"], "g": it.get("group"),
         "stem": to_html(it.get("stem")),
         "o": [[k, to_html(v)] for k, v in (it.get("options") or {}).items()],
@@ -130,6 +130,8 @@ def item_json(subject, it, groups, concept_summary):
     }
     if it.get("image"):
         j["img"] = it["image"]
+    if it.get("cells"):  # 舊制選填題：作答格標示原卷的列號（例如 14、15）
+        j["cells"] = it["cells"]
     if it["type"] == "open":
         j["ref"] = to_html(it.get("reference"))
     for k in ("P", "D", "T"):

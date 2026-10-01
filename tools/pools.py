@@ -1,6 +1,6 @@
 """計算各科「近六屆經典題」題池大小（依官方答案與答對率表，不需先抽題）。
 
-規則：選擇題與選填題（非選不列入快答）、官方鑑別度 D ≥ 10。
+規則：選擇題與選填題（非選不列入快答）、官方鑑別度 D ≥ 10；110 年數學另扣除 108 課綱範圍外的題目。
 輸出：data/stats/pools.json  {科目: {年度: 題數, "total": 合計}}
 """
 import json
@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import qyaml  # noqa: E402
 from ceec_data import answer_key, item_stats  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,6 +28,10 @@ def main(lo=110, hi=115):
                 continue
             nos = {k.split("-")[0] for k, v in key.items() if v != "／"}
             n = sum(1 for no in nos if (stats.get(no) or {}).get("D") is None or stats[no]["D"] >= 10)
+            bank = ROOT / "data" / "questions" / s / f"g{y}.yaml"
+            if s.startswith("math") and y == 110 and bank.exists():
+                # 110 年是舊課綱的數學卷：選填題答案依列號給（不能用來數題數），且要扣掉 108 課綱範圍外的題目
+                n = sum(1 for it in qyaml.load(bank)["items"] if it.get("classic"))
             out[s][str(y)] = n
         out[s]["total"] = sum(v for k, v in out[s].items() if k != "total")
     path = ROOT / "data" / "stats" / "pools.json"

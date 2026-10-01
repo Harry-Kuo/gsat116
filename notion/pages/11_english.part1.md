@@ -3,9 +3,16 @@
 	115 年英文級距 6.1 分：差 6 題詞彙題或 3 題閱讀題，大約就差 1 級分。
 </callout>
 ## 📚 重點整理
-近六屆考過的單字（附大考詞彙表級別）、轉折語與片語，以及混合題、中譯英、作文的評分重點，整理在下面三頁。
+- **背單字**：從「單字卡」開始（近六屆考過的字，依級別分 Unit，點開看意思）；「常考單字」依年度列出每一題的答案，「字首字根字尾」「易混淆字」幫你猜字、分辨相近的字。
+- **綜合測驗、文意選填**：看「克漏字解題」（題型、線索、文法速查），考過的轉折語與片語在「轉折語與片語」。
+- **閱讀測驗、篇章結構**：看「閱讀與篇章結構」（題型、刪去法、題目常見的字）；非選擇題看「混合題與寫作」。
+<page url="https://app.notion.com/p/3ecee100984f81b689e5f71f0c8ea950">單字卡</page>
 <page url="https://app.notion.com/p/3ebee100984f815bbfd5e4c6521614c0">常考單字</page>
+<page url="https://app.notion.com/p/3ecee100984f812491eed69afd30ccc3">字首字根字尾</page>
+<page url="https://app.notion.com/p/3ecee100984f815c9d3dd591c85157df">易混淆字</page>
+<page url="https://app.notion.com/p/3ecee100984f81de932cd5b9cd042171">克漏字解題</page>
 <page url="https://app.notion.com/p/3ebee100984f81c5b855c3a9b56e9bde">轉折語與片語</page>
+<page url="https://app.notion.com/p/3ecee100984f81a3ad57ca5f0275f655">閱讀與篇章結構</page>
 <page url="https://app.notion.com/p/3ebee100984f81b4a4b8e5ac57b9ad94">混合題與寫作</page>
 ## 📈 近六屆出題趨勢（110–115）
 - **各大題平均答對率**：詞彙 50%、綜合測驗 46%、文意選填 46%、篇章結構 50%、閱讀測驗 56%。閱讀測驗 12 題共 24 分，是選擇題配分最重的大題。
@@ -231,24 +238,3 @@
 	</details>
 </details>
 ### M. 混合題
-<details>
-<summary>**M1 混合題（填充、多選、簡答）**</summary>
-	<callout icon="💡">
-		一篇文章加上表格或對話，接填充、多選、簡答三種題型，共 10 分；答案都要從文章裡找。
-	</callout>
-	- 填充題 2 格共 4 分：從文章找字，依句子需要做字形變化；拼字或字形錯誤只拿一半分數。
-	- 多選題 4 分：近五屆全對率只有 7%–37%，每個選項都要回到文章確認，兩個條件都要成立的選項最容易看漏。
-	- 簡答題 2 分：題目問「哪個字／片語的意思是…」，直接照抄文章中的字詞。
-	評分方式、近五屆題目與參考答案整理在 <mention-page url="https://app.notion.com/p/3ebee100984f81b4a4b8e5ac57b9ad94"/>。
-</details>
-### W. 寫作
-<details>
-<summary>**W1 中譯英**</summary>
-	<callout icon="💡">
-		先抓句子主幹（主詞＋動詞），再處理修飾語；時態與單複數最容易被扣分。
-	</callout>
-	- 2 句共 8 分，每錯一處扣 0.5 分，同樣的錯只扣一次；句首沒大寫或標點錯誤扣 0.5 分。
-	- 要考的單字大多在詞彙表第 1–4 級，重點在句型與時態，例如 115 年第 1 句要用現在完成式。
-	- 寫完檢查五件事：時態、主詞和動詞一致、單複數、冠詞、拼字。
-	評分方式、近五屆題目與參考答案整理在 <mention-page url="https://app.notion.com/p/3ebee100984f81b4a4b8e5ac57b9ad94"/>。
-</details>

@@ -1,0 +1,1255 @@
+exam: 學測
+year: 110
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0l069607272018529090/110%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e8%a9%a6%e5%8d%b7.pdf
+groups: []
+items:
+- id: ma110-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M5
+  tags: []
+  concepts:
+  - M5
+  classic: true
+  stats:
+    P: 84
+    Ph: 100
+    Pl: 57
+    D: 43
+    opt:
+      '1': 3
+      '2': 84
+      '3': 8
+      '4': 3
+      '5': 2
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-01.webp
+  text: |-
+    一、單選題（占3 0 分）
+    說明：第1 題至第6 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請劃記
+    在答案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或劃記多
+    於一個選項者，該題以零分計算。
+    1. 設
+    1
+    2
+    0
+    3
+    A
+    
+    
+    
+    
+    
+    
+    。若
+    4
+    a
+    b
+    A
+    c
+    d
+    
+    
+    
+    
+    
+    
+    ，則a
+    b
+    c
+    d
+    
+    
+    
+    之值為下列哪一個選項？
+    (1) 158
+    (2) 162
+    (3) 166
+    (4) 170
+    (5) 174
+- id: ma110-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: M8
+  tags:
+  - M1
+  concepts:
+  - M8
+  - M1
+  classic: true
+  stats:
+    P: 30
+    Ph: 53
+    Pl: 10
+    D: 43
+    opt:
+      '1': 30
+      '2': 15
+      '3': 33
+      '4': 13
+      '5': 9
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-02.webp
+  text: |-
+    2. 五項實數數列
+    1
+    2
+    3
+    4
+    5
+    ,
+    ,
+    ,
+    ,
+    a a a a a 的每一項都大於1，且每相鄰的兩項中，都有一數是
+    另一數的兩倍。若
+    1
+    10
+    log 36
+    a 
+    ，則
+    5a 有多少種可能的值？
+    (1) 3
+    (2) 4
+    (3) 5
+    (4) 7
+    (5) 8
+- id: ma110-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 50
+    Ph: 79
+    Pl: 25
+    D: 54
+    opt:
+      '1': 10
+      '2': 13
+      '3': 50
+      '4': 13
+      '5': 15
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-03.webp
+  text: |-
+    3. 如圖，
+    ABC
+    
+    為銳角三角形，P 為
+    ABC
+    
+    外接圓外的一點，且PB 與PC 都與圓
+    相切。設
+    BPC
+    
+    
+    
+    ，試問cos A 的值為下列哪一個選項？
+    (1) sin2
+    (2) sin
+    2
+    
+    (3) sin 2
+    
+    (4) cos
+    2
+    
+    (5) cos 2
+    
+
+
+
+
+    B
+    P
+    C
+    A
+    Γ
+- id: ma110-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 31
+    Ph: 64
+    Pl: 7
+    D: 57
+    opt:
+      '1': 12
+      '2': 22
+      '3': 17
+      '4': 17
+      '5': 31
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-04.webp
+  text: |-
+    4. 設a 與b 都是平面上不為零的向量。若
+    2a b 與a 2b 所張成的三角形面積
+    為6，則3a b 與a 3b 所張成的三角形面積為下列哪一個選項？
+    (1) 8
+    (2) 9
+    (3) 12
+    (4) 13.5
+    (5) 16
+- id: ma110-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: true
+  stats:
+    P: 41
+    Ph: 66
+    Pl: 19
+    D: 47
+    opt:
+      '1': 18
+      '2': 15
+      '3': 18
+      '4': 41
+      '5': 8
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-05.webp
+  text: |-
+    5. 設
+    ( )
+    f x 為實係數三次多項式函數，滿足(
+    1) ( )
+    x
+    f x
+    
+    除以
+    3
+    2
+    x 
+    的餘式為
+    2
+    x 
+    。
+    若
+    (0)
+    4
+    f
+    
+    ，則
+    (2)
+    f
+    的值為下列哪一個選項？
+    (1) 8
+    (2) 10
+    (3) 15
+    (4) 18
+    (5) 20
+- id: ma110-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 108 課綱範圍外：橢圓方程式（二次曲線）不在學測數A範圍
+  stats:
+    P: 15
+    Ph: 33
+    Pl: 5
+    D: 28
+    opt:
+      '1': 23
+      '2': 13
+      '3': 42
+      '4': 7
+      '5': 15
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-06.webp
+  text: |-
+    6. 坐標平面上有一邊長為3 的正六邊形ABCDEF ，其中
+    (3,0), ( 3,0)
+    A
+    D 
+    。試問橢圓
+    2
+    2
+    1
+    16
+    7
+    x
+    y
+    
+    與正六邊形ABCDEF 有多少個交點？
+    (1) 0
+    (2) 2
+    (3) 4
+    (4) 6
+    (5) 8
+- id: ma110-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,4
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: true
+  stats:
+    P: 81
+    Ph: 94
+    Pl: 61
+    D: 33
+    T: 68
+    opt:
+      '1': 6
+      '2': 91
+      '3': 89
+      '4': 86
+      '5': 12
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-07.webp
+  text: |-
+    二、多選題（占3 5 分）
+    說明：第7 題至第13 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選
+    項劃記在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答對
+    者，得5 分；答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2 個
+    選項或所有選項均未作答者，該題以零分計算。
+    7. 心理學家找了1000 位受試者進行暗室實驗，每位受試者都要觀看及辨識6、
+    8、9 三張數字卡，發現將實際數字看成某個數字的機率如下表：
+    看成數字
+    實際數字
+    6
+    8
+    9
+    其他
+    6
+    0.4
+    0.3
+    0.2
+    0.1
+    8
+    0.3
+    0.4
+    0.1
+    0.2
+    9
+    0.2
+    0.2
+    0.5
+    0.1
+    例如：實際數字6 被看成6、8、9 的機率分別為0.4、0.3、0.2，而被看成其他
+    數字的機率是0.1。根據上述實驗結果，試選出正確的選項。
+    (1) 如果實際數字是8，則至少有一半的可能性會被看成是8
+    (2) 如果實際數字是6，則有六成的可能性會被看成不是6
+    (3) 在6、8、9 三數字中，被誤認的可能性以9 最低
+    (4) 如果被看成的數字是6，則實際上就是6 的可能性不到一半
+    (5) 如果被看成的數字是9，則實際上就是9 的可能性超過2
+    3
+- id: ma110-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: M9
+  tags:
+  - M4
+  concepts:
+  - M9
+  - M4
+  classic: true
+  stats:
+    P: 41
+    Ph: 63
+    Pl: 21
+    D: 42
+    T: 18
+    opt:
+      '1': 19
+      '2': 29
+      '3': 66
+      '4': 56
+      '5': 70
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-08.webp
+  text: |-
+    8. 如圖，L 為坐標平面上通過原點O 的直線，是以O 為圓心的圓，且L 與有一
+    個交點
+    (3,4)
+    A
+    。已知
+    ,
+    B C 為上的相異兩點滿足
+    BC 
+    OA。試選出正確的選項。
+    (1) L 與的另一個交點為( 4, 3)
+    
+    
+
+    (2) 直線BC 的斜率為3
+    4
+    (3)
+    60
+    AOC
+    
+    
+    
+    (4)
+    ABC
+    
+    的面積為25 3
+    2
+
+    (5) B 與C 在同一象限內
+
+
+
+
+
+
+    O
+    L
+    x
+    y
+- id: ma110-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,4
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 34
+    Ph: 54
+    Pl: 17
+    D: 37
+    T: 14
+    opt:
+      '1': 32
+      '2': 69
+      '3': 56
+      '4': 53
+      '5': 44
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-09.webp
+  text: |-
+    9. 某村的村長選舉設有兩個投票所。已知兩位候選人在各投票所得到的有效票數
+    比例如下表（廢票不列入計算）：
+
+    甲候選人
+    乙候選人
+    第一投票所
+    40%
+    60%
+    第二投票所
+    55%
+    45%
+    假設第一投票所與第二投票所的有效票數分別為x 與y（其中
+    0,
+    0
+    x
+    y
+    
+    
+    ），且以
+    總得票數較高者為當選人。根據上述表格，試選出正確的選項。
+    (1) 當有效票數的總和x
+    y
+    
+    已知時，就可決定當選人
+    (2) 當
+    :
+    x y 的比值小於1
+    2 時，就可決定當選人
+    (3) 當x
+    y
+    
+    時，就可決定當選人
+    (4) 當甲候選人在第一投票所的有效票數比在第二投票所的有效票數多時，就
+    可決定當選人
+    (5) 當乙候選人在第二投票所的有效票數比在第一投票所的有效票數多時，就
+    可決定當選人
+- id: ma110-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 22
+    Ph: 34
+    Pl: 13
+    D: 21
+    T: 3
+    opt:
+      '1': 79
+      '2': 48
+      '3': 41
+      '4': 52
+      '5': 57
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-10.webp
+  text: |-
+    10. 在
+    ABC
+    
+    中，已經知道
+    4
+    AB 
+    和
+    6
+    AC ，此時尚不足以確定
+    ABC
+    
+    的形狀與大小。
+    但是，只要再知道某些條件（例如：再知道BC 的長度），就可確定
+    ABC
+    
+    唯一
+    的形狀與大小。試選出正確的選項。
+    (1) 如果再知道cos A 的值，就可確定
+    ABC
+    
+    唯一的形狀與大小
+    (2) 如果再知道cosB 的值，就可確定
+    ABC
+    
+    唯一的形狀與大小
+    (3) 如果再知道cosC 的值，就可確定
+    ABC
+    
+    唯一的形狀與大小
+    (4) 如果再知道
+    ABC
+    
+    的面積，就可確定
+    ABC
+    
+    唯一的形狀與大小
+    (5) 如果再知道
+    ABC
+    
+    的外接圓半徑，就可確定
+    ABC
+    
+    唯一的形狀與大小
+- id: ma110-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,5
+  topic: M4
+  tags:
+  - M3
+  concepts:
+  - M4
+  - M3
+  classic: true
+  stats:
+    P: 27
+    Ph: 36
+    Pl: 20
+    D: 16
+    T: 9
+    opt:
+      '1': 65
+      '2': 57
+      '3': 52
+      '4': 40
+      '5': 52
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-11.webp
+  text: |-
+    11. 平面上有一梯形ABCD，其上底
+    10
+    AB 
+    、下底
+    15
+    CD 
+    ，且腰長
+    1
+    AD
+    BC
+    
+    。試選
+    出正確的選項。
+    (1)
+    A
+    B
+    
+    
+    (2)
+    180
+    B
+    D
+    
+    
+    
+    
+    (3) 
+    BA 
+    BC
+    0
+    
+
+    (4) BC 的長可能是2
+    (5) 
+    CB 
+    CD
+    30
+    
+- id: ma110-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,5
+  topic: M6
+  tags:
+  - M7
+  concepts:
+  - M6
+  - M7
+  classic: true
+  stats:
+    P: 23
+    Ph: 34
+    Pl: 15
+    D: 19
+    T: 6
+    opt:
+      '1': 22
+      '2': 59
+      '3': 66
+      '4': 59
+      '5': 60
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-12.webp
+  text: |-
+    12. 設
+    (
+    )
+    P X 表示事件X 發生的機率，而
+    (
+    )
+    P X Y
+    表示在事件Y 發生的條件下，事件
+    X 發生的機率。今有2 顆黑球、2 顆白球、3 顆紅球共7 顆大小相同的球排成
+    一列。設事件A 為2 顆黑球相鄰的事件，事件B 為2 顆黑球不相鄰的事件，而
+    事件C 為任2 顆紅球都不相鄰的事件。試選出正確的選項。
+    (1)
+    ( )
+    ( )
+    P A
+    P B
+    
+
+    (2)
+    2
+    ( )
+    7
+    P C 
+
+    (3) 2 (
+    )
+    5 (
+    )
+    2
+    P C A
+    P C B
+    
+    
+
+    (4)
+    (
+    )
+    0.2
+    P C A 
+
+    (5)
+    (
+    )
+    0.3
+    P C B 
+- id: ma110-13
+  'no': 13
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,5
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: false
+  classic_note: 108 課綱範圍外：選項用到虛根（複數），不在學測數A範圍
+  stats:
+    P: 31
+    Ph: 40
+    Pl: 23
+    D: 17
+    T: 9
+    opt:
+      '1': 45
+      '2': 56
+      '3': 79
+      '4': 37
+      '5': 45
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-13.webp
+  text: |-
+    13. 設多項式函數
+    3
+    2
+    ( )
+    f x
+    x
+    ax
+    bx
+    c
+    
+    
+    
+    ，其中
+    , ,
+    a b c 均為有理數。試選出正確的選項。
+    (1) 函數
+    ( )
+    y
+    f x
+    
+    與拋物線
+    2
+    100
+    y
+    x
+    
+    
+    的圖形可能沒有交點
+    (2) 若
+    (0) (1)
+    0
+    (0) (2)
+    f
+    f
+    f
+    f
+    
+    
+    ，則方程式
+    ( )
+    0
+    f x 
+    必有三個相異實根
+    (3) 若1 3i
+    
+    是方程式
+    ( )
+    0
+    f x 
+    的複數根，則方程式
+    ( )
+    0
+    f x 
+    有一個有理根
+    (4) 存在有理數
+    , ,
+    a b c 使得
+    (1),
+    (2),
+    (3),
+    (4)
+    f
+    f
+    f
+    f
+    依序形成等差數列
+    (5) 存在有理數
+    , ,
+    a b c 使得
+    (1),
+    (2),
+    (3),
+    (4)
+    f
+    f
+    f
+    f
+    依序形成等比數列
+- id: ma110-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 3,7
+  topic: M8
+  tags: []
+  concepts:
+  - M8
+  classic: true
+  stats:
+    P: 70
+    Ph: 93
+    Pl: 36
+    D: 57
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-14.webp
+  text: |-
+    第貳部分：選填題（占3 5 分）
+    說明：1.第A 至G 題，將答案劃記在答案卡之「選擇（填）題答案區」所標示的列號（14 – 32）
+          2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+    A. 某機器貓從數線上原點位置朝數線的正向移動，其移動方式如下：以8 秒為一
+    週期，每一週期先以每秒4 單位長等速度移動6 秒，再休息2 秒。如此繼續下
+    去，則此機器貓在開始移動後○
+    14
+     ○
+    15 秒會抵達數線上坐標為116 的位置。
+  label: 選填 A
+  cells:
+  - '14'
+  - '15'
+- id: ma110-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 6,4,0
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 38
+    Ph: 82
+    Pl: 2
+    D: 80
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-15.webp
+  text: |-
+    B. 坐標空間中有兩條直線
+    1
+    2
+    ,
+    L L 與一平面E ，其中直線
+    1
+    2
+    3
+    5
+    x
+    y
+    z
+    L
+    
+    
+    
+    
+    ：
+    ，而
+    2
+    L 的
+    參數式為
+    1
+    1
+    2
+    1 3
+    x
+    y
+    t
+    z
+    t
+    
+    
+    
+    
+    
+    
+    （t 為實數）。若
+    1L 落在E 上，且
+    2
+    L 與E 不相交，則E 的方程
+    式為x ○
+    16
+    y ○
+    17
+    z ○
+    18 。
+  label: 選填 B
+  cells:
+  - '16'
+  - '17'
+  - '18'
+- id: ma110-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,1,4
+  topic: M6
+  tags:
+  - M7
+  concepts:
+  - M6
+  - M7
+  classic: true
+  stats:
+    P: 13
+    Ph: 26
+    Pl: 2
+    D: 24
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-16.webp
+  text: |-
+    C. 從1,2,3,4,5,6,7,8,9 這九個數中任意取出三個相異的數，每數被取出的機率皆相
+    等，則三數乘積是一完全平方數的機率為
+    ○
+    19
+    ○
+    20 ○
+    21
+    。（化成最簡分數）
+  label: 選填 C
+  cells:
+  - '19'
+  - '20'
+  - '21'
+- id: ma110-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,2,6
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 22
+    Ph: 53
+    Pl: 1
+    D: 52
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-17.webp
+  text: |-
+    D. 在坐標平面上，是邊長為4 的正方形，其中心位在點(1,1)，且各邊與坐標軸
+    平行。已知函數
+    2x
+    y
+    a
+    
+    
+    的圖形與相交，其中a 為實數，則a 的最大可能範
+    圍為○
+    22 ○
+    23
+    a
+    
+    ○
+    24 。
+  label: 選填 D
+  cells:
+  - '22'
+  - '23'
+  - '24'
+- id: ma110-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,5,6
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 26
+    Ph: 66
+    Pl: 1
+    D: 65
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-18.webp
+  text: |-
+    E. 將
+    
+    100
+    3 49
+    寫成科學記號
+    
+    100
+    3 49
+    10n
+    a
+    
+    
+    ，其中1
+    10
+    a
+    
+    
+    ，且n 為正整數。若a 的整
+    數部分為m ，則數對( , )
+    m n ( ○
+    25 , ○
+    26
+     ○
+    27 )。
+  label: 選填 E
+  cells:
+  - '25'
+  - '26'
+  - '27'
+- id: ma110-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 8,4,2
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 38
+    Ph: 73
+    Pl: 5
+    D: 68
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-19.webp
+  text: |-
+    F. 如圖，機器人在地面上從一點P 出發，按照以下規則移動：先朝某方向前進一
+    公尺後，依前進方向逆時針旋轉45；朝新方向前進一公尺後，依前進方向順時
+    針旋轉90；再朝新方向前進一公尺後，依前進方向逆時針旋轉45；再朝新方
+    向前進一公尺後，依前進方向順時針旋轉90，… …，以此類推。已知機器人移
+    動的路徑會形成一個封閉區域，則此封閉區域的面積為○
+    28  ＋ ○
+    29
+    ○
+    30 平方
+    公尺。（化成最簡根式）
+
+
+
+
+
+
+    P
+  label: 選填 F
+  cells:
+  - '28'
+  - '29'
+  - '30'
+- id: ma110-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,2
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 21
+    Ph: 46
+    Pl: 3
+    D: 43
+  explain: ''
+  reviewed: false
+  image: img/mathA/110-20.webp
+  text: |-
+    G. 在四面體ABCD 中，
+    4 6
+    AB
+    AC
+    AD
+    
+    
+    
+    、
+    8
+    BD
+    CD
+    
+    ，且
+    1
+    cos
+    3
+    BAC
+    
+    
+    ，則點D 到
+    平面ABC 的距離為○
+    31
+    ○
+    32 。（化成最簡根式）
+  label: 選填 G
+  cells:
+  - '31'
+  - '32'

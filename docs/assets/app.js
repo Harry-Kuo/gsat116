@@ -481,11 +481,14 @@ function conceptName(s, cid) {
   return "";
 }
 
+// 選填題的作答格名稱：新制是「題號-第幾格」（13-1）；110 年以前是原卷的列號（14、15…）
+const cellName = (it, i) => (it.cells && it.cells[i]) || `${it.no}-${i + 1}`;
+
 function renderFill(sess, entry, it, rec) {
   const blanks = answerKeys(it).length;
   const box = app.querySelector("#answer");
   box.innerHTML = `<div class="small muted">選填題：每格填一個數字或符號，全部正確才給分</div>
-    <div class="fill">${Array.from({ length: blanks }, (_, i) => `<label>${it.no}-${i + 1}<input type="text" inputmode="text" maxlength="2" autocomplete="off" data-i="${i}"></label>`).join("")}</div>
+    <div class="fill">${Array.from({ length: blanks }, (_, i) => `<label>${cellName(it, i)}<input type="text" inputmode="text" maxlength="2" autocomplete="off" data-i="${i}"></label>`).join("")}</div>
     <div class="small muted">負號請輸入「-」</div>`;
   const dock = app.querySelector("#dock");
   if (rec) {
@@ -493,7 +496,7 @@ function renderFill(sess, entry, it, rec) {
       inp.value = String(rec.resp || "").split(",")[i] || "";
       inp.disabled = true;
     });
-    return showSimpleResult(sess, it, rec, `正解：${answerKeys(it).map((a, i) => `${it.no}-${i + 1}＝${a}`).join("、")}`);
+    return showSimpleResult(sess, it, rec, `正解：${answerKeys(it).map((a, i) => `${cellName(it, i)}＝${a}`).join("、")}`);
   }
   dock.innerHTML = `<button class="btn primary" id="submit">送出</button>`;
   dock.querySelector("#submit").addEventListener("click", () => {
@@ -561,7 +564,7 @@ function commit(sess, entry, it, result) {
   S.enqueue(attempt);
   sync();
   if (it.t === "open") return viewQuiz();
-  if (it.t === "fill") return showSimpleResult(sess, it, rec, `正解：${answerKeys(it).map((a, i) => `${it.no}-${i + 1}＝${a}`).join("、")}`);
+  if (it.t === "fill") return showSimpleResult(sess, it, rec, `正解：${answerKeys(it).map((a, i) => `${cellName(it, i)}＝${a}`).join("、")}`);
   showChoiceResult(sess, entry, it, rec);
 }
 

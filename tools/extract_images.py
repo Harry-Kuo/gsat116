@@ -19,6 +19,7 @@ from ceec_data import answer_key, item_stats, option_stats, paper_file  # noqa: 
 
 ROOT = Path(__file__).resolve().parent.parent
 groups_stop = []
+OLD_FILL = {}  # 題號 → 選填題字母（110 年以前的數學卷，選填題用 A、B、C… 標號，接在選擇題後面編號）
 PREFIX = {"mathA": "ma", "mathB": "mb", "science": "sci", "social": "soc", "english": "eng"}
 DPI = 170
 TOP, BOTTOM = 52, 50  # 頁首、頁尾（pt）
@@ -78,6 +79,9 @@ def question_starts(doc):
     starts, groups = [], []
     global groups_stop
     groups_stop = []
+    OLD_FILL.clear()
+    old_fill = any("選填題的題號是A" in re.sub(r"\s", "", pg.get_text()) for pg in doc)
+    fill_head, letters = None, []  # 舊制選填題：「第貳部分：選填題」之後左側的「A.」「B.」…
     for pno, page in enumerate(doc):
         width = page.rect.width
         for b in page.get_text("dict")["blocks"]:
@@ -90,17 +94,31 @@ def question_starts(doc):
                 m = re.match(r"^(\d{1,2})\s*[.．]", text)
                 if m and x0 < width * 0.2:
                     starts.append((int(m.group(1)), pno, y0))
-                if x0 < width * 0.2 and re.match(r"^(第[壹貳參肆]部分|[一二三四五六]、\S{1,8}（占|說明：)", text):
+                if x0 < width * 0.2 and re.match(r"^(第[壹貳參肆]部分|[一二三四五六]、\S{1,8}（占|說明：|參考公式)", text):
                     groups_stop.append((pno, y0))
                 g = re.match(r"^(\d{1,2})\s*[-–]\s*(\d{1,2})\s*題?\s*為題組", text)
                 if g and x0 < width * 0.2:
                     groups.append((int(g.group(1)), int(g.group(2)), pno, y0))
+                if old_fill and x0 < width * 0.2:
+                    if re.match(r"^第[壹貳參肆]部分[:：]?\s*選填題", text):
+                        fill_head = (pno, y0)
+                    lm = re.match(r"^([A-Z])\s*[.．]", text)
+                    if lm:
+                        letters.append((lm.group(1), pno, y0))
     # 只保留遞增的題號序列（排除文章中的編號）
     seq, expect = [], 1
     for no, pno, y in sorted(starts, key=lambda t: (t[1], t[2])):
         if no == expect:
             seq.append((no, pno, y))
             expect += 1
+    if fill_head:
+        want = "A"
+        for letter, pno, y in sorted(letters, key=lambda t: (t[1], t[2])):
+            if (pno, y) > fill_head and letter == want:
+                OLD_FILL[expect] = letter
+                seq.append((expect, pno, y))
+                expect += 1
+                want = chr(ord(want) + 1)
     return seq, groups
 
 
@@ -307,7 +325,10 @@ def main():
         # 題型
         sub_keys = [k for k in key if k.startswith(f"{no}-")]
         ans = key.get(str(no))
-        if sub_keys:
+        cells = re.findall(r"○\s*(\d{1,2})", text) if no in OLD_FILL else None
+        if cells:  # 舊制選填題：官方答案依「列號」給（例如 A 題占第 14、15 列）
+            typ, answer = "fill", ",".join(key[c].replace("–", "－").replace("-", "－") for c in cells)
+        elif sub_keys:
             typ, answer = "fill", ",".join(key[k] for k in sorted(sub_keys, key=lambda k: int(k.split("-")[1])))
         elif ans in (None, "／"):
             typ, answer = "open", None
@@ -326,6 +347,10 @@ def main():
             "image": f"img/{subject}/{name}", "stem": "", "options": options, "answer": answer,
             "text": text,
         }
+        if no in OLD_FILL:
+            it["label"] = f"選填 {OLD_FILL[no]}"
+            if cells:
+                it["cells"] = cells
         s_ = stats.get(str(no)) or {}
         if s_:
             it["stats"] = {k: v for k, v in s_.items() if v is not None}
@@ -364,6 +389,15 @@ def main():
         for it in items:
             if int(m.group(1)) <= it["no"] <= int(m.group(2)):
                 it["points"] = int(m.group(3))
+    # 舊制（110 年以前）的說明寫法：「各題答對者，得 5 分」「所有選項均答對者，得 5 分」「每題完全答對給 5 分」
+    for m in re.finditer(r"第\s*(\d+)\s*題至第\s*(\d+)\s*題[\s\S]{0,200}?答對\s*者，?\s*得\s*(\d+)\s*分", full):
+        for it in items:
+            if it["points"] is None and int(m.group(1)) <= it["no"] <= int(m.group(2)):
+                it["points"] = int(m.group(3))
+    m = re.search(r"每題完全答對給\s*(\d+)\s*分", full)
+    for it in items:
+        if m and it["points"] is None and it["no"] in OLD_FILL:
+            it["points"] = int(m.group(1))
     for it in items:
         if it["points"] is None:
             m = re.search(r"占\s*(\d+)\s*分", it["text"])
@@ -377,7 +411,8 @@ def main():
     doc_out = {"exam": "學測", "year": year, "subject": subject, "source": {"pdf": pdf_url},
                "groups": gout, "items": items}
     found = [i["no"] for i in items]
-    expected = max(int(k.split("-")[0]) for k in key)
+    # 舊制選填題的答案依列號編號（例如 14–32），題數要用找到的最後一題
+    expected = max(found) if OLD_FILL else max(int(k.split("-")[0]) for k in key)
     missing = [n for n in range(1, expected + 1) if n not in found]
     if missing:
         doc_out["missing"] = missing

@@ -37,7 +37,9 @@ def main():
                 it.update({k: v for k, v in overlay.get(it["id"], {}).items() if k in ("explain", "key", "reference")})
                 items[it["id"]] = (s, it)
                 official = key.get(str(it["no"]))
-                if it["type"] == "fill":
+                if it["type"] == "fill" and it.get("cells"):  # 舊制選填題：官方答案依列號給
+                    official = ",".join(key[c].replace("–", "－").replace("-", "－") for c in it["cells"])
+                elif it["type"] == "fill":
                     subs = sorted((k for k in key if k.startswith(f"{it['no']}-")), key=lambda k: int(k.split("-")[1]))
                     official = ",".join(key[k] for k in subs)
                 if it["type"] in ("single", "multi", "fill"):
