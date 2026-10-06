@@ -1,4 +1,12 @@
 <details>
+<summary>**Day 15**　10/14（三）　原住民族與土地</summary>
+	- <mention-page url="https://app.notion.com/p/3ecee100984f812d97a3ff445714a552"/>　全國答對率 81%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81129e8af7147d18fa3e"/>　全國答對率 66%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81a4b0dfe2c119311820"/>　全國答對率 40%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f819a866ddf13f7d70437"/>　全國答對率 36%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81deaf5ee6a78a429947"/>　全國答對率 57%
+</details>
+<details>
 <summary>**Day 16**　10/15（四）　黃河水患與古代防疫</summary>
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81c8a487d5090b087cfc"/>　全國答對率 48%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8146b1b0dc6a3bd98ae1"/>　全國答對率 63%

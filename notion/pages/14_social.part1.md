@@ -37,6 +37,7 @@
 - **社會規範與社會化**：社會規範會影響個人的選擇，但個人也能在規範中找到突破的空間；注意題文怎麼描述人與規範的關係。
 	- <mention-page url="https://app.notion.com/p/3ebee100984f810f8f62c4ca1aa57986"/>　全國答對率 39%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8100ad25d6b0de022975"/>　全國答對率 64%
+- **生活中的法律**：物權變動看登記或交付；繼承看順序與應繼分；勞工有個別勞動權益與團結、協商、爭議三權。
 ### 歷史
 - **臺灣史**：清代治臺與海防、日治時期的身分與皇民化；看史料推論官方的關注重點。
 	- 每日練習共 17 題，依日期列在下方「📝 每日練習」。
@@ -55,6 +56,7 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8100b87cf13436ec39bb"/>　全國答對率 60%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81509f32e2c205a46bfb"/>　全國答對率 63%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81eb949bdfa7d5052147"/>　全國答對率 61%
+- **史料與歷史解釋**：先問史料是誰、何時、為何而寫；同一件事會因立場與史料不同而有不同的解釋。
 ### 地理
 - **地圖與地理資訊系統**：GIS 功能要分清楚：環域、疊圖、路網、屬性查詢；讀地圖先看圖例與分布。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81feaba4e8c0618ac0bb"/>　全國答對率 43%
@@ -82,6 +84,7 @@
 - **人口與遷移**：人口轉型看出生率、死亡率的變化；遷移看推力與拉力，例如殖民地的栽培業需要大量勞力。
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8149ae47d227535652e5"/>　全國答對率 56%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f814aaa28e6367512a93e"/>　全國答對率 59%
+- **世界區域地理**：先定位（緯度、海陸、地形），再推氣候、產業與文化，最後連結當前的議題。
 ## 📝 每日練習
 <details>
 <summary>**Day 1**　9/30（三）　公民、清代海防、地名</summary>
@@ -194,12 +197,4 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81259885f0bdfc1a8747"/>　全國答對率 71%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8172a3d1c9164a060f0d"/>　全國答對率 44%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81dfb290fd9dc473e162"/>　全國答對率 41%
-</details>
-<details>
-<summary>**Day 15**　10/14（三）　原住民族與土地</summary>
-	- <mention-page url="https://app.notion.com/p/3ecee100984f812d97a3ff445714a552"/>　全國答對率 81%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81129e8af7147d18fa3e"/>　全國答對率 66%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81a4b0dfe2c119311820"/>　全國答對率 40%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f819a866ddf13f7d70437"/>　全國答對率 36%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81deaf5ee6a78a429947"/>　全國答對率 57%
 </details>
