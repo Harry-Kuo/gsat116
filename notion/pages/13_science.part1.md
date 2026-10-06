@@ -5,11 +5,12 @@
 	**第 4 週上課重點**：四科必考觀念、圖表與實驗題解題法。10/20（二）、10/22（四）上課，完整整理會在上課前放上來。
 </callout>
 ## 📚 重點整理
-物理、化學、生物、地球科學各一頁：必背觀念、解題步驟、容易錯的地方，以及前兩週答對率最低的代表題。
+物理、化學、生物、地球科學、探究與實作各一頁：必背觀念、解題步驟、容易錯的地方，以及前兩週答對率最低的代表題。
 <page url="https://app.notion.com/p/3ecee100984f81508b7bf607d96d4402">物理重點整理</page>
 <page url="https://app.notion.com/p/3ecee100984f81c18674d1506e9a12e3">化學重點整理</page>
 <page url="https://app.notion.com/p/3ecee100984f81f69020ddf205e753f7">生物重點整理</page>
 <page url="https://app.notion.com/p/3ecee100984f814da4a9e7c97b9045cc">地球科學重點整理</page>
+<page url="https://app.notion.com/p/3f1ee100984f81cb8a99d3680c354ab7">探究與實作重點整理</page>
 ## 🎯 觀念大綱與每日練習考古題
 每個觀念底下列出每日練習做到的考古題；點開可以看題目、答案與解析。
 ### 物理
@@ -52,6 +53,7 @@
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81368c98faed03d4daa3"/>　全國答對率 45%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f811fb2abc15c9bcb64b8"/>　全國答對率 61%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8138beb4f73787b3042d"/>　全國答對率 31%
+- **化學與生活、環境**：界面活性劑一端親油、一端親水；酸雨、臭氧層破洞、全球暖化要分清楚成因與防治。
 ### 生物
 - **細胞與細胞分裂**：DNA 在間期 S 期複製；同源染色體配對只在減數分裂。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f816ba2decd30b0848fde"/>　全國答對率 20%
@@ -99,6 +101,8 @@
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8174a22bdd915dd525aa"/>　全國答對率 55%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8110b3d9c6d31b82711d"/>　全國答對率 64%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8162b47fccecd5ce5eef"/>　全國答對率 36%
+### 探究與實作
+- **科學探究與實作**：一次只改變一個操縱變因，並設對照組；看圖先讀座標軸與單位，結論只能根據數據。
 ## 📝 每日練習
 <details>
 <summary>**Day 1**　9/30（三）　天文、力學、酸鹼、細胞分裂</summary>
