@@ -28,8 +28,15 @@ def paper_name(subject, year):
     return v.get(year, v["default"]) if isinstance(v, dict) else v
 
 
-def safe_inline(s):
-    """保留允許的標籤，其餘 < > & 轉義。"""
+TEX = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")  # 解析、重點裡用 $…$ 包起來的 LaTeX 數學式
+
+
+def safe_inline(s, math=False):
+    """保留允許的標籤，其餘 < > & 轉義。math＝True 時 $…$ 變成 <span class="tex">（網站用 KaTeX 排版），\$ 是錢字號。"""
+    if math and "$" in s:
+        parts = TEX.split(s)
+        return "".join(f'<span class="tex">{html.escape(p, quote=False)}</span>' if i % 2
+                       else safe_inline(p.replace("\\$", "$")) for i, p in enumerate(parts))
     out, pos = [], 0
     for m in re.finditer(ALLOWED, s):
         out.append(html.escape(s[pos:m.start()], quote=False))
@@ -39,7 +46,7 @@ def safe_inline(s):
     return "".join(out).replace("［圖］", '<span class="fig">［附圖請見原卷］</span>')
 
 
-def to_html(text):
+def to_html(text, math=False):
     if not text:
         return ""
     parts = []
@@ -48,13 +55,13 @@ def to_html(text):
         if not line:
             continue
         if line.startswith("【框】"):
-            parts.append(f'<div class="box">{safe_inline(line[3:])}</div>')
+            parts.append(f'<div class="box">{safe_inline(line[3:], math)}</div>')
         elif line.startswith("<table"):
             parts.append(f'<div class="tbl">{safe_inline(line)}</div>')
         elif line.startswith("<img"):
             parts.append(line)
         else:
-            parts.append(f"<p>{safe_inline(line)}</p>")
+            parts.append(f"<p>{safe_inline(line, math)}</p>")
     return "".join(parts)
 
 
@@ -122,8 +129,8 @@ def item_json(subject, it, groups, concept_summary):
         "stem": to_html(it.get("stem")),
         "o": [[k, to_html(v)] for k, v in (it.get("options") or {}).items()],
         "a": it.get("answer"),
-        "ex": to_html(it.get("explain")),
-        "k": it.get("key") or concept_summary.get(it.get("topic"), ""),
+        "ex": to_html(it.get("explain"), math=True),
+        "k": safe_inline(it.get("key") or concept_summary.get(it.get("topic"), ""), math=True),
         "c": it.get("concepts") or [],
         "est": est_seconds(it, g, subject),
         "url": it["_url"],
@@ -133,7 +140,7 @@ def item_json(subject, it, groups, concept_summary):
     if it.get("cells"):  # 舊制選填題：作答格標示原卷的列號（例如 14、15）
         j["cells"] = it["cells"]
     if it["type"] == "open":
-        j["ref"] = to_html(it.get("reference"))
+        j["ref"] = to_html(it.get("reference"), math=True)
     for k in ("P", "D", "T"):
         if stats.get(k) is not None:
             j[k] = stats[k]

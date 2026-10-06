@@ -3,337 +3,337 @@
 
 # ---------- Day 15：數與式、指數對數 ----------
 ma111-02:
-  key: 誤按算出的是 log_b a＝1/log_a b；設 t＝log_a b，1/t＝(9/4)t ⇒ t＝2/3。
+  key: 誤按算出的是 $\log_b a=\dfrac{1}{\log_a b}$；設 $t=\log_a b$，$\dfrac{1}{t}=\dfrac{9}{4}t$ ⇒ $t=\dfrac{2}{3}$。
   explain: |
-    正確值是 log_a b，誤按得到的是 log_b a＝1/log_a b。
-    設 t＝log_a b（a、b＞1，所以 t＞0）：1/t＝(9/4)t ⇒ t²＝4/9 ⇒ t＝2/3。
-    log_a b＝2/3 ⇒ b＝a^(2/3) ⇒ b³＝a² → 答案 (1)
-    (3) a⁴＝b⁹ 對應 t＝4/9，是忘了把 t² 開根號（全國 28% 誤選）。
+    正確值是 $\log_a b$，誤按得到的是 $\log_b a=\dfrac{1}{\log_a b}$。
+    設 $t=\log_a b$（a、$b>1$，所以 $t>0$）：$\dfrac{1}{t}=\dfrac{9}{4}t$ ⇒ $t^2=\dfrac{4}{9}$ ⇒ $t=\dfrac{2}{3}$。
+    $\log_a b=\dfrac{2}{3}$ ⇒ $b=a^{2/3}$ ⇒ $b^3=a^2$ → 答案 (1)
+    (3) $a^4=b^9$ 對應 $t=\dfrac{4}{9}$，是忘了把 $t^2$ 開根號（全國 28% 誤選）。
 ma111-07:
-  key: 兩邊都非負可以平方：(5n−21)²≥49n² ⇔ (4n−7)(2n＋21)≤0 ⇔ −10.5≤n≤1.75。
+  key: 兩邊都非負可以平方：$(5n-21)^2\ge49n^2$ ⇔ $(4n-7)(2n+21)\le0$ ⇔ $-10.5\le n\le1.75$。
   explain: |
-    |5n−21|≥7|n| 兩邊都非負，平方不改變大小關係：
-    (5n−21)²≥49n² ⇔ 24n²＋210n−441≤0 ⇔ 8n²＋70n−147≤0 ⇔ (4n−7)(2n＋21)≤0
-    ⇔ −21/2≤n≤7/4，整數 n＝−10, −9, …, 1，共 12 個。
-    (1) |5n−7n|＝2|n|≥21 ⇒ |n|≥10.5；n＝0 符合原式卻不符合這一式 ✗
-    (2) n 是整數，5n−21≠0；兩邊同除以 |5n−21| 得 |7n/(5n−21)|≤1，和原式等價 ✓
-    (3) 7n≤5n−21 ⇒ n≤−10.5，n＝0 就不成立 ✗
+    $|5n-21|\ge7|n|$ 兩邊都非負，平方不改變大小關係：
+    $(5n-21)^2\ge49n^2$ ⇔ $24n^2+210n-441\le0$ ⇔ $8n^2+70n-147\le0$ ⇔ $(4n-7)(2n+21)\le0$
+    ⇔ $-\dfrac{21}{2}\le n\le\dfrac{7}{4}$，整數 $n=-10,-9,\ldots,1$，共 12 個。
+    (1) $|5n-7n|=2|n|\ge21$ ⇒ $|n|\ge10.5$；$n=0$ 符合原式卻不符合這一式 ✗
+    (2) n 是整數，$5n-21\ne0$；兩邊同除以 $|5n-21|$ 得 $\left|\dfrac{7n}{5n-21}\right|\le1$，和原式等價 ✓
+    (3) $7n\le5n-21$ ⇒ $n\le-10.5$，$n=0$ 就不成立 ✗
     (4) 就是平方後的式子，和原式等價 ✓
     (5) 只有 12 個 ✗
     → 答案 (2)(4)
 ma110-17:
-  key: 圖形通過正方形上的點 (x,y) ⇔ a＝y·2^(−x)；最大值在 (−1,3)，最小值在 (−1,−1)。
+  key: 圖形通過正方形上的點 $(x,y)$ ⇔ $a=y\cdot2^{-x}$；最大值在 $(-1,3)$，最小值在 $(-1,-1)$。
   explain: |
-    正方形中心 (1,1)、邊長 4，範圍是 −1≤x≤3、−1≤y≤3。
-    y＝a·2ˣ 通過點 (x,y) ⇔ a＝y·2^(−x)。2^(−x) 在 x＝−1 時最大，等於 2：
-    a 最大＝3×2＝6（點 (−1,3)）；a 最小＝(−1)×2＝−2（點 (−1,−1)）。
-    a 隨點在正方形上連續變化，−2 到 6 之間的值都取得到 ⇒ −2≤a≤6
+    正方形中心 $(1,1)$、邊長 4，範圍是 $-1\le x\le3$、$-1\le y\le3$。
+    $y=a\cdot2^x$ 通過點 $(x,y)$ ⇔ $a=y\cdot2^{-x}$。$2^{-x}$ 在 $x=-1$ 時最大，等於 2：
+    a 最大 $=3\times2=6$（點 $(-1,3)$）；a 最小 $=(-1)\times2=-2$（點 $(-1,-1)$）。
+    a 隨點在正方形上連續變化，$-2$ 到 6 之間的值都取得到 ⇒ $-2\le a\le6$
     ㉒＝−、㉓＝2、㉔＝6
 ma110-18:
-  key: log(∛49)¹⁰⁰＝(200/3)log7≈56.34 ⇒ n＝56；a＝10^0.34，介於 2 和 3 之間。
+  key: $\log(\sqrt[3]{49})^{100}=\dfrac{200}{3}\log7\approx56.34$ ⇒ $n=56$；$a=10^{0.34}$，介於 2 和 3 之間。
   explain: |
-    (∛49)¹⁰⁰＝7^(200/3)，取對數：(200/3)×0.8451≈56.34。
-    所以 (∛49)¹⁰⁰＝10^56.34＝10^0.34×10⁵⁶ ⇒ n＝56，a＝10^0.34。
-    log2≈0.3010＜0.34＜log3≈0.4771 ⇒ 2＜a＜3 ⇒ 整數部分 m＝2。
-    (m,n)＝(2,56)：㉕＝2、㉖＝5、㉗＝6
+    $(\sqrt[3]{49})^{100}=7^{200/3}$，取對數：$\dfrac{200}{3}\times0.8451\approx56.34$。
+    所以 $(\sqrt[3]{49})^{100}=10^{56.34}=10^{0.34}\times10^{56}$ ⇒ $n=56$，$a=10^{0.34}$。
+    $\log2\approx0.3010<0.34<\log3\approx0.4771$ ⇒ $2<a<3$ ⇒ 整數部分 $m=2$。
+    $(m,n)=(2,56)$：㉕＝2、㉖＝5、㉗＝6
 ma109-11:
-  key: log 值成等差 ⇒ a、b、c 成等比（公比 10^1.1）；c＝10^3.3＝1000×10^0.3，10^0.3 略小於 2。
+  key: $\log$ 值成等差 ⇒ a、b、c 成等比（公比 $10^{1.1}$）；$c=10^{3.3}=1000\times10^{0.3}$，$10^{0.3}$ 略小於 2。
   explain: |
-    a＝10^1.1、b＝10^2.2、c＝10^3.3。
-    (1) a＋c＝2b 是等差的條件；這裡 b/a＝c/b＝10^1.1，是等比（a＋c≈2008，2b≈317）✗
-    (2) a＝10^1.1＞10 ✗
-    (3) c＝10³×10^0.3；log2≈0.301＞0.3 ⇒ 10^0.3＜2 ⇒ 1000＜c＜2000 ✓
-    (4) b/a＝10^1.1≈12.6，不是 2 ✗
-    (5) b²＝10^4.4＝ac，成等比 ✓
+    $a=10^{1.1}$、$b=10^{2.2}$、$c=10^{3.3}$。
+    (1) $a+c=2b$ 是等差的條件；這裡 $\dfrac{b}{a}=\dfrac{c}{b}=10^{1.1}$，是等比（$a+c\approx2008$，$2b\approx317$）✗
+    (2) $a=10^{1.1}>10$ ✗
+    (3) $c=10^3\times10^{0.3}$；$\log2\approx0.301>0.3$ ⇒ $10^{0.3}<2$ ⇒ $1000<c<2000$ ✓
+    (4) $\dfrac{b}{a}=10^{1.1}\approx12.6$，不是 2 ✗
+    (5) $b^2=10^{4.4}=ac$，成等比 ✓
     → 答案 (3)(5)
 
 # ---------- Day 16：多項式與數列 ----------
 ma111-10:
-  key: g(x)＝f(−x)−3 沒有常數項，g(0)＝0；對稱中心 (1,0) ⇒ g(2)＝0，所以 g(x)＝kx(x−1)(x−2)，k＝−a。
+  key: $g(x)=f(-x)-3$ 沒有常數項，$g(0)=0$；對稱中心 $(1,0)$ ⇒ $g(2)=0$，所以 $g(x)=kx(x-1)(x-2)$，$k=-a$。
   explain: |
-    g(x)＝f(−x)−3＝−ax³＋bx²−cx，所以 g(0)＝0。
-    三次函數對稱於中心 (1,0)：g(1)＝0，且 g(1＋t)＝−g(1−t) ⇒ g(2)＝−g(0)＝0。
-    ⇒ g(x)＝kx(x−1)(x−2)，首項係數 k＝−a。
-    g(−1)＝k(−1)(−2)(−3)＝−6k＜0 ⇒ k＞0 ⇒ a＜0。
+    $g(x)=f(-x)-3=-ax^3+bx^2-cx$，所以 $g(0)=0$。
+    三次函數對稱於中心 $(1,0)$：$g(1)=0$，且 $g(1+t)=-g(1-t)$ ⇒ $g(2)=-g(0)=0$。
+    ⇒ $g(x)=kx(x-1)(x-2)$，首項係數 $k=-a$。
+    $g(-1)=k(-1)(-2)(-3)=-6k<0$ ⇒ $k>0$ ⇒ $a<0$。
     (1) 根是 0、1、2，三個相異整數 ✓
-    (2) a＝−k＜0 ✓
-    (3) f(x)＝g(−x)＋3，對稱中心是 (−1,3)，不是 (−1,−3) ✗
-    (4) f(100)＝g(−100)＋3＝−k×100×101×102＋3；k 可以很小（例如 k＝10⁻⁷），f(100) 不一定是負的 ✗
-    (5) f(x)＝−kx(x＋1)(x＋2)＋3，令 u＝x＋1：f＝−k(u³−u)＋3＝−ku³＋ku＋3，在 u＝0 附近近似直線 y＝ku＋3，斜率是 k＝−a，不是 a ✗
+    (2) $a=-k<0$ ✓
+    (3) $f(x)=g(-x)+3$，對稱中心是 $(-1,3)$，不是 $(-1,-3)$ ✗
+    (4) $f(100)=g(-100)+3=-k\times100\times101\times102+3$；k 可以很小（例如 $k=10^{-7}$），$f(100)$ 不一定是負的 ✗
+    (5) $f(x)=-kx(x+1)(x+2)+3$，令 $u=x+1$：$f=-k(u^3-u)+3=-ku^3+ku+3$，在 $u=0$ 附近近似直線 $y=ku+3$，斜率是 $k=-a$，不是 a ✗
     → 答案 (1)(2)（全國全對只有 3%）
 ma111-12:
-  key: g²＝fq＋g ⇒ g(g−1)＝fq；f 沒有實根又至少三次 ⇒ f 是四次、q 是常數，g(x) 不能等於 0 或 1 ⇒ 頂點 y 坐標＞1。
+  key: $g^2=fq+g$ ⇒ $g(g-1)=fq$；f 沒有實根又至少三次 ⇒ f 是四次、q 是常數，$g(x)$ 不能等於 0 或 1 ⇒ 頂點 y 坐標 $>1$。
   explain: |
-    (g(x))² 除以 f(x) 餘 g(x) ⇒ g²−g＝f·q ⇒ g(g−1)＝f·q。
+    $(g(x))^2$ 除以 $f(x)$ 餘 $g(x)$ ⇒ $g^2-g=f\cdot q$ ⇒ $g(g-1)=f\cdot q$。
     餘式 g 是二次 ⇒ f 至少三次；f 的圖形和 x 軸沒有交點 ⇒ f 沒有實根 ⇒ f 是偶數次 ⇒ f 是四次，q 是非零常數。
-    所以 g(x)(g(x)−1)＝q·f(x) 沒有實根 ⇒ g(x) 永遠不等於 0，也不等於 1。
-    g 開口向上，會取到頂點 y 坐標 k 以上的所有值；要避開 0 和 1 ⇒ k＞1。
-    (1) √2/2、(2) 1 都不可能；(3) √2、(4) 2、(5) π 都大於 1，可能 → 答案 (1)(2)
+    所以 $g(x)(g(x)-1)=q\cdot f(x)$ 沒有實根 ⇒ $g(x)$ 永遠不等於 0，也不等於 1。
+    g 開口向上，會取到頂點 y 坐標 k 以上的所有值；要避開 0 和 1 ⇒ $k>1$。
+    (1) $\dfrac{\sqrt{2}}{2}$、(2) 1 都不可能；(3) $\sqrt{2}$、(4) 2、(5) $\pi$ 都大於 1，可能 → 答案 (1)(2)
 ma110-05:
-  key: 設 (x＋1)f(x)＝(x³＋2)(px＋q)＋(x＋2)，比較係數，再用 f(0)＝4。
+  key: 設 $(x+1)f(x)=(x^3+2)(px+q)+(x+2)$，比較係數，再用 $f(0)=4$。
   explain: |
-    設 f(x)＝ax³＋bx²＋cx＋4。(x＋1)f(x) 是四次式，除以 x³＋2 的商是一次式 px＋q：
-    (x＋1)f(x)＝(x³＋2)(px＋q)＋x＋2＝px⁴＋qx³＋(2p＋1)x＋(2q＋2)
-    左邊展開＝ax⁴＋(a＋b)x³＋(b＋c)x²＋(c＋4)x＋4
-    常數項：4＝2q＋2 ⇒ q＝1；x³ 項：a＋b＝1；x² 項：b＋c＝0；x 項：c＋4＝2a＋1
-    ⇒ a＝2、b＝−1、c＝1，f(x)＝2x³−x²＋x＋4
-    f(2)＝16−4＋2＋4＝18 → 答案 (4)
+    設 $f(x)=ax^3+bx^2+cx+4$。$(x+1)f(x)$ 是四次式，除以 $x^3+2$ 的商是一次式 $px+q$：
+    $(x+1)f(x)=(x^3+2)(px+q)+x+2=px^4+qx^3+(2p+1)x+(2q+2)$
+    左邊展開 $=ax^4+(a+b)x^3+(b+c)x^2+(c+4)x+4$
+    常數項：$4=2q+2$ ⇒ $q=1$；$x^3$ 項：$a+b=1$；$x^2$ 項：$b+c=0$；x 項：$c+4=2a+1$
+    ⇒ $a=2$、$b=-1$、$c=1$，$f(x)=2x^3-x^2+x+4$
+    $f(2)=16-4+2+4=18$ → 答案 (4)
 ma110-02:
-  key: 每一項都是 a₁ 的 2^k 倍，相鄰兩項的 k 差 1；a₁＝log36≈1.56，減半就小於 1，所以 k 不能是負的。
+  key: 每一項都是 $a_1$ 的 $2^k$ 倍，相鄰兩項的 k 差 1；$a_1=\log36\approx1.56$，減半就小於 1，所以 k 不能是負的。
   explain: |
-    相鄰兩項一個是另一個的兩倍 ⇒ aₙ＝a₁×2^(kₙ)，k₁＝0，每往後一項 k 加 1 或減 1。
-    a₁＝log36≈1.556，a₁/2≈0.78＜1；每一項都要大於 1 ⇒ k 不能小於 0。
-    從 k₁＝0 走 4 步到 k₅：k₅ 是偶數且 0≤k₅≤4，0、2、4 都做得到（例如 0,1,0,1,0／0,1,2,1,2／0,1,2,3,4）。
-    a₅＝log36、4log36、16log36，共 3 種 → 答案 (1)
-    (3) 5 種是沒用到「每一項都大於 1」，把 k＝−2、−4 也算進去（全國 33% 誤選）。
+    相鄰兩項一個是另一個的兩倍 ⇒ $a_n=a_1\times2^{k_n}$，$k_1=0$，每往後一項 k 加 1 或減 1。
+    $a_1=\log36\approx1.556$，$\dfrac{a_1}{2}\approx0.78<1$；每一項都要大於 1 ⇒ k 不能小於 0。
+    從 $k_1=0$ 走 4 步到 $k_5$：$k_5$ 是偶數且 $0\le k_5\le4$，0、2、4 都做得到（例如 0,1,0,1,0／0,1,2,1,2／0,1,2,3,4）。
+    $a_5=\log36$、$4\log36$、$16\log36$，共 3 種 → 答案 (1)
+    (3) 5 種是沒用到「每一項都大於 1」，把 $k=-2$、$-4$ 也算進去（全國 33% 誤選）。
 ma109-14:
   key: 利潤 800 元，每次減半：800→400→200→100，售價＝成本 200＋利潤 100。
   explain: |
     成本 200 元，售價 1000 元，利潤 800 元。
     每次利潤減少一半：800 → 400 → 200 → 100（調降三次）
-    售價＝成本＋利潤＝200＋100＝300 元
+    $\text{售價}=\text{成本}+\text{利潤}=200+100=300$ 元
     ⑭＝3、⑮＝0、⑯＝0
 
 # ---------- Day 17：三角函數與三角形 ----------
 ma111-15:
-  key: 新路寬＝C 到直線 BE 的距離＝16sin30°＝8；原方案剩 9/16 ⇒ 相似比 3/4 ⇒ 路寬是高的 1/4，高＝32。
+  key: 新路寬＝C 到直線 BE 的距離 $=16\sin30^{\circ}=8$；原方案剩 $\dfrac{9}{16}$ ⇒ 相似比 $\dfrac{3}{4}$ ⇒ 路寬是高的 $\dfrac{1}{4}$，高 $=32$。
   explain: |
-    兩平行線 BE、FC 的距離＝C 到 BE 的距離＝BC·sin∠EBC＝16×1/2＝8 ⇒ 路寬 h＝8。
-    原方案剩下的 △ADE 和 △ABC 相似，面積比 9/16 ⇒ 相似比 3/4 ⇒ 路寬是 △ABC 高的 1/4 ⇒ 高 H＝32。
-    △ABC 面積＝½×16×32＝256。
-    E 在 DE 上，到 BC 的距離是 8 ⇒ △BCE 面積＝½×16×8＝64。
-    剩下 △ABE＝256−64＝192 平方公尺：15-1＝1、15-2＝9、15-3＝2
+    兩平行線 BE、FC 的距離＝C 到 BE 的距離 $=BC\cdot\sin\angle EBC=16\times\dfrac{1}{2}=8$ ⇒ 路寬 $h=8$。
+    原方案剩下的 $\triangle ADE$ 和 $\triangle ABC$ 相似，面積比 $\dfrac{9}{16}$ ⇒ 相似比 $\dfrac{3}{4}$ ⇒ 路寬是 $\triangle ABC$ 高的 $\dfrac{1}{4}$ ⇒ 高 $H=32$。
+    $\triangle ABC$ 面積 $=\dfrac{1}{2}\times16\times32=256$。
+    E 在 DE 上，到 BC 的距離是 8 ⇒ $\triangle BCE$ 面積 $=\dfrac{1}{2}\times16\times8=64$。
+    剩下 $\triangle ABE=256-64=192$ 平方公尺：15-1＝1、15-2＝9、15-3＝2
 ma112-18:
-  key: AP＝OA＝1 ⇒ △AOP 是等腰三角形，兩底角都是 θ ⇒ 底邊 OP＝2cosθ。
+  key: $AP=OA=1$ ⇒ $\triangle AOP$ 是等腰三角形，兩底角都是 $\theta$ ⇒ 底邊 $OP=2\cos\theta$。
   explain: |
-    AP＝OA＝1 ⇒ △AOP 是等腰三角形，底角 ∠AOP＝∠APO＝θ。
-    從 A 作 OP 的垂線，垂足是 OP 的中點：OP/2＝1×cosθ ⇒ OP＝2cosθ → 答案 (4)
-    (3) 2sinθ 是把鄰邊、對邊弄反（全國 17% 誤選）。
+    $AP=OA=1$ ⇒ $\triangle AOP$ 是等腰三角形，底角 $\angle AOP=\angle APO=\theta$。
+    從 A 作 OP 的垂線，垂足是 OP 的中點：$\dfrac{OP}{2}=1\times\cos\theta$ ⇒ $OP=2\cos\theta$ → 答案 (4)
+    (3) $2\sin\theta$ 是把鄰邊、對邊弄反（全國 17% 誤選）。
 ma110-10:
-  key: 已知兩邊 b＝6、c＝4：再知道夾角 A，或大邊的對角 B，三角形唯一；知道小邊的對角 C、sinA 或外接圓半徑，都可能有兩解。
+  key: 已知兩邊 $b=6$、$c=4$：再知道夾角 A，或大邊的對角 B，三角形唯一；知道小邊的對角 C、$\sin A$ 或外接圓半徑，都可能有兩解。
   explain: |
-    已知 AB＝c＝4、AC＝b＝6。
-    (1) 知道 cosA：兩邊夾一角（SAS）⇒ 唯一 ✓
-    (2) 知道 cosB（B 是 AC＝6 的對角）：b²＝a²＋c²−2ac·cosB ⇒ a²−8a·cosB−20＝0，兩根相乘＝−20＜0，只有一個正根 ⇒ 唯一 ✓
-    (3) 知道 cosC（C 是 AB＝4 的對角）：c²＝a²＋b²−2ab·cosC ⇒ a²−12a·cosC＋20＝0，兩根相乘＝20＞0，可能有兩個正根 ⇒ 不一定唯一 ✗
-    (4) 知道面積 ⇒ 知道 sinA，A 可能是銳角也可能是鈍角 ✗
-    (5) 知道外接圓半徑 R ⇒ sinB＝6/(2R)、sinC＝4/(2R)，角 B 可能是銳角也可能是鈍角 ✗
+    已知 $AB=c=4$、$AC=b=6$。
+    (1) 知道 $\cos A$：兩邊夾一角（SAS）⇒ 唯一 ✓
+    (2) 知道 $\cos B$（B 是 $AC=6$ 的對角）：$b^2=a^2+c^2-2ac\cdot\cos B$ ⇒ $a^2-8a\cdot\cos B-20=0$，兩根相乘 $=-20<0$，只有一個正根 ⇒ 唯一 ✓
+    (3) 知道 $\cos C$（C 是 $AB=4$ 的對角）：$c^2=a^2+b^2-2ab\cdot\cos C$ ⇒ $a^2-12a\cdot\cos C+20=0$，兩根相乘 $=20>0$，可能有兩個正根 ⇒ 不一定唯一 ✗
+    (4) 知道面積 ⇒ 知道 $\sin A$，A 可能是銳角也可能是鈍角 ✗
+    (5) 知道外接圓半徑 R ⇒ $\sin B=\dfrac{6}{2R}$、$\sin C=\dfrac{4}{2R}$，角 B 可能是銳角也可能是鈍角 ✗
     → 答案 (1)(2)（全國全對只有 3%）
 ma110-19:
   key: 每兩步合成一段長 s 的位移、方向轉 45°，八段圍成正八邊形；每兩步中間的轉折點往內凹，要扣掉 8 個小三角形。
   explain: |
     兩步一組：走一公尺、左轉 45° 再走一公尺，接著右轉 90°。每組結束時，前進方向比開始時右轉 45°。
     八組（16 步）方向轉滿一圈，回到起點，路徑封閉。
-    每組起點到終點的距離 s：兩段長 1、夾角 135°，s²＝1＋1−2cos135°＝2＋√2。
-    八組的端點圍成邊長 s 的正八邊形，面積＝2(1＋√2)s²＝2(1＋√2)(2＋√2)＝8＋6√2。
-    每組中間的轉折點在正八邊形內側（往內凹），每個凹進去的三角形面積＝½×1×1×sin135°＝√2/4，共 8 個。
-    封閉區域面積＝8＋6√2−8×√2/4＝8＋4√2：㉘＝8、㉙＝4、㉚＝2
+    每組起點到終點的距離 s：兩段長 1、夾角 135°，$s^2=1+1-2\cos135^{\circ}=2+\sqrt{2}$。
+    八組的端點圍成邊長 s 的正八邊形，面積 $=2(1+\sqrt{2})s^2=2(1+\sqrt{2})(2+\sqrt{2})=8+6\sqrt{2}$。
+    每組中間的轉折點在正八邊形內側（往內凹），每個凹進去的三角形面積 $=\dfrac{1}{2}\times1\times1\times\sin135^{\circ}=\dfrac{\sqrt{2}}{4}$，共 8 個。
+    封閉區域面積 $=8+6\sqrt{2}-8\times\dfrac{\sqrt{2}}{4}=8+4\sqrt{2}$：㉘＝8、㉙＝4、㉚＝2
 ma109-20:
-  key: 灰色面積＝半圓面積−（圓 P 被弦 QT 切下的弓形）；PO＝1、∠QPT＝120°。
+  key: 灰色面積＝半圓面積−（圓 P 被弦 QT 切下的弓形）；$PO=1$、$\angle QPT=120^{\circ}$。
   explain: |
-    半圓 QRT：半徑 √3，面積＝½×π×3＝3π/2。
-    圓弧 QST 的圓心 P、半徑 2：PO＝√(2²−(√3)²)＝1，sin∠QPO＝√3/2 ⇒ ∠QPO＝60°，∠QPT＝120°。
-    弦 QT 切下的弓形（S 那一側）＝扇形 PQT−△PQT＝(1/3)×π×2²−½×2×2×sin120°＝4π/3−√3
-    灰色面積＝3π/2−(4π/3−√3)＝π/6＋√3
-    a＝1/6、b＝3：㉞＝1、㉟＝6、㊱＝3
+    半圓 QRT：半徑 $\sqrt{3}$，面積 $=\dfrac{1}{2}\times\pi\times3=\dfrac{3\pi}{2}$。
+    圓弧 QST 的圓心 P、半徑 2：$PO=\sqrt{2^2-(\sqrt{3})^2}=1$，$\sin\angle QPO=\dfrac{\sqrt{3}}{2}$ ⇒ $\angle QPO=60^{\circ}$，$\angle QPT=120^{\circ}$。
+    弦 QT 切下的弓形（S 那一側）$=\text{扇形 }PQT-\triangle PQT=\dfrac{1}{3}\times\pi\times2^2-\dfrac{1}{2}\times2\times2\times\sin120^{\circ}=\dfrac{4\pi}{3}-\sqrt{3}$
+    灰色面積 $=\dfrac{3\pi}{2}-\left(\dfrac{4\pi}{3}-\sqrt{3}\right)=\dfrac{\pi}{6}+\sqrt{3}$
+    $a=\dfrac{1}{6}$、$b=3$：㉞＝1、㉟＝6、㊱＝3
 
 # ---------- Day 18：坐標幾何與平面向量 ----------
 ma111-06:
-  key: L1、L2 斜率都是正的，斜率 11/9 的是它們 60° 夾角的平分線；正三角形頂角的平分線垂直對邊 ⇒ L 的斜率是 −9/11。
+  key: $L_1$、$L_2$ 斜率都是正的，斜率 $\dfrac{11}{9}$ 的是它們 60° 夾角的平分線；正三角形頂角的平分線垂直對邊 ⇒ L 的斜率是 $-\dfrac{9}{11}$。
   explain: |
-    L、L1、L2 圍成正三角形 ⇒ L1、L2 的夾角是 60°。
-    兩條斜率都是正的直線，銳角夾角的平分線斜率也是正的 ⇒ 斜率 11/9 的是 60° 角的平分線。
-    正三角形頂角的平分線垂直對邊 ⇒ L 的斜率＝−9/11。
-    L 過 (2, 1/3)：y−1/3＝−(9/11)(x−2)，兩邊乘 33 ⇒ 33y−11＝−27x＋54 ⇒ 27x＋33y＝65 → 答案 (5)
-    (3) 11x＋9y＝25 有通過 (2, 1/3)，但斜率 −11/9 不垂直平分線（全國 17% 誤選）。
+    L、$L_1$、$L_2$ 圍成正三角形 ⇒ $L_1$、$L_2$ 的夾角是 60°。
+    兩條斜率都是正的直線，銳角夾角的平分線斜率也是正的 ⇒ 斜率 $\dfrac{11}{9}$ 的是 60° 角的平分線。
+    正三角形頂角的平分線垂直對邊 ⇒ L 的斜率 $=-\dfrac{9}{11}$。
+    L 過 $\left(2,\dfrac{1}{3}\right)$：$y-\dfrac{1}{3}=-\dfrac{9}{11}(x-2)$，兩邊乘 33 ⇒ $33y-11=-27x+54$ ⇒ $27x+33y=65$ → 答案 (5)
+    (3) $11x+9y=25$ 有通過 $\left(2,\dfrac{1}{3}\right)$，但斜率 $-\dfrac{11}{9}$ 不垂直平分線（全國 17% 誤選）。
 ma111-18:
-  key: B 同時在 x²＋y²＝4 和以 A 為圓心、半徑 1 的圓上：兩式相減得 x＝√3。
+  key: B 同時在 $x^2+y^2=4$ 和以 A 為圓心、半徑 1 的圓上：兩式相減得 $x=\sqrt{3}$。
   explain: |
-    B(x,y) 在 C₂ 上：x²＋y²＝4；掃描棒長 1：(x−√3)²＋y²＝1。
-    兩式相減：2√3x−3＝3 ⇒ x＝√3，代回得 y²＝1，y≥0 ⇒ y＝1。
-    B＝(√3, 1) → 答案 (4)
-    驗算：OA＝√3、AB＝1、OB＝2，OA²＋AB²＝OB²，掃描棒和 OA 垂直。
+    $B(x,y)$ 在 $C_2$ 上：$x^2+y^2=4$；掃描棒長 1：$(x-\sqrt{3})^2+y^2=1$。
+    兩式相減：$2\sqrt{3}x-3=3$ ⇒ $x=\sqrt{3}$，代回得 $y^2=1$，$y\ge0$ ⇒ $y=1$。
+    $B=(\sqrt{3},1)$ → 答案 (4)
+    驗算：$OA=\sqrt{3}$、$AB=1$、$OB=2$，$OA^2+AB^2=OB^2$，掃描棒和 OA 垂直。
 ma111-09:
-  key: P 在 △ABC 內部 ⇔ a＞0、b＞0、a＋b＜1；面積比：△ABP＝b·△ABC，△ACP＝a·△ABC，△BCP＝(1−a−b)·△ABC。
+  key: P 在 $\triangle ABC$ 內部 ⇔ $a>0$、$b>0$、$a+b<1$；面積比：$\triangle ABP=b\cdot\triangle ABC$，$\triangle ACP=a\cdot\triangle ABC$，$\triangle BCP=(1-a-b)\cdot\triangle ABC$。
   explain: |
-    AP＝a·AB＋b·AC，P 在三角形內部 ⇔ a＞0、b＞0、a＋b＜1。
-    面積比：△ABP＝b·△ABC（看 AC 的係數），△ACP＝a·△ABC，△BCP＝(1−a−b)·△ABC。
-    (1) Q 的係數 b、a 都是正的、和小於 1 ⇒ Q 在內部；但 R 的 AC 係數 b−0.05 在 b≤0.05 時不是正的 ⇒ R 不一定在內部 ✗
-    (2) |AP|、|AQ| 和 AB、AC 的長度與夾角有關，一般不相等 ✗
-    (3) △ABP＝b·△ABC；△ACQ＝(AQ 中 AB 的係數)·△ABC＝b·△ABC ⇒ 相等 ✓
-    (4) △BCP＝(1−a−b)·△ABC＝△BCQ ✓
-    (5) △ABR＝|b−0.05|·△ABC；b＜0.025 時 |b−0.05|＞b，△ABR 反而比較大 ✗
+    $\overrightarrow{AP}=a\cdot\overrightarrow{AB}+b\cdot\overrightarrow{AC}$，P 在三角形內部 ⇔ $a>0$、$b>0$、$a+b<1$。
+    面積比：$\triangle ABP=b\cdot\triangle ABC$（看 AC 的係數），$\triangle ACP=a\cdot\triangle ABC$，$\triangle BCP=(1-a-b)\cdot\triangle ABC$。
+    (1) Q 的係數 b、a 都是正的、和小於 1 ⇒ Q 在內部；但 R 的 AC 係數 $b-0.05$ 在 $b\le0.05$ 時不是正的 ⇒ R 不一定在內部 ✗
+    (2) $|\overrightarrow{AP}|$、$|\overrightarrow{AQ}|$ 和 AB、AC 的長度與夾角有關，一般不相等 ✗
+    (3) $\triangle ABP=b\cdot\triangle ABC$；$\triangle ACQ=(\overrightarrow{AQ}\text{ 中 }\overrightarrow{AB}\text{ 的係數})\cdot\triangle ABC=b\cdot\triangle ABC$ ⇒ 相等 ✓
+    (4) $\triangle BCP=(1-a-b)\cdot\triangle ABC=\triangle BCQ$ ✓
+    (5) $\triangle ABR=|b-0.05|\cdot\triangle ABC$；$b<0.025$ 時 $|b-0.05|>b$，$\triangle ABR$ 反而比較大 ✗
     → 答案 (3)(4)（全國全對只有 4%）
 ma110-04:
-  key: 兩向量所張三角形面積＝½|det|；det(2a＋b, a＋2b)＝3det(a,b)，det(3a＋b, a＋3b)＝8det(a,b)。
+  key: 兩向量所張三角形面積 $=\dfrac{1}{2}|\det|$；$\det(2\overrightarrow{a}+\overrightarrow{b},\overrightarrow{a}+2\overrightarrow{b})=3\det(\overrightarrow{a},\overrightarrow{b})$，$\det(3\overrightarrow{a}+\overrightarrow{b},\overrightarrow{a}+3\overrightarrow{b})=8\det(\overrightarrow{a},\overrightarrow{b})$。
   explain: |
-    det 可以像乘法一樣分配，且 det(a,a)＝0、det(b,a)＝−det(a,b)：
-    det(2a＋b, a＋2b)＝4det(a,b)＋det(b,a)＝3det(a,b)
-    ½×3|det(a,b)|＝6 ⇒ |det(a,b)|＝4
-    det(3a＋b, a＋3b)＝9det(a,b)＋det(b,a)＝8det(a,b)
-    面積＝½×8×4＝16 → 答案 (5)
+    $\det$ 可以像乘法一樣分配，且 $\det(\overrightarrow{a},\overrightarrow{a})=0$、$\det(\overrightarrow{b},\overrightarrow{a})=-\det(\overrightarrow{a},\overrightarrow{b})$：
+    $\det(2\overrightarrow{a}+\overrightarrow{b},\overrightarrow{a}+2\overrightarrow{b})=4\det(\overrightarrow{a},\overrightarrow{b})+\det(\overrightarrow{b},\overrightarrow{a})=3\det(\overrightarrow{a},\overrightarrow{b})$
+    $\dfrac{1}{2}\times3|\det(\overrightarrow{a},\overrightarrow{b})|=6$ ⇒ $|\det(\overrightarrow{a},\overrightarrow{b})|=4$
+    $\det(3\overrightarrow{a}+\overrightarrow{b},\overrightarrow{a}+3\overrightarrow{b})=9\det(\overrightarrow{a},\overrightarrow{b})+\det(\overrightarrow{b},\overrightarrow{a})=8\det(\overrightarrow{a},\overrightarrow{b})$
+    面積 $=\dfrac{1}{2}\times8\times4=16$ → 答案 (5)
 ma110-08:
-  key: "|BC|＝|OA|＝5＝半徑 ⇒ △OBC 是正三角形；BC∥OA，A 到 BC 的距離等於 O 到 BC 的距離。"
+  key: $|\overrightarrow{BC}|=|\overrightarrow{OA}|=5=\text{半徑}$ ⇒ $\triangle OBC$ 是正三角形；$BC\parallel OA$，A 到 BC 的距離等於 O 到 BC 的距離。
   explain: |
-    A(3,4) 在圓上 ⇒ 半徑 5。向量 BC＝OA ⇒ BC∥OA、BC＝5，所以 △OBC 是邊長 5 的正三角形。
-    (1) L 與 Γ 的另一個交點是 A 對原點的對稱點 (−3,−4) ✗
-    (2) BC∥OA，斜率是 4/3 ✗
-    (3) 由 BC＝OA 得 AC＝OB（向量），所以 OACB 是平行四邊形，AC＝OB＝5；又 OA＝OC＝5 ⇒ △OAC 是正三角形，∠AOC＝60° ✓
-    (4) △ABC 和 △OBC 同底 BC，而 OA∥BC，A、O 到 BC 的距離相等 ⇒ △ABC＝△OBC＝(√3/4)×25＝25√3/4，不是 25√3/2 ✗
-    (5) C 在 OA 轉 60° 的方向，B 再轉 60°：逆時針轉時 C 約在 113°、B 約在 173°，都在第二象限；順時針轉時 C 約在 −7°、B 約在 −67°，都在第四象限 ⇒ 一定同一象限 ✓
+    $A(3,4)$ 在圓上 ⇒ 半徑 5。向量 $\overrightarrow{BC}=\overrightarrow{OA}$ ⇒ $BC\parallel OA$、$BC=5$，所以 $\triangle OBC$ 是邊長 5 的正三角形。
+    (1) L 與 $\Gamma$ 的另一個交點是 A 對原點的對稱點 $(-3,-4)$ ✗
+    (2) $BC\parallel OA$，斜率是 $\dfrac{4}{3}$ ✗
+    (3) 由 $\overrightarrow{BC}=\overrightarrow{OA}$ 得 $\overrightarrow{AC}=\overrightarrow{OB}$（向量），所以 OACB 是平行四邊形，$AC=OB=5$；又 $OA=OC=5$ ⇒ $\triangle OAC$ 是正三角形，$\angle AOC=60^{\circ}$ ✓
+    (4) $\triangle ABC$ 和 $\triangle OBC$ 同底 BC，而 $OA\parallel BC$，A、O 到 BC 的距離相等 ⇒ $\triangle ABC=\triangle OBC=\dfrac{\sqrt{3}}{4}\times25=\dfrac{25\sqrt{3}}{4}$，不是 $\dfrac{25\sqrt{3}}{2}$ ✗
+    (5) C 在 OA 轉 60° 的方向，B 再轉 60°：逆時針轉時 C 約在 113°、B 約在 173°，都在第二象限；順時針轉時 C 約在 $-7^{\circ}$、B 約在 $-67^{\circ}$，都在第四象限 ⇒ 一定同一象限 ✓
     → 答案 (3)(5)
 
 # ---------- Day 19：空間向量與平面 ----------
 ma111-11:
-  key: 兩個矩形都以 AD 為邊 ⇒ AD⊥AB、AD⊥AC，這是直三角柱；把要比較的角放進直角三角形算三角比。
+  key: 兩個矩形都以 AD 為邊 ⇒ $AD\perp AB$、$AD\perp AC$，這是直三角柱；把要比較的角放進直角三角形算三角比。
   explain: |
-    ADEB、ADFC 都是矩形 ⇒ AD⊥AB、AD⊥AC ⇒ AD⊥平面 ABC，BE、CF 也都垂直平面 ABC。
-    又 AC⊥BC、AC⊥CF ⇒ AC⊥平面 BCFE。
+    ADEB、ADFC 都是矩形 ⇒ $AD\perp AB$、$AD\perp AC$ ⇒ $AD\perp$平面 ABC，BE、CF 也都垂直平面 ABC。
+    又 $AC\perp BC$、$AC\perp CF$ ⇒ $AC\perp$平面 BCFE。
     (1) 沿平面 ACE 切開：一塊是四面體 ABCE；另一塊有 A、C、D、E、F 五個頂點，是以 E 為頂點、矩形 ACFD 為底的四角錐，不是四面體 ✗
-    (2) 兩平面的交線是 AD，AB、AC 都垂直 AD ⇒ 兩面角＝∠BAC，tan∠BAC＝BC/AC＝6/5＞1 ⇒ 大於 45° ✓
-    (3) BE 垂直 BC 和 AB：tan∠CEB＝BC/BE＝6/BE，tan∠AEB＝AB/BE＝√61/BE ⇒ ∠CEB＜∠AEB ✓
-    (4) AC⊥CE：tan∠AEC＝AC/CE＝5/CE；BC⊥BE：sin∠CEB＝BC/CE＝6/CE ⇒ tan∠AEC＜sin∠CEB ✓
-    (5) tan∠AEC＝5/CE＜6/CE＝sin∠CEB＜tan∠CEB ⇒ ∠AEC＜∠CEB，(5) 說反了 ✗
+    (2) 兩平面的交線是 AD，AB、AC 都垂直 AD ⇒ 兩面角 $=\angle BAC$，$\tan\angle BAC=\dfrac{BC}{AC}=\dfrac{6}{5}>1$ ⇒ 大於 $45^{\circ}$ ✓
+    (3) BE 垂直 BC 和 AB：$\tan\angle CEB=\dfrac{BC}{BE}=\dfrac{6}{BE}$，$\tan\angle AEB=\dfrac{AB}{BE}=\dfrac{\sqrt{61}}{BE}$ ⇒ $\angle CEB<\angle AEB$ ✓
+    (4) $AC\perp CE$：$\tan\angle AEC=\dfrac{AC}{CE}=\dfrac{5}{CE}$；$BC\perp BE$：$\sin\angle CEB=\dfrac{BC}{CE}=\dfrac{6}{CE}$ ⇒ $\tan\angle AEC<\sin\angle CEB$ ✓
+    (5) $\tan\angle AEC=\dfrac{5}{CE}<\dfrac{6}{CE}=\sin\angle CEB<\tan\angle CEB$ ⇒ $\angle AEC<\angle CEB$，(5) 說反了 ✗
     → 答案 (2)(3)(4)
 ma111-16:
-  key: L、L′ 都在平面 x−y＋2z＝3 上；L′ 在 E 上的投影是 L ⇒ 這個平面垂直 E。E 的法向量要同時垂直 L 的方向與這個平面的法向量。
+  key: L、L′ 都在平面 $x-y+2z=3$ 上；L′ 在 E 上的投影是 L ⇒ 這個平面垂直 E。E 的法向量要同時垂直 L 的方向與這個平面的法向量。
   explain: |
-    L：x/2−1＝y＋1＝−2z＝t ⇒ (x,y,z)＝(2＋2t, −1＋t, −t/2)，方向 (2,1,−1/2)∥(4,2,−1)，過點 (2,−1,0)。
-    L′ 投影到 E 上是 L ⇒ 包含 L′ 且垂直 E 的平面也包含 L；L、L′ 是平面 x−y＋2z＝3 上兩條相異的直線，所以這個平面就是 x−y＋2z＝3 ⇒ 它垂直 E。
-    E 的法向量 n 要垂直 (4,2,−1)，也要垂直 (1,−1,2)：
-    n＝(4,2,−1)×(1,−1,2)＝(4−1, −1−8, −4−2)＝(3,−9,−6)∥(1,−3,−2)
-    E 過 (2,−1,0)：x−3y−2z＝2＋3＝5
-    E：x＋(−3)y＋(−2)z＝5：16-1＝−、16-2＝3、16-3＝−、16-4＝2、16-5＝5
+    L：$\dfrac{x}{2}-1=y+1=-2z=t$ ⇒ $(x,y,z)=\left(2+2t,-1+t,-\dfrac{t}{2}\right)$，方向 $\left(2,1,-\dfrac{1}{2}\right)\parallel(4,2,-1)$，過點 $(2,-1,0)$。
+    L′ 投影到 E 上是 L ⇒ 包含 L′ 且垂直 E 的平面也包含 L；L、L′ 是平面 $x-y+2z=3$ 上兩條相異的直線，所以這個平面就是 $x-y+2z=3$ ⇒ 它垂直 E。
+    E 的法向量 $\overrightarrow{n}$ 要垂直 $(4,2,-1)$，也要垂直 $(1,-1,2)$：
+    $\overrightarrow{n}=(4,2,-1)\times(1,-1,2)=(4-1,-1-8,-4-2)=(3,-9,-6)\parallel(1,-3,-2)$
+    E 過 $(2,-1,0)$：$x-3y-2z=2+3=5$
+    E：$x+(-3)y+(-2)z=5$：16-1＝−、16-2＝3、16-3＝−、16-4＝2、16-5＝5
 ma113-18:
-  key: O 在平面上的投影 Q 沿法向量方向：Q＝(t,0,−t)，代入 x−z＝4 得 t＝2。
+  key: O 在平面上的投影 Q 沿法向量方向：$Q=(t,0,-t)$，代入 $x-z=4$ 得 $t=2$。
   explain: |
-    平面 x−z＝4 的法向量是 (1,0,−1)，O 的投影 Q 在過 O、沿法向量的直線上：Q＝(t,0,−t)。
-    代入：t−(−t)＝4 ⇒ t＝2 ⇒ Q＝(2,0,−2)。
-    cosα＝OQ·(1,0,0)/|OQ|＝2/(2√2)＝√2/2 → 答案 (4)
+    平面 $x-z=4$ 的法向量是 $(1,0,-1)$，O 的投影 Q 在過 O、沿法向量的直線上：$Q=(t,0,-t)$。
+    代入：$t-(-t)=4$ ⇒ $t=2$ ⇒ $Q=(2,0,-2)$。
+    $\cos\alpha=\dfrac{\overrightarrow{OQ}\cdot(1,0,0)}{|\overrightarrow{OQ}|}=\dfrac{2}{2\sqrt{2}}=\dfrac{\sqrt{2}}{2}$ → 答案 (4)
 ma110-15:
-  key: L₁ 在 E 上、L₂ 和 E 平行 ⇒ E 的法向量＝兩條直線方向的外積；L₁ 過原點，所以 E 過原點。
+  key: $L_1$ 在 E 上、$L_2$ 和 E 平行 ⇒ E 的法向量＝兩條直線方向的外積；$L_1$ 過原點，所以 E 過原點。
   explain: |
-    L₁ 方向 (2,−3,−5)、過原點；L₂ 方向 (0,2,3)、過 (1,1,1)。
-    L₁ 在 E 上、L₂ 與 E 不相交（平行）⇒ E 的法向量垂直這兩個方向：
-    n＝(2,−3,−5)×(0,2,3)＝(−9＋10, 0−6, 4−0)＝(1,−6,4)
-    E 過原點：x−6y＋4z＝0
-    檢查：(1,1,1) 代入得 1−6＋4＝−1≠0，L₂ 不在 E 上，確實不相交 ✓
+    $L_1$ 方向 $(2,-3,-5)$、過原點；$L_2$ 方向 $(0,2,3)$、過 $(1,1,1)$。
+    $L_1$ 在 E 上、$L_2$ 與 E 不相交（平行）⇒ E 的法向量垂直這兩個方向：
+    $\overrightarrow{n}=(2,-3,-5)\times(0,2,3)=(-9+10,0-6,4-0)=(1,-6,4)$
+    E 過原點：$x-6y+4z=0$
+    檢查：$(1,1,1)$ 代入得 $1-6+4=-1\ne0$，$L_2$ 不在 E 上，確實不相交 ✓
     ⑯＝6、⑰＝4、⑱＝0
 ma110-20:
-  key: BC²＝96＋96−2×96×(1/3)＝128 ⇒ △BCD 是 D 為直角的等腰直角三角形；A 到 B、C、D 等距 ⇒ A 在平面 BCD 的投影是斜邊 BC 的中點。
+  key: $BC^2=96+96-2\times96\times\dfrac{1}{3}=128$ ⇒ $\triangle BCD$ 是 D 為直角的等腰直角三角形；A 到 B、C、D 等距 ⇒ A 在平面 BCD 的投影是斜邊 BC 的中點。
   explain: |
-    BC²＝AB²＋AC²−2·AB·AC·cos∠BAC＝96＋96−64＝128 ⇒ BC＝8√2。
-    BD＝CD＝8，BD²＋CD²＝128＝BC² ⇒ ∠BDC＝90°。
-    AB＝AC＝AD ⇒ A 在平面 BCD 的投影是 △BCD 的外心，也就是斜邊 BC 的中點 M。
-    AM＝√(AB²−BM²)＝√(96−32)＝8 ⇒ 四面體體積＝⅓×(½×8×8)×8＝256/3
-    △ABC 面積＝½×AB×AC×sin∠BAC＝½×96×(2√2/3)＝32√2
-    D 到平面 ABC 的距離＝3V/△ABC＝256/(32√2)＝4√2：㉛＝4、㉜＝2
+    $BC^2=AB^2+AC^2-2\cdot AB\cdot AC\cdot\cos\angle BAC=96+96-64=128$ ⇒ $BC=8\sqrt{2}$。
+    $BD=CD=8$，$BD^2+CD^2=128=BC^2$ ⇒ $\angle BDC=90^{\circ}$。
+    $AB=AC=AD$ ⇒ A 在平面 BCD 的投影是 $\triangle BCD$ 的外心，也就是斜邊 BC 的中點 M。
+    $AM=\sqrt{AB^2-BM^2}=\sqrt{96-32}=8$ ⇒ 四面體體積 $=\dfrac{1}{3}\times\left(\dfrac{1}{2}\times8\times8\right)\times8=\dfrac{256}{3}$
+    $\triangle ABC$ 面積 $=\dfrac{1}{2}\times AB\times AC\times\sin\angle BAC=\dfrac{1}{2}\times96\times\dfrac{2\sqrt{2}}{3}=32\sqrt{2}$
+    D 到平面 ABC 的距離 $=\dfrac{3V}{\triangle ABC}=\dfrac{256}{32\sqrt{2}}=4\sqrt{2}$：㉛＝4、㉜＝2
 
 # ---------- Day 20：機率與統計 ----------
 ma111-03:
-  key: 資料集中在 y＝2x 附近；投影到和資料走向垂直的直線，投影點最集中，變異數最小。
+  key: 資料集中在 $y=2x$ 附近；投影到和資料走向垂直的直線，投影點最集中，變異數最小。
   explain: |
-    圖中的點大致落在 y＝2x 附近（方向 (1,2)）。
-    投影到 y＝2x：點沿著資料的走向散開，投影點分得最開，變異數最大。
-    投影到和 (1,2) 垂直的方向 (2,−1)，也就是 y＝−x/2：每個點離 y＝2x 都很近，投影點擠在原點附近，變異數最小 → 答案 (5)
-    全國 63% 選了 (1) y＝2x，那正好是變異數最大的方向。
+    圖中的點大致落在 $y=2x$ 附近（方向 $(1,2)$）。
+    投影到 $y=2x$：點沿著資料的走向散開，投影點分得最開，變異數最大。
+    投影到和 $(1,2)$ 垂直的方向 $(2,-1)$，也就是 $y=-\dfrac{x}{2}$：每個點離 $y=2x$ 都很近，投影點擠在原點附近，變異數最小 → 答案 (5)
+    全國 63% 選了 (1) $y=2x$，那正好是變異數最大的方向。
 ma111-13:
-  key: 23000＝1500×15＋500，可以抽 15 次；每次十連抽的期望值＝9×0.02＋0.1＝0.28 張。
+  key: $23000=1500\times15+500$，可以抽 15 次；每次十連抽的期望值 $=9\times0.02+0.1=0.28$ 張。
   explain: |
-    23000＝1500×15＋500 ⇒ 十連抽 15 次（剩 500 枚不夠再抽）。
-    每次十連抽：前九張各有 2% 機率是金卡，第十張 10%，期望值＝9×0.02＋1×0.1＝0.28 張。
-    15 次 ⇒ 15×0.28＝4.2 張：13-1＝4、13-2＝2
+    $23000=1500\times15+500$ ⇒ 十連抽 15 次（剩 500 枚不夠再抽）。
+    每次十連抽：前九張各有 2% 機率是金卡，第十張 10%，期望值 $=9\times0.02+1\times0.1=0.28$ 張。
+    15 次 ⇒ $15\times0.28=4.2$ 張：13-1＝4、13-2＝2
 ma110-12:
-  key: 用位置算：P(A)＝6/21＝2/7；C 用插空法，P(C)＝2/7；全機率 P(C)＝P(A)P(C|A)＋P(B)P(C|B)。
+  key: 用位置算：$P(A)=\dfrac{6}{21}=\dfrac{2}{7}$；C 用插空法，$P(C)=\dfrac{2}{7}$；全機率 $P(C)=P(A)P(C\mid A)+P(B)P(C\mid B)$。
   explain: |
-    7 個位置選 2 個放黑球有 C(7,2)＝21 種，相鄰的有 6 種 ⇒ P(A)＝2/7、P(B)＝5/7 ⇒ (1) ✗
-    顏色排法共 7!/(2!2!3!)＝210 種。
-    C：先排 2 黑 2 白（4!/(2!2!)＝6 種），3 顆紅球插進 5 個空隙（C(5,3)＝10 種）⇒ 60 種，P(C)＝60/210＝2/7 ⇒ (2) ✓
-    A∩C：兩顆黑球綁成一塊，和 2 白共 3 件（3 種排法），紅球插進 4 個空隙（4 種）⇒ 12 種；A 共 6!/(2!3!)＝60 種 ⇒ P(C|A)＝12/60＝0.2 ⇒ (4) 不大於 0.2 ✗
-    P(C|B)＝(60−12)/(210−60)＝48/150＝0.32 ⇒ (5) ✓
-    (3) 全機率：P(C)＝(2/7)P(C|A)＋(5/7)P(C|B)＝2/7 ⇒ 2P(C|A)＋5P(C|B)＝2，等於 2，不是小於 2 ✗
+    7 個位置選 2 個放黑球有 $C(7,2)=21$ 種，相鄰的有 6 種 ⇒ $P(A)=\dfrac{2}{7}$、$P(B)=\dfrac{5}{7}$ ⇒ (1) ✗
+    顏色排法共 $\dfrac{7!}{2!2!3!}=210$ 種。
+    C：先排 2 黑 2 白（$\dfrac{4!}{2!2!}=6$ 種），3 顆紅球插進 5 個空隙（$C(5,3)=10$ 種）⇒ 60 種，$P(C)=\dfrac{60}{210}=\dfrac{2}{7}$ ⇒ (2) ✓
+    $A\cap C$：兩顆黑球綁成一塊，和 2 白共 3 件（3 種排法），紅球插進 4 個空隙（4 種）⇒ 12 種；A 共 $\dfrac{6!}{2!3!}=60$ 種 ⇒ $P(C\mid A)=\dfrac{12}{60}=0.2$ ⇒ (4) 不大於 0.2 ✗
+    $P(C\mid B)=\dfrac{60-12}{210-60}=\dfrac{48}{150}=0.32$ ⇒ (5) ✓
+    (3) 全機率：$P(C)=\dfrac{2}{7}P(C\mid A)+\dfrac{5}{7}P(C\mid B)=\dfrac{2}{7}$ ⇒ $2P(C\mid A)+5P(C\mid B)=2$，等於 2，不是小於 2 ✗
     → 答案 (2)(5)
 ma110-16:
-  key: 把 1–9 去掉平方因數：{1,4,9}→1、{2,8}→2、3、5、6、7；三數乘積是平方數 ⇔ 剩下的部分相乘是平方數。
+  key: 把 1–9 去掉平方因數：$\{1,4,9\}$→1、$\{2,8\}$→2、3、5、6、7；三數乘積是平方數 ⇔ 剩下的部分相乘是平方數。
   explain: |
     每個數寫成「平方數×不含平方因數的部分」：1、4、9→1；2、8→2；3→3；5→5；6→6；7→7。
     乘積是完全平方數 ⇔ 三個「剩下的部分」相乘是完全平方數：
-    ① 三個都是 1：{1,4,9}，1 組
-    ② 2 和 8 再配一個 1：{2,8,1}、{2,8,4}、{2,8,9}，3 組
-    ③ 2×3×6＝36：{2,3,6}、{8,3,6}，2 組
-    共 6 組；C(9,3)＝84 ⇒ 機率＝6/84＝1/14：⑲＝1、⑳＝1、㉑＝4
+    ① 三個都是 1：$\{1,4,9\}$，1 組
+    ② 2 和 8 再配一個 1：$\{2,8,1\}$、$\{2,8,4\}$、$\{2,8,9\}$，3 組
+    ③ $2\times3\times6=36$：$\{2,3,6\}$、$\{8,3,6\}$，2 組
+    共 6 組；$C(9,3)=84$ ⇒ 機率 $=\dfrac{6}{84}=\dfrac{1}{14}$：⑲＝1、⑳＝1、㉑＝4
 ma109-06:
-  key: log(a²)＋log b＝log(a²b)＞1 ⇔ a²b＞10；a 從 1 到 6 逐一數。
+  key: $\log(a^2)+\log b=\log(a^2b)>1$ ⇔ $a^2b>10$；a 從 1 到 6 逐一數。
   explain: |
-    log(a²)＋log b＝log(a²b)＞1 ⇔ a²b＞10。
-    a＝1：b＞10，沒有；a＝2：4b＞10 ⇒ b≥3，4 種；a＝3：9b＞10 ⇒ b≥2，5 種；a＝4、5、6：b 任意，各 6 種
-    共 0＋4＋5＋6＋6＋6＝27 種，機率＝27/36＝3/4 → 答案 (4)
+    $\log(a^2)+\log b=\log(a^2b)>1$ ⇔ $a^2b>10$。
+    $a=1$：$b>10$，沒有；$a=2$：$4b>10$ ⇒ $b\ge3$，4 種；$a=3$：$9b>10$ ⇒ $b\ge2$，5 種；$a=4$、5、6：b 任意，各 6 種
+    共 $0+4+5+6+6+6=27$ 種，機率 $=\dfrac{27}{36}=\dfrac{3}{4}$ → 答案 (4)
 
 # ---------- Day 21：計數、矩陣與空間挑戰 ----------
 ma111-01:
-  key: C(n,2)＞100 ⇒ 最少 n＝15；兩球可以同一口味是重複組合 H(15,2)＝C(16,2)＝120。
+  key: $C(n,2)>100$ ⇒ 最少 $n=15$；兩球可以同一口味是重複組合 $H(15,2)=C(16,2)=120$。
   explain: |
-    任選兩球不同口味：C(14,2)＝91、C(15,2)＝105 ⇒ 最少 n＝15。
-    兩球可以同一口味 ⇒ 不同口味 105 種＋同口味 15 種＝120 種（也就是 H(15,2)＝C(16,2)）→ 答案 (4)
-    (2) 105 是漏了「可為同一口味」（全國 32% 誤選）；(5) 225＝15² 是把兩球當成有順序（全國 24% 誤選）。
+    任選兩球不同口味：$C(14,2)=91$、$C(15,2)=105$ ⇒ 最少 $n=15$。
+    兩球可以同一口味 ⇒ 不同口味 105 種＋同口味 15 種＝120 種（也就是 $H(15,2)=C(16,2)$）→ 答案 (4)
+    (2) 105 是漏了「可為同一口味」（全國 32% 誤選）；(5) $225=15^2$ 是把兩球當成有順序（全國 24% 誤選）。
 ma111-14:
-  key: 高斯消去法不改變解：從化簡後的矩陣解出 z＝0、y＝−5/b、x＝7＋10/b，代回原方程組求 a、b。
+  key: 高斯消去法不改變解：從化簡後的矩陣解出 $z=0$、$y=-\dfrac{5}{b}$、$x=7+\dfrac{10}{b}$，代回原方程組求 a、b。
   explain: |
-    化簡後：bz＝0、by＋5z＝−5、x＋2y＋bz＝7。方程組恰有一組解 ⇒ b≠0。
-    ⇒ z＝0、y＝−5/b、x＝7−2y＝7＋10/b
+    化簡後：$bz=0$、$by+5z=-5$、$x+2y+bz=7$。方程組恰有一組解 ⇒ $b\ne0$。
+    ⇒ $z=0$、$y=-\dfrac{5}{b}$、$x=7-2y=7+\dfrac{10}{b}$
     消去法得到的方程組和原方程組同解，代回原來的式子：
-    第二式 x＋ay＝7：7＋10/b−5a/b＝7 ⇒ a＝2
-    第一式 2x＋5y＝4：14＋20/b−25/b＝4 ⇒ b＝1/2
-    第三式驗算：3x＋8y＝21＋30/b−40/b＝21−20＝1 ✓
-    a＝2、b＝1/2：14-1＝2、14-2＝1、14-3＝2
+    第二式 $x+ay=7$：$7+\dfrac{10}{b}-\dfrac{5a}{b}=7$ ⇒ $a=2$
+    第一式 $2x+5y=4$：$14+\dfrac{20}{b}-\dfrac{25}{b}=4$ ⇒ $b=\dfrac{1}{2}$
+    第三式驗算：$3x+8y=21+\dfrac{30}{b}-\dfrac{40}{b}=21-20=1$ ✓
+    $a=2$、$b=\dfrac{1}{2}$：14-1＝2、14-2＝1、14-3＝2
 ma111-17:
-  key: 底面積＝|(P₂−P₁)×(P₃−P₁)|＝√181；高＝另一面的頂點到底面所在平面的距離，頂點在 xy 平面的單位圓上找最大值。
+  key: 底面積 $=|(P_2-P_1)\times(P_3-P_1)|=\sqrt{181}$；高＝另一面的頂點到底面所在平面的距離，頂點在 xy 平面的單位圓上找最大值。
   explain: |
-    P₁(−1,2,1)、P₂(−4,1,3)、P₃(2,0,−3)：P₂−P₁＝(−3,−1,2)、P₃−P₁＝(3,−2,−4)
-    外積＝(4＋4, 6−12, 6＋3)＝(8,−6,9)，長度 √181。底面平行四邊形面積＝√181（三個頂點圍成的三角形是底面的一半，不論哪個點是頂角）。
-    底面所在平面：8x−6y＋9z＝8×(−1)−6×2＋9×1＝−11
-    另一面的頂點 (x,y,0)，x²＋y²＝1：高＝|8x−6y＋11|/√181
-    8x−6y 在單位圓上的最大值＝√(8²＋6²)＝10 ⇒ 高的最大值＝21/√181
-    最大體積＝√181×21/√181＝21：17-1＝2、17-2＝1（全國答對率只有 5%）
+    $P_1(-1,2,1)$、$P_2(-4,1,3)$、$P_3(2,0,-3)$：$P_2-P_1=(-3,-1,2)$、$P_3-P_1=(3,-2,-4)$
+    外積 $=(4+4,6-12,6+3)=(8,-6,9)$，長度 $\sqrt{181}$。底面平行四邊形面積 $=\sqrt{181}$（三個頂點圍成的三角形是底面的一半，不論哪個點是頂角）。
+    底面所在平面：$8x-6y+9z=8\times(-1)-6\times2+9\times1=-11$
+    另一面的頂點 $(x,y,0)$，$x^2+y^2=1$：高 $=\dfrac{|8x-6y+11|}{\sqrt{181}}$
+    $8x-6y$ 在單位圓上的最大值 $=\sqrt{8^2+6^2}=10$ ⇒ 高的最大值 $=\dfrac{21}{\sqrt{181}}$
+    最大體積 $=\sqrt{181}\times\dfrac{21}{\sqrt{181}}=21$：17-1＝2、17-2＝1（全國答對率只有 5%）
 ma109-13:
-  key: 邊長設 s：OB＝OC＝AB＝AC＝s；△ABC 與 △OBC 三邊對應相等，∠CAB＝∠BOC＝30°；兩面角是 ∠BMC（M 是 OA 中點）。
+  key: 邊長設 s：$OB=OC=AB=AC=s$；$\triangle ABC$ 與 $\triangle OBC$ 三邊對應相等，$\angle CAB=\angle BOC=30^{\circ}$；兩面角是 $\angle BMC$（M 是 OA 中點）。
   explain: |
-    設邊長 s：OA＝OB＝AB＝s，OA＝OC＝AC＝s，∠BOC＝30°。
-    BC²＝s²＋s²−2s²cos30°＝(2−√3)s²，BC≈0.52s。
-    (1) BC＜OC ✗
-    (2) OB＝OC＝s，是等腰三角形 ✓
-    (3) △OBC＝½s²sin30°＝s²/4，△OAB＝(√3/4)s²≈0.43s²，△OBC 比較小 ✗
-    (4) △ABC 的 AB＝AC＝s，BC 和 △OBC 的一樣 ⇒ 兩個三角形全等，∠CAB＝∠BOC＝30° ✓
-    (5) 取 OA 中點 M：BM⊥OA、CM⊥OA，兩面角＝∠BMC。BM＝CM＝(√3/2)s，
-    cos∠BMC＝(3/4＋3/4−(2−√3))/(2×3/4)＝(2√3−1)/3≈0.82＜cos30°≈0.87 ⇒ ∠BMC＞30° ✗
+    設邊長 s：$OA=OB=AB=s$，$OA=OC=AC=s$，$\angle BOC=30^{\circ}$。
+    $BC^2=s^2+s^2-2s^2\cos30^{\circ}=(2-\sqrt{3})s^2$，$BC\approx0.52s$。
+    (1) $BC<OC$ ✗
+    (2) $OB=OC=s$，是等腰三角形 ✓
+    (3) $\triangle OBC=\dfrac{1}{2}s^2\sin30^{\circ}=\dfrac{s^2}{4}$，$\triangle OAB=\dfrac{\sqrt{3}}{4}s^2\approx0.43s^2$，$\triangle OBC$ 比較小 ✗
+    (4) $\triangle ABC$ 的 $AB=AC=s$，BC 和 $\triangle OBC$ 的一樣 ⇒ 兩個三角形全等，$\angle CAB=\angle BOC=30^{\circ}$ ✓
+    (5) 取 OA 中點 M：$BM\perp OA$、$CM\perp OA$，兩面角 $=\angle BMC$。$BM=CM=\dfrac{\sqrt{3}}{2}s$，
+    $\cos\angle BMC=\dfrac{\frac{3}{4}+\frac{3}{4}-(2-\sqrt{3})}{2\times\frac{3}{4}}=\dfrac{2\sqrt{3}-1}{3}\approx0.82<\cos30^{\circ}\approx0.87$ ⇒ $\angle BMC>30^{\circ}$ ✗
     → 答案 (2)(4)
 ma109-18:
-  key: L 和 BC 的交點就是 A 在直線 BC 上的垂足：H＝B＋t(C−B)，AH 垂直 BC 的方向。
+  key: L 和 BC 的交點就是 A 在直線 BC 上的垂足：$H=B+t(C-B)$，$\overrightarrow{AH}$ 垂直 BC 的方向。
   explain: |
-    C−B＝(−2,2,−2)∥(1,−1,1)，設 H＝(2＋t, −6−t, 3＋t)。
-    AH＝(1＋t, −13−t, 1＋t)，和 (1,−1,1) 垂直：(1＋t)＋(13＋t)＋(1＋t)＝0 ⇒ t＝−5
-    H＝(−3,−1,−2)：㉕＝−、㉖＝3、㉗＝−、㉘＝1、㉙＝−、㉚＝2
+    $C-B=(-2,2,-2)\parallel(1,-1,1)$，設 $H=(2+t,-6-t,3+t)$。
+    $\overrightarrow{AH}=(1+t,-13-t,1+t)$，和 $(1,-1,1)$ 垂直：$(1+t)+(13+t)+(1+t)=0$ ⇒ $t=-5$
+    $H=(-3,-1,-2)$：㉕＝−、㉖＝3、㉗＝−、㉘＝1、㉙＝−、㉚＝2
 
 # ---------- 第 3 週上課：混合題實作（115 年第 18–20 題）----------
 ma115-18:
-  key: 平行四邊形 ABCD 的面積＝|AB×AD|＝|(−5,5,5)|＝√75＝5√3。
+  key: 平行四邊形 ABCD 的面積 $=|\overrightarrow{AB}\times\overrightarrow{AD}|=|(-5,5,5)|=\sqrt{75}=5\sqrt{3}$。
   explain: |
     外積的長度＝兩個向量所張平行四邊形的面積。
-    |AB×AD|＝√((−5)²＋5²＋5²)＝√75＝5√3 → 答案 (3)
-    (2) 5√2 ✗（全國 12% 誤選）
+    $|\overrightarrow{AB}\times\overrightarrow{AD}|=\sqrt{(-5)^2+5^2+5^2}=\sqrt{75}=5\sqrt{3}$ → 答案 (3)
+    (2) $5\sqrt{2}$ ✗（全國 12% 誤選）
 ma115-19:
-  key: 平面 ABCD 的法向量平行 AB×AD＝(−5,5,5)，取 (1,−1,−1)；過 B(1,2,0) → x−y−z＝−1。
+  key: 平面 ABCD 的法向量平行 $\overrightarrow{AB}\times\overrightarrow{AD}=(-5,5,5)$，取 $(1,-1,-1)$；過 $B(1,2,0)$ → $x-y-z=-1$。
   reference: |
-    平面 ABCD 同時包含 AB、AD，所以法向量平行 AB×AD＝(−5,5,5)，可取 (1,−1,−1)。
-    平面過 B(1,2,0)：(x−1)−(y−2)−(z−0)＝0，即 x−y−z＝−1。
-    評分重點（大考中心評分原則）：要寫出「法向量平行 (−5,5,5)」，再代入 B 點得到正確的方程式，兩項都對才滿分；只寫出法向量可得部分分數。
+    平面 ABCD 同時包含 $\overrightarrow{AB}$、$\overrightarrow{AD}$，所以法向量平行 $\overrightarrow{AB}\times\overrightarrow{AD}=(-5,5,5)$，可取 $(1,-1,-1)$。
+    平面過 $B(1,2,0)$：$(x-1)-(y-2)-(z-0)=0$，即 $x-y-z=-1$。
+    評分重點（大考中心評分原則）：要寫出「法向量平行 $(-5,5,5)$」，再代入 B 點得到正確的方程式，兩項都對才滿分；只寫出法向量可得部分分數。
 ma115-20:
-  key: AP 同時垂直 AD×AP 和 AP×AB，所以平行兩者的外積 −20(2,2,−1)；長度 6 → AP＝±(4,4,−2)。體積 10，離 A 最遠的是 S，距離 √94。
+  key: $\overrightarrow{AP}$ 同時垂直 $\overrightarrow{AD}\times\overrightarrow{AP}$ 和 $\overrightarrow{AP}\times\overrightarrow{AB}$，所以平行兩者的外積 $-20(2,2,-1)$；長度 6 → $\overrightarrow{AP}=\pm(4,4,-2)$。體積 10，離 A 最遠的是 S，距離 $\sqrt{94}$。
   reference: |
-    ① 求 AP：AP 和 AD×AP、AP×AB 都垂直，所以 AP 平行 (AD×AP)×(AP×AB)＝(−2,0,−4)×(6,−10,−8)＝(−40,−40,20)＝−20(2,2,−1)。|(2,2,−1)|＝3，而 AP 長 6 → AP＝±(4,4,−2)。
-    ② 體積＝|AP·(AB×AD)|＝|(4,4,−2)·(−5,5,5)|＝|−20＋20−10|＝10。
-    ③ 求 AB、AD（取 AP＝(4,4,−2)；取負號時 AB、AD 也一起變號，距離不變）：AB 同時垂直 AB×AD 和 AP×AB，平行 (−5,5,5)×(6,−10,−8)＝10(1,−1,2)。設 AB＝t(1,−1,2)，代入 AP×AB＝(6,−10,−8) 得 t＝1，AB＝(1,−1,2)。同理 AD 平行 (−5,5,5)×(−2,0,−4)＝−10(2,3,−1)，代入 AD×AP＝(−2,0,−4) 得 AD＝(2,3,−1)。
-    ④ 平行六面體上離 A 最遠的點一定是頂點。A 到各頂點：AB＝(1,−1,2)、AD＝(2,3,−1)、AP＝(4,4,−2)、AC＝AB＋AD＝(3,2,1)、AQ＝AB＋AP＝(5,3,0)、AS＝AD＋AP＝(6,7,−3)、AR＝AB＋AD＋AP＝(7,6,−1)。
-    長度依序是 √6、√14、6、√14、√34、√94、√86 → 最長距離是 √94（A 到 S）。
+    ① 求 $\overrightarrow{AP}$：$\overrightarrow{AP}$ 和 $\overrightarrow{AD}\times\overrightarrow{AP}$、$\overrightarrow{AP}\times\overrightarrow{AB}$ 都垂直，所以 $\overrightarrow{AP}$ 平行 $(\overrightarrow{AD}\times\overrightarrow{AP})\times(\overrightarrow{AP}\times\overrightarrow{AB})=(-2,0,-4)\times(6,-10,-8)=(-40,-40,20)=-20(2,2,-1)$。$|(2,2,-1)|=3$，而 $\overrightarrow{AP}$ 長 6 → $\overrightarrow{AP}=\pm(4,4,-2)$。
+    ② 體積 $=|\overrightarrow{AP}\cdot(\overrightarrow{AB}\times\overrightarrow{AD})|=|(4,4,-2)\cdot(-5,5,5)|=|-20+20-10|=10$。
+    ③ 求 $\overrightarrow{AB}$、$\overrightarrow{AD}$（取 $\overrightarrow{AP}=(4,4,-2)$；取負號時 $\overrightarrow{AB}$、$\overrightarrow{AD}$ 也一起變號，距離不變）：$\overrightarrow{AB}$ 同時垂直 $\overrightarrow{AB}\times\overrightarrow{AD}$ 和 $\overrightarrow{AP}\times\overrightarrow{AB}$，平行 $(-5,5,5)\times(6,-10,-8)=10(1,-1,2)$。設 $\overrightarrow{AB}=t(1,-1,2)$，代入 $\overrightarrow{AP}\times\overrightarrow{AB}=(6,-10,-8)$ 得 $t=1$，$\overrightarrow{AB}=(1,-1,2)$。同理 $\overrightarrow{AD}$ 平行 $(-5,5,5)\times(-2,0,-4)=-10(2,3,-1)$，代入 $\overrightarrow{AD}\times\overrightarrow{AP}=(-2,0,-4)$ 得 $\overrightarrow{AD}=(2,3,-1)$。
+    ④ 平行六面體上離 A 最遠的點一定是頂點。A 到各頂點：$\overrightarrow{AB}=(1,-1,2)$、$\overrightarrow{AD}=(2,3,-1)$、$\overrightarrow{AP}=(4,4,-2)$、$\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{AD}=(3,2,1)$、$\overrightarrow{AQ}=\overrightarrow{AB}+\overrightarrow{AP}=(5,3,0)$、$\overrightarrow{AS}=\overrightarrow{AD}+\overrightarrow{AP}=(6,7,-3)$、$\overrightarrow{AR}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AP}=(7,6,-1)$。
+    長度依序是 $\sqrt{6}$、$\sqrt{14}$、6、$\sqrt{14}$、$\sqrt{34}$、$\sqrt{94}$、$\sqrt{86}$ → 最長距離是 $\sqrt{94}$（A 到 S）。
     注意：離 A 最遠的不一定是「對角」的頂點 R，這題 AS 比 AR 長，一定要每個頂點都算。
-    評分重點（大考中心評分原則）：要正確求出 AP、體積、AB 與 AD，並比較各頂點的距離得到 √94，四項都對才滿分；只完成前面幾步可得部分分數。
+    評分重點（大考中心評分原則）：要正確求出 $\overrightarrow{AP}$、體積、$\overrightarrow{AB}$ 與 $\overrightarrow{AD}$，並比較各頂點的距離得到 $\sqrt{94}$，四項都對才滿分；只完成前面幾步可得部分分數。

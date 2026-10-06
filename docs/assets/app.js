@@ -462,6 +462,7 @@ function showChoiceResult(sess, entry, it, rec) {
   }
   if (rec.correct && it.P != null && it.P < 40) trap = `這題全國只有 ${it.P}% 答對，很厲害！`;
   fb.innerHTML = feedbackHTML(it, cls, head, trap);
+  renderTex(fb);
   dockNext(sess);
 }
 
@@ -470,10 +471,21 @@ function feedbackHTML(it, cls, head, extra = "") {
   return `<div class="fb ${cls}">
     <h3>${head}</h3>
     ${extra ? `<div class="small">${esc(extra)}</div>` : ""}
-    ${it.k ? `<p class="keyline">💡 ${esc(it.k)}</p>` : ""}
+    ${it.k ? `<p class="keyline">💡 ${it.k}</p>` : ""}
     ${tags ? `<div>${tags}</div>` : ""}
     <details class="ex"><summary>看完整解析</summary><div class="body">${it.ex || '<p class="muted">解析整理中，先看上面的重點，或請老師在課堂講解。</p>'}</div></details>
   </div>`;
+}
+
+// 解析裡的數學式：build.py 把 $…$ 轉成 <span class="tex">，這裡用 KaTeX 排版（沒載入時保留原文）
+function renderTex(root) {
+  if (!root || !window.katex) return;
+  root.querySelectorAll("span.tex:not([data-done])").forEach((el) => {
+    try {
+      window.katex.render(el.textContent, el, { throwOnError: false });
+    } catch (e) { /* 排版失敗就保留原文 */ }
+    el.dataset.done = "1";
+  });
 }
 
 function findConcept(s, cid) {
@@ -518,6 +530,7 @@ function showSimpleResult(sess, it, rec, extra) {
   const cls = rec.correct ? "ok" : rec.score > 0 ? "part" : "bad";
   const head = rec.correct ? "✅ 答對了！" : rec.score > 0 ? `🟡 得 ${fmtScore(rec.score)}／${it.p} 分` : "❌ 再想想";
   app.querySelector("#feedback").innerHTML = feedbackHTML(it, cls, head, extra);
+  renderTex(app.querySelector("#feedback"));
   dockNext(sess);
 }
 
@@ -532,8 +545,10 @@ function renderOpen(sess, entry, it, rec) {
         <button class="btn" data-v="0">0 分</button><button class="btn" data-v="${it.p / 2}">部分 ${it.p / 2} 分</button><button class="btn" data-v="${it.p}">完整 ${it.p} 分</button></div>`}</div>`;
     if (rec) {
       app.querySelector("#feedback").insertAdjacentHTML("beforeend", feedbackHTML(it, rec.correct ? "ok" : "part", `自評 ${fmtScore(rec.score)}／${it.p} 分`));
+      renderTex(app.querySelector("#feedback"));
       return dockNext(sess);
     }
+    renderTex(app.querySelector("#feedback"));
     dock.innerHTML = "";
     app.querySelectorAll(".selfscore .btn").forEach((b) =>
       b.addEventListener("click", () => {

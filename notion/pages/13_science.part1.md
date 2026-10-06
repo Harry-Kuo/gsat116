@@ -22,7 +22,7 @@
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8117b32fdd1004e01157"/>　全國答對率 42%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81fbb006dd31c956746e"/>　全國答對率 65%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81adb4c4e579211665e5"/>　全國答對率 38%
-- **電磁學**：電場 E＝F/q；變化的磁場產生感應電流（電磁感應）。
+- **電磁學**：電場 $`E=\dfrac{F}{q}`$；變化的磁場產生感應電流（電磁感應）。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f814bac3ec0b08178cfa4"/>　全國答對率 45%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f812584f5d446893b7472"/>　全國答對率 83%
 	- <mention-page url="https://app.notion.com/p/3ebee100984f8141b65cd6cd0c934fa3"/>　全國答對率 42%
@@ -39,7 +39,7 @@
 ### 化學
 - **化學計量與熱化學**：先換算莫耳數，再乘上每莫耳的熱量；有沒有達到熔點、沸點決定要不要加相變熱。
 	- 每日練習共 12 題，依日期列在下方「📝 每日練習」。
-- **酸鹼與溶液**：指示劑顏色對應 pH 範圍；\[H⁺\] 越大 pH 越小。
+- **酸鹼與溶液**：指示劑顏色對應 pH 範圍；$`[\mathrm{H^+}]`$ 越大 pH 越小。
 	- 每日練習共 9 題，依日期列在下方「📝 每日練習」。
 - **原子結構與週期表**：同週期由左而右半徑變小、陰電性變大；鹼金屬易失去一個電子。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f817b816bd2b3cdbc22d9"/>　全國答對率 62%

@@ -31,6 +31,7 @@ PART_LIMIT = 14000
 
 # ---------- 行內格式與區塊 ----------
 _ESC = re.compile(r"([\\*~`$\[\]<>{}|^])")
+_MATH = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")  # 解析、重點整理裡用 $…$ 包起來的 LaTeX 數學式
 _TAG = re.compile(r"""<(/?)(u|em|b|strong|i|br|span|div|p|ruby|rt)(?:\s+[A-Za-z-]+(?:=(?:"[^"]*"|'[^']*'|[^\s"'<>]+))?)*\s*/?>""")  # 屬性須為 name="值"，避免誤認數學不等式
 _SUP = ("0123456789+-−=()n", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁻⁼⁽⁾ⁿ")
 _SUB = ("0123456789+-−=()", "₀₁₂₃₄₅₆₇₈₉₊₋₋₌₍₎")
@@ -52,8 +53,18 @@ def _supsub(s):
     return re.sub(r"<(sup|sub)>(.*?)</\1>", rep, s)
 
 
-def inline(s):
-    """題庫文字 → Notion 行內格式：保留底線、粗體與換行，其餘特殊字元跳脫。"""
+def inline(s, math=False):
+    """題庫文字 → Notion 行內格式：保留底線、粗體與換行，其餘特殊字元跳脫。
+    math＝True（解析、重點整理）時，$…$ 變成 Notion 的行內數學式 $`…`$，\$ 是一般的錢字號。"""
+    s = str(s or "")
+    if math and "$" in s:
+        parts = _MATH.split(s)
+        out = [("$`" + p + "`$") if i % 2 else _inline(p.replace("\\$", "$"), strip=False) for i, p in enumerate(parts)]
+        return "".join(out).strip()
+    return _inline(s)
+
+
+def _inline(s, strip=True):
     s = _supsub(str(s or "").replace("［圖］", "［附圖請見原卷］").replace("\n", "<br>"))
     out, pos = [], 0
     for m in _TAG.finditer(s):
@@ -69,10 +80,11 @@ def inline(s):
             out.append("<br>")
         pos = m.end()
     out.append(esc(s[pos:]))
-    return "".join(out).strip()
+    res = "".join(out)
+    return res.strip() if strip else res
 
 
-_MD_TOKEN = re.compile(r"(\*\*|\[[^\]]+\]\([^)\s]+\)|`[^`]+`)")
+_MD_TOKEN = re.compile(r"((?<!\\)\$[^$]+(?<!\\)\$|\*\*|\[[^\]]+\]\([^)\s]+\)|`[^`]+`)")
 
 
 def md_inline(s):
@@ -83,6 +95,8 @@ def md_inline(s):
             continue
         if part == "**" or part.startswith("`"):
             out.append(part)
+        elif part.startswith("$") and _MD_TOKEN.fullmatch(part):
+            out.append("$`" + part[1:-1] + "`$")
         elif part.startswith("[") and _MD_TOKEN.fullmatch(part):
             text, url = re.match(r"\[([^\]]+)\]\(([^)\s]+)\)", part).groups()
             out.append(f"[{esc(text)}]({url.replace('{{SITE}}', SITE)})")
@@ -142,19 +156,19 @@ def html_table(h):
     return table([[inline(t) for _, t in r] for r in grid], header=header)
 
 
-def text_blocks(text):
-    """題庫的多行文字 → 段落、表格、引文框。"""
+def text_blocks(text, math=False):
+    """題庫的多行文字 → 段落、表格、引文框。math＝True 時 $…$ 是數學式（解析、參考答案）。"""
     out = []
     for line in str(text or "").split("\n"):
         line = line.strip()
         if not line:
             continue
         if line.startswith("【框】"):
-            out.append("> " + inline(line[3:]))
+            out.append("> " + inline(line[3:], math))
         elif line.startswith("<table"):
             out.append(html_table(line))
         else:
-            out.append(inline(line))
+            out.append(inline(line, math))
     return out
 
 
@@ -263,13 +277,13 @@ def question_body(it, subject, groups, published, shown=None):
     ans = []
     if it["type"] == "open":
         if it.get("key"):
-            ans.append("💡 " + inline(it["key"]))
-        ans += text_blocks(it.get("reference") or "參考答案見大考中心評分原則。")
+            ans.append("💡 " + inline(it["key"], math=True))
+        ans += text_blocks(it.get("reference") or "參考答案見大考中心評分原則。", math=True)
     else:
         ans.append(f"**答案：{esc(answer_text(it))}**")
         if it.get("key"):
-            ans.append("💡 " + inline(it["key"]))
-        ans += text_blocks(it.get("explain") or "（解析整理中）")
+            ans.append("💡 " + inline(it["key"], math=True))
+        ans += text_blocks(it.get("explain") or "（解析整理中）", math=True)
     if stats_line(it):
         ans.append(stats_line(it))
     blocks.append(toggle("✅ 看答案與解析", ans))
@@ -401,7 +415,7 @@ def skeleton_page(subject, structure, focus, focus_raw=False):
     for mod in concepts["modules"]:
         b.append(f"### {esc(mod['name'])}")
         for c in mod["concepts"]:
-            line = f"- **{esc(c['name'])}**：{inline(c.get('summary', ''))}"
+            line = f"- **{esc(c['name'])}**：{inline(c.get('summary', ''), math=True)}"
             qs = [items[q] for q in week if c["id"] in (items[q].get("concepts") or [])]
             if len(qs) > 8:
                 qs_lines = [f"\t- 每日練習共 {len(qs)} 題，依日期列在下方「📝 每日練習」。"]
@@ -525,12 +539,12 @@ def math_notes_page(subject):
             n = notes.get(c["id"])
             if not n:
                 continue
-            ch = [callout("💡", [inline(c.get("summary", ""))]), "**📌 必背**"]
-            ch += [f"- {inline(x)}" for x in n.get("must") or []]
+            ch = [callout("💡", [inline(c.get("summary", ""), math=True)]), "**📌 必背**"]
+            ch += [f"- {inline(x, math=True)}" for x in n.get("must") or []]
             ch.append("**🧭 解題流程**")
-            ch += [f"{i}. {inline(x)}" for i, x in enumerate(n.get("steps") or [], 1)]
+            ch += [f"{i}. {inline(x, math=True)}" for i, x in enumerate(n.get("steps") or [], 1)]
             ch.append("**⚠️ 容易錯的地方**")
-            ch += [f"- {inline(x)}" for x in n.get("traps") or []]
+            ch += [f"- {inline(x, math=True)}" for x in n.get("traps") or []]
             qs = sorted((items[q] for q in done if c["id"] in (items[q].get("concepts") or [])
                          and (items[q].get("stats") or {}).get("P") is not None), key=lambda it: it["stats"]["P"])[:3]
             if qs:
@@ -571,14 +585,14 @@ def notes_page(subject, mod_id):
         n = notes.get(c["id"])
         if not n:
             continue
-        ch = [callout("💡", [inline(n.get("summary") or c.get("summary", ""))]), "**📌 必背**"]
-        ch += [f"- {inline(x)}" for x in n.get("must") or []]
+        ch = [callout("💡", [inline(n.get("summary") or c.get("summary", ""), math=True)]), "**📌 必背**"]
+        ch += [f"- {inline(x, math=True)}" for x in n.get("must") or []]
         for t in n.get("tables") or []:
-            ch += [f"**📋 {inline(t['title'])}**", table([[inline(x) for x in r] for r in t["rows"]])]
+            ch += [f"**📋 {inline(t['title'], math=True)}**", table([[inline(x, math=True) for x in r] for r in t["rows"]])]
         ch.append(f"**🧭 {STEP_TITLE[subject]}**")
-        ch += [f"{i}. {inline(x)}" for i, x in enumerate(n.get("steps") or [], 1)]
+        ch += [f"{i}. {inline(x, math=True)}" for i, x in enumerate(n.get("steps") or [], 1)]
         ch.append("**⚠️ 容易錯的地方**")
-        ch += [f"- {inline(x)}" for x in n.get("traps") or []]
+        ch += [f"- {inline(x, math=True)}" for x in n.get("traps") or []]
         qs = sorted((items[q] for q in done if c["id"] in (items[q].get("concepts") or [])
                      and (items[q].get("stats") or {}).get("P") is not None and MAP.get(f"q:{q}")),
                     key=lambda it: it["stats"]["P"])[:3]

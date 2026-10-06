@@ -10,7 +10,7 @@
 ## 🎯 觀念大綱與每日練習考古題
 每個觀念底下列出每日練習做到的考古題；點開可以看題目、答案與解析。
 ### 數與函數
-- **數與式、指數對數**：指數、對數先化成同底，再比較指數；高斯記號 \[x\] 要一個一個代值確認。
+- **數與式、指數對數**：指數、對數先化成同底，再比較指數；高斯記號 $`[x]`$ 要一個一個代值確認。
 	- 每日練習共 18 題，依日期列在下方「📝 每日練習」。
 - **多項式與二次函數**：多項式看首項係數與對稱中心；二次函數先配方找頂點。
 	- 每日練習共 10 題，依日期列在下方「📝 每日練習」。
@@ -40,7 +40,7 @@
 	- <mention-page url="https://app.notion.com/p/3ebee100984f81629f30c5ab4a19786c"/>　全國答對率 67%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81b098d3d4526d0077a8"/>　全國答對率 21%
 ### 機率統計與計數
-- **機率與統計**：期望值＝Σ（值×機率）；條件機率＝交集／條件；迴歸直線與標準化分數是常考。
+- **機率與統計**：$`\text{期望值}=\sum(\text{值}\times\text{機率})`$；$`\text{條件機率}=\dfrac{\text{交集}}{\text{條件}}`$；迴歸直線與標準化分數是常考。
 	- 每日練習共 19 題，依日期列在下方「📝 每日練習」。
 - **排列組合**：先分類再計數，注意「相同結果」只算一次；綁在一起的排列先排區塊。
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f816f8934d9befa3b9356"/>　全國答對率 56%
@@ -202,12 +202,4 @@
 	- <mention-page url="https://app.notion.com/p/3ecee100984f814faf02c871f7475db6"/>　全國答對率 64%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81fb89f7e54aad095144"/>　全國答對率 38%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81279e6be8bb5e9b061d"/>　全國答對率 21%
-</details>
-<details>
-<summary>**Day 20**　10/19（一）　機率與統計</summary>
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81eb8383fae5505f7083"/>　全國答對率 12%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81d68325e589f5456239"/>　全國答對率 46%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81e39e52df1c0cbb6660"/>　全國答對率 23%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81af806fce513f553532"/>　全國答對率 13%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f8108ab76f1c6493c5620"/>　全國答對率 61%
 </details>
