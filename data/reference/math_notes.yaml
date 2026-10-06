@@ -11,6 +11,12 @@ mathA:
       - 換底：$\log_a b=\dfrac{\log b}{\log a}$；$\log_a b\cdot\log_b c=\log_a c$。
       - 位數：正數 N 的整數部分是 k 位數 ⇔ $k-1\le\log N<k$；首位數字看 $\log N$ 的小數部分。
       - 絕對值：$|x-a|$ 是數線上 x 到 a 的距離；$|x-a|\le r$ ⇔ $a-r\le x\le a+r$。
+      - 乘法公式：$(a\pm b)^3=a^3\pm3a^2b+3ab^2\pm b^3$；$a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2)$。
+      - 分母有理化：$\dfrac{1}{\sqrt{a}+\sqrt{b}}=\dfrac{\sqrt{a}-\sqrt{b}}{a-b}$（分子、分母同乘 $\sqrt{a}-\sqrt{b}$）。
+      - 算幾不等式：$a\ge0$、$b\ge0$ 時 $\dfrac{a+b}{2}\ge\sqrt{ab}$，等號在 $a=b$ 時成立；兩數的和固定時，相等時乘積最大；乘積固定時，相等時和最小。
+      - 科學記號：正數都能寫成 $a\times10^n$（$1\le a<10$，n 是整數），$\log(a\times10^n)=n+\log a$；n 決定位數，$\log a$（介於 0 和 1 之間）決定首位數字。
+      - 指數函數 $y=a^x$ 的圖形都在 x 軸上方、通過 $(0,1)$；對數函數 $y=\log_a x$ 的圖形都在 y 軸右側、通過 $(1,0)$；兩者對稱於直線 $y=x$。$a>1$ 時兩者都遞增，$0<a<1$ 時都遞減。
+      - 按比例成長或衰退：每期變成 r 倍，n 期後是 $A_0\cdot r^n$；半衰期是 T 的物質，經過時間 t 剩下 $A_0\cdot\left(\dfrac{1}{2}\right)^{t/T}$。
     steps:
       - 比較大小：先化成同底的指數或對數；底數 $>1$ 時函數遞增，$0<\text{底數}<1$ 時遞減。
       - 解指數方程式：令 $t=a^x$（$t>0$），換成多項式方程式；解完檢查 t 是不是正的。
@@ -19,6 +25,7 @@ mathA:
       - 底數介於 0 和 1 之間時，兩邊取指數或對數後，不等號要變向。
       - 對數的真數一定要大於 0，解出來的值要回代檢查。
       - 考卷附 $\log2\approx0.3010$、$\log3\approx0.4771$、$\log5\approx0.6990$、$\log7\approx0.8451$，估算時直接用。
+      - 算幾不等式要兩數都不是負的，而且等號要能成立，最大值或最小值才取得到。
   M2:
     must:
       - 除法原理：$f(x)=g(x)\cdot q(x)+r(x)$，餘式 $r(x)$ 的次數比除式 $g(x)$ 低。
@@ -26,6 +33,9 @@ mathA:
       - 二次函數配方：$y=a(x-h)^2+k$，頂點 $(h,k)$；$a>0$ 開口向上、最小值 k。
       - $ax^2+bx+c=0$：判別式 $b^2-4ac$ 決定實根個數；兩根和 $=-\dfrac{b}{a}$、兩根積 $=\dfrac{c}{a}$。
       - 三次函數 $y=ax^3+bx^2+cx+d$ 的圖形對稱於點 $\left(-\dfrac{b}{3a},f\left(-\dfrac{b}{3a}\right)\right)$。
+      - 三次函數的局部近似：用綜合除法連續除以 $x-h$，把 $f(x)$ 寫成 $a(x-h)^3+b(x-h)^2+c(x-h)+d$，圖形在 $x=h$ 附近近似直線 $y=c(x-h)+d$。
+      - 每個三次函數都是 $y=ax^3+px$ 的圖形平移而來（把對稱中心移到原點）；x 很大或很小時，圖形的走勢由最高次項決定。
+      - 數線上的分點：A、B 的坐標是 a、b，P 在 $\overline{AB}$ 上且 $\overline{AP}:\overline{PB}=m:n$，則 P 的坐標 $=\dfrac{na+mb}{m+n}$；內插法就是用分點公式估計兩個已知數值之間的值。
     steps:
       - 求餘式：除式是一次式就代值；除式是二次式，設餘式為 $px+q$，再代入兩個根解聯立。
       - 解多項式不等式：因式分解 → 在數線上標出所有根 → 最右邊的正負由最高次項係數決定，往左每過一個根變號一次。
@@ -41,6 +51,10 @@ mathA:
       - 正弦定理 $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$、餘弦定理 $c^2=a^2+b^2-2ab\cos C$（考卷附）；三角形面積 $=\dfrac{1}{2}ab\sin C$。
       - $y=a \sin(bx+c)+d$：振幅 $|a|$、週期 $\dfrac{2\pi}{|b|}$、上下平移 d。
       - 疊合：$a \sin x+b \cos x=\sqrt{a^2+b^2}\cdot\sin(x+\varphi)$，最大值 $\sqrt{a^2+b^2}$、最小值 $-\sqrt{a^2+b^2}$。
+      - 廣義角的三角比：終邊在第一象限時三者都是正的；第二象限只有 $\sin$ 是正的；第三象限只有 $\tan$ 是正的；第四象限只有 $\cos$ 是正的。
+      - 極坐標 $[r,\theta]$：到原點的距離是 r，從 x 軸正向逆時針轉 $\theta$；換成直角坐標是 $(r\cos\theta,r\sin\theta)$，反過來 $r=\sqrt{x^2+y^2}$。
+      - 半角公式：$\sin^2\dfrac{\theta}{2}=\dfrac{1-\cos\theta}{2}$、$\cos^2\dfrac{\theta}{2}=\dfrac{1+\cos\theta}{2}$。
+      - $y=\sin x$、$y=\cos x$ 的週期是 $2\pi$、值域是 $-1\le y\le1$；$y=\tan x$ 的週期是 $\pi$。
     steps:
       - 解三角方程式或不等式：用倍角或疊合化成同一個三角函數 → 解出 $\sin\theta$ 或 $\cos\theta$ 的範圍 → 在單位圓上找出對應的角。
       - 解三角形：已知兩角一邊、兩邊一對角用正弦定理；已知三邊、兩邊夾角用餘弦定理。
@@ -54,6 +68,7 @@ mathA:
       - 等比數列 $a_n=a_1\cdot r^{n-1}$；前 n 項和 $S_n=\dfrac{a_1(1-r^n)}{1-r}$，$r\ne1$（考卷附）。
       - $1+2+\ldots+n=\dfrac{n(n+1)}{2}$；$1^2+2^2+\ldots+n^2=\dfrac{n(n+1)(2n+1)}{6}$；$1^3+2^3+\ldots+n^3=\left[\dfrac{n(n+1)}{2}\right]^2$。
       - 三數成等差：中間項是兩旁的平均；三數成等比：中間項的平方＝兩旁的乘積。
+      - $\sum$ 的性質：$\sum_{k=1}^{n}(a_k+b_k)=\sum_{k=1}^{n}a_k+\sum_{k=1}^{n}b_k$；$\sum_{k=1}^{n}c\cdot a_k=c\sum_{k=1}^{n}a_k$；$\sum_{k=1}^{n}c=nc$。
     steps:
       - 遞迴式 $a_{n+1}=p\cdot a_n+q$（$p\ne1$）：解 $c=pc+q$ 得到 c，則 $a_{n+1}-c=p(a_n-c)$，$a_n-c$ 是公比 p 的等比數列。
       - 找規律：先列出 $n=1$、2、3、4 的值，看差或比，猜出一般項後再驗證。
@@ -68,6 +83,8 @@ mathA:
       - 圓 $(x-h)^2+(y-k)^2=r^2$；圓心到直線的距離 d：$d<r$ 交兩點、$d=r$ 相切、$d>r$ 不相交；弦長 $=2\sqrt{r^2-d^2}$。
       - 線段的中垂線：通過中點，斜率是線段斜率的負倒數；中垂線上的點到兩端點等距。
       - $ax+by+c>0$ 表示直線某一側的區域：代一個不在直線上的點（常用原點）檢查。
+      - 對稱點：$(a,b)$ 對 x 軸是 $(a,-b)$，對 y 軸是 $(-a,b)$，對原點是 $(-a,-b)$，對直線 $y=x$ 是 $(b,a)$。
+      - 圓的切線和通過切點的半徑垂直；從圓外一點可以作兩條切線，兩條切線段一樣長。
     steps:
       - 先把條件畫在坐標平面上，再決定用距離、斜率還是代入。
       - 求圓：圓心在某條直線上，就用參數設圓心，再用「圓心到切線的距離＝半徑」列方程式。
@@ -84,6 +101,13 @@ mathA:
       - 外積 $\overrightarrow{a}\times\overrightarrow{b}$ 同時垂直 $\overrightarrow{a}$ 和 $\overrightarrow{b}$，長度＝$\overrightarrow{a}$、$\overrightarrow{b}$ 所張平行四邊形的面積；平行六面體體積 $=|\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{c})|$＝三階行列式的絕對值。
       - 平面：法向量 $(a,b,c)$、過 $(x_0,y_0,z_0)$ → $a(x-x_0)+b(y-y_0)+c(z-z_0)=0$；點到平面 $ax+by+cz+d=0$ 的距離 $=\dfrac{|ax_0+by_0+cz_0+d|}{\sqrt{a^2+b^2+c^2}}$。
       - 空間直線的參數式：$(x,y,z)=(x_0+at,y_0+bt,z_0+ct)$，$(a,b,c)$ 是方向向量。
+      - 三角不等式：$|\overrightarrow{a}+\overrightarrow{b}|\le|\overrightarrow{a}|+|\overrightarrow{b}|$，等號在兩向量同方向時成立；實數也有 $|a+b|\le|a|+|b|$。
+      - 柯西不等式：$(a_1b_1+a_2b_2)^2\le(a_1^2+a_2^2)(b_1^2+b_2^2)$（空間再加上第三項），等號在兩向量平行時成立；用來求 $x^2+y^2$ 固定時 $ax+by$ 的最大值、最小值。
+      - 平面向量的線性組合：$\overrightarrow{OP}=\alpha\overrightarrow{OA}+\beta\overrightarrow{OB}$，$\alpha+\beta=1$ ⇔ P 在直線 AB 上；$\alpha\ge0$、$\beta\ge0$ 且 $\alpha+\beta\le1$ ⇔ P 在 $\triangle OAB$ 的內部或邊上。
+      - 空間坐標：點 $(x,y,z)$ 在 xy 平面上的投影是 $(x,y,0)$，到 z 軸的距離是 $\sqrt{x^2+y^2}$；兩點距離 $=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}$。
+      - 三垂線定理：$\overline{PA}$ 垂直平面 E 於 A，E 上的直線 L 和 $\overline{AB}$ 垂直於 B，則 $\overline{PB}\perp L$；常用來求點到直線的距離或兩面角。
+      - 兩平面的夾角＝兩個法向量的夾角（或它的補角）；空間直線的比例式 $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$。
+      - 兩歪斜線的距離：兩條直線方向向量的外積同時垂直兩線，兩線上各取一點，連線向量在這個外積上的投影長就是距離。
     steps:
       - 幾何條件翻成向量：垂直 → 內積為 0；共線 → 一個向量是另一個的倍數；面積、體積 → 外積、行列式。
       - 求平面：找出平面上的兩個向量，外積得到法向量，再代入一點。
@@ -98,12 +122,19 @@ mathA:
       - $(AB)^{-1}=B^{-1}A^{-1}$（順序相反）；$\det(AB)=\det A\cdot\det B$。
       - 聯立方程式寫成 $AX=B$：$\det A\ne0$ 時恰有一組解 $X=A^{-1}B$。
       - A 乘上行向量 $(x,y,z)^T=x\cdot(\text{A 的第 1 行})+y\cdot(\text{第 2 行})+z\cdot(\text{第 3 行})$。
+      - 克拉瑪公式：$\begin{cases}a_1x+b_1y=c_1\\a_2x+b_2y=c_2\end{cases}$，令 $\Delta=\begin{vmatrix}a_1&b_1\\a_2&b_2\end{vmatrix}$、$\Delta_x=\begin{vmatrix}c_1&b_1\\c_2&b_2\end{vmatrix}$、$\Delta_y=\begin{vmatrix}a_1&c_1\\a_2&c_2\end{vmatrix}$；$\Delta\ne0$ 時恰有一組解 $x=\dfrac{\Delta_x}{\Delta}$、$y=\dfrac{\Delta_y}{\Delta}$。
+      - $\Delta=0$ 時兩直線平行或重合：$\Delta_x$、$\Delta_y$ 至少一個不是 0 → 無解（平行）；$\Delta_x=\Delta_y=0$ → 無限多組解（重合）。
+      - 三元一次聯立方程式：用消去法（對增廣矩陣做列運算）化成階梯形，再由最後一式往回代。
+      - 平面上的線性變換：逆時針旋轉 $\theta$ 是 $\begin{bmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{bmatrix}$；對 x 軸鏡射是 $\begin{bmatrix}1&0\\0&-1\end{bmatrix}$；對直線 $y=x$ 鏡射是 $\begin{bmatrix}0&1\\1&0\end{bmatrix}$；伸縮是 $\begin{bmatrix}h&0\\0&k\end{bmatrix}$；沿 x 方向推移是 $\begin{bmatrix}1&k\\0&1\end{bmatrix}$。
+      - 線性變換 A 把圖形的面積變成 $|\det A|$ 倍；先做 A、再做 B 的合成變換是 $BA$（後做的寫在左邊）。
+      - 二階轉移矩陣：元素都不是負數，每一行的和是 1；$X_{n+1}=AX_n$，所以 $X_n=A^nX_0$；穩定狀態 X 滿足 $AX=X$，且 X 的兩個元素和為 1。
     steps:
       - 求 $A^n$：先算 $A^2$、$A^3$，找出規律或週期。
       - 已知 A 作用在幾個向量的結果：把要求的向量拆成這幾個向量的組合，再用 $A(s\overrightarrow{u}+t\overrightarrow{v})=sA\overrightarrow{u}+tA\overrightarrow{v}$。
     traps:
       - 矩陣乘法不能交換順序，左乘、右乘的結果不同。
       - 反方陣存在的條件是行列式不為 0。
+      - 先旋轉再鏡射，和先鏡射再旋轉，結果通常不同：合成變換要注意乘的順序。
   M6:
     must:
       - 古典機率 $P(A)=\dfrac{n(A)}{n(S)}$，前提是每個樣本點出現的機會相等。
@@ -113,6 +144,11 @@ mathA:
       - 期望值 $E=x_1p_1+x_2p_2+\cdots+x_np_n$。
       - 資料 $y=ax+b$：平均 $\mu_y=a\cdot\mu_x+b$、標準差 $\sigma_y=|a|\cdot\sigma_x$；$a>0$ 時相關係數不變，$a<0$ 時變號。
       - 迴歸直線 $y-\mu_y=r\cdot\dfrac{\sigma_y}{\sigma_x}\cdot(x-\mu_x)$，一定通過 $(\mu_x,\mu_y)$（考卷附）。
+      - 貝氏定理：$P(A\mid B)=\dfrac{P(A)\cdot P(B\mid A)}{P(A)\cdot P(B\mid A)+P(A')\cdot P(B\mid A')}$；分子是「A 發生而且得到 B」這條路徑的機率，分母是所有會得到 B 的路徑機率總和。
+      - 標準差 $\sigma=\sqrt{\dfrac{1}{n}\sum_{i=1}^{n}(x_i-\mu)^2}=\sqrt{\dfrac{1}{n}\sum_{i=1}^{n}x_i^2-\mu^2}$（考卷附）；標準化 $z=\dfrac{x-\mu}{\sigma}$，標準化後的資料平均是 0、標準差是 1。
+      - 相關係數 r 介於 $-1$ 和 1 之間，等於兩組資料標準化之後，對應乘積的平均（公式考卷附）。
+      - 第 k 百分位數：資料由小到大排，算 $n\times\dfrac{k}{100}$；不是整數就取下一個整數的位置，是整數 m 就取第 m 和第 $m+1$ 個的平均。
+      - 主觀機率也要符合機率的性質（每個事件的機率介於 0 和 1 之間，所有可能情形的機率和為 1）；客觀機率由大量資料的相對次數估計。
     steps:
       - 多階段的機率：畫樹狀圖，同一條路徑相乘，不同路徑相加。
       - 已知結果反推原因：$P(\text{原因}\mid\text{結果})=\dfrac{\text{這條路徑的機率}}{\text{所有得到這個結果的路徑機率總和}}$。
@@ -121,6 +157,7 @@ mathA:
       - 獨立和互斥不同：兩事件互斥、機率又都大於 0 時，一定不獨立。
       - 標準差不受「加減常數」影響，只受「乘除」影響。
       - 相關係數接近 0，只表示沒有「線性」關係。
+      - 貝氏定理的分母要把所有會得到這個結果的情況都加進來，不能只算其中一條路徑。
   M7:
     must:
       - 加法原理（分類，各類不重疊）；乘法原理（分步）。
@@ -129,6 +166,8 @@ mathA:
       - k 個位置、每個位置都有 m 種選擇：$m^k$ 種（重複排列）。
       - k 個相同的東西分給 n 個人（可以有人沒分到）：$C(n+k-1,k)$ 種（排 k 個東西和 $n-1$ 個隔板）。
       - 二項式定理：$(a+b)^n$ 展開式的第 $k+1$ 項是 $C(n,k)\cdot a^{n-k}\cdot b^k$。
+      - 取捨原理（排容原理）：$n(A\cup B)=n(A)+n(B)-n(A\cap B)$；$n(A\cup B\cup C)=n(A)+n(B)+n(C)-n(A\cap B)-n(B\cap C)-n(C\cap A)+n(A\cap B\cap C)$。
+      - 二項式係數：$C(n,0)+C(n,1)+\cdots+C(n,n)=2^n$；$C(n,k)=C(n,n-k)$。
     steps:
       - 先決定分類還是分步；有限制條件的先處理（指定位置、相鄰、不相鄰）。
       - 相鄰：先綁成一塊一起排，塊內再排；不相鄰：先排其他的，再插入空隙。
@@ -146,6 +185,14 @@ mathB:
       - 換底：$\log_a b=\dfrac{\log b}{\log a}$。
       - 位數：正數 N 的整數部分是 k 位數 ⇔ $k-1\le\log N<k$。
       - 絕對值：$|x-a|$ 是數線上 x 到 a 的距離；$|x-a|\le r$ ⇔ $a-r\le x\le a+r$。
+      - 乘法公式：$(a\pm b)^3=a^3\pm3a^2b+3ab^2\pm b^3$；$a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2)$。
+      - 分母有理化：$\dfrac{1}{\sqrt{a}+\sqrt{b}}=\dfrac{\sqrt{a}-\sqrt{b}}{a-b}$（分子、分母同乘 $\sqrt{a}-\sqrt{b}$）。
+      - 算幾不等式：$a\ge0$、$b\ge0$ 時 $\dfrac{a+b}{2}\ge\sqrt{ab}$，等號在 $a=b$ 時成立；兩數的和固定時，相等時乘積最大；乘積固定時，相等時和最小。
+      - 科學記號：正數都能寫成 $a\times10^n$（$1\le a<10$，n 是整數），$\log(a\times10^n)=n+\log a$；n 決定位數，$\log a$（介於 0 和 1 之間）決定首位數字。
+      - 指數函數 $y=a^x$ 的圖形都在 x 軸上方、通過 $(0,1)$；對數函數 $y=\log_a x$ 的圖形都在 y 軸右側、通過 $(1,0)$；兩者對稱於直線 $y=x$。$a>1$ 時兩者都遞增，$0<a<1$ 時都遞減。
+      - 複利：本金 P、年利率 r，一年複利 n 次，t 年後本利和 $P\left(1+\dfrac{r}{n}\right)^{nt}$；連續複利（n 趨近無限大）是 $Pe^{rt}$。
+      - 平均成長率：各期成長率是 $r_1$、$r_2$、…、$r_n$ 時，平均成長率 $=\sqrt[n]{(1+r_1)(1+r_2)\cdots(1+r_n)}-1$（幾何平均，不是算術平均）。
+      - 對數尺度：pH 差 1，$[\mathrm{H^+}]$ 差 10 倍；分貝差 10，聲音強度差 10 倍；芮氏地震規模差 1，振幅差 10 倍、能量約差 32 倍。題目給公式時，把兩個式子相減最快。
     steps:
       - 成長或衰退模型：每期變成原來的 $(1+r)$ 倍，n 期後是 $A_0\cdot(1+r)^n$；求期數就兩邊取對數。
       - 比較大小：化成同底；底數 $>1$ 時遞增，$0<\text{底數}<1$ 時遞減。
@@ -154,12 +201,16 @@ mathB:
       - 每期成長 4%，n 期後是乘 $(1.04)^n$，不是乘 $(1+0.04n)$。
       - $\ln\left(\dfrac{135}{100}\right)=\ln135-\ln100$，不是 $\ln(135-100)$：對數把除法變成減法。
       - 對數的真數一定要大於 0。
+      - 算幾不等式要兩數都不是負的，而且等號要能成立，最大值或最小值才取得到。
   B2:
     must:
       - 除法原理：$f(x)=g(x)\cdot q(x)+r(x)$，餘式的次數比除式低；餘式定理：$f(x)$ 除以 $x-a$ 的餘式是 $f(a)$。
       - 二次函數配方：$y=a(x-h)^2+k$，頂點 $(h,k)$；$a>0$ 開口向上。
       - $ax^2+bx+c=0$：判別式 $b^2-4ac$ 決定實根個數；兩根和 $=-\dfrac{b}{a}$、兩根積 $=\dfrac{c}{a}$。
       - 三次函數 $y=ax^3+bx^2+cx+d$ 的圖形對稱於點 $\left(-\dfrac{b}{3a},f\left(-\dfrac{b}{3a}\right)\right)$。
+      - 三次函數的局部近似：用綜合除法連續除以 $x-h$，把 $f(x)$ 寫成 $a(x-h)^3+b(x-h)^2+c(x-h)+d$，圖形在 $x=h$ 附近近似直線 $y=c(x-h)+d$。
+      - 每個三次函數都是 $y=ax^3+px$ 的圖形平移而來（把對稱中心移到原點）；x 很大或很小時，圖形的走勢由最高次項決定。
+      - 數線上的分點：A、B 的坐標是 a、b，P 在 $\overline{AB}$ 上且 $\overline{AP}:\overline{PB}=m:n$，則 P 的坐標 $=\dfrac{na+mb}{m+n}$；內插法就是用分點公式估計兩個已知數值之間的值。
     steps:
       - 求函數值或係數：代特殊值（$x=0$、1、$-1$）最快。
       - 解多項式不等式：因式分解 → 在數線上標出根 → 由最高次項係數決定最右邊的正負，往左依次變號。
@@ -174,6 +225,9 @@ mathB:
       - 正弦定理 $\dfrac{a}{\sin A}=2R$、餘弦定理 $c^2=a^2+b^2-2ab\cos C$（考卷附）；三角形面積 $=\dfrac{1}{2}ab\sin C$。
       - $y=a \sin(bx+c)+d$：振幅 $|a|$、週期 $\dfrac{2\pi}{|b|}$、上下平移 d。
       - 仰角、俯角：視線和水平線的夾角；方位角：從正北順時針量到目標方向的角。
+      - 廣義角的三角比：終邊在第一象限時三者都是正的；第二象限只有 $\sin$ 是正的；第三象限只有 $\tan$ 是正的；第四象限只有 $\cos$ 是正的。
+      - 極坐標 $[r,\theta]$：到原點的距離是 r，從 x 軸正向逆時針轉 $\theta$；換成直角坐標是 $(r\cos\theta,r\sin\theta)$，反過來 $r=\sqrt{x^2+y^2}$。
+      - 週期現象：頻率是週期的倒數，$y=a\sin(bx+c)+d$ 的頻率 $=\dfrac{|b|}{2\pi}$（每單位時間完成幾次循環）。
     steps:
       - 測量題：先畫圖，把已知的長度和角度標在三角形上，再選正弦或餘弦定理。
       - 週期現象（潮汐、日照、摩天輪）：由最高、最低點求振幅和中線，由一個完整週期的時間求 b。
@@ -184,6 +238,8 @@ mathB:
     must:
       - 等差數列 $a_n=a_1+(n-1)d$、$S_n=\dfrac{n(a_1+a_n)}{2}$；等比數列 $a_n=a_1\cdot r^{n-1}$、$S_n=\dfrac{a_1(1-r^n)}{1-r}$（考卷附）。
       - $1+2+\ldots+n=\dfrac{n(n+1)}{2}$；$1^2+2^2+\ldots+n^2=\dfrac{n(n+1)(2n+1)}{6}$。
+      - $\sum$ 的性質：$\sum_{k=1}^{n}(a_k+b_k)=\sum_{k=1}^{n}a_k+\sum_{k=1}^{n}b_k$；$\sum_{k=1}^{n}c\cdot a_k=c\sum_{k=1}^{n}a_k$；$\sum_{k=1}^{n}c=nc$。
+      - 數學歸納法：先驗證 $n=1$ 成立，再證明「$n=k$ 成立 ⇒ $n=k+1$ 也成立」，就能推得所有正整數 n 都成立。
     steps:
       - 遞迴式 $a_{n+1}=p\cdot a_n+q$（$p\ne1$）：解 $c=pc+q$ 得到 c，則 $a_n-c$ 是公比 p 的等比數列，會趨近 c（$|p|<1$ 時）。
       - 週期規律：兩個週期 p、q 同時回到起點，要經過 p、q 的最小公倍數。
@@ -198,6 +254,9 @@ mathB:
       - 線段的中垂線：通過中點，斜率是線段斜率的負倒數。
       - 圓 $(x-h)^2+(y-k)^2=r^2$；圓心到直線的距離 $d<r$ 交兩點、$d=r$ 相切、$d>r$ 不相交。
       - 頂點在原點、另兩點 $(x_1,y_1)$、$(x_2,y_2)$ 的三角形面積 $=\dfrac{1}{2}|x_1y_2-x_2y_1|$。
+      - 對稱點：$(a,b)$ 對 x 軸是 $(a,-b)$，對 y 軸是 $(-a,b)$，對原點是 $(-a,-b)$，對直線 $y=x$ 是 $(b,a)$。
+      - 圓的切線和通過切點的半徑垂直；從圓外一點可以作兩條切線，兩條切線段一樣長。
+      - 二元一次不等式 $ax+by+c>0$ 表示直線某一側的半平面：代一個不在直線上的點（常用原點）檢查。
     steps:
       - 先畫圖，把點、線放到坐標平面上，再決定用斜率、距離還是面積公式。
       - 平分面積的直線：先算總面積的一半，判斷直線會和哪一條邊相交，再設交點坐標列式。
@@ -210,6 +269,7 @@ mathB:
       - 線性組合：$\overrightarrow{OP}=\alpha\overrightarrow{OA}+\beta\overrightarrow{OB}$；$\alpha+\beta=1$ ⇔ P 在直線 AB 上；$0\le\alpha\le1$ 且 $0\le\beta\le1$ ⇔ P 在 OA、OB 所張的平行四邊形內（含邊界）。
       - 分點：$AP:PB=m:n$ ⇒ $\overrightarrow{OP}=\dfrac{n\overrightarrow{OA}+m\overrightarrow{OB}}{m+n}$。
       - 內積 $\overrightarrow{a}\cdot\overrightarrow{b}=a_1b_1+a_2b_2=|\overrightarrow{a}||\overrightarrow{b}|\cos\theta$；$\overrightarrow{a}\perp\overrightarrow{b}$ ⇔ $\overrightarrow{a}\cdot\overrightarrow{b}=0$。
+      - 正射影：$\overrightarrow{a}$ 在 $\overrightarrow{b}$ 上的正射影 $=\dfrac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{b}|^2}\overrightarrow{b}$；夾角 $\cos\theta=\dfrac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}||\overrightarrow{b}|}$；兩向量平行 ⇔ 一個是另一個的實數倍。
     steps:
       - 把向量寫成坐標，列出 $\alpha$、$\beta$ 的聯立方程式解出係數，再看係數的範圍判斷位置。
       - 求長度的最大值：讓兩個分量的絕對值同時最大（各分量可以分開調整時）。
@@ -220,6 +280,7 @@ mathB:
       - 矩陣乘法：AB 的第 $(i,j)$ 元＝A 的第 i 列和 B 的第 j 行對應相乘再相加；一般 $AB\ne BA$。
       - 二階方陣 $A=\begin{bmatrix}a&b\\c&d\end{bmatrix}$：$ad-bc\ne0$ 時 $A^{-1}=\dfrac{1}{ad-bc}\cdot\begin{bmatrix}d&-b\\-c&a\end{bmatrix}$。
       - A 乘上行向量 $(x,y)^T=x\cdot(\text{A 的第 1 行})+y\cdot(\text{第 2 行})$。
+      - 二元一次方程組可以寫成 $AX=B$：$\det A\ne0$ 時恰有一組解 $X=A^{-1}B$；$\det A=0$ 時無解或有無限多組解。
     steps:
       - 用矩陣表示「輸入 → 輸出」：$AX=Y$；已知輸出求輸入，就用反方陣 $X=A^{-1}Y$。
       - 表格資料轉矩陣：先確認列、行各代表什麼，乘法的維度要對得上。
@@ -233,6 +294,11 @@ mathB:
       - 球面上兩點之間的最短路徑，是通過這兩點的大圓上的劣弧。
       - 透視圖：和畫面平行的直線畫出來仍然平行；和畫面不平行的一組平行線，畫出來會交於同一個消失點。
       - 圓錐截痕：截面與軸線的夾角 $\beta$、圓錐半頂角 $\alpha$：$\beta=90^{\circ}$ 是圓、$\alpha<\beta<90^{\circ}$ 是橢圓、$\beta=\alpha$ 是拋物線、$\beta<\alpha$ 是雙曲線。
+      - 空間坐標：點 $(x,y,z)$ 在 xy 平面上的投影是 $(x,y,0)$；兩點距離 $=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}$。
+      - 經緯度換成空間坐標：球心在原點、半徑 R，z 軸指向北極、x 軸指向赤道和本初子午線的交點；北緯 $\theta$、東經 $\varphi$ 的點是 $(R\cos\theta\cos\varphi,R\cos\theta\sin\varphi,R\sin\theta)$。
+      - 長方體表面上兩點的最短路徑：把長方體展開成平面，兩點連成直線；不同的展開方式要比較，取最短的。
+      - 空間中兩直線的關係：相交、平行、歪斜（不平行也不相交）；直線垂直一個平面 ⇔ 直線垂直這個平面上兩條相交的直線。
+      - 平面上的比例：相似圖形對應邊成比例，面積比是邊長比的平方；例如 A 系列紙張（A3、A4）的長寬比是 $\sqrt{2}:1$，對摺後比例不變。
     steps:
       - 球面問題：畫出過地心的剖面（大圓）或緯線圓，再用弧長 $s=r\theta$ 或三角函數。
       - 截痕問題：先判斷 $\beta$ 和 $\alpha$ 的大小關係，再對應截痕的種類。
@@ -244,6 +310,9 @@ mathB:
       - 加法原理（分類）、乘法原理（分步）。
       - 排列 $\dfrac{n!}{(n-k)!}$；組合 $C(n,k)=\dfrac{n!}{k!(n-k)!}$；有相同物的排列 $\dfrac{n!}{p!\cdot q!\cdots}$。
       - k 個相同的東西分給 n 個人（可以有人沒分到）：$C(n+k-1,k)$ 種。
+      - k 個位置、每個位置都有 m 種選擇：$m^k$ 種（重複排列）。
+      - 取捨原理（排容原理）：$n(A\cup B)=n(A)+n(B)-n(A\cap B)$；$n(A\cup B\cup C)=n(A)+n(B)+n(C)-n(A\cap B)-n(B\cap C)-n(C\cap A)+n(A\cap B\cap C)$。
+      - 二項式定理：$(a+b)^n$ 展開式的第 $k+1$ 項是 $C(n,k)\cdot a^{n-k}\cdot b^k$；$C(n,0)+C(n,1)+\cdots+C(n,n)=2^n$，$C(n,k)=C(n,n-k)$。
     steps:
       - 相鄰的先綁成一塊再排，塊內再排；不相鄰的先排其他人，再插空隙。
       - 分組、分派：先滿足「每組都要有」的條件，再用補集扣掉不合的情形。
@@ -255,6 +324,9 @@ mathB:
       - 古典機率 $P(A)=\dfrac{n(A)}{n(S)}$（每個樣本點機會相等）；$P(A')=1-P(A)$。
       - $P(A\cup B)=P(A)+P(B)-P(A\cap B)$。
       - 條件機率 $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$；A、B 獨立 ⇔ $P(A\cap B)=P(A)\cdot P(B)$。
+      - 期望值 $E=x_1p_1+x_2p_2+\cdots+x_np_n$（每個可能的值乘上它的機率再相加）。
+      - 貝氏定理：$P(A\mid B)=\dfrac{P(A)\cdot P(B\mid A)}{P(A)\cdot P(B\mid A)+P(A')\cdot P(B\mid A')}$；分子是「A 發生而且得到 B」這條路徑的機率，分母是所有會得到 B 的路徑機率總和。
+      - 主觀機率也要符合機率的性質（每個事件的機率介於 0 和 1 之間，所有可能情形的機率和為 1）；客觀機率由大量資料的相對次數估計。
     steps:
       - 列聯表：設一個未知數把表格填滿（每列、每行的和要對），再把題目的條件翻成方程式或不等式。
       - 多階段的試驗：畫樹狀圖，路徑相乘、不同路徑相加。
@@ -262,11 +334,14 @@ mathB:
     traps:
       - 「A 之中有多少比例是 B」是條件機率，分母是 A，不是全體。
       - 獨立和互斥不同。
+      - 貝氏定理的分母要把所有會得到這個結果的情況都加進來，不能只算其中一條路徑。
   B11:
     must:
       - 中位數、第 k 百分位數：資料由小到大排，算 $n\times\dfrac{k}{100}$；不是整數就取下一個整數的位置，是整數 m 就取第 m 和第 $m+1$ 個的平均。
       - 標準差、相關係數、迴歸直線的公式考卷附；迴歸直線一定通過 $(\mu_x,\mu_y)$，斜率 $=r\cdot\dfrac{\sigma_y}{\sigma_x}$。
       - 資料 $y=ax+b$：平均變成 $a\cdot\mu_x+b$、標準差變成 $|a|\cdot\sigma_x$；$a>0$ 時相關係數不變，$a<0$ 時變號。
+      - 標準差 $\sigma=\sqrt{\dfrac{1}{n}\sum_{i=1}^{n}(x_i-\mu)^2}=\sqrt{\dfrac{1}{n}\sum_{i=1}^{n}x_i^2-\mu^2}$（考卷附）；標準化 $z=\dfrac{x-\mu}{\sigma}$，標準化後的資料平均是 0、標準差是 1。
+      - 相關係數 r 介於 $-1$ 和 1 之間，等於兩組資料標準化之後，對應乘積的平均（公式考卷附）。
     steps:
       - 看散布圖：點越接近一條直線，$|r|$ 越接近 1；斜向右上 $r>0$、右下 $r<0$。
       - 用迴歸直線預測：把 x 代入 $y-\mu_y=r\cdot\dfrac{\sigma_y}{\sigma_x}(x-\mu_x)$。
