@@ -1,0 +1,259 @@
+# 英文 Day 36–42 每日練習的解析（Claude 撰寫，老師審閱後可直接修改）
+# 「全國 N% 誤選」是大考中心公布的各選項選答率。
+
+# ---------- Day 36：閱讀測驗（111：工地安全帽）＋詞彙 ----------
+eng111-39:
+  key: 文中談了安全帽的功能、外觀（顏色）、材質，沒有談它的限制。
+  explain: |
+    這題選「沒有討論」的。
+    (A) 功能：保護頭部免受落物傷害、懸吊系統減少衝擊 → 有談（全國 6% 誤選）
+    (B) 外觀：黑漆、透明面罩、不同顏色代表不同角色 → 有談（全國 9% 誤選）
+    (C) 材質：帆布、皮革、鋁、玻璃纖維、熱塑性塑膠 → 有談（全國 12% 誤選）
+    (D) 限制：文中沒有提到安全帽的缺點或不足 ✓
+eng111-40:
+  key: 戰前塗煤焦油的帽子 → 1919 年帆布皮革 → 後來的玻璃纖維 → 最近加上透明面罩。
+  explain: |
+    d. 戰前工人在帽子上塗煤焦油（Before the war…coal tar）
+    c. 1919 年 Bullard 用蒸過的帆布和皮革做出第一頂安全帽
+    a. 一百年來材質從帆布皮革演變成鋁、玻璃纖維，再到熱塑性塑膠
+    b. 最近（Recently）推出新款，加裝透明面罩
+    (A) d → c → a → b ✓
+    (C) 把帆布皮革放在煤焦油之前（全國 11% 誤選）✗　(D) 透明面罩是最近才有的，應在玻璃纖維之後（全國 10% 誤選）✗
+eng111-41:
+  key: Bullard 一戰回來，親眼見過金屬頭盔救命 → 安全帽的靈感來自戰爭經驗。
+  explain: |
+    (B) 「having witnessed the life-saving power of the metal helmet in the War, decided to produce a head protection device…」✓
+    (D) 顏色代表的是同一工地上不同的角色（工人、主管、檢查員），不是不同產業（全國 33% 誤選）✗
+    (C) 胡佛水壩（1931）、金門大橋（1933）等大工程才規定要戴，不是 1920 年代就是標準配備（全國 11% 誤選）✗
+    (A) 2016 年 21 億、2025 年預估 31.9 億，不是每十年翻倍 ✗
+eng111-42:
+  key: 指安全帽的詞：helmet（第一句）、safety tool、headgear、head protection device。
+  explain: |
+    a. tool：「the number one safety tool」✓
+    c. device：「a head protection device」✓
+    d. helmet：「A hard hat is a helmet」✓
+    f. headgear：「the headgear has saved countless lives」✓
+    b. code 是「顏色代碼」，e. accessory 是加裝在帽子上的配件，都不是指安全帽。
+    (B) a, c, d, f ✓
+    (C) 多了 e、少了 a（全國 21% 誤選）✗　(D) 多了 e（全國 18% 誤選）✗
+eng110-07:
+  key: 分組、和夥伴一起解題 → 為了鼓勵課堂 interaction（互動）。
+  explain: |
+    句意：為了鼓勵課堂＿＿＿，老師把全班分組，要大家和組員一起解決問題。
+    → (B) interaction 互動 ✓
+    (A) operation 運作、手術（全國 13% 誤選）(C) adjustment 調整（全國 11% 誤選）(D) explanation 解釋。
+
+# ---------- Day 37：閱讀測驗（111：斑馬魚）＋詞彙 ----------
+eng111-43:
+  key: 全文說斑馬魚能自我修復，研究牠可能幫助人類再生器官、治療失明 → 牠在醫學上可能的貢獻。
+  explain: |
+    (D) 斑馬魚的再生能力可能帶來新的失明療法，「some of the nearly 40 million blind people … may one day have a tiny, striped fish to thank」✓
+    (B) 文中發現 GABA 濃度和視網膜再生有關，但沒說再生能力從何而來（全國 18% 誤選）✗
+    (C) 文中只說人和斑馬魚有 70% 相同的基因，沒解釋原因（全國 13% 誤選）✗
+    (A) 沒有談實驗室該如何研究牠 ✗
+eng111-44:
+  key: 降低 GABA 濃度能啟動視網膜再生，GABA 濃度高反而會抑制。
+  explain: |
+    (C) 「lowering GABA levels in zebrafish can trigger retina regeneration」✓
+    (A) GABA 會「reduce the activity of neurons」（降低神經元活動），不是促進（全國 11% 誤選）✗
+    (B) 文中沒說斑馬魚腦中 GABA 濃度高（全國 14% 誤選）✗
+    (D) GABA 是化學傳訊物質，降低它才會觸發再生，不是它含有促進生長的成分（全國 17% 誤選）✗
+eng111-45:
+  key: If the process can be replicated in humans＝如果能在人身上「重現」這個過程 → reproduced。
+  explain: |
+    句子：如果斑馬魚視網膜再生的過程能在人類身上 replicated，就可能帶來新的失明療法。
+    replicate＝複製、重現 → (A) Reproduced ✓
+    (B) Reassembled 重新組裝（全國 25% 誤選）(D) Restored 恢復（全國 16% 誤選）(C) Recycled 回收。
+eng111-46:
+  key: 「may allow humans to regrow their organs」是科學家的期望（推測），不是已證實的事實。
+  explain: |
+    這題選「是意見而不是事實」的。
+    (D) 科學家「hope」了解斑馬魚的自我修復，「may one day」讓人類再生器官 → 是期望與推測 ✓
+    (A) 研究顯示人和斑馬魚有 70% 相同的基因 → 事實（全國 10% 誤選）
+    (B) 視網膜受損後三、四週視力就恢復 → 研究觀察到的事實（全國 19% 誤選）
+    (C) 研究團隊正在老鼠身上測試 GABA 理論 → 事實（全國 22% 誤選）
+eng110-08:
+  key: tumble onto the ground＝跌倒在地；所以扭傷了腳踝。
+  explain: |
+    句意：Lisa 昨天打籃球時＿＿＿在地上，弄傷了腳踝。
+    → (D) tumbled 跌倒、摔倒 ✓
+    (B) punched 用拳頭打（全國 20% 誤選）(C) scattered 散落（全國 12% 誤選）(A) buried 埋葬。
+
+# ---------- Day 38：綜合測驗（115 第一篇：犀牛的糞便） ----------
+eng115-11:
+  key: it turns out＝結果發現、原來；人類圍著營火、咖啡館分享消息，原來白犀牛也一樣。
+  explain: |
+    句意：從營火到咖啡館，人們總是聚在一起分享最新消息。＿＿＿，白犀牛也做同樣的事——只是牠們選的聚會地點是一大堆糞便。
+    帶出一個出人意料的發現 → (B) it turns out 原來、結果發現 ✓
+    (C) in other words 換句話說（全國 32% 誤選，比答對的人還多）：用來換個說法重述前句，但犀牛的事不是在重述人類的事。
+    (D) all in all 總而言之（全國 22% 誤選）(A) what is more 此外（全國 18% 誤選）。
+eng115-12:
+  key: 在糞便裡留下訊息給同伴聞 → 用很臭的方式溝通（communicate）。
+  explain: |
+    句意：一項新研究指出，犀牛有一種很臭的＿＿＿方式。
+    下文說犀牛在糞便裡留下訊息，就像人在社群媒體留言 → (C) communicate 溝通 ✓
+    (A) demonstrate 示範、證明（全國 10% 誤選）(B) immigrate 移入（全國 10% 誤選）(D) manipulate 操縱。
+eng115-13:
+  key: 糞便裡的化學物質提供每隻犀牛年齡、性別、健康狀況的重要線索（clues）。
+  explain: |
+    句意：不同的犀牛在糞便中留下不同的化學物質，提供關於每隻犀牛年齡、性別、整體健康與生殖狀況的重要＿＿＿。
+    → (D) clues 線索 ✓
+    (B) icons 圖示、偶像（全國 22% 誤選）(C) matches 相配的人或物（全國 13% 誤選）(A) doubts 懷疑。
+eng115-14:
+  key: 彼此知道狀況，對群體和諧很重要 → 打架的可能性比較低（less likely）。
+  explain: |
+    句意：這對群體的和平與和諧意義重大。當群體成員彼此了解狀況，牠們打架的機會就＿＿＿。
+    前一句說有助和平 → 打架的可能性降低 → (D) less likely 較不可能 ✓
+    (B) more acceptable 更能接受（全國 16% 誤選）(A) hardly surprising 不足為奇（全國 14% 誤選）：都會變成打架是正常的，和「和平」矛盾。
+eng115-15:
+  key: 公犀牛聞得更久、更常回來 → 對發情母犀牛的假糞便特別有反應（responsive to）。
+  explain: |
+    句意：研究人員發現，強勢的公犀牛對帶有發情母犀牛化學物質的「假糞便」特別＿＿＿。
+    下一句：公犀牛聞得更久、更常回到同一個地點 → (A) responsive to 對…有反應 ✓
+    (C) considerate of 體貼（全國 24% 誤選）(B) annoyed at 對…惱怒（全國 14% 誤選）(D) tolerant with 容忍。
+
+# ---------- Day 39：綜合測驗（115 第二篇：港式點心）＋詞彙 ----------
+eng115-16:
+  key: 茶館為疲憊的旅人提供休息與茶水 → accommodate（容納、接待）。
+  explain: |
+    句意：沿著絲路經過中國的旅人需要休息的地方，茶館因此紛紛出現，＿＿＿疲憊的旅人，提供一杯茶幫助他們恢復體力。
+    → (A) accommodate 容納、為…提供住宿或服務 ✓
+    (B) compensate 補償（全國 17% 誤選）(C) anticipate 預期 (D) reinforce 強化。
+eng115-17:
+  key: had yet to develop＝當時還沒發展出來；因為當時認為喝茶不該配食物，要等幾百年後才出現點心。
+  explain: |
+    句意：但點心的烹飪技藝當時＿＿＿，因為茶配食物被認為是不恰當的。幾百年後，人們才知道茶能幫助消化。
+    → (B) had yet to develop 尚未發展 ✓
+    (A) would hardly develop 幾乎不會發展（全國 26% 誤選）：文中說後來還是發展出來了，不是「不會發展」。
+    (D) had almost developed 幾乎已經發展 (C) was fast developing 正快速發展：都和「當時被認為不恰當」矛盾。
+eng115-18:
+  key: be meant to be＝本來就是要成為…；點心「本來就是」一種可以吃好幾個小時的愉快用餐體驗。
+  explain: |
+    句意：點心不只是中華料理的一個例子，它＿＿＿一種可以持續好幾個小時的愉快用餐體驗。
+    → (D) meant to be 本意是、本來就是 ✓
+    (B) brought up as 被當作…養大（全國 30% 誤選）：bring up 是「養育、提出」，不能形容點心。
+    (C) thought to have（全國 24% 誤選）：後面接名詞 an experience 時要用 thought to be；thought to have 意思是「被認為擁有」，文意不通。
+    (A) passed on to 傳給。
+eng115-20:
+  key: 一大群人一起享用簡單的菜 → 這是一種歡樂的社交活動。
+  explain: |
+    句意：一大群人一起享用簡單的菜餚，當作＿＿＿，是一種習俗。說到底，點心這種食物只是點心體驗的一小部分。
+    最後一句說吃本身只是一小部分 → 重點在一起相聚 → (C) a joyful social activity 歡樂的社交活動 ✓
+    (D) an amazing local cuisine 很棒的地方菜（全國 18% 誤選）：還是在講食物。
+    (B) an intimate romantic dinner 親密的浪漫晚餐：和「大群人」不合。(A) a widely known delicacy 廣為人知的佳餚。
+eng110-09:
+  key: testing kit＝檢測套組（居民拿回家自己測水質）；trial 是試驗、試用期。
+  explain: |
+    句意：數百位居民從市政府拿到免費的檢測＿＿＿，檢查家裡的水是否含有有害化學物質。
+    「拿到」可以自己用來檢測的東西 → (A) kits 成套的工具 ✓
+    (B) trials 試驗（全國 39% 誤選，比答對的人還多）：free trial 是「免費試用」，但 receive testing trials 不能表示拿到檢測工具。
+    (D) proofs 證據（全國 25% 誤選）(C) zones 區域（全國 13% 誤選）。
+
+# ---------- Day 40：文意選填（上）（115：午睡） ----------
+# 選項：(A) retain (B) depend on (C) atmosphere (D) delay (E) unproductive (F) risk (G) function (H) minimal (I) dramatic (J) point to
+eng115-21:
+  key: by no means unproductive＝絕不是沒生產力；下一句 In fact 說午睡是讓大腦和身體充電。
+  explain: |
+    詞性分類：名詞 atmosphere、risk、function；形容詞 unproductive、minimal、dramatic；動詞或片語 retain、depend on、delay、point to（risk、function 也可當動詞）。
+    句意：你對每天下午的小睡有點罪惡感嗎？不必。白天睡個午覺絕對不是＿＿＿。事實上，你是在讓大腦和身體充電。
+    be 動詞後要形容詞，而且要能解釋「罪惡感」→ (E) unproductive 沒有生產力的 ✓
+    (D) delay（全國 11% 誤選）(F) risk（全國 10% 誤選）：都是動詞或名詞，放在 by no means 後面意思不通。
+eng115-22:
+  key: brain size and function＝大腦的大小與功能；分號後具體說能增強認知與記憶。
+  explain: |
+    句意：研究顯示，午睡和大腦的大小與＿＿＿有關；具體來說，它能增強我們的認知與記憶。
+    和名詞 brain size 並列，又由「認知、記憶」說明 → (G) function 功能 ✓
+    (F) risk（全國 7% 誤選）(H) minimal（全國 6% 誤選）。
+eng115-23:
+  key: dementia risk＝失智症的風險；大腦萎縮會讓晚年失智的風險增加。
+  explain: |
+    句意：二十出頭時，我們的大腦開始萎縮，逐漸減慢認知能力，並增加晚年的失智症＿＿＿。
+    increases 的受詞，和 dementia 組成名詞片語 → (F) risk 風險 ✓
+    (D) delay（全國 11% 誤選）：「增加失智症的延遲」意思相反。
+    (E) unproductive（全國 7% 誤選）。
+eng115-24:
+  key: 常午睡的人大腦保存得較好 → 午睡可能延緩（delay）老化造成的大腦萎縮。
+  explain: |
+    句意：這表示午睡可能大幅＿＿＿與年齡相關的大腦萎縮，因而降低罹患失智症的可能。
+    may 後要原形動詞，「降低失智可能」→ 要「延緩」萎縮 → (D) delay 延緩 ✓
+    (J) point to 指出、顯示（全國 13% 誤選）(B) depend on 依賴、取決於（全國 11% 誤選）。
+eng115-25:
+  key: help (to) retain acquired knowledge＝幫助記住學過的知識；前一句說午睡增進記憶與學習。
+  explain: |
+    句意：對準備大學考試、拚命苦讀的學生來說，午睡能幫助＿＿＿學到的知識和技能。
+    help 後接原形動詞，配合前句「增進記憶」→ (A) retain 保留、記住 ✓
+    (J) point to（全國 10% 誤選）(B) depend on（全國 6% 誤選）。
+
+# ---------- Day 41：文意選填（下）（115：午睡） ----------
+eng115-26:
+  key: Some studies recommend…, while others point to shorter naps → 有些研究建議…，另一些則指向較短的午睡。
+  explain: |
+    句意：有些研究建議午睡 20 到 40 分鐘，其他研究則＿＿＿更短的午睡，例如 15 到 20 分鐘。
+    和 recommend 對應，表示研究結果「指向、顯示」→ (J) point to ✓
+    (B) depend on（全國 13% 誤選）：「其他研究依賴更短的午睡」意思不通。
+    (H) minimal（全國 8% 誤選）。
+eng115-27:
+  key: The best nap length may depend on…＝最好的午睡長度可能取決於身體狀況與疲勞程度。
+  explain: |
+    句意：然而，最好的午睡長度可能＿＿＿一個人的身體狀況與疲勞程度。
+    → (B) depend on 取決於 ✓
+    (J) point to（全國 10% 誤選）(D) delay（全國 8% 誤選）。
+eng115-28:
+  key: 只睡五分鐘也能帶來「出奇地顯著」的好處 → surprisingly dramatic benefits。
+  explain: |
+    句意：對有些人來說，就算只睡五分鐘，也能帶來出奇＿＿＿的好處。
+    副詞 surprisingly 修飾形容詞 → (I) dramatic 顯著的、驚人的 ✓
+    (E) unproductive（全國 7% 誤選）(H) minimal 極少的（全國 6% 誤選）：和 surprisingly、benefits 搭不起來。
+eng115-29:
+  key: 理想的午睡環境是暗的 → 找一個光線很少（minimal light）或有遮光窗簾的地方。
+  explain: |
+    句意：黑暗、少干擾的空間最適合午睡。所以，替自己找一個安靜、光線＿＿＿或有遮光窗簾的地方。
+    → (H) minimal 極少的 ✓
+    (E) unproductive（全國 9% 誤選）(I) dramatic（全國 6% 誤選）。
+eng115-30:
+  key: create a relaxing atmosphere＝營造放鬆的氣氛；加上大自然的聲音。
+  explain: |
+    句意：你也可以加入一些舒緩的大自然聲音，營造放鬆的＿＿＿，讓午睡更有效。
+    a relaxing＋名詞 → (C) atmosphere 氣氛 ✓
+    (G) function（全國 8% 誤選）(I) dramatic（全國 4% 誤選）。
+
+# ---------- Day 42：篇章結構（115：微笑）＋詞彙 ----------
+# 選項：(A) Another crucial factor is a society’s immigration diversity.
+# (B) Various factors have thus contributed to the phenomenon of smiling.
+# (C) For most of recorded human history, the open smile has been deeply unfashionable.
+# (D) A genuine smile indicates contentment, while a forced smile suggests underlying distress.
+# (E) In fact, there is a well-known Russian proverb that goes, “Smiling with no reason is a sign of stupidity.”
+eng115-31:
+  key: 第一段問「跨時代、跨文化都是這樣嗎？」→ 第二段先談「時代」：大部分歷史中，咧嘴笑都不流行。
+  explain: |
+    前段：多數人認為微笑表示好心情，但這在不同時代和文化都成立嗎？
+    後句：In the West, for example, 1700 年代以前的肖像畫裡，人們通常表情嚴肅、不笑。
+    for example 前面要有概括的說法 → (C) For most of recorded human history, the open smile has been deeply unfashionable.（在有紀錄的人類歷史中，露齒的笑大多非常不流行）✓
+    (B)（全國 10% 誤選）thus 表示總結，要放在全文最後（第 34 題）。
+eng115-32:
+  key: 前句說在某些文化，微笑的人會被認為比較不聰明 → 舉俄國諺語「無緣無故笑是愚蠢的表現」佐證。
+  explain: |
+    前句：在多數文化中微笑代表正面情緒，但在某些文化，同一個人微笑時會被認為比較不聰明。
+    (E) In fact, there is a well-known Russian proverb that goes, "Smiling with no reason is a sign of stupidity."（事實上，有句著名的俄國諺語說：「無緣無故笑是愚蠢的表現。」）✓ ——stupidity 呼應前句的 less intelligent。
+    (D)（全國 13% 誤選）談真笑與假笑，和「被認為不聰明」無關。
+eng115-33:
+  key: 前面談個人主義與人口數，空格說「另一個」關鍵因素是移民的多元性；後句接「來自世界各地的新移民比較常笑」。
+  explain: |
+    前句：來自個人主義高、人口少的國家的人比較常笑。
+    後句：來自世界各地的新移民比較常笑；沒有共同語言，他們常靠微笑和別人相處。
+    (A) Another crucial factor is a society's immigration diversity.（另一個關鍵因素是社會的移民多元性）✓ ——Another factor 承接前面的個人主義與人口，immigration 由後句的 Newcomers 說明。
+    (B)（全國 14% 誤選）thus 是總結，放在這裡會打斷「新移民」的說明。
+eng115-34:
+  key: 最後一段總結：時代、文化、移民等「各種因素」都影響微笑 → 這個動作比看起來複雜得多。
+  explain: |
+    後句：正如許多心理學家指出的，這個簡單的動作其實比表面上複雜得多。
+    (B) Various factors have thus contributed to the phenomenon of smiling.（因此，各種因素造就了微笑這個現象）✓ ——thus 總結前面談到的時代、文化、移民等因素。
+    (D)（全國 25% 誤選）真笑與假笑是新的話題，文中前面都沒有談到。
+eng110-10:
+  key: 獎頒給「三位女性」一起得 → jointly（共同地）。
+  explain: |
+    句意：2011 年諾貝爾和平獎＿＿＿頒給三位女性，表彰她們為爭取女權所做的努力。
+    三人共同獲獎 → (C) jointly 共同地 ✓
+    (B) earnestly 誠摯地（全國 38% 誤選，比答對的人還多）：形容做事態度，不能形容「頒獎」的方式。
+    (A) actively 積極地（全國 22% 誤選）(D) naturally 自然地。
+

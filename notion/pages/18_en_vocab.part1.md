@@ -60,60 +60,34 @@
 </details>
 <details>
 <summary>**111 年**（10 題）</summary>
-	- **deliver** *v.* 遞送（第 2 級）：have it delivered to his house 請人送到家　→ 111 年第 1 題
-	- **assistant** *n.* 助理（第 3 級）：the best assistant I have ever had 我遇過最好的助理　→ 111 年第 2 題
+	- **deliver** *v.* 遞送（第 2 級）：have it delivered to his house 請人送到家　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8105a31bd13fea9af4bb"/>　全國答對率 83%
+	- **assistant** *n.* 助理（第 3 級）：the best assistant I have ever had 我遇過最好的助理　→ <mention-page url="https://app.notion.com/p/3f3ee100984f817db055c429bb75292e"/>　全國答對率 74%
 	- **puppet** *n.* 木偶（第 3 級）：hand puppet shows 布袋戲｜易混淆：variety 多樣（variety show 綜藝節目）　→ <mention-page url="https://app.notion.com/p/3ecee100984f81119cd0f79d155f6a9e"/>　全國答對率 50%
-	- **potentially** *adv.* 潛在地、可能地（由 potential（第 4 級）衍生）：potentially fatal side effects 可能致命的副作用｜易混淆：ambiguously 含糊地　→ 111 年第 4 題
-	- **tag** *v.* 加上標籤（第 3 級）：tag the photos with dates and keywords 幫照片加上日期和關鍵字　→ 111 年第 5 題
-	- **agreeable** *adj.* 隨和的、令人愉快的（第 4 級）：an agreeable person 隨和好相處的人｜易混淆：intimate 親密的　→ 111 年第 6 題
-	- **visible** *adj.* 看得見的（第 3 級）：barely visible to passersby 路人幾乎看不到｜易混淆：available 可取得的、remarkable 非凡的　→ 111 年第 7 題
-	- **eventual** *adj.* 最後的、最終的（第 4 級）：the eventual cost 最後的花費　→ 111 年第 8 題
-	- **quest** *n.* 探索、追尋（第 5 級）：go on a quest for dinosaur fossils 去尋找恐龍化石｜易混淆：trial 試驗、審判、route 路線、strike 罷工、打擊　→ 111 年第 9 題
-	- **blush** *v.* 臉紅（第 5 級）：the valley blushes like a young bride 山谷像新娘一樣泛紅（擬人）｜易混淆：transfer 轉移、polish 擦亮　→ 111 年第 10 題
+	- **potentially** *adv.* 潛在地、可能地（由 potential（第 4 級）衍生）：potentially fatal side effects 可能致命的副作用｜易混淆：ambiguously 含糊地　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8102a9d5c39f6583e82a"/>　全國答對率 61%
+	- **tag** *v.* 加上標籤（第 3 級）：tag the photos with dates and keywords 幫照片加上日期和關鍵字　→ <mention-page url="https://app.notion.com/p/3f3ee100984f814cae27cbb4a3ac0a61"/>　全國答對率 70%
+	- **agreeable** *adj.* 隨和的、令人愉快的（第 4 級）：an agreeable person 隨和好相處的人｜易混淆：intimate 親密的　→ <mention-page url="https://app.notion.com/p/3f3ee100984f815fbae0c4e3c45e7a5e"/>　全國答對率 52%
+	- **visible** *adj.* 看得見的（第 3 級）：barely visible to passersby 路人幾乎看不到｜易混淆：available 可取得的、remarkable 非凡的　→ <mention-page url="https://app.notion.com/p/3f3ee100984f811ea0bcf55aed35eada"/>　全國答對率 49%
+	- **eventual** *adj.* 最後的、最終的（第 4 級）：the eventual cost 最後的花費　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81738a3cd37c5cca2fbc"/>　全國答對率 67%
+	- **quest** *n.* 探索、追尋（第 5 級）：go on a quest for dinosaur fossils 去尋找恐龍化石｜易混淆：trial 試驗、審判、route 路線、strike 罷工、打擊　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8116a3feff07fc3b8725"/>　全國答對率 16%
+	- **blush** *v.* 臉紅（第 5 級）：the valley blushes like a young bride 山谷像新娘一樣泛紅（擬人）｜易混淆：transfer 轉移、polish 擦亮　→ <mention-page url="https://app.notion.com/p/3f3ee100984f813fac93e73cf0d7aaf8"/>　全國答對率 45%
 </details>
 <details>
 <summary>**110 年**（15 題）</summary>
-	- **tease** *v.* 捉弄、嘲弄（第 3 級）：tease and play jokes on his sister 捉弄妹妹｜易混淆：spare 饒恕、騰出　→ 110 年第 1 題
-	- **escalator** *n.* 手扶梯（第 5 級）：the elevator rather than the escalator 搭電梯而不是手扶梯　→ 110 年第 2 題
-	- **obediently** *adv.* 順從地、乖乖地（由 obedient（第 4 級）衍生）：followed her out of the room obediently 乖乖跟著她出去｜易混淆：apparently 顯然、thoroughly 徹底地　→ 110 年第 3 題
-	- **moist** *adj.* 潮濕的、濕潤的（第 3 級）：moist air 濕潤的空氣｜易混淆：fertile 肥沃的　→ 110 年第 4 題
-	- **parachute** *n.* 降落傘（第 4 級）：her parachute failed to open 降落傘沒打開｜易混淆：segment 部分、片段、latitude 緯度　→ 110 年第 5 題
-	- **revolutionary** *adj.* 革命性的（第 4 級）：a revolutionary change 革命性的改變｜易混淆：conventional 傳統的　→ 110 年第 6 題
-	- **interaction** *n.* 互動（第 4 級）：classroom interaction 課堂互動　→ 110 年第 7 題
-	- **tumble** *v.* 跌倒、滾落（第 4 級）：tumble onto the ground 跌倒在地｜易混淆：punch 用拳頭打　→ 110 年第 8 題
-	- **kit** *n.* 一套用具、套組（第 3 級）：free testing kits 免費的檢測套組｜易混淆：trial 試驗、proof 證據　→ 110 年第 9 題
-	- **jointly** *adv.* 共同地（由 joint（第 2 級）衍生）：be awarded jointly to three women 由三位女性共同獲獎｜易混淆：earnestly 認真地、actively 積極地　→ 110 年第 10 題
-	- **flourish** *v.* 興旺、繁榮（第 6 級）：the company is flourishing 公司生意興隆｜易混淆：exceed 超過、applaud 鼓掌　→ 110 年第 11 題
-	- **absurd** *adj.* 荒謬的（第 5 級）：absolutely absurd to waste your money 浪費錢實在荒謬｜易混淆：obstinate 固執的、vigorous 精力充沛的、cautious 謹慎的　→ 110 年第 12 題
-	- **singular** *adj.* 單一的（第 4 級）：merely one singular reason 只有一個原因｜易混淆：defensive 防禦的、countable 可數的　→ 110 年第 13 題
-	- **commit** *v.* 承諾撥出（資金、時間）（第 4 級）：commit \$1 million to… 承諾投入一百萬美元｜易混淆：resolve 決心、解決、equip 裝備　→ 110 年第 14 題
-	- **resume** *v.* 恢復、重新開始（第 5 級）：bus service resumed 公車恢復行駛｜易混淆：transport 運送（要接受詞）　→ 110 年第 15 題
+	- **tease** *v.* 捉弄、嘲弄（第 3 級）：tease and play jokes on his sister 捉弄妹妹｜易混淆：spare 饒恕、騰出　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81fc9abbca921578f0ae"/>　全國答對率 73%
+	- **escalator** *n.* 手扶梯（第 5 級）：the elevator rather than the escalator 搭電梯而不是手扶梯　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81088142c219df29c493"/>　全國答對率 73%
+	- **obediently** *adv.* 順從地、乖乖地（由 obedient（第 4 級）衍生）：followed her out of the room obediently 乖乖跟著她出去｜易混淆：apparently 顯然、thoroughly 徹底地　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81c0a534d8928181575e"/>　全國答對率 61%
+	- **moist** *adj.* 潮濕的、濕潤的（第 3 級）：moist air 濕潤的空氣｜易混淆：fertile 肥沃的　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8149b9fad81f08a6509e"/>　全國答對率 64%
+	- **parachute** *n.* 降落傘（第 4 級）：her parachute failed to open 降落傘沒打開｜易混淆：segment 部分、片段、latitude 緯度　→ <mention-page url="https://app.notion.com/p/3f3ee100984f812eb3a9cdd0d6e8533e"/>　全國答對率 47%
+	- **revolutionary** *adj.* 革命性的（第 4 級）：a revolutionary change 革命性的改變｜易混淆：conventional 傳統的　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8152bfbcc2ccfea864fb"/>　全國答對率 59%
+	- **interaction** *n.* 互動（第 4 級）：classroom interaction 課堂互動　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8129a33ee231a14a37b8"/>　全國答對率 67%
+	- **tumble** *v.* 跌倒、滾落（第 4 級）：tumble onto the ground 跌倒在地｜易混淆：punch 用拳頭打　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8191acefeac594fa66e2"/>　全國答對率 60%
+	- **kit** *n.* 一套用具、套組（第 3 級）：free testing kits 免費的檢測套組｜易混淆：trial 試驗、proof 證據　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81d69618f0e6248cfaad"/>　全國答對率 23%
+	- **jointly** *adv.* 共同地（由 joint（第 2 級）衍生）：be awarded jointly to three women 由三位女性共同獲獎｜易混淆：earnestly 認真地、actively 積極地　→ <mention-page url="https://app.notion.com/p/3f3ee100984f8133a9b2f75c42e2a30c"/>　全國答對率 30%
+	- **flourish** *v.* 興旺、繁榮（第 6 級）：the company is flourishing 公司生意興隆｜易混淆：exceed 超過、applaud 鼓掌　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81239f36ea6032e95d8c"/>　全國答對率 48%
+	- **absurd** *adj.* 荒謬的（第 5 級）：absolutely absurd to waste your money 浪費錢實在荒謬｜易混淆：obstinate 固執的、vigorous 精力充沛的、cautious 謹慎的　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81d6a908daa8a0d2c5ef"/>　全國答對率 41%
+	- **singular** *adj.* 單一的（第 4 級）：merely one singular reason 只有一個原因｜易混淆：defensive 防禦的、countable 可數的　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81688508cee4162bc911"/>　全國答對率 54%
+	- **commit** *v.* 承諾撥出（資金、時間）（第 4 級）：commit \$1 million to… 承諾投入一百萬美元｜易混淆：resolve 決心、解決、equip 裝備　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81519d9cc23e8d80ac08"/>　全國答對率 43%
+	- **resume** *v.* 恢復、重新開始（第 5 級）：bus service resumed 公車恢復行駛｜易混淆：transport 運送（要接受詞）　→ <mention-page url="https://app.notion.com/p/3f3ee100984f81dfb9a0efe2d19c2a33"/>　全國答對率 32%
 </details>
 ## 文意選填（第 21–30 題）的正確答案
 文意選填的 10 個選項要依詞性分類；下面列出每一格的正確答案，括號是詞性與意思。
-<details>
-<summary>**115 年**（10 題）</summary>
-	- **unproductive** *adj.* 沒有生產力的、浪費時間的（由 productive（第 4 級）衍生）：by no means unproductive 絕不是浪費時間　→ 115 年第 21 題
-	- **function** *n.* 功能、機能（第 2 級）：brain size and function 大腦的大小與功能　→ 115 年第 22 題
-	- **risk** *n.* 風險（第 3 級）：increase dementia risk 提高失智風險　→ 115 年第 23 題
-	- **delay** *v.* 延緩（第 2 級）：delay age-related brain shrinkage 延緩老化造成的大腦萎縮　→ 115 年第 24 題
-	- **retain** *v.* 保留、記住（第 4 級）：retain acquired knowledge 記住學到的知識　→ 115 年第 25 題
-	- **point to** *phr.* 指出、傾向於（某個結論）：others point to shorter naps 其他研究則指出較短的午睡較好　→ 115 年第 26 題
-	- **depend on** *phr.* 取決於：depend on a person's physical condition 取決於身體狀況　→ 115 年第 27 題
-	- **dramatic** *adj.* 顯著的、戲劇性的（第 3 級）：surprisingly dramatic benefits 驚人的顯著好處　→ 115 年第 28 題
-	- **minimal** *adj.* 極少的（第 5 級）：a quiet place with minimal light 光線很少的安靜地方　→ 115 年第 29 題
-	- **atmosphere** *n.* 氣氛、氛圍（第 4 級）：create a relaxing atmosphere 營造放鬆的氣氛　→ 115 年第 30 題
-</details>
-<details>
-<summary>**114 年**（10 題）</summary>
-	- **noted** *adj.* 著名的（由 note（第 1 級）衍生）：be noted for… 以…聞名　→ <mention-page url="https://app.notion.com/p/3ebee100984f819da8cff2f5c158f7d3"/>　全國答對率 29%
-	- **reference** *n.* 提及、參考（第 4 級）：documented reference to… 有文獻提到…　→ <mention-page url="https://app.notion.com/p/3ebee100984f81efb7d8e39b329eefbc"/>　全國答對率 37%
-	- **bear** *v.* 帶有、具有（第 1 級）：each bearing a name 每一口鐘都有名字　→ <mention-page url="https://app.notion.com/p/3ebee100984f81ca9d96dfd5ee90864a"/>　全國答對率 22%
-	- **survive** *v.* 從…中倖存（第 2 級）：survived the French Revolution 在法國大革命中倖存　→ <mention-page url="https://app.notion.com/p/3ebee100984f81ee9984c614558bfacc"/>　全國答對率 55%
-	- **retain** *v.* 保有（第 4 級）：retained its renowned sound 保有著名的音色　→ <mention-page url="https://app.notion.com/p/3ebee100984f81fe92d6e42a64135a20"/>　全國答對率 40%
-	- **familiar** *adj.* 熟悉的（第 3 級）：a familiar part of life in Paris 巴黎生活中熟悉的一部分　→ <mention-page url="https://app.notion.com/p/3ebee100984f8122b3abd9383c9ac89d"/>　全國答對率 42%
-	- **faithful** *n.* （the faithful）信徒；形容詞是「忠實的」（第 4 級）：call the faithful to prayer 召喚信徒禱告　→ <mention-page url="https://app.notion.com/p/3ebee100984f819e9561ea83881d7ff5"/>　全國答對率 26%
-	- **celebration** *n.* 慶祝（第 4 級）：in times of celebration and of mourning 在歡慶與哀悼的時刻　→ <mention-page url="https://app.notion.com/p/3ebee100984f81498dbbda442f82d742"/>　全國答對率 46%
-	- **silent** *adj.* 沉默的、無聲的（第 2 級）：the bells fell silent 鐘聲停了下來　→ <mention-page url="https://app.notion.com/p/3ebee100984f816da578c921ce0c33f6"/>　全國答對率 48%
-	- **restoration** *n.* 修復（第 6 級）：a process of restoration 修復的過程　→ <mention-page url="https://app.notion.com/p/3ebee100984f8162843fef0b2146c314"/>　全國答對率 58%
-</details>

@@ -198,8 +198,10 @@ items:
     D: ''
     E: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: B3
+  tags: []
+  concepts:
+  - B3
   classic: true
   stats:
     P: 85
@@ -242,9 +244,12 @@ items:
     D: ''
     E: ''
   answer: E
-  topic: null
-  concepts: []
-  classic: true
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: false
+  classic_note: 108 課綱範圍外：要知道睪丸間質細胞分泌雄性激素，屬選修生物的動物生殖
   stats:
     P: 45
     Ph: 85
@@ -283,9 +288,12 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
-  classic: true
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: false
+  classic_note: 108 課綱範圍外：短日照植物的光週期屬選修生物的植物生理
   stats:
     P: 39
     Ph: 66
@@ -321,9 +329,12 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
-  classic: true
+  topic: C1
+  tags: []
+  concepts:
+  - C1
+  classic: false
+  classic_note: 108 課綱範圍外：選項用到標準莫耳生成熱，屬選修化學
   stats:
     P: 46
     Ph: 63
@@ -362,8 +373,10 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: C5
+  tags: []
+  concepts:
+  - C5
   classic: true
   stats:
     P: 47
@@ -402,8 +415,10 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: C2
+  tags: []
+  concepts:
+  - C2
   classic: true
   stats:
     P: 63
@@ -440,9 +455,12 @@ items:
     D: ''
     E: ''
   answer: C
-  topic: null
-  concepts: []
-  classic: true
+  topic: C4
+  tags: []
+  concepts:
+  - C4
+  classic: false
+  classic_note: 108 課綱範圍外：醇類等有機官能基屬選修化學
   stats:
     P: 60
     Ph: 83
@@ -488,8 +506,12 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: C3
+  tags:
+  - C4
+  concepts:
+  - C3
+  - C4
   classic: true
   stats:
     P: 44
@@ -531,9 +553,12 @@ items:
     D: ''
     E: ''
   answer: A
-  topic: null
-  concepts: []
-  classic: true
+  topic: C1
+  tags: []
+  concepts:
+  - C1
+  classic: false
+  classic_note: 108 課綱範圍外：由燃燒熱比較生成熱屬選修化學
   stats:
     P: 57
     Ph: 81
@@ -595,8 +620,10 @@ items:
     D: ''
     E: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: C5
+  tags: []
+  concepts:
+  - C5
   classic: true
   stats:
     P: 49
@@ -633,8 +660,10 @@ items:
     D: ''
     E: ''
   answer: E
-  topic: null
-  concepts: []
+  topic: P4
+  tags: []
+  concepts:
+  - P4
   classic: true
   stats:
     P: 31
@@ -686,8 +715,10 @@ items:
     D: ''
     E: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: E1
+  tags: []
+  concepts:
+  - E1
   classic: true
   stats:
     P: 72
@@ -727,8 +758,10 @@ items:
     D: ''
     E: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: P3
+  tags: []
+  concepts:
+  - P3
   classic: true
   stats:
     P: 45
@@ -764,8 +797,10 @@ items:
     D: ''
     E: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: P1
+  tags: []
+  concepts:
+  - P1
   classic: true
   stats:
     P: 48
@@ -818,8 +853,10 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: P3
+  tags: []
+  concepts:
+  - P3
   classic: true
   stats:
     P: 40
@@ -870,8 +907,10 @@ items:
     D: ''
     E: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: E3
+  tags: []
+  concepts:
+  - E3
   classic: true
   stats:
     P: 66
@@ -933,8 +972,10 @@ items:
     D: ''
     E: ''
   answer: E
-  topic: null
-  concepts: []
+  topic: E4
+  tags: []
+  concepts:
+  - E4
   classic: true
   stats:
     P: 33
@@ -1008,8 +1049,10 @@ items:
     D: ''
     E: ''
   answer: E
-  topic: null
-  concepts: []
+  topic: E3
+  tags: []
+  concepts:
+  - E3
   classic: true
   stats:
     P: 26
@@ -1046,8 +1089,10 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: E2
+  tags: []
+  concepts:
+  - E2
   classic: true
   stats:
     P: 71
@@ -1086,8 +1131,10 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: E1
+  tags: []
+  concepts:
+  - E1
   classic: true
   stats:
     P: 57
@@ -1128,8 +1175,10 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: E2
+  tags: []
+  concepts:
+  - E2
   classic: true
   stats:
     P: 37
@@ -1188,8 +1237,12 @@ items:
     D: ''
     E: ''
   answer: E
-  topic: null
-  concepts: []
+  topic: E4
+  tags:
+  - E1
+  concepts:
+  - E4
+  - E1
   classic: true
   stats:
     P: 36
@@ -1263,8 +1316,10 @@ items:
     D: ''
     E: ''
   answer: AE
-  topic: null
-  concepts: []
+  topic: I1
+  tags: []
+  concepts:
+  - I1
   classic: true
   stats:
     P: 40
@@ -1304,9 +1359,12 @@ items:
     D: ''
     E: ''
   answer: AB
-  topic: null
-  concepts: []
-  classic: true
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: false
+  classic_note: 108 課綱範圍外：植物分生組織、周鞘屬選修生物的植物構造
   stats:
     P: 45
     Ph: 66
@@ -1342,8 +1400,10 @@ items:
     D: ''
     E: ''
   answer: BD
-  topic: null
-  concepts: []
+  topic: B1
+  tags: []
+  concepts:
+  - B1
   classic: true
   stats:
     P: 43
@@ -1381,9 +1441,12 @@ items:
     D: ''
     E: ''
   answer: AC
-  topic: null
-  concepts: []
-  classic: true
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: false
+  classic_note: 108 課綱範圍外：血壓的神經、激素調節屬選修生物的人體生理
   stats:
     P: 68
     Ph: 87
@@ -1420,8 +1483,10 @@ items:
     D: ''
     E: ''
   answer: CD
-  topic: null
-  concepts: []
+  topic: C1
+  tags: []
+  concepts:
+  - C1
   classic: true
   stats:
     P: 59
@@ -1466,8 +1531,12 @@ items:
     D: ''
     E: ''
   answer: CD
-  topic: null
-  concepts: []
+  topic: C5
+  tags:
+  - I1
+  concepts:
+  - C5
+  - I1
   classic: true
   stats:
     P: 73
@@ -1530,8 +1599,10 @@ items:
     D: ''
     E: ''
   answer: CD
-  topic: null
-  concepts: []
+  topic: B1
+  tags: []
+  concepts:
+  - B1
   classic: true
   stats:
     P: 54
@@ -1570,9 +1641,12 @@ items:
     D: ''
     E: ''
   answer: ACD
-  topic: null
-  concepts: []
-  classic: true
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: false
+  classic_note: 108 課綱範圍外：人體免疫（B、T 細胞、漿細胞）屬選修生物
   stats:
     P: 59
     Ph: 79
@@ -1608,8 +1682,10 @@ items:
     D: ''
     E: ''
   answer: CE
-  topic: null
-  concepts: []
+  topic: P2
+  tags: []
+  concepts:
+  - P2
   classic: true
   stats:
     P: 76
@@ -1646,8 +1722,10 @@ items:
     D: ''
     E: ''
   answer: BD或BC
-  topic: null
-  concepts: []
+  topic: P2
+  tags: []
+  concepts:
+  - P2
   classic: true
   stats:
     P: 65
@@ -1685,8 +1763,10 @@ items:
     D: ''
     E: ''
   answer: BCE
-  topic: null
-  concepts: []
+  topic: P3
+  tags: []
+  concepts:
+  - P3
   classic: true
   stats:
     P: 63
@@ -1723,8 +1803,10 @@ items:
     D: ''
     E: ''
   answer: CE
-  topic: null
-  concepts: []
+  topic: P4
+  tags: []
+  concepts:
+  - P4
   classic: true
   stats:
     P: 56
@@ -1813,8 +1895,12 @@ items:
     D: ''
     E: ''
   answer: AD
-  topic: null
-  concepts: []
+  topic: E2
+  tags:
+  - I1
+  concepts:
+  - E2
+  - I1
   classic: true
   stats:
     P: 58
@@ -1907,8 +1993,10 @@ items:
     D: ''
     E: ''
   answer: AE
-  topic: null
-  concepts: []
+  topic: E4
+  tags: []
+  concepts:
+  - E4
   classic: true
   stats:
     P: 43
@@ -1946,8 +2034,10 @@ items:
     D: ''
     E: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: E2
+  tags: []
+  concepts:
+  - E2
   classic: true
   stats:
     P: 67
@@ -1983,9 +2073,12 @@ items:
     D: ''
     E: ''
   answer: AB
-  topic: null
-  concepts: []
-  classic: true
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: false
+  classic_note: 108 課綱範圍外：下視丘、甲狀腺素調節體溫屬選修生物的人體生理
   stats:
     P: 52
     Ph: 82
@@ -2033,8 +2126,12 @@ items:
     D: ''
     E: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: P1
+  tags:
+  - I1
+  concepts:
+  - P1
+  - I1
   classic: true
   stats:
     P: 70
@@ -2100,8 +2197,12 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: C1
+  tags:
+  - I1
+  concepts:
+  - C1
+  - I1
   classic: true
   stats:
     P: 54
@@ -2138,9 +2239,12 @@ items:
     D: ''
     E: ''
   answer: AE
-  topic: null
-  concepts: []
-  classic: true
+  topic: B4
+  tags: []
+  concepts:
+  - B4
+  classic: false
+  classic_note: 108 課綱範圍外：族群成長曲線、存活曲線、年齡結構屬選修生物的生態學
   stats:
     P: 51
     Ph: 67
@@ -2233,8 +2337,10 @@ items:
     D: ''
     E: ''
   answer: AD
-  topic: null
-  concepts: []
+  topic: B2
+  tags: []
+  concepts:
+  - B2
   classic: true
   stats:
     P: 57
@@ -2271,8 +2377,12 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: B2
+  tags:
+  - B1
+  concepts:
+  - B2
+  - B1
   classic: true
   stats:
     P: 36
@@ -2315,8 +2425,10 @@ items:
     D: ''
     E: ''
   answer: AB
-  topic: null
-  concepts: []
+  topic: B4
+  tags: []
+  concepts:
+  - B4
   classic: true
   stats:
     P: 41
@@ -2353,8 +2465,10 @@ items:
     D: ''
     E: ''
   answer: E
-  topic: null
-  concepts: []
+  topic: B4
+  tags: []
+  concepts:
+  - B4
   classic: true
   stats:
     P: 30
@@ -2501,8 +2615,10 @@ items:
     D: ''
     E: ''
   answer: BCD
-  topic: null
-  concepts: []
+  topic: B3
+  tags: []
+  concepts:
+  - B3
   classic: true
   stats:
     P: 73
@@ -2560,8 +2676,12 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: B5
+  tags:
+  - B2
+  concepts:
+  - B5
+  - B2
   classic: true
   stats:
     P: 76
@@ -2598,8 +2718,10 @@ items:
     D: ''
     E: ''
   answer: ACE
-  topic: null
-  concepts: []
+  topic: C5
+  tags: []
+  concepts:
+  - C5
   classic: true
   stats:
     P: 41
@@ -2711,8 +2833,10 @@ items:
     D: ''
     E: ''
   answer: BCE
-  topic: null
-  concepts: []
+  topic: C4
+  tags: []
+  concepts:
+  - C4
   classic: true
   stats:
     P: 45
@@ -2767,9 +2891,12 @@ items:
     D: ''
     E: ''
   answer: ABD
-  topic: null
-  concepts: []
-  classic: true
+  topic: C5
+  tags: []
+  concepts:
+  - C5
+  classic: false
+  classic_note: 108 課綱範圍外：選項用到臭氧的共振結構，屬選修化學
   stats:
     P: 47
     Ph: 71
@@ -2849,9 +2976,12 @@ items:
     D: ''
     E: ''
   answer: ACD
-  topic: null
-  concepts: []
-  classic: true
+  topic: C4
+  tags: []
+  concepts:
+  - C4
+  classic: false
+  classic_note: 108 課綱範圍外：有機化合物的同分異構物屬選修化學
   stats:
     P: 51
     Ph: 86
@@ -2887,9 +3017,12 @@ items:
     D: ''
     E: ''
   answer: BE
-  topic: null
-  concepts: []
-  classic: true
+  topic: C4
+  tags: []
+  concepts:
+  - C4
+  classic: false
+  classic_note: 108 課綱範圍外：芳香烴、幾何異構物屬選修化學
   stats:
     P: 38
     Ph: 58
@@ -2925,8 +3058,10 @@ items:
     D: ''
     E: ''
   answer: AB
-  topic: null
-  concepts: []
+  topic: C4
+  tags: []
+  concepts:
+  - C4
   classic: true
   stats:
     P: 31
@@ -3007,8 +3142,12 @@ items:
     D: ''
     E: ''
   answer: ADE
-  topic: null
-  concepts: []
+  topic: C5
+  tags:
+  - I1
+  concepts:
+  - C5
+  - I1
   classic: true
   stats:
     P: 52
@@ -3066,8 +3205,10 @@ items:
     D: ''
     E: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: P1
+  tags: []
+  concepts:
+  - P1
   classic: true
   stats:
     P: 42
@@ -3104,8 +3245,12 @@ items:
     D: ''
     E: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: P1
+  tags:
+  - E1
+  concepts:
+  - P1
+  - E1
   classic: true
   stats:
     P: 35
@@ -3160,8 +3305,10 @@ items:
     D: ''
     E: ''
   answer: ABE
-  topic: null
-  concepts: []
+  topic: P1
+  tags: []
+  concepts:
+  - P1
   classic: true
   stats:
     P: 65
@@ -3200,8 +3347,10 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: P1
+  tags: []
+  concepts:
+  - P1
   classic: true
   stats:
     P: 72
@@ -3271,8 +3420,10 @@ items:
     D: ''
     E: ''
   answer: CD
-  topic: null
-  concepts: []
+  topic: P1
+  tags: []
+  concepts:
+  - P1
   classic: true
   stats:
     P: 51
@@ -3342,8 +3493,10 @@ items:
     D: ''
     E: ''
   answer: CE
-  topic: null
-  concepts: []
+  topic: P1
+  tags: []
+  concepts:
+  - P1
   classic: true
   stats:
     P: 34
@@ -3432,8 +3585,10 @@ items:
     D: ''
     E: ''
   answer: AD
-  topic: null
-  concepts: []
+  topic: P1
+  tags: []
+  concepts:
+  - P1
   classic: true
   stats:
     P: 34
@@ -3534,8 +3689,10 @@ items:
     D: ''
     E: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: E3
+  tags: []
+  concepts:
+  - E3
   classic: true
   stats:
     P: 32
@@ -3588,8 +3745,10 @@ items:
     D: ''
     E: ''
   answer: E
-  topic: null
-  concepts: []
+  topic: E1
+  tags: []
+  concepts:
+  - E1
   classic: true
   stats:
     P: 37
@@ -3633,8 +3792,10 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: E1
+  tags: []
+  concepts:
+  - E1
   classic: true
   stats:
     P: 62
@@ -3670,8 +3831,10 @@ items:
     D: ''
     E: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: E4
+  tags: []
+  concepts:
+  - E4
   classic: true
   stats:
     P: 46
@@ -3723,8 +3886,10 @@ items:
     D: ''
     E: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: E1
+  tags: []
+  concepts:
+  - E1
   classic: true
   stats:
     P: 43
@@ -3762,8 +3927,10 @@ items:
     D: ''
     E: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: E3
+  tags: []
+  concepts:
+  - E3
   classic: true
   stats:
     P: 37
@@ -3801,8 +3968,10 @@ items:
     D: ''
     E: ''
   answer: AD
-  topic: null
-  concepts: []
+  topic: E2
+  tags: []
+  concepts:
+  - E2
   classic: true
   stats:
     P: 40

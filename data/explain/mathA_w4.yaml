@@ -1,0 +1,40 @@
+# 數學A Day 22 解析（Claude 撰寫並逐題驗算，答案皆與大考中心公布一致；老師審閱後可修改）
+# 六屆題目到這裡全部排完；Day 23 起依 Day 1 的順序把舊題重新輪一遍。
+# 109 年是舊課綱的「數學」卷（數A、數B 同一份）：109 第 16 題只排在數A。
+
+# ---------- Day 22：向量內積、直線與旋轉矩陣、平行六面體 ----------
+ma109-02:
+  key: $\overrightarrow{AB}\cdot\overrightarrow{AC}=\overrightarrow{AB}\cdot\overrightarrow{AD}$ ⇒ $\overrightarrow{AB}\cdot(\overrightarrow{AD}-\overrightarrow{AC})=\overrightarrow{AB}\cdot\overrightarrow{CD}=0$。
+  explain: |
+    移項：$\overrightarrow{AB}\cdot\overrightarrow{AD}-\overrightarrow{AB}\cdot\overrightarrow{AC}=\overrightarrow{AB}\cdot(\overrightarrow{AD}-\overrightarrow{AC})=0$，而 $\overrightarrow{AD}-\overrightarrow{AC}=\overrightarrow{CD}$。
+    (1) $\overrightarrow{AB}\cdot\overrightarrow{CD}=0$ 一定成立 ✓
+    反例：$A(0,0,0)$、$B(1,0,0)$、$C(0,1,0)$、$D(0,1,1)$，$\overrightarrow{AB}\cdot\overrightarrow{AC}=\overrightarrow{AB}\cdot\overrightarrow{AD}=0$ 符合條件。
+    (2) 反例中 $\overline{AC}=1$、$\overline{AD}=\sqrt2$，不相等（全國 23% 誤選）✗
+    (3) $\overrightarrow{AB}$ 和 $\overrightarrow{CD}$ 垂直，不是平行（全國 14% 誤選）✗
+    (4) 反例中 $\overrightarrow{AD}\cdot\overrightarrow{BC}=(0,1,1)\cdot(-1,1,0)=1\ne0$ ✗
+    (5) 反例中 D 不在 A、B、C 所在的平面（$z=0$）上，四點不共面 ✗
+    → 答案 (1)
+ma109-16:
+  key: 線段 S 的兩端點是 $(1,8)$ 與 $(4,2)$；$c=3x-y$ 在線段上呈線性變化，最小值在端點 $(1,8)$：$c=-5$。
+  explain: |
+    求 S 的端點：
+    $2x+y=10$ 與 $x-2y+15=0$：$x=2y-15$ 代入得 $5y=40$，$y=8$、$x=1$ → $(1,8)$。
+    $2x+y=10$ 與 $x-2y=0$：$x=2y$ 代入得 $5y=10$，$y=2$、$x=4$ → $(4,2)$。
+    直線 $3x-y=c$ 與 S 有交點 ⇔ c 介於兩端點代入的值之間：$(1,8)$ 得 $3-8=-5$，$(4,2)$ 得 $12-2=10$。
+    所以 $-5\le c\le10$，最小值 $-5$：⑲＝−、⑳＝5
+ma114-18:
+  key: 旋轉矩陣的平方、立方仍是旋轉矩陣 $\begin{bmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{bmatrix}$；對照 $\begin{bmatrix}0&c\\1&d\end{bmatrix}$ ⇒ $\cos\theta=0$、$\sin\theta=1$ ⇒ $c=-1$。
+  explain: |
+    A 旋轉銳角 $\alpha$，$A^2$ 就是旋轉 $2\alpha$；B 旋轉銳角 $\beta$，$B^3$ 就是旋轉 $3\beta$。
+    $A^2=B^3=\begin{bmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{bmatrix}=\begin{bmatrix}0&c\\1&d\end{bmatrix}$
+    比較左下角與左上角：$\sin\theta=1$、$\cos\theta=0$ ⇒ $\theta=90^\circ$，所以 $c=-\sin\theta=-1$、$d=\cos\theta=0$。
+    （也可得 $2\alpha=90^\circ$ ⇒ $\alpha=45^\circ$；$3\beta=90^\circ$ ⇒ $\beta=30^\circ$，後面兩題會用到。）
+    → 答案 (2)
+    (3) 1 是把 $-\sin\theta$ 的負號漏掉了（全國 20% 誤選）。
+ma115-18:
+  key: 平行四邊形 ABCD 的面積＝$|\overrightarrow{AB}\times\overrightarrow{AD}|=|(-5,5,5)|=\sqrt{75}=5\sqrt3$。
+  explain: |
+    平行四邊形 ABCD 由 $\overrightarrow{AB}$、$\overrightarrow{AD}$ 張成，面積等於外積的長度：
+    $|\overrightarrow{AB}\times\overrightarrow{AD}|=\sqrt{(-5)^2+5^2+5^2}=\sqrt{75}=5\sqrt3$
+    → 答案 (3)
+    (2) $5\sqrt2$ 是只算了兩個分量（全國 12% 誤選）。

@@ -39,7 +39,8 @@ for s in SUBJECTS:
                 print(f"✗ {qid} 解析打勾 ({m.group(1)})，官方答案 {ans}")
         if it["type"] == "multi" and not pick_wrong:
             marked = {m.group(1) for line in ex.split("\n") if (m := re.match(rf"\(([{K}])\)", line.strip())) and "✓" in line}
-            if marked and marked != set(ans.replace(",", "")):
+            alts = [set(a.replace(",", "")) for a in ans.split("或")]  # 官方公布兩種正解時（如 BD或BC），打勾的可以是任一組或共同的部分
+            if marked and marked not in alts and marked != set.intersection(*alts):
                 bad += 1
                 print(f"✗ {qid} 多選打勾 {''.join(sorted(marked))}，官方答案 {ans}")
         # 誤選比例

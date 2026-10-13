@@ -18,14 +18,14 @@
 		<details>
 		<summary>✅ 看答案與解析</summary>
 			**答案：A**
-			💡 無遠弗「屆」、離群「索」居、人情「世」故；以儆效尤完全正確。
-			(A) 以儆效尤：懲戒一人以警告想仿效的人 → 全部正確 ✓
-			(B) 無遠弗<span underline="true">界</span> → 應為「無遠弗屆」（屆：到達）
-			(C) 離群<span underline="true">所</span>居 → 應為「離群索居」（索：孤單、獨自）；全國 50% 誤選這個選項
-			(D) 人情<span underline="true">事</span>故 → 應為「人情世故」
+			💡 無遠弗「屆」、離群「索」居、人情「世」故；「以儆效尤」寫法正確。
+			(A) 「以儆效尤」：用來警戒仿效壞榜樣的人 ✓
+			(B) 無遠弗「界」→「屆」（屆：到達）（全國 18% 誤選）✗
+			(C) 離群「所」居→「索」（索：孤單）（全國 50% 誤選）✗
+			(D) 人情「事」故→「世」（全國 10% 誤選）✗
 			📊 全國答對率 22%｜鑑別度 27｜各選項選答率 A 22%、B 18%、C 50%、D 10%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn115-02)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
 	</details>
 	<details>
 	<summary>📝 114 學測國綜 第 2 題（全國答對率 43%）</summary>
@@ -76,15 +76,14 @@
 		<details>
 		<summary>✅ 看答案與解析</summary>
 			**答案：C**
-			💡 價格不「菲」、人謀不「臧」、「承」載願望；命蹇時乖完全正確。
-			全國答對率只有 14%，是近年最難的字形題。
-			(A) 價格不<span underline="true">斐</span> → 應為「不菲」（菲：微薄；不菲＝不便宜）
-			(B) 人謀不<span underline="true">彰</span> → 應為「人謀不臧」（臧：善；指人為的謀劃不周全）
-			(C) 命蹇ㄐㄧㄢˇ時乖：命運不好、時運不順 → 全部正確 ✓
-			(D) 天燈<span underline="true">乘</span>載 → 應為「承載」（承：承接）；全國 42% 誤選 (D)
+			💡 價格不「菲」、人謀不「臧」、「承」載；「命蹇時乖」是命運不好、時運不佳，寫法正確。
+			(C) 「命蹇時乖」：命運不順，時運不佳 ✓
+			(A) 價格不「斐」→「菲」（菲：微薄；不菲＝價格很高）（全國 33% 誤選）✗
+			(B) 人謀不「彰」→「臧」（臧：善；人謀不臧＝人為的謀劃不周）（全國 12% 誤選）✗
+			(D) 「乘」載→「承」載（承受、裝載）（全國 42% 誤選）✗
 			📊 全國答對率 14%｜鑑別度 11｜各選項選答率 A 33%、B 12%、C 14%、D 42%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn112-02)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)
 	</details>
 	<details>
 	<summary>📝 111 學測國綜 第 2 題（全國答對率 18%）</summary>

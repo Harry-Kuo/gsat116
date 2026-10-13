@@ -1,0 +1,257 @@
+# 英文 Day 43–49 每日練習的解析（Claude 撰寫，老師審閱後可直接修改）
+# 「全國 N% 誤選」是大考中心公布的各選項選答率。
+
+# ---------- Day 43：閱讀測驗（115：堅忍號）＋詞彙 ----------
+eng115-35:
+  key: 開頭由 2022 年找到沉船切入，主體是 1914–1916 年堅忍號航向南極、受困、全員生還的艱難旅程。
+  explain: |
+    第一段只用找到沉船當引子，第二到五段依時間敘述出航、受困浮冰、棄船、求救、獲救的過程。
+    (C) 一趟艱困的南極航程 ✓
+    (A) 文章沒有介紹沙克爾頓的生平，重點是這次航行（全國 23% 誤選）✗
+    (D) 找到沉船只是開頭的引子（全國 16% 誤選）✗
+    (B) 極端天氣只是航程中的困難之一 ✗
+eng115-36:
+  key: exacerbate＝使惡化；船板被冰擠彎，冰水又灌進來 → 雪上加霜＝add fuel to the fire。
+  explain: |
+    句子：冰的壓力漸漸把船板擠彎，冰冷的海水湧入，exacerbated the situation。
+    讓本來就糟的情況更糟 → (D) Added fuel to the fire 火上加油 ✓
+    (A) Broke the ice 打破僵局（全國 28% 誤選）：字面有 ice，但意思是化解尷尬。
+    (C) Missed the boat 錯失良機（全國 17% 誤選）(B) Cost an arm and a leg 非常昂貴（全國 12% 誤選）。
+eng115-37:
+  key: 1914 年 8 月 4 日出發，1916 年 8 月 30 日才回象島救出其餘隊員 → 超過兩年。
+  explain: |
+    (A) 從 1914/8/4 出航到 1916/8/30 救出所有隊員，超過兩年 ✓
+    (D) 沙克爾頓是「親自」帶五名隊員駕船去南喬治亞島求救（全國 20% 誤選）✗
+    (B) 他「希望」成為第一個陸路橫越南極的人，但船受困，沒有成功（全國 16% 誤選）✗
+    (C) 在浮冰上紮營五個月；象島是之後才到的（全國 13% 誤選）✗
+eng115-38:
+  key: 問的是「堅忍號這艘船」離開南喬治亞後的路線：困在浮冰中漂流，最後沉入威德爾海，從沒到象島。
+  explain: |
+    船的路線：離開南喬治亞島 → 遇到浮冰、被困 → 先往南漂、再被冰推向北 → 在威德爾海沉沒。
+    (C) 從南喬治亞往南進入威德爾海，路線停在海中（沉船處）✓
+    (A) 畫的是「隊員」的整趟行程：船沉之後，隊員坐救生艇到象島，再划到南喬治亞求救；但船已經沉了（全國 44% 誤選，比答對的人還多）✗
+    (B) 方向相反，而且也一路回到南喬治亞（全國 18% 誤選）✗
+    (D) 船從沒到過象島 ✗
+eng110-11:
+  key: 和 making great profits（賺大錢）並列 → 公司 flourishing（蓬勃發展）。
+  explain: |
+    句意：在執行長英明的領導下，公司＿＿＿，獲利豐厚。
+    → (B) flourishing 興旺、繁榮 ✓
+    (D) exceeding 超過（全國 23% 誤選）：是及物動詞，要接受詞（exceed expectations）。
+    (A) applauding 鼓掌（全國 16% 誤選）(C) circulating 流通、循環。
+
+# ---------- Day 44：閱讀測驗（115：旋轉樓梯）＋詞彙 ----------
+eng115-39:
+  key: 最後一段說旋轉樓梯經典設計有「永恆的魅力」，所以在豪宅、辦公室、公共建築很受歡迎。
+  explain: |
+    (D) 「The timeless appeal of their classical design makes spiral staircases a much-desired feature … nowadays」✓
+    (A) 文中只說《舊約》提到所羅門聖殿有旋轉樓梯，可見約西元前 1000 年就有；現存最古老的是圖拉真柱，但沒有回答「第一座在哪裡建造」（全國 35% 誤選）✗
+    (C) 文中沒說哪一座最有名（全國 13% 誤選）✗
+    (B) 沒有提到最早的設計者 ✗
+eng115-40:
+  key: The defenders … could retreat up them very swiftly → 守軍熟悉樓梯的樣式，能很快地「退上樓梯」，them＝stairs。
+  explain: |
+    句子：守軍住在城堡裡，熟悉 the stair pattern，could retreat up them very swiftly。
+    retreat up 後面接的是可以「往上退」的地方 → (A) Stairs ✓
+    (C) Attackers（全國 32% 誤選）(D) Defenders（全國 22% 誤選）：人不能被「退上去」；而且 defenders 正是這個句子的主詞。
+    (B) Confines 狹窄空間（全國 7% 誤選）。
+eng115-41:
+  key: 西元 113 年石材（圖拉真柱）→ 維多利亞時代鑄鐵 → 20 世紀後半鋼 → 最近甚至玻璃。
+  explain: |
+    (A) stone → iron → steel → glass ✓
+    文中順序：113 AD 用石頭和大理石 → Victorian times 鑄鐵 → 20 世紀後半鋼架 → 今日還有木、混凝土，「recently even glass」。
+    (B) 木材是「今天」各種材質之一，沒有出現在鑄鐵之前（全國 13% 誤選）✗
+    (C)(D) 大理石、石材是最早的，不會排在鐵或木材之後 ✗
+eng115-42:
+  key: 樓梯順時針往上：往上攻的人右手貼著狹窄的中柱，揮不動劍；往下守的人右手在外側寬處 → 對慣用右手的守軍有利。
+  explain: |
+    (B) 進攻者往上爬時右手靠著最窄的中柱，無法有效用劍；反過來，從上往下防守的人右手在外側較寬的地方，可以揮劍 ✓
+    (A) 文中說守軍熟悉樓梯「could retreat up them very swiftly」（全國 21% 誤選）✗
+    (C) 不規則的台階讓進攻者容易絆倒，不是讓往上爬比較容易（全國 20% 誤選）✗
+    (D) 昏暗讓進攻者更容易跌倒，文中沒說守軍躲起來（全國 16% 誤選）✗
+eng110-12:
+  key: 連駕照都考不到卻花大錢買名車 → 真是 absurd（荒謬的）。
+  explain: |
+    句意：你連駕照都拿不到，卻把錢浪費在昂貴的車上，真是太＿＿＿了。
+    → (A) absurd 荒謬的 ✓
+    (D) obstinate 固執的（全國 22% 誤選）：形容人，不形容一件事。
+    (C) vigorous 精力充沛的（全國 20% 誤選）(B) cautious 謹慎的（全國 18% 誤選）。
+
+# ---------- Day 45：閱讀測驗（115：地圖的方位）＋詞彙 ----------
+eng115-43:
+  key: 全文依時間說明地圖方位的演變：古代朝東、最古老的地圖朝南、大航海時代起朝北、現在 GPS 依行進方向。
+  explain: |
+    (C) 地圖方位如何隨時代演變 ✓
+    (A) 「Orient」只是解釋古代地圖朝東的一個例子（全國 10% 誤選）✗
+    (B) GPS 只在倒數第二段提到，談的也是方位，不是功能差異（全國 10% 誤選）✗
+    (D) 大航海時代只是說明「北方朝上」的由來 ✗
+eng115-44:
+  key: 「there is no physical evidence to support this」→ this 指前句「古印度的地圖很可能朝東」。
+  explain: |
+    前句：In ancient India, for example, maps were most likely oriented to the east.
+    後句：雖然沒有實物證據支持 this，但 dakshina 同時有「南」與「右」的意思……
+    this＝古印度地圖朝東的說法 → (D) East-orientation of maps ✓
+    (A) dakshina 這個字正是用來支持這個說法的證據，不是 this（全國 12% 誤選）✗
+    (C) Ancient India（全國 9% 誤選）(B) Physical evidence：句子在說「沒有實物證據支持 this」，this 不會是證據本身 ✗
+eng115-45:
+  key: 古代以自己為中心、目的地朝上，現在 GPS 又回到這樣 → 「北方朝上」只是一時的現象（a blip）。
+  explain: |
+    句子：perhaps the north-on-top practice is less a rule and more a blip（北方朝上與其說是規則，不如說是 a blip）；下一句說科技進步了幾百年，我們又回到古代的做法。
+    和 rule（長久的規則）相對，是短暫的現象 → (A) A temporary state 暫時的狀態 ✓
+    (D) An advanced system（全國 25% 誤選）(C) A critical decision（全國 19% 誤選）(B) An urgent need（全國 17% 誤選）。
+eng115-46:
+  key: 早期穆斯林住在麥加以北，地圖把南方放上面，信徒就像抬頭望向聖城 → 是宗教的原因。
+  explain: |
+    (D) 「a south-oriented map would show the followers looking up toward their holy city」✓
+    (B) GPS 的版面是動態的，隨行進方向轉動，不是固定方向（全國 26% 誤選）✗
+    (A) 水手是靠北極星辨認方向，不是把它當作目的地（全國 18% 誤選）✗
+    (C) 《舊約》的證據顯示，聖經之前與聖經時代的地圖是「東方」朝上（全國 13% 誤選）✗
+eng110-13:
+  key: 問題很複雜，不能歸因於「單一的」原因 → one singular reason。
+  explain: |
+    句意：非法用藥的問題非常複雜，不能只追溯到一個＿＿＿原因。
+    complex（複雜）對比 merely one（只有一個）→ (A) singular 單一的 ✓
+    (D) defensive 防禦的（全國 17% 誤選）(B) countable 可數的（全國 16% 誤選）(C) favorable 有利的。
+
+# ---------- Day 46：綜合測驗（110 第一篇：巴塞隆納的鴿子） ----------
+eng110-16:
+  key: would not be the same without…＝少了…就不一樣了；遊歐洲城市「沒遇到鴿子」就不完整。
+  explain: |
+    句意：事實上，到歐洲大城市一遊，＿＿＿遇到牠們（在噴泉洗澡、停在古建築上、在廣場成群），就不一樣了。
+    鴿子是歐洲城市常見的景象 → 少了牠們就不像樣 → (D) without 沒有 ✓
+    (A) as（全國 52% 誤選，比答對的人還多）：the same as encountering them 意思變成「和遇到牠們一樣」，再加上 would not，句意變成「去歐洲城市和遇到鴿子不一樣」，不合邏輯。
+    (B) for（全國 16% 誤選）(C) though 雖然。
+eng110-17:
+  key: take over＝占據、接管；鴿子在古蹟、建築、遊客身上大便，快把歷史市中心「占領」了。
+  explain: |
+    句意：然而在巴塞隆納，鴿子現在快要＿＿＿市區的歷史中心，在紀念碑、建築，甚至遊客身上大便。
+    → (C) take over 接管、占據 ✓
+    (D) break down 損壞、故障（全國 42% 誤選，比答對的人還多）：break down 多半不接受詞，也不是鴿子造成的情況。
+    (A) set up 設立（全國 13% 誤選）(B) hang on 堅持（全國 13% 誤選）。
+eng110-18:
+  key: 把鴿子抓起來射殺 → 目的是 reducing（減少）鴿子數量。
+  explain: |
+    句意：市議會原本提議用捕捉、射殺的方式＿＿＿鴿子的數量。
+    propose＋V-ing → (B) reducing 減少 ✓
+    (D) maintaining 維持（全國 13% 誤選）(C) displaying 展示（全國 10% 誤選）(A) counting 計算。
+eng110-19:
+  key: another similarly effective method＝另一個同樣有效的方法；可以減少鴿子，又不用射殺。
+  explain: |
+    句意：經過激烈辯論，政府終於被說服，考慮另一個＿＿＿有效的方法：讓鴿子節育。
+    「另一個」和射殺「同樣」能減少鴿子的方法 → (D) similarly 同樣地 ✓
+    (C) precisely 精確地（全國 35% 誤選）：precisely effective 不是常見搭配，也沒有「和前一個方法比較」的意思。
+    (B) shortly 不久 (A) nearly 幾乎。
+eng110-20:
+  key: feeders installed throughout the city＝設置在全市各處的餵食器；被動用過去分詞。
+  explain: |
+    句意：從 2017 年 4 月起，藥丸被放在＿＿＿全市的 40 個鳥類餵食器中。
+    餵食器是「被安裝」的 → 過去分詞修飾名詞 → (B) installed ✓
+    (A) installing（全國 20% 誤選）：現在分詞表示主動，餵食器不會自己安裝東西。
+    (C) to install（全國 16% 誤選）(D) having installed。
+
+# ---------- Day 47：綜合測驗（110 第二篇：被雷打七次的人） ----------
+eng110-21:
+  key: not to mention＝更別提；被雷打中一次的機率是三千分之一，更別說被打中七次。
+  explain: |
+    句意：在 80 年的一生中，被雷擊中的機率是三千分之一，＿＿＿被擊中七次的機率。
+    從「一次都很少」推到「七次更不可能」→ (C) not to mention 更別說 ✓
+    (B) as you can see 如你所見（全國 24% 誤選）(D) with regard to 關於（全國 19% 誤選）(A) if it isn't 如果不是。
+eng110-22:
+  key: 被雷打了七次，而且每次都 survived（活下來了），所以才有驚嘆號。
+  explain: |
+    句意：在 36 年的職業生涯中，Sullivan 被雷擊中七次——而且每一次都＿＿＿！
+    下文還有他的訪談，可見他都活下來了 → (C) survived 存活、挺過 ✓
+    (D) tracked 追蹤（全國 14% 誤選）(B) rejected 拒絕（全國 11% 誤選）(A) piloted 駕駛。
+eng110-23:
+  key: 第四次之後，他開始怕死（fearful of death），打雷時會採取防護措施。
+  explain: |
+    句意：但第四次之後，Sullivan 變得＿＿＿死亡，打雷時會採取預防措施。
+    和 took precautions 呼應 → (A) fearful of 害怕 ✓
+    (D) positive about 樂觀看待（全國 24% 誤選）(C) doubtful about 懷疑（全國 13% 誤選）(B) critical of 批評。
+eng110-24:
+  key: 雷雨雲「追著」他 → come after＝追趕；和前一段 A storm cloud "chased" him 相同。
+  explain: |
+    句意：Sullivan 在勘查營地時，覺得有一朵雲在＿＿＿他，他拚命逃，但還是被打中了。
+    上一段說雲「chased」他，這裡同樣的事又發生 → (A) coming after 追趕 ✓
+    (B) getting over 克服（全國 18% 誤選）(C) holding on to 緊抓（全國 13% 誤選）(D) watching out for 提防。
+eng110-25:
+  key: If he was (after me), the first bolt would have been enough：與現在相反的條件＋已發生的第一次雷擊 → 與過去相反的結果。
+  explain: |
+    句意：「我不認為上帝在找我麻煩，」他推論，「如果是的話，第一道閃電就＿＿＿夠了。」
+    條件句 If he was 是假設（上帝其實沒有找他麻煩）；第一道閃電是過去發生的事 → 結果要用 would have p.p. → (D) would have been ✓
+    (C) would be（全國 41% 誤選，比答對的人還多）：表示現在或未來的假設，但第一次雷擊已經發生在過去。
+    (B) had been（全國 21% 誤選）：是條件子句的時態，不能用在主要子句。
+
+# ---------- Day 48：綜合測驗（110 第三篇：熱帶冰川） ----------
+eng110-26:
+  key: be home to＝是…的所在地、有…；這些山脈「有」冰川和冰原。
+  explain: |
+    句意：冰川通常和寒冷的氣候連在一起，但南美洲、非洲、印尼的一些山脈也＿＿＿冰川和冰原。
+    → (A) home to 是…的家、擁有 ✓
+    (B) covers of（全國 54% 誤選，比答對的人還多）：「山脈是冰川的覆蓋物」主從顛倒；而且 cover 指覆蓋物，不能這樣用來表示「有」。
+    (C) roofs over 在…上方的屋頂（全國 12% 誤選）(D) room for 容納…的空間。
+eng110-27:
+  key: 冰原變薄速度是幾年前的五倍、十年內就會消失 → 威脅迫在眉睫（immediate）。
+  explain: |
+    句意：一項新研究顯示，氣溫上升對印尼巴布亞地區最後的熱帶冰川構成＿＿＿威脅。
+    後文：冰原變薄的速度是幾年前的五倍以上，十年內會完全消失 → (C) immediate 立即的、迫切的 ✓
+    (D) offensive 冒犯的、攻擊性的（全國 20% 誤選）(A) occasional 偶爾的（全國 12% 誤選）(B) elaborate 精心的（全國 12% 誤選）。
+eng110-28:
+  key: Having already shrunk…＝（冰川）已經縮小了 85%；完成式分詞構句，主詞同為 Papua's glaciers。
+  explain: |
+    句意：＿＿＿已經縮小了 85%，只剩 0.5 平方公里，研究人員預測巴布亞的冰川將在十年內完全消失。
+    兩個句子主詞都是冰川，前句的動作（縮小）先發生 → 完成式分詞構句 Having p.p. → (C) Having ✓
+    (D) Having been（全國 24% 誤選）：Having been shrunk 是被動，「冰川被縮小」不通；shrink 這裡是不及物動詞。
+    (B) Had（全國 19% 誤選）(A) Have（全國 16% 誤選）：是完整的動詞，放在句首會變成疑問句或倒裝，和逗號後的主要子句接不起來。
+eng110-29:
+  key: 冰川對原住民是神聖的象徵（神的頭）→ 消失會帶來文化上的衝擊（cultural impact）。
+  explain: |
+    句意：冰川消失也會留下重大的＿＿＿影響。對許多巴布亞原住民來說，冰原是神聖的象徵。
+    下一句談宗教信仰 → (A) cultural 文化的 ✓
+    (D) environmental 環境的（全國 51% 誤選，比答對的人還多）：前面已經談了環境，這句用 also 帶出「另一種」影響，後文說的是信仰。
+    (B) moral 道德的 (C) political 政治的。
+eng110-30:
+  key: leave…unchecked＝放任不管；如果溫室氣體不受控制、氣溫持續上升，巴布亞冰川只是第一個消失的。
+  explain: |
+    句意：研究警告，如果溫室氣體＿＿＿，氣溫持續上升，巴布亞的冰川只是「第一個消失」的。
+    和「氣溫持續上升」同方向 → 溫室氣體不受控制 → (D) left unchecked 放任不管 ✓
+    (B) made released（全國 52% 誤選，比答對的人還多）：make 的被動要接 to V（be made to release），made released 不合文法。
+    (C) seen dismissed（全國 17% 誤選）(A) kept balanced 保持平衡（全國 14% 誤選）：保持平衡就不會讓冰川消失。
+
+# ---------- Day 49：文意選填（上）（110：運動不必痛） ----------
+# 選項：(A) means (B) soreness (C) point to (D) argue (E) demanding (F) abide by (G) fanatic (H) current (I) make time (J) modest
+eng110-31:
+  key: modest amounts of exercise＝適量（不多）的運動；破折號後補充「一天只要 15 分鐘」。
+  explain: |
+    詞性分類：名詞 means、soreness、fanatic；形容詞 demanding、current、modest；動詞或片語 point to、argue、abide by、make time。
+    句意：研究顯示，＿＿＿運動量——就算一天只有 15 分鐘——也有助於緩解憂鬱、提升自我形象、紓解壓力等等。
+    amounts 前面要形容詞，又由「只要 15 分鐘」說明 → (J) modest 適度的、不多的 ✓
+    (C) point to（全國 16% 誤選）：是動詞片語，不能修飾名詞。
+    (E) demanding 費力的（全國 10% 誤選）：和「只要 15 分鐘」相反。
+eng110-32:
+  key: a fitness fanatic＝健身狂；不必是健身狂也能做運動。
+  explain: |
+    句意：運動讓你快樂，而且你不必是個健身＿＿＿也能做到。
+    a fitness＋名詞 → (G) fanatic 狂熱者 ✓
+    (E) demanding（全國 18% 誤選）：形容詞，不能放在冠詞 a 和 fitness 之後當中心名詞。
+    (A) means 方法（全國 12% 誤選）。
+eng110-33:
+  key: a motto to abide by＝一句要遵守的座右銘。
+  explain: |
+    句意：你要做的，是把「慢慢開始、玩得開心」當成一句要＿＿＿的座右銘。
+    不定詞修飾 motto，後面要動詞，「遵守」座右銘 → (F) abide by 遵守 ✓
+    (G) fanatic（全國 10% 誤選）(C) point to（全國 10% 誤選）。
+eng110-34:
+  key: current health studies＝當前的健康研究；和前一句「舊觀念」對比。
+  explain: |
+    句意：「沒有痛苦就沒有收穫」的運動觀念現在被認為過時了。事實上，＿＿＿健康研究證明，運動不必很痛才有效。
+    和 old-fashioned（過時的）相對 → (H) current 當前的 ✓
+    (F) abide by（全國 11% 誤選）(C) point to（全國 11% 誤選）：都是動詞片語，不能放在名詞前。
+eng110-35:
+  key: You might argue that…＝你也許會主張…（提出一個要被反駁的看法）。
+  explain: |
+    句意：你也許會＿＿＿，如果運動不會痛，就沒有效果。
+    might 後面接原形動詞，後面接 that 子句 → (D) argue 主張 ✓
+    (C) point to（全國 8% 誤選）：point to 後面接名詞，不接 that 子句。
+    (E) demanding（全國 5% 誤選）。
+

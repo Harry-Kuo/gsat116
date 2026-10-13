@@ -50,7 +50,7 @@ items:
   reviewed: false
   image: img/mathB/115-01.webp
   text: |-
-    說明：第1 題至第7 題，每題5 分。
+    說明：第1 題至第7 題，每題5 分。
     1. 當標準值為95，試選出有幾個整數N 與標準值的誤差百分比
     95
     100%
@@ -526,8 +526,8 @@ items:
 
 
 
-    領海
-    領海基線
+    領海
+    領海基線
 - id: mb115-07
   'no': 7
   type: single
@@ -611,7 +611,7 @@ items:
   reviewed: false
   image: img/mathB/115-08.webp
   text: |-
-    說明：第8 題至第12 題，每題5 分。
+    說明：第8 題至第12 題，每題5 分。
     8. 試選出與函數
     3sin
     3
@@ -1052,7 +1052,7 @@ items:
   reviewed: false
   image: img/mathB/115-13.webp
   text: |-
-    說明：第13 題至第17 題，每題5 分。
+    說明：第13 題至第17 題，每題5 分。
     13. 坐標平面上，1L 為通過原點O 且斜角為75的直線；
     2
     L 為通過點( 20,0)

@@ -14,3 +14,6 @@
 	- <mention-page url="https://app.notion.com/p/3ecee100984f8101b9c2fb906015fc04"/>　全國答對率 61%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f815fb1efff3c648fdc7e"/>　全國答對率 42%
 </details>
+<callout icon="🔁">
+	Day 22（10/21（三））起，每天把上面各天的題目依序再練一輪（第二輪、第三輪……），一直到考前一天 1/21（四）。題目和上面相同，到練習網站作答即可。
+</callout>

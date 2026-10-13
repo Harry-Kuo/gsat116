@@ -1300,8 +1300,12 @@ items:
     '4': ''
     '5': ''
   answer: '2'
-  topic: null
-  concepts: []
+  topic: M5
+  tags:
+  - M3
+  concepts:
+  - M5
+  - M3
   classic: true
   stats:
     P: 58

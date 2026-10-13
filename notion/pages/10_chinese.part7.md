@@ -1,93 +1,4 @@
 <details>
-<summary>**C3 文言閱讀**（近六屆 49 題）</summary>
-	<callout icon="💡">
-		先抓人物、事件、觀點；課外文言就用核心選文學過的詞義和句式來推敲。
-	</callout>
-	- 先讀出文章的人物、事件、時間與觀點，再回頭處理詞義；遇到生字，從上下文與核心古文學過的用法推敲。
-	- 文言常省略主語、賓語，閱讀時要自己補出「誰對誰做了什麼」，才不會弄錯主客體。
-	- 常見的論說結構：先舉事例再下結論，或先提出主張再用古人古事印證；結論常在「故」「是以」「由是觀之」之後。
-	- 題目附的注釋常解釋關鍵字詞，是重要線索，作答前一定要看。
-	<details>
-	<summary>其他相關考古題（49 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ebee100984f819b9a11cd8a599bb2a4"/>　全國答對率 55%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81a8a578cd602cff6480"/>　全國答對率 55%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81fbacbdd13c27f0eb61"/>　全國答對率 26%
-		- [115 學測國綜 第 30 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 36%
-		- [115 學測國綜 第 31 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 50%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f81b9b0b7d2f981bcdf9c"/>　全國答對率 52%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f816ebea8f18bdc5342e8"/>　全國答對率 77%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f812c866cdb619e628f08"/>　全國答對率 55%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f818bbbe1f65b0b203531"/>　全國答對率 49%
-		- [114 學測國綜 第 20 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 49%
-		- [114 學測國綜 第 21 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 67%
-		- [114 學測國綜 第 31 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 23%
-		- [114 學測國綜 第 33 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 56%
-		- [113 學測國綜 第 14 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 63%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81008afbdb5857bbbb3a"/>　全國答對率 74%
-		- [113 學測國綜 第 21 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 54%
-		- [113 學測國綜 第 22 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 39%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f81b1aac2d4ef9ccadf8c"/>　全國答對率 62%
-		- [113 學測國綜 第 30 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 55%
-		- [113 學測國綜 第 31 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 31%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f819d8932ece144548e7c"/>　全國答對率 32%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81c08c38f118f3533ad1"/>　全國答對率 91%
-		- [112 學測國綜 第 12 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 73%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81e8938bde32e555e53e"/>　全國答對率 72%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f81a7b48eff532e9ab2f7"/>　全國答對率 38%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81eba8f4db6955793032"/>　全國答對率 90%
-		- [112 學測國綜 第 18 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 29%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f811794a2d75083b1d76a"/>　全國答對率 75%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81069d2fe4e93a612f63"/>　全國答對率 74%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f819e96dece0f194446bf"/>　全國答對率 77%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f81bbbb80ce3d1beb7b61"/>　全國答對率 62%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f81fd9ea2c51dfdd894a9"/>　全國答對率 56%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81f2bae6d7acf9f0af0b"/>　全國答對率 49%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81eca006c18430180bb0"/>　全國答對率 84%
-		- [111 學測國綜 第 14 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 48%
-		- [111 學測國綜 第 15 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 60%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81d7a2cffda08c9540d9"/>　全國答對率 29%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81529ec9e40c80b3742a"/>　全國答對率 35%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81c6b904c643797ce419"/>　全國答對率 61%
-		- [111 學測國綜 第 33 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 59%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81c08f8af0e7ed2174eb"/>　全國答對率 55%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f813aa478e2db07a13e47"/>　全國答對率 55%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81a9b8e0c718cbe79c72"/>　全國答對率 47%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f813fb72ed6bb355d7286"/>　全國答對率 49%
-		- [110 學測國文 第 27 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 65%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f812a94eaf2458ade93c7"/>　全國答對率 35%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f8195b793cf714a3d25af"/>　全國答對率 83%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f81d98adddaa3c51a6b4f"/>　全國答對率 43%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81908f2cf69e427050a9"/>　全國答對率 56%
-	</details>
-</details>
-<details>
-<summary>**C4 古典韻文**（近六屆 14 題）</summary>
-	<callout icon="💡">
-		詩詞曲看意象、情感、格律；題目附的注解、評點都是線索。
-	</callout>
-	- 詩詞先找時間、地點、景物與人物，再推作者的情感；景物描寫常用來襯托情感（以景襯情、情景交融）。
-	- 常見意象：月（思鄉、團圓）、柳（離別，古人折柳送別）、雁（書信、思鄉）、菊（隱逸）、梅（高潔、堅貞）、杜鵑（悲傷、思歸）。
-	- 判斷體裁：每句字數相同、全首 4 句或 8 句 → 近體詩；長短句、有詞牌 → 詞；有曲牌、襯字、口語 → 曲。
-	- 題目附的評點、注釋或寫作背景，通常就是解題的關鍵。
-	<details>
-	<summary>其他相關考古題（14 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81b79110f54372d06f8d"/>　全國答對率 63%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81a9848ac0ffba7ad7b4"/>　全國答對率 65%
-		- [115 學測國綜 第 24 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 14%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81ce95b7ff084204a13d"/>　全國答對率 69%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f817f9f97e1775cc0c715"/>　全國答對率 36%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81d8b258c86acca49c0f"/>　全國答對率 64%
-		- [113 學測國綜 第 8 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 86%
-		- [113 學測國綜 第 34 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 46%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81aeb93decc3d6d846e1"/>　全國答對率 25%
-		- <mention-page url="https://app.notion.com/p/3e9ee100984f8152af5cda44bc960d0d"/>　全國答對率 44%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f8181ae4cda28b7abc0fd"/>　全國答對率 27%
-		- [111 學測國綜 第 17 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 51%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f811d989ef525a0f1b0ad"/>　全國答對率 75%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81159ca5d2674e7235b4"/>　全國答對率 86%
-	</details>
-</details>
-<details>
 <summary>**C5 跨文本比較**（近六屆 9 題）</summary>
 	<callout icon="💡">
 		甲乙丙文先各自抓主旨，再比較立場與寫法；選項出現「皆、均、二者」時，要每一篇都查核。
@@ -97,15 +8,15 @@
 	- 比較題常考「同中有異」：題材相同但態度不同，或結論相同但理由不同。
 	<details>
 	<summary>其他相關考古題（9 題）</summary>
-		- [115 學測國綜 第 35 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 20%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f815daa92cd72eb78ab52"/>　全國答對率 20%
 		- [115 學測國綜 第 36 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 38%
-		- [114 學測國綜 第 24 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 46%
-		- [114 學測國綜 第 30 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 44%
-		- [114 學測國綜 第 32 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 69%
-		- [113 學測國綜 第 35 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 51%
-		- [112 學測國綜 第 32 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 61%
-		- [111 學測國綜 第 16 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 56%
-		- [110 學測國文 第 28 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 52%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811b9436c30a36de0b3d"/>　全國答對率 46%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f818f8b05e24c7cd1541c"/>　全國答對率 44%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f812fa5abc3a9cba9e286"/>　全國答對率 69%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81cea326e152f49e4434"/>　全國答對率 51%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f814f8275d57c530ab213"/>　全國答對率 61%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81519d2bf648ab9ca006"/>　全國答對率 56%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81a5b385cd89e232b9a6"/>　全國答對率 52%
 	</details>
 </details>
 <details>
@@ -119,14 +30,185 @@
 	<details>
 	<summary>其他相關考古題（10 題）</summary>
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81069e63d75dd7afdd74"/>　全國答對率 45%
-		- [114 學測國綜 第 23 題](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)　全國答對率 79%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81d7b8c5efa0635b9f81"/>　全國答對率 79%
 		- <mention-page url="https://app.notion.com/p/3e9ee100984f81f584f2fe07fc455302"/>　全國答對率 87%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81b98286fb6ff80647ed"/>　全國答對率 86%
-		- [111 學測國綜 第 20 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 37%
-		- [111 學測國綜 第 21 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 48%
-		- [111 學測國綜 第 22 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 60%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8134adede9ad3b7f09ca"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811eae5cf9954bcb5fd5"/>　全國答對率 48%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81bf866bcc0d20d3cf64"/>　全國答對率 60%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f8187be66d054b009b532"/>　全國答對率 75%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81beb6e8fe2fe31174a1"/>　全國答對率 81%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f8165b7d6d66f3135f018"/>　全國答對率 50%
+	</details>
+</details>
+<details>
+<summary>**C7 研判題（符合／不符合／無法判斷）**（近六屆 12 題）</summary>
+	<callout icon="💡">
+		「無法判斷」＝文章沒有提到；「不符合」＝和文章矛盾。先逐句判斷，再對照選項組合。
+	</callout>
+	- 近年幾乎每份國綜都有 2–3 題，格式固定：①②（③）各自判斷，再選組合。
+	- 三種判斷：符合（文中有依據）、不符合（與文中矛盾）、無法判斷（文中沒有提到，推不出來）。
+	- 最常錯在把「無法判斷」當成「不符合」：文章沒說，不等於文章說錯。
+	- 作答法：每一句都要在原文畫出依據；找不到依據時，先考慮「無法判斷」。
+	**📝 對應考古題**
+	<details>
+	<summary>📝 115 學測國綜 第 7 題（全國答對率 85%）</summary>
+		<callout icon="📖" color="gray_bg">
+			**題組文章（第 6–8 題共用）**
+			閱讀下文，回答6-8題。
+			1906年，早田文藏根據小西成章採自南投烏松坑山的一份無名針葉樹標本，在當時植物學期刊上發表裸子植物新種─臺灣杉。由於它無法歸入任何一個現生裸子植物的「屬」，早田文藏因此新立了「臺灣杉屬」，使臺灣原生植物走上國際舞臺。
+			> 臺灣杉樹形高聳，魯凱族稱它為「撞到月亮的樹」。2023年找到的全臺最高樹「大安溪倚天劍」（84.1公尺），即是臺灣杉。
+			不久後，臺灣杉相繼在中國大陸湖北、雲南、福建和緬甸、越南北部被發現，臺灣特有屬的位階不再，但有研究發現：臺灣杉堪稱活化石，它最古老的化石紀錄可溯至阿拉斯加約一億年前的白堊紀地層，在整個新生代，也零星分布於歐亞大陸和北美洲。令學者驚訝的是，億萬年來臺灣杉似乎未改變樣貌，與現生臺灣杉在形態上幾無差別。此外，雖然目前僅分布於東亞幾處地區，但在悠久的地質年代裡，臺灣杉曾廣闊分布於北半球，甚至靠近北極圈，似乎暗示它曾具有適應多樣環境的能力。
+			<span underline="true">依據現生臺灣杉族群DNA取樣的結果，發現：雖然臺灣杉整體的遺傳多樣性很低，但臺灣島與亞洲大陸的臺灣杉在遺傳上分化程度較高，各自演化出新的或保留了獨特的古老基因型。進一步以分子鐘分析，兩地的臺灣杉分離至少有兩、三百萬年。</span>學者於是推測，臺灣杉的祖先應該原本在東亞廣泛分布，受第四紀冰河期影響而導致分布破碎化。雲南、越南北部和臺灣島的臺灣杉擁有最高的遺傳多樣性，這些地方很可能是臺灣杉祖先在冰河期的避難所，其餘則是從避難所擴張出去的族群。（改寫自游旨价《通往世界的植物─臺灣高山植物的時空旅史》）
+		</callout>
+		關於①、②是否符合上文內容，最適當的研判是：
+		①臺灣杉從悠久的地質年代存活至今，基因雖有所演化，外貌幾乎不變。
+		②臺灣島的臺灣杉遺傳多樣性高，故「臺灣杉屬」應為裸子植物特有屬。
+		(A) ①、②皆符合
+		(B) ①、②皆不符合
+		(C) ①符合，②不符合
+		(D) ①不符合，②符合
+		<details>
+		<summary>✅ 看答案與解析</summary>
+			**答案：C**
+			💡 臺灣杉億萬年來樣貌幾乎沒變，基因卻各自演化 → ①符合；後來在中國、緬甸、越南也有發現，「臺灣特有屬的位階不再」→ ②不符合。
+			① 「億萬年來臺灣杉似乎未改變樣貌」，臺灣島與亞洲大陸的族群「各自演化出新的或保留了獨特的古老基因型」→ 符合
+			② 臺灣杉相繼在中國大陸、緬甸、越南被發現，「臺灣特有屬的位階不再」；遺傳多樣性高也不能證明它是特有屬 → 不符合
+			(C) ①符合，②不符合 ✓
+			📊 全國答對率 85%｜鑑別度 20｜各選項選答率 A 7%、B 5%、C 85%、D 2%
+		</details>
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn115-07)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
+	</details>
+	<details>
+	<summary>📝 115 學測國綜 第 12 題（全國答對率 42%）</summary>
+		<callout icon="📖" color="gray_bg">
+			**題組文章（第 11–13 題共用）**
+			閱讀下文，回答11-13題。
+			從十一世紀末到十六世紀初，西方史家大致都承認這期間是騎士的鼎盛時代，由騎士構成西方武力的主體。從國家的觀點來看，騎士與文吏平行，構成國王的左右手，前者代表武力，後者代表法律。與此相對，中國的「俠」即使在武力極盛的西漢，也沒有成為國家武力的一部分。相反地，「俠」的武力在朝廷眼中是敵對性的，必須加以消滅。
+			自漢代以來，中國社會一天天走上重文輕武的道路，「俠」作為武力集團終於解體，後來甚至也不必然和「武」連在一起。自東漢起，「俠」突破了「武」的領域，成為一種超越精神，並進入儒生文士的道德意識中。故論及「俠」對中國文化的影響，不能不特別注重「俠」與「士」的關係。
+			和西方騎士相似，中國古代的「士」一方面承擔著建立和維持政治、文化秩序的任務，另一方面又發展出<span underline="true">不肯屈服於權威、持「道」以議政</span>的批判傳統。我們通常認定這一傳統的來源在儒家，這個判斷大體上是有根據的。然而從東漢名士的集體反抗行動來看，「俠」見義勇為的作風有極其重要的影響。當時的黨錮之士在道理上固然以儒家為依歸，激昂慷慨的俠節卻提供了他們情感上的動力，後世富於批判精神的儒者也往往帶有「俠氣」。這一發展其實也是很自然的，因為儒家傳統中本有一股「狂」的精神，能與「俠風」一拍即合。（改寫自余英時〈俠與中國文化〉）
+		</callout>
+		關於①、②是否符合上文寫作策略，最適當的研判是：
+		①以西方騎士為對照，闡述中國之「士」與武力的關係。
+		②通過儒家思想與俠的比較，說明中國古代俠文化的興衰。
+		(A) ①、②皆符合
+		(B) ①、②皆不符合
+		(C) ①符合，②不符合
+		(D) ①不符合，②無法判斷
+		<details>
+		<summary>✅ 看答案與解析</summary>
+			**答案：B**
+			💡 文章拿西方騎士對照的是「俠」不屬於國家武力；全文重點是俠對「士」批判精神的影響，不是俠文化的興衰。
+			① 第一段以騎士對照的是「俠」：騎士是國家武力的主體，俠卻被朝廷視為敵對；第三段說「士」和騎士相似，談的是維持秩序與批判傳統，不是武力 → 不符合
+			② 文章討論俠如何進入士的道德意識、影響儒者的批判精神，不是比較儒家與俠來說明俠文化的興衰 → 不符合
+			(B) ①、②皆不符合 ✓
+			(C) ①不符合（全國 22% 誤選）✗　(D) ②可以判斷為不符合（全國 25% 誤選）✗
+			📊 全國答對率 42%｜鑑別度 26｜各選項選答率 A 12%、B 42%、C 22%、D 25%
+		</details>
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn115-12)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
+	</details>
+	<details>
+	<summary>📝 115 學測國綜 第 36 題（全國答對率 38%）</summary>
+		<callout icon="📖" color="gray_bg">
+			**題組文章（第 32–36 題共用）**
+			閱讀下文，回答32-36題。
+			> 聽見她的聲音
+			> 在文學與歷史的敘事中，女性的聲音長期被忽略、壓抑或誤讀……
+			> 「聽見她的聲音」，不僅是在文本中發掘女性話語的紀錄，更在於理解女性能否主動發聲，或如何被表達、被建構。
+			> 歸有光
+			> 我認為：三代王教修明，內外順治，「閨門之事皆可歌詠而傳道之」。所述雖「婦人女子之常，而事之至微者」，但「幽閑貞靜之德，隱然寓於其間，而足以章明王者之化」。可惜的是，此後女子在史傳作者眼中，必有「非平常之行」，乃能「著美名」於後世，導致女性「罕可紀述」，幾近銷聲匿跡。
+			> 甲
+			下列三段節錄文字，都出自歸有光的作品：
+			〈項脊軒志〉：一日，大母過余曰：「吾兒，久不見若影，何竟日默默在此，大類女郎也？」比去，以手闔門，自語曰：「吾家讀書久不效，兒之成，則可待乎？」頃之，持一象笏至，曰：「此吾祖太常公宣德間執此以朝，他日汝當用之。」
+			〈先妣事略〉：有光七歲，與從兄有嘉入學。每陰風細雨，從兄輒留，有光意戀戀，不得留也。孺人中夜覺寢，促有光暗誦《孝經》，即熟讀，無一字齟齬，乃喜。
+			〈祭外姑文〉：昔吾亡妻，能孝於吾父母，友於吾女兄弟，知夫人(按：即外姑，指妻子的母親)之能教也；粗食之養，未嘗不甘，知夫人之儉也。
+			> 乙
+			作為一位母親，如果不選擇「你無理取鬧，我不睬你」，也不以打罵碎唸管束，那麼她所碰上的難題不但超乎想像，要處理的委屈恐怕也成倍增長。如果長輩在旁，複雜度往往更高。想耐心等待哭泣的雲朵飄去，接納他表達情緒的自由時，就會被貼上「怎麼都不教小孩？」「不教以後他長大很難控制」的標籤。我練習克制脾氣，盡可能耐心走過他們哭泣、踢東西等情緒。有時得忍耐譴責，背對著理所當然的教養方式，爭取時間讓孩子認識自己的負面情緒。看看內心湧動出多少黑色河流，在高大濃密的黑森林裡，試著踏出一條日光照得到的路徑。（改寫自李欣倫〈水面下〉）
+			> 丙
+			以前生活比較艱苦，小孩又多，養不活，很多人只好把女兒送給人家做媳婦仔。我們也不例外，七個女兒中除了最大的和最小的，其餘那五個都曾經送給別人養。第六個女兒養到四、五歲時，屘嬸婆又來強要我們把女兒送給她親戚，一直說：「她會疼她啦！她只有兩個兒子而已！」我先生只好又把女兒抱給他們。那麼多個女兒都是他抱給人背走的，我都不忍心，把頭轉走，不敢看。這個女兒真的是「媳婦仔王」，因為他們沒有生女兒，所以很疼愛她。但後來要她「作新娘」，沒想到她還是不肯，實在對不住。因為她和養兄沒有感情，不願意和他結婚。她養母很生氣，但養父親自來家裡跟我們說：「她已經和一個男的在交往，人家也打算來訂親了。那個男的我去探聽過，聽說很乖啦！既然不能在一起，就不要勉強。不然，像我這樣，就一輩子不幸福了。」她養母也是小時候養大的，「作新娘」後，兩個感情並不好。（改寫自曾秋美訪問整理《消失中的台灣阿嬤‧將女兒送養的阿母─曾林阿珠》）
+		</callout>
+		依據本題組所有資料，下列關於「她的聲音」被「聽見」的推論是否正確，最適當的研判是：（占2分，單選題）
+		①舊時代的女性常因社會限制而受到忽略，人們甚至視靜默不出聲為女性的特質。
+		②教育普及促使當代關注女性的聲音，女性的自我敘說往往比受訪紀錄更直擊人心。
+		③看重非平常之行的史傳使女性聲音難以真實呈現，當代口述歷史則可呈現多元的聲音。
+		(A) ①、③皆正確，②無法判斷
+		(B) ①、②皆無法判斷，③正確
+		(C) ①錯誤，②無法判斷，③正確
+		(D) ①正確，②錯誤，③無法判斷
+		<details>
+		<summary>✅ 看答案與解析</summary>
+			**答案：A**
+			💡 ① 有甲文依據、③ 有甲丙文依據；② 比較「自我敘說」與「受訪紀錄」誰更動人，文中沒有依據。
+			① 甲文提到女性聲音「長期被忽略、壓抑」，史傳重視「幽閑貞靜」之德 → 正確
+			② 題組資料沒有談到教育普及，也沒有比較兩種紀錄的感染力 → 無法判斷
+			③ 歸有光批評史傳只記「非平常之行」，丙文則以口述歷史保留一般女性的聲音 → 正確
+			答案 (A)。這題官方鑑別度為負值，連高分的考生也常誤判，關鍵在於判斷推論是否過度。
+			📊 全國答對率 38%｜鑑別度 -5｜各選項選答率 A 38%、B 25%、C 14%、D 21%
+		</details>
+		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
+	</details>
+	<details>
+	<summary>📝 113 學測國綜 第 12 題（全國答對率 44%）</summary>
+		<callout icon="📖" color="gray_bg">
+			**題組文章（第 11–12 題共用）**
+			閱讀下文，回答11-12題。
+			《盲目》是1998年諾貝爾文學獎得主薩拉馬戈最廣為人知的小說。在一個不知名的城市裡，莫名其妙地出現了一種「白盲症」，患者會突然失明，眼前一片渾白。只有一人奇蹟般倖免，但也為此承受更多的責任與壓力。
+			此書除想像奇幻，敘事也別具特色。書中人物完全無名無姓，只以特徵或職業稱呼─如第一個盲人和妻子、眼科醫生、戴墨鏡的女孩、斜眼的男孩等。全書對話不用引號，也未特別分段，迫使讀者放慢速度，乃至再三重讀，以確定說話者。如同盲人在缺乏指引下，須費力摸索，才能確認當前的位置。
+			白盲症為全書最重要的象徵。薩拉馬戈設計了多條線索以供解讀。如白盲症使人彼此疑懼，生活脫軌，但患者間也能相互合作，尋求一己和團體的利益。唯一未染疫者固然有諸多方便與更大能力助人，但也因「眾人皆盲我獨明」，而看清人心險惡，甚至為了護衛夥伴安全，不得不手刃施暴者。從而感慨：「如果你看得到我被迫看到的景象，你會情願失明。」白盲症突然消失後，盲而復明者的一番體悟也引人深思：「我覺得我們並沒有失明，我認為我們本來就是『盲目』的。」（改寫自單德興〈瘟疫的文學再現與生命反思〉）
+		</callout>
+		關於①、②是否符合上文內容，最適當的研判是：
+		①盲者、不盲者的處境，帶出「眼不見為患」與「眼不見為淨」的辯證。
+		②眼盲隱喻心盲，既揭示人本身的盲目，又呈現人性的沉淪。
+		(A) ①、②皆符合
+		(B) ①符合，②不符合
+		(C) ①不符合，②無法判斷
+		(D) ①無法判斷，②符合
+		<details>
+		<summary>✅ 看答案與解析</summary>
+			**答案：A**
+			💡 「情願失明」＝眼不見為淨；染疫者彼此疑懼＝眼不見為患；兩句都有文本依據。
+			① 盲者「彼此疑懼、生活脫軌」→ 看不見帶來禍患（眼不見為患）；未染疫者看清人心險惡，說「你會情願失明」→ 眼不見為淨。兩者形成辯證 → 符合。
+			② 「我們本來就是『盲目』的」→ 眼盲隱喻心盲、揭示人的盲目；「看清人心險惡」「手刃施暴者」→ 呈現人性沉淪 → 符合。
+			答案 (A)。全國有 42% 選 (D)，把 ① 判成「無法判斷」。
+			研判題訣竅：文章不一定用同樣的字，但只要有「能對應的內容」就是符合；「無法判斷」是文章完全沒有涉及。
+			📊 全國答對率 44%｜鑑別度 10｜各選項選答率 A 44%、B 6%、C 8%、D 42%
+		</details>
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn113-12)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)
+	</details>
+	<details>
+	<summary>📝 112 學測國綜 第 16 題（全國答對率 38%）</summary>
+		<callout icon="📖" color="gray_bg">
+			**題組文章（第 15–17 題共用）**
+			閱讀下文，回答15-17題。
+			我果戰士有勇，大將有謀，成算在胸，地利足恃，猶不如誘之登岸而設伏殲之。不然，汪洋海上以數百人操一舟，東馳西突，以角逐於勝負不可知之地，我即無恙，而彼之所挾者小，我之所勞者大，設防設守，形勢不亦懣乎！然誘之上岸，非有成算，則斷不可。蓋敵一登陸，民心易動，軍心易震，非宿將強兵不能得手也。生，臺人也，為臺灣計，臺北可誘之近岸，臺南則不可。蓋臺北港道深通而有屏蔽，彼之駐輪甚便；若登岸，則反失所恃。臺南則港門雖深，風浪甚苦，四圍無山，港中非可駐輪；彼不登岸，不能久居也。若臺中諸港，沙線淺灘，難駛鐵船。然澎湖不守，則敵人得之，安穩收泊。有時展輪四掠，有時載小艇窺闖，臺中難防，臺南、北亦可慮。（洪繻〈籌海議〉）
+		</callout>
+		關於①、②是否符合上文看法，最適當的研判是：
+		①應加強澎湖海防，避免敵軍入侵臺北、臺中、臺南三地。
+		②依臺北、臺南地形評估，引誘敵軍自臺北登岸，是可行的戰略。
+		(A) ①、②皆符合
+		(B) ①符合，②不符合
+		(C) ①符合，②無法判斷
+		(D) ①無法判斷，②符合
+		<details>
+		<summary>✅ 看答案與解析</summary>
+			**答案：A**
+			💡 「澎湖不守…臺中難防，臺南、北亦可慮」＝要守澎湖；「臺北可誘之近岸」＝北部可誘敵登岸。
+			① 原文：「然澎湖不守，則敵人得之，安穩收泊……臺中難防，臺南、北亦可慮」→ 澎湖若失守，三地都危險，所以應加強澎湖防守 → 符合
+			② 原文：「臺北可誘之近岸，臺南則不可。蓋臺北港道深通而有屏蔽……若登岸，則反失所恃」→ 符合
+			答案 (A)。全國 34% 選 (D)：因為原文沒有出現「加強澎湖海防」這幾個字就判成無法判斷。
+			研判題要看「意思」有沒有依據，不是找一模一樣的字。
+			📊 全國答對率 38%｜鑑別度 16｜各選項選答率 A 38%、B 25%、C 4%、D 34%
+		</details>
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn112-16)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)
+	</details>
+	<details>
+	<summary>其他相關考古題（7 題）</summary>
+		- <mention-page url="https://app.notion.com/p/3ebee100984f818bbbe1f65b0b203531"/>　全國答對率 49%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811b9436c30a36de0b3d"/>　全國答對率 46%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f812fa5abc3a9cba9e286"/>　全國答對率 69%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81cea326e152f49e4434"/>　全國答對率 51%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81bf866bcc0d20d3cf64"/>　全國答對率 60%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f8165b7d6d66f3135f018"/>　全國答對率 50%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8129849de323f5a3401c"/>　全國答對率 61%
 	</details>
 </details>

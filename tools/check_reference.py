@@ -62,6 +62,42 @@ def main():
         if title not in seen:
             print(f"✗ 〈{title}〉沒有翻譯檔"); bad += 1
     print("國文重點整理：" + ("全部通過 ✓" if not bad else f"{bad} 個問題"))
+    return bad + math_patterns()
+
+
+def math_patterns():
+    """數學經典題型：觀念與題型組別要對得上，每一型欄位齊全，考過的題目代碼要存在。"""
+    import json
+    d = qyaml.load(REF / "math_patterns.yaml")
+    links = json.loads((ROOT / "notion" / "notion_map.json").read_text(encoding="utf-8"))
+    ids = {it["id"] for subj in ("mathA", "mathB")
+           for f in sorted((ROOT / "data" / "questions" / subj).glob("g*.yaml")) for it in qyaml.load(f)["items"]}
+    bad = 0
+    for subj, cmap in d["concepts"].items():
+        cids = {c["id"] for m in qyaml.load(ROOT / "data" / "concepts" / f"{subj}.yaml")["modules"] for c in m["concepts"]}
+        for cid, gids in cmap.items():
+            if cid not in cids:
+                print(f"✗ 經典題型：{subj} 沒有觀念 {cid}"); bad += 1
+            for g in gids:
+                if g not in d["groups"]:
+                    print(f"✗ 經典題型：{subj} {cid} 的組別 {g} 不存在"); bad += 1
+    n = 0
+    for gid, g in d["groups"].items():
+        for p in g["items"]:
+            n += 1
+            where = f"{gid}「{p.get('name')}」"
+            if not all(p.get(k) for k in ("name", "cue", "how")):
+                print(f"✗ 經典題型 {where} 缺少 name、cue 或 how"); bad += 1
+            if bool(p.get("ex")) != bool(p.get("sol")):
+                print(f"✗ 經典題型 {where} 例題和解答要一起寫"); bad += 1
+            if p.get("only") not in (None, "mathA", "mathB"):
+                print(f"✗ 經典題型 {where} only 只能是 mathA 或 mathB"); bad += 1
+            for q in p.get("qs") or []:
+                if q not in ids:
+                    print(f"✗ 經典題型 {where} 的題目代碼不存在：{q}"); bad += 1
+                elif not links.get(f"q:{q}"):
+                    print(f"△ 經典題型 {where} 的 {q} 還沒放進考古題庫，Notion 不會列出")
+    print(f"數學經典題型（{n} 型）：" + ("全部通過 ✓" if not bad else f"{bad} 個問題"))
     return bad
 
 

@@ -1,5 +1,6 @@
 <callout icon="🧭">
 	依單元整理必背公式、解題流程和容易錯的地方。標「考卷附」的公式，考卷最後會附上，但還是要熟到不用查。
+	向量、機率統計、排列組合另外整理了「🧩 經典題型與解題技巧」：先從題目的關鍵字認出題型，再照做法解題，每一型都附例題、解答和考過的題目。
 	每個觀念最後列出前兩週每日練習中全國答對率最低的題目，點進去可以看題目、答案與解析。
 </callout>
 ## 數與函數
@@ -138,65 +139,3 @@
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f8164bacee08cc8299630"/>　全國答對率 20%
 	- <mention-page url="https://app.notion.com/p/3e9ee100984f81c88caae36526b6ad3e"/>　全國答對率 37%
 </details>
-<details>
-<summary>**向量與空間**</summary>
-	<callout icon="💡">
-		內積判斷垂直與夾角，外積或行列式算面積與體積；比例分點用向量表示最快。
-	</callout>
-	**📌 必背**
-	- 內積 $`\overrightarrow{a}\cdot\overrightarrow{b}=|\overrightarrow{a}||\overrightarrow{b}|\cos\theta=a_1b_1+a_2b_2+a_3b_3`$；$`\overrightarrow{a}\perp\overrightarrow{b}`$ ⇔ $`\overrightarrow{a}\cdot\overrightarrow{b}=0`$；$`|\overrightarrow{a}|^2=\overrightarrow{a}\cdot\overrightarrow{a}`$。
-	- $`\overrightarrow{a}`$ 在 $`\overrightarrow{b}`$ 上的正射影 $`=\dfrac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{b}|^2}\overrightarrow{b}`$；投影長 $`=\dfrac{|\overrightarrow{a}\cdot\overrightarrow{b}|}{|\overrightarrow{b}|}`$。
-	- 分點：P 在線段 AB 上且 $`AP:PB=m:n`$ ⇒ $`\overrightarrow{OP}=\dfrac{n\overrightarrow{OA}+m\overrightarrow{OB}}{m+n}`$。
-	- 平面上 $`\overrightarrow{a}=(a_1,a_2)`$、$`\overrightarrow{b}=(b_1,b_2)`$ 所張三角形的面積 $`=\dfrac{1}{2}|a_1b_2-a_2b_1|`$。
-	- 外積 $`\overrightarrow{a}\times\overrightarrow{b}`$ 同時垂直 $`\overrightarrow{a}`$ 和 $`\overrightarrow{b}`$，長度＝$`\overrightarrow{a}`$、$`\overrightarrow{b}`$ 所張平行四邊形的面積；平行六面體體積 $`=|\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{c})|`$＝三階行列式的絕對值。
-	- 平面：法向量 $`(a,b,c)`$、過 $`(x_0,y_0,z_0)`$ → $`a(x-x_0)+b(y-y_0)+c(z-z_0)=0`$；點到平面 $`ax+by+cz+d=0`$ 的距離 $`=\dfrac{|ax_0+by_0+cz_0+d|}{\sqrt{a^2+b^2+c^2}}`$。
-	- 空間直線的參數式：$`(x,y,z)=(x_0+at,y_0+bt,z_0+ct)`$，$`(a,b,c)`$ 是方向向量。
-	- 三角不等式：$`|\overrightarrow{a}+\overrightarrow{b}|\le|\overrightarrow{a}|+|\overrightarrow{b}|`$，等號在兩向量同方向時成立；實數也有 $`|a+b|\le|a|+|b|`$。
-	- 柯西不等式：$`(a_1b_1+a_2b_2)^2\le(a_1^2+a_2^2)(b_1^2+b_2^2)`$（空間再加上第三項），等號在兩向量平行時成立；用來求 $`x^2+y^2`$ 固定時 $`ax+by`$ 的最大值、最小值。
-	- 平面向量的線性組合：$`\overrightarrow{OP}=\alpha\overrightarrow{OA}+\beta\overrightarrow{OB}`$，$`\alpha+\beta=1`$ ⇔ P 在直線 AB 上；$`\alpha\ge0`$、$`\beta\ge0`$ 且 $`\alpha+\beta\le1`$ ⇔ P 在 $`\triangle OAB`$ 的內部或邊上。
-	- 空間坐標：點 $`(x,y,z)`$ 在 xy 平面上的投影是 $`(x,y,0)`$，到 z 軸的距離是 $`\sqrt{x^2+y^2}`$；兩點距離 $`=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}`$。
-	- 三垂線定理：$`\overline{PA}`$ 垂直平面 E 於 A，E 上的直線 L 和 $`\overline{AB}`$ 垂直於 B，則 $`\overline{PB}\perp L`$；常用來求點到直線的距離或兩面角。
-	- 兩平面的夾角＝兩個法向量的夾角（或它的補角）；空間直線的比例式 $`\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}`$。
-	- 兩歪斜線的距離：兩條直線方向向量的外積同時垂直兩線，兩線上各取一點，連線向量在這個外積上的投影長就是距離。
-	**🧭 解題流程**
-	1. 幾何條件翻成向量：垂直 → 內積為 0；共線 → 一個向量是另一個的倍數；面積、體積 → 外積、行列式。
-	2. 求平面：找出平面上的兩個向量，外積得到法向量，再代入一點。
-	3. 求垂足或最近點：用參數式設直線上的點，再用「連線向量和方向向量垂直」解出參數。
-	**⚠️ 容易錯的地方**
-	- 內積是負的，表示夾角是鈍角，不一定是算錯。
-	- 在多面體上找離某點最遠的點，要比較所有頂點（115 年第 20 題最遠的不是對角的頂點）。
-	**📝 代表題**（前兩週做過、全國答對率最低的題目）
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8152ac4ec9d3635fd46c"/>　全國答對率 8%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8110ac4eff251c2b45cd"/>　全國答對率 10%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f819babc3ebf90a17717c"/>　全國答對率 19%
-</details>
-<details>
-<summary>**矩陣**</summary>
-	<callout icon="💡">
-		矩陣乘法先算小次方找規律；線性組合可以把未知向量拆成已知向量。
-	</callout>
-	**📌 必背**
-	- 矩陣乘法：AB 的第 $`(i,j)`$ 元＝A 的第 i 列和 B 的第 j 行對應相乘再相加；一般 $`AB\ne BA`$。
-	- 二階方陣 $`A=\begin{bmatrix}a&b\\c&d\end{bmatrix}`$：$`\det A=ad-bc`$；$`\det A\ne0`$ 時 $`A^{-1}=\dfrac{1}{ad-bc}\cdot\begin{bmatrix}d&-b\\-c&a\end{bmatrix}`$。
-	- $`(AB)^{-1}=B^{-1}A^{-1}`$（順序相反）；$`\det(AB)=\det A\cdot\det B`$。
-	- 聯立方程式寫成 $`AX=B`$：$`\det A\ne0`$ 時恰有一組解 $`X=A^{-1}B`$。
-	- A 乘上行向量 $`(x,y,z)^T=x\cdot(\text{A 的第 1 行})+y\cdot(\text{第 2 行})+z\cdot(\text{第 3 行})`$。
-	- 克拉瑪公式：$`\begin{cases}a_1x+b_1y=c_1\\a_2x+b_2y=c_2\end{cases}`$，令 $`\Delta=\begin{vmatrix}a_1&b_1\\a_2&b_2\end{vmatrix}`$、$`\Delta_x=\begin{vmatrix}c_1&b_1\\c_2&b_2\end{vmatrix}`$、$`\Delta_y=\begin{vmatrix}a_1&c_1\\a_2&c_2\end{vmatrix}`$；$`\Delta\ne0`$ 時恰有一組解 $`x=\dfrac{\Delta_x}{\Delta}`$、$`y=\dfrac{\Delta_y}{\Delta}`$。
-	- $`\Delta=0`$ 時兩直線平行或重合：$`\Delta_x`$、$`\Delta_y`$ 至少一個不是 0 → 無解（平行）；$`\Delta_x=\Delta_y=0`$ → 無限多組解（重合）。
-	- 三元一次聯立方程式：用消去法（對增廣矩陣做列運算）化成階梯形，再由最後一式往回代。
-	- 平面上的線性變換：逆時針旋轉 $`\theta`$ 是 $`\begin{bmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{bmatrix}`$；對 x 軸鏡射是 $`\begin{bmatrix}1&0\\0&-1\end{bmatrix}`$；對直線 $`y=x`$ 鏡射是 $`\begin{bmatrix}0&1\\1&0\end{bmatrix}`$；伸縮是 $`\begin{bmatrix}h&0\\0&k\end{bmatrix}`$；沿 x 方向推移是 $`\begin{bmatrix}1&k\\0&1\end{bmatrix}`$。
-	- 線性變換 A 把圖形的面積變成 $`|\det A|`$ 倍；先做 A、再做 B 的合成變換是 $`BA`$（後做的寫在左邊）。
-	- 二階轉移矩陣：元素都不是負數，每一行的和是 1；$`X_{n+1}=AX_n`$，所以 $`X_n=A^nX_0`$；穩定狀態 X 滿足 $`AX=X`$，且 X 的兩個元素和為 1。
-	**🧭 解題流程**
-	1. 求 $`A^n`$：先算 $`A^2`$、$`A^3`$，找出規律或週期。
-	2. 已知 A 作用在幾個向量的結果：把要求的向量拆成這幾個向量的組合，再用 $`A(s\overrightarrow{u}+t\overrightarrow{v})=sA\overrightarrow{u}+tA\overrightarrow{v}`$。
-	**⚠️ 容易錯的地方**
-	- 矩陣乘法不能交換順序，左乘、右乘的結果不同。
-	- 反方陣存在的條件是行列式不為 0。
-	- 先旋轉再鏡射，和先鏡射再旋轉，結果通常不同：合成變換要注意乘的順序。
-	**📝 代表題**（前兩週做過、全國答對率最低的題目）
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f8178b788e0846f022e30"/>　全國答對率 26%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81e8bfa5f3aa3d256408"/>　全國答對率 36%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81bdab3fefa792c1d4e1"/>　全國答對率 38%
-</details>
-## 機率統計與計數

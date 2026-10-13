@@ -43,13 +43,14 @@
 		<details>
 		<summary>✅ 看答案與解析</summary>
 			**答案：D**
-			💡 go on a quest for…＝去尋找、探索…。
-			句意：看完自然史的電視節目後，Adam 決定去南達科他州＿＿＿恐龍化石。
-			go on a quest for＝踏上尋找…的旅程 → (D) quest 探索、追尋 ✓
-			(A) trial 試驗、審判（全國 35% 誤選；go on trial 是「受審」）(B) route 路線 (C) strike 罷工、打擊（go on strike 是「罷工」）。
+			💡 go on a quest for＝去尋找、探尋；Adam 去南達科他州尋找恐龍化石。
+			句意：看了自然史的電視節目後，Adam 決定到南達科他州＿＿＿恐龍化石。
+			go on a quest for…＝出發去尋找… → (D) quest 探尋 ✓
+			(A) trial 試驗（全國 35% 誤選）(B) route 路線（全國 31% 誤選）：都不能接 for 表示「尋找」。
+			(C) strike 罷工、打擊（全國 19% 誤選）：go on a strike for 是「為…而罷工」。
 			📊 全國答對率 16%｜鑑別度 15｜各選項選答率 A 35%、B 31%、C 19%、D 16%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0m053357638065462325/02-111%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/eng111-09)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0m053357638065462325/02-111%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)
 	</details>
 	<details>
 	<summary>📝 110 學測英文 第 9 題（全國答對率 23%）</summary>
@@ -61,13 +62,14 @@
 		<details>
 		<summary>✅ 看答案與解析</summary>
 			**答案：A**
-			💡 testing kits＝檢測套組（一整套檢測用具）。
-			句意：數百位居民從市政府領到免費的檢測＿＿＿，用來檢查自家的水有沒有含有害的化學物質。
-			居民「領到」的是實體的東西 → (A) kits 成套用具 ✓（testing kit 檢測套組、first-aid kit 急救包）
-			(B) trials 試驗（全國 39% 誤選；trial 是試驗的過程，不能發給居民）(C) zones 區域 (D) proofs 證據。
+			💡 testing kit＝檢測套組（居民拿回家自己測水質）；trial 是試驗、試用期。
+			句意：數百位居民從市政府拿到免費的檢測＿＿＿，檢查家裡的水是否含有有害化學物質。
+			「拿到」可以自己用來檢測的東西 → (A) kits 成套的工具 ✓
+			(B) trials 試驗（全國 39% 誤選，比答對的人還多）：free trial 是「免費試用」，但 receive testing trials 不能表示拿到檢測工具。
+			(D) proofs 證據（全國 25% 誤選）(C) zones 區域（全國 13% 誤選）。
 			📊 全國答對率 23%｜鑑別度 27｜各選項選答率 A 23%、B 39%、C 13%、D 25%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/eng110-09)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf)
 	</details>
 	<details>
 	<summary>📝 110 學測英文 第 10 題（全國答對率 30%）</summary>
@@ -79,13 +81,14 @@
 		<details>
 		<summary>✅ 看答案與解析</summary>
 			**答案：C**
-			💡 be awarded jointly to…＝由…共同獲得（獎項）。
-			句意：2011 年諾貝爾和平獎由三位女性＿＿＿獲得，表彰她們爭取女權的努力。
-			三個人一起得獎 → (C) jointly 共同地 ✓
-			(B) earnestly 認真地、誠摯地（全國 38% 誤選，是在形容「努力」的態度，不能說明「三人共同獲獎」）(A) actively 積極地 (D) naturally 自然地。
+			💡 獎頒給「三位女性」一起得 → jointly（共同地）。
+			句意：2011 年諾貝爾和平獎＿＿＿頒給三位女性，表彰她們為爭取女權所做的努力。
+			三人共同獲獎 → (C) jointly 共同地 ✓
+			(B) earnestly 誠摯地（全國 38% 誤選，比答對的人還多）：形容做事態度，不能形容「頒獎」的方式。
+			(A) actively 積極地（全國 22% 誤選）(D) naturally 自然地。
 			📊 全國答對率 30%｜鑑別度 21｜各選項選答率 A 22%、B 38%、C 30%、D 10%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/eng110-10)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf)
 	</details>
 	<details>
 	<summary>📝 110 學測英文 第 15 題（全國答對率 32%）</summary>
@@ -97,17 +100,17 @@
 		<details>
 		<summary>✅ 看答案與解析</summary>
 			**答案：B**
-			💡 bus service resumed＝公車恢復行駛（resume 可以不接受詞）。
-			句意：颱風過後一週，一些橋梁終於通車，受災最嚴重的地區也＿＿＿公車服務。
-			災後「恢復」原本的服務 → (B) resumed 恢復、重新開始 ✓
-			(C) transported 運送（全國 48% 誤選）：transport 是及物動詞，要說 transport passengers，「公車服務運送」沒有受詞，也不是恢復的意思。
-			(A) departed 出發、離開 (D) corresponded 符合、通信。
+			💡 颱風後橋梁重新開放，公車服務也 resumed（恢復）。
+			句意：颱風過後一週，一些橋梁終於開放，災情最嚴重地區的公車服務也＿＿＿了。
+			和「橋梁重新開放」並列 → (B) resumed 恢復 ✓
+			(C) transported 運送（全國 48% 誤選，比答對的人還多）：是及物動詞，要有受詞；「公車服務運送」沒有說運送什麼，句子不完整。
+			(A) departed 出發（全國 14% 誤選）(D) corresponded 符合、通信。
 			📊 全國答對率 32%｜鑑別度 39｜各選項選答率 A 14%、B 32%、C 48%、D 6%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/eng110-15)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069608312283063557/110%e5%ad%b8%e6%b8%ac%e8%8b%b1%e6%96%87%e8%a9%a6%e5%8d%b7%20.pdf)
 	</details>
 	<details>
-	<summary>已排進每日練習的考古題（41 題）</summary>
+	<summary>已排進每日練習的考古題（65 題）</summary>
 		- <mention-page url="https://app.notion.com/p/3e9ee100984f81c196bceb484e2585eb"/>　全國答對率 57%
 		- <mention-page url="https://app.notion.com/p/3e9ee100984f81b58a6ffc1513560bb6"/>　全國答對率 48%
 		- <mention-page url="https://app.notion.com/p/3e9ee100984f813ca388fa293649966d"/>　全國答對率 45%
@@ -148,76 +151,30 @@
 		- <mention-page url="https://app.notion.com/p/3ebee100984f811faf0dd0393464d967"/>　全國答對率 41%
 		- <mention-page url="https://app.notion.com/p/3ecee100984f812cb47defe5255ce43e"/>　全國答對率 35%
 		- <mention-page url="https://app.notion.com/p/3ecee100984f81f7add6c980b8fe8fc6"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8105a31bd13fea9af4bb"/>　全國答對率 83%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f817db055c429bb75292e"/>　全國答對率 74%
 		- <mention-page url="https://app.notion.com/p/3ecee100984f81119cd0f79d155f6a9e"/>　全國答對率 50%
-	</details>
-</details>
-<details>
-<summary>**V2 綜合測驗（克漏字）**（近六屆 65 題）</summary>
-	<callout icon="💡">
-		看整段文意與上下句的轉折，連接詞題要判斷前後句是「補充、轉折、因果還是結論」。
-	</callout>
-	- 第 11–20 題，兩篇短文各 5 題，每題 1 分；近六屆平均答對率 46%。
-	- 考點分五類：詞彙（22 題）、片語搭配（15 題）、文法（11 題）、轉折語（10 題）、語意（7 題）；轉折語、文法、片語搭配的答對率最低（42%–43%）。
-	- 轉折語題：先判斷空格前後兩句的關係，再選對應的轉折語。例如 115 年第 11 題 it turns out（結果發現），全國答對率只有 29%。
-	- 文法題：四個選項是同一個動詞的不同形式時，先找這句的主詞和主要動詞，再看時間線索（since、by then、in the early days）。
-	- 片語搭配題：看空格後面的介系詞或受詞，例如 give rise to（導致）、exposure to（接觸）、be responsive to（對…有反應）。
-	- 語意題（選項是片語或子句）：讀完整段再選，答案要和前後文的意思一致。
-	<details>
-	<summary>已排進每日練習的考古題（20 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81adb3f0f127456837d2"/>　全國答對率 46%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f8127a9c0e85f24ed0936"/>　全國答對率 70%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81128c10e42237b8ac93"/>　全國答對率 29%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81ceabbeefa34a178cf0"/>　全國答對率 43%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f812e8408f5bb8b73a206"/>　全國答對率 57%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f818c87e9d415909a933a"/>　全國答對率 31%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f819a880add195cfd6cf6"/>　全國答對率 50%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f818aa208e96f7bdf79ea"/>　全國答對率 40%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81bd9710c6baa284dc66"/>　全國答對率 73%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f814ba38ceb766af80db1"/>　全國答對率 73%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81f8b23fe92738d8fc86"/>　全國答對率 42%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f8157aa87c9990a1be3cc"/>　全國答對率 43%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f815fbda7d1687abeb426"/>　全國答對率 52%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81399a0eddcd42a587a4"/>　全國答對率 25%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f8134b6c3d48c10d54a72"/>　全國答對率 57%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f819e9759c320afcdfa4f"/>　全國答對率 29%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81f68373f5a3f651d7a5"/>　全國答對率 61%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f812bb074f54b26b8ff15"/>　全國答對率 43%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81b6974aecc5271669af"/>　全國答對率 35%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81f39cf7c543135afa6f"/>　全國答對率 22%
-	</details>
-</details>
-### R. 閱讀
-<details>
-<summary>**R1 文意選填**（近六屆 60 題）</summary>
-	<callout icon="💡">
-		先把 10 個選項依詞性分類，再依空格前後的文法位置縮小範圍。
-	</callout>
-	- 第 21–30 題，一篇文章 10 個空格，選項 (A)–(J) 每個只用一次，每題 1 分；近六屆平均答對率 46%。
-	- 先分類：名詞、動詞（原形／過去式／V-ing／片語動詞）、形容詞、副詞。
-	- 看位置：冠詞或所有格後面接名詞、be 動詞後面接形容詞、助動詞和 to 後面接原形動詞、名詞前面接形容詞。
-	- 留意單複數與時態：a 後面要單數名詞；主詞是第三人稱單數時，現在式動詞要加 s。
-	- 最有把握的先填，用過的選項劃掉；最後剩下的 2–3 格再用文意決定。
-	<details>
-	<summary>已排進每日練習的考古題（20 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ebee100984f819da8cff2f5c158f7d3"/>　全國答對率 29%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81efb7d8e39b329eefbc"/>　全國答對率 37%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81ca9d96dfd5ee90864a"/>　全國答對率 22%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81ee9984c614558bfacc"/>　全國答對率 55%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81fe92d6e42a64135a20"/>　全國答對率 40%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f8122b3abd9383c9ac89d"/>　全國答對率 42%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f819e9561ea83881d7ff5"/>　全國答對率 26%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81498dbbda442f82d742"/>　全國答對率 46%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f816da578c921ce0c33f6"/>　全國答對率 48%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f8162843fef0b2146c314"/>　全國答對率 58%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81df923cd8cb726d2b0d"/>　全國答對率 35%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81528425c217391f2757"/>　全國答對率 40%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81978294eac40299faa6"/>　全國答對率 37%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f810b83a6ff42220d6170"/>　全國答對率 41%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f818aa0d8ce8bd9d16bcd"/>　全國答對率 37%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81e19b43c270cab251be"/>　全國答對率 44%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f8136ae6dc99b6bc3951a"/>　全國答對率 44%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81e7aa4dd75a569a55b5"/>　全國答對率 68%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f813499cbc4aff385e0ee"/>　全國答對率 44%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81eaa3e8c5e37ce9631f"/>　全國答對率 56%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8102a9d5c39f6583e82a"/>　全國答對率 61%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f814cae27cbb4a3ac0a61"/>　全國答對率 70%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f815fbae0c4e3c45e7a5e"/>　全國答對率 52%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811ea0bcf55aed35eada"/>　全國答對率 49%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81738a3cd37c5cca2fbc"/>　全國答對率 67%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8116a3feff07fc3b8725"/>　全國答對率 16%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f813fac93e73cf0d7aaf8"/>　全國答對率 45%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81fc9abbca921578f0ae"/>　全國答對率 73%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81088142c219df29c493"/>　全國答對率 73%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81c0a534d8928181575e"/>　全國答對率 61%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8149b9fad81f08a6509e"/>　全國答對率 64%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f812eb3a9cdd0d6e8533e"/>　全國答對率 47%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8152bfbcc2ccfea864fb"/>　全國答對率 59%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8129a33ee231a14a37b8"/>　全國答對率 67%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8191acefeac594fa66e2"/>　全國答對率 60%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81d69618f0e6248cfaad"/>　全國答對率 23%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8133a9b2f75c42e2a30c"/>　全國答對率 30%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81239f36ea6032e95d8c"/>　全國答對率 48%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81d6a908daa8a0d2c5ef"/>　全國答對率 41%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81688508cee4162bc911"/>　全國答對率 54%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81519d9cc23e8d80ac08"/>　全國答對率 43%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81dfb9a0efe2d19c2a33"/>　全國答對率 32%
 	</details>
 </details>

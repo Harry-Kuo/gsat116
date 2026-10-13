@@ -167,6 +167,10 @@ def text_blocks(text, math=False):
             out.append("> " + inline(line[3:], math))
         elif line.startswith("<table"):
             out.append(html_table(line))
+        elif line.startswith("<img"):
+            m = re.search(r'src="([^"]+)"', line)
+            alt = re.search(r'alt="([^"]*)"', line)
+            out.append(f"![{alt.group(1) if alt else '附圖'}]({SITE}/{m.group(1)})")
         else:
             out.append(inline(line, math))
     return out
@@ -324,6 +328,28 @@ def plan_info():
     return cfg, plan, start, published
 
 
+def daily_blocks(plan, start, subject, items, published):
+    """科目頁的「📝 每日練習」：列出有新題的日子；題目做完後的複習輪（第二輪起）只用一句話說明，不重複列題。"""
+    out, seen, review = [], set(), None
+    for d in plan["days"]:
+        qids = d["sets"].get(subject) or []
+        if not qids:
+            continue
+        if all(q in seen for q in qids):
+            review = review or d
+            continue
+        seen.update(qids)
+        date = start + dt.timedelta(days=d["day"] - 1)
+        out.append(toggle(f"**Day {d['day']}**　{fmt_day(date)}　{esc(d['theme'].get(subject, ''))}",
+                          [f"- {ref(items[q], subject, published)}" for q in qids]))
+    if review:
+        first = start + dt.timedelta(days=review["day"] - 1)
+        last = start + dt.timedelta(days=plan["days"][-1]["day"] - 1)
+        out.append(callout("🔁", [f"Day {review['day']}（{fmt_day(first)}）起，每天把上面各天的題目依序再練一輪（第二輪、第三輪……），"
+                                  f"一直到考前一天 {fmt_day(last)}。題目和上面相同，到練習網站作答即可。"]))
+    return out
+
+
 def fmt_day(d):
     return f"{d.month}/{d.day}（{WEEKDAY[d.weekday()]}）"
 
@@ -402,11 +428,12 @@ def skeleton_page(subject, structure, focus, focus_raw=False):
     _, plan, start, published = plan_info()
     items, _ = load_subject(subject)
     concepts = qyaml.load(ROOT / "data" / "concepts" / f"{subject}.yaml")
-    week = [q for d in plan["days"] for q in d["sets"].get(subject) or []]
+    week = list(dict.fromkeys(q for d in plan["days"] for q in d["sets"].get(subject) or []))
     b = [callout("🧭", [md_inline(structure)]), callout("📌", [focus if focus_raw else md_inline(focus)], color="yellow_bg")]
     if subject in MATH_REF_PAGES and MAP.get(MATH_REF_PAGES[subject][0]):
         key, title = MATH_REF_PAGES[subject]
-        b += ["## 📚 重點整理", "各單元的必背公式、解題流程與容易錯的地方，以及前兩週答對率最低的代表題。", f'<page url="{MAP[key]}">{title}</page>']
+        b += ["## 📚 重點整理", "各單元的必背公式、解題流程與容易錯的地方，以及前兩週答對率最低的代表題；向量、機率統計、排列組合另外整理了經典題型與解題技巧。",
+              f'<page url="{MAP[key]}">{title}</page>']
     if subject in NOTE_PAGES and any(MAP.get(note_key(subject, m)) for m, _, _ in NOTE_PAGES[subject]):
         b += ["## 📚 重點整理", NOTE_INTRO[subject]]
         b += [f'<page url="{MAP[note_key(subject, m)]}">{t}</page>' for m, t, _ in NOTE_PAGES[subject] if MAP.get(note_key(subject, m))]
@@ -423,12 +450,7 @@ def skeleton_page(subject, structure, focus, focus_raw=False):
                 qs_lines = [f"\t- {ref(it, subject, published)}" for it in qs]
             b.append("\n".join([line] + qs_lines))
     b.append("## 📝 每日練習")
-    for d in plan["days"]:
-        qids = d["sets"].get(subject) or []
-        if qids:
-            date = start + dt.timedelta(days=d["day"] - 1)
-            b.append(toggle(f"**Day {d['day']}**　{fmt_day(date)}　{esc(d['theme'].get(subject, ''))}",
-                            [f"- {ref(items[q], subject, published)}" for q in qids]))
+    b += daily_blocks(plan, start, subject, items, published)
     return b
 
 
@@ -524,14 +546,50 @@ def math_focus(subject):
             f"各單元的必背公式、解題流程與容易錯的地方在 {mention(key, '〈' + title + '〉')}。")
 
 
+CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳"
+
+
+def math_pattern_blocks(subject, cid, items, published):
+    """「🧩 經典題型與解題技巧」（data/reference/math_patterns.yaml）：每一型一個切換區塊，
+    依序是看到什麼、怎麼做、例題、解答、要小心的地方，以及考過的題目（數A、數B 都列）。"""
+    d = qyaml.load(REF / "math_patterns.yaml")
+    gids = (d["concepts"].get(subject) or {}).get(cid) or []
+    out = []
+    for k, gid in enumerate(gids):
+        g = d["groups"][gid]
+        out.append("**🧩 經典題型與解題技巧**" + (f"：{esc(g['title'])}" if len(gids) > 1 else ""))
+        if k == 0:
+            out.append("先從題目的關鍵字認出是哪一型，再照那一型的做法解；點開可以看例題、解答和考過的題目。")
+        pats = [p for p in g["items"] if p.get("only", subject) == subject]
+        for i, p in enumerate(pats):
+            body = [f"**🔍 看到**：{inline(p['cue'], math=True)}"]
+            if isinstance(p["how"], list):
+                body.append("**🛠️ 做法**")
+                body += [f"{j}. {inline(x, math=True)}" for j, x in enumerate(p["how"], 1)]
+            else:
+                body.append(f"**🛠️ 做法**：{inline(p['how'], math=True)}")
+            if p.get("ex"):
+                body += [f"**✏️ 例題**：{inline(p['ex'], math=True)}", f"**💡 解答**：{inline(p['sol'], math=True)}"]
+            if p.get("trap"):
+                body.append(f"**⚠️ 小心**：{inline(p['trap'], math=True)}")
+            qs = [items[q] for q in p.get("qs") or [] if q in items and MAP.get(f"q:{q}")]
+            if qs:
+                body.append("**📝 考過的題目**")
+                body += [f"- {ref(it, subject, published)}" for it in qs]
+            out.append(toggle(f"{CIRCLED[i]} {esc(p['name'])}", body))
+    return out
+
+
 def math_notes_page(subject):
-    """依觀念列出必背公式、解題流程、易錯點；最後附前兩週（Day 1–14）每日練習中全國答對率最低的題目。"""
+    """依觀念列出必背公式、解題流程、經典題型、易錯點；最後附前兩週（Day 1–14）每日練習中全國答對率最低的題目。"""
     _, plan, _, published = plan_info()
     items, _ = load_subject(subject)
+    both = {**load_subject("mathA")[0], **load_subject("mathB")[0]}
     concepts = qyaml.load(ROOT / "data" / "concepts" / f"{subject}.yaml")
     notes = qyaml.load(REF / "math_notes.yaml")[subject]
     done = [q for d in plan["days"] if d["day"] <= 14 for q in d["sets"].get(subject) or []]
     b = [callout("🧭", ["依單元整理必背公式、解題流程和容易錯的地方。標「考卷附」的公式，考卷最後會附上，但還是要熟到不用查。",
+                       "向量、機率統計、排列組合另外整理了「🧩 經典題型與解題技巧」：先從題目的關鍵字認出題型，再照做法解題，每一型都附例題、解答和考過的題目。",
                        "每個觀念最後列出前兩週每日練習中全國答對率最低的題目，點進去可以看題目、答案與解析。"])]
     for mod in concepts["modules"]:
         b.append(f"## {esc(mod['name'])}")
@@ -543,6 +601,7 @@ def math_notes_page(subject):
             ch += [f"- {inline(x, math=True)}" for x in n.get("must") or []]
             ch.append("**🧭 解題流程**")
             ch += [f"{i}. {inline(x, math=True)}" for i, x in enumerate(n.get("steps") or [], 1)]
+            ch += math_pattern_blocks(subject, c["id"], both, published)
             ch.append("**⚠️ 容易錯的地方**")
             ch += [f"- {inline(x, math=True)}" for x in n.get("traps") or []]
             qs = sorted((items[q] for q in done if c["id"] in (items[q].get("concepts") or [])
@@ -1098,12 +1157,7 @@ def english_page():
                 ch.append(f"評分方式、近五屆題目與參考答案整理在 {mention('ref:en_writing', '〈混合題與寫作〉')}。")
             b.append(toggle(f"**{c['id']} {esc(c['name'])}**" + (f"（近六屆 {len(related)} 題）" if related else ""), ch))
     b.append("## 📝 每日練習")
-    for d in plan["days"]:
-        qids = d["sets"].get("english") or []
-        if qids:
-            date = start + dt.timedelta(days=d["day"] - 1)
-            b.append(toggle(f"**Day {d['day']}**　{fmt_day(date)}　{esc(d['theme'].get('english', ''))}",
-                            [f"- {ref(items[q], 'english', published)}" for q in qids]))
+    b += daily_blocks(plan, start, "english", items, published)
     return b
 
 
@@ -1124,9 +1178,21 @@ def progress_page():
             "- 每天「基本 5 題」走六屆主線；「加練」由網站自動排入錯題（1、3、7 天後再出現）。"] + \
            [f"- {NAMES[s]}另排了 {sched['pools'][s]['extra']} 題 109 年學測（109、110 年數學只有一份試卷，數學A、數學B 各排不同的題目），不算在上表。"
             for s in NAMES if sched["pools"][s].get("extra")] + [
-            "- 依每天 5 題：數學A、數學B 約 10 月下旬，國文約 11 月上旬，英文約 11 月下旬，自然與社會約 12 月初做完六屆。",
-            "- 六屆題目做完的科目，每日練習改成把之前出過的題目再輪一遍，當作複習。",
-            "- 一月：錯題總複習＋限時全真模擬。"]
+            "- 各科做完六屆新題的日子：" + "、".join(f"{NAMES[s]} {fmt_day(start + dt.timedelta(days=n - 1))}（Day {n}）" for s, n in new_until(sched).items()) + "。",
+            "- 六屆題目做完的科目，每日練習改成把之前出過的題目再輪一遍，當作複習，一直排到考前一天 "
+            f"{fmt_day(start + dt.timedelta(days=sched['days'][-1]['d'] - 1))}。",
+            "- 一月：每日練習繼續輪複習，錯題由「加練」自動排入；1/12、1/14 的總複習課做限時全真模擬與錯題總複習。"]
+
+
+def new_until(sched):
+    """各科最後一天有新題（第一次出現的題目）的 Day。"""
+    out, seen = {}, set()
+    for d in sched["days"]:
+        for s, ids in d["sets"].items():
+            if any(q not in seen for q in ids):
+                out[s] = d["d"]
+            seen.update(ids)
+    return {s: out[s] for s in NAMES if s in out}
 
 
 PAST_COLS = [("111–115 年（108 課綱）", range(115, 110, -1), ["國綜", "國寫", "英文", "數學A", "數學B", "社會", "自然"]),
@@ -1232,15 +1298,18 @@ def db_question_rows():
     for s, ids in (plan.get("diag") or {}).items():
         for q in ids:
             sched[q] = ("課堂診斷", None)
+    first = set()  # 複習輪不改第一次排入的日子
     for d in plan["days"]:
         for s, ids in d["sets"].items():
             for q in ids:
-                sched[q] = (f"Day {d['day']}", start + dt.timedelta(days=d["day"] - 1))
+                if q not in first:
+                    first.add(q)
+                    sched[q] = (f"Day {d['day']}", start + dt.timedelta(days=d["day"] - 1))
     for s in NAMES:
         items, groups = load_subject(s)
         cdoc = qyaml.load(ROOT / "data" / "concepts" / f"{s}.yaml")
         cname = {c["id"]: c["name"] for m in cdoc["modules"] for c in m["concepts"]}
-        order = [q for q in (plan.get("diag") or {}).get(s, [])] + [q for d in plan["days"] for q in d["sets"].get(s) or []]
+        order = list(dict.fromkeys([q for q in (plan.get("diag") or {}).get(s, [])] + [q for d in plan["days"] for q in d["sets"].get(s) or []]))
         for q in order:
             it = items[q]
             st = it.get("stats") or {}

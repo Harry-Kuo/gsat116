@@ -1,6 +1,6 @@
 """計算各科「近六屆經典題」題池大小（依官方答案與答對率表，不需先抽題）。
 
-規則：選擇題與選填題（非選不列入快答）、官方鑑別度 D ≥ 10；英文混合題不列入；110 年數學另扣除 108 課綱範圍外的題目。
+規則：選擇題與選填題（非選不列入快答）、官方鑑別度 D ≥ 10；英文混合題不列入；110 年數學、自然另扣除 108 課綱範圍外的題目。
 輸出：data/stats/pools.json  {科目: {年度: 題數, "total": 合計}}
 """
 import json
@@ -35,6 +35,9 @@ def main(lo=110, hi=115):
             if s.startswith("math") and y in (109, 110) and bank.exists():
                 # 110 年是舊課綱的數學卷：選填題答案依列號給（不能用來數題數），且要扣掉 108 課綱範圍外的題目
                 n = sum(1 for it in qyaml.load(bank)["items"] if it.get("classic"))
+            elif bank.exists():
+                # 110 年自然、社會是舊課綱試卷：扣掉在 _tags.yaml 標為 108 課綱範圍外的題目
+                n -= sum(1 for it in qyaml.load(bank)["items"] if str(it.get("classic_note", "")).startswith("108 課綱範圍外"))
             out[s][str(y)] = n
         out[s]["total"] = sum(v for k, v in out[s].items() if k != "total")
     path = ROOT / "data" / "stats" / "pools.json"

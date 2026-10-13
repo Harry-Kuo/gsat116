@@ -14,14 +14,14 @@ groups:
   passage: |-
     In certain forests, when you look up you will see a network of cracks formed by gaps between the outermost edges of tree branches. It looks like a precisely engineered jigsaw puzzle, each branch growing just perfectly so it almost, <u> 11 </u>, touches the neighboring tree. This beautiful phenomenon is called crown shyness.
     Scientists have been discussing crown shyness since the 1920s, proposing <u> 12 </u> explanations for the phenomenon. Some researchers point out that as trees often grow close together, treetops can easily collide and break when swayed by the wind. In order to protect their branches from breakage, trees maintain “shyness gaps”—spaces large enough to prevent them from touching their neighbors.
-    Other scientists suggest that plants, like animals, <u> 13 </u> resources—nutrients, water, space, and light. In forested areas with thick tree crowns, there is intense struggle for these resources. Gaps in the treetops resulting from crown shyness may allow trees to increase their <u> 14 </u> light and enhance photosynthesis. Additionally, by having branches that do not touch those of their neighbors, trees may be able to limit the spread of leaf-eating insects, and potentially also the transmission of diseases from tree to tree. <u> 15 </u> decades of investigation, there is no consensus on exactly what causes the beautiful and mysterious phenomenon of crown shyness.
+    Other scientists suggest that plants, like animals, <u> 13 </u> resources—nutrients, water, space, and light. In forested areas with thick tree crowns, there is intense struggle for these resources. Gaps in the treetops resulting from crown shyness may allow trees to increase their <u> 14 </u> light and enhance photosynthesis. Additionally, by having branches that do not touch those of their neighbors, trees may be able to limit the spread of leaf-eating insects, and potentially also the transmission of diseases from tree to tree. <u> 15 </u> decades of investigation, there is no consensus on exactly what causes the beautiful and mysterious phenomenon of crown shyness.
 - id: eng112-g16
   range:
   - 16
   - 20
   intro: 第16至20題為題組
   passage: |-
-    Gravity has been at the top of the science agenda since the start of Mars missions. In the earlier days of space travel, scientists tried to overcome the force of gravity so that a rocket could shoot <u> 16 </u> Earth’s pull in order to land humans on the moon. Today, they are more interested in how reduced gravity affects the astronauts’ <u> 17 </u> condition.
+    Gravity has been at the top of the science agenda since the start of Mars missions. In the earlier days of space travel, scientists tried to overcome the force of gravity so that a rocket could shoot <u> 16 </u> Earth’s pull in order to land humans on the moon. Today, they are more interested in how reduced gravity affects the astronauts’ <u> 17 </u> condition.
     Our bodies have evolved to exist within Earth’s gravity (1 g), not in the weightlessness of space (0 g) or the microgravity of Mars (0.3 g). When on Earth, we have more fluids in our lower body because they are pulled down by Earth’s gravity. However, with the absence of gravity in the outer space, our body fluids <u> 18 </u>, shifting toward the upper body and the head. As a result, the astronauts have swollen, puffy faces, very much resembling that of the round-headed Charlie Brown in the famous comic strip. This “Charlie Brown effect” will be more <u> 19 </u> when the astronauts go on their Mars missions, which will take about three years to complete, much longer than missions to the moon. Moreover, the effect is often <u> 20 </u> space motion sickness, headaches, and nausea. Such a syndrome is considered the top health risk for the astronauts, and scientists are still trying to figure out how it may be prevented.
 - id: eng112-g21
   range:
@@ -519,7 +519,7 @@ items:
   type: single
   points: 1
   group: eng112-g16
-  stem: In the earlier days of space travel, scientists tried to overcome the force of gravity so that a rocket could shoot <b><u> 16 </u></b> Earth’s pull in order to land humans on the moon.
+  stem: In the earlier days of space travel, scientists tried to overcome the force of gravity so that a rocket could shoot <b><u> 16 </u></b> Earth’s pull in order to land humans on the moon.
   options:
     A: back to
     B: free of

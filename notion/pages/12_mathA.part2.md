@@ -1,16 +1,10 @@
 <details>
-<summary>**Day 20**　10/19（一）　機率與統計</summary>
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81eb8383fae5505f7083"/>　全國答對率 12%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81d68325e589f5456239"/>　全國答對率 46%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81e39e52df1c0cbb6660"/>　全國答對率 23%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81af806fce513f553532"/>　全國答對率 13%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f8108ab76f1c6493c5620"/>　全國答對率 61%
+<summary>**Day 22**　10/21（三）　向量內積、直線與旋轉矩陣、平行六面體</summary>
+	- <mention-page url="https://app.notion.com/p/3f3ee100984f81a88b8cd6a7850bd849"/>　全國答對率 43%
+	- <mention-page url="https://app.notion.com/p/3f3ee100984f816197abc7ca962f8b34"/>　全國答對率 53%
+	- <mention-page url="https://app.notion.com/p/3f3ee100984f81efabbaddbf827f939c"/>　全國答對率 58%
+	- <mention-page url="https://app.notion.com/p/3f3ee100984f81c18d82e841933da8bd"/>　全國答對率 69%
 </details>
-<details>
-<summary>**Day 21**　10/20（二）　計數、矩陣與空間挑戰</summary>
-	- <mention-page url="https://app.notion.com/p/3ecee100984f815c8e1de2730f47040b"/>　全國答對率 29%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81b098d3d4526d0077a8"/>　全國答對率 21%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f819ca2bdffbaf1af319e"/>　全國答對率 5%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81bda13efc28e56fb6f2"/>　全國答對率 64%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f8109b358e713dfdbb83a"/>　全國答對率 33%
-</details>
+<callout icon="🔁">
+	Day 23（10/22（四））起，每天把上面各天的題目依序再練一輪（第二輪、第三輪……），一直到考前一天 1/21（四）。題目和上面相同，到練習網站作答即可。
+</callout>

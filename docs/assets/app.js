@@ -388,6 +388,20 @@ function answerKeys(it) {
   return String(it.a || "").includes(",") ? String(it.a).split(",") : String(it.a || "").split("");
 }
 
+// 多選題偶有官方公布兩種正解（例如「BD或BC」）：逐一比對，取錯最少的那一組
+function answerAlts(it) {
+  return String(it.a || "").split("或").map((a) => new Set(a.includes(",") ? a.split(",") : a.split("")));
+}
+
+function closestAlt(it, sels) {
+  let best = null;
+  for (const ans of answerAlts(it)) {
+    const k = it.o.filter(([key]) => ans.has(key) !== sels.has(key)).length;
+    if (!best || k < best.k) best = { ans, k };
+  }
+  return best;
+}
+
 function renderChoice(sess, entry, it, rec) {
   const box = app.querySelector("#answer");
   const multi = it.t === "multi";
@@ -424,19 +438,17 @@ function gradeSingle(it, k) {
 }
 
 function gradeMulti(it, sels) {
-  const ans = new Set(answerKeys(it));
   const n = it.o.length;
   if (!sels.length) return { resp: "", correct: false, score: 0, max: it.p, wrong: n };
-  let k = 0;
-  for (const [key] of it.o) if (ans.has(key) !== sels.includes(key)) k++;
+  const { k } = closestAlt(it, new Set(sels));
   const score = Math.round(Math.max(0, (n - 2 * k) / n) * it.p * 100) / 100;
   return { resp: [...sels].sort().join(it.o[0][0].length > 1 || /\d/.test(it.o[0][0]) ? "," : ""), correct: k === 0, score, max: it.p, wrong: k };
 }
 
 function showChoiceResult(sess, entry, it, rec) {
-  const ans = new Set(answerKeys(it));
   const sel = new Set(String(rec.resp || "").includes(",") ? rec.resp.split(",") : String(rec.resp || "").split(""));
-  const wrongN = rec.wrong ?? it.o.filter(([k]) => ans.has(k) !== sel.has(k)).length;
+  const { ans, k: wrongK } = it.t === "multi" ? closestAlt(it, sel) : { ans: new Set(answerKeys(it)), k: 0 };
+  const wrongN = rec.wrong ?? wrongK;
   app.querySelectorAll(".opt").forEach((btn) => {
     const k = btn.dataset.k;
     btn.disabled = true;
@@ -452,7 +464,7 @@ function showChoiceResult(sess, entry, it, rec) {
   if (!rec.correct) {
     cls = rec.score > 0 ? "part" : "bad";
     head = it.t === "multi"
-      ? `${rec.score > 0 ? "🟡" : "❌"} 得 ${fmtScore(rec.score)}／${it.p} 分（錯 ${wrongN} 個選項）・正解 ${[...ans].join("")}`
+      ? `${rec.score > 0 ? "🟡" : "❌"} 得 ${fmtScore(rec.score)}／${it.p} 分（錯 ${wrongN} 個選項）・正解 ${String(it.a).split("或").join(" 或 ")}`
       : rec.resp ? `❌ 正解是 ${it.a}` : `⏭ 跳過・正解是 ${it.a}`;
   }
   let trap = "";

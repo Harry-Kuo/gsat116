@@ -1,0 +1,256 @@
+# 英文 Day 22–28 每日練習的解析（Claude 撰寫，老師審閱後可直接修改）
+# 「全國 N% 誤選」是大考中心公布的各選項選答率。
+
+# ---------- Day 22：綜合測驗（112 第一篇：樹冠羞避） ----------
+eng112-11:
+  key: almost, but not quite, touches＝幾乎、卻又沒有真的碰到；所以樹冠之間才有一道道縫隙（crown shyness）。
+  explain: |
+    句意：看起來像精密設計的拼圖，每根樹枝都長得恰到好處，幾乎、＿＿＿碰到隔壁的樹。
+    上一句說抬頭會看到樹枝之間的「縫隙」形成網狀裂紋 → 幾乎碰到、但沒有碰到 → (C) but not quite ✓
+    (D) and pretty much 而且差不多（全國 29% 誤選）：等於說碰到了，和「縫隙」矛盾。
+    (B) by all means 務必、當然可以（全國 28% 誤選）(A) in no time 立刻。
+eng112-12:
+  key: 後文列出 Some researchers… Other scientists… 兩種說法 → 提出「多種」解釋（multiple）。
+  explain: |
+    句意：科學家從 1920 年代就在討論樹冠羞避，對這個現象提出＿＿＿解釋。
+    下文先說「有些研究者」認為是避免樹枝撞斷，再說「其他科學家」認為是爭奪資源 → (D) multiple 多種的 ✓
+    (A) universal 普遍的（全國 15% 誤選）(C) conventional 傳統的（全國 15% 誤選）(B) productive 有成效的。
+eng112-13:
+  key: 下一句 intense struggle for these resources（激烈爭奪這些資源）→ 植物也會 compete for resources。
+  explain: |
+    句意：其他科學家認為，植物和動物一樣會＿＿＿資源：養分、水、空間和陽光。
+    下一句說樹冠濃密的森林裡，對這些資源有激烈的爭奪 → (B) compete for 爭奪 ✓
+    (D) make up for 彌補（全國 22% 誤選）(C) give way to 讓步給、被…取代（全國 13% 誤選）(A) get over 克服。
+eng112-14:
+  key: 樹冠有縫隙，樹木能接受更多陽光照射（exposure to light），光合作用就更好。
+  explain: |
+    句意：樹冠羞避造成的縫隙，可能讓樹木增加＿＿＿光，增強光合作用。
+    要加強光合作用，就要讓葉子照到更多光 → (B) exposure to 暴露於、受到照射 ✓
+    (D) reflection on 反射、反省（全國 17% 誤選）(C) sensitivity to 對…的敏感度（全國 16% 誤選）(A) reliance on 依賴。
+eng112-15:
+  key: 研究了幾十年，卻仍沒有共識 → 前後是讓步關係，用 Despite（儘管）。
+  explain: |
+    句意：＿＿＿數十年的研究，對於樹冠羞避的成因仍然沒有共識。
+    「研究了很久」和「還是沒有定論」語意相反 → (C) Despite 儘管 ✓（Despite 是介系詞，後面接名詞 decades of investigation）
+    (A) For（全國 27% 誤選）：for 表示「為了、持續」，無法表達這裡的轉折。
+    (B) Besides 除了…之外還 (D) Concerning 關於。
+
+# ---------- Day 23：綜合測驗（112 第二篇：查理布朗效應） ----------
+eng112-16:
+  key: shoot free of Earth's pull＝衝出、擺脫地球引力；前面說科學家想克服重力。
+  explain: |
+    句意：太空旅行早期，科學家設法克服重力，讓火箭能＿＿＿地球的引力，把人送上月球。
+    克服重力 → 擺脫引力 → (B) free of 擺脫、不受…束縛 ✓
+    (D) straight on 一直向前（全國 33% 誤選）：shoot straight on Earth's pull 意思不通。
+    (A) back to 回到（全國 17% 誤選）(C) long before 早在…之前。
+eng112-17:
+  key: 後文談體液上移、臉部浮腫、頭痛 → 重力影響的是身體狀況（physical condition）。
+  explain: |
+    句意：現在科學家更關心重力減少如何影響太空人的＿＿＿狀況。
+    下一段說體液往上半身移動、臉變浮腫，還有頭痛、噁心 → (A) physical 身體的 ✓
+    (C) mental 心理的（全國 13% 誤選）(B) perceptual 知覺的 (D) external 外在的。
+eng112-18:
+  key: 主詞 our body fluids 需要一個現在式的主要動詞 redistribute；後面的 shifting… 是分詞構句。
+  explain: |
+    句意：然而，外太空沒有重力，我們的體液會＿＿＿，往上半身和頭部移動。
+    這句缺少主要動詞；全段用現在式說明一般現象（we have more fluids…, they are pulled down…）→ (A) redistribute 重新分布 ✓
+    (B) redistributed（全國 35% 誤選）：過去式和全段說明事實的現在式不一致。
+    (C) redistributing（全國 25% 誤選）(D) being redistributed：都不是主要動詞，句子會沒有動詞。
+eng112-19:
+  key: 火星任務約三年，比登月任務長得多 → 查理布朗效應會更嚴重（severe）。
+  explain: |
+    句意：太空人執行火星任務時，「查理布朗效應」會更＿＿＿，因為任務約需三年，比登月任務長得多。
+    待在低重力的時間越長，症狀越明顯 → (C) severe 嚴重的 ✓
+    (D) aggressive 有攻擊性的（全國 17% 誤選）(B) unusual 不尋常的（全國 15% 誤選）(A) contagious 傳染性的（全國 14% 誤選）。
+eng112-20:
+  key: be accompanied by＝伴隨著；這個效應常伴隨暈動症、頭痛和噁心。
+  explain: |
+    句意：此外，這個效應常＿＿＿太空暈動症、頭痛和噁心。
+    臉部浮腫和這些症狀一起出現 → (D) accompanied by 伴隨著 ✓
+    (B) brought about（全國 40% 誤選，比答對的人還多）：bring about 是「引起」，被動要說 is brought about by…；少了 by，句子不通。
+    (A) varied with 隨…而變化 (C) transferred from 從…轉移。
+
+# ---------- Day 24：文意選填（上）（112：喝水的學問） ----------
+# 選項：(A) absorption (B) active (C) alert (D) combat (E) option (F) effective (G) even (H) status (I) pass through (J) reach for
+eng112-21:
+  key: can 後面要原形動詞；reach for a drink＝伸手拿飲料，問「水是不是我們能拿來喝的最健康飲料」。
+  explain: |
+    詞性分類：名詞 absorption、option、status；形容詞 active、effective；動詞或片語 combat、pass through、reach for；alert、even 可當動詞也可當形容詞。
+    句意：然而，水永遠是我們能＿＿＿的最健康飲料嗎？
+    助動詞 can 後面要原形動詞，意思是「拿來喝」→ (J) reach for 伸手去拿 ✓
+    (E) option 選擇（全國 15% 誤選）：是名詞，不能接在 can 後面。
+    (D) combat 對抗（全國 11% 誤選）：意思不通。
+eng112-22:
+  key: physically active＝身體活動量大的；和後面「整天坐辦公桌、待在冷氣房的人」對比。
+  explain: |
+    句意：顯然，在太陽下做戶外工作、身體＿＿＿的人，要比整天坐在冷氣房辦公的人喝更多水。
+    副詞 physically 修飾形容詞，和 desk-bound（久坐的）相對 → (B) active 活躍的 ✓
+    (H) status 狀態（全國 8% 誤選）(C) alert 警覺的（全國 7% 誤選）。
+eng112-23:
+  key: even things out＝使平衡；身體水太多、鹽不夠，就靠排尿把水排掉來取得平衡。
+  explain: |
+    句意：只補充白開水，身體會水太多、鹽不夠。為了＿＿＿，身體會產生尿液排掉水分。
+    to 後面要原形動詞，搭配 out：even out 使平均、使平衡 → (G) even ✓
+    (D) combat（全國 28% 誤選，比答對的人還多）：combat 是「對抗」，沒有 combat things out 的用法。
+    (I) pass through（全國 15% 誤選）：後面已有 things out，接不上。
+eng112-24:
+  key: 牛奶含鹽和乳糖，補水「更有效」（more effective）。
+  explain: |
+    句意：因此，牛奶其實可能比喝水更＿＿＿。
+    be 動詞後、more 後面要形容詞；下一句說牛奶含鹽與乳糖、能幫助吸收水分 → (F) effective 有效的 ✓
+    (G) even（全國 6% 誤選）(A) absorption（全國 6% 誤選）。
+eng112-25:
+  key: stimulate water absorption＝促進水分吸收；water absorption 是名詞＋名詞的複合名詞。
+  explain: |
+    句意：牛奶天然含有鹽和乳糖，人體需要少量乳糖來幫助刺激水分＿＿＿。
+    動詞 stimulate 的受詞要名詞，和 water 組成「水分吸收」→ (A) absorption 吸收 ✓
+    (H) status（全國 10% 誤選）(G) even（全國 10% 誤選）。
+
+# ---------- Day 25：文意選填（下）（112：喝水的學問） ----------
+eng112-26:
+  key: a normal fluid status＝正常的體液狀態；a＋形容詞＋名詞，空格要名詞。
+  explain: |
+    句意：椰子水含有鹽和碳水化合物，運動後在恢復、維持正常的體液＿＿＿上，也比水更有效。
+    a normal fluid ＿＿ 要名詞 → (H) status 狀態 ✓
+    (G) even（全國 31% 誤選，比答對的人還多）：even 不能當名詞，不能放在冠詞 a 和形容詞 normal 之後當中心語。
+    (A) absorption（全國 12% 誤選）：前面已經用過，而且「恢復吸收」意思不對。
+eng112-27:
+  key: a very good option for keeping hydrated＝保持水分的好選擇。
+  explain: |
+    句意：然而，對一般人來說，水仍然是保持身體水分的很好＿＿＿——只要你知道怎麼喝。
+    a very good 後面要名詞 → (E) option 選擇 ✓
+    (H) status（全國 15% 誤選）(A) absorption（全國 9% 誤選）。
+eng112-28:
+  key: for it (the body) to alert your consciousness＝身體向你的意識發出警訊（覺得口渴）。
+  explain: |
+    句意：不要等身體告訴你口渴，因為身體一定已經有了明顯的變化，才終於＿＿＿你的意識。
+    for＋受詞＋to＋原形動詞，「口渴」就是身體在提醒你 → (C) alert 向…發出警報、提醒 ✓
+    (J) reach for（全國 10% 誤選）(D) combat（全國 8% 誤選）。
+eng112-29:
+  key: cause more water to pass through the body quickly＝讓水很快通過身體，變成尿排出。
+  explain: |
+    句意：一次喝大量的水，會讓更多的水很快＿＿＿身體，變成尿排出來。
+    cause＋受詞＋to＋原形動詞，和 come out as urine 並列 → (I) pass through 通過 ✓
+    (C) alert（全國 9% 誤選）(D) combat（全國 8% 誤選）。
+eng112-30:
+  key: To combat this＝為了對抗這個問題（一次喝太多會很快排掉）；所以要整天分次喝水。
+  explain: |
+    句意：為了＿＿＿這個情形，你要整天持續喝水，維持身體的含水量。
+    this 指「一次喝太多水，很快就排掉」的問題，要「對抗、解決」它 → (D) combat 對抗 ✓
+    (J) reach for（全國 26% 誤選，比答對的人還多）：reach for this 是「伸手拿這個」，意思不通。
+    (I) pass through（全國 10% 誤選）。
+
+# ---------- Day 26：篇章結構（112：聯覺）＋詞彙 ----------
+# 選項：(A) This consistency serves as a proof that synesthesia is real.
+# (B) Meanwhile, environmental influences seem to shape a person’s synesthesia.
+# (C) People with synesthesia used to be accused of making their experiences up.
+# (D) Some studies even show that people may all be synesthetic to some degree.
+eng112-31:
+  key: 空格後 In the early 1990s, however, … → however 表示轉折：以前被懷疑是編造的，後來科學家才發現證據。
+  explain: |
+    空格後：However（然而）1990 年代初，科學家注意到聯覺者看到的顏色不會隨時間改變。
+    however 前面要有相反的說法：以前大家不相信 → (C) People with synesthesia used to be accused of making their experiences up.（聯覺者過去常被指控捏造經驗）✓
+    (A)（全國 21% 誤選）This consistency 要接在「答案一直相同」之後，是第 32 題。
+    (D)（全國 21% 誤選）談「人人都可能有某種程度的聯覺」，屬於最後一段。
+eng112-32:
+  key: 前一句說聯覺者隔了幾年答案仍相同（consistency）→ 這種一致性證明聯覺是真的；下一句 The most compelling support 再補更有力的證據。
+  explain: |
+    前句：問聯覺者某個字母或數字是什麼顏色，即使相隔數月或數年，答案始終相同。
+    後句：However，最有力的支持來自腦部掃描。
+    (A) This consistency serves as a proof that synesthesia is real.（這種一致性證明聯覺確實存在）✓ ——This consistency 指前句的「答案始終相同」；後句說「最有力的」支持，表示前面已有一項證據。
+    (D) 人人都可能有某種程度的聯覺（全國 17% 誤選）(B) 環境的影響（全國 15% 誤選）(C) 以前被懷疑造假（全國 14% 誤選）。
+eng112-33:
+  key: 空格後舉例：味道多半是童年的味道、色樂聯覺者多學過音樂 → 都是「環境」影響聯覺的例子。
+  explain: |
+    前句：科學家同意聯覺有遺傳基礎，但還沒找到真正的聯覺基因。
+    後句 For example：味覺聯覺者嘗到的多是巧克力、草莓等童年的味道；色樂聯覺者通常很早學音樂。
+    例子都是成長經驗 → (B) Meanwhile, environmental influences seem to shape a person's synesthesia.（同時，環境似乎也會塑造聯覺）✓
+    (C)（全國 31% 誤選）「以前被指控造假」和遺傳、環境無關，例子也接不上。
+eng112-34:
+  key: 後句 most of us tend to associate lower notes with darker colors → 大多數人都有一點聯覺。
+  explain: |
+    前句：聯覺曾被認為極罕見，現在發現約 1%–4% 的人有。
+    後句：我們大多數人都傾向把低音聯想成暗色、高音聯想成亮色；而且多數人在嬰兒期的頭幾個月都有聯覺。
+    → (D) Some studies even show that people may all be synesthetic to some degree.（有些研究甚至顯示人人都可能有某種程度的聯覺）✓
+    (B)（全國 26% 誤選）講環境影響，是第 33 題。
+eng110-01:
+  key: naughty（頑皮）、play jokes on（捉弄）→ 喜歡 tease（戲弄）妹妹。
+  explain: |
+    句意：Tom 真是個頑皮的男孩，爸媽不在時，他喜歡＿＿＿妹妹、對她惡作劇。
+    和 play jokes on 並列 → (C) tease 戲弄、取笑 ✓
+    (B) spare 饒恕、撥出（時間）（全國 15% 誤選）(A) alert 警告 (D) oppose 反對。
+
+# ---------- Day 27：閱讀測驗（112：呼拉圈的歷史）＋詞彙 ----------
+eng112-35:
+  key: 第二段說明 hula 和 hoop 怎麼合成 hula hooping → 文章回答了這個字的由來。
+  explain: |
+    第二段：1700 年代英國水手在夏威夷看到草裙舞（hula），動作很像轉呼拉圈，於是「hula」和「hoop」結合成「hula hooping」。
+    (A) 「hula-hooping」這個詞是怎麼來的？✓
+    (B) 文中只說 Wham-O 成功行銷塑膠呼拉圈，沒說它為什麼開始做（全國 10% 誤選）。
+    (C) 沒說夏威夷草裙舞的起源（全國 11% 誤選）(D) 沒說埃及小孩最喜歡的玩具。
+eng112-36:
+  key: 古希臘的金屬圈「不只是玩具，也是運動器材」（exercise devices）。
+  explain: |
+    (C) 古希臘的圈「not merely toys … but served as exercise devices as well」✓
+    (A) 英國的醫療紀錄記載的是玩圈玩到背部脫臼、心臟病發，不是用來治療（全國 25% 誤選）✗
+    (B) 美洲原住民用小蘆葦圈「象徵」老鷹、蛇等動物，不是訓練動物（全國 13% 誤選）✗
+    (D) 把圈視為「生命之環」的是美洲原住民；夏威夷的草裙舞根本沒有用圈（全國 16% 誤選）✗
+eng112-37:
+  key: 文中提到 twirled（轉）、struck（用棍子打著滾）、spun（旋轉），沒有提到用腳踢。
+  explain: |
+    這題選「沒有提到」的。
+    (A) Striking：埃及小孩「struck them with sticks to roll them down the road」→ 有提到
+    (B) Twirling：「toy hoops twirled around the waist, limbs, or neck」→ 有提到
+    (C) Spinning：「Hoops spun their way through…」，以及轉動呼拉圈 → 有提到（全國 14% 誤選）
+    (D) Kicking 踢：文中沒有提到 ✓
+eng112-38:
+  key: 埃及用乾葡萄藤、希臘用金屬、原住民用蘆葦、Wham-O 用塑膠。
+  explain: |
+    文中的材料：dried grapevine（埃及）、metal（希臘）、small reed hoops（美洲原住民）、plastic（Wham-O 公司）。
+    (B) reed, grapevine, plastic, metal ✓
+    (A) 有 bamboo（竹子），文中沒有（全國 12% 誤選）✗
+    (C)(D) 有 animal skin（獸皮），文中沒有（全國 9%、11% 誤選）✗
+eng110-02:
+  key: 和 elevator（電梯）相對、會「移動得太快而站不穩」的是 escalator（手扶梯）。
+  explain: |
+    句意：店裡建議年長的顧客搭電梯，不要搭＿＿＿，因為它可能移動得太快，讓他們站不穩。
+    → (C) escalator 手扶梯 ✓
+    (A) airway 航線、呼吸道（全國 10% 誤選）(B) operator 操作員 (D) instrument 儀器、樂器。
+
+# ---------- Day 28：閱讀測驗（112：茶園與亞洲象）＋詞彙 ----------
+eng112-39:
+  key: 茶園地勢平坦，農民挖排水溝（drainage trenches）是為了不讓積水傷害茶樹。
+  explain: |
+    第二段：「farmers must dig drainage trenches to prevent water from accumulating and hurting the shrubs」→ shrubs 指茶樹。
+    (A) 為了保護茶樹 ✓
+    (B) 溝渠會變成大象的死亡陷阱，但那是結果，不是挖溝的目的（全國 18% 誤選）✗
+    (C) 擴張茶園 (D) 標示茶園邊界，文中都沒提到 ✗
+eng112-40:
+  key: 小象「not used to negotiating rough ground」→ 還不習慣在崎嶇不平的地面行走，容易掉進溝裡。
+  explain: |
+    (D) 小象在不平的田地裡行動困難 ✓（negotiate rough ground＝通過崎嶇的地面）
+    (A) 母象把茶園當成安全的生產場所，小象受傷是因為掉進溝裡，不是爬出來後找不到庇護（全國 17% 誤選）✗
+    (B) 是大象「把茶園當地標」來穿越森林，文中沒說小象找不到地標（全國 19% 誤選）✗
+    (C) 文中沒有提到茶樹尖銳的樹枝（全國 23% 誤選）✗
+eng112-41:
+  key: 大象「resist leaving their sick or dying behind」，象群會在困住小象的溝邊停留好幾個小時。
+  explain: |
+    (C) 大象不願丟下受傷的同伴 ✓
+    (A) 溝渠是大象的陷阱，牠們是靠茶園當地標穿越森林，不是利用溝渠 ✗
+    (B) 文中說茶園破壞的是大象的棲地（habitats），沒說破壞食物來源（全國 10% 誤選）✗
+    (D) 正好相反：懷孕母象常在茶園生產，因為那裡人少、比較安全（全國 13% 誤選）✗
+eng112-42:
+  key: it 指前一句「大象能不能和興盛的茶產業共存」→ 讓大象和茶園雙贏。
+  explain: |
+    前一句：Is it possible for elephants to coexist with the prosperous tea business?（大象能和興盛的茶業共存嗎？）
+    Elephant Friendly Tea 主動「make it possible」→ it＝讓大象和茶園共存 → (D) 創造大象與茶園的雙贏 ✓
+    (A) 認證的是茶農、茶品牌，不是「對大象友善的溝渠」（全國 17% 誤選）✗
+    (B) 獎勵的是保護大象的茶農，不只是保護環境 ✗
+    (C) 鼓勵消費者選的是保護大象的品牌，不是高品質品牌 ✗
+eng110-03:
+  key: 聽到主人呼喚、搖尾巴跟著出去 → obediently（順從地）。
+  explain: |
+    句意：一聽到主人的呼喚，狗搖著尾巴，＿＿＿跟著她走出房間。
+    → (A) obediently 順從地 ✓
+    (B) apparently 顯然地（全國 17% 誤選）(D) thoroughly 徹底地（全國 16% 誤選）(C) logically 合乎邏輯地。
+

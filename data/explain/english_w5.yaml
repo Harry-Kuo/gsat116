@@ -1,0 +1,262 @@
+# 英文 Day 29–35 每日練習的解析（Claude 撰寫，老師審閱後可直接修改）
+# 「全國 N% 誤選」是大考中心公布的各選項選答率。
+
+# ---------- Day 29：閱讀測驗（112：尚吉巴）＋詞彙 ----------
+eng112-43:
+  key: 亞洲商人比約西元 1000 年來的第一批非洲永久居民「早 900 年」到達 → 早了好幾個世紀。
+  explain: |
+    第二段：「Traders from Asia had already visited the islands 900 years before the arrival of its first permanent settlers from the African mainland (around 1000 AD).」
+    (C) 亞洲商人比非洲移民早好幾個世紀到達 ✓
+    (A) 是「早 900 年」（約西元 100 年），不是西元 900 年（全國 9% 誤選）✗
+    (B) 最早來的是亞洲商人，非洲大陸的移民是約 1000 年才來定居（全國 14% 誤選）✗
+    (D) 波斯人是 8 世紀建立聚落；約 1000 年來的永久居民是非洲大陸的人（全國 15% 誤選）✗
+eng112-44:
+  key: 尚吉巴在坦尚尼亞外海、印度洋上，位於阿拉伯與非洲的貿易路線 → 非洲東岸的 B。
+  explain: |
+    線索：第一段「Situated off the coast of Tanzania … waters of the Indian Ocean」；第二段「on the trade route between Arabia and Africa」。
+    坦尚尼亞在非洲東岸，面對印度洋 → (B) ✓
+    (C) 在印度附近（全國 32% 誤選）：印度是達伽馬航行的目的地，尚吉巴在非洲外海。
+    (D) 非洲南端（全國 15% 誤選）：達伽馬是「繞過」非洲南端去印度，途中才到尚吉巴。
+    (A) 在大西洋岸，不是印度洋。
+eng112-45:
+  key: 最後一段說空氣中飄著丁香、香草、肉桂的香味 → 這些香料在尚吉巴很常見。
+  explain: |
+    (B) 「scented with the aroma of cloves, vanilla, and cinnamon floating in the air」→ 可以推知這些是當地常見的香料 ✓
+    (A) 過去尚吉巴以貿易致富聞名，「現在」才以海灘出名（全國 17% 誤選）✗
+    (C) 「these jewels on the Indian Ocean」是把島嶼比喻成珠寶，不是說盛產珠寶（全國 17% 誤選）✗
+    (D) 達伽馬只是航行到這裡；16 世紀起才先後由葡萄牙人、阿拉伯人、英國人統治（全國 18% 誤選）✗
+eng112-46:
+  key: 指尚吉巴的詞：a tropical archipelago、islands、these jewels on the Indian Ocean、this popular beach destination。
+  explain: |
+    (C) archipelago（群島）、islands（島嶼）、jewels（印度洋上的寶石）、destination（熱門的海灘旅遊地）都指尚吉巴 ✓
+    (A) settlements、posts 是波斯人建立的聚落與貿易站；crossroads 是說它「位在」香料之路的交會點（全國 20% 誤選）✗
+    (D) paths 指各種宗教的路徑在此交會（全國 24% 誤選）✗
+    (B) posts（貿易站）是島上的地方，不是指尚吉巴本身（全國 13% 誤選）✗
+eng110-04:
+  key: 植物來自潮濕（humid）的叢林 → 需要 moist（濕潤的）空氣。
+  explain: |
+    句意：很多室內植物來自潮濕的叢林環境，所以需要＿＿＿空氣來保持翠綠健康。
+    humid 的同義字 → (A) moist 潮濕的 ✓
+    (D) fertile 肥沃的（全國 16% 誤選）：形容土地，不形容空氣。
+    (B) stale 不新鮮的（全國 10% 誤選）(C) crisp 清新乾爽的（全國 10% 誤選）。
+
+# ---------- Day 30：綜合測驗（111 第一篇：書鎮） ----------
+eng111-11:
+  key: 書鎮的概念是由 Richard Booth「發起」的（initiated）；他在 1961 年開了第一家二手書店。
+  explain: |
+    句意：這個概念由 Richard Booth＿＿＿，他在 1961 年於英國海伊鎮開了第一家二手書店。
+    開了第一家店、別人跟進 → 他是發起人 → (A) initiated 發起、開創 ✓
+    (B) represented 代表（全國 23% 誤選）(C) acknowledged 承認（全國 14% 誤選）(D) manipulated 操縱。
+eng111-12:
+  key: Since the 1970s＋持續到現在 → 現在完成（進行）式 have been springing up（如雨後春筍般出現）。
+  explain: |
+    句意：從 1970 年代起，像海伊鎮這樣的書鎮在世界各地＿＿＿。
+    since＋過去時間點，表示一直持續到現在 → 現在完成進行式 → (D) have been springing ✓（spring up＝湧現）
+    (C) had sprung 過去完成式（全國 28% 誤選）：要有另一個過去的時間點當基準，這裡沒有。
+    (A) spring 現在式 (B) sprang 過去式：都不能和 since 搭配。
+eng111-13:
+  key: that's where the similarities end＝相似之處就到此為止；下一句說每個書鎮都有獨特之處。
+  explain: |
+    句意：雖然書鎮都有很多書店，但相似之處也就＿＿＿。每個書鎮都有自己獨特的特色。
+    「相同點只有這個」→ 相似處到此「結束」→ (C) end ✓
+    (A) form 形成（全國 47% 誤選，比答對的人還多）：「相似之處在這裡形成」和下一句「各有特色」接不上。
+    (D) matter 重要（全國 18% 誤選）(B) count 算數、重要（全國 15% 誤選）。
+eng111-14:
+  key: 邀作者來談他們的 latest releases（最新出版的作品）。
+  explain: |
+    句意：澳洲的克倫斯每月舉辦讀書會，邀請作者來談他們的最新＿＿＿。
+    書鎮的讀書會、作者談的是新書 → (B) releases 發行的作品 ✓
+    (D) announcements 公告（全國 18% 誤選）(A) trends 趨勢（全國 16% 誤選）(C) agendas 議程（全國 15% 誤選）。
+eng111-15:
+  key: 數位閱讀改變閱讀方式，書鎮保存了實體書 → keep the printed word alive（讓印刷文字延續下去）。
+  explain: |
+    句意：數位閱讀正在改變傳統的閱讀方式，像海伊鎮這樣的書鎮對＿＿＿特別重要。
+    下一句強調書的觸感、氣味、重量，要「保存實體書」→ (D) keep the printed word alive 讓紙本文字延續生命 ✓
+    (B) conform to the new mode 順應新模式（全國 21% 誤選）：和保存實體書相反。
+    (C) 讓遊客滿意（全國 17% 誤選）(A) 獲得世界聲譽。
+
+# ---------- Day 31：綜合測驗（111 第二篇：飛機的圓窗） ----------
+eng111-16:
+  key: 圓窗看起來舒服，但其實是為了「美觀以外的」原因設計的 → reasons other than aesthetics。
+  explain: |
+    句意：圓形的窗戶確實賞心悅目，但它們其實是為了＿＿＿美觀的理由而設計的。
+    but…actually 表示真正的原因不是美觀，而是後文的安全 → (D) other than 除了…以外、不同於 ✓
+    (C) more of（全國 34% 誤選）：reasons more of aesthetics 不合文法，意思也和 but 衝突。
+    (B) except for（全國 28% 誤選）：except for 用來排除全體中的例外，不能修飾 reasons 表示「其他的原因」。
+    (A) contrary to 和…相反（全國 17% 誤選）：安全和美觀並不相反。
+eng111-17:
+  key: In the early days＝過去；used to be＝過去曾經是（現在不是了）。
+  explain: |
+    句意：航空早期，飛機的窗戶＿＿＿方形的。
+    過去的狀態、現在已改變 → (A) used to be ✓
+    (B) were to be 預定將要（全國 13% 誤選）(C) would have been 與過去事實相反的假設 (D) must have been 對過去的推測，文中是確定的事實。
+eng111-18:
+  key: 飛得越高、內外壓差越大 → 方窗的問題更加嚴重（intensified）。
+  explain: |
+    句意：飛機在更高的高度飛行時，內外壓力差變大、增加應力，這個問題就更＿＿＿。
+    壓差增加、應力增加 → 問題「加劇」→ (D) intensified 加劇 ✓
+    (C) confronted 面對（全國 41% 誤選，比答對的人還多）：「問題被面對」不能說明壓差增加造成的影響。
+    (B) understood 被理解（全國 15% 誤選）(A) disguised 被掩飾（全國 11% 誤選）。
+eng111-19:
+  key: spell disaster＝帶來災難；方窗四角在反覆加壓下可能裂開，造成飛機解體。
+  explain: |
+    句意：在高空反覆承受加壓，方形窗戶的四個角可能會＿＿＿。
+    前文說三架飛機空中解體，原因就是方窗 → (C) spell disaster 招致災難 ✓
+    (A) cause conflict 引起衝突（全國 21% 誤選）(D) endure shock 承受衝擊（全國 20% 誤選）(B) rebuild strength 重建強度（全國 17% 誤選）。
+eng111-20:
+  key: 圓形較堅固、不易變形 → 能 tolerate（承受）機艙內外極大的壓力差。
+  explain: |
+    句意：圓形也比較堅固、能抵抗變形，因此可以＿＿＿飛機內外極大的壓力差。
+    → (A) tolerate 承受、耐受 ✓
+    (B) improve 改善（全國 24% 誤選）：壓力差不是要被改善的東西。
+    (D) obtain 獲得（全國 14% 誤選）(C) justify 證明…合理。
+
+# ---------- Day 32：文意選填（上）（111：特技演員） ----------
+# 選項：(A) possible (B) sensation (C) risky (D) cost (E) witnessed (F) professional (G) called for (H) tried out (I) necessity (J) career
+eng111-21:
+  key: too risky for the regular actor＝對一般演員來說太危險；後面舉的跳樓、撞車、持械打鬥都很危險。
+  explain: |
+    詞性分類：名詞 sensation、necessity、career；形容詞 possible、risky、professional；動詞或片語 cost、witnessed、called for、tried out。
+    句意：特技演員領錢去做一些被認為對一般演員太＿＿＿的大膽動作，包括從高處跳下、撞車、持械打鬥。
+    too＋形容詞＋for…，又和 daring（大膽的）呼應 → (C) risky 危險的 ✓
+    (F) professional 專業的（全國 9% 誤選）(A) possible 可能的（全國 6% 誤選）。
+eng111-22:
+  key: emerge out of necessity＝因為有需要而產生；下文說演員受傷，才需要有人代替。
+  explain: |
+    句意：特技工作是隨著時間，＿＿＿而產生的。早期演員自己拍危險場面，直到他們開始受傷。
+    out of necessity＝出於需要 → (I) necessity 需要、必要 ✓
+    (B) sensation 轟動、感覺（全國 26% 誤選）：out of sensation 不是慣用語，也和「演員受傷，才需要替身」的脈絡不合。
+    (D) cost（全國 10% 誤選）。
+eng111-23:
+  key: no professional crew members＝沒有專業的工作人員；下一句說製片只好找膽大或走投無路的人。
+  explain: |
+    句意：然而，當時並沒有＿＿＿工作人員來表演驚人的特技。
+    no＋形容詞＋名詞，和後文「沒受過訓練」對比 → (F) professional 專業的 ✓
+    (A) possible（全國 10% 誤選）(I) necessity（全國 6% 誤選）。
+eng111-24:
+  key: 沒受過訓練，只好在實際拍攝時第一次 try out（嘗試）這些動作。
+  explain: |
+    句意：這些人沒受過特技訓練，所以常在正式拍攝時才第一次＿＿＿這些動作。
+    often 後面要過去式動詞，接受詞 things → (H) tried out 試做 ✓
+    (E) witnessed 目擊（全國 12% 誤選）(G) called for（全國 6% 誤選）。
+eng111-25:
+  key: cost＋人＋生命＝讓某人付出生命代價；cost 的過去式還是 cost。
+  explain: |
+    句意：他們只能從自己的錯誤中學習，這些錯誤讓有些人＿＿＿性命，幾乎每個人都受過輕重不一的傷。
+    cost sb. sth.＝使某人付出某代價 → (D) cost ✓
+    (E) witnessed（全國 10% 誤選）(G) called for（全國 8% 誤選）。
+
+# ---------- Day 33：文意選填（下）（111：特技演員） ----------
+eng111-26:
+  key: 觀眾喜歡連續動作片 → 這類片「需要」專職特技演員：call for＝需要、要求。
+  explain: |
+    句意：大約從 1910 年起，觀眾愛上了連續動作片，這類電影＿＿＿專職的特技演員來演出危險場面。
+    → (G) called for 需要 ✓
+    (E) witnessed（全國 14% 誤選）(H) tried out（全國 8% 誤選）。
+eng111-27:
+  key: 牛仔憑騎術找到新的 career（職業）——當特技演員。
+  explain: |
+    句意：西部片興起，需求增加，許多精通騎術的牛仔找到了當特技演員這個新的＿＿＿。
+    a new＋名詞＋as a stunt person → (J) career 職業 ✓
+    (B) sensation（全國 12% 誤選）(A) possible（全國 7% 誤選）。
+eng111-28:
+  key: 時代＋witness＝某段時期見證了…（發生了…）；1960、70 年代見證了現代特技技術的發展。
+  explain: |
+    句意：1960、70 年代＿＿＿大部分現代特技技術的發展，例如空氣彈射器、子彈血包。
+    → (E) witnessed 見證 ✓（「年代、地點＋witness」是常見寫法）
+    (G) called for（全國 23% 誤選）：年代不會「需要」技術發展，主詞和動詞搭配不起來。
+    (H) tried out（全國 10% 誤選）。
+eng111-29:
+  key: it is now possible to create…＝現在可以做出逼真的場景，不用真人特技演員。
+  explain: |
+    句意：現在電影廣泛使用電腦動畫，＿＿＿做出非常逼真、不用真人特技演員的場景。
+    it is＋形容詞＋to V → (A) possible 可能的 ✓
+    (I) necessity（全國 10% 誤選）：是名詞，而且意思不對。
+    (H) tried out（全國 6% 誤選）。
+eng111-30:
+  key: the realism and thrilling sensation＝真實感與刺激的感受；thrilling 後面要名詞。
+  explain: |
+    句意：然而，電腦動畫有它的難處，大家永遠會想要真實特技帶來的真實感和刺激的＿＿＿。
+    形容詞 thrilling 後面要名詞，和 realism 並列 → (B) sensation 感受、轟動 ✓
+    (I) necessity（全國 23% 誤選）：「刺激的必要」意思不通。
+    (J) career（全國 7% 誤選）。
+
+# ---------- Day 34：篇章結構（111：盂蘭盆節）＋詞彙 ----------
+# 選項：(A) Some people also visit the cemetery to clean up the family graves and pray for their ancestors.
+# (B) Such festive activities are usually held in parks, temples, and other public places around Japan.
+# (C) Obon concludes with another bonfire, okuribi, lighting up the sky to see the ancestors’ spirits off.
+# (D) Originating from the Chinese Ghost Festival, this annual event has evolved into a time of family reunion.
+eng111-31:
+  key: 第一句介紹盂蘭盆節，空格說它的起源與「家人團聚」；後句接「節期四、五天，很多人返鄉和親人團聚」。
+  explain: |
+    前句：盂蘭盆節是日本祭拜亡靈的節日。
+    後句：節期約四、五天；這段期間很多人返鄉，和在世與過世的親人共度。
+    (D) Originating from the Chinese Ghost Festival, this annual event has evolved into a time of family reunion.（源自中國的中元節，這個年度節日已演變成家人團聚的時光）✓ ——this annual event 指前句的節日，family reunion 由下一句說明。
+    (B)（全國 20% 誤選）Such festive activities 要指前面已提到的活動，第一段還沒介紹任何活動；它是第 34 題。
+eng111-32:
+  key: 前面說迎火（mukaebi）迎接祖靈回家，空格用 also 補充另一項活動：掃墓、祭拜祖先。
+  explain: |
+    前句：節日常從「迎火」開始，在家門前生小火堆，引導亡靈回家。
+    後句：在家中神龕與寺廟擺供品；有些地方用小黃瓜做馬、茄子做牛。
+    (A) Some people also visit the cemetery to clean up the family graves and pray for their ancestors.（有些人也會去墓地清掃家墓、為祖先祈福）✓ ——also 表示補充迎接祖靈的另一種活動。
+    (C)（全國 29% 誤選）是「送火」，盂蘭盆節以它結束，應放在最後一段開頭（第 33 題）。
+    (B)（全國 19% 誤選）講節慶活動的場所，要接在舞蹈之後。
+eng111-33:
+  key: 最後一段談節日結束：送火（okuribi）送走祖靈；下一句接紙燈籠順流而下、陪祖先回去。
+  explain: |
+    前段結尾：希望祖靈騎馬快快回來、騎牛慢慢離開。
+    後句：紙燈籠和供品順著河流漂走，陪伴祖先回到安息之地。
+    (C) Obon concludes with another bonfire, okuribi, lighting up the sky to see the ancestors' spirits off.（盂蘭盆節以另一個火堆「送火」作結，照亮天空送走祖靈）✓ ——another bonfire 呼應前面的迎火，see…off 和後句「陪祖先回去」相連。
+    (A)（全國 28% 誤選）掃墓是迎接祖靈時的活動，放在第二段。
+eng111-34:
+  key: 前面描寫盆舞在高台四周跳，空格說這類活動常在公園、寺廟等公共場所舉行；後句說舞蹈已成為夏日祭典的象徵。
+  explain: |
+    前句：參加者常穿著輕便的棉質和服，圍著舞台隨音樂起舞。
+    後句：盆舞原本是獻給亡者的，現在已成為夏日祭典本身的象徵。
+    (B) Such festive activities are usually held in parks, temples, and other public places around Japan.（這類節慶活動通常在日本各地的公園、寺廟等公共場所舉行）✓ ——Such festive activities 指前面描述的盆舞。
+    (A) 掃墓（全國 18% 誤選）(D) 節日起源（全國 17% 誤選），都和舞蹈無關。
+eng110-05:
+  key: 跳傘員（skydiver）從飛機跳下，在空中沒打開的是 parachute（降落傘）。
+  explain: |
+    句意：雖然她的＿＿＿在半空中沒有打開，跳傘員跳出飛機後還是成功安全降落。
+    → (D) parachute 降落傘 ✓
+    (C) segment 部分、片段（全國 22% 誤選）(B) latitude 緯度（全國 18% 誤選）(A) glimpse 一瞥（全國 13% 誤選）。
+
+# ---------- Day 35：閱讀測驗（111：馬賽族）＋詞彙 ----------
+eng111-35:
+  key: 馬賽戰士披紅色的布（shúkà）、手持長矛和盾牌 → (B)。
+  explain: |
+    文中線索：「red blankets and painted shields」；shúkà 是裹在身上的一塊布，紅色最受歡迎；「A Maasai warrior is rarely seen without his spear and shield」。
+    (B) 身裹布料，一手持長矛、一手持彩繪盾牌 ✓
+    (D) 有長矛但沒有盾牌，也不是裹布（全國 12% 誤選）✗
+    (C) 有盾牌但沒有長矛 ✗　(A) 拿的是弓箭 ✗
+eng111-36:
+  key: 馬賽人「resisted the urging of the Kenyan and Tanzanian governments to adopt a more modern lifestyle」→ 政府要他們放棄傳統。
+  explain: |
+    (A) 肯亞和坦尚尼亞政府勸他們改採較現代的生活方式，也就是放下傳統 ✓
+    (C) 獨力殺獅是「直到最近」成為「戰士」的唯一方式，不是成年的條件（全國 33% 誤選）✗
+    (B) 文中說他們「stood strong against slavery」（堅決抵抗奴役），沒說他們曾被奴役，也沒說因此排斥外來影響（全國 17% 誤選）✗
+    (D) 女性會做串珠首飾，但文中沒提到務農（全國 10% 誤選）✗
+eng111-37:
+  key: 19 世紀和歐洲人交易後，天然材料被彩色玻璃珠取代 → 彩色玻璃串珠從那時流行起來。
+  explain: |
+    (C) 「Natural materials … were used before trading with the Europeans in the 19th century. They were then replaced by colorful glass beads」✓
+    (D) 文中說的是「串珠的顏色」各有意義（白＝和平、綠＝土地、紅＝團結與勇敢），沒說 shúkà 的顏色代表地位（全國 33% 誤選）✗
+    (A) 偏好格紋、條紋布的是女性，不是年輕人 ✗
+    (B) 年輕男子是在成年禮之後穿黑色幾個月，不是成為戰士才能穿（全國 10% 誤選）✗
+eng111-38:
+  key: 武器和服飾之於戰士，就像鹿角之於公鹿 → 是他們不可分割的一部分。
+  explain: |
+    前句：馬賽戰士很少不帶長矛和盾牌。
+    Blixen 說：「他們的武器和服飾，就像公鹿的角一樣，是他們生命的一部分」。
+    (C) 強調武器是馬賽戰士裝扮中不可分割的一部分 ✓
+    (B) 引文沒有列舉武器的種類（全國 14% 誤選）✗
+    (D) 拿鹿角作比喻，是說「不可分割」，不是說戰士的行為像公鹿（全國 12% 誤選）✗
+    (A) 文中沒有提到獵鹿 ✗
+eng110-06:
+  key: 蒸汽機帶動重型機器（工業革命）→ 帶來 revolutionary（革命性的）改變。
+  explain: |
+    句意：用來驅動重型機器的蒸汽機，它的發明為社會帶來＿＿＿的改變。
+    → (D) revolutionary 革命性的、徹底改變的 ✓
+    (C) conventional 傳統的（全國 22% 誤選）(B) harmonious 和諧的（全國 11% 誤選）(A) persuasive 有說服力的。
+

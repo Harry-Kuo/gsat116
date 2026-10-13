@@ -1,0 +1,297 @@
+# 英文 Day 50–57 每日練習的解析（Claude 撰寫，老師審閱後可直接修改）
+# 「全國 N% 誤選」是大考中心公布的各選項選答率。
+
+# ---------- Day 50：文意選填（下）（110：運動不必痛） ----------
+eng110-36:
+  key: physically demanding exercises＝體力負荷大的運動，會讓你喘、肌肉暫時痠痛。
+  explain: |
+    句意：根據健身教練的說法，身體＿＿＿運動可能讓你喘不過氣、肌肉暫時痠痛，但運動不該是痛苦的。
+    副詞 physically 修飾形容詞，又會讓人喘 → (E) demanding 費力的、要求高的 ✓
+    (G) fanatic（全國 14% 誤選）(C) point to（全國 12% 誤選）。
+eng110-37:
+  key: if it is (painful), it may point to an injury＝如果會痛，可能表示受傷了。
+  explain: |
+    句意：事實上，如果運動會痛，可能＿＿＿受傷或肌肉拉傷。
+    may 後面接原形動詞，接名詞 an injury → (C) point to 指向、顯示 ✓
+    (F) abide by（全國 20% 誤選）：「遵守受傷」意思不通。
+    (A) means（全國 12% 誤選）。
+eng110-38:
+  key: without the soreness or discomfort＝不會有痠痛或不適；和 discomfort 並列要名詞。
+  explain: |
+    句意：很多很好的運動，像走路、游泳、輕度伸展，不會有某些人聯想到的＿＿＿或不適，也能看到成效。
+    the＋名詞＋or discomfort → (B) soreness 痠痛 ✓
+    (G) fanatic（全國 8% 誤選）(J) modest（全國 7% 誤選）。
+eng110-39:
+  key: a powerful means to improve your health＝改善健康的有力方法；means 單複數同形。
+  explain: |
+    句意：記住，就算只做短時間的低衝擊運動，也是改善健康的有力＿＿＿。
+    a powerful＋名詞＋to V → (A) means 方法、手段 ✓（means 單複數同形，可以接 a）
+    (G) fanatic（全國 15% 誤選）(E) demanding（全國 11% 誤選）。
+eng110-40:
+  key: make time for exercise＝撥出時間運動，像每天遛狗 15 分鐘。
+  explain: |
+    句意：所以，不論你多忙，每天都要試著＿＿＿運動，例如帶狗散步 15 分鐘。
+    try to＋原形動詞，搭配 for → (I) make time 騰出時間 ✓
+    (J) modest（全國 4% 誤選）(E) demanding（全國 4% 誤選）。
+
+# ---------- Day 51：閱讀測驗（110：仙人掌發電）＋詞彙 ----------
+eng110-41:
+  key: 文章介紹科學家把仙人掌外皮變成沼氣發電 → 一種新的能源來源。
+  explain: |
+    第一段末：「Now scientists have come up with a new use for the bright green plant: producing renewable energy.」之後各段說明發電計畫與優點。
+    (B) 介紹一種新的能源 ✓
+    (C) 文中沒有談墨西哥未來的農業政策（全國 15% 誤選）✗
+    (A) 重點不是仙人掌對人的好處，而是拿來發電 ✗
+    (D) 沒有要改變人們的能源消費觀念 ✗
+eng110-42:
+  key: 文中說墨西哥人吃它、喝它、用在藥品和洗髮精 → 沒提到園藝造景。
+  explain: |
+    這題選「沒有提到」的。
+    (A) 治病：用在 medicines → 有提到（全國 17% 誤選）
+    (B) 個人衛生：用在 shampoos（洗髮精）→ 有提到（全國 18% 誤選）
+    (C) 食物飲料：eat it, drink it → 有提到
+    (D) 園藝與造景：文中沒有提到 ✓
+eng110-43:
+  key: 仙人掌是墨西哥的強大象徵，「occupies a prime spot on Mexico's national flag」。
+  explain: |
+    (D) 它在墨西哥國旗上占有顯著的位置 ✓（prime spot＝prominent place）
+    (A) 柔軟的內部果肉是拿來吃的；被丟掉的是長滿刺的外皮 ✗
+    (B) 古代阿茲特克人就把它視為神聖的植物 ✗
+    (C) 一年「產量」是 20 萬噸，每天約有 10 噸成為廢棄物，不是一年 20 萬噸廢棄物（全國 14% 誤選）✗
+eng110-44:
+  key: 只用外皮發電、果肉照樣當食物 → 不會對糧價造成壓力。
+  explain: |
+    第四段：「only the husk of the cactus is used … while its inner flesh is still preserved for food. Therefore, using the plant as a fuel source will not put pressure on food prices.」
+    (B) 不會影響糧食價格 ✓
+    (A) 文中沒有比較發電量（全國 22% 誤選）✗
+    (D) 只說不會和糧食生產爭水、爭地，沒說能增加糧食產量（全國 10% 誤選）✗
+    (C) 沒有提到牲畜飼料 ✗
+eng110-14:
+  key: commit money to…＝承諾撥出款項；非營利組織承諾五年出資一百萬。
+  explain: |
+    句意：這個非營利組織已＿＿＿五年一百萬美元，資助醫療中心的興建。
+    → (C) committed 承諾提供、撥出（資金）✓
+    (B) resolved 下定決心、解決（全國 27% 誤選）：resolve 後面不接金額。
+    (A) equipped 配備（全國 18% 誤選）(D) associated 聯想、關聯。
+
+# ---------- Day 52：閱讀測驗（110：護照的歷史）＋詞彙 ----------
+eng110-45:
+  key: 從西元前 450 年、中世紀、15 世紀亨利五世，一直講到第一次世界大戰 → 依時間順序。
+  explain: |
+    (A) 依時間順序排列 ✓
+    第一段：約西元前 450 年波斯的信函；第二段：中世紀伊斯蘭與歐洲；第三段：15 世紀亨利五世、一百年後出現 passport 這個詞、一次大戰才普遍需要護照。
+    (B) 因果（全國 18% 誤選）(D) 定義與舉例（全國 15% 誤選）(C) 重要性順序，都不是全文的組織方式。
+eng110-46:
+  key: 最早的通行文件是波斯國王給大臣尼希米的一封信，請各省長官讓他平安通過。
+  explain: |
+    (B) 它是給波斯的一位官員（Nehemiah, an official serving King Artaxerxes of ancient Persia）✓
+    (A) 發信的是波斯國王，猶大（Judah）是尼希米要去的地方（全國 15% 誤選）✗
+    (C) 約西元前 450 年，距今約 2,500 年，不到三千年 ✗
+    (D) 信是請河那邊的各省長官讓他「安全通過」，不是邀請人出遊（全國 23% 誤選）✗
+eng110-47:
+  key: 15 世紀國會法案最早提到這種文件，passport 這個詞「about a century later」→ 16 世紀才開始使用。
+  explain: |
+    (C) 16 世紀 ✓
+    (D) 亨利五世時期是發明第一本真正的護照，但當時還不叫 passport（全國 19% 誤選）✗
+    (A) 西元前 450 年是最早提到「類似護照的東西」（全國 18% 誤選）✗
+    (B) 一次大戰是國際旅行開始普遍要求護照的時期（全國 15% 誤選）✗
+eng110-48:
+  key: 文中的護照形式有信函、稅單收據、身分證明；中世紀歐洲文件上列的是可進入的城鎮，不是港口清單。
+  explain: |
+    這題選「沒有提到」的。
+    (A) 信函：波斯國王給尼希米的信 → 有提到
+    (B) 收據：伊斯蘭的 bara'a 是繳稅收據 → 有提到
+    (C) 身分證明：亨利五世的護照幫人民在國外證明自己的身分 → 有提到（全國 32% 誤選）
+    (D) 港口清單：中世紀歐洲的文件列的是可進入或通過的城鎮；到港口反而不需要文件 → 沒有提到 ✓
+eng110-15:
+  key: 颱風後橋梁重新開放，公車服務也 resumed（恢復）。
+  explain: |
+    句意：颱風過後一週，一些橋梁終於開放，災情最嚴重地區的公車服務也＿＿＿了。
+    和「橋梁重新開放」並列 → (B) resumed 恢復 ✓
+    (C) transported 運送（全國 48% 誤選，比答對的人還多）：是及物動詞，要有受詞；「公車服務運送」沒有說運送什麼，句子不完整。
+    (A) departed 出發（全國 14% 誤選）(D) corresponded 符合、通信。
+
+# ---------- Day 53：閱讀測驗（110：富蘭克林的玻璃琴）＋詞彙 ----------
+eng110-49:
+  key: 玻璃半球由大到小套在鐵桿上、接在像紡車的裝置、用腳踏轉動 → (D)。
+  explain: |
+    第二段：37 個大小、厚薄不同的玻璃半球，鐵桿穿過頂端的孔，由大到小套在一起；接在形狀像紡車的裝置上，用腳踏控制轉動。
+    (D) 箱子裡橫放一排套在一起的玻璃碗，旁邊有輪子 ✓
+    (A) 一排排高腳杯是富蘭克林聽到的「音樂杯」（musical glasses），不是他的發明（全國 29% 誤選）✗
+    (B) 是編鐘 ✗　(C) 是紡紗機 ✗
+eng110-50:
+  key: 「Franklin moistened his fingers and held them against the rims」→ 演奏時手指要稍微沾濕。
+  explain: |
+    (D) 演奏者的手指要微濕 ✓
+    (C) 鐵桿是穿過半球、把它們串在一起轉動，不是用來敲（全國 32% 誤選）✗
+    (A) 文中沒說要往玻璃碗裡倒水 ✗
+    (B) 塗上顏色是用來辨認音高，不是讓聲音更好聽 ✗
+eng110-51:
+  key: 19 世紀音樂從小廳移到大型音樂廳，沒有擴音，玻璃琴的聲音根本聽不到。
+  explain: |
+    (C) 音樂廳變得太大，觀眾聽不到它的聲音 ✓
+    (D) 樂評說它「聽得到的時候」聲音很美，不是說它笨拙、不時髦（全國 15% 誤選）✗
+    (A) 富蘭克林自己就精通演奏，文中沒說很難學 ✗
+    (B) 莫札特、貝多芬都為它作過曲，沒有遇到困難 ✗
+eng110-52:
+  key: so that they could nest together from largest to smallest → 能「由大到小套在一起」的是玻璃半球。
+  explain: |
+    句子：Franklin ran an iron rod through a hole in the top of each hemisphere so that they could nest together from largest to smallest.
+    能由大到小套疊的是 → (B) Hemispheres ✓
+    (A) Iron rods（全國 17% 誤選）：鐵桿只有一根，是用來把半球串起來的。
+    (D) Musical pitches（全國 12% 誤選）(C) Colored notes。
+eng111-01:
+  key: have＋物＋p.p.：have it delivered＝讓披薩被送到家（外送）。
+  explain: |
+    句意：Jeffery 不想煮飯時，常上網訂披薩，請店家把它＿＿＿到家。
+    → (B) delivered 遞送 ✓
+    (C) offered 提供（全國 9% 誤選）(A) advanced 前進 (D) stretched 伸展。
+
+# ---------- Day 54：閱讀測驗（110：無障礙樂園）＋詞彙 ----------
+eng110-53:
+  key: 文章介紹 Morgan's Wonderland 的創建緣由（為女兒蓋的）與各項無障礙設施。
+  explain: |
+    (B) 一座特別主題樂園的創立與特色 ✓
+    (C) GPS 手環只是設施之一（全國 11% 誤選）✗
+    (A) 新增的 Inspiration Island 只在第四段（全國 8% 誤選）✗
+    (D) 文章沒有討論身心障礙者的需求 ✗
+eng110-54:
+  key: ultra-accessible＝極度無障礙：全區輪椅可通行，讓「所有年齡與能力」的人都能一起玩。
+  explain: |
+    (A) 所有遊客都能輕鬆使用設施 ✓
+    (C) 遊樂設施是「設計成可以容納坐輪椅的人」，不是每個景點都提供輪椅（全國 27% 誤選）✗
+    (B) 只有特殊需求的遊客免費，一般民眾是折扣價（全國 21% 誤選）✗
+    (D) accessible 在這裡指無障礙，不是交通方便 ✗
+eng110-55:
+  key: 園內有遊樂設施、遊戲場、釣魚湖、野餐區、越野駕駛 → 沒提到健行。
+  explain: |
+    這題選「沒有提到」的。
+    (A) 釣魚：catch-and-release fishing lake → 有
+    (B) 開車：Off-Road Adventure 試駕跑車 → 有（全國 10% 誤選）
+    (D) 野餐：picnic areas → 有
+    (C) 健行：文中沒有提到 ✓
+eng110-56:
+  key: GPS 手環能讓遊客互相掌握位置，也能參加電子活動（掃描後拍照寄到信箱）。
+  explain: |
+    (D) GPS 手環讓遊客享受電子裝置的便利 ✓
+    (B) 25 英畝是整座樂園的面積，不是 Inspiration Island（全國 28% 誤選）✗
+    (C) Morgan 有嚴重的認知遲緩，樂園是父親受她啟發而建，不是她想達成的目標（全國 16% 誤選）✗
+    (A) 防水椅是讓坐輪椅的遊客玩水，不是在全園移動（全國 10% 誤選）✗
+eng111-02:
+  key: 沒有她的幫忙，我無法經營辦公室 → 她是最好的 assistant（助理）。
+  explain: |
+    句意：Jane 是我遇過最好的＿＿＿，我無法想像沒有她的幫忙要怎麼經營辦公室。
+    → (A) assistant 助理 ✓
+    (D) politician 政治人物（全國 11% 誤選）(C) contribution 貢獻（全國 9% 誤選）(B) influence 影響。
+
+# ---------- Day 55：閱讀測驗（113：百分之百的魚）＋詞彙 ----------
+eng113-43:
+  key: 100% Fish 鼓勵「full utilization of each fish caught」→ 把漁獲的每個部分都充分利用。
+  explain: |
+    第二段：計畫目標是「encourage full utilization of each fish caught, and … strengthen innovation in seafood products」。
+    (D) 充分利用海洋資源 ✓
+    (B) 糧食危機是說明減少浪費很重要的背景，不是計畫的主要目標（全國 25% 誤選）✗
+    (C) 跨產業合作是達成目標的「方法」（全國 15% 誤選）✗
+    (A) 計畫重點不在海洋科技（全國 15% 誤選）✗
+eng113-44:
+  key: 「The Icelandic project, from which this pioneering procedure emerged」→ 從計畫中產生的開創性「手術」＝魚皮移植。
+  explain: |
+    前一句：Oddsson's fish skin transplantation was actually part of … "100% Fish"。
+    this pioneering procedure（這項開創性的醫療程序）指 Oddsson 的魚皮移植，它是從這個冰島計畫中誕生的 → (B) ✓
+    (A) 100% Fish's mission（全國 40% 誤選，比答對的人還多）：句子說 procedure「emerged from」這個計畫，計畫本身不會從自己產生；procedure 在醫學上就是「手術、療程」。
+    (C)(D) 是計畫的目標，不是 procedure（全國 17%、15% 誤選）✗
+eng113-45:
+  key: 冰島的成功「largely through cooperative efforts across various industries」→ 跨領域合作成果豐碩。
+  explain: |
+    (C) 漁業、學界、新創、研發團隊合作，創造出各種創新產品 ✓
+    (B) Oddsson 是電廠工人，是魚皮移植的受惠者，不是計畫成員（全國 24% 誤選）✗
+    (D) 100% Fish 是冰島的計畫，不是行銷海產的國際大企業（全國 18% 誤選）✗
+    (A) 文中說每條鱈魚比其他已開發國家多產生 30% 的價值，不是漁獲量增加 30% ✗
+eng113-46:
+  key: 第三段說鱈魚從浪費 60% 到利用 95%，皮、頭、骨都做成產品 → 結尾接「魚幾乎沒有東西被丟進垃圾桶」。
+  explain: |
+    要放在最後的句子「Almost nothing of a fish is left for the trash bin.」是在總結「魚的每個部位都被利用」。
+    第三段列出魚皮做成鈣片、能量飲料、移植皮膚，魚頭魚骨出口煮湯，其他廢料做成魚油膠囊、狗零食 → (C) Paragraph 3 ✓
+    (B) 第二段只介紹計畫的目標，還沒說到實際成果（全國 13% 誤選）✗
+    (D) 第四段講跨產業合作（全國 13% 誤選）✗
+eng111-04:
+  key: 疫苗被禁用，是因為可能有致命副作用 → potentially fatal（可能致命的）。
+  explain: |
+    句意：這種新疫苗因為可能＿＿＿致命的副作用，被食品藥物管理局禁用。
+    副詞修飾形容詞 fatal → (A) potentially 可能地、潛在地 ✓
+    (C) ambiguously 模稜兩可地（全國 17% 誤選）(B) delicately 細緻地（全國 12% 誤選）(D) optionally 可選擇地。
+
+# ---------- Day 56：閱讀測驗（114：俄國人與酒）＋詞彙 ----------
+eng114-43:
+  key: 第一段說有人認為俄國人天生愛喝酒，第二段舉古代很少喝酒、伏特加是外來的 → 反駁「天生酒鬼」的看法。
+  explain: |
+    第一段：批評者說喝酒幾乎是俄國人的天性；However, there is more to the story.
+    第二段：古代俄國少見喝酒，基督教傳入前沒有葡萄酒，伏特加也不是俄國發明的。
+    (C) 反駁「俄國人天生愛喝酒」的假設 ✓
+    (D) 基督教只是用來說明時間（之前沒有葡萄園），不是把喝伏特加和基督教連在一起（全國 23% 誤選）✗
+    (B) 伏特加源自法國只是其中一個例子（全國 19% 誤選）✗
+    (A) 談的是古代俄國，不是整個歐洲（全國 15% 誤選）✗
+eng114-44:
+  key: 「The first Russian-made vodka appeared in the 15th century」→ 俄國在 15 世紀開始生產伏特加。
+  explain: |
+    (A) 第一批俄國製的伏特加出現在 15 世紀 ✓
+    (B) 從法國傳入的是「葡萄酒精」，文中沒提到小麥（全國 16% 誤選）✗
+    (C) 德國人是中世紀歐洲最會喝的，不是最大的伏特加生產國 ✗
+    (D) 19 世紀國家專賣，只准政府生產，不是鼓勵人民自己釀（全國 12% 誤選）✗
+eng114-45:
+  key: 只有政府能生產伏特加（state monopoly）→ This 讓國庫收入大增，也鼓勵了伏特加的消費。
+  explain: |
+    前句：19 世紀沙皇開始建立國家專賣，只准政府生產酒。
+    This soon filled the state treasury with huge revenues → 讓國庫充實的是「專賣制度」→ (D) The state monopoly ✓
+    (C) The illegal production（全國 26% 誤選）：非法製造是建立專賣的原因，不會讓國庫賺錢。
+    (A) The alcohol（全國 16% 誤選）(B) The government（全國 16% 誤選）。
+eng114-46:
+  key: 最後一段補充 19 世紀起的反酒運動，以及「俄國人均飲酒量仍接近世界前幾名」的事實。
+  explain: |
+    最後一段：19 世紀開始反酒運動，政府制定政策、成立組織；問題仍在；俄國人均飲酒量雖不是第一，仍接近最高。
+    (A) 提供更多事實作結 ✓
+    (B) 沒有重述前面各段的重點（全國 28% 誤選）✗
+    (C) 酗酒問題前面已經談過，不是新問題（全國 20% 誤選）✗
+    (D) 沒有預測未來（全國 12% 誤選）✗
+eng111-05:
+  key: 給照片 tag（加上標籤）日期與關鍵字，就容易分類。
+  explain: |
+    句意：給照片＿＿＿日期和關鍵字，可以幫你在檔案裡輕鬆分類。
+    動名詞當主詞，tag A with B＝在 A 加上 B 的標籤 → (A) Tagging ✓
+    (D) Snapping 拍照（全國 14% 誤選）：snap photos 是拍照，不能 with dates and keywords。
+    (B) Flocking 聚集 (C) Rolling 滾動。
+
+# ---------- Day 57：詞彙（111） ----------
+eng111-06:
+  key: agreeable＝隨和的、令人愉快的；後半句說「但別期待他對什麼事都說好」。
+  explain: |
+    句意：一個＿＿＿的人通常很和善、好相處，但別期待他對每件事都說「好」。
+    pleasant and easy to get along with → (C) agreeable 隨和的、令人愉快的 ✓（但書也和 agree 的字面意思呼應）
+    (B) intimate 親密的（全國 28% 誤選）：親密是兩人之間的關係，不是個性。
+    (A) enormous 巨大的（全國 12% 誤選）(D) ultimate 最終的。
+eng111-07:
+  key: 藏在小巷深處 → 路人幾乎看不到入口：barely visible。
+  explain: |
+    句意：這家米其林星級餐廳藏在小巷深處的小店之間，入口路人幾乎＿＿＿。
+    barely（幾乎不）＋看得見 → (B) visible 看得見的 ✓
+    (C) available 可取得的（全國 22% 誤選）(D) remarkable 引人注目的（全國 15% 誤選）(A) identical 相同的（全國 14% 誤選）。
+eng111-08:
+  key: 原本預算五千，但「最終的」花費可能多五成 → eventual cost。
+  explain: |
+    句意：我環島旅行原本的預算是新臺幣五千元，但＿＿＿花費可能會多出五成。
+    和 original（原本的）相對 → (D) eventual 最終的 ✓
+    (B) absolute 絕對的（全國 13% 誤選）(A) moderate 適度的（全國 10% 誤選）(C) promising 有前途的（全國 10% 誤選）。
+eng111-09:
+  key: go on a quest for＝去尋找、探尋；Adam 去南達科他州尋找恐龍化石。
+  explain: |
+    句意：看了自然史的電視節目後，Adam 決定到南達科他州＿＿＿恐龍化石。
+    go on a quest for…＝出發去尋找… → (D) quest 探尋 ✓
+    (A) trial 試驗（全國 35% 誤選）(B) route 路線（全國 31% 誤選）：都不能接 for 表示「尋找」。
+    (C) strike 罷工、打擊（全國 19% 誤選）：go on a strike for 是「為…而罷工」。
+eng111-10:
+  key: 粉紅的櫻花開滿山谷，像新娘 blushes（臉紅）一樣。
+  explain: |
+    句意：粉紅色的櫻花處處盛開，山谷在明亮的春光下像年輕的新娘般＿＿＿。
+    粉紅的花色比喻新娘害羞的紅臉 → (B) blushes 臉紅 ✓
+    (D) transfers 轉移（全國 26% 誤選）(C) polishes 擦亮（全國 18% 誤選）(A) bounces 彈跳（全國 11% 誤選）。
+

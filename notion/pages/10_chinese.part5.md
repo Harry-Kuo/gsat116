@@ -25,16 +25,14 @@
 		<details>
 		<summary>✅ 看答案與解析</summary>
 			**答案：C**
-			💡 「故天下有故」承接不忍欺民；商議→觀民意→不可行→反覆說明→使之心服。
-			完整原文：夫三代之君，惟不忍鄙其民而欺之，〔丁〕故天下有故，而其議及於百姓，〔乙〕以觀其意之所嚮，〔甲〕及其不可聽也，〔戊〕則又反覆而諭之，以窮極其說，〔丙〕而服其不然之心，是以其民親而愛之。（蘇軾〈書論〉）
-			1. 因為不忍欺騙人民，「故」國家有事就和百姓商議（丁）。
-			2. 商議的目的是觀察民意傾向（乙）。
-			3. 等到民意不可採行時（甲），就反覆說明、把道理講透（戊），讓人民心服（丙）。
-			4. 所以人民親愛君主。
-			答案：丁乙甲戊丙（C）。訣竅：先找能承接首句的關聯詞（故），再抓「及其…則又…」這種固定呼應。
+			💡 有大事就讓百姓議論（丁）→ 觀察民意（乙）→ 若意見不可行（甲）→ 再三說明（戊）→ 讓百姓心服（丙）。
+			完整句：夫三代之君，惟不忍鄙其民而欺之，**故天下有故，而其議及於百姓**（丁），**以觀其意之所嚮**（乙）；**及其不可聽也**（甲），**則又反覆而諭之，以窮極其說**（戊），**而服其不然之心**（丙），是以其民親而愛之。
+			線索：丁的「故」承接「不忍鄙其民而欺之」；乙「以觀」說明讓百姓議論的目的；甲「及其不可聽也」和戊「則又反覆而諭之」是「及……則……」的句式；丙「服其不然之心」是說明的結果，接「是以其民親而愛之」。
+			(C) 丁乙甲戊丙 ✓
+			(A) 乙沒有承接的主語，不能放在開頭（全國 23% 誤選）✗
 			📊 全國答對率 38%｜鑑別度 22｜各選項選答率 A 23%、B 18%、C 38%、D 20%
 		</details>
-		[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
+		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn115-05)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
 	</details>
 	<details>
 	<summary>📝 114 學測國綜 第 5 題（全國答對率 23%）</summary>
@@ -134,10 +132,10 @@
 	</details>
 	<details>
 	<summary>其他相關考古題（5 題）</summary>
-		- [113 學測國綜 第 13 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 56%
-		- [112 學測國綜 第 8 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 85%
-		- [112 學測國綜 第 13 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 61%
-		- [110 學測國文 第 22 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 77%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81ea8c22c978cf33f951"/>　全國答對率 56%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81a5963df99d440a2302"/>　全國答對率 85%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f813d9fa3cecc7ab8c9c1"/>　全國答對率 61%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f814fb181d82e3af738c2"/>　全國答對率 77%
 		- <mention-page url="https://app.notion.com/p/3ecee100984f813f85f3d29629a4c26c"/>　全國答對率 29%
 	</details>
 </details>
@@ -206,15 +204,15 @@
 	- 作答法：選項引用經典時，先弄懂那句話的原意（例如「己所不欲，勿施於人」是推己及人的恕道），再看它能不能支持文章的論點。
 	<details>
 	<summary>其他相關考古題（9 題）</summary>
-		- [115 學測國綜 第 13 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 16%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81d2b2cae2b02a11c890"/>　全國答對率 16%
 		- <mention-page url="https://app.notion.com/p/3ebee100984f81ff9546db563310875d"/>　全國答對率 37%
 		- <mention-page url="https://app.notion.com/p/3ecee100984f81318a54e567a89d685e"/>　全國答對率 66%
 		- <mention-page url="https://app.notion.com/p/3ecee100984f816ab09afa6101be7ad6"/>　全國答對率 63%
-		- [111 學測國綜 第 23 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 48%
-		- [111 學測國綜 第 24 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 69%
-		- [111 學測國綜 第 25 題](https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 52%
-		- [110 學測國文 第 18 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 20%
-		- [110 學測國文 第 19 題](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81be8cf3cccc9d419871"/>　全國答對率 48%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f818789bad470eaaa5681"/>　全國答對率 69%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81a1a2e1d28241afa1b0"/>　全國答對率 52%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81e79fcff39cde114a62"/>　全國答對率 20%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8128ac1ecd8ce9eb1ba7"/>　全國答對率 37%
 	</details>
 </details>
 ### C. 閱讀理解

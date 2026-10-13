@@ -190,10 +190,10 @@
 	- **歟：啊（感嘆）**：「其可怪也**歟**」〈師說〉
 	- **耳：罷了**：「從此道至吾軍，不過二十里**耳**」〈鴻門宴〉
 ## 學測考過的虛詞題
-- [115 學測國綜 第 25 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 44%
+- <mention-page url="https://app.notion.com/p/3f3ee100984f8127b4fef0f54bad2e36"/>　全國答對率 44%
 - <mention-page url="https://app.notion.com/p/3e9ee100984f8146ae6befc969fc064c"/>　全國答對率 55%
 - <mention-page url="https://app.notion.com/p/3e9ee100984f8119b125c4defd24504e"/>　全國答對率 26%
-- [113 學測國綜 第 26 題](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)　全國答對率 17%
+- <mention-page url="https://app.notion.com/p/3f3ee100984f815e951ce9ee82be4068"/>　全國答對率 17%
 - <mention-page url="https://app.notion.com/p/3e9ee100984f81fdaa95c7143652cbf3"/>　全國答對率 21%
 - <mention-page url="https://app.notion.com/p/3e9ee100984f81889326da6ace1a1044"/>　全國答對率 42%
 - <mention-page url="https://app.notion.com/p/3e9ee100984f8137b6a6fb5f42540394"/>　全國答對率 50%

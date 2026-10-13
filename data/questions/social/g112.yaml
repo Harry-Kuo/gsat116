@@ -473,8 +473,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: G1
+  tags:
+  - G5
+  concepts:
+  - G1
+  - G5
   classic: true
   stats:
     P: 60
@@ -511,8 +515,10 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: G7
+  tags: []
+  concepts:
+  - G7
   classic: true
   stats:
     P: 64
@@ -547,8 +553,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: G3
+  tags: []
+  concepts:
+  - G3
   classic: true
   stats:
     P: 72
@@ -582,8 +590,10 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: G4
+  tags: []
+  concepts:
+  - G4
   classic: true
   stats:
     P: 53
@@ -637,8 +647,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: H1
+  tags:
+  - H5
+  concepts:
+  - H1
+  - H5
   classic: true
   stats:
     P: 75
@@ -675,8 +689,10 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: H2
+  tags: []
+  concepts:
+  - H2
   classic: true
   stats:
     P: 83
@@ -711,8 +727,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: H3
+  tags: []
+  concepts:
+  - H3
   classic: true
   stats:
     P: 85
@@ -748,8 +766,12 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: H1
+  tags:
+  - H4
+  concepts:
+  - H1
+  - H4
   classic: true
   stats:
     P: 52
@@ -784,8 +806,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: H2
+  tags:
+  - H5
+  concepts:
+  - H2
+  - H5
   classic: true
   stats:
     P: 43
@@ -823,8 +849,10 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: H1
+  tags: []
+  concepts:
+  - H1
   classic: true
   stats:
     P: 61
@@ -897,8 +925,12 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: H2
+  tags:
+  - H5
+  concepts:
+  - H2
+  - H5
   classic: true
   stats:
     P: 50
@@ -933,8 +965,12 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: H2
+  tags:
+  - H5
+  concepts:
+  - H2
+  - H5
   classic: true
   stats:
     P: 58
@@ -971,8 +1007,10 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: H2
+  tags: []
+  concepts:
+  - H2
   classic: true
   stats:
     P: 45
@@ -1010,8 +1048,10 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: H3
+  tags: []
+  concepts:
+  - H3
   classic: true
   stats:
     P: 51
@@ -1049,8 +1089,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: H3
+  tags: []
+  concepts:
+  - H3
   classic: true
   stats:
     P: 25
@@ -1087,8 +1129,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: H3
+  tags: []
+  concepts:
+  - H3
   classic: true
   stats:
     P: 32
@@ -1128,8 +1172,10 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: D3
+  tags: []
+  concepts:
+  - D3
   classic: true
   stats:
     P: 73
@@ -1165,8 +1211,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: H3
+  tags:
+  - D7
+  concepts:
+  - H3
+  - D7
   classic: true
   stats:
     P: 57
@@ -1203,8 +1253,12 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: D4
+  tags:
+  - D7
+  concepts:
+  - D4
+  - D7
   classic: true
   stats:
     P: 42
@@ -1262,8 +1316,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: D7
+  tags:
+  - G5
+  concepts:
+  - D7
+  - G5
   classic: true
   stats:
     P: 30
@@ -1300,8 +1358,12 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: G4
+  tags:
+  - H4
+  concepts:
+  - G4
+  - H4
   classic: true
   stats:
     P: 72
@@ -1347,8 +1409,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: G4
+  tags: []
+  concepts:
+  - G4
   classic: true
   stats:
     P: 32
@@ -1383,8 +1447,10 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: G3
+  tags: []
+  concepts:
+  - G3
   classic: true
   stats:
     P: 35
@@ -1418,8 +1484,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: G4
+  tags: []
+  concepts:
+  - G4
   classic: true
   stats:
     P: 45
@@ -1453,8 +1521,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: G3
+  tags:
+  - G2
+  concepts:
+  - G3
+  - G2
   classic: true
   stats:
     P: 70
@@ -1487,8 +1559,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: G2
+  tags:
+  - G7
+  concepts:
+  - G2
+  - G7
   classic: true
   stats:
     P: 58
@@ -1523,8 +1599,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: G7
+  tags:
+  - G2
+  concepts:
+  - G7
+  - G2
   classic: true
   stats:
     P: 86
@@ -1558,8 +1638,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: G4
+  tags: []
+  concepts:
+  - G4
   classic: true
   stats:
     P: 25
@@ -1592,8 +1674,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: H1
+  tags:
+  - H5
+  concepts:
+  - H1
+  - H5
   classic: true
   stats:
     P: 39
@@ -1626,8 +1712,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: H1
+  tags:
+  - H5
+  concepts:
+  - H1
+  - H5
   classic: true
   stats:
     P: 39
@@ -1660,8 +1750,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: D6
+  tags:
+  - H1
+  concepts:
+  - D6
+  - H1
   classic: true
   stats:
     P: 74
@@ -1695,8 +1789,12 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: D6
+  tags:
+  - D3
+  concepts:
+  - D6
+  - D3
   classic: true
   stats:
     P: 24
@@ -1729,8 +1827,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: D2
+  tags: []
+  concepts:
+  - D2
   classic: true
   stats:
     P: 30
@@ -1763,8 +1863,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: D1
+  tags:
+  - H5
+  concepts:
+  - D1
+  - H5
   classic: true
   stats:
     P: 53
@@ -1800,8 +1904,10 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: D5
+  tags: []
+  concepts:
+  - D5
   classic: true
   stats:
     P: 40
@@ -1834,8 +1940,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: D2
+  tags: []
+  concepts:
+  - D2
   classic: true
   stats:
     P: 22
@@ -1869,8 +1977,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: D3
+  tags: []
+  concepts:
+  - D3
   classic: true
   stats:
     P: 69
@@ -1907,8 +2017,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: D3
+  tags:
+  - G5
+  concepts:
+  - D3
+  - G5
   classic: true
   stats:
     P: 64
@@ -1944,8 +2058,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: D1
+  tags: []
+  concepts:
+  - D1
   classic: true
   stats:
     P: 80
@@ -1978,8 +2094,12 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: D6
+  tags:
+  - D7
+  concepts:
+  - D6
+  - D7
   classic: true
   stats:
     P: 46
@@ -2012,8 +2132,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: D1
+  tags:
+  - D5
+  concepts:
+  - D1
+  - D5
   classic: true
   stats:
     P: 45
@@ -2047,8 +2171,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: H1
+  tags: []
+  concepts:
+  - H1
   classic: true
   stats:
     P: 64
@@ -2081,8 +2207,10 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: G2
+  tags: []
+  concepts:
+  - G2
   classic: true
   stats:
     P: 75
@@ -2115,8 +2243,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: G5
+  tags:
+  - G7
+  concepts:
+  - G5
+  - G7
   classic: true
   stats:
     P: 43
@@ -2149,8 +2281,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: G2
+  tags: []
+  concepts:
+  - G2
   classic: true
   stats:
     P: 68
@@ -2208,8 +2342,10 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: H2
+  tags: []
+  concepts:
+  - H2
   classic: true
   stats:
     P: 50
@@ -2265,8 +2401,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: D1
+  tags:
+  - D5
+  concepts:
+  - D1
+  - D5
   classic: true
   stats:
     P: 34
@@ -2318,8 +2458,12 @@ items:
     C: ''
     D: ''
   answer: B
-  topic: null
-  concepts: []
+  topic: G1
+  tags:
+  - D6
+  concepts:
+  - G1
+  - D6
   classic: true
   stats:
     P: 61
@@ -2352,8 +2496,10 @@ items:
     C: ''
     D: ''
   answer: A
-  topic: null
-  concepts: []
+  topic: D6
+  tags: []
+  concepts:
+  - D6
   classic: true
   stats:
     P: 29
@@ -2410,8 +2556,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: H4
+  tags:
+  - H2
+  concepts:
+  - H4
+  - H2
   classic: true
   stats:
     P: 73
@@ -2517,8 +2667,12 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: D1
+  tags:
+  - D5
+  concepts:
+  - D1
+  - D5
   classic: true
   stats:
     P: 31
@@ -2577,8 +2731,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: G2
+  tags: []
+  concepts:
+  - G2
   classic: true
   stats:
     P: 33
@@ -2663,8 +2819,10 @@ items:
     C: ''
     D: ''
   answer: C
-  topic: null
-  concepts: []
+  topic: H3
+  tags: []
+  concepts:
+  - H3
   classic: true
   stats:
     P: 54
@@ -2698,8 +2856,12 @@ items:
     C: ''
     D: ''
   answer: D
-  topic: null
-  concepts: []
+  topic: D3
+  tags:
+  - D6
+  concepts:
+  - D3
+  - D6
   classic: true
   stats:
     P: 27
@@ -2758,8 +2920,8 @@ items:
     圖10
 
     二、非選擇題
-    說明：本部分共有 1 題，配分標於題末。限在標示題號作答區內作答。「非選擇題作圖部
-    分」使用 2B 鉛筆作答，更正時以橡皮擦擦拭，切勿使用修正帶（液）。
+    說明：本部分共有 1 題，配分標於題末。限在標示題號作答區內作答。「非選擇題作圖部
+    分」使用 2B 鉛筆作答，更正時以橡皮擦擦拭，切勿使用修正帶（液）。
 - id: soc112-66
   'no': 66
   type: open
