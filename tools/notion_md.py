@@ -519,7 +519,10 @@ def week_page(w, md_name, subject):
             "REF_EN_WRITING": mention("ref:en_writing", "〈混合題與寫作〉"), "REF_EN_CARDS": mention("ref:en_cards", "〈單字卡〉"),
             "REF_EN_CLOZE": mention("ref:en_cloze", "〈克漏字解題〉"), "REF_EN_READING": mention("ref:en_reading", "〈閱讀與篇章結構〉"),
             "REF_EN_ROOTS": mention("ref:en_roots", "〈字首字根字尾〉"), "REF_EN_CONFUSE": mention("ref:en_confuse", "〈易混淆字〉"),
-            "REF_MATH_A": mention("ref:mathA_notes", "〈數學A 公式與解題流程〉"), "REF_MATH_B": mention("ref:mathB_notes", "〈數學B 公式與解題流程〉")}
+            "REF_MATH_A": mention("ref:mathA_notes", "〈數學A 公式與解題流程〉"), "REF_MATH_B": mention("ref:mathB_notes", "〈數學B 公式與解題流程〉"),
+            "REF_SCI_P": mention("ref:science_P", "〈物理重點整理〉"), "REF_SCI_C": mention("ref:science_C", "〈化學重點整理〉"),
+            "REF_SCI_B": mention("ref:science_B", "〈生物重點整理〉"), "REF_SCI_E": mention("ref:science_E", "〈地球科學重點整理〉"),
+            "REF_SCI_I": mention("ref:science_I", "〈探究與實作重點整理〉")}
     return [re.sub(r"\\\{\\\{(REF_[A-Z_]+)\\\}\\\}", lambda m: subs[m.group(1)], blk) for blk in blocks]
 
 
@@ -533,6 +536,10 @@ def week2_page():
 
 def week3_page():
     return week_page(3, "week03_math.md", ["mathA", "mathB"])
+
+
+def week4_page():
+    return week_page(4, "week04_science.md", "science")
 
 
 # ---------- 數學重點整理：各觀念的必背公式、解題流程、易錯點 ----------
@@ -1254,16 +1261,12 @@ def home_page():
     pg = lambda k, t: f'<page url="{MAP["page:" + k]}">{t}</page>' if MAP.get("page:" + k) else f"（{t}：建立中）"
     db = lambda k, t: f'<database url="{MAP[k]}" inline="false">{t}</database>' if MAP.get(k) else f"（{t}：建立中）"
     ms = [["日期", "事項"]] + [[f"{dt.date.fromisoformat(m['date']).month}/{dt.date.fromisoformat(m['date']).day}（{WEEKDAY[dt.date.fromisoformat(m['date']).weekday()]}）", esc(m["name"])] for m in cfg["milestones"]]
-    w1 = f'<mention-page url="{MAP["week:1"]}"/>' if MAP.get("week:1") else "📅 每週課程 W1"
-    w2 = f'<mention-page url="{MAP["week:2"]}"/>' if MAP.get("week:2") else "📅 每週課程 W2"
-    w3 = f'<mention-page url="{MAP["week:3"]}"/>' if MAP.get("week:3") else "📅 每週課程 W3"
+    wk = lambda w: f'<mention-page url="{MAP[f"week:{w}"]}"/>' if MAP.get(f"week:{w}") else f"📅 每週課程 W{w}"
     return [f'<embed src="{SITE}/countdown.html">距離 116 學測倒數</embed>',
             callout("📌", ["**116 學測：2027/1/22（五）–1/24（日）**｜每日快答 **9/30（三）Day 1** 開始，每天每科 5 題，12/31 前做完近六屆經典題。",
                           f"👉 [打開今日練習]({SITE}/)（手機用瀏覽器打開後選「加入主畫面」，之後像 App 一樣一鍵開啟）"], color="orange_bg"),
             "## 📣 上課安排",
-            f"- **W1 國文**｜{fmt_class(1, cfg)}｜國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判 → {w1}",
-            f"- **W2 英文**｜{fmt_class(2, cfg)}｜{WEEK_TOPIC[2]} → {w2}",
-            f"- **W3 數學**｜{fmt_class(3, cfg)}｜{WEEK_TOPIC[3]} → {w3}",
+            *[f"- **W{w} {WEEK_SUBJECTS[(w - 1) % 5]}**｜{fmt_class(w, cfg)}｜{WEEK_TOPIC[w]} → {wk(w)}" for w in sorted(WEEK_PAGES)],
             f"- 每週二、四各上課 {cfg['classes']['hours']:g} 小時，國→英→數→自→社輪替，課程到 1/14（W16 總複習）；各週主題見「📅 每週課程」。",
             "- 每日練習：國文、英文、數學A、數學B、自然、社會各 5 題，合計約 45 分鐘（數學A、數學B 各約 14 分鐘，其他科各 3–6 分鐘），分散在零碎時間做；答錯的題目 1、3、7 天後會自動回來複習。",
             "## 🧭 學習地圖",
@@ -1349,8 +1352,9 @@ WEEK_SUBJECTS = ["國文", "英文", "數學", "自然", "社會"]  # 數學週�
 WEEK_LABEL = {"數學": "數學（數A＋數B）"}
 WEEK_TOPIC = {1: "國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判",
               2: "英文考科結構 × 詞彙 × 綜合測驗 × 文意選填 × 篇章結構 × 閱讀測驗",
-              3: "數A、數B 考科結構 × 代數 × 幾何 × 向量與矩陣 × 機率統計與計數 × 混合題"}
-WEEK_PAGES = {1: week1_page, 2: week2_page, 3: week3_page}
+              3: "數A、數B 考科結構 × 代數 × 幾何 × 向量與矩陣 × 機率統計與計數 × 混合題",
+              4: "自然考科結構 × 物理 × 化學 × 生物 × 地球科學 × 混合題"}
+WEEK_PAGES = {1: week1_page, 2: week2_page, 3: week3_page, 4: week4_page}
 
 
 def db_week_rows():
@@ -1420,7 +1424,9 @@ def main():
     write_page("12b_mathB", skeleton_page("mathB", "數學B 100 分鐘：單選 7 題×5、多選 5 題×5、選填 5 題×5（全對才給分）＋混合題或非選 15 分。", math_focus("mathB"), focus_raw=True))
     write_page("12c_mathA_notes", math_notes_page("mathA"))
     write_page("12d_mathB_notes", math_notes_page("mathB"))
-    write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。", focus(4, "四科必考觀念、圖表與實驗題解題法。")))
+    write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。",
+                                           f"**第 4 週上課**（{esc(fmt_class(4))}）的講義、上課練習題與混合題參考答案在 {mention('week:4', '📅 每週課程 W4')}；"
+                                           "物理、化學、生物、地球科學、探究與實作的必背觀念與解題步驟，在下面的「📚 重點整理」。", focus_raw=True))
     write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", focus(5, "三科必考觀念、史料與圖表判讀法。")))
     for s, prefix in (("science", "13n"), ("social", "14n")):
         for m, _, _ in NOTE_PAGES[s]:
@@ -1434,6 +1440,7 @@ def main():
     write_page("30_week01", week1_page())  # 每週課程的頁面內容（分段寫入 Notion 用）
     write_page("30_week02", week2_page())
     write_page("30_week03", week3_page())
+    write_page("30_week04", week4_page())
     write_page("40_progress", progress_page())
     write_page("90_teacher", teacher_page())
     q = db_question_rows()
