@@ -857,14 +857,55 @@ def en_phrase_page():
     return b
 
 
+EN_WORDS = re.compile(r"[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*")
+
+
 def en_writing_page():
+    """答題技巧 → 作文題型與模板（歷屆分類、各模板、範文）→ 評分方式與近五屆題目。"""
     x = qyaml.load(REF / "english_writing.yaml")
-    mx, tr, es = x["mixed"], x["translation"], x["essay"]
-    b = [callout("✍️", ["非選擇題共 38 分：混合題 10 分、中譯英 8 分、英文作文 20 分。這一頁整理評分方式、近五屆題目與得分重點；評分原則出自大考中心各年度〈英文考科非選擇題閱卷評分原則說明〉。"]),
-         "## 混合題（10 分）", esc(mx["intro"])]
+    mx, tr, es, et = x["mixed"], x["translation"], x["essay"], x["essay_types"]
+    num = {t["id"]: "模板" + "一二三四五六七八九"[t["id"] - 1] for t in et["types"]}
+    used = {}
+    for h in et["history"]:
+        for tid, _ in (h["p1"], h["p2"]):
+            used.setdefault(tid, set()).add(h["year"])
+    years = {k: "、".join(str(y) for y in sorted(v, reverse=True)) for k, v in used.items()}
+
+    def sample(s):
+        n = sum(len(EN_WORDS.findall(p.replace("**", ""))) for p in s["paras"])
+        body = [f"**題目**：{md_inline(s['prompt'])}"] + [md_inline(p) for p in s["paras"]]
+        return toggle(f"📄 自編範文：{esc(s['title'])}（先自己寫，再打開對照）", body + [f"（共 {n} 個單詞；粗體是套用的模板句）"])
+
+    b = [callout("✍️", [md_inline(t) for t in x["intro"]]), "## 🧭 答題技巧"]
+    for s in x["skills"]:
+        b.append(f"### {esc(s['title'])}")
+        b += [f"{i}. {md_inline(t)}" for i, t in enumerate(s["items"], 1)]
+        if s.get("table"):
+            b += [s["table_title"], table([[md_inline(str(c)) for c in r] for r in s["table"]])]
+    b += ["## 🧩 作文題型與模板"] + [md_inline(t) for t in et["intro"]]
+    b += ["### 第一步：看題目指示，找對應的模板",
+          table([["題目出現這些要求", "用這個模板", "歷屆"]] +
+                [[md_inline(p["cue"]), f"{num[p['id']]}　{esc(t['name'])}", years[p["id"]]]
+                 for p in et["pick"] for t in et["types"] if t["id"] == p["id"]])]
+    b += ["### 第二步：套進兩段式骨架"] + [f"- {md_inline(t)}" for t in et["skeleton"]] + [md_inline(et["skeleton_note"])]
+    b += ["### 歷屆題目怎麼套",
+          table([["年度", "題目", "第一段", "第二段"]] +
+                [[str(h["year"]), esc(h["topic"])] + [f"{num[tid]}：{esc(d)}" for tid, d in (h["p1"], h["p2"])]
+                 for h in et["history"]]),
+          md_inline(et["history_note"])]
+    for t in et["types"]:
+        b += [f"### {num[t['id']]}　{esc(t['name'])}", f"**適用**：{md_inline(t['when'])}歷屆：{years[t['id']]}。"]
+        for label, key in (("架構", "structure"), ("開頭句", "open"), ("發展句", "develop"), ("結論句", "close")):
+            b += [f"**{label}**"] + [f"- {md_inline(s)}" for s in t[key]]
+        b.append(sample(t["sample"]))
+    c = et["combo"]
+    b += [f"### {esc(c['title'])}"] + [md_inline(t) for t in c["text"]] + [sample(c["sample"])]
+    b += ["### 萬用轉承語", table([["用途", "轉承語"]] + [[esc(k), md_inline(w)] for k, w in et["transitions"]]),
+          f"考過的轉折語與片語整理在 {mention('ref:en_phrase', '〈轉折語與片語〉')}。"]
+    b += ["## 📋 評分方式與近五屆題目", "### 混合題（10 分）", esc(mx["intro"])]
     b += [f"- {esc(r)}" for r in mx["rules"]]
     b.append(toggle("近五屆混合題", [f"- **{h['year']} 年**：{esc(h['text'])}" for h in mx["history"]]))
-    b += ["## 中譯英（8 分）"] + [f"- {esc(r)}" for r in tr["rules"]]
+    b += ["### 中譯英（8 分）"] + [f"- {esc(r)}" for r in tr["rules"]]
     b.append("近五屆考題與官方參考答案（括號內是也可以接受的寫法）。先自己翻，再打開對照：")
     for y in YEARS:
         its = [t for t in tr["items"] if t["year"] == y]
@@ -873,13 +914,14 @@ def en_writing_page():
                                                                         f"\t- 參考答案：{esc(t['en'])}",
                                                                         f"\t- 提醒：{esc(t['tip'])}")]))
     b.append(f"- {esc(es['scores_115']['translation'])}")
-    b += ["## 英文作文（20 分）"] + [f"- {esc(r)}" for r in es["rules"]]
+    b += ["### 英文作文（20 分）"] + [f"- {esc(r)}" for r in es["rules"]]
     b.append(table([["評分項目", "高分的表現"]] + [[esc(r["item"]), esc(r["good"])] for r in es["rubric"]]))
-    b.append(toggle("近五屆作文題目", [f"- **{p_['year']} 年**：{esc(p_['text'])}" for p_ in es["prompts"]]))
     b.append(f"- {esc(es['scores_115']['essay'])}")
-    b += ["### 寫作提醒"] + [f"{i}. {esc(t)}" for i, t in enumerate(es["tips"], 1)]
     b += ["## 資料來源", "- 大考中心各年度〈英文考科非選擇題閱卷評分原則說明〉與試題。",
-          "- 得分分布：大考中心公布的 115 學年度學測英文非選擇題各題得分人數百分比。"]
+          "- 作文題型分類：大考中心 95–115 學年度學測英文考科試題的作文提示。",
+          "- 得分分布：大考中心公布的 115 學年度學測英文非選擇題各題得分人數百分比。",
+          "- 閱卷委員的觀察：113、115 年學測英文非選擇題閱卷說明（NOWnews 2024/2/5、1111 人力銀行 2026/2/2 報導）。",
+          "- 模板句、範文、常見文法錯誤的例句為自編。"]
     return b
 
 
@@ -1149,7 +1191,8 @@ def english_page():
         b += ["## 📚 重點整理",
               "- **背單字**：從「單字卡」開始（近六屆考過的字，依級別分 Unit，點開看意思）；「常考單字」依年度列出每一題的答案，「字首字根字尾」「易混淆字」幫你猜字、分辨相近的字。",
               "- **綜合測驗、文意選填**：看「克漏字解題」（題型、線索、文法速查），考過的轉折語與片語在「轉折語與片語」。",
-              "- **閱讀測驗、篇章結構**：看「閱讀與篇章結構」（題型、刪去法、題目常見的字）；非選擇題看「混合題與寫作」。"]
+              "- **閱讀測驗、篇章結構**：看「閱讀與篇章結構」（題型、刪去法、題目常見的字）。",
+              "- **非選擇題（混合題、中譯英、作文）**：看「混合題與寫作」。頁面最上方是三大題的答題技巧，接著是「🧩 作文題型與模板」：95–115 年 21 屆作文題目分成 7 類，每類都有架構、開頭句、發展句、結論句和範文。"]
         b += [f'<page url="{MAP[k]}">{t}</page>' for k, t in EN_REF_PAGES if MAP.get(k)]
     b += ["## 📈 近六屆出題趨勢（110–115）",
           "- **各大題平均答對率**：詞彙 50%、綜合測驗 46%、文意選填 46%、篇章結構 50%、閱讀測驗 56%。閱讀測驗 12 題共 24 分，是選擇題配分最重的大題。",
@@ -1172,8 +1215,10 @@ def english_page():
             done = [it for it in related if MAP.get(f"q:{it['id']}")]
             if done:
                 ch.append(toggle(f"已排進每日練習的考古題（{len(done)} 題）", [f"- {ref(it, 'english', published)}" for it in done]))
-            if c["id"] in ("M1", "W1", "W2"):
-                ch.append(f"評分方式、近五屆題目與參考答案整理在 {mention('ref:en_writing', '〈混合題與寫作〉')}。")
+            if c["id"] == "W2":
+                ch.append(f"作文題型分類、7 種模板與範文在 {mention('ref:en_writing', '〈混合題與寫作〉')}的「🧩 作文題型與模板」，評分方式也在同一頁。")
+            elif c["id"] in ("M1", "W1"):
+                ch.append(f"答題技巧、評分方式、近五屆題目與參考答案整理在 {mention('ref:en_writing', '〈混合題與寫作〉')}。")
             b.append(toggle(f"**{c['id']} {esc(c['name'])}**" + (f"（近六屆 {len(related)} 題）" if related else ""), ch))
     b.append("## 📝 每日練習")
     b += daily_blocks(plan, start, "english", items, published)

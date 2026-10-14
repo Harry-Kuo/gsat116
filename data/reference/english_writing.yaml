@@ -1,6 +1,13 @@
 # 英文重點整理：混合題與寫作。
 # 評分原則、參考答案、題目取自大考中心 111–115 學年度學測英文試卷與「非選擇題參考答案與評分原則」；
 # 分數分布取自大考中心「英文科非選擇題分數人數統計表」。句型重點與寫作建議由 Claude 撰寫。
+# skills、essay_types：作文題目分類依據大考中心 95–115 學年度學測英文試卷的作文提示；
+# 混合題字形變化的例子已和試卷原文、官方參考答案核對；閱卷委員的觀察出自 113、115 年閱卷說明的媒體報導。
+# 模板句與範文為自編（範文的圖片描述已對照原卷圖片）。
+
+intro:
+  - "非選擇題共 38 分：混合題 10 分、中譯英 8 分、英文作文 20 分。"
+  - "這一頁先整理三大題的**答題技巧**，再把 95–115 年 21 屆的作文題目分成 **7 類**，每類都有架構、開頭句、發展句、結論句和範文（「🧩 作文題型與模板」）；最後是評分方式與近五屆題目。評分原則出自大考中心各年度〈英文考科非選擇題閱卷評分原則說明〉。"
 
 mixed:
   intro: 混合題占 10 分，是一個題組：一篇文章（常搭配表格、店家介紹或對話紀錄），後面接填充、多選、簡答。
@@ -84,18 +91,318 @@ essay:
     - {item: 組織, good: 重點分明，有開頭、發展、結尾，前後連貫，轉承語使用得當。}
     - {item: 文法句構, good: 全文幾無文法、格式、標點錯誤，文句結構富變化。}
     - {item: 字彙拼字, good: 用字精確、得宜，且幾無拼字、大小寫錯誤。}
-  prompts:
-    - {year: 115, text: 寵物在生活中的角色（看圖）：第一段描述圖片呈現的現象；第二段依自身經驗或觀察，說明原因與可能的影響。}
-    - {year: 114, text: 颱風假（對比圖）：第一段描述放颱風假時實際上可能出現的兩種情景；第二段說明你對放颱風假的看法與經驗。}
-    - {year: 113, text: 機器人小幫手（三張圖：初次失戀、在意別人的眼光、情緒起伏）：第一段說明最想解決哪一個問題與原因；第二段說明希望機器人具備的特質或能力，以及如何分工合作解決問題。}
-    - {year: 112, text: 表情符號（emoji）：第一段說明人們為何喜歡使用，並舉一至二例說明溝通功能；第二段以個人或親友經驗討論可能造成的誤會或困擾，並提出化解方法。}
-    - {year: 111, text: 不同的公園（圖 A、圖 B）：第一段描述兩個公園各有什麼特色；第二段說明你心目中理想公園的樣貌與特色，並解釋理由。}
   scores_115:
     essay: 115 年作文 15 分以上的考生約 5%，12 分以上約 22%，10 分以上約 36%，一半考生在 8 分以下。
     translation: 115 年中譯英 6 分以上約 17%，5 分以上約 31%，4 分以上約 43%。
-  tips:
-    - 近五屆都是「文分兩段」：第一段描述圖片或現象、說明理由；第二段寫看法、經驗、原因或影響。先把題目要求的每一件事列成清單，寫完逐項打勾。
-    - 每段第一句寫主題句，直接回答題目；後面用 2–3 個具體例子或細節支持。
-    - 寫 150–180 個單詞比較保險（至少 120 個）。句子寧可簡單正確，也不要寫沒把握的長句。
-    - 段落之間、句子之間用轉承語連接（For example、However、As a result、In my opinion），這是「組織」的得分點。
-    - 留 3 分鐘檢查：主詞和動詞一致、時態、單複數、冠詞、拼字、句首大寫與句尾標點。
+
+# 🧭 答題技巧：三大題各一節，table 是附在條列後面的對照表（第一列是表頭）。
+skills:
+  - title: 混合題：答案都在文章裡（約 8–10 分鐘）
+    items:
+      - "**先看題目再讀文章**：47–50 題先掃一遍，知道要找哪兩個字、哪些選項、哪個片語，讀文章時直接在可能的答案下面畫線。"
+      - "**填充題先判斷詞性**：題目句是文章的摘要。先看空格前後，決定要名詞、形容詞、V-ing 還是過去分詞，再回文章找意思相符的字。"
+      - "**一定要做字形變化**：每格只能填一個單詞，而且常常要換詞性，不只是加 s 或 ed（例如 115 年文章裡是 innovative，答案是 innovation）。字形或拼字錯誤只拿一半分數；113、115 年的閱卷說明都提醒，不少考生找對了字卻沒有變化字形。"
+      - "**多選題每個選項都要判斷**：選項獨立計分，n 個選項中答錯 k 個，得 (n−2k)/n 的分數；該選的沒選也算錯一個。每個選項都回文章找證據，標 ✓ 或 ✗；最常看漏的是「兩者都符合」（111、113 年）和「只在特定情況下」（112 年）這類條件。"
+      - "**簡答題照抄原文**：題目要你從文章找一個片語時，照抄文章裡的形式（112 年 does the trick、114 年 fostering empathy、115 年 one of a kind），不用寫成完整句子，也不必另外說明。抄完逐字母對照拼字。"
+    table_title: "**填充題的字形變化（112–115 年）**"
+    table:
+      - [年度, 題目句的空格, 文章裡的字, 答案, 判斷方法]
+      - ["115", "tradition coexists harmoniously with ＿＿", innovative, innovation, 介系詞 with 後面要名詞]
+      - ["115", "local features are perfectly ＿＿ with foreign elements", blend, blended, "are＋＿＿＋with 是被動，用過去分詞"]
+      - ["114", "conserving endangered species as well as ＿＿ visitors", "entertainment、education", "entertaining／educating", "as well as 前後對等，跟 conserving 一樣用 V-ing"]
+      - ["114", "the animals ＿＿ there will lose the freedom", "confine、confining", "confined／caged", "修飾 the animals、表示「被關著的」，用過去分詞"]
+      - ["113", "are able to use ＿＿ intelligence", "group、collectively", "group／collective", "放在名詞 intelligence 前面修飾它；副詞 collectively 要改成形容詞"]
+      - ["113", "in both solving problems and ＿＿ to new challenging environment", adapt, adapting, "both A and B 前後對等，跟 solving 一樣用 V-ing"]
+      - ["112", "the issues of ＿＿, price, and ＿＿ concerns", "taste、healthy", "taste、health（兩格可對調）", "兩格都要名詞：形容詞 healthy 要改成 health"]
+  - title: 中譯英：先抓主幹，再補修飾（每句約 4–5 分鐘）
+    items:
+      - "**先找主詞和動詞**：中文常省略主詞，英文一定要有；113 年閱卷說明提到，有考生第一句就漏了主詞。例如「在享受寵物所帶來的歡樂時」要補出主詞：When we enjoy …（111 年）。"
+      - "**再決定時態**：看中文的時間線索。「已經增加」用現在完成式 have increased（115 年）；「過去在科幻電影中出現的神奇物件，現在正逐一成真」，關係子句用過去式、主要子句用現在進行式（114 年）；「總會看到」用 can／will be seen（113 年）。"
+      - "**修飾語搬到名詞後面**：中文的修飾語放在名詞前面，英文較長的修飾語放在名詞後面，例如關係子句 things that appeared in sci-fi movies（114 年）、過去分詞 the goal pursued by all human beings（112 年）、介系詞片語 famous temples in different places（113 年）。"
+      - "**背熟考過的句型**：not A but B、動名詞當主詞配單數動詞 Keeping a pet is …（111 年）；不定詞當主詞 To avoid … and ensure … should be …（112 年）；be seen V-ing、Besides＋V-ing（113 年）；the biggest driving force for …（114 年）；more and more＋複數名詞、divide A into B、based on（115 年）。"
+      - "**基本字要拼對、用對**：考的字大多在詞彙表 1–4 級，扣分多半出在基本字。閱卷說明列出的錯誤有：divide 拼成 devide、senior 拼成 sinior、用 hear 和 talk 代替 listen 和 speak（115 年）；election 拼成 eletion、politicians 拼成 polititions、temples 拼成 tamples、customs 和 costumes 混淆、「尊重」譯成 expect（113 年）。"
+      - "**想不起最準的字，就換成有把握的同義字**：官方參考答案本來就接受多種寫法（例如 short-term／temporary、ignore／neglect／overlook），每個錯誤只扣 0.5 分，不要整句空白。"
+      - "**最後檢查 5 件事**：句首大寫、句尾句號、主詞和動詞一致、單複數、冠詞。"
+  - title: 英文作文：考場流程（約 25–28 分鐘）
+    items:
+      - "**審題（2 分鐘）**：把題目「第一段…第二段…」各要寫的事圈起來，列成清單，寫完逐項打勾。題目要「原因以及可能的影響」，兩樣都要寫；大考中心的評分重點是「內容須符合題目要求，提供充分、具體之細節」（115 年評分原則）。"
+      - "**選模板（1 分鐘）**：用下面「🧩 作文題型與模板」的對照表，決定兩段各用哪一個模板。"
+      - "**列大綱（3 分鐘）**：在試題本空白處，每段寫下主題句和 2–3 個細節，寫關鍵字就好。"
+      - "**寫作（17 分鐘）**：每段 75–90 個單詞，全文 150–180 個單詞。少於 120 個單詞、沒有分段，各扣總分 1 分。"
+      - "**檢查（3 分鐘）**：主詞和動詞一致、時態、單複數、冠詞、拼字、句首大寫與句尾標點；再對照下面的常見錯誤。"
+      - "**時態跟著任務走**：描述圖片用現在式或現在進行式；說故事、寫經驗用過去式；說看法、原因用現在式；寫想像、理想用 would。"
+      - "**句子寧可簡單正確**：用有把握的句型，再用轉承語（First、However、As a result、In my opinion）把句子串起來；轉承語是「組織」的得分點。"
+      - "**不要寫自己的名字**：作答區不能寫姓名、應試號碼或無關的文字、圖案。書信題只能用題目指定的名字署名（97、101 年）。"
+    table_title: "**常見文法錯誤（檢查時對照）**"
+    table:
+      - [錯誤, ✗ 錯誤寫法, ✓ 正確寫法]
+      - [逗號連接兩個句子, "I like dogs, they are cute.", "I like dogs because they are cute."]
+      - [Because 子句單獨成句, "Because it was raining.", "We stayed home because it was raining."]
+      - [Although 和 but 一起用, "Although it was late, but he kept working.", "Although it was late, he kept working."]
+      - [There 句型用 have, "There have many people in the park.", "There are many people in the park."]
+      - [主詞和動詞不一致, "Keeping pets are not easy.", "Keeping pets is not easy."]
+      - [very 的位置, "I very like this park.", "I like this park very much."]
+      - [多餘的介系詞, "We discussed about the plan.", "We discussed the plan."]
+      - [不可數名詞加 s, "She gave me many advices.", "She gave me a lot of advice."]
+
+# 🧩 作文題型與模板：history 的 p1、p2 是 [模板編號, 這一段要寫什麼]，各模板的「歷屆」由 history 自動算出。
+essay_types:
+  intro:
+    - "95–115 年 21 屆的英文作文可以分成 7 類。107 年起連續 9 屆都是兩段式：題目直接寫出第一段、第二段各要寫什麼（大考中心稱為引導寫作）。連環圖片說故事最近一次是 106 年，書信是 101 年，116 年都還有可能出現。"
+    - "看到題目先圈出兩段的任務，再用「第一步」的表找出對應的模板；兩段任務不同時，就各套一個模板。模板裡的〔 〕換成自己的內容，範文裡的粗體就是套用的模板句。模板句和範文都是自編的，不是考題原句。"
+  pick:
+    - {id: 1, cue: "連環圖片、想像最後一幅、寫出完整結局、事件接下來的發展和結果"}
+    - {id: 2, cue: "寫一封信、在信末署名"}
+    - {id: 3, cue: "描述圖片呈現的現象、人們為什麼這麼做、說明原因與影響"}
+    - {id: 4, cue: "圖 A 和圖 B、對比圖片、兩種不同的情景"}
+    - {id: 5, cue: "你會選哪一個、說明選擇的理由"}
+    - {id: 6, cue: "你的看法、心得或感想、以自身經驗為例"}
+    - {id: 7, cue: "介紹或行銷、提出方法、化解或解決問題"}
+  skeleton:
+    - "**主題句（1 句）**：直接回答這一段的任務，不要只重複題目。"
+    - "**支持句（4–6 句）**：寫 2–3 個重點，每個重點後面接 1 個具體細節或例子（人、時間、地點、經驗）。"
+    - "**結尾句（1 句）**：第一段用小結（This shows that …），第二段用結論呼應主題（In short, …／All in all, …）。"
+    - "**長度**：每段 75–90 個單詞，全文 150–180 個單詞。"
+  skeleton_note: "這個骨架正好對應評分指標：主題句清楚、有具體細節，是「內容」的得分點；有開頭、發展、結尾，加上轉承語，是「組織」的得分點。"
+  history_note: "101 年和連環圖題沒有規定段數，表中是建議的分法；一律寫成兩段最保險（評分原則規定未分段扣總分 1 分）。"
+  history:
+    - {year: 115, topic: 寵物在生活中的角色（三張圖）, p1: [3, 描述圖片中的現象], p2: [3, 用經驗或觀察說明原因與可能的影響]}
+    - {year: 114, topic: 颱風假（兩張對比圖）, p1: [4, 颱風假實際上可能出現的兩種情景], p2: [6, 對放颱風假的看法與經驗]}
+    - {year: 113, topic: 機器人小幫手（三個青少年煩惱選一個）, p1: [5, 最想解決哪一個問題＋原因], p2: [5, 機器人的特質或能力＋如何分工合作]}
+    - {year: 112, topic: 表情符號（四個 emoji）, p1: [3, 人們喜歡用的原因＋舉例說明溝通功能], p2: [7, 用經驗說明造成的誤會＋化解方法]}
+    - {year: 111, topic: 不同的公園（圖 A、圖 B）, p1: [4, 兩座公園各有什麼特色], p2: [4, 心目中理想公園的樣貌＋理由]}
+    - {year: 110, topic: 遊客走進花田拍照（新聞圖片）, p1: [3, 描述圖片中的人、事、物], p2: [6, 以遊客或主人的立場表達看法]}
+    - {year: 109, topic: 賣場週年慶（兩張新聞圖片）, p1: [1, 描述場景與正在發生的事], p2: [1, 事件接下來的發展和結果]}
+    - {year: 108, topic: 臺灣最讓你驕傲的兩件事, p1: [7, 介紹這兩件事＋為什麼驕傲], p2: [7, 介紹或行銷的方法]}
+    - {year: 107, topic: 一窩蜂的排隊現象, p1: [3, 用經驗或報導描述排隊情形], p2: [6, 心得或感想]}
+    - {year: 106, topic: 三幅連環圖＋想像第四幅, p1: [1, 圖 1–2 寫背景與事件開始], p2: [1, 圖 3 和自己想像的圖 4 寫轉折與結局]}
+    - {year: 105, topic: 家事分工, p1: [6, 家事該如何分工的看法＋理由], p2: [6, 家中的分工情形＋自己做家事的經驗與感想]}
+    - {year: 104, topic: 兩本暑假讀物選一本, p1: [5, 選哪一本＋猜想書的內容], p2: [5, 選擇這本書的理由]}
+    - {year: 103, topic: 三幅連環圖＋想像第四幅, p1: [1, 圖 1–2 寫背景與事件開始], p2: [1, 圖 3 和自己想像的圖 4 寫轉折與結局]}
+    - {year: 102, topic: 三幅連環圖＋想像第四幅, p1: [1, 圖 1–2 寫背景與事件開始], p2: [1, 圖 3 和自己想像的圖 4 寫轉折與結局]}
+    - {year: 101, topic: 寫信勸告迷上電玩的朋友, p1: [2, 問候＋說出你的擔心], p2: [2, 具體的建議＋鼓勵]}
+    - {year: 100, topic: 三幅連環圖＋想像第四幅, p1: [1, 圖 1–2 寫背景與事件開始], p2: [1, 圖 3 和自己想像的圖 4 寫轉折與結局]}
+    - {year: 99, topic: 三幅連環圖＋想像第四幅, p1: [1, 圖 1–2 寫背景與事件開始], p2: [1, 圖 3 和自己想像的圖 4 寫轉折與結局]}
+    - {year: 98, topic: 一張圖片的前因後果, p1: [1, 之前發生的事＋現在的狀況], p2: [1, 接下來可能的發展（寫「該怎麼做」就用模板七）]}
+    - {year: 97, topic: 寫信向朋友道歉（借來的珍貴物品弄丟了）, p1: [2, 物品遺失的經過], p2: [2, 道歉＋提出解決方案]}
+    - {year: 96, topic: 女孩與貓（四張圖，可自訂順序）, p1: [1, 前兩張圖寫背景與事件開始], p2: [1, 後兩張圖寫轉折與結局]}
+    - {year: 95, topic: 女子、小狗與大猩猩（連環圖）, p1: [1, 前半寫背景與事件開始], p2: [1, 後半寫轉折與結局]}
+  types:
+    - id: 1
+      name: 看圖說故事
+      when: "連環圖片要你想像最後一幅、寫出完整結局，或題目要你寫事件接下來的發展和結果。"
+      structure:
+        - "全篇用過去式。每張圖至少寫 2 句，所有圖都要寫到，結局要完整、合理。"
+        - "第一段（起＋承）：時間、地點、人物 → 第一張圖在做什麼 → 第二張圖發生了什麼事。"
+        - "第二段（轉＋合）：轉折與主角的反應 → 你想像的結局 → 主角的感受或學到的事。"
+      open:
+        - "One 〔sunny morning〕, 〔人物〕 was 〔V-ing〕 at 〔地點〕.（某個〔晴朗的早晨〕，〔人物〕正在〔地點〕〔做某事〕。）"
+        - "〔人物〕 had been looking forward to 〔N／V-ing〕 for weeks.（〔人物〕期待〔某事〕好幾個星期了。）"
+        - "It was 〔a special day〕 for 〔人物〕 because 〔子句〕.（那天對〔人物〕來說是〔特別的一天〕，因為……）"
+      develop:
+        - "Suddenly／All of a sudden, 〔子句〕.（突然，……）"
+        - "To 〔his／her〕 surprise, 〔子句〕.（令〔他／她〕驚訝的是，……）"
+        - "As soon as 〔人物〕 〔過去式〕, 〔子句〕.（〔人物〕一……就……）"
+        - "〔人物〕 was so 〔nervous／excited〕 that 〔子句〕.（〔人物〕太〔緊張／興奮〕了，以至於……）"
+        - "Without thinking twice, 〔人物〕 decided to 〔V〕.（〔人物〕想都沒想就決定……）"
+        - "Just then, 〔子句〕.（就在那時，……）"
+      close:
+        - "In the end／Finally, 〔子句〕.（最後，……）"
+        - "It turned out that 〔子句〕.（結果原來……）"
+        - "From then on, 〔人物〕 never 〔V〕 again.（從那時起，〔人物〕再也沒有……）"
+        - "〔人物〕 learned a valuable lesson: 〔子句〕.（〔人物〕學到寶貴的一課：……）"
+        - "It was a day 〔人物〕 would never forget.（那是〔人物〕永遠忘不了的一天。）"
+      sample:
+        title: 109 年賣場週年慶
+        prompt: "看兩張賣場週年慶的新聞圖片（圖 1：玻璃門一推開，大批顧客湧進賣場；圖 2：櫃位前擠滿搶購的人），想像其中發生的一個事件。第一段描述兩張圖的場景與正在發生的狀況；第二段敘述事件接下來的發展和結果。"
+        paras:
+          - "**One Saturday morning,** hundreds of shoppers **were waiting** outside a popular department store. It was the first day of its anniversary sale. **As soon as** the glass doors opened, the crowd rushed in, pushing one another. Inside, customers crowded around the counters to grab the best deals before everything was sold out. The salespeople **were so busy that** they could hardly answer all the questions. Among the crowd was Mrs. Lin, an old woman who had waited in line since six o'clock."
+          - "**Suddenly,** Mrs. Lin was pushed and fell to the floor. The crowd kept moving forward, and nobody seemed to notice her. **Just then,** a young salesclerk named Amy saw what had happened. **Without thinking twice,** she shouted for everyone to stop and helped Mrs. Lin to a chair. Luckily, the old woman was not badly hurt. **In the end,** the manager apologized to her and decided to let shoppers in a few at a time. **Everyone learned a valuable lesson:** safety is more important than any discount."
+    - id: 2
+      name: 書信
+      when: "題目要你寫一封信給朋友：勸告、道歉、建議或感謝。"
+      structure:
+        - "稱呼：Dear 〔指定的名字〕,（後面用逗號，自己一行）"
+        - "第一段：問候＋寫信的目的（說出你的擔心，或說明事情經過）。"
+        - "第二段：具體的建議，或道歉＋補救方法 → 祝福或期待回信。"
+        - "結尾：Your friend, 或 Sincerely,（自己一行）＋題目指定的名字（自己一行）。只能用指定的名字，不可寫自己的中文或英文名字。"
+      open:
+        - "How have you been? I'm writing because 〔子句〕.（最近好嗎？我寫信是因為……）"
+        - "I heard from 〔人〕 that you 〔子句〕, and I'm worried about you.（我聽〔人〕說你……，我很擔心你。）"
+        - "I'm writing to tell you how sorry I am about 〔N／V-ing〕.（我寫信是想告訴你，我對……有多抱歉。）"
+      develop:
+        - "勸告：If I were you, I would 〔V〕.（如果我是你，我會……）"
+        - "勸告：Why not 〔V〕?（何不……？）／It might be a good idea to 〔V〕.（……也許是個好主意。）"
+        - "說明經過：Last 〔weekend〕, I 〔過去式〕. When I realized that 〔子句〕, I 〔過去式〕.（上〔週末〕我……。當我發現……時，我……）"
+        - "道歉：I feel terrible about 〔N／V-ing〕. Please accept my sincere apology.（我對……感到很過意不去，請接受我誠心的道歉。）"
+        - "補救：To make up for it, I will 〔V〕.（為了彌補，我會……）"
+      close:
+        - "I hope you will 〔forgive me／think about my advice〕.（希望你會〔原諒我／考慮我的建議〕。）"
+        - "Please let me know if there is anything I can do.（如果有我能幫忙的地方，請告訴我。）"
+        - "Take care, and I hope to hear from you soon.（保重，希望很快收到你的回信。）"
+      sample:
+        title: 101 年勸告迷上電玩的朋友
+        prompt: "你最好的朋友最近迷上電玩，常常熬夜、疏忽課業，並受到父母的責罵。寫一封信給他（Ken），適當地給予勸告；信末用 Jill 署名。"
+        paras:
+          - "Dear Ken,"
+          - "**How have you been? I heard from** our classmates **that you** have been playing video games until midnight almost every day, **and I'm worried about you.** You often fall asleep in class, and your grades have dropped a lot. I also know that your parents scolded you last week. I understand that games are exciting and help you relax after school. However, staying up late is hurting your health, your schoolwork, and your relationship with your family."
+          - "**If I were you, I would** set a time limit, such as one hour a day, and play only after finishing my homework. **It might also be a good idea to** leave your phone outside your bedroom at night so that you can get enough sleep. **Why not** join the basketball team with me? Playing sports is just as much fun, and it keeps you fit, too. **I hope you will think about my advice.** I believe you can find a balance between fun and study. **Take care, and I hope to hear from you soon.**"
+          - "Your friend,"
+          - "Jill"
+    - id: 3
+      name: 現象與原因影響
+      when: "題目要你描述圖片或生活中的現象，再說明原因、影響，或人們為什麼這麼做。"
+      structure:
+        - "第一段（描述現象）：主題句點出現象 → 每張圖 1–2 句（誰、在哪裡、在做什麼）→ 小結：這表示什麼。"
+        - "第二段（原因＋影響）：原因 2 個（First／Second），其中一個配上你的經驗或觀察 → 影響：好的一面＋壞的一面 → 結論。"
+        - "描述圖片用現在式或現在進行式。"
+      open:
+        - "Nowadays, it is common to see 〔人〕 〔V〕.（現在常常可以看到〔人〕……）"
+        - "As shown in the pictures, more and more people 〔V〕.（如圖所示，越來越多人……）"
+        - "In the first picture, 〔人〕 〔現在進行式〕. In the second picture, 〔子句〕.（第一張圖中……；第二張圖中……）"
+      develop:
+        - "There are several reasons for this trend. First, 〔子句〕. Second, 〔子句〕.（這個趨勢有幾個原因。第一……；第二……）"
+        - "One reason is that 〔子句〕. Another reason is that 〔子句〕.（一個原因是……；另一個原因是……）"
+        - "My 〔neighbor〕 is a good example.（我的〔鄰居〕就是一個好例子。）／Take 〔N〕 for example.（以……為例。）"
+        - "This trend may bring both benefits and problems.（這個趨勢可能帶來好處，也可能帶來問題。）"
+        - "On the positive side, 〔子句〕. On the negative side, 〔子句〕.（好的一面是……；壞的一面是……）"
+        - "As a result, 〔子句〕.（因此，……）"
+      close:
+        - "This shows that 〔子句〕.（這顯示……）：第一段的小結"
+        - "In short, 〔N〕 has changed the way we 〔V〕.（總之，〔N〕改變了我們〔做某事〕的方式。）"
+        - "All in all, 〔子句〕, but we should also 〔V〕.（總而言之，……，但我們也應該……）"
+      sample:
+        title: 115 年寵物在生活中的角色
+        prompt: "看三張圖（圖 1：公園裡有人用推車推著狗、把狗扛在肩上，旁邊一位爸爸拉著坐在拖車裡的兩個孩子；圖 2：一對夫妻在家餵嬰兒喝奶、陪兒子寫功課；圖 3：一對夫妻在家陪兩隻狗，太太用湯匙餵狗，另一隻狗穿著衣服）。第一段描述圖片中的現象；第二段根據自身的經驗或觀察，說明此現象的原因以及可能的影響。"
+        paras:
+          - "**Nowadays, it is common to see** pet owners treat their pets like children. **In the first picture,** a woman is pushing two dogs in a stroller, and two people are carrying dogs on their shoulders, just as parents carry babies. **In the second picture,** a couple is taking care of their baby and son at home. **In the third picture,** another couple is feeding their two dogs, and one dog is even wearing clothes. **This shows that** pets have become family members, and for some couples, they have even replaced children."
+          - "**There are several reasons for this trend. First,** many people live alone, and pets keep them company. **Second,** raising a child is expensive, so some couples choose pets instead. **My aunt is a good example.** She has no children and treats her dog like a son. **On the positive side,** pets make people less stressed. **On the negative side,** if more couples choose pets over babies, Taiwan's birth rate may drop even further. **All in all,** pets are wonderful companions, **but we should also** think about how this change affects our society."
+    - id: 4
+      name: 比較兩者
+      when: "題目給兩張對比的圖片或兩種情況，要你描述各自的特色或差別，再寫你的理想或看法。"
+      structure:
+        - "第一段（比較）：主題句說出兩者的主題 → A 的特色 2–3 句 → 用 By contrast 轉到 B 的特色 2–3 句 → 小結。"
+        - "第二段（理想或看法）：你的理想或選擇 → 理由 2 個，各配一個例子或經驗 → 結論。"
+        - "A、B 兩邊的份量要差不多，比較的項目也要對應（例如都寫設施、氣氛、適合誰）。"
+      open:
+        - "The two pictures show two different 〔kinds of N〕.（這兩張圖呈現兩種不同的……）"
+        - "In Picture A, 〔子句〕. By contrast, in Picture B, 〔子句〕.（圖 A 中……；相較之下，圖 B 中……）"
+        - "When 〔子句〕, two very different scenes may appear.（當……的時候，可能出現兩種很不一樣的情景。）"
+      develop:
+        - "While A 〔V〕, B 〔V〕.（A……，而 B……）"
+        - "Compared with A, B is much more 〔adj〕.（和 A 比起來，B 更……）"
+        - "A is 〔adj〕, whereas B is 〔adj〕.（A 是……，而 B 是……）"
+        - "Unlike A, B 〔V〕.（和 A 不同，B……）／Both A and B 〔V〕, but 〔子句〕.（A 和 B 都……，但……）"
+        - "My ideal 〔N〕 would be a place where 〔子句〕.（我理想中的〔N〕會是一個可以……的地方。）"
+        - "As for me, I prefer 〔N〕 because 〔子句〕.（至於我，我比較喜歡……，因為……）"
+      close:
+        - "Each 〔N〕 has its own charm.（各有各的魅力。）：第一段的小結"
+        - "That is why 〔子句〕.（這就是為什麼……）"
+        - "If 〔子句〕, I believe 〔子句〕.（如果……，我相信……）"
+      sample:
+        title: 111 年不同的公園
+        prompt: "看兩張圖（圖 A：有溜滑梯、攀爬架等遊樂設施的公園；圖 B：有高大樹木、草地和花圃的公園）。第一段描述圖 A 和圖 B 中的公園各有何特色；第二段說明你心目中理想公園的樣貌與特色，並解釋你的理由。"
+        paras:
+          - "**The two pictures show two different kinds of parks. In Picture A,** the park is full of playground equipment, such as slides and climbing frames. It is a perfect place for children to run, climb, and play with their friends. **By contrast, in Picture B,** there are tall trees, a wide lawn, and flower beds. Sunlight shines through the leaves, so the park looks quiet and peaceful. People can take a walk, have a picnic, or simply relax in the shade. **Each park has its own charm.**"
+          - "**As for me, my ideal park would be a place where** both kids and adults can enjoy themselves. It would have a small playground like Park A and plenty of trees like Park B. **First,** such a park is good for the whole family. When I was little, my grandparents often took me to a park. While I played on the slides, they took a walk under the trees. **Second,** green spaces help people relax after a busy day. **That is why** I believe a park with both fun and nature is the best gift for a city."
+    - id: 5
+      name: 選擇與理由
+      when: "題目給兩、三個選項，要你選一個並說明原因，再寫具體的內容、計畫或想像。"
+      structure:
+        - "第一段（選擇＋原因）：主題句直接說選哪一個 → 原因 2 個（The main reason／Besides），每個原因配一個例子或經驗 → 小結。"
+        - "第二段（想像或計畫）：希望它是什麼樣子 → 具體做法或分工（First／Then／Finally）→ 預期的結果。"
+        - "寫想像的內容用 would、could。"
+      open:
+        - "If I could 〔V〕, I would choose 〔N〕.（如果我可以……，我會選……）"
+        - "Of the 〔three N〕, I would most like to 〔V〕.（在這〔三個……〕之中，我最想……）"
+        - "I would pick 〔N〕 without hesitation.（我會毫不猶豫地選……）"
+      develop:
+        - "The main reason is that 〔子句〕.（主要的原因是……）"
+        - "Besides, 〔子句〕.（此外，……）"
+        - "For instance, 〔子句〕.（例如，……）"
+        - "I would like 〔it〕 to be 〔adj〕 and 〔adj〕.（我希望它……）"
+        - "〔It〕 could 〔V〕, while I 〔V〕.（它可以……，而我……）"
+        - "First, 〔子句〕. Then, 〔子句〕. Finally, 〔子句〕.（先……，接著……，最後……）"
+      close:
+        - "That is why 〔N〕 would be my first choice.（這就是為什麼……會是我的第一選擇。）"
+        - "With 〔its〕 help, I believe I could 〔V〕.（有了它的幫忙，我相信我可以……）"
+      sample:
+        title: 113 年機器人小幫手
+        prompt: "三張圖分別是青少年常遇到的三種問題：初次失戀（First Heartbreak）、在意別人的眼光（Caring What Others Think）、情緒起伏（Mood Swings）。第一段說明你最想讓機器人小幫手解決哪一個問題，並解釋原因；第二段說明你希望它具備什麼特質或能力、可以如何和你分工合作來解決此問題。"
+        paras:
+          - "**Of the three problems, I would most like** my robot helper to solve the problem of caring too much about what others think. **The main reason is that** this problem bothers me almost every day. **For instance,** before I post a photo online, I often spend an hour worrying about how many likes it will get. In class, I seldom ask questions because I am afraid of being laughed at. **Besides,** this habit stops me from being myself. **That is why** solving this problem **would be my first choice.**"
+          - "**I would like** my robot helper **to be** patient, honest, and good at listening. **First,** whenever I feel nervous about other people's opinions, it would listen to me and remind me of my strengths. **Then,** it could help me set small goals, such as asking one question in class every week. **It could** give me advice and encouragement, **while I** would be the one to take action. **With its help, I believe I could** care less about what others think and become more confident."
+    - id: 6
+      name: 看法與經驗
+      when: "題目要你說明看法、表達心得或感想，並用自己或親友的經驗舉例。"
+      structure:
+        - "看法段：主題句表明立場 → 理由 2 個（For one thing／For another），各配一句說明 → 小結。"
+        - "經驗段：時間、地點、發生了什麼事（用過去式）→ 你當時怎麼做、有什麼感受 → 你從中學到什麼，呼應你的立場。"
+        - "經驗要寫一件具體的事，不要只寫「我常常……」。"
+      open:
+        - "In my opinion, 〔子句〕.（我認為……）"
+        - "As far as I am concerned, 〔子句〕.（就我而言，……）"
+        - "When it comes to 〔N／V-ing〕, I strongly believe that 〔子句〕.（說到……，我深信……）"
+      develop:
+        - "For one thing, 〔子句〕. For another, 〔子句〕.（一方面……；另一方面……）"
+        - "Although some people think 〔子句〕, I believe 〔子句〕.（雖然有些人認為……，我相信……）"
+        - "I still remember the time when 〔子句〕.（我還記得那次……）"
+        - "Last 〔summer〕, I 〔過去式〕.（去年〔夏天〕，我……）"
+        - "At first, I felt 〔adj〕, but later 〔子句〕.（一開始我覺得……，但後來……）"
+      close:
+        - "This experience made me realize that 〔子句〕.（這次經驗讓我了解……）"
+        - "From this experience, I learned that 〔子句〕.（從這次經驗，我學到……）"
+        - "Therefore, I think 〔子句〕.（因此，我認為……）"
+      sample:
+        title: 105 年家事分工
+        prompt: "你認為家裡生活環境的維持應該是誰的責任？第一段說明你對家事該如何分工的看法及理由；第二段舉例說明你家中家事分工的情形，並描述你自己做家事的經驗及感想。"
+        paras:
+          - "**In my opinion,** keeping a home clean should be the job of every family member, not just the mother. **For one thing,** everyone lives in the house and makes it messy, so everyone should help clean it. **For another,** sharing the housework is fair to parents, who already work hard all day. **Although some people think** students should focus only on their studies, **I believe** simple chores, such as washing the dishes, take only a few minutes a day. **Therefore, I think** everyone should do his or her part."
+          - "In my family, my father does the laundry, my mother cooks, and my sister and I clean the bathroom. **I still remember the time when** I cleaned the bathroom for the first time. **At first, I felt** disgusted, **but later** I got used to it. When my mother saw the shining floor, she smiled and thanked me. **This experience made me realize that** a clean home needs everyone's effort. Since then, I have never complained about doing chores, because helping out at home is a way of showing love to my family."
+    - id: 7
+      name: 介紹與提出做法
+      when: "題目要你介紹某些人事物並提出推廣方式，或說明一個問題再提出解決方法。"
+      structure:
+        - "第一段（介紹或問題）：主題句 → 第一項：是什麼＋為什麼重要，配一個例子 → 第二項：同上 → 小結。"
+        - "第二段（做法）：主題句（There are several ways to …）→ 方法 2–3 個（First／Second／Finally），每個方法寫清楚誰來做、怎麼做 → 預期效果（In this way, …）。"
+        - "方法要具體可行，寫出「做什麼」，不要只寫「我們應該更努力」。"
+      open:
+        - "There are two things about 〔N〕 that make me proud: 〔A〕 and 〔B〕.（〔N〕有兩件事讓我驕傲：A 和 B。）"
+        - "One problem that 〔N〕 may cause is 〔N〕.（〔N〕可能造成的一個問題是……）"
+        - "There are several ways to 〔V〕.（有幾個方法可以……）"
+      develop:
+        - "〔A〕 is famous for 〔N〕.（〔A〕以……聞名。）"
+        - "What makes 〔A〕 special is 〔N〕.（〔A〕特別的地方是……）"
+        - "First, we could 〔V〕. Second, 〔子句〕. Finally, 〔子句〕.（首先，我們可以……；第二，……；最後，……）"
+        - "To avoid 〔N／V-ing〕, we should 〔V〕.（為了避免……，我們應該……）"
+        - "It would be helpful if 〔子句〕.（如果……，會很有幫助。）"
+        - "By 〔V-ing〕, we can 〔V〕.（藉由……，我們可以……）"
+      close:
+        - "In this way, 〔子句〕.（如此一來，……）"
+        - "If we 〔V〕, I am sure 〔子句〕.（如果我們……，我相信……）"
+        - "With these efforts, 〔N〕 will 〔V〕.（有了這些努力，〔N〕將會……）"
+      sample:
+        title: 108 年臺灣最讓你驕傲的事
+        prompt: "談臺灣最讓你引以為榮的兩個面向或事物（例如人、事、物、文化、制度）。第一段描述這兩個面向或事物，並說明它們為何讓你引以為榮；第二段說明可以用什麼方式介紹或行銷這些臺灣特色，讓世人更了解臺灣。"
+        paras:
+          - "**There are two things about Taiwan that make me proud:** its friendly people and its night markets. **First,** Taiwanese people are warm and helpful. When foreign visitors get lost, people on the street often stop to give directions, and some even walk them to the right place. **Second, Taiwan is famous for** its night markets. **What makes them special is** the wide variety of cheap and delicious snacks, such as bubble tea, stinky tofu, and oyster omelets. Visiting a night market is a great way to experience our local culture."
+          - "**There are several ways to** introduce these features to the world. **First, we could** make short videos about friendly Taiwanese people and night market food and share them on social media. **Second,** the government could hold Taiwanese food festivals abroad, so that people in other countries can taste our snacks. **Finally,** we students can be good hosts by greeting tourists with a smile and recommending our favorite food stalls. **In this way,** more people will get to know Taiwan, and they may even want to visit our beautiful island someday."
+  combo:
+    title: 兩段任務不同時：各套一個模板
+    text:
+      - "近年的題目常常兩段要做不同的事。例如 114 年颱風假：第一段描述兩種情景（模板四），第二段寫看法與經驗（模板六）；112 年表情符號：第一段寫人們喜歡用的原因（模板三），第二段寫誤會與化解方法（模板七）。每一段各套對應的模板，再用轉承語把兩段接起來。"
+    sample:
+      title: 114 年颱風假，模板四＋模板六
+      prompt: "看兩張對比圖片（圖 1：颱風假當天，室內擠滿排隊的人潮；圖 2：風雨很大，仍有人騎機車在路上）。第一段描述颱風假時實際上可能出現的兩種不同情景；第二段說明你對放颱風假的看法與經驗。"
+      paras:
+        - "**When a typhoon day off is announced, two very different scenes may appear. In the first picture,** the weather turns out to be fine, so crowds of people go out to have fun. They are standing in long lines at a shopping mall or a movie theater. **By contrast, in the second picture,** the typhoon is really strong. Heavy rain is pouring down, but some people are still riding scooters in the storm, perhaps because they have to go to work. **This shows that** a typhoon day off does not mean the same thing to everyone."
+        - "**In my opinion,** typhoon days off are necessary, but people should use them wisely. **For one thing,** no one can predict the weather perfectly, so it is better to be safe than sorry. **For another,** a day off is meant to keep people safe at home, not to send them to crowded malls. **I still remember the time when** a strong typhoon hit my city. My family stayed home and played board games. The next morning, we saw fallen trees everywhere. **This experience made me realize that** a typhoon day off is a gift of safety."
+  transitions:
+    - [列舉, "First, … Second, … Finally, …／To begin with, … Besides, …"]
+    - [舉例, "For example, …／For instance, …／Take … for example."]
+    - [補充, "In addition, …／Moreover, …／What's more, …"]
+    - [對比, "However, …／By contrast, …／On the other hand, …／While …, …"]
+    - [因果, "Because of …, …／As a result, …／Therefore, …／That is why …"]
+    - [時間, "At first, …／Then, …／Later, …／In the end, …"]
+    - [讓步, "Although …, …／Even so, …"]
+    - [結論, "In short, …／All in all, …／In conclusion, …"]
