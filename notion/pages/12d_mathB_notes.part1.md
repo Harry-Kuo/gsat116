@@ -1,138 +1,245 @@
 <callout icon="🧭">
-	依單元整理必背公式、解題流程和容易錯的地方。標「考卷附」的公式，考卷最後會附上，但還是要熟到不用查。
-	向量、機率統計、排列組合另外整理了「🧩 經典題型與解題技巧」：先從題目的關鍵字認出題型，再照做法解題，每一型都附例題、解答和考過的題目。
+	向量、機率統計、排列組合的題目整理成下方的「🧩 經典題型與解題技巧」：先從題目的關鍵字認出題型，再照做法解題，每一型都附例題、解答和考過的題目。
+	後面依單元整理必背公式、解題流程和容易錯的地方。標「考卷附」的公式，考卷最後會附上，但還是要熟到不用查。
 	每個觀念最後列出前兩週每日練習中全國答對率最低的題目，點進去可以看題目、答案與解析。
 </callout>
-## 數與函數
+## 🧩 經典題型與解題技巧
+看到題目先找關鍵字，認出是下面哪一型，再照那一型的做法解；點開題型名稱可以看做法、例題、解答和考過的題目。
+### 平面向量
 <details>
-<summary>**數與式、指數對數**</summary>
-	<callout icon="💡">
-		絕對值是「距離」；指數、對數先化成同底再比較；$`\ln`$ 與 $`e`$ 用在連續複利，$`\log`$ 值範圍要會估。
-	</callout>
-	**📌 必背**
-	- 指數律（$`a>0`$）：$`a^m\cdot a^n=a^{m+n}`$、$`(a^m)^n=a^{mn}`$、$`a^0=1`$、$`a^{-n}=\dfrac{1}{a^n}`$、$`a^{m/n}=\sqrt[n]{a^m}`$。
-	- 對數：$`\log_a b=x`$ ⇔ $`a^x=b`$；$`\log(MN)=\log M+\log N`$、$`\log\left(\dfrac{M}{N}\right)=\log M-\log N`$、$`\log(M^k)=k\cdot\log M`$。
-	- 自然對數 $`\ln x=\log_e x`$（$`e\approx2.718`$），運算規則和 $`\log`$ 相同；$`\ln\left(\dfrac{a}{b}\right)=\ln a-\ln b`$。
-	- 換底：$`\log_a b=\dfrac{\log b}{\log a}`$。
-	- 位數：正數 N 的整數部分是 k 位數 ⇔ $`k-1\le\log N<k`$。
-	- 絕對值：$`|x-a|`$ 是數線上 x 到 a 的距離；$`|x-a|\le r`$ ⇔ $`a-r\le x\le a+r`$。
-	- 乘法公式：$`(a\pm b)^3=a^3\pm3a^2b+3ab^2\pm b^3`$；$`a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2)`$。
-	- 分母有理化：$`\dfrac{1}{\sqrt{a}+\sqrt{b}}=\dfrac{\sqrt{a}-\sqrt{b}}{a-b}`$（分子、分母同乘 $`\sqrt{a}-\sqrt{b}`$）。
-	- 算幾不等式：$`a\ge0`$、$`b\ge0`$ 時 $`\dfrac{a+b}{2}\ge\sqrt{ab}`$，等號在 $`a=b`$ 時成立；兩數的和固定時，相等時乘積最大；乘積固定時，相等時和最小。
-	- 科學記號：正數都能寫成 $`a\times10^n`$（$`1\le a<10`$，n 是整數），$`\log(a\times10^n)=n+\log a`$；n 決定位數，$`\log a`$（介於 0 和 1 之間）決定首位數字。
-	- 指數函數 $`y=a^x`$ 的圖形都在 x 軸上方、通過 $`(0,1)`$；對數函數 $`y=\log_a x`$ 的圖形都在 y 軸右側、通過 $`(1,0)`$；兩者對稱於直線 $`y=x`$。$`a>1`$ 時兩者都遞增，$`0<a<1`$ 時都遞減。
-	- 複利：本金 P、年利率 r，一年複利 n 次，t 年後本利和 $`P\left(1+\dfrac{r}{n}\right)^{nt}`$；連續複利（n 趨近無限大）是 $`Pe^{rt}`$。
-	- 平均成長率：各期成長率是 $`r_1`$、$`r_2`$、…、$`r_n`$ 時，平均成長率 $`=\sqrt[n]{(1+r_1)(1+r_2)\cdots(1+r_n)}-1`$（幾何平均，不是算術平均）。
-	- 對數尺度：pH 差 1，$`[\mathrm{H^+}]`$ 差 10 倍；分貝差 10，聲音強度差 10 倍；芮氏地震規模差 1，振幅差 10 倍、能量約差 32 倍。題目給公式時，把兩個式子相減最快。
-	**🧭 解題流程**
-	1. 成長或衰退模型：每期變成原來的 $`(1+r)`$ 倍，n 期後是 $`A_0\cdot(1+r)^n`$；求期數就兩邊取對數。
-	2. 比較大小：化成同底；底數 $`>1`$ 時遞增，$`0<\text{底數}<1`$ 時遞減。
-	3. 估算：用考卷附的對數值，$`\log5=1-\log2`$。
-	**⚠️ 容易錯的地方**
-	- 每期成長 4%，n 期後是乘 $`(1.04)^n`$，不是乘 $`(1+0.04n)`$。
-	- $`\ln\left(\dfrac{135}{100}\right)=\ln135-\ln100`$，不是 $`\ln(135-100)`$：對數把除法變成減法。
-	- 對數的真數一定要大於 0。
-	- 算幾不等式要兩數都不是負的，而且等號要能成立，最大值或最小值才取得到。
-	**📝 代表題**（前兩週做過、全國答對率最低的題目）
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81c0bacff062d239b83b"/>　全國答對率 31%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81188ea8e4660944b6f3"/>　全國答對率 39%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8197a24def50f8556556"/>　全國答對率 45%
+<summary>① 線性組合：解出係數，看點在哪裡</summary>
+	**🔍 看到**：$`\overrightarrow{OP}=\alpha\overrightarrow{OA}+\beta\overrightarrow{OB}`$；「P 在三角形內部」「P 在平行四邊形內」「哪些 A、B 是可能的」。
+	**🛠️ 做法**
+	1. 寫成坐標，列出 $`\alpha`$、$`\beta`$ 的聯立方程式解出來。
+	2. P 在直線 AB 上 ⇔ $`\alpha+\beta=1`$。
+	3. P 在 $`\triangle OAB`$ 內部或邊上 ⇔ $`\alpha\ge0`$、$`\beta\ge0`$、$`\alpha+\beta\le1`$；在 OA、OB 所張的平行四邊形內 ⇔ $`0\le\alpha\le1`$、$`0\le\beta\le1`$。
+	**✏️ 例題**：$`\overrightarrow{OP}=\dfrac{1}{3}\overrightarrow{OA}+\dfrac{1}{2}\overrightarrow{OB}`$，P 在 $`\triangle OAB`$ 的內部嗎？
+	**💡 解答**：兩個係數都是正的，而且 $`\dfrac{1}{3}+\dfrac{1}{2}=\dfrac{5}{6}<1`$，所以 P 在 $`\triangle OAB`$ 的內部。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81b5af68dc319cdcafd8"/>　全國答對率 52%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f814dbe53d46b161566f1"/>　全國答對率 76%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81d0a6a3e74016569986"/>　全國答對率 19%
 </details>
 <details>
-<summary>**多項式與函數圖形**</summary>
-	<callout icon="💡">
-		二次函數配方找頂點；三次函數看對稱中心；多項式用「代特殊值」與除法原理最快。
-	</callout>
-	**📌 必背**
-	- 除法原理：$`f(x)=g(x)\cdot q(x)+r(x)`$，餘式的次數比除式低；餘式定理：$`f(x)`$ 除以 $`x-a`$ 的餘式是 $`f(a)`$。
-	- 二次函數配方：$`y=a(x-h)^2+k`$，頂點 $`(h,k)`$；$`a>0`$ 開口向上。
-	- $`ax^2+bx+c=0`$：判別式 $`b^2-4ac`$ 決定實根個數；兩根和 $`=-\dfrac{b}{a}`$、兩根積 $`=\dfrac{c}{a}`$。
-	- 三次函數 $`y=ax^3+bx^2+cx+d`$ 的圖形對稱於點 $`\left(-\dfrac{b}{3a},f\left(-\dfrac{b}{3a}\right)\right)`$。
-	- 三次函數的局部近似：用綜合除法連續除以 $`x-h`$，把 $`f(x)`$ 寫成 $`a(x-h)^3+b(x-h)^2+c(x-h)+d`$，圖形在 $`x=h`$ 附近近似直線 $`y=c(x-h)+d`$。
-	- 每個三次函數都是 $`y=ax^3+px`$ 的圖形平移而來（把對稱中心移到原點）；x 很大或很小時，圖形的走勢由最高次項決定。
-	- 數線上的分點：A、B 的坐標是 a、b，P 在 $`\overline{AB}`$ 上且 $`\overline{AP}:\overline{PB}=m:n`$，則 P 的坐標 $`=\dfrac{na+mb}{m+n}`$；內插法就是用分點公式估計兩個已知數值之間的值。
-	**🧭 解題流程**
-	1. 求函數值或係數：代特殊值（$`x=0`$、1、$`-1`$）最快。
-	2. 解多項式不等式：因式分解 → 在數線上標出根 → 由最高次項係數決定最右邊的正負，往左依次變號。
-	3. 兩個圖形的交點：兩個函數相減，交點的 x 坐標就是相減後方程式的實根。
-	**⚠️ 容易錯的地方**
-	- 偶次重根的兩側正負號相同，不會變號。
-	- 限定範圍內的最大值、最小值，要比較頂點和兩個端點。
-	**📝 代表題**（前兩週做過、全國答對率最低的題目）
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f816c91cccb2cd09bd14f"/>　全國答對率 22%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f812ca482d61f1a52e171"/>　全國答對率 29%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81e085fbfca5ff068baf"/>　全國答對率 35%
+<summary>② 分點與交點：同一點用兩種方法表示</summary>
+	**🔍 看到**：「$`AP:PB=m:n`$」「兩條線段的交點」「角平分線」「重心」「D 在直線 AB 上」。
+	**🛠️ 做法**
+	1. 分點：$`AP:PB=m:n`$ ⇒ $`\overrightarrow{OP}=\dfrac{n\overrightarrow{OA}+m\overrightarrow{OB}}{m+n}`$，離哪個點近，那個點的係數就大。
+	2. 交點：設交點在第一條線上的比例是 s、在第二條線上的比例是 t，兩種寫法的係數對應相等，解出 s、t。
+	3. 角平分線把對邊分成兩鄰邊的比；「D 在直線 AB 上」可能是內分點，也可能是外分點，兩種都要考慮。
+	**✏️ 例題**：$`\triangle ABC`$ 中，D 在 $`\overline{BC}`$ 上，$`BD:DC=1:2`$。用 $`\overrightarrow{AB}`$、$`\overrightarrow{AC}`$ 表示 $`\overrightarrow{AD}`$。
+	**💡 解答**：$`\overrightarrow{AD}=\dfrac{2\overrightarrow{AB}+\overrightarrow{AC}}{3}=\dfrac{2}{3}\overrightarrow{AB}+\dfrac{1}{3}\overrightarrow{AC}`$（D 離 B 比較近，所以 $`\overrightarrow{AB}`$ 的係數比較大）。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81ac8a75e3e4e7e41945"/>　全國答對率 38%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81d497d6dac9441513c2"/>　全國答對率 36%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81068a04c9917745a881"/>　全國答對率 25%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81719a26ec44a6d3a1fb"/>　全國答對率 28%
 </details>
 <details>
-<summary>**三角函數與三角測量**</summary>
-	<callout icon="💡">
-		$`y=a\sin(bx+c)+d`$ 看振幅、週期與平移；解三角形用正弦、餘弦定理。
-	</callout>
-	**📌 必背**
-	- 特殊角：$`\sin30^{\circ}=\dfrac{1}{2}`$、$`\sin45^{\circ}=\dfrac{\sqrt{2}}{2}`$、$`\sin60^{\circ}=\dfrac{\sqrt{3}}{2}`$；$`\sin^2\theta+\cos^2\theta=1`$。
-	- 弧度：$`\pi=180^{\circ}`$；扇形弧長 $`s=r\theta`$、面積 $`=\dfrac{1}{2}r^2\theta`$。
-	- 正弦定理 $`\dfrac{a}{\sin A}=2R`$、餘弦定理 $`c^2=a^2+b^2-2ab\cos C`$（考卷附）；三角形面積 $`=\dfrac{1}{2}ab\sin C`$。
-	- $`y=a \sin(bx+c)+d`$：振幅 $`|a|`$、週期 $`\dfrac{2\pi}{|b|}`$、上下平移 d。
-	- 仰角、俯角：視線和水平線的夾角；方位角：從正北順時針量到目標方向的角。
-	- 廣義角的三角比：終邊在第一象限時三者都是正的；第二象限只有 $`\sin`$ 是正的；第三象限只有 $`\tan`$ 是正的；第四象限只有 $`\cos`$ 是正的。
-	- 極坐標 $`[r,\theta]`$：到原點的距離是 r，從 x 軸正向逆時針轉 $`\theta`$；換成直角坐標是 $`(r\cos\theta,r\sin\theta)`$，反過來 $`r=\sqrt{x^2+y^2}`$。
-	- 週期現象：頻率是週期的倒數，$`y=a\sin(bx+c)+d`$ 的頻率 $`=\dfrac{|b|}{2\pi}`$（每單位時間完成幾次循環）。
-	**🧭 解題流程**
-	1. 測量題：先畫圖，把已知的長度和角度標在三角形上，再選正弦或餘弦定理。
-	2. 週期現象（潮汐、日照、摩天輪）：由最高、最低點求振幅和中線，由一個完整週期的時間求 b。
-	**⚠️ 容易錯的地方**
-	- 已知兩邊和其中一邊的對角時，可能有兩個三角形。
-	- 週期是 $`\dfrac{2\pi}{|b|}`$；f 在一段時間內都是正的、兩端是 0，這段時間是半個週期。
-	**📝 代表題**（前兩週做過、全國答對率最低的題目）
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81bebf5ac997601bf0a7"/>　全國答對率 29%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81a8b83af5a5686c84e1"/>　全國答對率 32%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81d89011dfb6651e3315"/>　全國答對率 37%
+<summary>③ 面積比：看線性組合的係數</summary>
+	**🔍 看到**：$`\overrightarrow{AP}=a\overrightarrow{AB}+b\overrightarrow{AC}`$，問 $`\triangle ABP`$、$`\triangle ACP`$、$`\triangle BCP`$ 的面積或面積比。
+	**🛠️ 做法**
+	1. P 在 $`\triangle ABC`$ 內部時：$`\triangle ABP=b\cdot\triangle ABC`$、$`\triangle ACP=a\cdot\triangle ABC`$、$`\triangle BCP=(1-a-b)\cdot\triangle ABC`$。
+	2. 記法：$`\triangle ABP`$ 和 $`\triangle ABC`$ 同底 AB，面積比＝高的比＝P、C 到直線 AB 的距離比，就是 $`\overrightarrow{AC}`$ 的係數 b。
+	**✏️ 例題**：$`\overrightarrow{AP}=\dfrac{1}{4}\overrightarrow{AB}+\dfrac{1}{2}\overrightarrow{AC}`$，求 $`\triangle ABP:\triangle ACP:\triangle BCP`$。
+	**💡 解答**：$`\dfrac{1}{2}:\dfrac{1}{4}:\left(1-\dfrac{1}{4}-\dfrac{1}{2}\right)=\dfrac{1}{2}:\dfrac{1}{4}:\dfrac{1}{4}=2:1:1`$。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81d0a6a3e74016569986"/>　全國答對率 19%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81d497d6dac9441513c2"/>　全國答對率 36%
 </details>
 <details>
-<summary>**數列、遞迴與規律**</summary>
-	<callout icon="💡">
-		等差看公差、等比看公比；遞迴式找「平移後成等比」的形式；週期規律用最小公倍數。
-	</callout>
-	**📌 必背**
-	- 等差數列 $`a_n=a_1+(n-1)d`$、$`S_n=\dfrac{n(a_1+a_n)}{2}`$；等比數列 $`a_n=a_1\cdot r^{n-1}`$、$`S_n=\dfrac{a_1(1-r^n)}{1-r}`$（考卷附）。
-	- $`1+2+\ldots+n=\dfrac{n(n+1)}{2}`$；$`1^2+2^2+\ldots+n^2=\dfrac{n(n+1)(2n+1)}{6}`$。
-	- $`\sum`$ 的性質：$`\sum_{k=1}^{n}(a_k+b_k)=\sum_{k=1}^{n}a_k+\sum_{k=1}^{n}b_k`$；$`\sum_{k=1}^{n}c\cdot a_k=c\sum_{k=1}^{n}a_k`$；$`\sum_{k=1}^{n}c=nc`$。
-	- 數學歸納法：先驗證 $`n=1`$ 成立，再證明「$`n=k`$ 成立 ⇒ $`n=k+1`$ 也成立」，就能推得所有正整數 n 都成立。
-	**🧭 解題流程**
-	1. 遞迴式 $`a_{n+1}=p\cdot a_n+q`$（$`p\ne1`$）：解 $`c=pc+q`$ 得到 c，則 $`a_n-c`$ 是公比 p 的等比數列，會趨近 c（$`|p|<1`$ 時）。
-	2. 週期規律：兩個週期 p、q 同時回到起點，要經過 p、q 的最小公倍數。
-	3. 找規律：列出前幾項，看差或比。
-	**⚠️ 容易錯的地方**
-	- 第 1 項是 $`a_1`$ 還是 $`a_0`$ 要看清楚，項數會差一個。
-	- 公比 $`r=1`$ 時不能用等比級數公式。
-	**📝 代表題**（前兩週做過、全國答對率最低的題目）
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81b394b0ee51f8e8e52b"/>　全國答對率 11%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81ffa945d6b2051d54f2"/>　全國答對率 27%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81088b94e1f659c05487"/>　全國答對率 29%
+<summary>④ 內積的三種算法</summary>
+	**🔍 看到**：求 $`\overrightarrow{a}\cdot\overrightarrow{b}`$ 或夾角；「圓上兩點」「已知三邊長」。
+	**🛠️ 做法**
+	1. 有坐標：$`\overrightarrow{a}\cdot\overrightarrow{b}=a_1b_1+a_2b_2`$。
+	2. 有長度和夾角：$`\overrightarrow{a}\cdot\overrightarrow{b}=|\overrightarrow{a}||\overrightarrow{b}|\cos\theta`$。
+	3. 只有三邊長：$`\overrightarrow{OA}\cdot\overrightarrow{OB}=\dfrac{OA^2+OB^2-AB^2}{2}`$（就是餘弦定理）。
+	**✏️ 例題**：半徑 5 的圓上有 A、B 兩點，$`AB=6`$，O 是圓心。求 $`\overrightarrow{OA}\cdot\overrightarrow{OB}`$。
+	**💡 解答**：$`\overrightarrow{OA}\cdot\overrightarrow{OB}=\dfrac{5^2+5^2-6^2}{2}=\dfrac{14}{2}=7`$。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81779eecf9a2b90df1fa"/>　全國答對率 44%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f8111805be96f20c157f2"/>　全國答對率 38%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f815fb1efff3c648fdc7e"/>　全國答對率 42%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81ac8a75e3e4e7e41945"/>　全國答對率 38%
 </details>
-## 坐標、向量與空間
 <details>
-<summary>**直線與坐標幾何**</summary>
-	<callout icon="💡">
-		斜角與斜率、平行線距離、點到直線距離；面積問題把圖形放在坐標上算。
-	</callout>
-	**📌 必背**
-	- 斜率 $`m=\dfrac{y_2-y_1}{x_2-x_1}=\tan\theta`$；平行 ⇔ 斜率相等；垂直 ⇔ 斜率乘積 $`=-1`$（都不是鉛直線時）。
-	- 點到直線 $`ax+by+c=0`$ 的距離 $`=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}`$；平行線距離 $`=\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}`$。
-	- 線段的中垂線：通過中點，斜率是線段斜率的負倒數。
-	- 圓 $`(x-h)^2+(y-k)^2=r^2`$；圓心到直線的距離 $`d<r`$ 交兩點、$`d=r`$ 相切、$`d>r`$ 不相交。
-	- 頂點在原點、另兩點 $`(x_1,y_1)`$、$`(x_2,y_2)`$ 的三角形面積 $`=\dfrac{1}{2}|x_1y_2-x_2y_1|`$。
-	- 對稱點：$`(a,b)`$ 對 x 軸是 $`(a,-b)`$，對 y 軸是 $`(-a,b)`$，對原點是 $`(-a,-b)`$，對直線 $`y=x`$ 是 $`(b,a)`$。
-	- 圓的切線和通過切點的半徑垂直；從圓外一點可以作兩條切線，兩條切線段一樣長。
-	- 二元一次不等式 $`ax+by+c>0`$ 表示直線某一側的半平面：代一個不在直線上的點（常用原點）檢查。
-	**🧭 解題流程**
-	1. 先畫圖，把點、線放到坐標平面上，再決定用斜率、距離還是面積公式。
-	2. 平分面積的直線：先算總面積的一半，判斷直線會和哪一條邊相交，再設交點坐標列式。
-	**⚠️ 容易錯的地方**
-	- 斜率乘積 $`=-1`$ 不適用於鉛直線。
-	- 等腰三角形要分情況，並排除三點共線。
-	**📝 代表題**（前兩週做過、全國答對率最低的題目）
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81998baae9a7346164f5"/>　全國答對率 16%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f814685bad8e308f9baad"/>　全國答對率 17%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81bebf5ac997601bf0a7"/>　全國答對率 29%
+<summary>⑤ 垂直、平行：翻成內積和倍數</summary>
+	**🔍 看到**：「垂直」「直角」「平行」「向量和直線垂直」。
+	**🛠️ 做法**
+	1. 垂直 ⇔ 內積為 0；平行 ⇔ 一個向量是另一個的實數倍。
+	2. 直線 $`ax+by=c`$ 的法向量是 $`(a,b)`$、方向向量是 $`(b,-a)`$；斜率 m 的直線，方向向量是 $`(1,m)`$。
+	3. 內積的式子可以移項、提出相同的向量：$`\overrightarrow{AB}\cdot\overrightarrow{AC}=\overrightarrow{AB}\cdot\overrightarrow{AD}`$ ⇒ $`\overrightarrow{AB}\cdot(\overrightarrow{AD}-\overrightarrow{AC})=\overrightarrow{AB}\cdot\overrightarrow{CD}=0`$。
+	**✏️ 例題**：向量 $`(k,2)`$ 和直線 $`y=3x+1`$ 垂直，求 k。
+	**💡 解答**：直線的方向向量是 $`(1,3)`$，$`(k,2)\cdot(1,3)=k+6=0`$ ⇒ $`k=-6`$。
+	**⚠️ 小心**：「向量和直線垂直」是和直線的方向向量內積為 0；和法向量是「平行」。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f819babc3ebf90a17717c"/>　全國答對率 19%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81068a04c9917745a881"/>　全國答對率 25%
+	- <mention-page url="https://app.notion.com/p/3f3ee100984f81a88b8cd6a7850bd849"/>　全國答對率 43%
+</details>
+<details>
+<summary>⑥ 正射影：投影長＝內積÷長度</summary>
+	**🔍 看到**：「正射影」「投影長」「在某個方向的分量」「投影到一條直線上」。
+	**🛠️ 做法**
+	1. $`\overrightarrow{a}`$ 在 $`\overrightarrow{b}`$ 方向的正射影長 $`=\dfrac{|\overrightarrow{a}\cdot\overrightarrow{b}|}{|\overrightarrow{b}|}`$；正射影 $`=\dfrac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{b}|^2}\overrightarrow{b}`$。
+	2. 兩個方向互相垂直時，向量在這兩個方向的正射影長，平方相加等於向量長度的平方。
+	**✏️ 例題**：$`\overrightarrow{a}=(3,4)`$ 在 $`\overrightarrow{b}=(1,1)`$ 方向的正射影長和正射影各是什麼？
+	**💡 解答**：$`\overrightarrow{a}\cdot\overrightarrow{b}=7`$、$`|\overrightarrow{b}|=\sqrt{2}`$。正射影長 $`=\dfrac{7}{\sqrt{2}}=\dfrac{7\sqrt{2}}{2}`$；正射影 $`=\dfrac{7}{2}(1,1)=\left(\dfrac{7}{2},\dfrac{7}{2}\right)`$。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ebee100984f8152ac4ec9d3635fd46c"/>　全國答對率 8%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81eb8383fae5505f7083"/>　全國答對率 12%
+</details>
+<details>
+<summary>⑦ 長度的最大值：每個分量各自取最大</summary>
+	**🔍 看到**：「$`|\overrightarrow{v}+\overrightarrow{AB}|`$ 的最大值」「坐標都在某個範圍內」。
+	**🛠️ 做法**
+	1. 把向量寫成坐標，每個分量能各自調整時，讓每個分量的絕對值都取到最大。
+	2. 用「兩個長度相加」估出來的上界，只有兩向量同方向時才取得到，常常達不到。
+	**✏️ 例題**：$`\overrightarrow{u}=(x,y)`$，$`-1\le x\le1`$、$`-1\le y\le1`$。$`|(3,-2)+\overrightarrow{u}|`$ 的最大值是多少？
+	**💡 解答**：$`(3,-2)+\overrightarrow{u}=(3+x,-2+y)`$：取 $`x=1`$、$`y=-1`$ 得 $`(4,-3)`$，長度是 5，最大值就是 5。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81fabd31e8fe2399d945"/>　全國答對率 26%
+</details>
+<details>
+<summary>⑧ 沒有坐標的圖形：選兩個基底向量</summary>
+	**🔍 看到**：三角形、梯形、正六邊形的邊長、夾角或內積，題目沒有給坐標。
+	**🛠️ 做法**
+	1. 選兩個不平行的向量當基底（例如 $`\overrightarrow{AB}`$、$`\overrightarrow{AC}`$），其他向量都用它們表示。
+	2. 先算好 $`|\overrightarrow{AB}|^2`$、$`|\overrightarrow{AC}|^2`$、$`\overrightarrow{AB}\cdot\overrightarrow{AC}`$ 三個數，求長度、角度時都用它們展開。
+	3. 也可以直接把圖形放上坐標平面：一個頂點放原點、一邊放在 x 軸上。
+	**✏️ 例題**：$`\triangle ABC`$ 中，$`AB=6`$、$`AC=5`$、$`\cos A=\dfrac{3}{4}`$，M 是 $`\overline{BC}`$ 的中點。求 AM 的長。
+	**💡 解答**：$`\overrightarrow{AM}=\dfrac{1}{2}(\overrightarrow{AB}+\overrightarrow{AC})`$，$`\overrightarrow{AB}\cdot\overrightarrow{AC}=6\times5\times\dfrac{3}{4}=\dfrac{45}{2}`$。$`|\overrightarrow{AM}|^2=\dfrac{1}{4}\left(36+25+2\times\dfrac{45}{2}\right)=\dfrac{106}{4}`$，所以 $`AM=\dfrac{\sqrt{106}}{2}`$。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81ac8a75e3e4e7e41945"/>　全國答對率 38%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f817fb36bf2962c0f0778"/>　全國答對率 27%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f8111805be96f20c157f2"/>　全國答對率 38%
+</details>
+### 排列組合
+<details>
+<summary>① 先分類、再分步</summary>
+	**🔍 看到**：情況可以分成幾種、彼此不會同時發生（例如「3 種都是基本材料／2 種基本、1 種進階／其他」）；或一件事要分好幾個步驟才能完成。
+	**🛠️ 做法**
+	1. 先列出所有類別，確認彼此不重疊、也沒有遺漏。
+	2. 每一類用乘法原理算（各步驟的方法數相乘），各類再相加。
+	3. 題目說「結果相同只算一種」時，要數的是「不同的結果」，不是選法。
+	**✏️ 例題**：從 4 位男生、3 位女生中選出正、副班長各 1 人，兩人必須同性別，有幾種選法？
+	**💡 解答**：兩位都是男生：$`4\times3=12`$ 種；兩位都是女生：$`3\times2=6`$ 種（正、副有分別，要排順序）。共 $`12+6=18`$ 種。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f816f8934d9befa3b9356"/>　全國答對率 56%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81108960df82708d4bac"/>　全國答對率 7%
+</details>
+<details>
+<summary>② 有系統地列舉：固定一個，由小到大</summary>
+	**🔍 看到**：條件和數的性質有關（完全平方數、倍數、等差、不等式），或是條件很多、情況不多，套不上公式。
+	**🛠️ 做法**
+	1. 先固定一個變數（例如先決定 a），由小到大逐一列出另一個變數能取的值。
+	2. 數字題先依性質分類，例如把 1～9 寫成「平方數 × 剩下的部分」，三數乘積是完全平方數 ⇔ 剩下的部分相乘是完全平方數。
+	3. 列完檢查有沒有重複，以及最大、最小的情況有沒有漏掉。
+	**✏️ 例題**：擲兩顆骰子，點數分別是 a、b，滿足 $`ab\ge20`$ 的情況有幾種？
+	**💡 解答**：$`a\le3`$ 時 $`ab\le18`$，不可能。$`a=4`$：$`b=5,6`$，2 種；$`a=5`$：$`b=4,5,6`$，3 種；$`a=6`$：$`b=4,5,6`$，3 種。共 8 種。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81af806fce513f553532"/>　全國答對率 13%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8108ab76f1c6493c5620"/>　全國答對率 61%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8107b22ecf3e171338ad"/>　全國答對率 72%
+</details>
+<details>
+<summary>③ 特殊的先處理：指定位置、有限制的人</summary>
+	**🔍 看到**：「0 不能在首位」「甲不排第一」「老師站正中間」「歌唱要排在鋼琴之後」。
+	**🛠️ 做法**
+	1. 先安排有限制的位置或人，再排其他沒有限制的。
+	2. 限制很多、分類太麻煩時，改用「全部 − 不符合」（見⑪）。
+	**✏️ 例題**：用 0、1、2、3、4 組成數字不重複的三位數，共有幾個？其中偶數有幾個？
+	**💡 解答**：百位不能是 0：$`4\times4\times3=48`$ 個。偶數先看個位：個位是 0 時 $`4\times3=12`$ 個；個位是 2 或 4 時，百位不能是 0 也不能和個位相同，$`2\times3\times3=18`$ 個。偶數共 $`12+18=30`$ 個。
+	**⚠️ 小心**：個位和百位都有限制時，要分「個位是 0」「個位不是 0」兩類，因為百位能選的個數不一樣。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81108960df82708d4bac"/>　全國答對率 7%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f819f9f77ce572588caf8"/>　全國答對率 60%
+</details>
+<details>
+<summary>④ 相鄰：先綁成一塊再排</summary>
+	**🔍 看到**：「相鄰」「排在一起」「同類的排在一起」。
+	**🛠️ 做法**
+	1. 把要相鄰的看成一塊，和其他的一起排。
+	2. 再乘上塊內的排法。
+	**✏️ 例題**：甲、乙、丙、丁、戊 5 人排成一列，甲、乙相鄰的排法有幾種？
+	**💡 解答**：甲乙綁成一塊，和丙、丁、戊共 4 個單位：$`4!=24`$ 種；塊內有甲乙、乙甲 2 種。共 $`24\times2=48`$ 種。
+	**⚠️ 小心**：「5、6 相鄰，而且 6、7 相鄰」表示 5、6、7 連成一塊，6 一定在中間，塊內只有 567、765 兩種，不是 $`3!`$ 種。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f819f9f77ce572588caf8"/>　全國答對率 60%
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f812b89e5fa2f45fd676d"/>　全國答對率 36%
+</details>
+<details>
+<summary>⑤ 不相鄰：先排其他的，再插空隙</summary>
+	**🔍 看到**：「不相鄰」「互不相鄰」「任兩個都不相鄰」「中間至少隔一個」。
+	**🛠️ 做法**
+	1. 先排沒有限制的 m 個，會產生 $`m+1`$ 個空隙（含兩端）。
+	2. 不能相鄰的 k 個分別放進不同的空隙：相異的人依序挑空隙，$`(m+1)\times m\times\cdots`$（k 個數相乘）；相同的東西只要選空隙，$`C(m+1,k)`$ 種。
+	**✏️ 例題**：3 位男生、3 位女生排成一列，女生互不相鄰的排法有幾種？
+	**💡 解答**：男生先排：$`3!=6`$ 種，產生 4 個空隙；3 位女生依序挑空隙：$`4\times3\times2=24`$ 種。共 $`6\times24=144`$ 種。
+	**⚠️ 小心**：「兩人不相鄰」也可以用「全部 − 相鄰」；但「三人兩兩不相鄰」不能只扣掉「三人連在一起」，要用插空隙。選位置也一樣：10 棟大樓選 3 棟、互不相鄰，先放好沒選的 7 棟，產生 8 個空隙，$`C(8,3)=56`$ 種。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81adb056d93b0c76d679"/>　全國答對率 50%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81e39e52df1c0cbb6660"/>　全國答對率 23%
+</details>
+<details>
+<summary>⑥ 有相同物的排列、走捷徑</summary>
+	**🔍 看到**：「相同的球」「顏色的排法」「字母有重複」「只能向右、向上走」。
+	**🛠️ 做法**
+	1. n 個東西中有 p 個相同、q 個相同……，排法有 $`\dfrac{n!}{p!\,q!\cdots}`$ 種（相同的東西互換位置，排法不變）。
+	2. 方格走捷徑：向右 m 步、向上 n 步，就是把 m 個「右」和 n 個「上」排成一列，$`\dfrac{(m+n)!}{m!\,n!}`$ 種。
+	3. 必須經過某一點：分成前後兩段，兩段的走法相乘。
+	**✏️ 例題**：從 $`(0,0)`$ 走到 $`(4,3)`$，每一步只能向右或向上走一格，有幾種走法？如果必須經過 $`(2,1)`$ 呢？
+	**💡 解答**：4 個「右」、3 個「上」排成一列：$`\dfrac{7!}{4!\,3!}=35`$ 種。經過 $`(2,1)`$：前段 $`\dfrac{3!}{2!\,1!}=3`$ 種，後段向右 2 步、向上 2 步，$`\dfrac{4!}{2!\,2!}=6`$ 種，共 $`3\times6=18`$ 種。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81e39e52df1c0cbb6660"/>　全國答對率 23%
+</details>
+<details>
+<summary>⑦ 順序已經固定：只要選，不用排</summary>
+	**🔍 看到**：「由小到大」「遞增」「$`a<b<c`$」「甲要排在乙的前面（不一定相鄰）」。
+	**🛠️ 做法**
+	1. 順序固定的 k 個東西，選出它們（或它們的位置）就決定了排法：$`C(n,k)`$ 種，選完只有 1 種排法。
+	2. n 人排成一列、其中 k 人的先後順序固定：$`\dfrac{n!}{k!}`$ 種。
+	**✏️ 例題**：甲、乙、丙、丁、戊 5 人排成一列，甲要排在乙的前面（不一定相鄰），有幾種排法？
+	**💡 解答**：每一種排法把甲、乙對調就得到另一種，兩種之中恰好一種是甲在前：$`\dfrac{5!}{2!}=60`$ 種。
+	**⚠️ 小心**：題目寫「遞增」「遞減」時，先找一定在某個位置的數（例如最大的數一定在遞增和遞減的交界），再決定其他數放哪一邊。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81ec9148fe2ab2c04a0d"/>　全國答對率 44%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81599ed3ff603420889d"/>　全國答對率 38%
+</details>
+<details>
+<summary>⑧ 可以重複選：每一次都有 m 種</summary>
+	**🔍 看到**：「可以重複」「抽 k 次、每次 1 個」「每封信投入任一個郵筒」「每個人任選一項」。
+	**🛠️ 做法**
+	1. 先分清楚「誰在選」：每一個選擇者（每封信、每一次）都有 m 種選擇，共 $`m^k`$ 種。
+	2. k 封信投入 m 個郵筒是 $`m^k`$ 種，不是 $`k^m`$ 種。
+	3. 每個郵筒至少一封：先把信分堆，再把各堆分給郵筒。
+	**✏️ 例題**：4 封不同的信投入 3 個不同的郵筒，有幾種投法？如果每個郵筒至少一封呢？
+	**💡 解答**：每封信都有 3 種選擇：$`3^4=81`$ 種。每個郵筒至少一封：4 封信分成 2、1、1 三堆，選出同一堆的 2 封有 $`C(4,2)=6`$ 種；三堆分給 3 個郵筒有 $`3!=6`$ 種。共 $`6\times6=36`$ 種。
+	**⚠️ 小心**：可以重複、但不管順序的「選取」不能用 $`m^k`$：例如從 10 種口味選兩球（可以同口味），要分「兩球不同口味 $`C(10,2)=45`$ 種」和「同口味 10 種」，共 55 種。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81e99cc2c578aaa7b5ac"/>　全國答對率 35%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81d884d8e7777827bd06"/>　全國答對率 8%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f815c8e1de2730f47040b"/>　全國答對率 29%
+</details>
+<details>
+<summary>⑨ 相同的東西分給不同的人：隔板法</summary>
+	**🔍 看到**：「相同的球分給幾個人」「$`x+y+z=10`$ 的非負整數解」「每人至少分到幾個」。
+	**🛠️ 做法**
+	1. k 個相同的東西分給 n 個人（可以有人沒分到）：把 k 個「○」和 $`n-1`$ 個隔板「｜」排成一列，$`\dfrac{(k+n-1)!}{k!\,(n-1)!}`$ 種。
+	2. 每人至少 r 個：先每人發 r 個，剩下的再用隔板。
+	**✏️ 例題**：10 顆相同的糖果分給甲、乙、丙三人，每人至少 2 顆，有幾種分法？
+	**💡 解答**：先每人發 2 顆，剩下 4 顆任意分給 3 人：4 個「○」和 2 個「｜」排成一列，$`\dfrac{6!}{4!\,2!}=15`$ 種。
+</details>
+<details>
+<summary>⑩ 分組、分派：組有沒有名字？</summary>
+	**🔍 看到**：「分成兩組」「平分成甲、乙兩組」「分派到兩個部門」「每組都要有……」。
+	**🛠️ 做法**
+	1. 組有名字（甲組、研發部門、A 教室）：依序選人，$`C(n,a)\times C(n-a,b)\times\cdots`$。
+	2. 組沒有名字、又有幾組人數一樣：再除以這幾組的排列數，例如平均分成 3 組要除以 $`3!`$。
+	3. 每組有特別的條件（例如每組要有 1 名翻譯）：先分有條件的人，再分其他人；「至少一個」用補集。
+	**✏️ 例題**：6 人分到 A、B、C 三間教室，每間 2 人，有幾種分法？如果只是分成 3 組、每組 2 人呢？
+	**💡 解答**：分到教室：$`C(6,2)\times C(4,2)\times C(2,2)=15\times6\times1=90`$ 種。3 組沒有名字，三組互換不算新的分法：$`90\div3!=15`$ 種。
+	**📝 考過的題目**
+	- <mention-page url="https://app.notion.com/p/3e9ee100984f81038983e339acb3508a"/>　全國答對率 25%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f8194a4edd6ee7756347c"/>　全國答對率 35%
 </details>

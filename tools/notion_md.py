@@ -432,7 +432,7 @@ def skeleton_page(subject, structure, focus, focus_raw=False):
     b = [callout("🧭", [md_inline(structure)]), callout("📌", [focus if focus_raw else md_inline(focus)], color="yellow_bg")]
     if subject in MATH_REF_PAGES and MAP.get(MATH_REF_PAGES[subject][0]):
         key, title = MATH_REF_PAGES[subject]
-        b += ["## 📚 重點整理", "各單元的必背公式、解題流程與容易錯的地方，以及前兩週答對率最低的代表題；向量、機率統計、排列組合另外整理了經典題型與解題技巧。",
+        b += ["## 📚 重點整理", "向量、機率統計、排列組合的「🧩 經典題型與解題技巧」在重點整理頁的最上方；後面是各單元的必背公式、解題流程與容易錯的地方，以及前兩週答對率最低的代表題。",
               f'<page url="{MAP[key]}">{title}</page>']
     if subject in NOTE_PAGES and any(MAP.get(note_key(subject, m)) for m, _, _ in NOTE_PAGES[subject]):
         b += ["## 📚 重點整理", NOTE_INTRO[subject]]
@@ -543,23 +543,31 @@ def math_focus(subject):
     """數學頁頂端的說明：第 3 週講義與重點整理的連結（頁面建立後才會變成提及）。"""
     key, title = MATH_REF_PAGES[subject]
     return (f"**第 3 週上課**（{esc(fmt_class(3))}）的講義、上課練習題與混合題參考答案在 {mention('week:3', '📅 每週課程 W3')}；"
-            f"各單元的必背公式、解題流程與容易錯的地方在 {mention(key, '〈' + title + '〉')}。")
+            f"向量、機率統計、排列組合的經典題型與解題技巧，以及各單元的必背公式、解題流程與容易錯的地方，都在 {mention(key, '〈' + title + '〉')}。")
 
 
 CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳"
 
 
-def math_pattern_blocks(subject, cid, items, published):
-    """「🧩 經典題型與解題技巧」（data/reference/math_patterns.yaml）：每一型一個切換區塊，
-    依序是看到什麼、怎麼做、例題、解答、要小心的地方，以及考過的題目（數A、數B 都列）。"""
+def math_pattern_groups(subject, cid=None):
+    """依觀念順序列出這一科（或某個觀念）的題型組別代碼，不重複。"""
+    cmap = qyaml.load(REF / "math_patterns.yaml")["concepts"].get(subject) or {}
+    gids = (cmap.get(cid) or []) if cid else [g for v in cmap.values() for g in v]
+    return list(dict.fromkeys(gids))
+
+
+def math_pattern_section(subject, items, published):
+    """重點整理頁最上方的「🧩 經典題型與解題技巧」（data/reference/math_patterns.yaml）：
+    每一組一個小標題，每一型一個切換區塊，依序是看到什麼、怎麼做、例題、解答、要小心的地方，以及考過的題目（數A、數B 都列）。"""
     d = qyaml.load(REF / "math_patterns.yaml")
-    gids = (d["concepts"].get(subject) or {}).get(cid) or []
-    out = []
-    for k, gid in enumerate(gids):
+    gids = math_pattern_groups(subject)
+    if not gids:
+        return []
+    out = ["## 🧩 經典題型與解題技巧",
+           "看到題目先找關鍵字，認出是下面哪一型，再照那一型的做法解；點開題型名稱可以看做法、例題、解答和考過的題目。"]
+    for gid in gids:
         g = d["groups"][gid]
-        out.append("**🧩 經典題型與解題技巧**" + (f"：{esc(g['title'])}" if len(gids) > 1 else ""))
-        if k == 0:
-            out.append("先從題目的關鍵字認出是哪一型，再照那一型的做法解；點開可以看例題、解答和考過的題目。")
+        out.append(f"### {esc(g['title'])}")
         pats = [p for p in g["items"] if p.get("only", subject) == subject]
         for i, p in enumerate(pats):
             body = [f"**🔍 看到**：{inline(p['cue'], math=True)}"]
@@ -588,9 +596,11 @@ def math_notes_page(subject):
     concepts = qyaml.load(ROOT / "data" / "concepts" / f"{subject}.yaml")
     notes = qyaml.load(REF / "math_notes.yaml")[subject]
     done = [q for d in plan["days"] if d["day"] <= 14 for q in d["sets"].get(subject) or []]
-    b = [callout("🧭", ["依單元整理必背公式、解題流程和容易錯的地方。標「考卷附」的公式，考卷最後會附上，但還是要熟到不用查。",
-                       "向量、機率統計、排列組合另外整理了「🧩 經典題型與解題技巧」：先從題目的關鍵字認出題型，再照做法解題，每一型都附例題、解答和考過的題目。",
+    d = qyaml.load(REF / "math_patterns.yaml")
+    b = [callout("🧭", ["向量、機率統計、排列組合的題目整理成下方的「🧩 經典題型與解題技巧」：先從題目的關鍵字認出題型，再照做法解題，每一型都附例題、解答和考過的題目。",
+                       "後面依單元整理必背公式、解題流程和容易錯的地方。標「考卷附」的公式，考卷最後會附上，但還是要熟到不用查。",
                        "每個觀念最後列出前兩週每日練習中全國答對率最低的題目，點進去可以看題目、答案與解析。"])]
+    b += math_pattern_section(subject, both, published)
     for mod in concepts["modules"]:
         b.append(f"## {esc(mod['name'])}")
         for c in mod["concepts"]:
@@ -601,7 +611,9 @@ def math_notes_page(subject):
             ch += [f"- {inline(x, math=True)}" for x in n.get("must") or []]
             ch.append("**🧭 解題流程**")
             ch += [f"{i}. {inline(x, math=True)}" for i, x in enumerate(n.get("steps") or [], 1)]
-            ch += math_pattern_blocks(subject, c["id"], both, published)
+            gids = math_pattern_groups(subject, c["id"])
+            if gids:
+                ch.append("**🧩 經典題型與解題技巧**：在本頁最上方的" + "、".join(f"「{esc(d['groups'][g]['title'])}」" for g in gids) + "。")
             ch.append("**⚠️ 容易錯的地方**")
             ch += [f"- {inline(x, math=True)}" for x in n.get("traps") or []]
             qs = sorted((items[q] for q in done if c["id"] in (items[q].get("concepts") or [])
