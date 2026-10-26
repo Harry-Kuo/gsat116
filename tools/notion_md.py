@@ -170,6 +170,8 @@ def text_blocks(text, math=False):
         elif line.startswith("<img"):
             m = re.search(r'src="([^"]+)"', line)
             alt = re.search(r'alt="([^"]*)"', line)
+            if out:
+                out.append("")  # 圖片和上一段文字之間要空一行，否則 Notion 不接受
             out.append(f"![{alt.group(1) if alt else '附圖'}]({SITE}/{m.group(1)})")
         else:
             out.append(inline(line, math))
@@ -268,11 +270,16 @@ def question_body(it, subject, groups, published, shown=None):
         r = g.get("range") or []
         head = f"題組文章（第 {r[0]}–{r[-1]} 題共用）" if r else "題組文章"
         if g.get("image") and subject in IMAGE_SUBJECTS:
-            body = [f"**{head}**", f"![{head}]({SITE}/{g['image']})"]
+            body = [f"**{head}**", "", f"![{head}]({SITE}/{g['image']})"]  # Notion 要求圖片和上一行文字之間空一行
         else:
-            body = [f"**{head}**"] + ([inline(g["intro"])] if g.get("intro") else []) + text_blocks(g.get("passage"))
+            passage = text_blocks(g.get("passage"))
+            if passage and passage[0].startswith("!["):
+                passage.insert(0, "")  # 圖片和上一行文字之間要空一行，否則 Notion 不接受
+            body = [f"**{head}**"] + ([inline(g["intro"])] if g.get("intro") else []) + passage
         blocks.append(callout("📖", body, color="gray_bg"))
     if it.get("image"):
+        if blocks and not blocks[-1].endswith("</callout>"):
+            blocks.append("")  # 圖片前一行是文字時要空一行，否則 Notion 不接受
         blocks.append(f"![{src(it, subject)}]({SITE}/{it['image']})")
     blocks += text_blocks(it.get("stem"))
     for k, v in (it.get("options") or {}).items():
@@ -522,7 +529,9 @@ def week_page(w, md_name, subject):
             "REF_MATH_A": mention("ref:mathA_notes", "〈數學A 公式與解題流程〉"), "REF_MATH_B": mention("ref:mathB_notes", "〈數學B 公式與解題流程〉"),
             "REF_SCI_P": mention("ref:science_P", "〈物理重點整理〉"), "REF_SCI_C": mention("ref:science_C", "〈化學重點整理〉"),
             "REF_SCI_B": mention("ref:science_B", "〈生物重點整理〉"), "REF_SCI_E": mention("ref:science_E", "〈地球科學重點整理〉"),
-            "REF_SCI_I": mention("ref:science_I", "〈探究與實作重點整理〉")}
+            "REF_SCI_I": mention("ref:science_I", "〈探究與實作重點整理〉"),
+            "REF_SOC_G": mention("ref:social_G", "〈公民與社會重點整理〉"), "REF_SOC_H": mention("ref:social_H", "〈歷史重點整理〉"),
+            "REF_SOC_D": mention("ref:social_D", "〈地理重點整理〉")}
     return [re.sub(r"\\\{\\\{(REF_[A-Z_]+)\\\}\\\}", lambda m: subs[m.group(1)], blk) for blk in blocks]
 
 
@@ -540,6 +549,10 @@ def week3_page():
 
 def week4_page():
     return week_page(4, "week04_science.md", "science")
+
+
+def week5_page():
+    return week_page(5, "week05_social.md", "social")
 
 
 # ---------- 數學重點整理：各觀念的必背公式、解題流程、易錯點 ----------
@@ -1398,8 +1411,9 @@ WEEK_LABEL = {"數學": "數學（數A＋數B）"}
 WEEK_TOPIC = {1: "國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判",
               2: "英文考科結構 × 詞彙 × 綜合測驗 × 文意選填 × 篇章結構 × 閱讀測驗",
               3: "數A、數B 考科結構 × 代數 × 幾何 × 向量與矩陣 × 機率統計與計數 × 混合題",
-              4: "自然考科結構 × 物理 × 化學 × 生物 × 地球科學 × 混合題"}
-WEEK_PAGES = {1: week1_page, 2: week2_page, 3: week3_page, 4: week4_page}
+              4: "自然考科結構 × 物理 × 化學 × 生物 × 地球科學 × 混合題",
+              5: "社會考科結構 × 公民 × 歷史 × 地理 × 跨科題組 × 混合題"}
+WEEK_PAGES = {1: week1_page, 2: week2_page, 3: week3_page, 4: week4_page, 5: week5_page}
 
 
 def db_week_rows():
@@ -1472,7 +1486,9 @@ def main():
     write_page("13_science", skeleton_page("science", "自然 110 分鐘：選擇題（單選＋多選）36 題×2＝72 分＋混合題或非選 56 分，共 128 分；物化生地四科配分相當。",
                                            f"**第 4 週上課**（{esc(fmt_class(4))}）的講義、上課練習題與混合題參考答案在 {mention('week:4', '📅 每週課程 W4')}；"
                                            "物理、化學、生物、地球科學、探究與實作的必背觀念與解題步驟，在下面的「📚 重點整理」。", focus_raw=True))
-    write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。", focus(5, "三科必考觀念、史料與圖表判讀法。")))
+    write_page("14_social", skeleton_page("social", "社會 110 分鐘：單選 38 題×2＝76 分＋混合題或非選 68 分（115 年，共 144 分）；歷史、地理、公民三科配分相當。",
+                                          f"**第 5 週上課**（{esc(fmt_class(5))}）的講義、上課練習題與混合題參考答案在 {mention('week:5', '📅 每週課程 W5')}；"
+                                          "公民與社會、歷史、地理的必背觀念與作答步驟，在下面的「📚 重點整理」。", focus_raw=True))
     for s, prefix in (("science", "13n"), ("social", "14n")):
         for m, _, _ in NOTE_PAGES[s]:
             write_page(f"{prefix}_{s}_{m}", notes_page(s, m), limit=7000, first_alone=True)
@@ -1486,6 +1502,7 @@ def main():
     write_page("30_week02", week2_page())
     write_page("30_week03", week3_page())
     write_page("30_week04", week4_page())
+    write_page("30_week05", week5_page())
     write_page("40_progress", progress_page())
     write_page("90_teacher", teacher_page())
     q = db_question_rows()
