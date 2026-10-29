@@ -137,3 +137,201 @@ ma109-18: [M4]
 ma109-19: {topic: M9, tags: [], out: 拋物線方程式與焦距（二次曲線）不在學測數A範圍}
 ma109-20: [M3]
 ma115-18: [M4]
+
+# 108 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma108-01: [M9]
+ma108-02: {topic: M2, tags: [], out: 解方程式要用到虛根（複數），不在學測數A範圍}
+ma108-03: {topic: M1, tags: [], dup: mathB}
+ma108-04: {topic: M7, tags: [], dup: mathB}
+ma108-05: {topic: M1, tags: [], dup: mathB}
+ma108-06: {topic: M6, tags: [], dup: mathB}
+ma108-07: [M8]
+ma108-08: {topic: M1, tags: [], dup: mathB}
+ma108-09: {topic: M6, tags: [M7], dup: mathB}
+ma108-10: {topic: M3, tags: [], dup: mathB}
+ma108-11: [M6]
+ma108-12: [M2]
+ma108-13: [M4]
+ma108-14: {topic: M5, tags: [], dup: mathB}
+ma108-15: {topic: M9, tags: [], out: 由橢圓方程式求頂點（二次曲線）不在學測數A範圍}
+ma108-16: [M1]
+ma108-17: [M7]
+ma108-18: {topic: M3, tags: [], dup: mathB}
+ma108-19: [M4]
+ma108-20: [M4]
+
+# 107 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma107-01: {topic: M4, tags: [], dup: mathB}
+ma107-02: {topic: M6, tags: [M1], dup: mathB}
+ma107-03: [M6]
+ma107-04: {topic: M1, tags: [], dup: mathB}
+ma107-05: [M3]
+ma107-06: {topic: M1, tags: [], dup: mathB}
+ma107-07: [M4, M3]
+ma107-08: {topic: M1, tags: [], dup: mathB}
+ma107-09: [M2]
+ma107-10: [M4]
+ma107-11: [M4]
+ma107-12: {topic: M9, tags: [], out: 拋物線、橢圓、雙曲線的焦點（二次曲線）不在學測數A範圍}
+ma107-13: {topic: M1, tags: [M9], dup: mathB}
+ma107-14: {topic: M3, tags: [], dup: mathB}
+ma107-15: [M9, M1]
+ma107-16: [M9]
+ma107-17: {topic: M2, tags: [M4], dup: mathB}
+ma107-18: {topic: M5, tags: [], dup: mathB}
+ma107-19: [M4, M3]
+ma107-20: [M4]
+
+# 106 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma106-01: {topic: M6, tags: [], dup: mathB}
+ma106-02: {topic: M1, tags: [], dup: mathB}
+ma106-03: {topic: M9, tags: [], out: 雙曲線與漸近線（二次曲線）不在學測數A範圍}
+ma106-04: {topic: M4, tags: [M2], dup: mathB}
+ma106-05: {topic: M6, tags: [], dup: mathB}
+ma106-06: [M3]
+ma106-07: {topic: M7, tags: [], dup: mathB}
+ma106-08: [M2]
+ma106-09: {topic: M9, tags: [], dup: mathB}
+ma106-10: [M4]
+ma106-11: {topic: M3, tags: [], dup: mathB}
+ma106-12: {topic: M7, tags: [], dup: mathB}
+ma106-13: [M4]
+ma106-14: {topic: M8, tags: [M2], dup: mathB}
+ma106-15: [M4]
+ma106-16: {topic: M2, tags: [], dup: mathB}
+ma106-17: [M5, M8]
+ma106-18: [M1]
+ma106-19: [M6, M7]
+ma106-20: [M9]
+
+# 105 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma105-01: {topic: M2, tags: [], dup: mathB}
+ma105-02: {topic: M3, tags: [], dup: mathB}
+ma105-03: {topic: M9, tags: [], dup: mathB}
+ma105-04: {topic: M1, tags: [], dup: mathB}
+ma105-05: [M4]
+ma105-06: [M8]
+ma105-07: {topic: M1, tags: [], dup: mathB}
+ma105-08: {topic: M1, tags: [], dup: mathB}
+ma105-09: [M4]
+ma105-10: {topic: M2, tags: [], out: 選項討論虛根（複數），不在學測數A範圍}
+ma105-11: {topic: M1, tags: [M6], dup: mathB}
+ma105-12: [M3]
+ma105-13: {topic: M6, tags: [], dup: mathB}
+ma105-14: [M7]
+ma105-15: [M4]
+ma105-16: {topic: M9, tags: [], out: 橢圓的焦點與正焦弦（二次曲線）不在學測數A範圍}
+ma105-17: [M5]
+ma105-18: {topic: M9, tags: [], dup: mathB}
+ma105-19: [M6, M5]
+ma105-20: [M4]
+
+# 104 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma104-01: {topic: M8, tags: [], dup: mathB}
+ma104-02: {topic: M8, tags: [M1], dup: mathB}
+ma104-03: {topic: M6, tags: [], dup: mathB}
+ma104-04: {topic: M9, tags: [], out: 線性規劃（目標函數的最大值）不在學測數A範圍}
+ma104-05: {topic: M6, tags: [], dup: mathB}
+ma104-06: {topic: M2, tags: [], out: 選項用到虛根（複數），不在學測數A範圍}
+ma104-07: {topic: M1, tags: [], dup: mathB}
+ma104-08: {topic: M9, tags: [], out: 雙曲線（二次曲線）不在學測數A範圍}
+ma104-09: [M4, M3]
+ma104-10: {topic: M7, tags: [], dup: mathB}
+ma104-11: {topic: M3, tags: [], dup: mathB}
+ma104-12: [M6]
+ma104-13: [M7]
+ma104-14: [M4]
+ma104-15: [M9]
+ma104-16: {topic: M1, tags: [], dup: mathB}
+ma104-17: [M5]
+ma104-18: [M4]
+ma104-19: [M4]
+ma104-20: {topic: M3, tags: [], dup: mathB}
+
+# 103 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma103-01: {topic: M1, tags: [], dup: mathB}
+ma103-02: {topic: M4, tags: [], dup: mathB}
+ma103-03: {topic: M9, tags: [], dup: mathB}
+ma103-04: {topic: M1, tags: [], dup: mathB}
+ma103-05: {topic: M7, tags: [], dup: mathB}
+ma103-06: [M6]
+ma103-07: [M1, M2]
+ma103-08: {topic: M1, tags: [], dup: mathB}
+ma103-09: {topic: M4, tags: [], dup: mathB}
+ma103-10: {topic: M2, tags: [], dup: mathB}
+ma103-11: [M8]
+ma103-12: {topic: M6, tags: [], dup: mathB}
+ma103-13: {topic: M3, tags: [], dup: mathB}
+ma103-14: [M2]
+ma103-15: {topic: M9, tags: [], dup: mathB}
+ma103-16: [M4, M2]
+ma103-17: [M4]
+ma103-18: [M7]
+ma103-19: [M5]
+ma103-20: [M3]
+
+# 102 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma102-01: {topic: M1, tags: [], dup: mathB}
+ma102-02: {topic: M1, tags: [], dup: mathB}
+ma102-03: [M6]
+ma102-04: [M6]
+ma102-05: {topic: M7, tags: [], dup: mathB}
+ma102-06: {topic: M3, tags: [], dup: mathB}
+ma102-07: {topic: M5, tags: [M8], dup: mathB}
+ma102-08: [M1]
+ma102-09: [M2]
+ma102-10: [M4, M9]
+ma102-11: {topic: M9, tags: [], out: 橢圓的焦點性質（二次曲線）不在學測數A範圍}
+ma102-12: {topic: M8, tags: [], dup: mathB}
+ma102-13: {topic: M1, tags: [], dup: mathB}
+ma102-14: {topic: M2, tags: [], out: 複數運算，不在學測數A範圍}
+ma102-15: {topic: M9, tags: [], dup: mathB}
+ma102-16: {topic: M1, tags: [], dup: mathB}
+ma102-17: [M9]
+ma102-18: [M4]
+ma102-19: [M3]
+ma102-20: [M4]
+
+# 101 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma101-01: {topic: M1, tags: [], dup: mathB}
+ma101-02: {topic: M8, tags: [], dup: mathB}
+ma101-03: [M1]
+ma101-04: {topic: M6, tags: [], out: 常態分布曲線不在學測數A範圍}
+ma101-05: {topic: M1, tags: [], dup: mathB}
+ma101-06: {topic: M6, tags: [], dup: mathB}
+ma101-07: [M4]
+ma101-08: {topic: M2, tags: [], out: 虛根（複數）不在學測數A範圍}
+ma101-09: {topic: M9, tags: [M7], dup: mathB}
+ma101-10: {topic: M2, tags: [], out: 複數平面不在學測數A範圍}
+ma101-11: [M9, M5]
+ma101-12: [M3]
+ma101-13: {topic: M9, tags: [], out: 雙曲線的定義（二次曲線）不在學測數A範圍}
+ma101-14: {topic: M8, tags: [], out: 無窮等比級數不在學測數A範圍（108 課綱只到有限項）}
+ma101-15: {topic: M9, tags: [], dup: mathB}
+ma101-16: {topic: M4, tags: [], dup: mathB}
+ma101-17: [M4, M2]
+ma101-18: {topic: M3, tags: [], dup: mathB}
+ma101-19: {topic: M9, tags: [], out: 橢圓方程式與焦點（二次曲線）不在學測數A範圍}
+ma101-20: [M6, M4]
+
+# 100 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+ma100-01: {topic: M6, tags: [], dup: mathB}
+ma100-02: {topic: M2, tags: [], dup: mathB}
+ma100-03: [M1, M8]
+ma100-04: {topic: M9, tags: [], dup: mathB}
+ma100-05: [M1]
+ma100-06: {topic: M6, tags: [], dup: mathB}
+ma100-07: {topic: M2, tags: [], out: 複數平面不在學測數A範圍}
+ma100-08: [M3]
+ma100-09: {topic: M9, tags: [], dup: mathB}
+ma100-10: [M4]
+ma100-11: [M9]
+ma100-12: [M4]
+ma100-13: [M2]
+ma100-14: {topic: M8, tags: [], out: 無窮等比級數不在學測數A範圍（108 課綱只到有限項）}
+ma100-15: [M4, M3]
+ma100-16: {topic: M6, tags: [M7], dup: mathB}
+ma100-17: [M3, M9]
+ma100-18: [M5, M1]
+ma100-19: {topic: M9, tags: [], out: 橢圓與拋物線（二次曲線）不在學測數A範圍}
+ma100-20: [M4]

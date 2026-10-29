@@ -10,12 +10,15 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent.parent
 CEEC = ROOT / "data" / "ceec"
 
+OLD_MATH = {y: "數學" for y in range(100, 111)}
+
 # 內部科目代碼 → (各年度試題清單的科目名稱, 統計表工作表名稱)
 SUBJECTS = {
     "chinese": {"paper": {109: "國文（選擇題）", 110: "國文（選擇題）", "default": "國綜"}, "sheet": "國文"},
     "english": {"paper": {"default": "英文"}, "sheet": "英文"},
-    "mathA": {"paper": {109: "數學", 110: "數學", "default": "數學A"}, "sheet": {109: "數學", 110: "數學", "default": "數學A"}},
-    "mathB": {"paper": {109: "數學", 110: "數學", "default": "數學B"}, "sheet": {109: "數學", 110: "數學", "default": "數學B"}},
+    # 110 年以前是舊課綱的「數學」卷（數A、數B 共用一份）
+    "mathA": {"paper": {**OLD_MATH, "default": "數學A"}, "sheet": {**OLD_MATH, "default": "數學A"}},
+    "mathB": {"paper": {**OLD_MATH, "default": "數學B"}, "sheet": {**OLD_MATH, "default": "數學B"}},
     "social": {"paper": {"default": "社會"}, "sheet": "社會"},
     "science": {"paper": {"default": "自然"}, "sheet": "自然"},
 }
@@ -72,12 +75,14 @@ def answer_key(subject, year):
 
 
 STATS_KEYWORDS = {"42-46": "答對率及鑑別度表", "51-55": "選項分析", "26": "成績標準一覽表", "21": "級分對照表"}
+# 103–107 年檔名寫「鑑別指數表」，100–102 年是 <年>SAT_stat_4246／42_46 這類英文檔名
+STATS_ALIASES = {"42-46": ("答對率及鑑別指數表", "stat_4246", "stat_42_46"), "51-55": ("stat_5155", "stat_51_55")}
 
 
 def _stats_file(year, prefix):
     """依關鍵字找統計檔（各年檔名不一定有編號前綴）。"""
-    keyword = STATS_KEYWORDS[prefix]
-    hits = sorted(f for f in (CEEC / str(year) / "stats").glob("*.xls*") if keyword in f.name)
+    keywords = (STATS_KEYWORDS[prefix],) + STATS_ALIASES.get(prefix, ())
+    hits = sorted(f for f in (CEEC / str(year) / "stats").glob("*.xls*") if any(k in f.name for k in keywords))
     return hits[0] if hits else None
 
 

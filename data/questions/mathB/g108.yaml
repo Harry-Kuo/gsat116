@@ -1,0 +1,1296 @@
+exam: 學測
+year: 108
+subject: mathB
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0j196562122689997208/01-108%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf
+groups: []
+items:
+- id: mb108-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 53
+    Ph: 84
+    Pl: 30
+    D: 54
+    opt:
+      '1': 19
+      '2': 15
+      '3': 53
+      '4': 7
+      '5': 5
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-01.webp
+  text: |-
+    說明：第1 題至第6 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請畫記
+    在答案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或畫記多
+    於一個選項者，該題以零分計算。
+    1. 點A (1,0)在單位圓
+    2
+    2
+    :
+    1
+    x
+    y
+    
+    
+    上。試問：Γ 上除了A 點以外，還有幾個點到直線
+    :
+    2
+    L y
+    x
+    
+    的距離，等於A 點到L 的距離？
+    (1) 1 個
+    (2) 2 個
+    (3) 3 個
+    (4) 4 個
+    (5) 0 個
+- id: mb108-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: false
+  classic_note: 108 課綱範圍外：解方程式要用到虛根（複數），不在學測數B範圍
+  stats:
+    P: 72
+    Ph: 98
+    Pl: 33
+    D: 65
+    opt:
+      '1': 72
+      '2': 12
+      '3': 8
+      '4': 7
+      '5': 1
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-02.webp
+  text: |-
+    2. 下列哪一個選項是方程式
+    3
+    2
+    4
+    4
+    0
+    x
+    x
+    x
+    
+    
+    
+    
+    的解？（註：
+    1
+    i 
+    ）
+    (1)
+    2i
+    
+
+    (2)
+    i
+    
+    (3) i
+    (4) 2
+    (5) 4
+- id: mb108-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 66
+    Ph: 90
+    Pl: 41
+    D: 49
+    opt:
+      '1': 3
+      '2': 15
+      '3': 66
+      '4': 13
+      '5': 2
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-03.webp
+  text: |-
+    3. 試問共有多少組正整數
+    
+    ,
+    ,
+    k m n 滿足2 4 8
+    512
+    k
+    m
+    n 
+    ？
+    (1) 1 組
+    (2) 2 組
+    (3) 3 組
+    (4) 4 組
+    (5) 0 組
+- id: mb108-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: B9
+  tags: []
+  concepts:
+  - B9
+  classic: true
+  stats:
+    P: 60
+    Ph: 86
+    Pl: 35
+    D: 51
+    opt:
+      '1': 2
+      '2': 5
+      '3': 9
+      '4': 25
+      '5': 60
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-04.webp
+  text: |-
+    4. 廚師買了豬、雞、牛三種肉類食材以及白菜、豆腐、香菇三種素類食材。若廚
+    師想用完這六種食材作三道菜，每道菜可以只用一種食材或用多種食材，但每
+    種食材只能使用一次，且每道菜一定要有肉，試問食材的分配共有幾種方法？
+    (1) 3
+    (2) 6
+    (3) 9
+    (4) 18
+    (5) 27
+- id: mb108-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 54
+    Ph: 89
+    Pl: 19
+    D: 70
+    opt:
+      '1': 10
+      '2': 11
+      '3': 18
+      '4': 54
+      '5': 7
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-05.webp
+  text: |-
+    5. 設正實數b 滿足(log100)(log )
+    log100
+    log
+    7
+    b
+    b
+    
+    
+    
+    。試選出正確的選項。
+    (1) 1
+    10
+    b
+    
+    
+
+    (2)
+    10
+    10
+    b
+    
+    
+
+    (3)
+    0
+    0
+    0 1
+    1
+    1
+    b
+    
+    
+
+    (4)
+    1
+    0 10
+    0
+    1
+    0
+    b
+    
+    
+
+    (5) 1
+    100 10
+    00
+    b
+    
+    
+- id: mb108-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: B11
+  tags: []
+  concepts:
+  - B11
+  classic: true
+  stats:
+    P: 71
+    Ph: 90
+    Pl: 50
+    D: 40
+    opt:
+      '1': 8
+      '2': 71
+      '3': 9
+      '4': 9
+      '5': 2
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-06.webp
+  text: |-
+    6. 某超商依據過去的銷售紀錄，冬天平均氣溫在6℃到24℃時，每日平均售出的
+    咖啡數量與當天的平均氣溫之相關係數為
+    0.99
+    
+    ，部分紀錄如下表。
+
+
+
+    某日平均氣溫為8℃，依據上述資訊推測，試問該日賣出的咖啡數量應接近下
+    列哪一個選項？
+    (1) 570 杯
+    (2) 625 杯
+    (3) 700 杯
+    (4) 755 杯
+    (5) 800 杯
+
+
+
+
+    平均氣溫（℃）
+    11
+    13
+    15
+    17
+    19
+    21
+    平均售出量（杯）
+    512
+    437
+    361
+    279
+    203
+    135
+- id: mb108-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: B4
+  tags: []
+  concepts:
+  - B4
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 51
+    Ph: 79
+    Pl: 22
+    D: 57
+    T: 28
+    opt:
+      '1': 77
+      '2': 46
+      '3': 22
+      '4': 73
+      '5': 24
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-07.webp
+  text: |-
+    說明：第7 題至第13 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選項
+    畫記在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答對者，
+    得5 分；答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2 個選項
+    或所有選項均未作答者，該題以零分計算。
+    7. 設各項都是實數的等差數列
+    1
+    2
+    3
+    ,
+    ,
+    ,
+    a a a
+    之公差為正實數。試選出正確的選項。
+    (1) 若
+    n
+    n
+    b
+    a
+    
+    ，則
+    1
+    2
+    3
+    b
+    b
+    b 
+    
+    
+
+    (2) 若
+    2
+    n
+    n
+    c
+    a
+    
+    ，則
+    1
+    2
+    3
+    c
+    c
+    c 
+    
+    
+
+    (3) 若
+    1
+    n
+    n
+    na
+    d
+    a 
+    
+    
+    ，則
+    1
+    2
+    3
+    ,
+    ,
+    ,
+    d d d
+    是公差為的等差數列
+    (4) 若
+    n
+    n
+    e
+    n
+    a
+    
+    
+    ，則
+    1
+    2
+    3
+    ,
+    ,
+    ,
+    e e e
+    是公差為
+    1
+    的等差數列
+    (5) 若
+    nf 為
+    1
+    2
+    ,
+    ,
+    ,
+    n
+    a a
+    a 的算術平均數，則
+    1
+    2
+    3
+    ,
+    ,
+    ,
+    f
+    f
+    f
+    是公差為的等差數列
+- id: mb108-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 4,5
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 64
+    Ph: 90
+    Pl: 36
+    D: 54
+    T: 38
+    opt:
+      '1': 8
+      '2': 12
+      '3': 52
+      '4': 90
+      '5': 85
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-08.webp
+  text: |-
+    8. 在數線上，甲從點
+    8
+    開始做等速運動，同時乙也從點10 開始做等速運動，乙移
+    動的速率是甲的a 倍，且
+    1
+    a 。試選出正確的選項。
+    (1) 若甲朝負向移動而乙朝正向移動，則他們會相遇
+    (2) 若甲朝負向移動且乙朝負向移動，則他們不會相遇
+    (3) 若甲朝正向移動而乙朝負向移動，則乙先到達原點0
+    (4) 若甲朝正向移動且乙朝正向移動，則他們之間的距離會越來越大
+    (5) 若甲朝正向移動而乙朝負向移動，且他們在點
+    2
+    相遇，則
+    2
+    a 
+- id: mb108-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: B10
+  tags: []
+  concepts:
+  - B10
+  classic: true
+  stats:
+    P: 65
+    Ph: 86
+    Pl: 39
+    D: 47
+    T: 48
+    opt:
+      '1': 17
+      '2': 21
+      '3': 82
+      '4': 19
+      '5': 78
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-09.webp
+  text: |-
+    9. 從1, 2, 3, 4, 5, 6, 7 這七個數字中隨機任取兩數。試選出正確的選項。
+    (1) 其和大於10 的機率為1
+    7
+    (2) 其和小於5 的機率為1
+    7
+    (3) 其和為奇數的機率為4
+    7
+    (4) 其差為偶數的機率為5
+    7
+    (5) 其積為奇數的機率為2
+    7
+- id: mb108-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: true
+  stats:
+    P: 69
+    Ph: 94
+    Pl: 33
+    D: 61
+    T: 55
+    opt:
+      '1': 87
+      '2': 85
+      '3': 19
+      '4': 22
+      '5': 21
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-10.webp
+  text: |-
+    10. 在
+    ABC
+    
+    中，已知
+    6
+    0
+    0
+    5
+    A
+    B
+    
+    
+    。試選出正確的選項。
+    (1) sin
+    sin
+    A
+    B
+    
+
+    (2) sin
+    sin
+    B
+    C
+    
+
+    (3) cos
+    cos
+    A
+    B
+    
+
+    (4) sin
+    cos
+    C
+    C
+    
+
+    (5) AB
+    BC
+    
+- id: mb108-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: B10
+  tags: []
+  concepts:
+  - B10
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 53
+    Ph: 81
+    Pl: 28
+    D: 53
+    T: 33
+    opt:
+      '1': 16
+      '2': 43
+      '3': 73
+      '4': 26
+      '5': 81
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-11.webp
+  text: |-
+    11. 某地區衛生機構成功訪問了500 人，其中年齡為50
+    59
+    
+    歲及60 歲（含）以上者分
+    別有220名及280名。這500 名受訪者中，120名曾做過大腸癌篩檢，其中有75名
+    是在一年之前做的，有45 名是在一年之內做的。已知受訪者中，60 歲（含）以
+    上者曾做過大腸癌篩檢比率是50
+    59
+    
+    歲者曾做過大腸癌篩檢比率的3.5倍。試選
+    出正確的選項。
+    (1) 受訪者中年齡為60 歲（含）以上者超過60%
+    (2) 由受訪者中隨機抽取兩人，此兩人的年齡皆落在50
+    59
+    
+    歲間的機率大於0.25
+    (3) 由曾做過大腸癌篩檢的受訪者中隨機抽取兩人，其中一人在一年之內受檢
+    而另一人在一年之前受檢的機率為
+    45
+    75
+    2
+    120
+    119
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    (4) 這500 名受訪者中，未曾做過大腸癌篩檢的比率低於75%
+    (5) 受訪者中60 歲（含）以上者，曾做過大腸癌篩檢的人數超過90名
+- id: mb108-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,5
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 35
+    Ph: 64
+    Pl: 16
+    D: 48
+    T: 17
+    opt:
+      '1': 73
+      '2': 63
+      '3': 42
+      '4': 43
+      '5': 55
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-12.webp
+  text: |-
+    12. 設
+    1
+    2
+    ( ),
+    ( )
+    f x
+    f
+    x 為實係數三次多項式，
+    ( )
+    g x 為實係數二次多項式。已知
+    1
+    2
+    ( ),
+    ( )
+    f x
+    f
+    x
+    除以
+    ( )
+    g x 的餘式分別為
+    1
+    2
+    ( ),
+    ( )
+    r x
+    r x 。試選出正確的選項。
+    (1)
+    1( )
+    f x
+    
+    除以
+    ( )
+    g x 的餘式為
+    1( )
+    r x
+    
+
+    (2)
+    1
+    2
+    ( )
+    ( )
+    f x
+    f
+    x
+    
+    除以
+    ( )
+    g x 的餘式為
+    1
+    2
+    ( )
+    ( )
+    r x
+    r x
+    
+
+    (3)
+    1
+    2
+    ( )
+    ( )
+    x f
+    x
+    f
+    除以
+    ( )
+    g x 的餘式為
+    1
+    2
+    ( ) ( )
+    x r x
+    r
+
+    (4)
+    1( )
+    f x 除以
+    3 ( )
+    g x
+    
+    的餘式為
+    1
+    1 ( )
+    3
+    r x
+    
+
+    (5)
+    1
+    2
+    2
+    1
+    ( ) ( )
+    ( ) ( )
+    f x r x
+    f
+    x r x
+    
+    可被
+    ( )
+    g x 整除
+- id: mb108-13
+  'no': 13
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,4
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: false
+  classic_note: 108 課綱範圍外：空間中的平面方程式，數B 不考
+  stats:
+    P: 53
+    Ph: 88
+    Pl: 22
+    D: 66
+    T: 39
+    opt:
+      '1': 27
+      '2': 30
+      '3': 77
+      '4': 73
+      '5': 28
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-13.webp
+  text: |-
+    13. 坐標空間中有一平面P 過(0,0,0) , (1,2,3) 及( 1,2,3)
+    
+    三點。試選出正確的選項。
+    (1) 向量(0,3,2) 與平面P 垂直
+    (2) 平面P 與xy 平面垂直
+    (3) 點(0,4,6) 在平面P 上
+    (4) 平面P 包含x 軸
+    (5) 點(1,1,1) 到平面P 的距離是1
+- id: mb108-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,4
+  topic: B7
+  tags: []
+  concepts:
+  - B7
+  classic: true
+  stats:
+    P: 68
+    Ph: 96
+    Pl: 24
+    D: 72
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-14.webp
+  text: |-
+    說明：1.第A 至G 題，將答案畫記在答案卡之「選擇（填）題答案區」所標示的列號（14-30）
+    2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+    A. 設
+    ,x y 為實數，且滿足
+    3
+    1
+    3
+    6
+    2
+    4
+    1
+    6
+    1
+    x
+    y
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ，則
+    3
+    x
+    y
+    
+    ○
+    14  ○
+    15  。
+  label: 選填 A
+  cells:
+  - '14'
+  - '15'
+- id: mb108-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,9,4
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: false
+  classic_note: 108 課綱範圍外：由橢圓方程式求頂點（二次曲線）不在學測數B範圍
+  stats:
+    P: 60
+    Ph: 95
+    Pl: 13
+    D: 82
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-15.webp
+  text: |-
+    y
+    A
+    C
+    B
+    D
+    x
+
+    B. 如圖（此為示意圖），
+    , , ,
+    A B C D 是橢圓
+    2
+    2
+    2
+    1
+    16
+    x
+    y
+    a 
+    
+    的頂點。若四邊形ABCD的面積
+    為58，則a ○
+    16 ○
+    17
+    ○
+    18
+    。（化為最簡分數）
+  label: 選填 B
+  cells:
+  - '16'
+  - '17'
+  - '18'
+- id: mb108-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,0,5
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 26
+    Ph: 63
+    Pl: 2
+    D: 61
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-16.webp
+  text: |-
+    C. 某高中已有一個長90公尺、寬60 公尺的足球練習場。若想要在足球練習場的外
+    圍鋪設內圈總長度為400公尺的跑道，跑道規格為左右兩側各是直徑相同的半
+    圓，而中間是上下各一條的直線跑道，直線
+    跑道與足球練習場的長邊平行（如示意圖）。
+    則圖中一條直線跑道AB 長度的最大可能
+    整數值為○
+    19 ○
+    20 ○
+    21 公尺。
+
+
+
+
+    足球練習場
+    直線跑道
+    B
+    左
+    邊
+    跑
+    道
+
+    右
+    邊
+    跑
+    道
+
+    A
+  label: 選填 C
+  cells:
+  - '19'
+  - '20'
+  - '21'
+- id: mb108-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,1,5
+  topic: B9
+  tags: []
+  concepts:
+  - B9
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 30
+    Ph: 67
+    Pl: 3
+    D: 64
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-17.webp
+  text: |-
+    D. 某次選舉中進行甲、乙、丙三項公投案，每項公投案一張選票，投票人可選擇
+    領或不領。投票結束後清點某投票所的選票，發現甲案有765人領票、乙案有
+    537人領票、丙案有648人領票，同時領甲、乙、丙三案公投票的有224 人，並
+    且每個人都至少領了兩張公投票。根據以上資訊，可知同時領甲、乙兩案但沒
+    有領丙案公投票者共有○
+    22 ○
+    23 ○
+    24 人。
+  label: 選填 D
+  cells:
+  - '22'
+  - '23'
+  - '24'
+- id: mb108-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,3
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: true
+  stats:
+    P: 62
+    Ph: 95
+    Pl: 21
+    D: 74
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-18.webp
+  text: |-
+    E.如圖（此為示意圖），在
+    ABC
+    
+    中，AD 交BC 於D 點，BE 交AD 於E 點，且
+    30
+    ACB
+    
+    
+    ，
+    60
+    EDB
+    
+    
+    ，
+    120
+    AEB
+    
+    
+    。若
+    15
+    CD 
+    ，
+    7
+    ED 
+    ，
+    則AB ○
+    25 ○
+    26 。
+
+
+
+
+
+
+
+
+    A
+    B
+    D
+    C
+    E 120∘
+    60∘
+    30∘
+    7
+    15
+  label: 選填 E
+  cells:
+  - '25'
+  - '26'
+- id: mb108-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,3
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 46
+    Ph: 84
+    Pl: 18
+    D: 66
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-19.webp
+  text: |-
+    F. 坐標空間中，考慮有一個頂點在平面
+    0
+    z 
+    上、且有另一個頂點在平面
+    6
+    z 
+    上
+    的正立方體。則滿足前述條件的正立方體之邊長最小可能值為○
+    27
+    ○
+    28 。
+    （化成最簡根式）
+  label: 選填 F
+  cells:
+  - '27'
+  - '28'
+- id: mb108-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,3
+  topic: B6
+  tags: []
+  concepts:
+  - B6
+  classic: false
+  classic_note: 108 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 17
+    Ph: 43
+    Pl: 1
+    D: 42
+  explain: ''
+  reviewed: false
+  image: img/mathB/108-20.webp
+  text: |-
+    G. 如圖（此為示意圖），
+    , , ,
+    A B C D 為平面上的四個點。已知
+    BC ＝
+    AB ＋
+    AD，
+    AC、
+    BD
+    兩向量等長且互相垂直，則tan
+    BAD
+    
+    ＝○
+    29 ○
+    30 。
+
+
+
+
+
+
+
+
+
+    D
+    A
+    B
+    C
+  label: 選填 G
+  cells:
+  - '29'
+  - '30'

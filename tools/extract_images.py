@@ -32,9 +32,11 @@ def page_bounds(page):
         for line in b.get("lines", []):
             t = "".join(s["text"] for s in line["spans"]).strip()
             y0, y1 = line["bbox"][1], line["bbox"][3]
-            if y1 < 110 and re.search(r"學測|考科|頁|簽名|能力測驗", t):
+            # 頁首都是短字串；題目第一行也可能有「能力測驗」等字（101 年第 4 題），用長度排除
+            if y1 < 110 and len(t) <= 24 and re.search(r"學測|考科|頁|簽名|能力測驗", t):
                 top = max(top, y1 + 2)
-            if y0 > page.rect.height - 70 and re.fullmatch(r"[-－–\s\d]+|第\s*\d+\s*頁.*|.*共\s*\d+\s*頁", t):
+            small = all(sp["size"] < 9 for sp in line["spans"] if sp["text"].strip())  # 公式的下標數字，不是頁碼（104 年第 3 題）
+            if y0 > page.rect.height - 70 and not small and re.fullmatch(r"[-－–\s\d]+|第\s*\d+\s*頁.*|.*共\s*\d+\s*頁", t):
                 bottom = min(bottom, y0 - 2)
             if re.sub(r"\s", "", t) in ("背面還有試題", "請翻頁"):  # 頁尾的提示框（框線在文字上方約 14pt）
                 bottom = min(bottom, y0 - 16)
@@ -100,7 +102,8 @@ def question_starts(doc):
                 if g and x0 < width * 0.2:
                     groups.append((int(g.group(1)), int(g.group(2)), pno, y0))
                 if old_fill and x0 < width * 0.2:
-                    if re.match(r"^第[壹貳參肆]部分[:：]?\s*選填題", text):
+                    # 100 年的「第貳」和「部分：選填題」被拆成兩行
+                    if re.match(r"^(第[壹貳參肆])?部分[:：]?\s*選填題", text):
                         fill_head = (pno, y0)
                     lm = re.match(r"^([A-Z])\s*[.．]", text)
                     if lm:
@@ -120,6 +123,29 @@ def question_starts(doc):
                 expect += 1
                 want = chr(ord(want) + 1)
     return seq, groups
+
+
+# 舊制選填題作答格的列號寫法：○14（101、103、106–110 年）、圓圈數字 ⑭（100、104 年）、方格內的數字（102、105 年，抽出來是獨立的數字）
+CIRCLED = {**{chr(0x2460 + i): i + 1 for i in range(20)}, **{chr(0x3251 + i): 21 + i for i in range(15)},
+           **{chr(0x32B1 + i): 36 + i for i in range(15)}}
+
+
+def fill_cells(text, start):
+    """回傳這題作答格的列號（字串）。start＝這題第一格應有的列號（前一題最後一格＋1）。"""
+    cells = re.findall(r"○\s*(\d{1,2})", text)
+    if cells:
+        return cells
+    cells = [str(CIRCLED[c]) for c in text if c in CIRCLED]
+    if cells:
+        return cells
+    # 方格數字：排在題目最後一個中文字之後（兩列方格的順序可能顛倒），從 start 起取連號
+    tail = re.split(r"[\u4e00-\u9fff。]", text)[-1]
+    nums = {int(n) for n in re.findall(r"(?<![\d.])(\d{1,2})(?![\d.])", tail)}
+    out, want = [], start
+    while want is not None and want in nums:
+        out.append(str(want))
+        want += 1
+    return out
 
 
 def trim(img, pad=12):
@@ -300,6 +326,9 @@ def main():
     occs = [occupied(pg, *bounds[i]) for i, pg in enumerate(doc)]
     mq, mg = math_regions(doc, seq, groups, bounds) if MATH else ({}, {})
     items, gout = [], []
+    rows = re.search(r"列號\s*[（(]\s*(\d+)\s*[–\-－—~～]\s*(\d+)",
+                     re.sub(r"\s+", " ", unicodedata.normalize("NFKC", "\n".join(p.get_text() for p in doc))))
+    next_row = int(rows.group(1)) if rows else None  # 舊制選填題第一格的列號
     heads = sorted([(n, p, y) for n, p, y in seq] + [(g[0] - 0.5, g[2], g[3]) for g in groups]
                    + [(0, p, y) for p, y in groups_stop], key=lambda t: (t[1], t[2]))
     for idx, (no, pno, y0) in enumerate(seq):
@@ -325,8 +354,9 @@ def main():
         # 題型
         sub_keys = [k for k in key if k.startswith(f"{no}-")]
         ans = key.get(str(no))
-        cells = re.findall(r"○\s*(\d{1,2})", text) if no in OLD_FILL else None
+        cells = fill_cells(text, next_row) if no in OLD_FILL else None
         if cells:  # 舊制選填題：官方答案依「列號」給（例如 A 題占第 14、15 列）
+            next_row = int(cells[-1]) + 1
             typ, answer = "fill", ",".join(key[c].replace("–", "－").replace("-", "－") for c in cells)
         elif sub_keys:
             typ, answer = "fill", ",".join(key[k] for k in sorted(sub_keys, key=lambda k: int(k.split("-")[1])))
@@ -379,18 +409,22 @@ def main():
                      "image": f"img/{subject}/{name}", "passage": region_text(doc, pieces)})
 
     # 配分與題型：從「單選題／多選題」標題後的「說明：第a題至第b題…每題c分」推得
-    full = "\n".join(p.get_text() for p in doc)
+    full = unicodedata.normalize("NFKC", "\n".join(p.get_text() for p in doc))  # 部分舊卷的「說」「列」是相容漢字
     for kind, typ in (("單選題", "single"), ("多選題", "multi")):
         for m in re.finditer(kind + r"[^\n]*\n+\s*說明[:：]\s*第\s*(\d+)\s*題至第\s*(\d+)\s*題", full):
             for it in items:
                 if int(m.group(1)) <= it["no"] <= int(m.group(2)) and it["type"] in ("single", "multi"):
                     it["type"] = typ
+    for m in re.finditer(r"說明[:：]\s*第\s*(\d+)\s*題至第\s*(\d+)\s*題[^。]*?其中(只有一個|至少有一個)", full):
+        for it in items:
+            if int(m.group(1)) <= it["no"] <= int(m.group(2)) and it["type"] in ("single", "multi"):
+                it["type"] = "single" if m.group(3) == "只有一個" else "multi"
     for m in re.finditer(r"第\s*(\d+)\s*題至第\s*(\d+)\s*題[^。]*?每題\s*(\d+)\s*分", full):
         for it in items:
             if int(m.group(1)) <= it["no"] <= int(m.group(2)):
                 it["points"] = int(m.group(3))
     # 舊制（110 年以前）的說明寫法：「各題答對者，得 5 分」「所有選項均答對者，得 5 分」「每題完全答對給 5 分」
-    for m in re.finditer(r"第\s*(\d+)\s*題至第\s*(\d+)\s*題[\s\S]{0,200}?答對\s*者，?\s*得\s*(\d+)\s*分", full):
+    for m in re.finditer(r"第\s*(\d+)\s*題至第\s*(\d+)\s*題[\s\S]{0,200}?答\s*對\s*者?\s*[，,]?\s*得\s*(\d+)\s*分", full):
         for it in items:
             if it["points"] is None and int(m.group(1)) <= it["no"] <= int(m.group(2)):
                 it["points"] = int(m.group(3))
@@ -410,6 +444,13 @@ def main():
     out = ROOT / "data" / "questions" / subject / f"g{year}.yaml"
     doc_out = {"exam": "學測", "year": year, "subject": subject, "source": {"pdf": pdf_url},
                "groups": gout, "items": items}
+    if rows:
+        got = [int(c) for it in items for c in (it.get("cells") or [])]
+        if got != list(range(int(rows.group(1)), int(rows.group(2)) + 1)):
+            print(f"⚠️ 選填作答格列號不連續：{got}，應為 {rows.group(1)}–{rows.group(2)}")
+    for it in items:  # 多選題答案統一寫成 1,3,5（103 年的官方答案沒有逗號）
+        if it["type"] == "multi" and it["answer"] and "," not in it["answer"] and len(it["answer"]) > 1:
+            it["answer"] = ",".join(it["answer"])
     found = [i["no"] for i in items]
     # 舊制選填題的答案依列號編號（例如 14–32），題數要用找到的最後一題
     expected = max(found) if OLD_FILL else max(int(k.split("-")[0]) for k in key)

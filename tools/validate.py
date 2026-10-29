@@ -42,6 +42,8 @@ def main():
                 elif it["type"] == "fill":
                     subs = sorted((k for k in key if k.startswith(f"{it['no']}-")), key=lambda k: int(k.split("-")[1]))
                     official = ",".join(key[k] for k in subs)
+                elif it["type"] == "multi" and official and "," not in official and s.startswith("math"):
+                    official = ",".join(official)  # 103 年數學的多選答案沒有逗號（135），題庫統一寫成 1,3,5
                 if it["type"] in ("single", "multi", "fill"):
                     checked += 1
                     if (it.get("answer") or "") != (official or ""):

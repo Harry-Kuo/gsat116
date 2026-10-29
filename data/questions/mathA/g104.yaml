@@ -1,0 +1,1222 @@
+exam: 學測
+year: 104
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0j076557158402749634/03-104%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e5%ae%9a%e7%a8%bf.pdf
+groups: []
+items:
+- id: ma104-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: M8
+  tags: []
+  concepts:
+  - M8
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 88
+    Ph: 99
+    Pl: 67
+    D: 32
+    opt:
+      '1': 2
+      '2': 4
+      '3': 88
+      '4': 4
+      '5': 2
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-01.webp
+  text: |-
+    說明：第1 題至第4 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請畫記
+    在答案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或畫記多
+    於一個選項者，該題以零分計算。
+    1. 每週同一時間點記錄某植物的成長高度，連續五週的數據為
+    1
+    2
+    3
+    4
+    5
+    1,
+    2,
+    6,
+    15,
+    31
+    a
+    a
+    a
+    a
+    a
+    
+    
+    
+    
+    
+    。
+    請問此成長高度數列滿足下列選項中哪一個式子？
+    (1)
+    1
+    3
+    1
+    t
+    t
+    a
+    a
+    
+    ，
+    1, 2, 3, 4
+    t 
+
+    (2)
+    !
+    ta
+    t
+    
+    ，
+    1, 2, 3, 4, 5
+    t 
+
+    (3)
+    2
+    1
+    t
+    t
+    a
+    a
+    t
+    
+    
+    ，
+    1, 2, 3, 4
+    t 
+
+    (4)
+    2
+    1
+    t
+    ta 
+    ，
+    1, 2, 3, 4, 5
+    t 
+
+    (5)
+    1
+    1
+    t
+    t
+    a
+    ta
+    
+    ，
+    1, 2, 3, 4
+    t 
+- id: ma104-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M8
+  tags:
+  - M1
+  concepts:
+  - M8
+  - M1
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 68
+    Ph: 88
+    Pl: 44
+    D: 44
+    opt:
+      '1': 2
+      '2': 6
+      '3': 19
+      '4': 68
+      '5': 4
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-02.webp
+  text: |-
+    2. 第1 天獲得1 元、第2 天獲得2 元、第3 天獲得4 元、第4 天獲得8 元、依此
+    每天所獲得的錢為前一天的兩倍，如此進行到第30 天，試問這30 天所獲得的
+    錢，總數最接近下列哪一個選項？
+    (1) 10,000 元
+    (2) 1,000,000 元
+    (3) 100,000,000 元
+    (4) 1,000,000,000 元
+    (5) 1,000,000,000,000 元
+- id: ma104-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 57
+    Ph: 78
+    Pl: 33
+    D: 45
+    opt:
+      '1': 15
+      '2': 57
+      '3': 8
+      '4': 5
+      '5': 14
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-03.webp
+  text: |-
+    3. 有兩組供機器運作的配件A、B ，其單獨發生故障的機率分別為0.1、0.15。只
+    有當
+    ,
+    A B 都發生故障時，此機器才無法運作。A、B 兩配件若用串接方式，前面
+    故障會導致後面故障，但若後面故障則不會影響前面的故障情形；若用並列方
+    式，則故障情形互不影響。若考慮以下三種情形：
+    (一) 將B 串接於A之後
+    (二) 將A串接於B 之後
+    (三) 將
+    ,
+    A B 獨立並列
+    在情況(一)、(二)、(三)之下，機器無法運作的機率分別為
+    1p 、
+    2p 、
+    3p 。
+    請選出正確的選項。
+    (1)
+    1
+    2
+    3
+    p
+    p
+    p
+    
+    
+
+    (2)
+    2
+    1
+    3
+    p
+    p
+    p
+    
+    
+
+    (3)
+    3
+    2
+    1
+    p
+    p
+    p
+    
+    
+
+    (4)
+    3
+    1
+    2
+    p
+    p
+    p
+    
+    
+
+    (5)
+    1
+    2
+    3
+    p
+    p
+    p
+    
+    
+- id: ma104-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 108 課綱範圍外：線性規劃（目標函數的最大值）不在學測數A範圍
+  stats:
+    P: 31
+    Ph: 51
+    Pl: 15
+    D: 36
+    opt:
+      '1': 31
+      '2': 14
+      '3': 13
+      '4': 16
+      '5': 26
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-04.webp
+  text: |-
+    4. 一線性規劃問題的可行解區域為坐標平面上的正八邊形ABCDEFGH 及其內部，
+    如右圖。已知目標函數
+    3
+    ax
+    by
+    
+    
+    （其中
+    ,
+    a b 為實數）
+    的最大值只發生在B 點。請問當目標函數改為
+    3
+    bx
+    ay
+    
+    
+    時，最大值會發生在下列哪一點？
+    (1) A
+    (2) B
+    (3) C
+    (4) D
+    (5) E
+- id: ma104-05
+  'no': 5
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,4,5
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 48
+    Ph: 76
+    Pl: 20
+    D: 56
+    T: 28
+    opt:
+      '1': 41
+      '2': 58
+      '3': 20
+      '4': 78
+      '5': 73
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-05.webp
+  text: |-
+    說明：第5 題至第10 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選項
+    畫記在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答對者，
+    得5 分；答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2 個選項
+    或所有選項均未作答者，該題以零分計算。
+    5. 小明參加某次路跑10 公里組的比賽，下表爲小明手錶所記錄之各公里的完成
+    時間、平均心率及步數：
+
+    完成時間
+    平均心率
+    步數
+    第一公里
+    5:00
+    161
+    990
+    第二公里
+    4:50
+    162
+    1000
+    第三公里
+    4:50
+    165
+    1005
+    第四公里
+    4:55
+    162
+    995
+    第五公里
+    4:40
+    171
+    1015
+    第六公里
+    4:41
+    170
+    1005
+    第七公里
+    4:35
+    173
+    1050
+    第八公里
+    4:35
+    181
+    1050
+    第九公里
+    4:40
+    171
+    1050
+    第十公里
+    4:34
+    188
+    1100
+    在這10 公里的比賽過程，請依據上述數據，選出正確的選項。
+    (1) 由每公里的平均心率得知小明最高心率爲188
+    (2) 小明此次路跑，每步距離的平均小於1 公尺
+    (3) 每公里完成時間和每公里平均心率的相關係數爲正相關
+    (4) 每公里步數和每公里平均心率的相關係數爲正相關
+    (5) 每公里完成時間和每公里步數的相關係數爲負相關
+- id: ma104-06
+  'no': 6
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4,5
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: false
+  classic_note: 108 課綱範圍外：選項用到虛根（複數），不在學測數A範圍
+  stats:
+    P: 45
+    Ph: 74
+    Pl: 18
+    D: 56
+    T: 25
+    opt:
+      '1': 84
+      '2': 43
+      '3': 24
+      '4': 76
+      '5': 48
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-06.webp
+  text: |-
+    6. 設
+    ( )
+    f x 是首項係數為1 的實係數二次多項式。請選出正確的選項。
+    (1) 若
+    (2)
+    0
+    f
+    
+    ，則
+    2
+    x 
+    可整除
+    ( )
+    f x
+    (2) 若
+    (2)
+    0
+    f
+    
+    ，則
+    ( )
+    f x 為整係數多項式
+    (3) 若
+    ( 2)
+    0
+    f
+    
+    ，則
+    (
+    2)
+    0
+    f 
+    
+
+    (4) 若
+    (2 )
+    0
+    f
+    i 
+    ，則
+    ( 2 )
+    0
+    f
+    i
+    
+    
+
+    (5) 若
+    (2 )
+    0
+    f
+    i 
+    ，則
+    ( )
+    f x 為整係數多項式
+- id: ma104-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,4
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 67
+    Ph: 92
+    Pl: 32
+    D: 60
+    T: 52
+    opt:
+      '1': 78
+      '2': 85
+      '3': 21
+      '4': 75
+      '5': 14
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-07.webp
+  text: |-
+    7. 坐標平面上，在函數圖形
+    2x
+    y 
+    上，標示A、B 、C 、D 四個點，其x 坐標分別為
+    1
+    、0、1、2。請選出正確的選項。
+    (1) 點B 落在直線AC 下方
+    (2) 在直線AB 、直線BC 、直線CD 中，以直線CD 的斜率最大
+    (3) A 、B 、C 、D 四個點，以點B 最靠近x軸
+    (4) 直線
+    2
+    y
+    x
+    
+    與
+    2x
+    y 
+    的圖形有兩個交點
+    (5) 點A 與點C 對稱於y 軸
+- id: ma104-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,4,5
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 108 課綱範圍外：雙曲線（二次曲線）不在學測數A範圍
+  stats:
+    P: 48
+    Ph: 71
+    Pl: 24
+    D: 47
+    T: 21
+    opt:
+      '1': 70
+      '2': 80
+      '3': 41
+      '4': 65
+      '5': 79
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-08.webp
+  text: |-
+    8. 坐標平面上有一雙曲線，其漸近線為
+    0
+    x
+    y
+    
+    
+    和
+    0
+    x
+    y
+    
+    。關於此雙曲線的性質，
+    請選出正確的選項。
+    (1) 此雙曲線的方程式為
+    2
+    2
+    2
+    2
+    1
+    x
+    y
+    r
+    r
+    
+    或
+    2
+    2
+    2
+    2
+    1
+    x
+    y
+    r
+    r
+    
+    ，其中r 為非零實數
+    (2) 此雙曲線的貫軸長等於共軛軸長
+    (3) 若點( , )
+    a b 為此雙曲線在第一象限上一點，則當
+    1000
+    a 
+    時，
+    1
+    a
+    b
+    
+    
+    (4) 若點( , ), ( ', ')
+    a b
+    a
+    b 為此雙曲線在第一象限上兩點且
+    '
+    a
+    a
+    
+    ，則
+    '
+    b
+    b
+    
+
+    (5) 此雙曲線同時對稱於x軸與y 軸
+- id: ma104-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,4
+  topic: M4
+  tags:
+  - M3
+  concepts:
+  - M4
+  - M3
+  classic: true
+  stats:
+    P: 49
+    Ph: 77
+    Pl: 25
+    D: 52
+    T: 29
+    opt:
+      '1': 30
+      '2': 73
+      '3': 32
+      '4': 78
+      '5': 36
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-09.webp
+  text: |-
+    9. 如圖，以M 為圓心、
+    8
+    MA =
+    為半徑畫圓，AE 為該圓的直徑，B 、C 、D 三點皆
+    在圓上，且AB
+    BC
+    CD
+    DE
+    =
+    =
+    =
+    。若
+    8(cos(θ
+    90 ), sin(θ
+    90 ))
+    MD 
+    
+    
+    
+    
+    
+    。請選出正確的選
+    項。
+    (1)
+    8(cosθ, sinθ)
+    MA 
+    
+
+    (2)
+    8(cos(θ
+    45 ), sin(θ
+    45 ))
+    MC 
+    
+    
+    
+    
+    
+
+    (3) （內積）
+    8
+    MA MA
+    
+    
+    
+
+    (4) （內積）
+    0
+    MB MD
+    
+    
+    
+
+    (5)
+    8(cosθ
+    cos(θ
+    90 ), sinθ
+    sin(θ
+    90 ))
+    BD 
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    E
+    B
+    C
+    D
+    A
+    M
+- id: ma104-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,4
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 45
+    Ph: 64
+    Pl: 29
+    D: 35
+    T: 21
+    opt:
+      '1': 19
+      '2': 51
+      '3': 84
+      '4': 82
+      '5': 46
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-10.webp
+  text: |-
+    10. 某一班共有45 人，問卷調查有手機與平板電腦的人數。從統計資料顯示此班
+    有35 人有手機，而有24 人有平板電腦。設：
+    A 為同時有手機與平板電腦的人數
+    B 為有手機，但沒有平板電腦的人數
+    C 為沒有手機，但有平板電腦的人數
+    D 為沒有手機，也沒有平板電腦的人數
+    請選出恆成立的不等式選項。
+    (1) A＞B
+    (2) A＞C
+    (3) B＞C
+    (4) B＞D
+    (5) C＞D
+- id: ma104-11
+  'no': 11
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 6,2
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 43
+    Ph: 81
+    Pl: 4
+    D: 77
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-11.webp
+  text: |-
+    說明：1.第A 至J 題，將答案畫記在答案卡之「選擇（填）題答案區」所標示的列號（11–37）。
+    2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+    A. 如圖，老王在平地點A 測得遠方山頂點P 的仰角為13。老王朝著山的方向前進
+    37 公丈後來到點B ，再測得山頂點P 的仰角為15。則山高約為 ⑪⑫ 公丈。
+    （四捨五入至個位數，tan13
+    0.231
+    
+    ，tan15
+    0.268
+    
+    ）
+
+
+
+
+
+    A
+    37
+    B
+    P
+  label: 選填 A
+  cells:
+  - '11'
+  - '12'
+- id: ma104-12
+  'no': 12
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,2
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: true
+  stats:
+    P: 39
+    Ph: 64
+    Pl: 18
+    D: 46
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-12.webp
+  text: |-
+    B. 不透明袋中有3 白3 紅共6 個球，球大小形狀相同，僅顏色相異。甲、乙、丙、
+    丁、戊5 人依甲第一、乙第二、… …、戊第五的次序，從袋中各取一球，取後不
+    放回。試問在甲、乙取出不同色球的條件下，戊取得紅球的機率為 ⑬
+    ⑭。（化為
+    最簡分數）
+  label: 選填 B
+  cells:
+  - '13'
+  - '14'
+- id: ma104-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 7,0
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: true
+  stats:
+    P: 21
+    Ph: 49
+    Pl: 3
+    D: 46
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-13.webp
+  text: |-
+    C. 小燦預定在陽台上種植玫瑰、百合、菊花和向日葵等四種盆栽。如果陽台上的
+    空間最多能種8 盆，可以不必擺滿，並且每種花至少一盆，則小燦買盆栽的方
+    法共有 ⑮⑯  種。
+  label: 選填 C
+  cells:
+  - '15'
+  - '16'
+- id: ma104-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 6,2,2,6
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 13
+    Ph: 36
+    Pl: 0
+    D: 36
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-14.webp
+  text: |-
+    D. 平面
+    0
+    x
+    y
+    z
+    
+    
+    
+    與三平面
+    2
+    x 
+    ，
+    2
+    x
+    y
+    
+    ，
+    2
+    x
+    y
+    
+    
+    分別相交所得的三直線可圍成
+    一個三角形。此三角形之周長化成最簡根式，可表為a b
+    c d
+    
+    ，其中
+    ,  ,  ,
+    a b c d
+    為正整數且b
+    d
+    
+    ，則a  ⑰ ，b  ⑱ ，c  ⑲ ，d  ⑳ 。
+  label: 選填 D
+  cells:
+  - '17'
+  - '18'
+  - '19'
+  - '20'
+- id: ma104-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 9,1
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: true
+  stats:
+    P: 31
+    Ph: 71
+    Pl: 1
+    D: 70
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-15.webp
+  text: |-
+    E. 坐標平面上，直線
+    1L 與
+    2
+    L 的方程式分別為
+    2
+    0
+    x
+    y
+    
+    
+    與3
+    5
+    0
+    x
+    y
+    
+    
+    。為了確定平面
+    上某一定點P 的坐標，從
+    1L 上的一點
+    1
+    Q 偵測得向量
+    1
+    ( 7, 9)
+    Q P 
+    
+    ，再從
+    2
+    L 上的點
+    2
+    Q
+    偵測得向量
+    2
+    ( 6,
+    8)
+    Q P 
+    
+    
+    　
+    ，則P 點的坐標為（ ㉑  , ㉒ ）。
+  label: 選填 E
+  cells:
+  - '21'
+  - '22'
+- id: ma104-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 8,1,8,1
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 26
+    Ph: 57
+    Pl: 3
+    D: 54
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-16.webp
+  text: |-
+    F. 小華準備向銀行貸款3 百萬元當做創業基金，其年利率爲3%，約定三年期滿一
+    次還清貸款的本利和。銀行貸款一般以複利（每年複利一次）計息還款，但給小
+    華創業優惠改以單利計息還款。試問在此優惠下，小華在三年期滿還款時可以
+    比一般複利計息少繳 ㉓㉔㉕㉖ 元。
+  label: 選填 F
+  cells:
+  - '23'
+  - '24'
+  - '25'
+  - '26'
+- id: ma104-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,4
+  topic: M5
+  tags: []
+  concepts:
+  - M5
+  classic: true
+  stats:
+    P: 46
+    Ph: 81
+    Pl: 10
+    D: 71
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-17.webp
+  text: |-
+    G. 某一公司，有A、B、C 三個營業據點，開始時各有36 位營業員，為了讓營業
+    員了解各據點業務狀況，所以進行兩次調動。每次調動都是：
+    將當時A 據點營業員中的1/6 調到B 據點、1/6 調到C 據點；
+    將當時B 據點營業員中的1/6 調到A 據點、1/3 調到C 據點；
+    將當時C 據點營業員中的1/6 調到A 據點、1/6 調到B 據點。
+    則兩次的調動後，C 據點有 ㉗㉘ 位營業員。
+  label: 選填 G
+  cells:
+  - '27'
+  - '28'
+- id: ma104-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,6,5
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 43
+    Ph: 77
+    Pl: 11
+    D: 66
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-18.webp
+  text: |-
+    H. 有一底面為正方形的四角錐，其展開圖如下圖所示，其中兩側面的三角形邊
+    長為3,4,5，則此角錐的體積為㉙㉚
+    ㉛
+    3
+    。（化為最簡根式）
+  label: 選填 H
+  cells:
+  - '29'
+  - '30'
+  - '31'
+- id: ma104-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,5,2,9
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 13
+    Ph: 33
+    Pl: 0
+    D: 33
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-19.webp
+  text: |-
+    I. 在空間中，一個斜面的「坡度」定義為斜面與水平面夾角的正切值tan 。若
+    一金字塔（底部為一正方形，四個斜面為等腰三角形）的每一個斜面的坡度皆
+    為2
+    5，如圖。則相鄰斜面的夾角的餘弦函數的絕對值為㉜㉝
+    ㉞㉟。（化為最簡分數）
+  label: 選填 I
+  cells:
+  - '32'
+  - '33'
+  - '34'
+  - '35'
+- id: ma104-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 6,1
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: false
+  classic_note: 104 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 32
+    Ph: 71
+    Pl: 2
+    D: 69
+  explain: ''
+  reviewed: false
+  image: img/mathA/104-20.webp
+  text: |-
+    J. 下圖為汽車迴轉示意圖。汽車迴轉時，將方向盤轉動到極限，以低速讓汽車進
+    行轉向圓周運動，汽車轉向時所形成的圓周的半徑就是迴轉半徑，如圖中的BC
+    即是。已知在低速前進時，圖中A 處的輪胎行進方向與AC垂直，B 處的輪胎行
+    進方向與BC 垂直。在圖中，已知軸距AB為2.85 公尺，方向盤轉到極限時，輪
+    子方向偏了28 度，試問此車的迴轉半徑BC 為 ㊱.㊲ 公尺。（小數點後第一
+    位以下四捨五入，sin28
+    0.4695, cos28
+    0.8829
+    
+    
+    ）
+
+
+    2.85 公尺
+    A
+
+    B
+    C
+  label: 選填 J
+  cells:
+  - '36'
+  - '37'

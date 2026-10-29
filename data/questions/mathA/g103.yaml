@@ -1,0 +1,1278 @@
+exam: 學測
+year: 103
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0j076555824788448535/03-103%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e8%a9%a6%e9%a1%8c%28%e5%ae%9a%e7%a8%bf%29.pdf
+groups: []
+items:
+- id: ma103-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 82
+    Ph: 99
+    Pl: 54
+    D: 45
+    opt:
+      '1': 7
+      '2': 4
+      '3': 5
+      '4': 3
+      '5': 82
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-01.webp
+  text: |-
+    說明：第1 題至第6 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請畫記
+    在答案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或畫記多
+    於一個選項者，該題以零分計算。
+    1. 請問下列哪一個選項等於
+    
+    
+    5
+    3
+    log 2
+    
+    
+    
+    
+    
+    
+    ？
+    (1)
+    
+    
+    3
+    5log 2
+
+    (2) 3
+    5log 2
+    
+
+    (3) 5log 2
+    log3
+    
+
+    (4)
+    
+    
+    5 log2
+    log3
+    
+
+    (5)
+    5
+    3 log 2
+- id: ma103-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 74
+    Ph: 95
+    Pl: 42
+    D: 53
+    opt:
+      '1': 2
+      '2': 7
+      '3': 10
+      '4': 74
+      '5': 7
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-02.webp
+  text: |-
+    2. 令
+    (5,0,12)
+    A
+    、
+    ( 5,0,12)
+    B 
+    為坐標空間中之兩點，且令P 為xy 平面上滿足
+    13
+    PA
+    PB
+    
+    
+    的點。請問下列哪一個選項中的點可能為P ？
+    (1) (5,0,0)
+    (2) (5,5,0)
+    (3) (0,12,0)
+    (4) (0,0,0)
+    (5) (0,0,24)
+- id: ma103-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 73
+    Ph: 96
+    Pl: 37
+    D: 59
+    opt:
+      '1': 4
+      '2': 73
+      '3': 8
+      '4': 6
+      '5': 9
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-03.webp
+  text: |-
+    3. 在坐標平面上，以(1,1), ( 1,1), ( 1, 1)
+    
+    
+    
+    及(1, 1)
+    
+    等四個點為頂點的正方形，與圓
+    2
+    2
+    2
+    2
+    1
+    0
+    x
+    y
+    x
+    y
+    
+    
+    
+    
+    有幾個交點？
+    (1) 1 個
+    (2) 2 個
+    (3) 3 個
+    (4) 4 個
+    (5) 0 個
+- id: ma103-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 68
+    Ph: 95
+    Pl: 30
+    D: 65
+    opt:
+      '1': 3
+      '2': 7
+      '3': 9
+      '4': 68
+      '5': 12
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-04.webp
+  text: |-
+    4. 請問滿足絕對值不等式4
+    12
+    2
+    x
+    x
+    
+    
+    的實數x 所形成的區間，其長度為下列哪一
+    個選項？
+    (1) 1
+    (2) 2
+    (3) 3
+    (4) 4
+    (5) 6
+- id: ma103-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 69
+    Ph: 97
+    Pl: 33
+    D: 64
+    opt:
+      '1': 8
+      '2': 69
+      '3': 13
+      '4': 7
+      '5': 3
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-05.webp
+  text: |-
+    5. 設
+    6
+    (1
+    2)
+    2
+    a
+    b
+    
+    
+    
+    ，其中
+    ,a b 為整數。請問b 等於下列哪一個選項？
+    (1)
+    6
+    6
+    2
+    6
+    3
+    6
+    0
+    2
+    4
+    6
+    2
+    2
+    2
+    C
+    C
+    C
+    C
+    
+    
+    
+
+    (2)
+    6
+    6
+    2
+    6
+    1
+    3
+    5
+    2
+    2
+    C
+    C
+    C
+    
+    
+
+    (3)
+    6
+    6
+    2
+    6
+    3
+    6
+    4
+    6
+    5
+    6
+    6
+    6
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    2
+    2
+    2
+    2
+    2
+    2
+    C
+    C
+    C
+    C
+    C
+    C
+    C
+    
+    
+    
+    
+    
+    
+
+    (4)
+    6
+    2
+    6
+    3
+    6
+    1
+    3
+    5
+    2
+    2
+    2
+    C
+    C
+    C
+    
+    
+
+    (5)
+    6
+    2
+    6
+    4
+    6
+    6
+    6
+    0
+    2
+    4
+    6
+    2
+    2
+    2
+    C
+    C
+    C
+    C
+    
+    
+    
+- id: ma103-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: true
+  stats:
+    P: 33
+    Ph: 55
+    Pl: 22
+    D: 33
+    opt:
+      '1': 20
+      '2': 33
+      '3': 22
+      '4': 9
+      '5': 16
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-06.webp
+  text: |-
+    6. 某疾病可分為兩種類型：第一類占70%，可藉由藥物A 治療，其每一次療程
+    的成功率為70%，且每一次療程的成功與否互相獨立；其餘為第二類，藥物A
+    治療方式完全無效。在不知道患者所患此疾病的類型，且用藥物A 第一次療
+    程失敗的情況下，進行第二次療程成功的條件機率最接近下列哪一個選項？
+    (1) 0.25
+    (2) 0.3
+    (3) 0.35
+    (4) 0.4
+    (5) 0.45
+- id: ma103-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3,5
+  topic: M1
+  tags:
+  - M2
+  concepts:
+  - M1
+  - M2
+  classic: true
+  stats:
+    P: 62
+    Ph: 89
+    Pl: 32
+    D: 57
+    T: 40
+    opt:
+      '1': 89
+      '2': 19
+      '3': 82
+      '4': 15
+      '5': 55
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-07.webp
+  text: |-
+    說明：第7 題至第12 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選項
+    畫記在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答對者，
+    得5 分；答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2 個選項
+    或所有選項均未作答者，該題以零分計算。
+    7. 設坐標平面上，x 坐標與y 坐標皆為整數的點稱為格子點。請選出圖形上有格
+    子點的選項。
+    (1)
+    2
+    y
+    x
+    
+
+    (2) 3
+    9
+    1
+    y
+    x
+    
+    
+    (3)
+    2
+    2
+    y
+    x
+    
+
+    (4)
+    2
+    2
+    3
+    x
+    y
+    
+    
+
+    (5)
+    9
+    1
+    log
+    2
+    y
+    x
+    
+    
+- id: ma103-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 73
+    Ph: 92
+    Pl: 45
+    D: 47
+    T: 59
+    opt:
+      '1': 87
+      '2': 16
+      '3': 14
+      '4': 87
+      '5': 20
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-08.webp
+  text: |-
+    8. 關於下列不等式，請選出正確的選項。
+    (1)
+    13
+    3.5
+    
+
+    (2)
+    13
+    3.6
+    
+
+    (3)
+    13
+    3
+    10
+    
+    
+
+    (4)
+    13
+    3
+    16
+    
+    
+
+    (5)
+    1
+    0.6
+    13
+    3
+    
+    
+- id: ma103-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,4
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 71
+    Ph: 94
+    Pl: 42
+    D: 52
+    T: 53
+    opt:
+      '1': 16
+      '2': 80
+      '3': 86
+      '4': 85
+      '5': 16
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-09.webp
+  text: |-
+    9. 一物體由坐標平面中的點( 3,6)
+    
+    出發，沿著向量
+    v 所指的方向持續前進，可以
+    進入第一象限。請選出正確的選項。
+    (1)
+    v = (1, 2)
+    
+
+    (2)
+    v = (1, 1)
+    
+
+    (3)
+    v = (0.001,0)
+    (4)
+    v = (0.001,1)
+    (5)
+    v = ( 0.001,1)
+    
+- id: ma103-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,4
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 53
+    Ph: 83
+    Pl: 24
+    D: 59
+    T: 31
+    opt:
+      '1': 18
+      '2': 24
+      '3': 83
+      '4': 72
+      '5': 46
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-10.webp
+  text: |-
+    10. 設
+    ( )
+    f x 為實係數二次多項式，且已知
+    (1)
+    0
+    f
+    
+    、
+    (2)
+    0
+    f
+    
+    、
+    (3)
+    0
+    f
+    
+    。
+    令
+    ( )
+    ( )
+    (
+    2)(
+    3)
+    g x
+    f x
+    x
+    x
+    
+    
+    
+    
+    ，請選出正確的選項。
+    (1)
+    ( )
+    y
+    f x
+    
+    的圖形是開口向下的拋物線
+    (2)
+    ( )
+    y
+    g x
+    
+    的圖形是開口向下的拋物線
+    (3)
+    (1)
+    (1)
+    g
+    f
+    
+
+    (4)
+    ( )
+    0
+    g x 
+    在1 與2 之間恰有一個實根
+    (5) 若為
+    ( )
+    0
+    f x 
+    的最大實根，則
+    ( )
+    0
+    g 
+- id: ma103-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,5
+  topic: M8
+  tags: []
+  concepts:
+  - M8
+  classic: true
+  stats:
+    P: 50
+    Ph: 80
+    Pl: 20
+    D: 60
+    T: 32
+    opt:
+      '1': 48
+      '2': 86
+      '3': 79
+      '4': 25
+      '5': 68
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-11.webp
+  text: |-
+    11. 設
+    1
+    1
+    a 且
+    1
+    2
+    3
+    ,
+    ,
+    ,
+    a a a 為等差數列。請選出正確的選項。
+    (1) 若
+    100
+    0
+    a
+    
+    ，則
+    1000
+    0
+    a
+    
+
+    (2) 若
+    100
+    0
+    a
+    
+    ，則
+    1000
+    0
+    a
+    
+
+    (3) 若
+    1000
+    0
+    a
+    
+    ，則
+    100
+    0
+    a
+    
+
+    (4) 若
+    1000
+    0
+    a
+    
+    ，則
+    100
+    0
+    a
+    
+
+    (5)
+    1000
+    10
+    100
+    1
+    10(
+    )
+    a
+    a
+    a
+    a
+    
+    
+    
+- id: ma103-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 44
+    Ph: 67
+    Pl: 25
+    D: 42
+    T: 19
+    opt:
+      '1': 89
+      '2': 23
+      '3': 32
+      '4': 38
+      '5': 26
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-12.webp
+  text: |-
+    12. 所謂某個年齡範圍的失業率，是指該年齡範圍的失業人數與勞動力人數之比，
+    以百分數表達（進行統計分析時，所有年齡以整數表示）。下表為去年某國四
+    個年齡範圍的失業率，其中的年齡範圍有所重疊。
+    年齡範圍 35~44 歲
+    35~39 歲
+    40~44 歲
+    45~49 歲
+    失業率
+    12.66(%)
+    9.80(%)
+    13.17(%)
+    7.08(%)
+
+    請根據上表選出正確的選項。
+    (1) 在上述四個年齡範圍中，以40~44 歲的失業率為最高
+    (2) 40~44 歲勞動力人數多於45~49 歲勞動力人數
+    (3) 40~49 歲的失業率等於
+    13.17
+    7.08 %
+    2
+    
+    
+    
+    
+    
+    
+    
+
+    (4) 35~39 歲勞動力人數少於40~44 歲勞動力人數
+    (5) 如果40~44 歲的失業率降低，則45~49 歲的失業率會升高
+- id: ma103-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,2,0,1,3
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 64
+    Ph: 97
+    Pl: 17
+    D: 80
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-13.webp
+  text: |-
+    說明：1.第A 至H 題，將答案畫記在答案卡之「選擇（填）題答案區」所標示的列號（13–36）。
+    2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+
+    A. 設圓O 之半徑為24，
+    26
+    OC 
+    ，OC 交圓O 於A 點，
+    CD 切圓O 於D 點，B 為A 點到OD 的垂足，如右
+    邊的示意圖。則AB ○
+    13○
+    14○
+    15
+    ○
+    16○
+    17
+    。(化為最簡分數)
+  label: 選填 A
+  cells:
+  - '13'
+  - '14'
+  - '15'
+  - '16'
+  - '17'
+- id: ma103-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 6,－,9
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: true
+  stats:
+    P: 15
+    Ph: 42
+    Pl: 0
+    D: 42
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-14.webp
+  text: |-
+    B. 坐標平面上，若直線y
+    ax
+    b
+    
+    
+    (其中
+    ,a b 為實數)與二次函數
+    2
+    y
+    x
+    
+    的圖形恰交於一
+    點，亦與二次函數
+    2
+    (
+    2)
+    12
+    y
+    x
+    
+    
+    
+    的圖形恰交於一點，則a ○
+    18 ，b ○
+    19 ○
+    20 。
+  label: 選填 B
+  cells:
+  - '18'
+  - '19'
+  - '20'
+- id: ma103-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,3
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 103 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 49
+    Ph: 87
+    Pl: 7
+    D: 80
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-15.webp
+  text: |-
+    C. 小鎮A 距離一筆直道路6 公里，並與道路上的小鎮B 相距12 公里。今欲在此
+    道路上蓋一家超級市場使其與
+    A, B 等距，則此超級市場與
+    A 的距離須為
+    ○
+    21
+    ○
+    22 公里。(化為最簡根式)
+  label: 選填 C
+  cells:
+  - '21'
+  - '22'
+- id: ma103-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 5,4
+  topic: M4
+  tags:
+  - M2
+  concepts:
+  - M4
+  - M2
+  classic: true
+  stats:
+    P: 31
+    Ph: 76
+    Pl: 1
+    D: 75
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-16.webp
+  text: |-
+    D. 坐標空間中有四點
+    (2,0,0)
+    A
+    、
+    (3,4,2)
+    B
+    、
+    ( 2,4,0)
+    C 
+    與
+    ( 1,3,1)
+    D 
+    。若點P 在直線CD
+    上變動，則內積
+    PA 
+    PB 之最小可能值為○
+    23
+    ○
+    24
+    。(化為最簡分數)
+  label: 選填 D
+  cells:
+  - '23'
+  - '24'
+- id: ma103-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,3,2
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 31
+    Ph: 75
+    Pl: 1
+    D: 74
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-17.webp
+  text: |-
+    E. 設
+    u ,
+    v 為兩個長度皆為1 的向量。若
+    u +
+    v 與
+    u 的夾角為75，則
+    u 與
+    v 的內積
+    為○
+    25
+    ○
+    26
+    ○
+    27
+    。(化為最簡根式)
+  label: 選填 E
+  cells:
+  - '25'
+  - '26'
+  - '27'
+- id: ma103-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,1
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: true
+  stats:
+    P: 22
+    Ph: 44
+    Pl: 5
+    D: 39
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-18.webp
+  text: |-
+    F. 一個房間的地面是由12 個正方形所組成，
+    如右圖。今想用長方形瓷磚舖滿地面，已知
+    每一塊長方形瓷磚可以覆蓋兩個相鄰的正
+    方形，即
+    或
+    。則用6 塊瓷磚舖
+    滿房間地面的方法有○
+    28 ○
+    29 種。
+  label: 選填 F
+  cells:
+  - '28'
+  - '29'
+- id: ma103-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,3,8
+  topic: M5
+  tags: []
+  concepts:
+  - M5
+  classic: true
+  stats:
+    P: 35
+    Ph: 76
+    Pl: 4
+    D: 72
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-19.webp
+  text: |-
+    G. 已知
+    a
+    b
+    c
+    d
+    
+    
+    
+    
+    
+    
+    是一個轉移矩陣，並且其行列式(值)為5
+    8 。則a
+    d
+    
+    ○
+    30○
+    31
+    ○
+    32
+    。(化為
+    最簡分數)
+  label: 選填 G
+  cells:
+  - '30'
+  - '31'
+  - '32'
+- id: ma103-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 6,2,2,2
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 28
+    Ph: 64
+    Pl: 2
+    D: 62
+  explain: ''
+  reviewed: false
+  image: img/mathA/103-20.webp
+  text: |-
+    H. 如圖，正三角形ABC 的邊長為1，並且
+    1
+    2
+    3
+    15
+    
+    。
+    已知
+    6
+    2
+    sin15
+    4
+    
+    
+    ，則正三角形DEF 的邊長為
+    ○
+    33
+    ○
+    34
+     – ○
+    35
+    ○
+    36
+    。(化為最簡根式)
+  label: 選填 H
+  cells:
+  - '33'
+  - '34'
+  - '35'
+  - '36'

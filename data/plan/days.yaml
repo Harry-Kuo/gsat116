@@ -287,749 +287,749 @@ days:
       science: [sci111-36, sci112-30, sci112-31]
       social: [soc112-02, soc111-38, soc111-39, soc111-40, soc111-41]
   - day: 32
-    theme: {chinese: 鄭成功與鯨、回憶與夢、古典的閱讀, english: 文意選填（上）（111：特技演員）, mathA: 第二輪：三角與坐標幾何, mathB: 第二輪：數列與週期規律, science: 化學與生活、環境、大氣與氣象、化學計量與熱化學, social: 氣候與生態、地圖與地理資訊系統、法律原則}
+    theme: {chinese: 鄭成功與鯨、回憶與夢、古典的閱讀, english: 文意選填（上）（111：特技演員）, mathA: 新題 108 學測：直線與圓、數列、機率統計、多項式, mathB: 新題 108 學測：指對數、排列組合、數據分析、數列, science: 化學與生活、環境、大氣與氣象、化學計量與熱化學, social: 氣候與生態、地圖與地理資訊系統、法律原則}
     sets:
       chinese: [chn113-30, chn113-31, chn113-34, chn113-35, chn112-34]
       english: [eng111-21, eng111-22, eng111-23, eng111-24, eng111-25]
-      mathA: [ma112-02, ma113-06, ma113-08, ma112-12, ma113-10]
-      mathB: [mb113-08, mb113-10, mb112-08, mb111-02, mb112-14]
+      mathA: [ma108-01, ma108-07, ma108-11, ma108-12, ma112-02]
+      mathB: [mb108-03, mb108-04, mb108-05, mb108-06, mb111-02]
       science: [sci111-37, sci111-39, sci111-41, sci111-42, sci112-12]
       social: [soc112-34, soc112-35, soc112-03, soc111-44, soc111-45, soc111-46]
   - day: 33
-    theme: {chinese: 山笑、李漁的廳壁, english: 文意選填（下）（111：特技演員）, mathA: 第二輪：矩陣與方程組, mathB: 第二輪：機率與統計, science: 地質與地球歷史、波動與光、化學與生活、環境, social: 地形與自然環境、氣候與生態、經濟學概念}
+    theme: {chinese: 山笑、李漁的廳壁, english: 文意選填（下）（111：特技演員）, mathA: 新題 108 學測：向量與空間、指對數、排列組合、三角, mathB: 新題 108 學測：指對數、機率、三角、矩陣, science: 地質與地球歷史、波動與光、化學與生活、環境, social: 地形與自然環境、氣候與生態、經濟學概念}
     sets:
       chinese: [chn114-06, chn114-07, chn114-08, chn114-20, chn114-21]
       english: [eng111-26, eng111-27, eng111-28, eng111-29, eng111-30]
-      mathA: [ma113-11, ma113-12, ma112-11, ma112-13, ma113-13]
-      mathB: [mb113-12, mb113-14, mb112-05, mb112-04, mb113-07]
+      mathA: [ma108-13, ma108-16, ma108-17, ma108-19, ma112-12]
+      mathB: [mb108-08, mb108-09, mb108-10, mb108-14, mb112-08]
       science: [sci111-43, sci111-44, sci112-32, sci111-55, sci111-56]
       social: [soc112-36, soc112-37, soc112-04, soc111-55, soc112-38, soc112-39]
   - day: 34
-    theme: {chinese: 錢乙的藥方、晚明遊西湖, english: 篇章結構（111：盂蘭盆節）＋詞彙, mathA: 第二輪：數列與統計, mathB: 第二輪：坐標幾何與經緯度, science: 細胞與細胞分裂、大氣與氣象、力學與運動, social: 經濟學概念、臺灣史、全球化與多元文化}
+    theme: {chinese: 錢乙的藥方、晚明遊西湖, english: 篇章結構（111：盂蘭盆節）＋詞彙, mathA: 新題 108–107 學測：向量與空間、機率統計、三角, mathB: 新題 108–107 學測：三角、空間、機率、指對數, science: 細胞與細胞分裂、大氣與氣象、力學與運動, social: 經濟學概念、臺灣史、全球化與多元文化}
     sets:
       chinese: [chn114-22, chn114-23, chn114-24, chn114-30, chn114-31]
       english: [eng111-31, eng111-32, eng111-33, eng111-34, eng110-05]
-      mathA: [ma112-07, ma112-09, ma113-09, ma112-03, ma111-04]
-      mathB: [mb113-03, mb112-11, mb112-16, mb113-16, mb112-12]
+      mathA: [ma108-20, ma107-03, ma107-05, ma107-07, ma113-06]
+      mathB: [mb108-18, mb107-01, mb107-02, mb107-04, mb112-14]
       science: [sci112-13, sci112-01, sci112-33, sci112-19, sci112-14]
       social: [soc112-22, soc112-23, soc111-61, soc111-62, soc112-40, soc112-41]
   - day: 35
-    theme: {chinese: 概念框架、桃花源、屈原、原創者, english: 閱讀測驗（111：馬賽族）＋詞彙, mathA: 第二輪：向量與空間, mathB: 第二輪：圓錐截痕、矩陣與計數挑戰, science: 大氣與氣象、近代物理與基本交互作用、物質結構與鍵結, social: 法律原則、經濟學概念、臺灣史}
+    theme: {chinese: 概念框架、桃花源、屈原、原創者, english: 閱讀測驗（111：馬賽族）＋詞彙, mathA: 新題 107 學測：多項式、向量與空間、直線與圓、三角, mathB: 新題 107 學測：指對數、三角、數列, science: 大氣與氣象、近代物理與基本交互作用、物質結構與鍵結, social: 法律原則、經濟學概念、臺灣史}
     sets:
       chinese: [chn114-32, chn114-33, chn114-28, chn112-32, chn112-36]
       english: [eng111-35, eng111-36, eng111-37, eng111-38, eng110-06]
-      mathA: [ma113-02, ma112-05, ma112-06, ma112-15, ma112-16]
-      mathB: [mb112-07, mb111-06, mb111-05, mb111-14, mb112-17]
+      mathA: [ma107-09, ma107-10, ma107-11, ma107-15, ma113-08]
+      mathB: [mb107-06, mb107-08, mb107-13, mb107-14, mb113-08]
       science: [sci112-02, sci112-34, sci112-21, sci112-15, sci112-03]
       social: [soc112-24, soc112-25, soc112-26, soc112-05]
   - day: 36
-    theme: {chinese: 臺灣杉、福爾摩斯的破綻, english: 閱讀測驗（111：工地安全帽）＋詞彙, mathA: 第二輪：綜合挑戰, mathB: 第二輪：數與式、指數對數, science: 力學與運動、化學與生活、環境、演化與分類, social: 地圖與地理資訊系統、臺灣史、民主政治與媒體}
+    theme: {chinese: 臺灣杉、福爾摩斯的破綻, english: 閱讀測驗（111：工地安全帽）＋詞彙, mathA: 新題 107–106 學測：直線與圓、向量與空間、三角, mathB: 新題 107–106 學測：多項式、矩陣、數據分析、指對數, science: 力學與運動、化學與生活、環境、演化與分類, social: 地圖與地理資訊系統、臺灣史、民主政治與媒體}
     sets:
       chinese: [chn115-06, chn115-07, chn115-08, chn115-09, chn115-10]
       english: [eng111-39, eng111-40, eng111-41, eng111-42, eng110-07]
-      mathA: [ma112-10, ma113-14, ma113-16, ma112-17, ma111-08]
-      mathB: [mb111-01, mb111-13, mb114-18, mb110-09, mb109-05]
+      mathA: [ma107-16, ma107-19, ma107-20, ma106-06, ma113-10]
+      mathB: [mb107-17, mb107-18, mb106-01, mb106-02, mb113-10]
       science: [sci112-35, sci112-22, sci112-16, sci112-05, sci112-36]
       social: [soc112-42, soc112-43, soc112-44, soc112-45]
   - day: 37
-    theme: {chinese: 俠與士、勞山道士、氣候變遷, english: 閱讀測驗（111：斑馬魚）＋詞彙, mathA: 第二輪：數與式、指數對數, mathB: 第二輪：多項式與數列, science: 物質結構與鍵結、演化與分類、大氣與氣象, social: 民主政治與媒體、生活中的法律、經濟學概念}
+    theme: {chinese: 俠與士、勞山道士、氣候變遷, english: 閱讀測驗（111：斑馬魚）＋詞彙, mathA: 新題 106 學測：多項式、向量與空間、矩陣, mathB: 新題 106 學測：空間、數據分析、排列組合、直線與圓, science: 物質結構與鍵結、演化與分類、大氣與氣象, social: 民主政治與媒體、生活中的法律、經濟學概念}
     sets:
       chinese: [chn115-11, chn115-12, chn115-13, chn111-33, chn111-37]
       english: [eng111-43, eng111-44, eng111-45, eng111-46, eng110-08]
-      mathA: [ma111-02, ma111-07, ma110-17, ma110-18, ma109-11]
-      mathB: [mb111-09, mb111-12, mb109-10, mb110-14, mb109-08]
+      mathA: [ma106-08, ma106-10, ma106-13, ma106-15, ma112-11]
+      mathB: [mb106-04, mb106-05, mb106-07, mb106-09, mb112-04]
       science: [sci112-23, sci112-17, sci112-06, sci112-37, sci112-38, sci112-39]
       social: [soc112-27, soc112-28, soc112-29, soc112-06, soc112-50]
   - day: 38
-    theme: {chinese: 肥皂的歷史、〈出師表〉, english: 綜合測驗（115 第一篇：犀牛的糞便）, mathA: 第二輪：多項式與數列, mathB: 第二輪：三角函數與三角測量, science: 酸鹼與溶液、遺傳、大氣與氣象, social: 民主政治與媒體、世界史、地圖與地理資訊系統}
+    theme: {chinese: 肥皂的歷史、〈出師表〉, english: 綜合測驗（115 第一篇：犀牛的糞便）, mathA: 新題 106 學測：矩陣、指對數、機率統計、直線與圓, mathB: 新題 106 學測：三角、排列組合、數列、多項式, science: 酸鹼與溶液、遺傳、大氣與氣象, social: 民主政治與媒體、世界史、地圖與地理資訊系統}
     sets:
       chinese: [chn115-16, chn115-17, chn115-18, chn115-30, chn115-31]
       english: [eng115-11, eng115-12, eng115-13, eng115-14, eng115-15]
-      mathA: [ma111-10, ma111-12, ma110-05, ma110-02, ma109-14]
-      mathB: [mb111-18, mb110-03, mb109-01, mb109-17, mb109-07]
+      mathA: [ma106-17, ma106-18, ma106-19, ma106-20, ma112-13]
+      mathB: [mb106-11, mb106-12, mb106-14, mb106-16, mb112-05]
       science: [sci112-24, sci112-18, sci112-07, sci112-51, sci112-53]
       social: [soc112-46, soc112-07, soc112-58, soc112-52, soc112-53]
   - day: 39
-    theme: {chinese: 懷素〈自敘帖〉、聽見她的聲音, english: 綜合測驗（115 第二篇：港式點心）＋詞彙, mathA: 第二輪：三角函數與三角形, mathB: 第二輪：坐標幾何與平面向量, science: 化學計量與熱化學、遺傳、海洋, social: 臺灣史、聚落與交通、民主政治與媒體}
+    theme: {chinese: 懷素〈自敘帖〉、聽見她的聲音, english: 綜合測驗（115 第二篇：港式點心）＋詞彙, mathA: 新題 105 學測：向量與空間、數列、三角、矩陣, mathB: 新題 105 學測：多項式、三角、直線與圓、指對數, science: 化學計量與熱化學、遺傳、海洋, social: 臺灣史、聚落與交通、民主政治與媒體}
     sets:
       chinese: [chn115-19, chn115-20, chn115-21, chn115-35]
       english: [eng115-16, eng115-17, eng115-18, eng115-20, eng110-09]
-      mathA: [ma111-15, ma112-18, ma110-10, ma110-19, ma109-20]
-      mathB: [mb111-08, mb111-11, mb111-04, mb115-18, mb112-18]
+      mathA: [ma105-05, ma105-06, ma105-09, ma105-12, ma113-11]
+      mathB: [mb105-01, mb105-02, mb105-03, mb105-04, mb113-07]
       science: [sci112-25, sci112-26, sci112-48, sci112-49, sci112-08]
       social: [soc112-08, soc113-18, soc112-60, soc112-09, soc113-19]
   - day: 40
-    theme: {chinese: 第二輪：字音字形暖身, english: 文意選填（上）（115：午睡）, mathA: 第二輪：坐標幾何與平面向量, mathB: 第二輪：向量、矩陣與空間概念, science: 力學與運動、化學與生活、環境、原子結構與週期表, social: 全球化與多元文化、臺灣史、世界區域地理}
+    theme: {chinese: 第二輪：字音字形暖身, english: 文意選填（上）（115：午睡）, mathA: 新題 105 學測：排列組合、向量與空間、矩陣、機率統計, mathB: 新題 105 學測：指對數、機率, science: 力學與運動、化學與生活、環境、原子結構與週期表, social: 全球化與多元文化、臺灣史、世界區域地理}
     sets:
       chinese: [chn114-01, chn112-01, chn114-02, chn111-02, chn114-26]
       english: [eng115-21, eng115-22, eng115-23, eng115-24, eng115-25]
-      mathA: [ma111-06, ma111-18, ma111-09, ma110-04, ma110-08]
-      mathB: [mb113-18, mb111-07, mb110-11, mb109-03, mb110-01]
+      mathA: [ma105-14, ma105-15, ma105-17, ma105-19, ma113-12]
+      mathB: [mb105-07, mb105-08, mb105-11, mb105-13, mb113-12]
       science: [sci113-16, sci113-17, sci112-27]
       social: [soc113-01, soc112-10, soc113-20, soc113-03, soc112-12]
   - day: 41
-    theme: {chinese: 第二輪：字音字形＋成語, english: 文意選填（下）（115：午睡）, mathA: 第二輪：空間向量與平面, mathB: 第二輪：機率與數據分析, science: 演化與分類、化學與生活、環境、地質與地球歷史, social: 世界區域地理、經濟學概念、社會規範與社會化}
+    theme: {chinese: 第二輪：字音字形＋成語, english: 文意選填（下）（115：午睡）, mathA: 新題 105–104 學測：向量與空間、機率統計、排列組合、矩陣, mathB: 新題 105–104 學測：直線與圓、數列、機率, science: 演化與分類、化學與生活、環境、地質與地球歷史, social: 世界區域地理、經濟學概念、社會規範與社會化}
     sets:
       chinese: [chn111-01, chn110-01, chn110-02, chn113-25, chn111-03]
       english: [eng115-26, eng115-27, eng115-28, eng115-29, eng115-30]
-      mathA: [ma111-11, ma111-16, ma113-18, ma110-15, ma110-20]
-      mathB: [mb111-15, mb111-16, mb111-10, mb110-07, mb109-15]
+      mathA: [ma105-20, ma104-09, ma104-12, ma104-13, ma113-13]
+      mathB: [mb105-18, mb104-01, mb104-02, mb104-03, mb113-14]
       science: [sci112-55, sci112-56, sci112-58, sci112-59, sci112-09]
       social: [soc113-29, soc113-30, soc113-21, soc113-22, soc112-13]
   - day: 42
-    theme: {chinese: 第二輪：文言虛詞與句式, english: 篇章結構（115：微笑）＋詞彙, mathA: 第二輪：機率與統計, mathB: 第二輪：計數、矩陣與綜合, science: 近代物理與基本交互作用、酸鹼與溶液、代謝與能量, social: 氣候與生態、地形與自然環境、民主政治與媒體}
+    theme: {chinese: 第二輪：文言虛詞與句式, english: 篇章結構（115：微笑）＋詞彙, mathA: 新題 104 學測：向量與空間、直線與圓、矩陣、數列, mathB: 新題 104 學測：數據分析、指對數、排列組合、三角, science: 近代物理與基本交互作用、酸鹼與溶液、代謝與能量, social: 氣候與生態、地形與自然環境、民主政治與媒體}
     sets:
       chinese: [chn114-25, chn111-26, chn110-37, chn114-29, chn112-27]
       english: [eng115-31, eng115-32, eng115-33, eng115-34, eng110-10]
-      mathA: [ma111-03, ma111-13, ma110-12, ma110-16, ma109-06]
-      mathB: [mb111-03, mb111-17, mb109-12, mb109-04, mb109-09]
+      mathA: [ma104-14, ma104-15, ma104-17, ma104-18, ma111-04]
+      mathB: [mb104-05, mb104-07, mb104-10, mb104-11, mb112-11]
       science: [sci113-19, sci112-45, sci112-46, sci113-01]
       social: [soc113-31, soc113-32, soc113-23, soc113-24, soc113-25, soc113-26]
   - day: 43
-    theme: {chinese: 第二輪：排序與填句, english: 閱讀測驗（115：堅忍號）＋詞彙, mathA: 第二輪：計數、矩陣與空間挑戰, mathB: 第三輪：數與式、條件機率與三角, science: 天文、近代物理與基本交互作用, social: 中國史、世界區域地理、區域與產業}
+    theme: {chinese: 第二輪：排序與填句, english: 閱讀測驗（115：堅忍號）＋詞彙, mathA: 新題 104–103 學測：向量與空間、機率統計、指對數、數列, mathB: 新題 104–103 學測：指對數、三角、空間, science: 天文、近代物理與基本交互作用, social: 中國史、世界區域地理、區域與產業}
     sets:
       chinese: [chn110-03, chn114-05, chn113-05, chn110-09, chn112-06]
       english: [eng115-35, eng115-36, eng115-37, eng115-38, eng110-11]
-      mathA: [ma111-01, ma111-14, ma111-17, ma109-13, ma109-18]
-      mathB: [mb115-01, mb115-02, mb115-07, mb115-08, mb115-13]
+      mathA: [ma104-19, ma103-06, ma103-07, ma103-11, ma112-03]
+      mathB: [mb104-16, mb104-20, mb103-01, mb103-02, mb112-12]
       science: [sci112-41, sci112-42, sci112-43, sci113-22, sci113-23]
       social: [soc112-14, soc113-54, soc113-55, soc113-56, soc113-36, soc113-37]
   - day: 44
-    theme: {chinese: 第二輪：閱讀 SOP＋研判題, english: 閱讀測驗（115：旋轉樓梯）＋詞彙, mathA: 第二輪：向量內積、直線與旋轉矩陣、平行六面體, mathB: 第三輪：矩陣、經緯度與多項式, science: 化學計量與熱化學、代謝與能量、地質與地球歷史, social: 世界史、地圖與地理資訊系統、社會規範與社會化}
+    theme: {chinese: 第二輪：閱讀 SOP＋研判題, english: 閱讀測驗（115：旋轉樓梯）＋詞彙, mathA: 新題 103 學測：多項式、向量與空間、排列組合、數列, mathB: 新題 103 學測：直線與圓、指對數、排列組合, science: 化學計量與熱化學、代謝與能量、地質與地球歷史, social: 世界史、地圖與地理資訊系統、社會規範與社會化}
     sets:
       chinese: [chn113-11, chn113-12, chn110-04, chn114-03, chn110-13]
       english: [eng115-39, eng115-40, eng115-41, eng115-42, eng110-12]
-      mathA: [ma109-02, ma109-16, ma114-18, ma115-18]
-      mathB: [mb115-03, mb115-04, mb115-09, mb115-10, mb115-14]
+      mathA: [ma103-14, ma103-16, ma103-17, ma103-18, ma112-07]
+      mathB: [mb103-03, mb103-04, mb103-05, mb103-08, mb112-16]
       science: [sci113-10, sci113-02, sci113-28, sci113-24, sci113-25]
       social: [soc112-15, soc110-33, soc113-47, soc112-16, soc110-34]
   - day: 45
-    theme: {chinese: 第二輪：文言短篇閱讀, english: 閱讀測驗（115：地圖的方位）＋詞彙, mathA: 第三輪：機率、函數與矩陣, mathB: 第三輪：數列、直線與圓錐截痕, science: 化學與生活、環境、細胞與細胞分裂、大氣與氣象, social: 經濟學概念、法律原則、全球化與多元文化}
+    theme: {chinese: 第二輪：文言短篇閱讀, english: 閱讀測驗（115：地圖的方位）＋詞彙, mathA: 新題 103–102 學測：矩陣、三角、機率統計、數列, mathB: 新題 103 學測：平面向量、多項式、數據分析、三角, science: 化學與生活、環境、細胞與細胞分裂、大氣與氣象, social: 經濟學概念、法律原則、全球化與多元文化}
     sets:
       chinese: [chn110-33, chn110-34, chn111-07, chn110-38, chn112-26]
       english: [eng115-43, eng115-44, eng115-45, eng115-46, eng110-13]
-      mathA: [ma115-01, ma115-02, ma115-07, ma115-08, ma115-13]
-      mathB: [mb115-05, mb115-06, mb115-11, mb115-12, mb115-15]
+      mathA: [ma103-19, ma103-20, ma102-03, ma102-04, ma112-09]
+      mathB: [mb103-09, mb103-10, mb103-12, mb103-13, mb113-03]
       science: [sci113-12, sci113-13, sci113-03, sci113-30, sci113-26, sci113-27]
       social: [soc113-61, soc113-62, soc113-63, soc112-17, soc110-35]
   - day: 46
-    theme: {chinese: 第二輪：一週綜合複習, english: 綜合測驗（110 第一篇：巴塞隆納的鴿子）, mathA: 第三輪：指數、計數與向量, mathB: 第三輪：函數圖形、矩陣與透視, science: 化學計量與熱化學、遺傳、海洋, social: 法律原則、世界史、區域與產業}
+    theme: {chinese: 第二輪：一週綜合複習, english: 綜合測驗（110 第一篇：巴塞隆納的鴿子）, mathA: 新題 102 學測：指對數、多項式、向量與空間、直線與圓, mathB: 新題 103–102 學測：直線與圓、指對數、排列組合、空間, science: 化學計量與熱化學、遺傳、海洋, social: 法律原則、世界史、區域與產業}
     sets:
       chinese: [chn114-11, chn114-12, chn111-05, chn110-35, chn110-12]
       english: [eng110-16, eng110-17, eng110-18, eng110-19, eng110-20]
-      mathA: [ma115-03, ma115-04, ma115-09, ma115-10, ma115-14]
-      mathB: [mb114-01, mb114-02, mb115-16, mb114-07, mb114-08]
+      mathA: [ma102-08, ma102-09, ma102-10, ma102-17, ma113-09]
+      mathB: [mb103-15, mb102-01, mb102-02, mb102-05, mb113-16]
       science: [sci113-15, sci113-04, sci113-33, sci113-44, sci113-45]
       social: [soc110-01, soc112-19, soc110-36, soc110-02, soc112-30, soc112-31]
   - day: 47
-    theme: {chinese: 第二輪：文言：外交與進諫, english: 綜合測驗（110 第二篇：被雷打七次的人）, mathA: 第三輪：矩陣、坐標與多項式, mathB: 第三輪：對數、向量與機率統計, science: 化學與生活、環境、演化與分類、大氣與氣象, social: 地形與自然環境、民主政治與媒體、中國史}
+    theme: {chinese: 第二輪：文言：外交與進諫, english: 綜合測驗（110 第二篇：被雷打七次的人）, mathA: 新題 102–101 學測：向量與空間、三角、指對數, mathB: 新題 102 學測：三角、矩陣、數列、指對數, science: 化學與生活、環境、演化與分類、大氣與氣象, social: 地形與自然環境、民主政治與媒體、中國史}
     sets:
       chinese: [chn115-04, chn112-05, chn115-28, chn111-18, chn111-19]
       english: [eng110-21, eng110-22, eng110-23, eng110-24, eng110-25]
-      mathA: [ma115-05, ma115-06, ma115-11, ma115-12, ma115-15]
-      mathB: [mb114-03, mb114-04, mb114-09, mb114-10, mb114-13]
+      mathA: [ma102-18, ma102-19, ma102-20, ma101-03, ma112-05]
+      mathB: [mb102-06, mb102-07, mb102-12, mb102-13, mb111-05]
       science: [sci113-18, sci113-07, sci113-34, sci110-11, sci113-47, sci113-48]
       social: [soc110-37, soc110-03, soc112-48, soc110-38, soc110-39]
   - day: 48
-    theme: {chinese: 第二輪：國學常識：題辭、書信與文學史, english: 綜合測驗（110 第三篇：熱帶冰川）, mathA: 第三輪：綜合與挑戰題, mathB: 第三輪：空間概念、數列與坐標幾何, science: 演化與分類、大氣與氣象、近代物理與基本交互作用, social: 民主政治與媒體、東亞國際關係、世界區域地理}
+    theme: {chinese: 第二輪：國學常識：題辭、書信與文學史, english: 綜合測驗（110 第三篇：熱帶冰川）, mathA: 新題 101 學測：向量與空間、直線與圓、三角, mathB: 新題 102–101 學測：直線與圓、指對數、數列、空間, science: 演化與分類、大氣與氣象、近代物理與基本交互作用, social: 民主政治與媒體、東亞國際關係、世界區域地理}
     sets:
       chinese: [chn115-03, chn111-29, chn110-08, chn111-31, chn111-32]
       english: [eng110-26, eng110-27, eng110-28, eng110-29, eng110-30]
-      mathA: [ma114-01, ma114-02, ma115-16, ma114-07, ma115-17]
-      mathB: [mb114-05, mb114-06, mb114-11, mb114-12, mb114-14]
+      mathA: [ma101-07, ma101-11, ma101-12, ma101-17, ma112-06]
+      mathB: [mb102-15, mb102-16, mb101-01, mb101-02, mb111-06]
       science: [sci113-08, sci113-35, sci110-13, sci110-05, sci113-09]
       social: [soc110-04, soc112-55, soc110-40, soc110-41, soc110-05]
   - day: 49
-    theme: {chinese: 第二輪：白話閱讀與跨文本, english: 文意選填（上）（110：運動不必痛）, mathA: 第三輪：計數、三角與數列, mathB: 第三輪：計數、空間與綜合挑戰, science: 海洋、力學與運動、酸鹼與溶液, social: 世界史、區域與產業、人口與遷移}
+    theme: {chinese: 第二輪：白話閱讀與跨文本, english: 文意選填（上）（110：運動不必痛）, mathA: 新題 101–100 學測：機率統計、指對數、三角、向量與空間, mathB: 新題 101 學測：指對數、機率、直線與圓、平面向量, science: 海洋、力學與運動、酸鹼與溶液, social: 世界史、區域與產業、人口與遷移}
     sets:
       chinese: [chn114-04, chn113-28, chn114-09, chn114-10, chn113-03]
       english: [eng110-31, eng110-32, eng110-33, eng110-34, eng110-35]
-      mathA: [ma114-03, ma114-04, ma114-08, ma114-09, ma114-13]
-      mathB: [mb114-15, mb114-16, mb114-17, mb113-01, mb113-02]
+      mathA: [ma101-20, ma100-03, ma100-05, ma100-08, ma112-15]
+      mathB: [mb101-05, mb101-06, mb101-09, mb101-15, mb111-14]
       science: [sci113-36, sci110-14, sci110-06, sci113-37, sci113-39]
       social: [soc112-63, soc112-64, soc110-42, soc110-43, soc110-06]
   - day: 50
-    theme: {chinese: 第二輪：詩詞與圖表判讀, english: 文意選填（下）（110：運動不必痛）, mathA: 第三輪：三角、向量與空間, mathB: 第三輪：指數、對數與數的估算, science: 地質與地球歷史、近代物理與基本交互作用、原子結構與週期表, social: 中國史、世界區域地理、世界史}
+    theme: {chinese: 第二輪：詩詞與圖表判讀, english: 文意選填（下）（110：運動不必痛）, mathA: 新題 100 學測：向量與空間、直線與圓、多項式, mathB: 新題 101–100 學測：平面向量、三角、機率、多項式, science: 地質與地球歷史、近代物理與基本交互作用、原子結構與週期表, social: 中國史、世界區域地理、世界史}
     sets:
       chinese: [chn111-06, chn110-10, chn110-15, chn110-16, chn110-17]
       english: [eng110-36, eng110-37, eng110-38, eng110-39, eng110-40]
-      mathA: [ma114-05, ma114-06, ma114-10, ma114-11, ma114-14]
-      mathB: [mb112-01, mb112-09, mb112-10, mb112-13, mb113-11]
+      mathA: [ma100-10, ma100-11, ma100-12, ma100-13, ma112-16]
+      mathB: [mb101-16, mb101-18, mb100-01, mb100-02, mb112-07]
       science: [sci113-50, sci113-52, sci110-15, sci110-08, sci113-40, sci113-42]
       social: [soc113-05, soc110-50, soc110-51, soc110-52, soc110-07]
   - day: 51
-    theme: {chinese: 第二輪：文言閱讀與跨文本, english: 閱讀測驗（110：仙人掌發電）＋詞彙, mathA: 第三輪：統計、機率與圓, mathB: 第三輪：多項式與矩陣, science: 天文、電磁學、化學與生活、環境, social: 中國史、民主政治與媒體、世界史}
+    theme: {chinese: 第二輪：文言閱讀與跨文本, english: 閱讀測驗（110：仙人掌發電）＋詞彙, mathA: 新題 100 學測：向量與空間、三角、矩陣, mathB: 新題 100 學測：直線與圓、數據分析、機率、排列組合, science: 天文、電磁學、化學與生活、環境, social: 中國史、民主政治與媒體、世界史}
     sets:
       chinese: [chn115-27, chn110-11, chn110-24, chn110-25, chn112-29]
       english: [eng110-41, eng110-42, eng110-43, eng110-44, eng110-14]
-      mathA: [ma114-12, ma114-15, ma114-16, ma114-17, ma113-01]
-      mathB: [mb113-05, mb112-06, mb113-09, mb113-13, mb112-02]
+      mathA: [ma100-15, ma100-17, ma100-18, ma100-20, ma113-02]
+      mathB: [mb100-04, mb100-06, mb100-09, mb100-16, mb112-17]
       science: [sci113-54, sci113-55, sci110-31, sci110-32, sci110-10]
       social: [soc113-07, soc110-08, soc113-08, soc110-09, soc113-10]
   - day: 52
-    theme: {chinese: 第二輪：圖表題與修辭, english: 閱讀測驗（110：護照的歷史）＋詞彙, mathA: 第三輪：指對數、多項式與三角方程, mathB: 第三輪：三角測量與向量, science: 代謝與能量、天文、近代物理與基本交互作用, social: 法律原則、中國史、東亞國際關係}
+    theme: {chinese: 第二輪：圖表題與修辭, english: 閱讀測驗（110：護照的歷史）＋詞彙, mathA: 複習：三角、直線與圓、向量與空間、多項式, mathB: 複習：指對數, science: 代謝與能量、天文、近代物理與基本交互作用, social: 法律原則、中國史、東亞國際關係}
     sets:
       chinese: [chn111-04, chn110-14, chn114-13, chn114-14, chn110-36]
       english: [eng110-45, eng110-46, eng110-47, eng110-48, eng110-15]
-      mathA: [ma112-01, ma113-07, ma113-03, ma113-04, ma112-14]
-      mathB: [mb113-06, mb112-03, mb112-15, mb113-04, mb113-15]
+      mathA: [ma111-08, ma112-10, ma112-17, ma113-14, ma113-16]
+      mathB: [mb109-05, mb110-09, mb111-01, mb111-13, mb114-18]
       science: [sci110-01, sci110-12, sci110-33, sci110-27, sci110-25]
       social: [soc110-10, soc113-11, soc110-11, soc113-12, soc110-12, soc110-13]
   - day: 53
-    theme: {chinese: 第二輪：赤壁題組：詠史詩與〈赤壁賦〉, english: 閱讀測驗（110：富蘭克林的玻璃琴）＋詞彙, mathA: 第三輪：排列組合與機率, mathB: 第三輪：數列與週期規律, science: 地質與地球歷史、波動與光、化學與生活、環境, social: 東亞國際關係、經濟學概念、中國史}
+    theme: {chinese: 第二輪：赤壁題組：詠史詩與〈赤壁賦〉, english: 閱讀測驗（110：富蘭克林的玻璃琴）＋詞彙, mathA: 複習：指對數, mathB: 複習：數列、多項式, science: 地質與地球歷史、波動與光、化學與生活、環境, social: 東亞國際關係、經濟學概念、中國史}
     sets:
       chinese: [chn114-15, chn114-16, chn114-17, chn114-18, chn114-19]
       english: [eng110-49, eng110-50, eng110-51, eng110-52, eng111-01]
-      mathA: [ma112-04, ma113-05, ma112-08, ma113-15, ma111-05]
-      mathB: [mb113-08, mb113-10, mb112-08, mb111-02, mb112-14]
+      mathA: [ma109-11, ma110-17, ma110-18, ma111-02, ma111-07]
+      mathB: [mb109-08, mb109-10, mb110-14, mb111-09, mb111-12]
       science: [sci110-16, sci110-34, sci110-28, sci110-29, sci110-17]
       social: [soc113-13, soc110-14, soc110-15, soc113-15, soc110-16, soc110-17]
   - day: 54
-    theme: {chinese: 第二輪：白話閱讀：情緒與心結, english: 閱讀測驗（110：無障礙樂園）＋詞彙, mathA: 第三輪：三角與坐標幾何, mathB: 第三輪：機率與統計, science: 力學與運動、化學與生活、環境、遺傳, social: 臺灣史、經濟學概念、聚落與交通}
+    theme: {chinese: 第二輪：白話閱讀：情緒與心結, english: 閱讀測驗（110：無障礙樂園）＋詞彙, mathA: 複習：數列、多項式, mathB: 複習：三角、多項式, science: 力學與運動、化學與生活、環境、遺傳, social: 臺灣史、經濟學概念、聚落與交通}
     sets:
       chinese: [chn110-05, chn110-06, chn113-18, chn113-19, chn113-20]
       english: [eng110-53, eng110-54, eng110-55, eng110-56, eng111-02]
-      mathA: [ma112-02, ma113-06, ma113-08, ma112-12, ma113-10]
-      mathB: [mb113-12, mb113-14, mb112-05, mb112-04, mb113-07]
+      mathA: [ma109-14, ma110-02, ma110-05, ma111-10, ma111-12]
+      mathB: [mb109-01, mb109-07, mb109-17, mb110-03, mb111-18]
       science: [sci110-55, sci110-48, sci110-42, sci110-18, sci110-56]
       social: [soc113-17, soc110-44, soc110-45, soc113-27, soc110-46, soc110-47]
   - day: 55
-    theme: {chinese: 第二輪：文言小品：寓言、筆記與自序, english: 閱讀測驗（113：百分之百的魚）＋詞彙, mathA: 第三輪：矩陣與方程組, mathB: 第三輪：坐標幾何與經緯度, science: 物質結構與鍵結、遺傳、大氣與氣象, social: 世界史、民主政治與媒體、地圖與地理資訊系統}
+    theme: {chinese: 第二輪：文言小品：寓言、筆記與自序, english: 閱讀測驗（113：百分之百的魚）＋詞彙, mathA: 複習：三角, mathB: 複習：平面向量、直線與圓, science: 物質結構與鍵結、遺傳、大氣與氣象, social: 世界史、民主政治與媒體、地圖與地理資訊系統}
     sets:
       chinese: [chn110-40, chn112-07, chn111-30, chn111-12, chn111-13]
       english: [eng113-43, eng113-44, eng113-45, eng113-46, eng111-04]
-      mathA: [ma113-11, ma113-12, ma112-11, ma112-13, ma113-13]
-      mathB: [mb113-03, mb112-11, mb112-16, mb113-16, mb112-12]
+      mathA: [ma109-20, ma110-10, ma110-19, ma111-15, ma112-18]
+      mathB: [mb111-04, mb111-08, mb111-11, mb112-18, mb115-18]
       science: [sci110-49, sci110-43, sci110-19, sci110-57, sci110-53]
       social: [soc113-33, soc113-34, soc113-35, soc110-48, soc110-49]
   - day: 56
-    theme: {chinese: 第二輪：文言題組：海防策論與題跋, english: 閱讀測驗（114：俄國人與酒）＋詞彙, mathA: 第三輪：數列與統計, mathB: 第三輪：圓錐截痕、矩陣與計數挑戰, science: 演化與分類、天文、力學與運動, social: 臺灣史、法律原則、民主政治與媒體}
+    theme: {chinese: 第二輪：文言題組：海防策論與題跋, english: 閱讀測驗（114：俄國人與酒）＋詞彙, mathA: 複習：向量與空間、直線與圓, mathB: 複習：平面向量、矩陣、空間, science: 演化與分類、天文、力學與運動, social: 臺灣史、法律原則、民主政治與媒體}
     sets:
       chinese: [chn115-29, chn112-15, chn112-17, chn112-19, chn112-20]
       english: [eng114-43, eng114-44, eng114-45, eng114-46, eng111-05]
-      mathA: [ma112-07, ma112-09, ma113-09, ma112-03, ma111-04]
-      mathB: [mb112-07, mb111-06, mb111-05, mb111-14, mb112-17]
+      mathA: [ma110-04, ma110-08, ma111-06, ma111-09, ma111-18]
+      mathB: [mb109-03, mb110-01, mb110-11, mb111-07, mb113-18]
       science: [sci110-44, sci110-20, sci110-58, sci110-59, sci110-54]
       social: [soc113-39, soc110-63, soc110-64, soc110-65, soc110-66]
   - day: 57
-    theme: {chinese: 第二輪：跨文本：檳榔與硃砂, english: 詞彙（111）, mathA: 第三輪：向量與空間, mathB: 第三輪：數與式、指數對數, science: 演化與分類、大氣與氣象、力學與運動, social: 史料與歷史解釋、東亞國際關係、世界史}
+    theme: {chinese: 第二輪：跨文本：檳榔與硃砂, english: 詞彙（111）, mathA: 複習：向量與空間, mathB: 複習：機率、數據分析, science: 演化與分類、大氣與氣象、力學與運動, social: 史料與歷史解釋、東亞國際關係、世界史}
     sets:
       chinese: [chn113-29, chn114-27, chn112-23, chn112-24, chn112-25]
       english: [eng111-06, eng111-07, eng111-08, eng111-09, eng111-10]
-      mathA: [ma113-02, ma112-05, ma112-06, ma112-15, ma112-16]
-      mathB: [mb111-01, mb111-13, mb114-18, mb110-09, mb109-05]
+      mathA: [ma110-15, ma110-20, ma111-11, ma111-16, ma113-18]
+      mathB: [mb109-15, mb110-07, mb111-10, mb111-15, mb111-16]
       science: [sci110-45, sci110-21, sci110-60, sci110-61, sci110-46]
       social: [soc113-41, soc113-42, soc113-44, soc113-45, soc113-51, soc113-52]
   - day: 58
-    theme: {chinese: 第二輪：詩詞：杜甫與現代詩, english: 第二輪：詞彙暖身, mathA: 第三輪：綜合挑戰, mathB: 第三輪：多項式與數列, science: 海洋、生物技術與實驗、科學探究與實作, social: 臺灣史、社會規範與社會化、中國史}
+    theme: {chinese: 第二輪：詩詞：杜甫與現代詩, english: 第二輪：詞彙暖身, mathA: 複習：機率統計, mathB: 複習：矩陣、平面向量、數據分析、排列組合, science: 海洋、生物技術與實驗、科學探究與實作, social: 臺灣史、社會規範與社會化、中國史}
     sets:
       chinese: [chn110-07, chn112-30, chn110-42, chn115-22, chn115-23]
       english: [eng115-01, eng115-02, eng115-03, eng115-04, eng115-05]
-      mathA: [ma112-10, ma113-14, ma113-16, ma112-17, ma111-08]
-      mathB: [mb111-09, mb111-12, mb109-10, mb110-14, mb109-08]
+      mathA: [ma109-06, ma110-12, ma110-16, ma111-03, ma111-13]
+      mathB: [mb109-04, mb109-09, mb109-12, mb111-03, mb111-17]
       science: [sci110-22, sci110-47, sci110-23, sci110-35, sci110-36]
       social: [soc113-58, soc113-59, soc110-18, soc110-19, soc110-20]
   - day: 59
-    theme: {chinese: 第二輪：小說與散文, english: 第二輪：詞彙（動詞與搭配）, mathA: 第三輪：數與式、指數對數, mathB: 第三輪：三角函數與三角測量, science: 大氣與氣象、力學與運動、化學計量與熱化學, social: 中國史、東亞國際關係、世界史}
+    theme: {chinese: 第二輪：小說與散文, english: 第二輪：詞彙（動詞與搭配）, mathA: 複習：向量與空間、排列組合、矩陣, mathB: 複習：指對數、機率、三角, science: 大氣與氣象、力學與運動、化學計量與熱化學, social: 中國史、東亞國際關係、世界史}
     sets:
       chinese: [chn110-39, chn111-28, chn112-28, chn113-16, chn113-17]
       english: [eng115-06, eng115-07, eng115-08, eng115-09, eng115-10]
-      mathA: [ma111-02, ma111-07, ma110-17, ma110-18, ma109-11]
-      mathB: [mb111-18, mb110-03, mb109-01, mb109-17, mb109-07]
+      mathA: [ma109-13, ma109-18, ma111-01, ma111-14, ma111-17]
+      mathB: [mb115-01, mb115-02, mb115-07, mb115-08, mb115-13]
       science: [sci110-37, sci110-39, sci110-40, sci110-62, sci110-63, sci110-64]
       social: [soc110-21, soc110-23, soc110-24, soc110-25, soc110-26]
   - day: 60
-    theme: {chinese: 第二輪：填句與語意邏輯, english: 第二輪：詞彙（名詞與形容詞）, mathA: 第三輪：多項式與數列, mathB: 第三輪：坐標幾何與平面向量, science: 海洋、天文、地質與地球歷史, social: 中國史、世界史}
+    theme: {chinese: 第二輪：填句與語意邏輯, english: 第二輪：詞彙（名詞與形容詞）, mathA: 複習：向量與空間、直線與圓、矩陣、機率統計, mathB: 複習：矩陣、空間、多項式、數據分析, science: 海洋、天文、地質與地球歷史, social: 中國史、世界史}
     sets:
       chinese: [chn111-27, chn110-31, chn110-32, chn112-21, chn112-22]
       english: [eng114-01, eng114-02, eng114-03, eng114-04, eng114-05]
-      mathA: [ma111-10, ma111-12, ma110-05, ma110-02, ma109-14]
-      mathB: [mb111-08, mb111-11, mb111-04, mb115-18, mb112-18]
+      mathA: [ma109-02, ma109-16, ma114-18, ma115-18, ma115-01]
+      mathB: [mb115-03, mb115-04, mb115-09, mb115-10, mb115-14]
       science: [sci110-65, sci110-66, sci110-67, sci110-68]
       social: [soc110-27, soc110-28, soc110-29, soc110-30, soc110-31]
   - day: 61
-    theme: {chinese: 第二輪：字音、字形、虛詞與成語, english: 第二輪：詞彙（語境判斷）, mathA: 第三輪：三角函數與三角形, mathB: 第三輪：向量、矩陣與空間概念, science: 第二輪：天文、力學、酸鹼、細胞分裂, social: 世界史、臺灣史、地形與自然環境}
+    theme: {chinese: 第二輪：字音、字形、虛詞與成語, english: 第二輪：詞彙（語境判斷）, mathA: 複習：指對數、直線與圓、矩陣、機率統計, mathB: 複習：數列、直線與圓、空間、機率, science: 第二輪：天文、力學、酸鹼、細胞分裂, social: 世界史、臺灣史、地形與自然環境}
     sets:
       chinese: [chn115-01, chn115-02, chn112-02, chn115-25, chn115-26]
       english: [eng114-06, eng114-07, eng114-08, eng114-09, eng114-10]
-      mathA: [ma111-15, ma112-18, ma110-10, ma110-19, ma109-20]
-      mathB: [mb113-18, mb111-07, mb110-11, mb109-03, mb110-01]
+      mathA: [ma115-02, ma115-07, ma115-08, ma115-13, ma115-03]
+      mathB: [mb115-05, mb115-06, mb115-11, mb115-12, mb115-15]
       science: [sci115-01, sci115-10, sci115-19, sci115-28, sci114-10]
       social: [soc110-32, soc110-53, soc110-55, soc110-56, soc110-57, soc110-58]
   - day: 62
-    theme: {chinese: 第二輪：文意排序、「以」的用法、量詞, english: 第二輪：詞彙（固定用法）, mathA: 第三輪：坐標幾何與平面向量, mathB: 第三輪：機率與數據分析, science: 第二輪：宇宙年齡、都卜勒、相變熱, social: 世界史、臺灣史、氣候與生態}
+    theme: {chinese: 第二輪：文意排序、「以」的用法、量詞, english: 第二輪：詞彙（固定用法）, mathA: 複習：排列組合、機率統計、向量與空間、矩陣, mathB: 複習：指對數、矩陣、空間、多項式, science: 第二輪：宇宙年齡、都卜勒、相變熱, social: 世界史、臺灣史、氣候與生態}
     sets:
       chinese: [chn115-05, chn113-26, chn111-09, chn111-10, chn111-11]
       english: [eng113-01, eng113-02, eng113-03, eng113-04, eng113-05]
-      mathA: [ma111-06, ma111-18, ma111-09, ma110-04, ma110-08]
-      mathB: [mb111-15, mb111-16, mb111-10, mb110-07, mb109-15]
+      mathA: [ma115-04, ma115-09, ma115-10, ma115-14, ma115-05]
+      mathB: [mb114-01, mb114-02, mb114-07, mb114-08, mb115-16]
       science: [sci115-02, sci115-13, sci115-20, sci115-29, sci114-01]
       social: [soc110-60, soc110-61, soc110-62, soc110-67, soc110-68, soc110-69]
   - day: 63
-    theme: {chinese: 第二輪：量詞分類、周處除三害, english: 第二輪：詞彙（易混淆字）, mathA: 第三輪：空間向量與平面, mathB: 第三輪：計數、矩陣與綜合, science: 第二輪：天文觀測、交互作用、指示劑, social: 臺灣史、社會安全與公共政策、氣候與生態}
+    theme: {chinese: 第二輪：量詞分類、周處除三害, english: 第二輪：詞彙（易混淆字）, mathA: 複習：直線與圓、三角、多項式、數列, mathB: 複習：指對數、機率、平面向量、數據分析, science: 第二輪：天文觀測、交互作用、指示劑, social: 臺灣史、社會安全與公共政策、氣候與生態}
     sets:
       chinese: [chn115-14, chn115-15, chn113-13, chn113-14, chn113-15]
       english: [eng113-06, eng113-07, eng113-08, eng113-09, eng113-10]
-      mathA: [ma111-11, ma111-16, ma113-18, ma110-15, ma110-20]
-      mathB: [mb111-03, mb111-17, mb109-12, mb109-04, mb109-09]
+      mathA: [ma115-06, ma115-11, ma115-12, ma115-15, ma114-01]
+      mathB: [mb114-03, mb114-04, mb114-09, mb114-10, mb114-13]
       science: [sci115-03, sci115-14, sci115-21, sci115-30, sci114-24]
       social: [soc110-70, soc110-71, soc110-72]
   - day: 64
-    theme: {chinese: 第二輪：孟子與論語：人禽之辨、畏大人, english: 第二輪：詞彙總複習, mathA: 第三輪：機率與統計, mathB: 第四輪：數與式、條件機率與三角, science: 第二輪：水氣壓、電場、熱化學、遺傳, social: 第二輪：公民、清代海防、地名}
+    theme: {chinese: 第二輪：孟子與論語：人禽之辨、畏大人, english: 第二輪：詞彙總複習, mathA: 複習：直線與圓、數列、多項式、三角, mathB: 複習：空間、多項式、數列、直線與圓, science: 第二輪：水氣壓、電場、熱化學、遺傳, social: 第二輪：公民、清代海防、地名}
     sets:
       chinese: [chn110-18, chn110-19, chn111-23, chn111-24, chn111-25]
       english: [eng112-01, eng112-02, eng112-03, eng112-04, eng112-05]
-      mathA: [ma111-03, ma111-13, ma110-12, ma110-16, ma109-06]
-      mathB: [mb115-01, mb115-02, mb115-07, mb115-08, mb115-13]
+      mathA: [ma114-02, ma114-07, ma115-16, ma115-17, ma114-03]
+      mathB: [mb114-05, mb114-06, mb114-11, mb114-12, mb114-14]
       science: [sci115-04, sci115-15, sci115-22, sci115-31, sci114-11]
       social: [soc115-01, soc115-07, soc115-16, soc115-02, soc115-08]
   - day: 65
-    theme: {chinese: 第二輪：推敲的學問、鳥會說話嗎, english: 第二輪：綜合測驗（114 第一篇）, mathA: 第三輪：計數、矩陣與空間挑戰, mathB: 第四輪：矩陣、經緯度與多項式, science: 第二輪：地球自轉、物質波、週期表, social: 第二輪：媒體、日治、生態}
+    theme: {chinese: 第二輪：推敲的學問、鳥會說話嗎, english: 第二輪：綜合測驗（114 第一篇）, mathA: 複習：指對數、直線與圓、多項式、三角, mathB: 複習：數據分析、指對數、排列組合、空間, science: 第二輪：地球自轉、物質波、週期表, social: 第二輪：媒體、日治、生態}
     sets:
       chinese: [chn110-26, chn110-27, chn110-28, chn110-29, chn110-30]
       english: [eng114-11, eng114-12, eng114-13, eng114-14, eng114-15]
-      mathA: [ma111-01, ma111-14, ma111-17, ma109-13, ma109-18]
-      mathB: [mb115-03, mb115-04, mb115-09, mb115-10, mb115-14]
+      mathA: [ma114-04, ma114-08, ma114-09, ma114-13, ma114-05]
+      mathB: [mb113-01, mb113-02, mb114-15, mb114-16, mb114-17]
       science: [sci115-05, sci114-25, sci115-23, sci115-32, sci114-04]
       social: [soc115-03, soc115-09, soc115-17, soc115-04, soc115-10]
   - day: 66
-    theme: {chinese: 第二輪：白話閱讀：哈士奇與狼、族語認證, english: 第二輪：綜合測驗（114 第二篇）, mathA: 第三輪：向量內積、直線與旋轉矩陣、平行六面體, mathB: 第四輪：數列、直線與圓錐截痕, science: 第二輪：颱風、交互作用、金屬鍵, social: 第二輪：GDP、元代海運、生活圈}
+    theme: {chinese: 第二輪：白話閱讀：哈士奇與狼、族語認證, english: 第二輪：綜合測驗（114 第二篇）, mathA: 複習：向量與空間、三角、指對數, mathB: 複習：多項式、指對數, science: 第二輪：颱風、交互作用、金屬鍵, social: 第二輪：GDP、元代海運、生活圈}
     sets:
       chinese: [chn110-20, chn110-21, chn110-22, chn110-23, chn110-41]
       english: [eng114-16, eng114-17, eng114-18, eng114-19, eng114-20]
-      mathA: [ma109-02, ma109-16, ma114-18, ma115-18]
-      mathB: [mb115-05, mb115-06, mb115-11, mb115-12, mb115-15]
+      mathA: [ma114-06, ma114-10, ma114-11, ma114-14, ma113-01]
+      mathB: [mb112-01, mb112-09, mb112-10, mb112-13, mb113-11]
       science: [sci115-06, sci114-26, sci115-24, sci115-33, sci114-12]
       social: [soc115-05, soc115-11, soc115-18, soc115-06, soc115-12]
   - day: 67
-    theme: {chinese: 第二輪：女性創作：〈畫菊自序〉與呂碧城, english: 第二輪：文意選填（上）, mathA: 第四輪：機率、函數與矩陣, mathB: 第四輪：函數圖形、矩陣與透視, science: 第二輪：海水鹽度、電磁感應、演化, social: 第二輪：GIS、朝鮮、全球門戶}
+    theme: {chinese: 第二輪：女性創作：〈畫菊自序〉與呂碧城, english: 第二輪：文意選填（上）, mathA: 複習：機率統計、直線與圓、三角、指對數, mathB: 複習：矩陣、多項式, science: 第二輪：海水鹽度、電磁感應、演化, social: 第二輪：GIS、朝鮮、全球門戶}
     sets:
       chinese: [chn111-14, chn111-15, chn111-16, chn111-17, chn113-23]
       english: [eng114-21, eng114-22, eng114-23, eng114-24, eng114-25]
-      mathA: [ma115-01, ma115-02, ma115-07, ma115-08, ma115-13]
-      mathB: [mb114-01, mb114-02, mb115-16, mb114-07, mb114-08]
+      mathA: [ma114-12, ma114-15, ma114-16, ma114-17, ma112-01]
+      mathB: [mb112-02, mb112-06, mb113-05, mb113-09, mb113-13]
       science: [sci114-17, sci114-27, sci115-34, sci115-35, sci115-36]
       social: [soc115-20, soc115-13, soc115-21, soc114-01, soc115-14]
   - day: 68
-    theme: {chinese: 第二輪：資料閱讀：鄭崇和墓、狼改變了河流？, english: 第二輪：文意選填（下）, mathA: 第四輪：指數、計數與向量, mathB: 第四輪：對數、向量與機率統計, science: 第二輪：細胞觀察、病毒、季節溫差、能量換算, social: 第二輪：森林、拉美、咖啡、投票}
+    theme: {chinese: 第二輪：資料閱讀：鄭崇和墓、狼改變了河流？, english: 第二輪：文意選填（下）, mathA: 複習：多項式、三角、指對數、機率統計, mathB: 複習：三角、平面向量, science: 第二輪：細胞觀察、病毒、季節溫差、能量換算, social: 第二輪：森林、拉美、咖啡、投票}
     sets:
       chinese: [chn111-20, chn111-21, chn111-22, chn112-08, chn112-09]
       english: [eng114-26, eng114-27, eng114-28, eng114-29, eng114-30]
-      mathA: [ma115-03, ma115-04, ma115-09, ma115-10, ma115-14]
-      mathB: [mb114-03, mb114-04, mb114-09, mb114-10, mb114-13]
+      mathA: [ma112-14, ma113-03, ma113-04, ma113-07, ma111-05]
+      mathB: [mb112-03, mb112-15, mb113-04, mb113-06, mb113-15]
       science: [sci114-03, sci114-05, sci114-13, sci114-20, sci114-21]
       social: [soc115-22, soc115-15, soc115-23, soc114-03, soc114-09]
   - day: 69
-    theme: {chinese: 第二輪：木星合土星、京都苔庭, english: 第二輪：篇章結構＋詞彙, mathA: 第四輪：矩陣、坐標與多項式, mathB: 第四輪：空間概念、數列與坐標幾何, science: 第二輪：無性生殖、斷層、物質分離、都卜勒, social: 第二輪：航線、啟蒙、法律原則}
+    theme: {chinese: 第二輪：木星合土星、京都苔庭, english: 第二輪：篇章結構＋詞彙, mathA: 複習：排列組合、機率統計、直線與圓, mathB: 複習：指對數、排列組合、數據分析、數列, science: 第二輪：無性生殖、斷層、物質分離、都卜勒, social: 第二輪：航線、啟蒙、法律原則}
     sets:
       chinese: [chn112-10, chn112-11, chn112-12, chn112-13, chn112-14]
       english: [eng114-31, eng114-32, eng114-33, eng114-34, eng112-06]
-      mathA: [ma115-05, ma115-06, ma115-11, ma115-12, ma115-15]
-      mathB: [mb114-05, mb114-06, mb114-11, mb114-12, mb114-14]
+      mathA: [ma112-04, ma112-08, ma113-05, ma113-15, ma108-01]
+      mathB: [mb108-03, mb108-04, mb108-05, mb108-06, mb111-02]
       science: [sci114-06, sci114-14, sci114-30, sci114-22, sci114-23]
       social: [soc115-24, soc114-10, soc115-25, soc114-05, soc114-11]
   - day: 70
-    theme: {chinese: 第二輪：女書、宋代判決書, english: 第二輪：閱讀測驗（一）＋詞彙, mathA: 第四輪：綜合與挑戰題, mathB: 第四輪：計數、空間與綜合挑戰, science: 第二輪：基因表現、板塊邊界、實驗式、演化樹, social: 第二輪：GIS、東亞與世界史}
+    theme: {chinese: 第二輪：女書、宋代判決書, english: 第二輪：閱讀測驗（一）＋詞彙, mathA: 複習：數列、機率統計、多項式、三角, mathB: 複習：指對數、機率、三角、矩陣, science: 第二輪：基因表現、板塊邊界、實驗式、演化樹, social: 第二輪：GIS、東亞與世界史}
     sets:
       chinese: [chn113-06, chn113-07, chn113-08, chn113-21, chn113-22]
       english: [eng114-35, eng114-36, eng114-37, eng114-38, eng112-07]
-      mathA: [ma114-01, ma114-02, ma115-16, ma114-07, ma115-17]
-      mathB: [mb114-15, mb114-16, mb114-17, mb113-01, mb113-02]
+      mathA: [ma108-07, ma108-11, ma108-12, ma112-02, ma108-13]
+      mathB: [mb108-08, mb108-09, mb108-10, mb108-14, mb112-08]
       science: [sci114-09, sci114-15, sci114-32, sci114-07, sci114-08]
       social: [soc114-21, soc114-12, soc114-14, soc114-15, soc114-16]
   - day: 71
-    theme: {chinese: 第二輪：鄭成功與鯨、回憶與夢、古典的閱讀, english: 第二輪：閱讀測驗（二）＋詞彙, mathA: 第四輪：計數、三角與數列, mathB: 第四輪：指數、對數與數的估算, science: 第二輪：光合與呼吸、岩石循環、聚合物、颱風, social: 第二輪：立法院、GDP、戰後教育、日治議會}
+    theme: {chinese: 第二輪：鄭成功與鯨、回憶與夢、古典的閱讀, english: 第二輪：閱讀測驗（二）＋詞彙, mathA: 複習：指對數、排列組合、向量與空間、三角, mathB: 複習：空間、機率、指對數、三角, science: 第二輪：光合與呼吸、岩石循環、聚合物、颱風, social: 第二輪：立法院、GDP、戰後教育、日治議會}
     sets:
       chinese: [chn113-30, chn113-31, chn113-34, chn113-35, chn112-34]
       english: [eng114-39, eng114-40, eng114-41, eng114-42, eng112-08]
-      mathA: [ma114-03, ma114-04, ma114-08, ma114-09, ma114-13]
-      mathB: [mb112-01, mb112-09, mb112-10, mb112-13, mb113-11]
+      mathA: [ma108-16, ma108-17, ma108-19, ma112-12, ma107-03]
+      mathB: [mb107-01, mb107-02, mb107-04, mb108-18, mb112-14]
       science: [sci114-02, sci114-16, sci114-33, sci114-44, sci114-45]
       social: [soc114-02, soc114-06, soc114-08, soc114-33, soc114-34]
   - day: 72
-    theme: {chinese: 第二輪：山笑、李漁的廳壁, english: 第二輪：綜合測驗（113 第一篇）, mathA: 第四輪：三角、向量與空間, mathB: 第四輪：多項式與矩陣, science: 第二輪：星等、酯化與中和、氣體溶解度、光觸媒, social: 第二輪：東亞貿易、人口與澎湖}
+    theme: {chinese: 第二輪：山笑、李漁的廳壁, english: 第二輪：綜合測驗（113 第一篇）, mathA: 複習：三角、向量與空間、多項式, mathB: 複習：指對數、三角、數列, science: 第二輪：星等、酯化與中和、氣體溶解度、光觸媒, social: 第二輪：東亞貿易、人口與澎湖}
     sets:
       chinese: [chn114-06, chn114-07, chn114-08, chn114-20, chn114-21]
       english: [eng113-11, eng113-12, eng113-13, eng113-14, eng113-15]
-      mathA: [ma114-05, ma114-06, ma114-10, ma114-11, ma114-14]
-      mathB: [mb113-05, mb112-06, mb113-09, mb113-13, mb112-02]
+      mathA: [ma107-05, ma107-07, ma108-20, ma113-06, ma107-09]
+      mathB: [mb107-06, mb107-08, mb107-13, mb107-14, mb113-08]
       science: [sci114-18, sci114-31, sci114-34, sci114-35, sci114-36]
       social: [soc114-17, soc114-18, soc114-19, soc114-35, soc114-36]
   - day: 73
-    theme: {chinese: 第二輪：錢乙的藥方、晚明遊西湖, english: 第二輪：綜合測驗（113 第二篇）, mathA: 第四輪：統計、機率與圓, mathB: 第四輪：三角測量與向量, science: 第二輪：衛星軌道、庫侖力、孢粉紀錄、神經電位, social: 第二輪：產業變遷：糖業、汽車與紡織}
+    theme: {chinese: 第二輪：錢乙的藥方、晚明遊西湖, english: 第二輪：綜合測驗（113 第二篇）, mathA: 複習：向量與空間、直線與圓、三角, mathB: 複習：數據分析、指對數、多項式、矩陣, science: 第二輪：衛星軌道、庫侖力、孢粉紀錄、神經電位, social: 第二輪：產業變遷：糖業、汽車與紡織}
     sets:
       chinese: [chn114-22, chn114-23, chn114-24, chn114-30, chn114-31]
       english: [eng113-16, eng113-17, eng113-18, eng113-19, eng113-20]
-      mathA: [ma114-12, ma114-15, ma114-16, ma114-17, ma113-01]
-      mathB: [mb113-06, mb112-03, mb112-15, mb113-04, mb113-15]
+      mathA: [ma107-10, ma107-11, ma107-15, ma113-08, ma106-06]
+      mathB: [mb106-01, mb106-02, mb107-17, mb107-18, mb113-10]
       science: [sci114-19, sci115-16, sci115-09, sci114-47, sci114-48]
       social: [soc114-20, soc114-22, soc114-23, soc114-37, soc114-38]
   - day: 74
-    theme: {chinese: 第二輪：概念框架、桃花源、屈原、原創者, english: 第二輪：文意選填（上）, mathA: 第四輪：指對數、多項式與三角方程, mathB: 第四輪：數列與週期規律, science: 第二輪：從香蕉提取鉀鹽、耐寒基因, social: 第二輪：喀斯特、循環經濟、中東與華人移民}
+    theme: {chinese: 第二輪：概念框架、桃花源、屈原、原創者, english: 第二輪：文意選填（上）, mathA: 複習：直線與圓、向量與空間、多項式, mathB: 複習：空間、數據分析、排列組合、直線與圓, science: 第二輪：從香蕉提取鉀鹽、耐寒基因, social: 第二輪：喀斯特、循環經濟、中東與華人移民}
     sets:
       chinese: [chn114-32, chn114-33, chn114-28, chn112-32, chn112-36]
       english: [eng113-21, eng113-22, eng113-23, eng113-24, eng113-25]
-      mathA: [ma112-01, ma113-07, ma113-03, ma113-04, ma112-14]
-      mathB: [mb113-08, mb113-10, mb112-08, mb111-02, mb112-14]
+      mathA: [ma107-16, ma107-19, ma107-20, ma113-10, ma106-08]
+      mathB: [mb106-04, mb106-05, mb106-07, mb106-09, mb112-04]
       science: [sci115-25, sci115-26, sci115-27, sci114-37, sci114-39]
       social: [soc114-24, soc114-26, soc114-27, soc114-28, soc114-31]
   - day: 75
-    theme: {chinese: 第二輪：臺灣杉、福爾摩斯的破綻, english: 第二輪：文意選填（下）, mathA: 第四輪：排列組合與機率, mathB: 第四輪：機率與統計, science: 第二輪：地震海嘯預警、起重機的力與能量、DNA 鹼基, social: 第二輪：冷戰、歐洲整合與噶瑪蘭}
+    theme: {chinese: 第二輪：臺灣杉、福爾摩斯的破綻, english: 第二輪：文意選填（下）, mathA: 複習：向量與空間、矩陣, mathB: 複習：三角、排列組合、數列、多項式, science: 第二輪：地震海嘯預警、起重機的力與能量、DNA 鹼基, social: 第二輪：冷戰、歐洲整合與噶瑪蘭}
     sets:
       chinese: [chn115-06, chn115-07, chn115-08, chn115-09, chn115-10]
       english: [eng113-26, eng113-27, eng113-28, eng113-29, eng113-30]
-      mathA: [ma112-04, ma113-05, ma112-08, ma113-15, ma111-05]
-      mathB: [mb113-12, mb113-14, mb112-05, mb112-04, mb113-07]
+      mathA: [ma106-10, ma106-13, ma106-15, ma112-11, ma106-17]
+      mathB: [mb106-11, mb106-12, mb106-14, mb106-16, mb112-05]
       science: [sci113-06, sci115-07, sci115-08, sci115-11, sci115-12]
       social: [soc114-39, soc114-40, soc114-41, soc114-42, soc114-07]
   - day: 76
-    theme: {chinese: 第二輪：俠與士、勞山道士、氣候變遷, english: 第二輪：篇章結構＋詞彙, mathA: 第四輪：三角與坐標幾何, mathB: 第四輪：坐標幾何與經緯度, science: 第二輪：啤酒苦味的萃取、溫度決定性別、眼睛與相機, social: 第二輪：AI 與人權、集會結社}
+    theme: {chinese: 第二輪：俠與士、勞山道士、氣候變遷, english: 第二輪：篇章結構＋詞彙, mathA: 複習：指對數、機率統計、直線與圓、矩陣, mathB: 複習：多項式、三角、直線與圓、指對數, science: 第二輪：啤酒苦味的萃取、溫度決定性別、眼睛與相機, social: 第二輪：AI 與人權、集會結社}
     sets:
       chinese: [chn115-11, chn115-12, chn115-13, chn111-33, chn111-37]
       english: [eng113-31, eng113-32, eng113-33, eng113-34, eng112-09]
-      mathA: [ma112-02, ma113-06, ma113-08, ma112-12, ma113-10]
-      mathB: [mb113-03, mb112-11, mb112-16, mb113-16, mb112-12]
+      mathA: [ma106-18, ma106-19, ma106-20, ma112-13, ma105-05]
+      mathB: [mb105-01, mb105-02, mb105-03, mb105-04, mb113-07]
       science: [sci113-21, sci114-28, sci114-29, sci115-37, sci115-39]
       social: [soc114-43, soc114-44, soc114-45, soc114-47, soc114-48]
   - day: 77
-    theme: {chinese: 第二輪：肥皂的歷史、〈出師表〉, english: 第二輪：閱讀測驗（一）＋詞彙, mathA: 第四輪：矩陣與方程組, mathB: 第四輪：圓錐截痕、矩陣與計數挑戰, science: 第二輪：月球溫度與核能、海洋水色與聖嬰、化學計量, social: 第二輪：規模經濟、自由貿易與史觀}
+    theme: {chinese: 第二輪：肥皂的歷史、〈出師表〉, english: 第二輪：閱讀測驗（一）＋詞彙, mathA: 複習：數列、向量與空間、三角、矩陣, mathB: 複習：指對數、機率, science: 第二輪：月球溫度與核能、海洋水色與聖嬰、化學計量, social: 第二輪：規模經濟、自由貿易與史觀}
     sets:
       chinese: [chn115-16, chn115-17, chn115-18, chn115-30, chn115-31]
       english: [eng113-35, eng113-36, eng113-37, eng113-38, eng112-10]
-      mathA: [ma113-11, ma113-12, ma112-11, ma112-13, ma113-13]
-      mathB: [mb112-07, mb111-06, mb111-05, mb111-14, mb112-17]
+      mathA: [ma105-06, ma105-09, ma105-12, ma113-11, ma105-14]
+      mathB: [mb105-07, mb105-08, mb105-11, mb105-13, mb113-12]
       science: [sci113-14, sci115-17, sci115-18, sci114-41, sci114-42]
       social: [soc114-59, soc114-60, soc114-50, soc114-54, soc114-62]
   - day: 78
-    theme: {chinese: 第二輪：懷素〈自敘帖〉、聽見她的聲音, english: 第二輪：閱讀測驗（二）＋詞彙, mathA: 第四輪：數列與統計, mathB: 第四輪：數與式、指數對數, science: 第二輪：烷類燃燒熱、潮汐與潮汐發電、海洋的時間尺度, social: 第二輪：原住民族與土地}
+    theme: {chinese: 第二輪：懷素〈自敘帖〉、聽見她的聲音, english: 第二輪：閱讀測驗（二）＋詞彙, mathA: 複習：向量與空間、矩陣、機率統計, mathB: 複習：數列、機率、直線與圓, science: 第二輪：烷類燃燒熱、潮汐與潮汐發電、海洋的時間尺度, social: 第二輪：原住民族與土地}
     sets:
       chinese: [chn115-19, chn115-20, chn115-21, chn115-35]
       english: [eng113-39, eng113-40, eng113-41, eng113-42, eng111-03]
-      mathA: [ma112-07, ma112-09, ma113-09, ma112-03, ma111-04]
-      mathB: [mb111-01, mb111-13, mb114-18, mb110-09, mb109-05]
+      mathA: [ma105-15, ma105-17, ma105-19, ma113-12, ma104-09]
+      mathB: [mb104-01, mb104-02, mb104-03, mb105-18, mb113-14]
       science: [sci113-29, sci114-55, sci114-57, sci115-51, sci115-52]
       social: [soc113-09, soc115-30, soc115-31, soc115-32, soc115-33]
   - day: 79
-    theme: {chinese: 第三輪：字音字形暖身, english: 第二輪：綜合測驗（112 第一篇：樹冠羞避）, mathA: 第四輪：向量與空間, mathB: 第四輪：多項式與數列, science: 第二輪：光觸媒的能隙、花蜜的苄丙酮與尼古丁、溫帶氣旋, social: 第二輪：黃河水患與古代防疫}
+    theme: {chinese: 第三輪：字音字形暖身, english: 第二輪：綜合測驗（112 第一篇：樹冠羞避）, mathA: 複習：機率統計、排列組合、向量與空間、矩陣, mathB: 複習：數據分析、指對數、排列組合、三角, science: 第二輪：光觸媒的能隙、花蜜的苄丙酮與尼古丁、溫帶氣旋, social: 第二輪：黃河水患與古代防疫}
     sets:
       chinese: [chn114-01, chn112-01, chn114-02, chn111-02, chn114-26]
       english: [eng112-11, eng112-12, eng112-13, eng112-14, eng112-15]
-      mathA: [ma113-02, ma112-05, ma112-06, ma112-15, ma112-16]
-      mathB: [mb111-09, mb111-12, mb109-10, mb110-14, mb109-08]
+      mathA: [ma104-12, ma104-13, ma105-20, ma113-13, ma104-14]
+      mathB: [mb104-05, mb104-07, mb104-10, mb104-11, mb112-11]
       science: [sci113-32, sci114-50, sci114-52, sci115-40, sci115-43]
       social: [soc115-57, soc115-58, soc115-59, soc115-61, soc115-62]
   - day: 80
-    theme: {chinese: 第三輪：字音字形＋成語, english: 第二輪：綜合測驗（112 第二篇：查理布朗效應）, mathA: 第四輪：綜合挑戰, mathB: 第四輪：三角函數與三角測量, science: 第二輪：汞能階與極紫外光、隕石定年與隕石坑、第二週期元素, social: 第二輪：違規停車、台積電熊本廠、巴米揚大佛}
+    theme: {chinese: 第三輪：字音字形＋成語, english: 第二輪：綜合測驗（112 第二篇：查理布朗效應）, mathA: 複習：直線與圓、矩陣、向量與空間、數列, mathB: 複習：指對數、空間、三角, science: 第二輪：汞能階與極紫外光、隕石定年與隕石坑、第二週期元素, social: 第二輪：違規停車、台積電熊本廠、巴米揚大佛}
     sets:
       chinese: [chn111-01, chn110-01, chn110-02, chn113-25, chn111-03]
       english: [eng112-16, eng112-17, eng112-18, eng112-19, eng112-20]
-      mathA: [ma112-10, ma113-14, ma113-16, ma112-17, ma111-08]
-      mathB: [mb111-18, mb110-03, mb109-01, mb109-17, mb109-07]
+      mathA: [ma104-15, ma104-17, ma104-18, ma111-04, ma103-06]
+      mathB: [mb103-01, mb103-02, mb104-16, mb104-20, mb112-12]
       science: [sci113-11, sci115-47, sci115-48, sci115-55, sci115-56]
       social: [soc115-26, soc115-27, soc115-28, soc115-29, soc115-45]
   - day: 81
-    theme: {chinese: 第三輪：文言虛詞與句式, english: 第二輪：文意選填（上）（112：喝水的學問）, mathA: 第四輪：數與式、指數對數, mathB: 第四輪：坐標幾何與平面向量, science: 第二輪：量子點、mRNA、基本交互作用、地震預警, social: 第二輪：臺灣史：日治墓園、異域孤軍、劉銘傳的鐵路}
+    theme: {chinese: 第三輪：文言虛詞與句式, english: 第二輪：文意選填（上）（112：喝水的學問）, mathA: 複習：指對數、數列、向量與空間、機率統計, mathB: 複習：直線與圓、指對數、排列組合, science: 第二輪：量子點、mRNA、基本交互作用、地震預警, social: 第二輪：臺灣史：日治墓園、異域孤軍、劉銘傳的鐵路}
     sets:
       chinese: [chn114-25, chn111-26, chn110-37, chn114-29, chn112-27]
       english: [eng112-21, eng112-22, eng112-23, eng112-24, eng112-25]
-      mathA: [ma111-02, ma111-07, ma110-17, ma110-18, ma109-11]
-      mathB: [mb111-08, mb111-11, mb111-04, mb115-18, mb112-18]
+      mathA: [ma103-07, ma103-11, ma104-19, ma112-03, ma103-14]
+      mathB: [mb103-03, mb103-04, mb103-05, mb103-08, mb112-16]
       science: [sci113-05, sci113-20, sci113-31, sci115-44, sci115-45]
       social: [soc115-34, soc115-35, soc115-36, soc115-38, soc115-53]
   - day: 82
-    theme: {chinese: 第三輪：排序與填句, english: 第二輪：文意選填（下）（112：喝水的學問）, mathA: 第四輪：多項式與數列, mathB: 第四輪：向量、矩陣與空間概念, science: 第二輪：力學與運動、原子結構與週期表、細胞與細胞分裂, social: 第二輪：貿易戰、文化政策、荷莫茲海峽}
+    theme: {chinese: 第三輪：排序與填句, english: 第二輪：文意選填（下）（112：喝水的學問）, mathA: 複習：向量與空間、排列組合、數列、機率統計, mathB: 複習：平面向量、多項式、數據分析、三角, science: 第二輪：力學與運動、原子結構與週期表、細胞與細胞分裂, social: 第二輪：貿易戰、文化政策、荷莫茲海峽}
     sets:
       chinese: [chn110-03, chn114-05, chn113-05, chn110-09, chn112-06]
       english: [eng112-26, eng112-27, eng112-28, eng112-29, eng112-30]
-      mathA: [ma111-10, ma111-12, ma110-05, ma110-02, ma109-14]
-      mathB: [mb113-18, mb111-07, mb110-11, mb109-03, mb110-01]
+      mathA: [ma103-16, ma103-17, ma103-18, ma112-07, ma102-03]
+      mathB: [mb103-09, mb103-10, mb103-12, mb103-13, mb113-03]
       science: [sci111-03, sci111-10, sci111-19, sci111-20, sci111-01, sci111-02]
       social: [soc115-47, soc115-48, soc115-50, soc115-51, soc115-64]
   - day: 83
-    theme: {chinese: 第三輪：閱讀 SOP＋研判題, english: 第二輪：篇章結構（112：聯覺）＋詞彙, mathA: 第四輪：三角函數與三角形, mathB: 第四輪：機率與數據分析, science: 第二輪：近代物理與基本交互作用、化學與生活、環境、代謝與能量, social: 第二輪：修法程序、勞保補貼、殖民城市、朱一貴事件}
+    theme: {chinese: 第三輪：閱讀 SOP＋研判題, english: 第二輪：篇章結構（112：聯覺）＋詞彙, mathA: 複習：機率統計、矩陣、三角、數列, mathB: 複習：指對數、排列組合、直線與圓、空間, science: 第二輪：近代物理與基本交互作用、化學與生活、環境、代謝與能量, social: 第二輪：修法程序、勞保補貼、殖民城市、朱一貴事件}
     sets:
       chinese: [chn113-11, chn113-12, chn110-04, chn114-03, chn110-13]
       english: [eng112-31, eng112-32, eng112-33, eng112-34, eng110-01]
-      mathA: [ma111-15, ma112-18, ma110-10, ma110-19, ma109-20]
-      mathB: [mb111-15, mb111-16, mb111-10, mb110-07, mb109-15]
+      mathA: [ma102-04, ma103-19, ma103-20, ma112-09, ma102-08]
+      mathB: [mb102-01, mb102-02, mb102-05, mb103-15, mb113-16]
       science: [sci111-04, sci111-11, sci111-21, sci111-07, sci111-08]
       social: [soc113-16, soc114-29, soc115-39, soc115-41, soc115-55]
   - day: 84
-    theme: {chinese: 第三輪：文言短篇閱讀, english: 第二輪：閱讀測驗（112：呼拉圈的歷史）＋詞彙, mathA: 第四輪：坐標幾何與平面向量, mathB: 第四輪：計數、矩陣與綜合, science: 第二輪：力學與運動、化學與生活、環境、遺傳, social: 第二輪：玉山地形、番茄糊市場、美中關係、大航海與東亞文化圈}
+    theme: {chinese: 第三輪：文言短篇閱讀, english: 第二輪：閱讀測驗（112：呼拉圈的歷史）＋詞彙, mathA: 複習：多項式、向量與空間、直線與圓、機率統計, mathB: 複習：三角、矩陣、數列、指對數, science: 第二輪：力學與運動、化學與生活、環境、遺傳, social: 第二輪：玉山地形、番茄糊市場、美中關係、大航海與東亞文化圈}
     sets:
       chinese: [chn110-33, chn110-34, chn111-07, chn110-38, chn112-26]
       english: [eng112-35, eng112-36, eng112-37, eng112-38, eng110-02]
-      mathA: [ma111-06, ma111-18, ma111-09, ma110-04, ma110-08]
-      mathB: [mb111-03, mb111-17, mb109-12, mb109-04, mb109-09]
+      mathA: [ma102-09, ma102-10, ma102-17, ma113-09, ma101-03]
+      mathB: [mb102-06, mb102-07, mb102-12, mb102-13, mb111-05]
       science: [sci111-05, sci111-12, sci111-22, sci111-28, sci111-29]
       social: [soc113-04, soc113-14, soc114-52, soc114-57, soc115-43]
   - day: 85
-    theme: {chinese: 第三輪：一週綜合複習, english: 第二輪：閱讀測驗（112：茶園與亞洲象）＋詞彙, mathA: 第四輪：空間向量與平面, mathB: 第五輪：數與式、條件機率與三角, science: 第二輪：電磁學、酸鹼與溶液、生物技術與實驗, social: 第二輪：社會規範與社會化、史料與歷史解釋、聚落與交通}
+    theme: {chinese: 第三輪：一週綜合複習, english: 第二輪：閱讀測驗（112：茶園與亞洲象）＋詞彙, mathA: 複習：向量與空間、三角, mathB: 複習：指對數、數列、直線與圓、空間, science: 第二輪：電磁學、酸鹼與溶液、生物技術與實驗, social: 第二輪：社會規範與社會化、史料與歷史解釋、聚落與交通}
     sets:
       chinese: [chn114-11, chn114-12, chn111-05, chn110-35, chn110-12]
       english: [eng112-39, eng112-40, eng112-41, eng112-42, eng110-03]
-      mathA: [ma111-11, ma111-16, ma113-18, ma110-15, ma110-20]
-      mathB: [mb115-01, mb115-02, mb115-07, mb115-08, mb115-13]
+      mathA: [ma102-18, ma102-19, ma102-20, ma112-05, ma101-07]
+      mathB: [mb101-01, mb101-02, mb102-15, mb102-16, mb111-06]
       science: [sci111-06, sci111-13, sci111-23, sci111-30, sci111-09]
       social: [soc111-01, soc111-05, soc111-18, soc111-02, soc111-06]
   - day: 86
-    theme: {chinese: 第三輪：文言：外交與進諫, english: 第二輪：閱讀測驗（112：尚吉巴）＋詞彙, mathA: 第四輪：機率與統計, mathB: 第五輪：矩陣、經緯度與多項式, science: 第二輪：化學計量與熱化學、遺傳、生物技術與實驗, social: 第二輪：區域與產業、生活中的法律、世界史}
+    theme: {chinese: 第三輪：文言：外交與進諫, english: 第二輪：閱讀測驗（112：尚吉巴）＋詞彙, mathA: 複習：直線與圓、三角、向量與空間、指對數, mathB: 複習：指對數、機率、直線與圓、平面向量, science: 第二輪：化學計量與熱化學、遺傳、生物技術與實驗, social: 第二輪：區域與產業、生活中的法律、世界史}
     sets:
       chinese: [chn115-04, chn112-05, chn115-28, chn111-18, chn111-19]
       english: [eng112-43, eng112-44, eng112-45, eng112-46, eng110-04]
-      mathA: [ma111-03, ma111-13, ma110-12, ma110-16, ma109-06]
-      mathB: [mb115-03, mb115-04, mb115-09, mb115-10, mb115-14]
+      mathA: [ma101-11, ma101-12, ma101-17, ma112-06, ma100-03]
+      mathB: [mb101-05, mb101-06, mb101-09, mb101-15, mb111-14]
       science: [sci111-14, sci111-24, sci111-25, sci111-31]
       social: [soc111-19, soc111-03, soc111-07, soc111-20, soc111-04]
   - day: 87
-    theme: {chinese: 第三輪：國學常識：題辭、書信與文學史, english: 第二輪：綜合測驗（111 第一篇：書鎮）, mathA: 第四輪：計數、矩陣與空間挑戰, mathB: 第五輪：數列、直線與圓錐截痕, science: 第二輪：波動與光、科學探究與實作、酸鹼與溶液, social: 第二輪：東亞國際關係、世界區域地理、全球化與多元文化}
+    theme: {chinese: 第三輪：國學常識：題辭、書信與文學史, english: 第二輪：綜合測驗（111 第一篇：書鎮）, mathA: 複習：指對數、三角、機率統計、向量與空間, mathB: 複習：機率、多項式、平面向量、三角, science: 第二輪：波動與光、科學探究與實作、酸鹼與溶液, social: 第二輪：東亞國際關係、世界區域地理、全球化與多元文化}
     sets:
       chinese: [chn115-03, chn111-29, chn110-08, chn111-31, chn111-32]
       english: [eng111-11, eng111-12, eng111-13, eng111-14, eng111-15]
-      mathA: [ma111-01, ma111-14, ma111-17, ma109-13, ma109-18]
-      mathB: [mb115-05, mb115-06, mb115-11, mb115-12, mb115-15]
+      mathA: [ma100-05, ma100-08, ma101-20, ma112-15, ma100-10]
+      mathB: [mb100-01, mb100-02, mb101-16, mb101-18, mb112-07]
       science: [sci111-49, sci111-50, sci111-52, sci111-53, sci111-15]
       social: [soc111-08, soc111-21, soc111-22, soc111-09, soc111-28, soc111-29]
   - day: 88
-    theme: {chinese: 第三輪：白話閱讀與跨文本, english: 第二輪：綜合測驗（111 第二篇：飛機的圓窗）, mathA: 第四輪：向量內積、直線與旋轉矩陣、平行六面體, mathB: 第五輪：函數圖形、矩陣與透視, science: 第二輪：演化與分類、大氣與氣象、力學與運動, social: 第二輪：社會安全與公共政策、經濟學概念、世界史}
+    theme: {chinese: 第三輪：白話閱讀與跨文本, english: 第二輪：綜合測驗（111 第二篇：飛機的圓窗）, mathA: 複習：直線與圓、向量與空間、多項式, mathB: 複習：直線與圓、數據分析、機率、排列組合, science: 第二輪：演化與分類、大氣與氣象、力學與運動, social: 第二輪：社會安全與公共政策、經濟學概念、世界史}
     sets:
       chinese: [chn114-04, chn113-28, chn114-09, chn114-10, chn113-03]
       english: [eng111-16, eng111-17, eng111-18, eng111-19, eng111-20]
-      mathA: [ma109-02, ma109-16, ma114-18, ma115-18]
-      mathB: [mb114-01, mb114-02, mb115-16, mb114-07, mb114-08]
+      mathA: [ma100-11, ma100-12, ma100-13, ma112-16, ma100-15]
+      mathB: [mb100-04, mb100-06, mb100-09, mb100-16, mb112-17]
       science: [sci111-26, sci111-32, sci111-58, sci111-59, sci111-16]
       social: [soc111-23, soc111-24, soc111-25, soc111-10, soc111-30, soc111-31]
   - day: 89
-    theme: {chinese: 第三輪：詩詞與圖表判讀, english: 第二輪：文意選填（上）（111：特技演員）, mathA: 第五輪：機率、函數與矩陣, mathB: 第五輪：對數、向量與機率統計, science: 第二輪：演化與分類、天文、近代物理與基本交互作用, social: 第二輪：民主政治與媒體、臺灣史、地圖與地理資訊系統}
+    theme: {chinese: 第三輪：詩詞與圖表判讀, english: 第二輪：文意選填（上）（111：特技演員）, mathA: 複習：三角、矩陣、向量與空間, mathB: 複習：指對數, science: 第二輪：演化與分類、天文、近代物理與基本交互作用, social: 第二輪：民主政治與媒體、臺灣史、地圖與地理資訊系統}
     sets:
       chinese: [chn111-06, chn110-10, chn110-15, chn110-16, chn110-17]
       english: [eng111-21, eng111-22, eng111-23, eng111-24, eng111-25]
-      mathA: [ma115-01, ma115-02, ma115-07, ma115-08, ma115-13]
-      mathB: [mb114-03, mb114-04, mb114-09, mb114-10, mb114-13]
+      mathA: [ma100-17, ma100-18, ma100-20, ma113-02, ma111-08]
+      mathB: [mb109-05, mb110-09, mb111-01, mb111-13, mb114-18]
       science: [sci111-27, sci111-33, sci112-28, sci111-17, sci111-46, sci111-47]
       social: [soc111-47, soc111-12, soc111-36, soc111-37, soc111-49]
   - day: 90
-    theme: {chinese: 第三輪：文言閱讀與跨文本, english: 第二輪：文意選填（下）（111：特技演員）, mathA: 第五輪：指數、計數與向量, mathB: 第五輪：空間概念、數列與坐標幾何, science: 第二輪：大氣與氣象、力學與運動、化學與生活、環境, social: 第二輪：世界史、地圖與地理資訊系統、全球化與多元文化}
+    theme: {chinese: 第三輪：文言閱讀與跨文本, english: 第二輪：文意選填（下）（111：特技演員）, mathA: 複習：直線與圓、向量與空間、多項式、指對數, mathB: 複習：數列、多項式, science: 第二輪：大氣與氣象、力學與運動、化學與生活、環境, social: 第二輪：世界史、地圖與地理資訊系統、全球化與多元文化}
     sets:
       chinese: [chn115-27, chn110-11, chn110-24, chn110-25, chn112-29]
       english: [eng111-26, eng111-27, eng111-28, eng111-29, eng111-30]
-      mathA: [ma115-03, ma115-04, ma115-09, ma115-10, ma115-14]
-      mathB: [mb114-05, mb114-06, mb114-11, mb114-12, mb114-14]
+      mathA: [ma112-10, ma112-17, ma113-14, ma113-16, ma109-11]
+      mathB: [mb109-08, mb109-10, mb110-14, mb111-09, mb111-12]
       science: [sci111-34, sci112-29, sci111-18, sci112-10, sci112-11]
       social: [soc111-13, soc111-42, soc111-43, soc111-51, soc111-14]
   - day: 91
-    theme: {chinese: 第三輪：圖表題與修辭, english: 第二輪：篇章結構（111：盂蘭盆節）＋詞彙, mathA: 第五輪：矩陣、坐標與多項式, mathB: 第五輪：計數、空間與綜合挑戰, science: 第二輪：海洋、波動與光, social: 第二輪：區域與產業、經濟學概念、中國史}
+    theme: {chinese: 第三輪：圖表題與修辭, english: 第二輪：篇章結構（111：盂蘭盆節）＋詞彙, mathA: 複習：指對數、數列, mathB: 複習：三角、多項式, science: 第二輪：海洋、波動與光, social: 第二輪：區域與產業、經濟學概念、中國史}
     sets:
       chinese: [chn111-04, chn110-14, chn114-13, chn114-14, chn110-36]
       english: [eng111-31, eng111-32, eng111-33, eng111-34, eng110-05]
-      mathA: [ma115-05, ma115-06, ma115-11, ma115-12, ma115-15]
-      mathB: [mb114-15, mb114-16, mb114-17, mb113-01, mb113-02]
+      mathA: [ma110-17, ma110-18, ma111-02, ma111-07, ma109-14]
+      mathB: [mb109-01, mb109-07, mb109-17, mb110-03, mb111-18]
       science: [sci111-36, sci112-30, sci112-31]
       social: [soc111-57, soc111-53, soc111-15, soc112-18, soc111-59]
   - day: 92
-    theme: {chinese: 第三輪：赤壁題組：詠史詩與〈赤壁賦〉, english: 第二輪：閱讀測驗（111：馬賽族）＋詞彙, mathA: 第五輪：綜合與挑戰題, mathB: 第五輪：指數、對數與數的估算, science: 第二輪：化學與生活、環境、大氣與氣象、化學計量與熱化學, social: 第二輪：世界史、聚落與交通、法律原則}
+    theme: {chinese: 第三輪：赤壁題組：詠史詩與〈赤壁賦〉, english: 第二輪：閱讀測驗（111：馬賽族）＋詞彙, mathA: 複習：數列、多項式、三角, mathB: 複習：平面向量、直線與圓, science: 第二輪：化學與生活、環境、大氣與氣象、化學計量與熱化學, social: 第二輪：世界史、聚落與交通、法律原則}
     sets:
       chinese: [chn114-15, chn114-16, chn114-17, chn114-18, chn114-19]
       english: [eng111-35, eng111-36, eng111-37, eng111-38, eng110-06]
-      mathA: [ma114-01, ma114-02, ma115-16, ma114-07, ma115-17]
-      mathB: [mb112-01, mb112-09, mb112-10, mb112-13, mb113-11]
+      mathA: [ma110-02, ma110-05, ma111-10, ma111-12, ma109-20]
+      mathB: [mb111-04, mb111-08, mb111-11, mb112-18, mb115-18]
       science: [sci111-37, sci111-39, sci111-41, sci111-42, sci112-12]
       social: [soc111-17, soc112-20, soc111-65, soc111-66, soc111-27]
   - day: 93
-    theme: {chinese: 第三輪：白話閱讀：情緒與心結, english: 第二輪：閱讀測驗（111：工地安全帽）＋詞彙, mathA: 第五輪：計數、三角與數列, mathB: 第五輪：多項式與矩陣, science: 第二輪：地質與地球歷史、波動與光、化學與生活、環境, social: 第二輪：世界區域地理、社會安全與公共政策、中國史}
+    theme: {chinese: 第三輪：白話閱讀：情緒與心結, english: 第二輪：閱讀測驗（111：工地安全帽）＋詞彙, mathA: 複習：三角、向量與空間, mathB: 複習：平面向量、矩陣、空間, science: 第二輪：地質與地球歷史、波動與光、化學與生活、環境, social: 第二輪：世界區域地理、社會安全與公共政策、中國史}
     sets:
       chinese: [chn110-05, chn110-06, chn113-18, chn113-19, chn113-20]
       english: [eng111-39, eng111-40, eng111-41, eng111-42, eng110-07]
-      mathA: [ma114-03, ma114-04, ma114-08, ma114-09, ma114-13]
-      mathB: [mb113-05, mb112-06, mb113-09, mb113-13, mb112-02]
+      mathA: [ma110-10, ma110-19, ma111-15, ma112-18, ma110-04]
+      mathB: [mb109-03, mb110-01, mb110-11, mb111-07, mb113-18]
       science: [sci111-43, sci111-44, sci112-32, sci111-55, sci111-56]
       social: [soc112-21, soc112-01, soc111-34, soc111-35, soc112-32, soc112-33]
   - day: 94
-    theme: {chinese: 第三輪：文言小品：寓言、筆記與自序, english: 第二輪：閱讀測驗（111：斑馬魚）＋詞彙, mathA: 第五輪：三角、向量與空間, mathB: 第五輪：三角測量與向量, science: 第二輪：細胞與細胞分裂、大氣與氣象、力學與運動, social: 第二輪：生活中的法律、臺灣史、法律原則}
+    theme: {chinese: 第三輪：文言小品：寓言、筆記與自序, english: 第二輪：閱讀測驗（111：斑馬魚）＋詞彙, mathA: 複習：直線與圓、向量與空間, mathB: 複習：機率、數據分析, science: 第二輪：細胞與細胞分裂、大氣與氣象、力學與運動, social: 第二輪：生活中的法律、臺灣史、法律原則}
     sets:
       chinese: [chn110-40, chn112-07, chn111-30, chn111-12, chn111-13]
       english: [eng111-43, eng111-44, eng111-45, eng111-46, eng110-08]
-      mathA: [ma114-05, ma114-06, ma114-10, ma114-11, ma114-14]
-      mathB: [mb113-06, mb112-03, mb112-15, mb113-04, mb113-15]
+      mathA: [ma110-08, ma111-06, ma111-09, ma111-18, ma110-15]
+      mathB: [mb109-15, mb110-07, mb111-10, mb111-15, mb111-16]
       science: [sci112-13, sci112-01, sci112-33, sci112-19, sci112-14]
       social: [soc112-02, soc111-38, soc111-39, soc111-40, soc111-41]
   - day: 95
-    theme: {chinese: 第三輪：文言題組：海防策論與題跋, english: 第二輪：綜合測驗（115 第一篇：犀牛的糞便）, mathA: 第五輪：統計、機率與圓, mathB: 第五輪：數列與週期規律, science: 第二輪：大氣與氣象、近代物理與基本交互作用、物質結構與鍵結, social: 第二輪：氣候與生態、地圖與地理資訊系統、法律原則}
+    theme: {chinese: 第三輪：文言題組：海防策論與題跋, english: 第二輪：綜合測驗（115 第一篇：犀牛的糞便）, mathA: 複習：向量與空間、機率統計, mathB: 複習：矩陣、平面向量、數據分析、排列組合, science: 第二輪：大氣與氣象、近代物理與基本交互作用、物質結構與鍵結, social: 第二輪：氣候與生態、地圖與地理資訊系統、法律原則}
     sets:
       chinese: [chn115-29, chn112-15, chn112-17, chn112-19, chn112-20]
       english: [eng115-11, eng115-12, eng115-13, eng115-14, eng115-15]
-      mathA: [ma114-12, ma114-15, ma114-16, ma114-17, ma113-01]
-      mathB: [mb113-08, mb113-10, mb112-08, mb111-02, mb112-14]
+      mathA: [ma110-20, ma111-11, ma111-16, ma113-18, ma109-06]
+      mathB: [mb109-04, mb109-09, mb109-12, mb111-03, mb111-17]
       science: [sci112-02, sci112-34, sci112-21, sci112-15, sci112-03]
       social: [soc112-34, soc112-35, soc112-03, soc111-44, soc111-45, soc111-46]
   - day: 96
-    theme: {chinese: 第三輪：跨文本：檳榔與硃砂, english: 第二輪：綜合測驗（115 第二篇：港式點心）＋詞彙, mathA: 第五輪：指對數、多項式與三角方程, mathB: 第五輪：機率與統計, science: 第二輪：力學與運動、化學與生活、環境、演化與分類, social: 第二輪：地形與自然環境、氣候與生態、經濟學概念}
+    theme: {chinese: 第三輪：跨文本：檳榔與硃砂, english: 第二輪：綜合測驗（115 第二篇：港式點心）＋詞彙, mathA: 複習：機率統計、向量與空間, mathB: 複習：指對數、機率、三角, science: 第二輪：力學與運動、化學與生活、環境、演化與分類, social: 第二輪：地形與自然環境、氣候與生態、經濟學概念}
     sets:
       chinese: [chn113-29, chn114-27, chn112-23, chn112-24, chn112-25]
       english: [eng115-16, eng115-17, eng115-18, eng115-20, eng110-09]
-      mathA: [ma112-01, ma113-07, ma113-03, ma113-04, ma112-14]
-      mathB: [mb113-12, mb113-14, mb112-05, mb112-04, mb113-07]
+      mathA: [ma110-12, ma110-16, ma111-03, ma111-13, ma109-13]
+      mathB: [mb115-01, mb115-02, mb115-07, mb115-08, mb115-13]
       science: [sci112-35, sci112-22, sci112-16, sci112-05, sci112-36]
       social: [soc112-36, soc112-37, soc112-04, soc111-55, soc112-38, soc112-39]
   - day: 97
-    theme: {chinese: 第三輪：詩詞：杜甫與現代詩, english: 第二輪：文意選填（上）（115：午睡）, mathA: 第五輪：排列組合與機率, mathB: 第五輪：坐標幾何與經緯度, science: 第二輪：物質結構與鍵結、演化與分類、大氣與氣象, social: 第二輪：經濟學概念、臺灣史、全球化與多元文化}
+    theme: {chinese: 第三輪：詩詞：杜甫與現代詩, english: 第二輪：文意選填（上）（115：午睡）, mathA: 複習：向量與空間、排列組合、矩陣, mathB: 複習：矩陣、空間、多項式、數據分析, science: 第二輪：物質結構與鍵結、演化與分類、大氣與氣象, social: 第二輪：經濟學概念、臺灣史、全球化與多元文化}
     sets:
       chinese: [chn110-07, chn112-30, chn110-42, chn115-22, chn115-23]
       english: [eng115-21, eng115-22, eng115-23, eng115-24, eng115-25]
-      mathA: [ma112-04, ma113-05, ma112-08, ma113-15, ma111-05]
-      mathB: [mb113-03, mb112-11, mb112-16, mb113-16, mb112-12]
+      mathA: [ma109-18, ma111-01, ma111-14, ma111-17, ma109-02]
+      mathB: [mb115-03, mb115-04, mb115-09, mb115-10, mb115-14]
       science: [sci112-23, sci112-17, sci112-06, sci112-37, sci112-38, sci112-39]
       social: [soc112-22, soc112-23, soc111-61, soc111-62, soc112-40, soc112-41]
   - day: 98
-    theme: {chinese: 第三輪：小說與散文, english: 第二輪：文意選填（下）（115：午睡）, mathA: 第五輪：三角與坐標幾何, mathB: 第五輪：圓錐截痕、矩陣與計數挑戰, science: 第二輪：酸鹼與溶液、遺傳、大氣與氣象, social: 第二輪：法律原則、經濟學概念、臺灣史}
+    theme: {chinese: 第三輪：小說與散文, english: 第二輪：文意選填（下）（115：午睡）, mathA: 複習：直線與圓、矩陣、向量與空間、機率統計, mathB: 複習：數列、直線與圓、空間、機率, science: 第二輪：酸鹼與溶液、遺傳、大氣與氣象, social: 第二輪：法律原則、經濟學概念、臺灣史}
     sets:
       chinese: [chn110-39, chn111-28, chn112-28, chn113-16, chn113-17]
       english: [eng115-26, eng115-27, eng115-28, eng115-29, eng115-30]
-      mathA: [ma112-02, ma113-06, ma113-08, ma112-12, ma113-10]
-      mathB: [mb112-07, mb111-06, mb111-05, mb111-14, mb112-17]
+      mathA: [ma109-16, ma114-18, ma115-18, ma115-01, ma115-02]
+      mathB: [mb115-05, mb115-06, mb115-11, mb115-12, mb115-15]
       science: [sci112-24, sci112-18, sci112-07, sci112-51, sci112-53]
       social: [soc112-24, soc112-25, soc112-26, soc112-05]
   - day: 99
-    theme: {chinese: 第三輪：填句與語意邏輯, english: 第二輪：篇章結構（115：微笑）＋詞彙, mathA: 第五輪：矩陣與方程組, mathB: 第五輪：數與式、指數對數, science: 第二輪：化學計量與熱化學、遺傳、海洋, social: 第二輪：地圖與地理資訊系統、臺灣史、民主政治與媒體}
+    theme: {chinese: 第三輪：填句與語意邏輯, english: 第二輪：篇章結構（115：微笑）＋詞彙, mathA: 複習：指對數、直線與圓、矩陣、機率統計, mathB: 複習：指對數、矩陣、空間、多項式, science: 第二輪：化學計量與熱化學、遺傳、海洋, social: 第二輪：地圖與地理資訊系統、臺灣史、民主政治與媒體}
     sets:
       chinese: [chn111-27, chn110-31, chn110-32, chn112-21, chn112-22]
       english: [eng115-31, eng115-32, eng115-33, eng115-34, eng110-10]
-      mathA: [ma113-11, ma113-12, ma112-11, ma112-13, ma113-13]
-      mathB: [mb111-01, mb111-13, mb114-18, mb110-09, mb109-05]
+      mathA: [ma115-03, ma115-07, ma115-08, ma115-13, ma115-04]
+      mathB: [mb114-01, mb114-02, mb114-07, mb114-08, mb115-16]
       science: [sci112-25, sci112-26, sci112-48, sci112-49, sci112-08]
       social: [soc112-42, soc112-43, soc112-44, soc112-45]
   - day: 100
-    theme: {chinese: 第三輪：字音、字形、虛詞與成語, english: 第二輪：閱讀測驗（115：堅忍號）＋詞彙, mathA: 第五輪：數列與統計, mathB: 第五輪：多項式與數列, science: 第二輪：力學與運動、化學與生活、環境、原子結構與週期表, social: 第二輪：民主政治與媒體、生活中的法律、經濟學概念}
+    theme: {chinese: 第三輪：字音、字形、虛詞與成語, english: 第二輪：閱讀測驗（115：堅忍號）＋詞彙, mathA: 複習：矩陣、機率統計、向量與空間, mathB: 複習：指對數、機率、平面向量、數據分析, science: 第二輪：力學與運動、化學與生活、環境、原子結構與週期表, social: 第二輪：民主政治與媒體、生活中的法律、經濟學概念}
     sets:
       chinese: [chn115-01, chn115-02, chn112-02, chn115-25, chn115-26]
       english: [eng115-35, eng115-36, eng115-37, eng115-38, eng110-11]
-      mathA: [ma112-07, ma112-09, ma113-09, ma112-03, ma111-04]
-      mathB: [mb111-09, mb111-12, mb109-10, mb110-14, mb109-08]
+      mathA: [ma115-05, ma115-09, ma115-10, ma115-14, ma114-01]
+      mathB: [mb114-03, mb114-04, mb114-09, mb114-10, mb114-13]
       science: [sci113-16, sci113-17, sci112-27]
       social: [soc112-27, soc112-28, soc112-29, soc112-06, soc112-50]
   - day: 101
-    theme: {chinese: 第三輪：文意排序、「以」的用法、量詞, english: 第二輪：閱讀測驗（115：旋轉樓梯）＋詞彙, mathA: 第五輪：向量與空間, mathB: 第五輪：三角函數與三角測量, science: 第二輪：演化與分類、化學與生活、環境、地質與地球歷史, social: 第二輪：民主政治與媒體、世界史、地圖與地理資訊系統}
+    theme: {chinese: 第三輪：文意排序、「以」的用法、量詞, english: 第二輪：閱讀測驗（115：旋轉樓梯）＋詞彙, mathA: 複習：直線與圓、三角、多項式、數列, mathB: 複習：空間、多項式、數列、直線與圓, science: 第二輪：演化與分類、化學與生活、環境、地質與地球歷史, social: 第二輪：民主政治與媒體、世界史、地圖與地理資訊系統}
     sets:
       chinese: [chn115-05, chn113-26, chn111-09, chn111-10, chn111-11]
       english: [eng115-39, eng115-40, eng115-41, eng115-42, eng110-12]
-      mathA: [ma113-02, ma112-05, ma112-06, ma112-15, ma112-16]
-      mathB: [mb111-18, mb110-03, mb109-01, mb109-17, mb109-07]
+      mathA: [ma115-06, ma115-11, ma115-12, ma115-15, ma114-02]
+      mathB: [mb114-05, mb114-06, mb114-11, mb114-12, mb114-14]
       science: [sci112-55, sci112-56, sci112-58, sci112-59, sci112-09]
       social: [soc112-46, soc112-07, soc112-58, soc112-52, soc112-53]
   - day: 102
-    theme: {chinese: 第三輪：量詞分類、周處除三害, english: 第二輪：閱讀測驗（115：地圖的方位）＋詞彙, mathA: 第五輪：綜合挑戰, mathB: 第五輪：坐標幾何與平面向量, science: 第二輪：近代物理與基本交互作用、酸鹼與溶液、代謝與能量, social: 第二輪：臺灣史、聚落與交通、民主政治與媒體}
+    theme: {chinese: 第三輪：量詞分類、周處除三害, english: 第二輪：閱讀測驗（115：地圖的方位）＋詞彙, mathA: 複習：排列組合、數列、多項式、三角, mathB: 複習：數據分析、指對數、排列組合、空間, science: 第二輪：近代物理與基本交互作用、酸鹼與溶液、代謝與能量, social: 第二輪：臺灣史、聚落與交通、民主政治與媒體}
     sets:
       chinese: [chn115-14, chn115-15, chn113-13, chn113-14, chn113-15]
       english: [eng115-43, eng115-44, eng115-45, eng115-46, eng110-13]
-      mathA: [ma112-10, ma113-14, ma113-16, ma112-17, ma111-08]
-      mathB: [mb111-08, mb111-11, mb111-04, mb115-18, mb112-18]
+      mathA: [ma114-03, ma114-07, ma115-16, ma115-17, ma114-04]
+      mathB: [mb113-01, mb113-02, mb114-15, mb114-16, mb114-17]
       science: [sci113-19, sci112-45, sci112-46, sci113-01]
       social: [soc112-08, soc113-18, soc112-60, soc112-09, soc113-19]
   - day: 103
-    theme: {chinese: 第三輪：孟子與論語：人禽之辨、畏大人, english: 第二輪：綜合測驗（110 第一篇：巴塞隆納的鴿子）, mathA: 第五輪：數與式、指數對數, mathB: 第五輪：向量、矩陣與空間概念, science: 第二輪：天文、近代物理與基本交互作用, social: 第二輪：全球化與多元文化、臺灣史、世界區域地理}
+    theme: {chinese: 第三輪：孟子與論語：人禽之辨、畏大人, english: 第二輪：綜合測驗（110 第一篇：巴塞隆納的鴿子）, mathA: 複習：三角、直線與圓、多項式、指對數, mathB: 複習：多項式、指對數, science: 第二輪：天文、近代物理與基本交互作用, social: 第二輪：全球化與多元文化、臺灣史、世界區域地理}
     sets:
       chinese: [chn110-18, chn110-19, chn111-23, chn111-24, chn111-25]
       english: [eng110-16, eng110-17, eng110-18, eng110-19, eng110-20]
-      mathA: [ma111-02, ma111-07, ma110-17, ma110-18, ma109-11]
-      mathB: [mb113-18, mb111-07, mb110-11, mb109-03, mb110-01]
+      mathA: [ma114-05, ma114-08, ma114-09, ma114-13, ma113-01]
+      mathB: [mb112-01, mb112-09, mb112-10, mb112-13, mb113-11]
       science: [sci112-41, sci112-42, sci112-43, sci113-22, sci113-23]
       social: [soc113-01, soc112-10, soc113-20, soc113-03, soc112-12]
   - day: 104
-    theme: {chinese: 第三輪：推敲的學問、鳥會說話嗎, english: 第二輪：綜合測驗（110 第二篇：被雷打七次的人）, mathA: 第五輪：多項式與數列, mathB: 第五輪：機率與數據分析, science: 第二輪：化學計量與熱化學、代謝與能量、地質與地球歷史, social: 第二輪：世界區域地理、經濟學概念、社會規範與社會化}
+    theme: {chinese: 第三輪：推敲的學問、鳥會說話嗎, english: 第二輪：綜合測驗（110 第二篇：被雷打七次的人）, mathA: 複習：向量與空間、三角、指對數, mathB: 複習：矩陣、多項式, science: 第二輪：化學計量與熱化學、代謝與能量、地質與地球歷史, social: 第二輪：世界區域地理、經濟學概念、社會規範與社會化}
     sets:
       chinese: [chn110-26, chn110-27, chn110-28, chn110-29, chn110-30]
       english: [eng110-21, eng110-22, eng110-23, eng110-24, eng110-25]
-      mathA: [ma111-10, ma111-12, ma110-05, ma110-02, ma109-14]
-      mathB: [mb111-15, mb111-16, mb111-10, mb110-07, mb109-15]
+      mathA: [ma114-06, ma114-10, ma114-11, ma114-14, ma112-01]
+      mathB: [mb112-02, mb112-06, mb113-05, mb113-09, mb113-13]
       science: [sci113-10, sci113-02, sci113-28, sci113-24, sci113-25]
       social: [soc113-29, soc113-30, soc113-21, soc113-22, soc112-13]
   - day: 105
-    theme: {chinese: 第三輪：白話閱讀：哈士奇與狼、族語認證, english: 第二輪：綜合測驗（110 第三篇：熱帶冰川）, mathA: 第五輪：三角函數與三角形, mathB: 第五輪：計數、矩陣與綜合, science: 第二輪：化學與生活、環境、細胞與細胞分裂、大氣與氣象, social: 第二輪：氣候與生態、地形與自然環境、民主政治與媒體}
+    theme: {chinese: 第三輪：白話閱讀：哈士奇與狼、族語認證, english: 第二輪：綜合測驗（110 第三篇：熱帶冰川）, mathA: 複習：機率統計、直線與圓、三角, mathB: 複習：三角、平面向量, science: 第二輪：化學與生活、環境、細胞與細胞分裂、大氣與氣象, social: 第二輪：氣候與生態、地形與自然環境、民主政治與媒體}
     sets:
       chinese: [chn110-20, chn110-21, chn110-22, chn110-23, chn110-41]
       english: [eng110-26, eng110-27, eng110-28, eng110-29, eng110-30]
-      mathA: [ma111-15, ma112-18, ma110-10, ma110-19, ma109-20]
-      mathB: [mb111-03, mb111-17, mb109-12, mb109-04, mb109-09]
+      mathA: [ma114-12, ma114-15, ma114-16, ma114-17, ma111-05]
+      mathB: [mb112-03, mb112-15, mb113-04, mb113-06, mb113-15]
       science: [sci113-12, sci113-13, sci113-03, sci113-30, sci113-26, sci113-27]
       social: [soc113-31, soc113-32, soc113-23, soc113-24, soc113-25, soc113-26]
   - day: 106
-    theme: {chinese: 第三輪：女性創作：〈畫菊自序〉與呂碧城, english: 第二輪：文意選填（上）（110：運動不必痛）, mathA: 第五輪：坐標幾何與平面向量, mathB: 第六輪：數與式、條件機率與三角, science: 第二輪：化學計量與熱化學、遺傳、海洋, social: 第二輪：中國史、世界區域地理、區域與產業}
+    theme: {chinese: 第三輪：女性創作：〈畫菊自序〉與呂碧城, english: 第二輪：文意選填（上）（110：運動不必痛）, mathA: 複習：多項式、三角、指對數、直線與圓, mathB: 複習：指對數、排列組合、數據分析、數列, science: 第二輪：化學計量與熱化學、遺傳、海洋, social: 第二輪：中國史、世界區域地理、區域與產業}
     sets:
       chinese: [chn111-14, chn111-15, chn111-16, chn111-17, chn113-23]
       english: [eng110-31, eng110-32, eng110-33, eng110-34, eng110-35]
-      mathA: [ma111-06, ma111-18, ma111-09, ma110-04, ma110-08]
-      mathB: [mb115-01, mb115-02, mb115-07, mb115-08, mb115-13]
+      mathA: [ma112-14, ma113-03, ma113-04, ma113-07, ma108-01]
+      mathB: [mb108-03, mb108-04, mb108-05, mb108-06, mb111-02]
       science: [sci113-15, sci113-04, sci113-33, sci113-44, sci113-45]
       social: [soc112-14, soc113-54, soc113-55, soc113-56, soc113-36, soc113-37]
   - day: 107
-    theme: {chinese: 第三輪：資料閱讀：鄭崇和墓、狼改變了河流？, english: 第二輪：文意選填（下）（110：運動不必痛）, mathA: 第五輪：空間向量與平面, mathB: 第六輪：矩陣、經緯度與多項式, science: 第二輪：化學與生活、環境、演化與分類、大氣與氣象, social: 第二輪：世界史、地圖與地理資訊系統、社會規範與社會化}
+    theme: {chinese: 第三輪：資料閱讀：鄭崇和墓、狼改變了河流？, english: 第二輪：文意選填（下）（110：運動不必痛）, mathA: 複習：排列組合、機率統計、數列, mathB: 複習：指對數、機率、三角、矩陣, science: 第二輪：化學與生活、環境、演化與分類、大氣與氣象, social: 第二輪：世界史、地圖與地理資訊系統、社會規範與社會化}
     sets:
       chinese: [chn111-20, chn111-21, chn111-22, chn112-08, chn112-09]
       english: [eng110-36, eng110-37, eng110-38, eng110-39, eng110-40]
-      mathA: [ma111-11, ma111-16, ma113-18, ma110-15, ma110-20]
-      mathB: [mb115-03, mb115-04, mb115-09, mb115-10, mb115-14]
+      mathA: [ma112-04, ma112-08, ma113-05, ma113-15, ma108-07]
+      mathB: [mb108-08, mb108-09, mb108-10, mb108-14, mb112-08]
       science: [sci113-18, sci113-07, sci113-34, sci110-11, sci113-47, sci113-48]
       social: [soc112-15, soc110-33, soc113-47, soc112-16, soc110-34]
   - day: 108
-    theme: {chinese: 第三輪：木星合土星、京都苔庭, english: 第二輪：閱讀測驗（110：仙人掌發電）＋詞彙, mathA: 第五輪：機率與統計, mathB: 第六輪：數列、直線與圓錐截痕, science: 第二輪：演化與分類、大氣與氣象、近代物理與基本交互作用, social: 第二輪：經濟學概念、法律原則、全球化與多元文化}
+    theme: {chinese: 第三輪：木星合土星、京都苔庭, english: 第二輪：閱讀測驗（110：仙人掌發電）＋詞彙, mathA: 考前複習：三角、直線與圓, mathB: 考前複習：排列組合、數列、數據分析、機率, science: 第二輪：演化與分類、大氣與氣象、近代物理與基本交互作用, social: 第二輪：經濟學概念、法律原則、全球化與多元文化}
     sets:
       chinese: [chn112-10, chn112-11, chn112-12, chn112-13, chn112-14]
       english: [eng110-41, eng110-42, eng110-43, eng110-44, eng110-14]
-      mathA: [ma111-03, ma111-13, ma110-12, ma110-16, ma109-06]
-      mathB: [mb115-05, mb115-06, mb115-11, mb115-12, mb115-15]
+      mathA: [ma112-02, ma112-12, ma113-06, ma113-08, ma113-10]
+      mathB: [mb112-14, mb113-08, mb113-10, mb112-04, mb112-05]
       science: [sci113-08, sci113-35, sci110-13, sci110-05, sci113-09]
       social: [soc113-61, soc113-62, soc113-63, soc112-17, soc110-35]
   - day: 109
-    theme: {chinese: 第三輪：女書、宋代判決書, english: 第二輪：閱讀測驗（110：護照的歷史）＋詞彙, mathA: 第五輪：計數、矩陣與空間挑戰, mathB: 第六輪：函數圖形、矩陣與透視, science: 第二輪：海洋、力學與運動、酸鹼與溶液, social: 第二輪：法律原則、世界史、區域與產業}
+    theme: {chinese: 第三輪：女書、宋代判決書, english: 第二輪：閱讀測驗（110：護照的歷史）＋詞彙, mathA: 考前複習：矩陣, mathB: 考前複習：數據分析、機率、直線與圓、空間, science: 第二輪：海洋、力學與運動、酸鹼與溶液, social: 第二輪：法律原則、世界史、區域與產業}
     sets:
       chinese: [chn113-06, chn113-07, chn113-08, chn113-21, chn113-22]
       english: [eng110-45, eng110-46, eng110-47, eng110-48, eng110-15]
-      mathA: [ma111-01, ma111-14, ma111-17, ma109-13, ma109-18]
-      mathB: [mb114-01, mb114-02, mb115-16, mb114-07, mb114-08]
+      mathA: [ma112-11, ma112-13, ma113-11, ma113-12, ma113-13]
+      mathB: [mb113-07, mb113-12, mb113-14, mb112-11, mb112-12]
       science: [sci113-36, sci110-14, sci110-06, sci113-37, sci113-39]
       social: [soc110-01, soc112-19, soc110-36, soc110-02, soc112-30, soc112-31]
   - day: 110
-    theme: {chinese: 第三輪：鄭成功與鯨、回憶與夢、古典的閱讀, english: 第二輪：閱讀測驗（110：富蘭克林的玻璃琴）＋詞彙, mathA: 第五輪：向量內積、直線與旋轉矩陣、平行六面體, mathB: 第六輪：對數、向量與機率統計, science: 第二輪：地質與地球歷史、近代物理與基本交互作用、原子結構與週期表, social: 第二輪：地形與自然環境、民主政治與媒體、中國史}
+    theme: {chinese: 第三輪：鄭成功與鯨、回憶與夢、古典的閱讀, english: 第二輪：閱讀測驗（110：富蘭克林的玻璃琴）＋詞彙, mathA: 考前複習：數列、機率統計, mathB: 考前複習：直線與圓、空間、矩陣, science: 第二輪：地質與地球歷史、近代物理與基本交互作用、原子結構與週期表, social: 第二輪：地形與自然環境、民主政治與媒體、中國史}
     sets:
       chinese: [chn113-30, chn113-31, chn113-34, chn113-35, chn112-34]
       english: [eng110-49, eng110-50, eng110-51, eng110-52, eng111-01]
-      mathA: [ma109-02, ma109-16, ma114-18, ma115-18]
-      mathB: [mb114-03, mb114-04, mb114-09, mb114-10, mb114-13]
+      mathA: [ma111-04, ma112-03, ma112-07, ma112-09, ma113-09]
+      mathB: [mb112-16, mb113-03, mb113-16, mb111-05, mb111-06]
       science: [sci113-50, sci113-52, sci110-15, sci110-08, sci113-40, sci113-42]
       social: [soc110-37, soc110-03, soc112-48, soc110-38, soc110-39]
   - day: 111
-    theme: {chinese: 第三輪：山笑、李漁的廳壁, english: 第二輪：閱讀測驗（110：無障礙樂園）＋詞彙, mathA: 第六輪：機率、函數與矩陣, mathB: 第六輪：空間概念、數列與坐標幾何, science: 第二輪：天文、電磁學、化學與生活、環境, social: 第二輪：民主政治與媒體、東亞國際關係、世界區域地理}
+    theme: {chinese: 第三輪：山笑、李漁的廳壁, english: 第二輪：閱讀測驗（110：無障礙樂園）＋詞彙, mathA: 考前複習：向量與空間、三角, mathB: 考前複習：平面向量、空間、排列組合、指對數, science: 第二輪：天文、電磁學、化學與生活、環境, social: 第二輪：民主政治與媒體、東亞國際關係、世界區域地理}
     sets:
       chinese: [chn114-06, chn114-07, chn114-08, chn114-20, chn114-21]
       english: [eng110-53, eng110-54, eng110-55, eng110-56, eng111-02]
-      mathA: [ma115-01, ma115-02, ma115-07, ma115-08, ma115-13]
-      mathB: [mb114-05, mb114-06, mb114-11, mb114-12, mb114-14]
+      mathA: [ma112-05, ma112-06, ma112-15, ma112-16, ma111-08]
+      mathB: [mb111-14, mb112-07, mb112-17, mb111-01, mb111-13]
       science: [sci113-54, sci113-55, sci110-31, sci110-32, sci110-10]
       social: [soc110-04, soc112-55, soc110-40, soc110-41, soc110-05]
   - day: 112
-    theme: {chinese: 第三輪：錢乙的藥方、晚明遊西湖, english: 第二輪：閱讀測驗（113：百分之百的魚）＋詞彙, mathA: 第六輪：指數、計數與向量, mathB: 第六輪：計數、空間與綜合挑戰, science: 第二輪：代謝與能量、天文、近代物理與基本交互作用, social: 第二輪：世界史、區域與產業、人口與遷移}
+    theme: {chinese: 第三輪：錢乙的藥方、晚明遊西湖, english: 第二輪：閱讀測驗（113：百分之百的魚）＋詞彙, mathA: 考前複習：向量與空間、直線與圓、多項式, mathB: 考前複習：指對數、多項式、三角、空間, science: 第二輪：代謝與能量、天文、近代物理與基本交互作用, social: 第二輪：世界史、區域與產業、人口與遷移}
     sets:
       chinese: [chn114-22, chn114-23, chn114-24, chn114-30, chn114-31]
       english: [eng113-43, eng113-44, eng113-45, eng113-46, eng111-04]
-      mathA: [ma115-03, ma115-04, ma115-09, ma115-10, ma115-14]
-      mathB: [mb114-15, mb114-16, mb114-17, mb113-01, mb113-02]
+      mathA: [ma113-02, ma112-10, ma112-17, ma113-14, ma113-16]
+      mathB: [mb114-18, mb111-09, mb111-12, mb111-18, mb107-01]
       science: [sci110-01, sci110-12, sci110-33, sci110-27, sci110-25]
       social: [soc112-63, soc112-64, soc110-42, soc110-43, soc110-06]
   - day: 113
-    theme: {chinese: 第三輪：概念框架、桃花源、屈原、原創者, english: 第二輪：閱讀測驗（114：俄國人與酒）＋詞彙, mathA: 第六輪：矩陣、坐標與多項式, mathB: 第六輪：指數、對數與數的估算, science: 第二輪：地質與地球歷史、波動與光、化學與生活、環境, social: 第二輪：中國史、世界區域地理、世界史}
+    theme: {chinese: 第三輪：概念框架、桃花源、屈原、原創者, english: 第二輪：閱讀測驗（114：俄國人與酒）＋詞彙, mathA: 考前複習：指對數、多項式、機率統計, mathB: 考前複習：平面向量、直線與圓, science: 第二輪：地質與地球歷史、波動與光、化學與生活、環境, social: 第二輪：中國史、世界區域地理、世界史}
     sets:
       chinese: [chn114-32, chn114-33, chn114-28, chn112-32, chn112-36]
       english: [eng114-43, eng114-44, eng114-45, eng114-46, eng111-05]
-      mathA: [ma115-05, ma115-06, ma115-11, ma115-12, ma115-15]
-      mathB: [mb112-01, mb112-09, mb112-10, mb112-13, mb113-11]
+      mathA: [ma111-02, ma111-07, ma111-10, ma111-12, ma108-11]
+      mathB: [mb111-04, mb111-08, mb111-11, mb112-18, mb115-18]
       science: [sci110-16, sci110-34, sci110-28, sci110-29, sci110-17]
       social: [soc113-05, soc110-50, soc110-51, soc110-52, soc110-07]
   - day: 114
-    theme: {chinese: 第三輪：臺灣杉、福爾摩斯的破綻, english: 第二輪：詞彙（111）, mathA: 第六輪：綜合與挑戰題, mathB: 第六輪：多項式與矩陣, science: 第二輪：力學與運動、化學與生活、環境、遺傳, social: 第二輪：中國史、民主政治與媒體、世界史}
+    theme: {chinese: 第三輪：臺灣杉、福爾摩斯的破綻, english: 第二輪：詞彙（111）, mathA: 考前複習：三角、多項式、向量與空間、機率統計, mathB: 考前複習：空間、機率、指對數、三角, science: 第二輪：力學與運動、化學與生活、環境、遺傳, social: 第二輪：中國史、民主政治與媒體、世界史}
     sets:
       chinese: [chn115-06, chn115-07, chn115-08, chn115-09, chn115-10]
       english: [eng111-06, eng111-07, eng111-08, eng111-09, eng111-10]
-      mathA: [ma114-01, ma114-02, ma115-16, ma114-07, ma115-17]
-      mathB: [mb113-05, mb112-06, mb113-09, mb113-13, mb112-02]
+      mathA: [ma111-15, ma112-18, ma108-12, ma108-13, ma107-03]
+      mathB: [mb111-07, mb113-18, mb107-02, mb107-04, mb108-18]
       science: [sci110-55, sci110-48, sci110-42, sci110-18, sci110-56]
       social: [soc113-07, soc110-08, soc113-08, soc110-09, soc113-10]

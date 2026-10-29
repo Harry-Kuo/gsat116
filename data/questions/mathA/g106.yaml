@@ -1,0 +1,1234 @@
+exam: 學測
+year: 106
+subject: mathA
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0j076558364662395678/03-106%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf
+groups: []
+items:
+- id: ma106-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 53
+    Ph: 82
+    Pl: 25
+    D: 57
+    opt:
+      '1': 53
+      '2': 1
+      '3': 1
+      '4': 15
+      '5': 30
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-01.webp
+  text: |-
+    說明：第1 題至第7 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請畫記
+    在答案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或畫記多
+    於一個選項者，該題以零分計算。
+    1. 已知某校老師玩過「寶可夢」的比率為
+    1r ，而學生玩過的比率為
+    2r ，其中
+    1
+    2
+    r
+    r
+    
+    。
+    由下列選項中的資訊，請選出可以判定全校師生玩過「寶可夢」的比率之選項。
+    (1) 全校老師與學生比率 (2) 全校老師人數
+    (3) 全校學生人數
+    (4) 全校師生人數
+    (5) 全校師生玩過「寶可夢」人數
+- id: ma106-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 51
+    Ph: 84
+    Pl: 17
+    D: 67
+    opt:
+      '1': 3
+      '2': 8
+      '3': 51
+      '4': 26
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-02.webp
+  text: |-
+    2. 某個手機程式，每次點擊螢幕上的數a 後，螢幕上的數會變成
+    2
+    a 。當一開始時螢
+    幕上的數b為正且連續點擊螢幕三次後，螢幕上的數接近
+    3
+    81 。試問實數b最接近
+    下列哪一個選項？
+    (1) 1.7
+    (2) 3
+    (3) 5.2
+    (4) 9
+    (5) 81
+- id: ma106-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 108 課綱範圍外：雙曲線與漸近線（二次曲線）不在學測數A範圍
+  stats:
+    P: 38
+    Ph: 71
+    Pl: 9
+    D: 62
+    opt:
+      '1': 5
+      '2': 18
+      '3': 28
+      '4': 10
+      '5': 38
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-03.webp
+  text: |-
+    3. 設
+    2
+    2
+    2
+    2
+    :
+    1
+    y
+    x
+    a
+    b
+    
+    
+    為坐標平面上一雙曲線，且其通過第一象限的漸近線為。考慮動
+    點
+    2
+    ( ,
+    )
+    t t
+    ，從時間
+    0
+    t 
+    時出發。當
+    0
+    t 
+    時，請選出正確的選項。
+    (1) 此動點不會碰到，也不會碰到
+    (2) 此動點會碰到，但不會碰到
+    (3) 此動點會碰到，但不會碰到
+    (4) 此動點會先碰到，再碰到
+    (5) 此動點會先碰到，再碰到
+- id: ma106-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M4
+  tags:
+  - M2
+  concepts:
+  - M4
+  - M2
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 55
+    Ph: 89
+    Pl: 16
+    D: 73
+    opt:
+      '1': 27
+      '2': 4
+      '3': 4
+      '4': 55
+      '5': 10
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-04.webp
+  text: |-
+    4. 在右下圖的正立方體上有兩質點分別自頂點
+    ,
+    A C 同時出發，各自以等速直線運動
+    分別向頂點
+    ,
+    B D 前進，且在1 秒後分別同時到達
+    ,
+    B D 。請選出這段時間兩質點距
+    離關係的正確選項。
+    (1) 兩質點的距離固定不變
+    (2) 兩質點的距離越來越小
+    (3) 兩質點的距離越來越大
+    (4) 在1
+    2 秒時兩質點的距離最小
+    (5) 在1
+    2 秒時兩質點的距離最大
+
+
+    A
+    D
+    C
+    B
+- id: ma106-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: M6
+  tags: []
+  concepts:
+  - M6
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 37
+    Ph: 64
+    Pl: 12
+    D: 52
+    opt:
+      '1': 18
+      '2': 14
+      '3': 17
+      '4': 37
+      '5': 14
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-05.webp
+  text: |-
+    5. 下圖是某城市在2016 年的各月最低溫（橫軸x ）與最高溫（縱軸y ）的散佈圖。
+
+    今以溫差（最高溫減最低溫）為橫軸且最高溫為縱軸重新繪製一散佈圖。試依此
+    選出正確的選項。
+    (1) 最高溫與溫差為正相關，且它們的相關性比最高溫與最低溫的相關性強
+    (2) 最高溫與溫差為正相關，且它們的相關性比最高溫與最低溫的相關性弱
+    (3) 最高溫與溫差為負相關，且它們的相關性比最高溫與最低溫的相關性強
+    (4) 最高溫與溫差為負相關，且它們的相關性比最高溫與最低溫的相關性弱
+    (5) 最高溫與溫差為零相關
+
+    0
+    5
+    10
+    15
+    20
+    25
+    30
+    35
+    -15
+    -10
+    -5
+    0
+    5
+    10
+    15
+    20
+    25
+- id: ma106-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: true
+  stats:
+    P: 22
+    Ph: 43
+    Pl: 7
+    D: 36
+    opt:
+      '1': 22
+      '2': 18
+      '3': 28
+      '4': 8
+      '5': 22
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-06.webp
+  text: |-
+    6. 試問有多少個實數x 滿足
+    3
+    2
+    2
+    x
+    
+    
+    
+    
+    且cos
+    cos
+    x
+    x
+    
+    ？
+    (1) 0 個
+    (2) 1個
+    (3) 2 個
+    (4) 4 個
+    (5) 無窮多個
+- id: ma106-07
+  'no': 7
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 29
+    Ph: 40
+    Pl: 20
+    D: 20
+    opt:
+      '1': 16
+      '2': 29
+      '3': 27
+      '4': 15
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-07.webp
+  text: |-
+    7. 小明想要安排從星期一到星期五共五天的午餐計畫。他的餐點共有四種選擇：
+    牛肉麵、大滷麵、咖哩飯及排骨飯。小明想要依據下列兩原則來安排他的午餐：
+    （甲）每天只選一種餐點但這五天中每一種餐點至少各點一次
+    （乙）連續兩天的餐點不能重複且不連續兩天吃麵食
+    根據上述原則，小明這五天共有幾種不同的午餐計畫？
+    (1) 52
+    (2) 60
+    (3) 68
+    (4) 76
+    (5) 84
+- id: ma106-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: true
+  stats:
+    P: 24
+    Ph: 35
+    Pl: 17
+    D: 18
+    T: 9
+    opt:
+      '1': 49
+      '2': 39
+      '3': 67
+      '4': 49
+      '5': 60
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-08.webp
+  text: |-
+    說明：第8 題至第13 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選
+    項畫記在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答對
+    者，得5 分；答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2 個
+    選項或所有選項均未作答者，該題以零分計算。
+    8. 設
+    ,
+    m n 為小於或等於4 的相異正整數且
+    ,a b 為非零實數。已知函數
+    ( )
+    m
+    f x
+    ax
+    
+    與函
+    數
+    ( )
+    n
+    g x
+    bx
+    
+    的圖形恰有3 個相異交點，請選出可能的選項。
+    (1)
+    ,
+    m n 皆為偶數且
+    ,a b 同號
+    (2)
+    ,
+    m n 皆為偶數且
+    ,a b 異號
+    (3)
+    ,
+    m n 皆為奇數且
+    ,a b 同號
+    (4)
+    ,
+    m n 皆為奇數且
+    ,a b 異號
+    (5)
+    ,
+    m n 為一奇一偶
+- id: ma106-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 34
+    Ph: 57
+    Pl: 15
+    D: 42
+    T: 11
+    opt:
+      '1': 18
+      '2': 15
+      '3': 64
+      '4': 53
+      '5': 60
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-09.webp
+  text: |-
+    9. 設為坐標平面上的圓，點(0, 0) 在的外部且點(2, 6) 在的內部。請選出正確的
+    選項。
+    (1) 的圓心不可能在第二象限
+    (2) 的圓心可能在第三象限且此時的半徑必定大於10
+    (3) 的圓心可能在第一象限且此時的半徑必定小於10
+    (4) 的圓心可能在x 軸上且此時圓心的x 坐標必定小於10
+    (5) 的圓心可能在第四象限且此時的半徑必定大於10
+- id: ma106-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,4
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 43
+    Ph: 66
+    Pl: 24
+    D: 42
+    T: 17
+    opt:
+      '1': 27
+      '2': 78
+      '3': 64
+      '4': 63
+      '5': 43
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-10.webp
+  text: |-
+    10. 坐標空間中有三直線
+    1
+    1
+    1
+    :
+    2
+    2
+    1
+    x
+    y
+    z
+    L
+    
+    
+    
+    
+    ，
+    2
+    2
+    2
+    4
+    :
+    4
+    5
+    x
+    y
+    z
+    L
+    x
+    y
+    z
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ，
+    3 :
+    2
+    4
+    4
+    x
+    t
+    L
+    y
+    t
+    z
+    t
+    
+    
+    
+    
+    
+    
+    
+    ，t 為實
+    數。請選出正確的選項。
+    (1)
+    1L 與
+    2
+    L 的方向向量互相垂直
+    (2)
+    1L 與
+    3
+    L 的方向向量互相垂直
+    (3) 有一個平面同時包含
+    1L 與
+    2
+    L
+    (4) 有一個平面同時包含
+    1L 與
+    3
+    L
+    (5) 有一個平面同時包含
+    2
+    L 與
+    3
+    L
+- id: ma106-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4
+  topic: M3
+  tags: []
+  concepts:
+  - M3
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 62
+    Ph: 84
+    Pl: 38
+    D: 46
+    T: 44
+    opt:
+      '1': 92
+      '2': 9
+      '3': 24
+      '4': 70
+      '5': 32
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-11.webp
+  text: |-
+    11. 最近數學家發現一種新的可以無縫密舖平面的凸五邊形ABCDE ，其示意圖如下。
+    關於這五邊形，請選出正確的選項。
+    (1)
+    2 2
+    AD 
+
+    (2)
+    45
+    DAB
+    
+    
+    
+    (3)
+    2 6
+    BD 
+
+    (4)
+    45
+    ABD
+    
+    
+    
+    (5)
+    BCD
+    
+    的面積為2 2
+- id: ma106-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,5
+  topic: M7
+  tags: []
+  concepts:
+  - M7
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 28
+    Ph: 37
+    Pl: 20
+    D: 17
+    T: 7
+    opt:
+      '1': 23
+      '2': 77
+      '3': 56
+      '4': 61
+      '5': 56
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-12.webp
+  text: |-
+    12. 某班級50 位學生，段考國文、英文、數學及格的人數分別為45、39、34 人，
+    且英文及格的學生國文也都及格。現假設數學和英文皆及格的有x 人，數學及格
+    但英文不及格的有y 人。請選出正確的選項。
+    (1)
+    39
+    x
+    y
+    
+    
+
+    (2)
+    11
+    y 
+
+    (3) 三科中至少有一科不及格的學生有39
+    x
+    y
+    
+    
+    人
+    (4) 三科中至少有一科不及格的學生最少有11人
+    (5) 三科中至少有一科不及格的學生最多有27 人
+- id: ma106-13
+  'no': 13
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 36
+    Ph: 54
+    Pl: 22
+    D: 32
+    T: 16
+    opt:
+      '1': 49
+      '2': 39
+      '3': 73
+      '4': 42
+      '5': 72
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-13.webp
+  text: |-
+    13. 空間中有一四面體ABCD 。假設
+    AD分別與
+    AB 和
+    AC垂直，請選出正確的選項。
+    (1) 
+    DB 
+    DC
+    2
+    DA
+    
+    
+    AB 
+    AC
+    (2) 若
+    BAC
+    
+    是直角，則
+    BDC
+    
+    是直角
+    (3) 若
+    BAC
+    
+    是銳角，則
+    BDC
+    
+    是銳角
+    (4) 若
+    BAC
+    
+    是鈍角，則
+    BDC
+    
+    是鈍角
+    (5) 若AB
+    DA
+    
+    且AC
+    DA
+    
+    ，則
+    BDC
+    
+    是銳角
+- id: ma106-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 2,5
+  topic: M8
+  tags:
+  - M2
+  concepts:
+  - M8
+  - M2
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 54
+    Ph: 82
+    Pl: 20
+    D: 62
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-14.webp
+  text: |-
+    說明：1.第A 至G 題，將答案畫記在答案卡之「選擇（填）題答案區」所標示的列號（14–34）。
+    2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+    A. 遞迴數列
+    na
+    滿足
+    1
+    (
+    2)
+    n
+    n
+    a
+    a
+    f n
+    
+    
+    
+    
+    ，其中
+    2
+    n 
+    且
+    ( )
+    f x 為二次多項式。若
+    1
+    2
+    3
+    4
+    1,
+    2,
+    5,
+    12
+    a
+    a
+    a
+    a
+    
+    
+    
+    
+    ，則
+    5a ○
+    14 ○
+    15 。
+  label: 選填 A
+  cells:
+  - '14'
+  - '15'
+- id: ma106-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,0,2,1,2,5,2,1
+  topic: M4
+  tags: []
+  concepts:
+  - M4
+  classic: true
+  stats:
+    P: 26
+    Ph: 65
+    Pl: 1
+    D: 64
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-15.webp
+  text: |-
+    B. 在坐標平面上，
+    ABC
+    
+    內有一點P 滿足
+    AP
+    4 5
+    ( , )
+    3 6
+    
+    及
+    AP
+    1
+    2
+    
+    
+    AB
+    1
+    5
+    
+    AC。若
+    ,
+    A P 連線
+    交BC 於M ，則
+    AM
+    (
+    ○
+    16 ○
+    17
+    ○
+    18 ○
+    19
+    , ○
+    20 ○
+    21
+    ○
+    22 ○
+    23
+    )。（化成最簡分數）
+  label: 選填 B
+  cells:
+  - '16'
+  - '17'
+  - '18'
+  - '19'
+  - '20'
+  - '21'
+  - '22'
+  - '23'
+- id: ma106-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: '7'
+  topic: M2
+  tags: []
+  concepts:
+  - M2
+  classic: false
+  classic_note: 106 年學測數學只有一份試卷，這題排在數學B的練習
+  stats:
+    P: 30
+    Ph: 63
+    Pl: 5
+    D: 58
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-16.webp
+  text: |-
+    C. 若a 為正整數且方程式
+    3
+    2
+    5
+    (
+    4)
+    1
+    0
+    x
+    a
+    x
+    ax
+    
+    
+    
+    
+    的根都是有理根，則a ○
+    24 。
+  label: 選填 C
+  cells:
+  - '24'
+- id: ma106-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,5
+  topic: M5
+  tags:
+  - M8
+  concepts:
+  - M5
+  - M8
+  classic: true
+  stats:
+    P: 37
+    Ph: 70
+    Pl: 8
+    D: 62
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-17.webp
+  text: |-
+    D. 設
+    1
+    2
+    9
+    ,
+    ,
+    ,
+    a a
+    a
+    
+    為等差數列且k 為實數。若方程組
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    2
+    1
+    2
+    5
+    2
+    9
+    a x
+    a y
+    a z
+    k
+    a x
+    a y
+    a z
+    k
+    a x
+    a y
+    a z
+    k
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     有解，則
+    k ○
+    25 ○
+    26 。
+  label: 選填 D
+  cells:
+  - '25'
+  - '26'
+- id: ma106-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,7
+  topic: M1
+  tags: []
+  concepts:
+  - M1
+  classic: true
+  stats:
+    P: 24
+    Ph: 59
+    Pl: 1
+    D: 58
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-18.webp
+  text: |-
+    E. 設
+    , ,
+    a b x 皆為正整數且滿足a
+    x
+    b
+    
+    
+    及
+    3
+    b
+    a
+    
+    
+    。若用內插法從log , log
+    a
+    b 求得log x 的
+    近似值為
+    
+    
+    
+    
+    1
+    2
+    1
+    2
+    log
+    log
+    log
+    1
+    2log3
+    log2
+    4log2
+    log3
+    3
+    3
+    3
+    3
+    x
+    a
+    b
+    
+    
+    
+    
+    
+    
+    
+    ，
+    則x 的值為○
+    27 ○
+    28 。
+  label: 選填 E
+  cells:
+  - '27'
+  - '28'
+- id: ma106-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 9,6,4
+  topic: M6
+  tags:
+  - M7
+  concepts:
+  - M6
+  - M7
+  classic: true
+  stats:
+    P: 19
+    Ph: 45
+    Pl: 1
+    D: 44
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-19.webp
+  text: |-
+    F. 一隻青蛙位於坐標平面的原點，每步隨機朝上、下、左、右跳一單位長，總共
+    跳了四步。青蛙跳了四步後恰回到原點的機率為
+    ○
+    29
+    ○
+    30 ○
+    31
+    。（化成最簡分數）
+  label: 選填 F
+  cells:
+  - '29'
+  - '30'
+  - '31'
+- id: ma106-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,4,4
+  topic: M9
+  tags: []
+  concepts:
+  - M9
+  classic: true
+  stats:
+    P: 22
+    Ph: 56
+    Pl: 1
+    D: 55
+  explain: ''
+  reviewed: false
+  image: img/mathA/106-20.webp
+  text: |-
+    G. 地面上甲、乙兩人從同一地點同時開始移動。甲以每秒4 公尺向東等速移動，
+    乙以每秒3 公尺向北等速移動。在移動不久之後，他們互望的視線被一圓柱體
+    建築物阻擋了6 秒後才又相見。此圓柱體建築物底圓的直徑為○
+    32 ○
+    33 .○
+    34 公
+    尺。
+  label: 選填 G
+  cells:
+  - '32'
+  - '33'
+  - '34'

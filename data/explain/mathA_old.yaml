@@ -1,0 +1,605 @@
+# 數學A 舊課綱學測（100–108 年）解析（Claude 撰寫並逐題驗算，答案皆與大考中心公布一致；老師審閱後可修改）
+# 100–108 年是舊課綱的「數學」卷（數A、數B 同一份），每題只排在一科；超出 108 課綱範圍的題目不收。
+
+ma108-01:
+  key: 和 L 距離為 $\dfrac{2}{\sqrt{5}}$ 的點落在兩條平行線 $2x-y=\pm2$ 上，兩線都和單位圓交於 2 點。
+  explain: |
+    A 到 $L:2x-y=0$ 的距離 $=\dfrac{|2-0|}{\sqrt{5}}=\dfrac{2}{\sqrt{5}}$。
+    與 L 距離為 $\dfrac{2}{\sqrt{5}}$ 的點，落在兩條平行線 $2x-y=2$、$2x-y=-2$ 上。
+    原點到這兩條線的距離都是 $\dfrac{2}{\sqrt{5}}<1$（半徑），所以每條線都和 Γ 交於 2 點，共 4 點。
+    其中 A 在 $2x-y=2$ 上，扣掉 A 還有 3 個 → 答案 (3)
+ma108-07:
+  key: 等差數列加減常數、乘常數、相鄰項相加還是等差（公差跟著算）；平方就不一定。
+  explain: |
+    $a_n=a_1+(n-1)\alpha$，$\alpha>0$。
+    (1) $b_n=-a_n$，公差 $-\alpha<0$，遞減 ✓
+    (2) $c_n=a_n^2$：例如 $a_n$ 是 $-3,-1,1$ 時，$c_n$ 是 $9,1,1$，不遞增 ✗
+    (3) $d_{n+1}-d_n=(a_{n+1}-a_n)+(a_{n+2}-a_{n+1})=2\alpha$，公差是 $2\alpha$ ✗
+    (4) $e_{n+1}-e_n=\alpha+1$ ✓
+    (5) $f_n=\dfrac{a_1+a_n}{2}=a_1+\dfrac{(n-1)\alpha}{2}$，公差是 $\dfrac{\alpha}{2}$ ✗
+    → 答案 (1)(4)
+ma108-11:
+  key: 設 50–59 歲做過篩檢的有 x 人：$\dfrac{120-x}{280}=3.5\times\dfrac{x}{220}$ ⇒ $x=22$，60 歲以上 98 人。
+  explain: |
+    設 50–59 歲做過篩檢 x 人，60 歲以上就有 $120-x$ 人：$\dfrac{120-x}{280}=3.5\times\dfrac{x}{220}$ ⇒ $x=22$，$120-x=98$
+    （檢查：$\dfrac{22}{220}=10\%$、$\dfrac{98}{280}=35\%$，正好 3.5 倍）
+    (1) $\dfrac{280}{500}=56\%$，沒有超過 60% ✗
+    (2) $\dfrac{C(220,2)}{C(500,2)}=\dfrac{220\times219}{500\times499}\approx0.193<0.25$ ✗
+    (3) $\dfrac{45\times75}{C(120,2)}=\dfrac{2\times45\times75}{120\times119}=2\left(\dfrac{45}{120}\right)\left(\dfrac{75}{119}\right)$ ✓
+    (4) 沒做過的比率 $\dfrac{380}{500}=76\%$，沒有低於 75% ✗
+    (5) 60 歲以上做過的有 98 人，超過 90 人 ✓
+    → 答案 (3)(5)
+ma108-12:
+  key: 除法原理 $f=qg+r$，$r$ 的次數小於 2；相加減、乘常數都保持餘式，相乘後要再除一次。
+  explain: |
+    寫成 $f_1=q_1g+r_1$、$f_2=q_2g+r_2$，$r_1$、$r_2$ 的次數都小於 2。
+    (1) $-f_1=(-q_1)g-r_1$ ✓
+    (2) $f_1+f_2=(q_1+q_2)g+(r_1+r_2)$，$r_1+r_2$ 的次數仍小於 2 ✓
+    (3) $r_1r_2$ 可能是二次式，還要再除以 g，不一定是餘式 ✗
+    (4) $f_1=\left(-\dfrac{q_1}{3}\right)(-3g)+r_1$，餘式仍是 $r_1$ ✗
+    (5) $f_1r_2-f_2r_1=(q_1r_2-q_2r_1)g$ ✓
+    → 答案 (1)(2)(5)
+ma108-13:
+  key: 平面的法向量＝平面上兩向量的外積：$(1,2,3)\times(-1,2,3)=(0,-6,4)$，得 $P:3y-2z=0$。
+  explain: |
+    P 過原點，法向量 $\overrightarrow{n}=(1,2,3)\times(-1,2,3)=(0,-6,4)$，取 $(0,3,-2)$ ⇒ $P:3y-2z=0$
+    (1) $(0,3,2)$ 和法向量 $(0,3,-2)$ 不平行 ✗
+    (2) $(0,3,-2)\cdot(0,0,1)=-2\ne0$，兩平面不垂直 ✗
+    (3) $3\times4-2\times6=0$，在 P 上 ✓
+    (4) x 軸上的點 $(t,0,0)$ 都滿足 $3y-2z=0$ ✓
+    (5) 距離 $=\dfrac{|3-2|}{\sqrt{13}}=\dfrac{1}{\sqrt{13}}\ne1$ ✗
+    → 答案 (3)(4)
+ma108-16:
+  key: 內圈長 $\pi d+2L=400$；練習場寬 60 公尺要放得進跑道 ⇒ $d\ge60$，L 在 $d=60$ 時最大。
+  explain: |
+    設半圓直徑 d、直線跑道長 L：$\pi d+2L=400$ ⇒ $L=200-\dfrac{\pi d}{2}$，d 越小 L 越大。
+    練習場寬 60 公尺要放進跑道內，而跑道最寬處就是直徑 d ⇒ $d\ge60$。
+    $d=60$ 時 $L=200-30\pi\approx200-94.2=105.8$（此時 $L>90$，練習場的長也放得下）
+    L 的最大整數值為 105 → ⑲＝1、⑳＝0、㉑＝5
+ma108-17:
+  key: 每人至少領兩張 ⇒ 只有「恰領兩張」的三種人和「三張都領」的 224 人。
+  explain: |
+    設只領甲乙 x 人、只領甲丙 y 人、只領乙丙 z 人，三張都領 224 人（沒有人只領一張）。
+    甲：$x+y+224=765$ ⇒ $x+y=541$
+    乙：$x+z+224=537$ ⇒ $x+z=313$
+    丙：$y+z+224=648$ ⇒ $y+z=424$
+    三式相加：$x+y+z=639$ ⇒ $x=639-424=215$ → ㉒＝2、㉓＝1、㉔＝5
+ma108-19:
+  key: 正立方體兩頂點的高度差最多是空間對角線 $\sqrt{3}s$（對角線鉛直時）⇒ $\sqrt{3}s\ge6$。
+  explain: |
+    邊長 s 的正立方體，任兩個頂點的距離不超過空間對角線 $\sqrt{3}s$，所以兩頂點的 z 坐標差也不超過 $\sqrt{3}s$。
+    要讓兩個頂點分別在 $z=0$ 與 $z=6$ 上，需要 $\sqrt{3}s\ge6$ ⇒ $s\ge2\sqrt{3}$。
+    $s=2\sqrt{3}$ 時，把空間對角線擺成鉛直（兩端分別在 $z=0$、$z=6$）就做得到。
+    最小邊長 $2\sqrt{3}$ → ㉗＝2、㉘＝3
+ma108-20:
+  key: 令 $\overrightarrow{AB}=\overrightarrow{u}$、$\overrightarrow{AD}=\overrightarrow{v}$：$\overrightarrow{AC}=2\overrightarrow{u}+\overrightarrow{v}$、$\overrightarrow{BD}=\overrightarrow{v}-\overrightarrow{u}$，用等長、垂直列兩式。
+  explain: |
+    令 $\overrightarrow{AB}=\overrightarrow{u}$、$\overrightarrow{AD}=\overrightarrow{v}$，則 $\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{BC}=2\overrightarrow{u}+\overrightarrow{v}$、$\overrightarrow{BD}=\overrightarrow{v}-\overrightarrow{u}$。
+    等長：$4|\overrightarrow{u}|^2+4\overrightarrow{u}\cdot\overrightarrow{v}+|\overrightarrow{v}|^2=|\overrightarrow{u}|^2-2\overrightarrow{u}\cdot\overrightarrow{v}+|\overrightarrow{v}|^2$ ⇒ $\overrightarrow{u}\cdot\overrightarrow{v}=-\dfrac{1}{2}|\overrightarrow{u}|^2$
+    垂直：$(2\overrightarrow{u}+\overrightarrow{v})\cdot(\overrightarrow{v}-\overrightarrow{u})=\overrightarrow{u}\cdot\overrightarrow{v}-2|\overrightarrow{u}|^2+|\overrightarrow{v}|^2=0$ ⇒ $|\overrightarrow{v}|^2=\dfrac{5}{2}|\overrightarrow{u}|^2$
+    取 $|\overrightarrow{u}|=2$：$\overrightarrow{u}\cdot\overrightarrow{v}=-2$、$|\overrightarrow{v}|=\sqrt{10}$ ⇒ $\cos\angle BAD=\dfrac{-2}{2\sqrt{10}}=-\dfrac{1}{\sqrt{10}}$
+    $\sin\angle BAD=\dfrac{3}{\sqrt{10}}$ ⇒ $\tan\angle BAD=-3$ → ㉙＝−、㉚＝3
+ma107-03:
+  key: 先算「完全錯開」：甲選定兩天後，乙從其餘 5 天選 2 天，$\dfrac{C(5,2)}{C(7,2)}=\dfrac{10}{21}$，再用 1 減。
+  explain: |
+    每人選兩天休假都有 $C(7,2)=21$ 種。
+    兩人沒有同一天休假：乙只能從甲沒選的 5 天裡選，機率 $\dfrac{C(5,2)}{21}=\dfrac{10}{21}$
+    至少有一天同時休假：$1-\dfrac{10}{21}=\dfrac{11}{21}$ → 答案 (5)
+ma107-05:
+  key: 成等差 ⇔ $2\cos3\theta=\cos(3\theta-60^\circ)+\cos(3\theta+60^\circ)=2\cos3\theta\cos60^\circ=\cos3\theta$ ⇒ $\cos3\theta=0$。
+  explain: |
+    和角公式：$\cos(3\theta-60^\circ)+\cos(3\theta+60^\circ)=2\cos3\theta\cos60^\circ=\cos3\theta$
+    等差中項：$2\cos3\theta=\cos3\theta$ ⇒ $\cos3\theta=0$
+    $0^\circ<3\theta<540^\circ$ ⇒ $3\theta=90^\circ,270^\circ,450^\circ$ ⇒ $\theta=30^\circ,90^\circ,150^\circ$，共 3 個 → 答案 (3)
+ma107-07:
+  key: 移項後取長度平方：$|\overrightarrow{OA}+\overrightarrow{OB}|^2=3$ 得 $\angle AOB=60^\circ$；同法得 $\angle BOC=150^\circ$，圓周角是圓心角的一半。
+  explain: |
+    $\overrightarrow{OA}+\overrightarrow{OB}=-\sqrt{3}\,\overrightarrow{OC}$，兩邊取長度平方：$1+1+2\overrightarrow{OA}\cdot\overrightarrow{OB}=3$ ⇒ $\overrightarrow{OA}\cdot\overrightarrow{OB}=\dfrac{1}{2}$，$\angle AOB=60^\circ$
+    $\overrightarrow{OA}=-\overrightarrow{OB}-\sqrt{3}\,\overrightarrow{OC}$ 取長度平方：$1=1+3+2\sqrt{3}\,\overrightarrow{OB}\cdot\overrightarrow{OC}$ ⇒ $\overrightarrow{OB}\cdot\overrightarrow{OC}=-\dfrac{\sqrt{3}}{2}$，$\angle BOC=150^\circ$
+    同理 $\angle AOC=150^\circ$，三個圓心角 $60^\circ+150^\circ+150^\circ=360^\circ$，A 不在弧 BC 上。
+    圓周角 $\angle BAC=\dfrac{1}{2}\angle BOC=75^\circ$ → 答案 (4)
+ma107-09:
+  key: $f(x)=(x^2-1)q(x)+2x+1$ ⇒ $f(1)=3$、$f(-1)=-1$；選項逐一代入檢查。
+  explain: |
+    $f(x)=(x^2-1)q(x)+2x+1$ ⇒ $f(1)=3$、$f(-1)=-1$，$f(0)=-q(0)+1$ 不確定。
+    (1) $f(0)$ 不一定是 1 ✗
+    (2) $f(1)=3$ ✓
+    (3) 取 $q(x)=0$，$f(x)=2x+1$ 是一次式 ✓
+    (4) $f(-1)=4+2-3=3\ne-1$ ✗
+    (5) $f(1)=4+2-3=3$、$f(-1)=4-2-3=-1$，兩個條件都符合 ✓
+    → 答案 (2)(3)(5)
+ma107-10:
+  key: $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$；用內積找直角：$\overrightarrow{CA}\cdot\overrightarrow{CB}=0$，C 是直角。
+  explain: |
+    $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}=\left(\dfrac{22}{5},-\dfrac{11}{5}\right)$，$\overline{BC}=\dfrac{11}{\sqrt{5}}$、$\overline{AC}=\dfrac{2}{\sqrt{5}}$、$\overline{AB}=5$。
+    (1) $\overline{BC}=\dfrac{11}{\sqrt{5}}\approx4.92\ne5$ ✗
+    (2) $\overrightarrow{CA}\cdot\overrightarrow{CB}=\left(-\dfrac{2}{5}\right)\left(-\dfrac{22}{5}\right)+\left(-\dfrac{4}{5}\right)\left(\dfrac{11}{5}\right)=0$，$\angle C=90^\circ$ ✓
+    (3) 面積 $=\dfrac{1}{2}\times\dfrac{2}{\sqrt{5}}\times\dfrac{11}{\sqrt{5}}=\dfrac{11}{5}$ ✓
+    (4) $\sin C=1$，$\sin B<\sin C$ ✗
+    (5) $\overline{BC}>\overline{AC}$ ⇒ $\angle A>\angle B$ ⇒ $\cos A<\cos B$ ✗
+    → 答案 (2)(3)
+ma107-11:
+  key: L 的方向 $(2,-3,-1)$、過 $(1,2,0)$；方向和法向量平行 ⇒ 垂直，方向和法向量垂直 ⇒ 平行或在平面上。
+  explain: |
+    L 過 $(1,2,0)$、方向 $\overrightarrow{v}=(2,-3,-1)$；$E_1$ 法向量 $(2,-3,-1)$，$E_2$ 法向量 $(1,1,-1)$。
+    (1) $\dfrac{3-1}{2}=1$、$\dfrac{0-2}{-3}=\dfrac{2}{3}$ 不相等，不在 L 上 ✗
+    (2) $2-6-3=-7\ne0$ ✗
+    (3) $\overrightarrow{v}$ 就是 $E_1$ 的法向量 ⇒ $L\perp E_1$ ✓
+    (4) $\overrightarrow{v}\cdot(1,1,-1)=0$，L 與 $E_2$ 平行；但 $(1,2,0)$ 代入 $1+2-0=3\ne0$，L 不在 $E_2$ 上 ✗
+    (5) 兩法向量不平行 ⇒ 兩平面交於一直線 ✓
+    → 答案 (3)(5)
+ma107-15:
+  key: 切線垂直半徑：$\angle APB=90^\circ$，$AP^2+BP^2=25$；面積 $\dfrac{1}{2}AP\cdot BP$ 用算幾不等式求最大。
+  explain: |
+    $\overline{AP}=r$ 且 $AP\perp BP$ ⇒ $\overline{BP}=\sqrt{25-r^2}$
+    面積 $=\dfrac{1}{2}\overline{AP}\cdot\overline{BP}\le\dfrac{1}{2}\cdot\dfrac{\overline{AP}^2+\overline{BP}^2}{2}=\dfrac{25}{4}$（算幾不等式）
+    等號在 $\overline{AP}=\overline{BP}$，即 $r=\dfrac{5}{\sqrt{2}}$（在 $0<r<5$ 內）時成立 → ⑱＝2、⑲＝5、⑳＝4
+ma107-16:
+  key: 四條線兩兩平行（斜率 1 與 −1）且互相垂直，圍成長方形；最大的圓直徑＝短邊長。
+  explain: |
+    $x-y=4$ 與 $x-y=-2$ 平行，距離 $\dfrac{|4-(-2)|}{\sqrt{2}}=3\sqrt{2}$
+    $x+y=18$ 與 $x+y=-24$ 平行，距離 $\dfrac{42}{\sqrt{2}}=21\sqrt{2}$
+    兩組線互相垂直，圍成 $3\sqrt{2}\times21\sqrt{2}$ 的長方形；放得進去的最大圓直徑 $3\sqrt{2}$，半徑 $\dfrac{3\sqrt{2}}{2}$
+    面積 $=\pi\left(\dfrac{3\sqrt{2}}{2}\right)^2=\dfrac{9}{2}\pi$ → ㉑＝9、㉒＝2
+ma107-19:
+  key: $\angle BAD=45^\circ$、$\angle DAC=15^\circ$，用正弦定理求 $BD:DC=2:1$，再用分點公式。
+  explain: |
+    △ABD：$\angle B=75^\circ$、$\angle ADB=60^\circ$ ⇒ $\angle BAD=45^\circ$；△ADC：$\angle ADC=120^\circ$、$\angle C=45^\circ$ ⇒ $\angle DAC=15^\circ$
+    正弦定理：$\overline{BD}=\dfrac{\overline{AD}\sin45^\circ}{\sin75^\circ}$、$\overline{DC}=\dfrac{\overline{AD}\sin15^\circ}{\sin45^\circ}$
+    $\dfrac{\overline{BD}}{\overline{DC}}=\dfrac{\sin^2 45^\circ}{\sin75^\circ\sin15^\circ}=\dfrac{1/2}{1/4}=2$（$\sin75^\circ\sin15^\circ=\sin75^\circ\cos75^\circ=\dfrac{1}{2}\sin150^\circ=\dfrac{1}{4}$）
+    D 把 BC 分成 $2:1$ ⇒ $\overrightarrow{AD}=\dfrac{1}{3}\overrightarrow{AB}+\dfrac{2}{3}\overrightarrow{AC}$ → ㉗＝1、㉘＝3、㉙＝2、㉚＝3
+ma107-20:
+  key: A、C 各作 BD 的垂線（長都是 12，垂足相距 7）；兩平面垂直時 $AC^2=12^2+7^2+12^2$。
+  explain: |
+    $\overline{BD}=25$。A 到 BD 的垂線 $\overline{AE}=\dfrac{15\times20}{25}=12$，$\overline{BE}=\dfrac{15^2}{25}=9$
+    C 到 BD 的垂線 $\overline{CF}=12$，$\overline{DF}=\dfrac{15^2}{25}=9$ ⇒ $\overline{BF}=16$，$\overline{EF}=16-9=7$
+    兩平面垂直 ⇒ AE 垂直平面 CBD ⇒ $\overline{AC}^2=\overline{AE}^2+\overline{EF}^2+\overline{FC}^2=144+49+144=337$
+    $\overline{AC}=\sqrt{337}$ → ㉛＝3、㉜＝3、㉝＝7
+ma106-06:
+  key: x 用弧度時 $\dfrac{\pi}{2}\le x\le\dfrac{3\pi}{2}$ ⇒ $\cos x\le0$；但 $x^\circ$ 只有 1.57°～4.71°，$\cos x^\circ>0$。
+  explain: |
+    $\dfrac{\pi}{2}\le x\le\dfrac{3\pi}{2}$（弧度）⇒ $\cos x\le0$
+    $x^\circ$ 介於 $1.57^\circ$ 與 $4.71^\circ$ 之間，是很小的正角 ⇒ $\cos x^\circ>0$
+    $\cos x^\circ>0\ge\cos x$，不可能 $\cos x^\circ\le\cos x$，共 0 個 → 答案 (1)
+    提醒：$\cos x^\circ$ 的 x 是「度」，$\cos x$ 的 x 是「弧度」，兩者不同。
+ma106-08:
+  key: 設 $m>n$：$ax^m=bx^n$ ⇔ $x^n(ax^{m-n}-b)=0$；要 3 個交點，$x^{m-n}=\dfrac{b}{a}$ 必須有兩個非零解。
+  explain: |
+    設 $m>n$，$ax^m=bx^n$ ⇔ $x=0$ 或 $x^{m-n}=\dfrac{b}{a}$。
+    $m-n$ 是奇數：恰 1 個非零解 ⇒ 共 2 個交點；$m-n$ 是偶數：$\dfrac{b}{a}>0$ 時 2 個解、$\dfrac{b}{a}<0$ 時沒有。
+    要 3 個交點 ⇔ $m-n$ 為偶數（m、n 同奇偶）且 a、b 同號。
+    (1) 例 $m=4$、$n=2$，a、b 同號 ✓
+    (2) 異號只有 1 個交點 ✗
+    (3) 例 $m=3$、$n=1$：$x=0,\pm\sqrt{b/a}$ ✓
+    (4) 異號只有 1 個交點 ✗
+    (5) 一奇一偶 ⇒ $m-n$ 為奇數，只有 2 個交點 ✗
+    → 答案 (1)(3)
+ma106-10:
+  key: $L_2$ 的方向＝兩個法向量的外積 $\parallel(2,2,1)$，和 $L_1$ 平行；兩直線共平面 ⇔ 平行或相交。
+  explain: |
+    $L_1$ 方向 $(2,2,1)$、過 $(1,-1,0)$；$L_2$ 方向 $(1,-2,2)\times(1,1,-4)=(6,6,3)\parallel(2,2,1)$、過 $(2,3,0)$；$L_3$ 方向 $(-1,-1,4)$。
+    (1) $L_1\parallel L_2$，不垂直 ✗
+    (2) $(2,2,1)\cdot(-1,-1,4)=0$ ✓
+    (3) $L_1$、$L_2$ 平行，一定共平面 ✓
+    (4) $L_3$ 的 $t=-1$ 是 $(1,-1,0)$，在 $L_1$ 上，兩線相交，共平面 ✓
+    (5) $L_2$ 上的點 $(2+2u,3+2u,u)$ 代入 $L_3$：x 得 $t=-2-2u$，y 得 $t=-5-2u$，矛盾；不平行又不相交（歪斜），不共平面 ✗
+    → 答案 (2)(3)(4)
+ma106-13:
+  key: $\overrightarrow{DB}\cdot\overrightarrow{DC}=(\overrightarrow{AB}-\overrightarrow{AD})\cdot(\overrightarrow{AC}-\overrightarrow{AD})=\overrightarrow{AB}\cdot\overrightarrow{AC}+\overline{DA}^2$。
+  explain: |
+    AD 與 AB、AC 都垂直 ⇒ $\overrightarrow{DB}\cdot\overrightarrow{DC}=\overrightarrow{AB}\cdot\overrightarrow{AC}-\overrightarrow{AB}\cdot\overrightarrow{AD}-\overrightarrow{AD}\cdot\overrightarrow{AC}+\overline{AD}^2=\overrightarrow{AB}\cdot\overrightarrow{AC}+\overline{DA}^2$
+    (1) 應該是 $+\overrightarrow{AB}\cdot\overrightarrow{AC}$ ✗
+    (2) $\overrightarrow{AB}\cdot\overrightarrow{AC}=0$ ⇒ $\overrightarrow{DB}\cdot\overrightarrow{DC}=\overline{DA}^2>0$，是銳角 ✗
+    (3) $\overrightarrow{AB}\cdot\overrightarrow{AC}>0$ ⇒ 內積為正，銳角 ✓
+    (4) $\overrightarrow{AB}\cdot\overrightarrow{AC}<0$，但加上 $\overline{DA}^2$ 後不一定為負 ✗
+    (5) $|\overrightarrow{AB}\cdot\overrightarrow{AC}|\le\overline{AB}\cdot\overline{AC}<\overline{DA}^2$ ⇒ 內積為正，銳角 ✓
+    → 答案 (3)(5)
+ma106-15:
+  key: M 在 BC 上 ⇔ $\overrightarrow{AM}$ 用 $\overrightarrow{AB}$、$\overrightarrow{AC}$ 表示時係數和為 1；$\overrightarrow{AM}=k\overrightarrow{AP}$。
+  explain: |
+    A、P、M 共線 ⇒ $\overrightarrow{AM}=k\overrightarrow{AP}=\dfrac{k}{2}\overrightarrow{AB}+\dfrac{k}{5}\overrightarrow{AC}$
+    M 在 BC 上 ⇒ $\dfrac{k}{2}+\dfrac{k}{5}=1$ ⇒ $k=\dfrac{10}{7}$
+    $\overrightarrow{AM}=\dfrac{10}{7}\left(\dfrac{4}{3},\dfrac{5}{6}\right)=\left(\dfrac{40}{21},\dfrac{25}{21}\right)$ → ⑯⑰＝40、⑱⑲＝21、⑳㉑＝25、㉒㉓＝21
+ma106-17:
+  key: 等差 ⇒ 第二式的係數是第一、三式的平均；有解時右邊也必須是平均：$-k-5=\dfrac{(k+1)+(k+9)}{2}$。
+  explain: |
+    等差數列 $a_4=\dfrac{a_1+a_7}{2}$、$a_5=\dfrac{a_2+a_8}{2}$、$a_6=\dfrac{a_3+a_9}{2}$
+    ⇒ 第二式左邊 $=\dfrac{\text{第一式左邊}+\text{第三式左邊}}{2}$
+    有解時右邊也要符合：$-k-5=\dfrac{(k+1)+(k+9)}{2}=k+5$ ⇒ $k=-5$ → ㉕＝−、㉖＝5
+ma106-18:
+  key: 把係數化回對數：$1+2\log3-\log2=\log45$、$4\log2+\log3=\log48$ ⇒ $a=45$、$b=48$；內插係數 $\dfrac{2}{3}$ ⇒ $x=a+2$。
+  explain: |
+    $1+2\log3-\log2=\log\dfrac{10\times9}{2}=\log45$，$4\log2+\log3=\log48$ ⇒ $a=45$、$b=48$（$b-a=3$ ✓）
+    內插法（分點公式）：$\log x\approx\left(1-\dfrac{x-a}{3}\right)\log a+\dfrac{x-a}{3}\log b$
+    $\dfrac{x-a}{3}=\dfrac{2}{3}$ ⇒ $x=45+2=47$ → ㉗＝4、㉘＝7
+ma106-19:
+  key: 回到原點 ⇔ 上、下步數相等且左、右步數相等；四步的情形：上下各 2、左右各 2、四個方向各 1。
+  explain: |
+    總情形 $4^4=256$。回到原點的走法：
+    上下各 2 步：$\dfrac{4!}{2!2!}=6$；左右各 2 步：6；上下左右各 1 步：$4!=24$
+    機率 $=\dfrac{6+6+24}{256}=\dfrac{36}{256}=\dfrac{9}{64}$ → ㉙＝9、㉚＝6、㉛＝4
+ma106-20:
+  key: t 秒時視線是 $3x+4y=12t$：所有視線都平行，往外平移的速率 $\dfrac{12}{5}=2.4$（公尺／秒），被擋 6 秒就是掃過一個直徑。
+  explain: |
+    t 秒時甲在 $(4t,0)$、乙在 $(0,3t)$，視線所在直線 $\dfrac{x}{4t}+\dfrac{y}{3t}=1$，即 $3x+4y=12t$。
+    這些直線斜率都相同（互相平行），原點到直線的距離 $\dfrac{12t}{5}$，每秒往外移 2.4 公尺。
+    視線被圓柱擋住，是直線和底圓相交的期間；從碰到圓到離開圓，直線平移的距離正好是直徑。
+    直徑 $=2.4\times6=14.4$ 公尺 → ㉜＝1、㉝＝4、㉞＝4
+ma105-05:
+  key: 先用「5 秒後在平面上」求出速率（每秒走 $(1,2,2)$，速率 3），再看沿 $(-2,2,-1)$ 走幾秒 x 坐標從 6 變成 2。
+  explain: |
+    5 秒後的位置 $(1+5k,1+10k,1+10k)$ 代入平面：$1+5k-1-10k+3+30k=28$ ⇒ $k=1$
+    所以每秒走 $(1,2,2)$，速率 3；轉向的點是 $(6,11,11)$。
+    $(-2,2,-1)$ 的長度也是 3 ⇒ 之後每秒走 $(-2,2,-1)$，x 坐標每秒減 2
+    $6-2s=2$ ⇒ $s=2$ 秒 → 答案 (2)
+ma105-06:
+  key: 偶數項和＝奇數項和 $\times r$：$120+120r=80$ ⇒ $r=-\dfrac{1}{3}$，再由奇數項和求 $a_1$。
+  explain: |
+    $a_2+a_4+\cdots+a_{10}=r(a_1+a_3+\cdots+a_9)=120r$ ⇒ $120+120r=80$ ⇒ $r=-\dfrac{1}{3}$
+    奇數項公比 $r^2=\dfrac{1}{9}$：$a_1\cdot\dfrac{1-(1/9)^5}{1-1/9}=120$
+    $a_1=120\times\dfrac{8}{9}\div\left(1-\dfrac{1}{9^5}\right)\approx106.7$ → 答案 (4)
+ma105-09:
+  key: 歪斜＝不平行也不相交。z 軸是 $x=y=0$：和 z 軸方向平行、或含 z 軸上的點的都不是。
+  explain: |
+    (1) $x=0$、$z=0$ 是 y 軸，和 z 軸交於原點 ✗
+    (2) 在 $y=0$（xz 平面）上，和 z 軸共平面，交於 $(0,0,1)$ ✗
+    (3) 在 $z=0$ 上，只可能在原點碰到 z 軸，但原點不在 $x+y=1$ 上；方向 $(1,-1,0)$ 不平行 z 軸 ⇒ 歪斜 ✓
+    (4) $x=1$、$y=1$ 平行 z 軸 ✗
+    (5) $y=1$、$z=1$ 方向 $(1,0,0)$，碰到 z 軸需要 $y=0$，不可能 ⇒ 歪斜 ✓
+    → 答案 (3)(5)
+ma105-12:
+  key: 已知兩邊和非夾角（SSA）：$\sin C=\dfrac{5\sin20^\circ}{4}$ 有兩個角（銳、鈍）都可以，三角形有兩種。
+  explain: |
+    正弦定理 $\dfrac{4}{\sin20^\circ}=\dfrac{5}{\sin C}$ ⇒ $\sin C=\dfrac{5\sin20^\circ}{4}\approx0.43$，C 可以是銳角或鈍角，兩種三角形都存在。
+    (1) 兩種情形的 $\angle B$ 不同，$\cos B$ 不確定 ✗
+    (2) $\sin C$ 確定 ✓
+    (3)(4) 兩種三角形的 $\overline{AC}$ 不同，面積、內切圓半徑都不確定 ✗
+    (5) 外接圓半徑 $R=\dfrac{4}{2\sin20^\circ}$ 確定 ✓
+    → 答案 (2)(5)
+ma105-14:
+  key: 每一列是 3 個 0/1，不能全 0 ⇒ 7 種；兩列不同 ⇒ $7\times6=42$。
+  explain: |
+    一列有 $2^3=8$ 種，扣掉全是 0 的剩 7 種。
+    第一列 7 種、第二列和第一列不同 6 種：$7\times6=42$ → ⑭＝4、⑮＝2
+ma105-15:
+  key: Ω 是平行四邊形：面積 $=(\text{x 的範圍})\times(\text{y 的範圍})\times|\det(\overrightarrow{u},\overrightarrow{v})|$。
+  explain: |
+    x 的範圍長 $1-\dfrac{1}{2}=\dfrac{1}{2}$，y 的範圍長 $\dfrac{1}{2}-(-3)=\dfrac{7}{2}$
+    Ω 是以 $\dfrac{1}{2}\overrightarrow{u}$、$\dfrac{7}{2}\overrightarrow{v}$ 為兩邊的平行四邊形，$\det(\overrightarrow{u},\overrightarrow{v})=1\times4-2\times3=-2$
+    面積 $=\dfrac{1}{2}\times\dfrac{7}{2}\times|-2|=\dfrac{7}{2}$ → ⑯＝7、⑰＝2
+ma105-17:
+  key: 由第三式 $x=y+6$ 代入，其餘三式都化成 $y+z=-2$；所以 $x+z=4$、$y+z=-2$。
+  explain: |
+    第三式 $x=y+6$ 代入第一式：$3y+3z=-6$ ⇒ $y+z=-2$；代入第二式、第四式也都得到 $y+z=-2$
+    ⇒ $x=4-z$、$y=-2-z$，也就是 $x+z=4$、$y+z=-2$
+    化簡後的增廣矩陣第一列 $[1\ \ 0\ \ 1\mid4]$、第二列 $[0\ \ 1\ \ 1\mid-2]$
+    $a=1$、$b=4$、$c=1$、$d=-2$ → ⑳＝1、㉑＝4、㉒＝1、㉓＝−、㉔＝2
+ma105-19:
+  key: 行列式 $=ac-b^2>0$；b 只有 1、3、5 三種，各自數 $ac>b^2$ 的 $(a,c)$。
+  explain: |
+    條件「b 為奇數」共 $3\times36=108$ 種。行列式 $ac-b^2>0$ ⇔ $ac>b^2$：
+    $b=1$：$ac>1$，扣掉 $(1,1)$ 有 35 種
+    $b=3$：$ac>9$，$ac\le9$ 的有 $6+4+3+2+1+1=17$ 種，剩 19 種
+    $b=5$：$ac>25$ 只有 $(5,6),(6,5),(6,6)$，3 種
+    機率 $=\dfrac{35+19+3}{108}=\dfrac{57}{108}=\dfrac{19}{36}$ → ㉖＝1、㉗＝9、㉘＝3、㉙＝6
+ma105-20:
+  key: $\overrightarrow{AP}=s\overrightarrow{AB}+t\overrightarrow{AD}+u\overrightarrow{AG}$，P 在平面 BDG 上 ⇔ $s+t+u=1$；$\overrightarrow{AG}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AE}$。
+  explain: |
+    P 在平面 BDG 上 ⇔ $\overrightarrow{AP}=s\overrightarrow{AB}+t\overrightarrow{AD}+u\overrightarrow{AG}$ 且 $s+t+u=1$
+    $\overrightarrow{AG}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AE}$ ⇒ $\overrightarrow{AP}=(s+u)\overrightarrow{AB}+(t+u)\overrightarrow{AD}+u\overrightarrow{AE}$
+    比較係數：$s+u=\dfrac{1}{3}$、$t+u=2$、$u=a$；代入 $s+t+u=1$：$\left(\dfrac{1}{3}-a\right)+(2-a)+a=1$ ⇒ $a=\dfrac{4}{3}$ → ㉚＝4、㉛＝3
+ma104-09:
+  key: A 到 E 的半圓（180°）被分成 4 段相等的弧，每段 45°；$\overrightarrow{MD}$ 在 $\theta+90^\circ$ ⇒ $\overrightarrow{MB}$ 在 $\theta$、$\overrightarrow{MA}$ 在 $\theta-45^\circ$。
+  explain: |
+    弦相等 ⇒ 弧相等，每段弧 $45^\circ$；從 A 逆時針依序是 B、C、D、E。
+    $\overrightarrow{MD}$ 的方向角 $\theta+90^\circ$ ⇒ $\overrightarrow{MC}$：$\theta+45^\circ$、$\overrightarrow{MB}$：$\theta$、$\overrightarrow{MA}$：$\theta-45^\circ$
+    (1) 方向角應為 $\theta-45^\circ$ ✗
+    (2) ✓
+    (3) $\overrightarrow{MA}\cdot\overrightarrow{MA}=8^2=64$ ✗
+    (4) MB 與 MD 夾 $90^\circ$，內積 0 ✓
+    (5) $\overrightarrow{BD}=\overrightarrow{MD}-\overrightarrow{MB}$，應該是相減：$8(\cos(\theta+90^\circ)-\cos\theta,\ \sin(\theta+90^\circ)-\sin\theta)$ ✗
+    → 答案 (2)(4)
+ma104-12:
+  key: 甲乙一白一紅後，袋中剩 2 白 2 紅；戊是接下來第三個取的人，每顆球輪到誰都一樣公平。
+  explain: |
+    甲、乙取出不同色 ⇒ 袋中剩 2 白 2 紅。
+    丙、丁、戊依序取球，任何一個人拿到紅球的機率都相同（抽籤原理），都是 $\dfrac{2}{4}=\dfrac{1}{2}$ → ⑬＝1、⑭＝2
+ma104-13:
+  key: 每種先放 1 盆，剩下最多 4 盆自由分給 4 種花：$x_1+x_2+x_3+x_4+s=4$（s 是空位）的非負整數解。
+  explain: |
+    設四種花各買 $x_1$～$x_4$ 盆（每種至少 1 盆），$x_1+x_2+x_3+x_4\le8$。
+    令 $y_i=x_i-1\ge0$，再加一個「空位數」$s\ge0$：$y_1+y_2+y_3+y_4+s=4$
+    5 個非負整數和為 4：把 4 個 ○ 和 4 個隔板排一列，$C(8,4)=70$ → ⑮＝7、⑯＝0
+ma104-14:
+  key: 三角形的頂點是「兩個鉛直平面的交線」和平面 $x-y+z=0$ 的交點，求出三個頂點再算邊長。
+  explain: |
+    頂點：$x=2$ 與 $x-y=-2$ ⇒ $(2,4)$，代入 $z=y-x$ 得 $(2,4,2)$
+    $x=2$ 與 $x+y=2$ ⇒ $(2,0,-2)$；$x-y=-2$ 與 $x+y=2$ ⇒ $(0,2,2)$
+    邊長：$(2,4,2)$ 到 $(2,0,-2)$ 為 $4\sqrt{2}$；$(2,4,2)$ 到 $(0,2,2)$ 為 $2\sqrt{2}$；$(2,0,-2)$ 到 $(0,2,2)$ 為 $\sqrt{4+4+16}=2\sqrt{6}$
+    周長 $6\sqrt{2}+2\sqrt{6}$ → ⑰＝6、⑱＝2、⑲＝2、⑳＝6
+ma104-15:
+  key: 設 $P(p,q)$：$Q_1=P-\overrightarrow{Q_1P}$ 在 $L_1$ 上、$Q_2=P-\overrightarrow{Q_2P}$ 在 $L_2$ 上，得兩條一次方程式。
+  explain: |
+    $Q_1=(p+7,q-9)$ 在 $L_1$ 上：$(p+7)+2(q-9)=0$ ⇒ $p+2q=11$
+    $Q_2=(p+6,q+8)$ 在 $L_2$ 上：$3(p+6)-5(q+8)=0$ ⇒ $3p-5q=22$
+    解得 $q=1$、$p=9$，$P(9,1)$ → ㉑＝9、㉒＝1
+ma104-17:
+  key: 每個據點「留下的比例＋調出的比例＝1」：A 留 $\dfrac{2}{3}$、B 留 $\dfrac{1}{2}$、C 留 $\dfrac{2}{3}$；一次一次算（等同轉移矩陣乘兩次）。
+  explain: |
+    C 每次調動後的人數 $=\dfrac{1}{6}A+\dfrac{1}{3}B+\dfrac{2}{3}C$（A、B 的算法相同）。
+    第一次：$A=24+6+6=36$、$B=6+18+6=30$、$C=6+12+24=42$
+    第二次：$C=\dfrac{1}{6}\times36+\dfrac{1}{3}\times30+\dfrac{2}{3}\times42=6+10+28=44$ → ㉗＝4、㉘＝4
+ma104-18:
+  key: 3-4-5 的直角在底面頂點 ⇒ 長 3 的側稜垂直底邊；設坐標求頂點 V，高 $\sqrt{5}$。
+  explain: |
+    摺起來後，兩條長 3 的側稜都從左邊兩個底頂點出發，且直角在底頂點 ⇒ 這兩條側稜都垂直底面的橫邊。
+    設底面 $(0,0,0)$、$(4,0,0)$、$(4,4,0)$、$(0,4,0)$，頂點 $V(0,y,h)$：$y^2+h^2=9$、$(y-4)^2+h^2=9$ ⇒ $y=2$、$h=\sqrt{5}$
+    （檢查：V 到 $(4,0,0)$ 的距離 $\sqrt{16+4+5}=5$ ✓）
+    體積 $=\dfrac{1}{3}\times16\times\sqrt{5}=\dfrac{16\sqrt{5}}{3}$ → ㉙＝1、㉚＝6、㉛＝5
+ma104-19:
+  key: 放坐標：底面半邊長 5、高 2（坡度 $\dfrac{2}{5}$）；相鄰兩斜面的法向量 $(2,0,5)$、$(0,2,5)$。
+  explain: |
+    底面 $(\pm5,\pm5,0)$，坡度 $\dfrac{2}{5}$ ⇒ 頂點 $(0,0,2)$。
+    含 $x=5$ 那條底邊的斜面：$2x+5z=10$，法向量 $(2,0,5)$；相鄰斜面 $2y+5z=10$，法向量 $(0,2,5)$
+    $|\cos|=\dfrac{|0+0+25|}{\sqrt{29}\sqrt{29}}=\dfrac{25}{29}$ → ㉜＝2、㉝＝5、㉞＝2、㉟＝9
+ma103-06:
+  key: $P(\text{第二次成功}\mid\text{第一次失敗})=\dfrac{0.7\times0.3\times0.7}{0.7\times0.3+0.3\times1}$：失敗會讓「第二類」的比重變大。
+  explain: |
+    第一次失敗：第一類 $0.7\times0.3=0.21$，第二類 $0.3\times1=0.3$，共 0.51
+    第一次失敗且第二次成功：只可能是第一類，$0.7\times0.3\times0.7=0.147$
+    條件機率 $=\dfrac{0.147}{0.51}\approx0.288$，最接近 0.3 → 答案 (2)
+ma103-07:
+  key: 每個選項找一個整數點，或說明為什麼找不到（例如左邊是 3 的倍數、右邊除以 3 餘 1）。
+  explain: |
+    (1) $(0,0)$ ✓
+    (2) 整數 x、y 時 $3y$ 是 3 的倍數，$9x+1$ 除以 3 餘 1，不可能相等 ✗
+    (3) $(-2,0)$ ✓
+    (4) 平方數只有 0、1、4、9…，兩個相加不會是 3 ✗
+    (5) $x=3$：$\log_9 3=\dfrac{1}{2}$，$y=1$，$(3,1)$ ✓
+    → 答案 (1)(3)(5)
+ma103-11:
+  key: $a_{100}=1+99d$、$a_{1000}=1+999d$：看 d 的範圍；首項為正時，「後面的項為正」能推到「前面的項為正」。
+  explain: |
+    設公差 d：$a_{100}=1+99d$、$a_{1000}=1+999d$。
+    (1) 反例 $d=-\dfrac{1}{500}$：$a_{100}>0$ 但 $a_{1000}<0$ ✗
+    (2) $a_{100}<0$ ⇒ $d<-\dfrac{1}{99}$ ⇒ $a_{1000}<1-\dfrac{999}{99}<0$ ✓
+    (3) $a_{1000}>0$ ⇒ $d>-\dfrac{1}{999}$ ⇒ $a_{100}>1-\dfrac{99}{999}>0$ ✓
+    (4) 同 (1) 的反例 ✗
+    (5) 左邊 $990d$，右邊 $10\times99d=990d$ ✓
+    → 答案 (2)(3)(5)
+ma103-14:
+  key: 恰交一點 ⇔ 聯立後的二次方程式判別式為 0；兩條拋物線各列一式，相減消去 b。
+  explain: |
+    與 $y=x^2$：$x^2-ax-b=0$，判別式 $a^2+4b=0$
+    與 $y=(x-2)^2+12$：$x^2-(a+4)x+16-b=0$，判別式 $(a+4)^2-4(16-b)=0$ ⇒ $a^2+8a-48+4b=0$
+    兩式相減：$8a-48=0$ ⇒ $a=6$，$b=-\dfrac{a^2}{4}=-9$ → ⑱＝6、⑲＝−、⑳＝9
+ma103-16:
+  key: 用參數式 $P=(-2+t,\,4-t,\,t)$ 表示，內積化成 t 的二次函數再配方。
+  explain: |
+    $\overrightarrow{CD}=(1,-1,1)$ ⇒ $P(-2+t,\ 4-t,\ t)$
+    $\overrightarrow{PA}=(4-t,\ t-4,\ -t)$、$\overrightarrow{PB}=(5-t,\ t,\ 2-t)$
+    $\overrightarrow{PA}\cdot\overrightarrow{PB}=(20-9t+t^2)+(t^2-4t)+(t^2-2t)=3t^2-15t+20=3\left(t-\dfrac{5}{2}\right)^2+\dfrac{5}{4}$
+    最小值 $\dfrac{5}{4}$ → ㉓＝5、㉔＝4
+ma103-17:
+  key: $|\overrightarrow{u}|=|\overrightarrow{v}|$ ⇒ $\overrightarrow{u}+\overrightarrow{v}$ 是菱形的對角線，平分夾角 ⇒ 兩向量夾 $150^\circ$。
+  explain: |
+    兩個長度相等的向量相加，和向量是菱形的對角線，平分 $\overrightarrow{u}$、$\overrightarrow{v}$ 的夾角。
+    和向量與 $\overrightarrow{u}$ 夾 $75^\circ$ ⇒ $\overrightarrow{u}$、$\overrightarrow{v}$ 夾 $150^\circ$
+    $\overrightarrow{u}\cdot\overrightarrow{v}=1\times1\times\cos150^\circ=-\dfrac{\sqrt{3}}{2}$ → ㉕＝−、㉖＝3、㉗＝2
+ma103-18:
+  key: 從最下面那一列兩格下手：兩格用一塊橫磚，或各用一塊直磚和上一格配；剩下的是 $2\times5$ 或 $2\times3$ 的長方形。
+  explain: |
+    地面是上面 $2\times5$ 的長方形，加上左下角兩格。$2\times n$ 長方形的鋪法：$n=1,2,3,4,5$ 時依序 1、2、3、5、8 種（每次是前兩個相加）。
+    ① 左下兩格用一塊橫磚：剩 $2\times5$，8 種
+    ② 左下兩格各用直磚往上接：第一列最左兩格只能用一塊橫磚，剩右邊 $2\times3$，3 種
+    共 $8+3=11$ 種 → ㉘＝1、㉙＝1
+ma103-19:
+  key: 轉移矩陣每一行的和是 1：$c=1-a$、$b=1-d$，代入行列式 $ad-bc=a+d-1$。
+  explain: |
+    轉移矩陣各行元素和為 1 ⇒ $c=1-a$、$b=1-d$
+    $ad-bc=ad-(1-d)(1-a)=a+d-1=\dfrac{5}{8}$ ⇒ $a+d=\dfrac{13}{8}$ → ㉚＝1、㉛＝3、㉜＝8
+ma103-20:
+  key: △ABE 的角是 15°、45°、120°，用正弦定理求 AE、BE；三個小三角形全等，$DE=AE-AD=AE-BE$。
+  explain: |
+    △ABE：$\angle BAE=15^\circ$、$\angle ABE=60^\circ-15^\circ=45^\circ$ ⇒ $\angle AEB=120^\circ$
+    正弦定理：$\overline{AE}=\dfrac{\sin45^\circ}{\sin120^\circ}=\dfrac{\sqrt{6}}{3}$、$\overline{BE}=\dfrac{\sin15^\circ}{\sin120^\circ}=\dfrac{\sqrt{6}-\sqrt{2}}{2\sqrt{3}}=\dfrac{\sqrt{2}}{2}-\dfrac{\sqrt{6}}{6}$
+    三個角都是 15°，旋轉對稱 ⇒ $\overline{AD}=\overline{BE}$
+    $\overline{DE}=\overline{AE}-\overline{AD}=\dfrac{\sqrt{6}}{3}-\dfrac{\sqrt{2}}{2}+\dfrac{\sqrt{6}}{6}=\dfrac{\sqrt{6}}{2}-\dfrac{\sqrt{2}}{2}$ → ㉝＝6、㉞＝2、㉟＝2、㊱＝2
+ma102-03:
+  key: 分「甲乙都白」「甲乙都黑」兩種情形，再算丙抽到白球：$\dfrac{\frac{3}{10}\cdot\frac{1}{3}+\frac{1}{10}\cdot1}{\frac{3}{10}+\frac{1}{10}}$。
+  explain: |
+    甲乙都白：$\dfrac{3}{5}\times\dfrac{2}{4}=\dfrac{3}{10}$，剩 1 白 2 黑，丙抽白 $\dfrac{1}{3}$
+    甲乙都黑：$\dfrac{2}{5}\times\dfrac{1}{4}=\dfrac{1}{10}$，剩 3 白，丙一定抽白
+    $P=\dfrac{\frac{3}{10}\times\frac{1}{3}+\frac{1}{10}\times1}{\frac{3}{10}+\frac{1}{10}}=\dfrac{2/10}{4/10}=\dfrac{1}{2}$ → 答案 (3)
+ma102-04:
+  key: 迴歸直線斜率 $m=r\cdot\dfrac{\sigma_y}{\sigma_x}$：斜率、$\sigma_x$ 都相同時，$\sigma_y$ 越小，$|r|$ 越大。
+  explain: |
+    五組的 x 相同、迴歸直線相同 ⇒ 斜率 $m<0$、$\sigma_x$ 都一樣，$r=m\cdot\dfrac{\sigma_x}{\sigma_y}$。
+    $\sigma_y$ 越小，r 越負（越小）。五組 y 的平均都是 5，離均差平方和：
+    (1) $16+64+16=96$　(2) $4+25+9=38$　(3) $0+4+4=8$　(4) $16+16+0=32$　(5) $4+1+1=6$
+    (5) 最小 ⇒ 相關係數最小 → 答案 (5)
+ma102-08:
+  key: 底數大於 1 時指數越大越大，底數介於 0、1 時相反；$\log_a b$ 與 $\log_b a$ 互為倒數。
+  explain: |
+    (1) $(-a)^7=-a^7$、$(-a)^9=-a^9$；$a>1$ ⇒ $a^9>a^7$ ⇒ $-a^7>-a^9$ ✓
+    (2) $\dfrac{1}{b}>1$ ⇒ $\left(\dfrac{1}{b}\right)^9>\left(\dfrac{1}{b}\right)^7$ ✓
+    (3) $\dfrac{1}{a}<1<\dfrac{1}{b}$ ⇒ $\log\dfrac{1}{a}<\log\dfrac{1}{b}$ ✗
+    (4) 兩邊都是 0 ✗
+    (5) 令 $t=\log_a b<0$，$\log_b a=\dfrac{1}{t}$；例如 $b=\dfrac{1}{a^3}$ 時 $t=-3<-\dfrac{1}{3}$，不成立 ✗
+    → 答案 (1)(2)
+ma102-09:
+  key: $f+g=(x-b)[p(x-a)+q(x-c)]$（$p,q>0$）：開口向上，一定經過 $(b,0)$，另一根在 a、c 之間。
+  explain: |
+    $f(x)=p(x-a)(x-b)$、$g(x)=q(x-b)(x-c)$，$p,q>0$。
+    $f+g=(x-b)[p(x-a)+q(x-c)]$，領導係數 $p+q>0$ ⇒ 開口向上的拋物線，(1)(2)(3) 不可能。
+    另一根 $\dfrac{pa+qc}{p+q}$ 介於 a、c 之間：剛好等於 b 時和 x 軸只交一點，否則交兩點 ⇒ (4)(5) 都可能 ✓
+    → 答案 (4)(5)
+ma102-10:
+  key: $\overrightarrow{PQ_1}\cdot\overrightarrow{PQ_2}=x^2+y^2-1$；內積小於 0 ⇔ P 在單位圓內部。
+  explain: |
+    $P(x,y)$：$\overrightarrow{PQ_1}\cdot\overrightarrow{PQ_2}=(1-x)(-1-x)+y^2=x^2+y^2-1<0$ ⇔ P 在圓 $x^2+y^2=1$ 內部
+    (1) $\left(0,\dfrac{1}{2}\right)$ 在圓內 ✓
+    (2) $y\ge1$ ⇒ $x^2+y^2\ge1$ ✗
+    (3) $\left(0,\dfrac{1}{\sqrt{2}}\right)$ 在曲線上，$x^2+y^2=\dfrac{1}{2}<1$ ✓
+    (4) $\left(0.4,0.6\right)$ 在曲線上，$0.16+0.36<1$ ✓
+    (5) $x^2=2+y^2$ ⇒ $x^2+y^2=2+2y^2\ge2$ ✗
+    → 答案 (1)(3)(4)
+ma102-17:
+  key: 兩條平行線截出的弦一樣長 ⇒ 圓心到兩線距離相等，在正中間的 $x-y=3$ 上，距離 $\sqrt{2}$。
+  explain: |
+    $x-y=1$、$x-y=5$ 平行，弦長相同 ⇒ 圓心到兩線等距 ⇒ 圓心在 $x-y=3$ 上
+    圓心到 $x-y=1$ 的距離 $\dfrac{|3-1|}{\sqrt{2}}=\sqrt{2}$，半弦長 7
+    $r^2=7^2+(\sqrt{2})^2=51$，面積 $51\pi$ → ㉕＝5、㉖＝1
+ma102-18:
+  key: $\overrightarrow{A}\cdot\overrightarrow{B}=1\times2\cos60^\circ=1$，展開得 $\overrightarrow{u}\cdot\overrightarrow{v}=2x+5y$；改用 $x+y$、$x-y$ 表示。
+  explain: |
+    $\overrightarrow{u}\cdot\overrightarrow{v}=x|\overrightarrow{A}|^2+(x+y)\overrightarrow{A}\cdot\overrightarrow{B}+y|\overrightarrow{B}|^2=x+(x+y)+4y=2x+5y$
+    令 $s=x+y$、$d=x-y$：$x=\dfrac{s+d}{2}$、$y=\dfrac{s-d}{2}$ ⇒ $2x+5y=\dfrac{7s-3d}{2}$
+    s 越大、d 越小越大：$s=8$、$d=-2$ 時最大 $\dfrac{56+6}{2}=31$ → ㉗＝3、㉘＝1
+ma102-19:
+  key: 外心到 AB 的距離 $=R\cos C$、到 BC 的距離 $=R\cos A$ ⇒ $\cos C=\dfrac{1}{4}$、$\cos A=\dfrac{7}{8}$。
+  explain: |
+    圓心角 $\angle AOB=2C$，外心到 AB 的距離 $=R\cos C$ ⇒ $\cos C=\dfrac{2}{8}=\dfrac{1}{4}$；同理 $\cos A=\dfrac{7}{8}$
+    $\sin C=\dfrac{\sqrt{15}}{4}$、$\sin A=\dfrac{\sqrt{15}}{8}$
+    $\cos B=-\cos(A+C)=\sin A\sin C-\cos A\cos C=\dfrac{15}{32}-\dfrac{7}{32}=\dfrac{1}{4}$ ⇒ $\sin B=\dfrac{\sqrt{15}}{4}$
+    $\overline{AC}=2R\sin B=16\times\dfrac{\sqrt{15}}{4}=4\sqrt{15}$ → ㉙＝4、㉚＝1、㉛＝5
+ma102-20:
+  key: 平面與直線 AG 不相交 ⇔ 平面和 AG 平行：法向量 $\perp(1,1,1)$（且 A 不在平面上）。
+  explain: |
+    $P(6,6,1)$、$R(0,3,6)$、$Q(0,q,0)$；$\overrightarrow{QP}=(6,6-q,1)$、$\overrightarrow{QR}=(0,3-q,6)$
+    法向量 $\overrightarrow{QP}\times\overrightarrow{QR}=(33-5q,\ -36,\ 18-6q)$
+    與 AG 平行 ⇒ 法向量 $\cdot(1,1,1)=15-11q=0$ ⇒ $q=\dfrac{15}{11}$
+    （A 代入平面不成立，AG 不在平面上，確實不相交）→ ㉜＝1、㉝＝5、㉞＝1、㉟＝1
+ma101-03:
+  key: $10^{3.032}=10^3\times10^{0.032}$；查表 $\log1.07=0.0294$、$\log1.08=0.0334$，所以 $10^{0.032}\approx1.076$。
+  explain: |
+    表中「10 那一列、第 7 欄」是 $\log10.7$ 的小數部分 0.0294，所以 $\log1.07=0.0294$、$\log1.08=0.0334$
+    0.032 介於兩者之間，用內插：$10^{0.032}\approx1.07+0.01\times\dfrac{0.032-0.0294}{0.0334-0.0294}\approx1.076$
+    $10^{3.032}\approx1076$ → 答案 (4)
+ma101-07:
+  key: 切於原點 ⇒ 球心在過原點的法線上：球心 $(3t,4t,0)$、半徑 $5|t|$；再分別求球面和三個坐標軸的交點。
+  explain: |
+    球心在法向量 $(3,4,0)$ 方向上：$(3t,4t,0)$，半徑 $5|t|$，球面過原點。
+    x 軸 $(s,0,0)$：$(s-3t)^2+16t^2=25t^2$ ⇒ $s=0$ 或 $6t$
+    y 軸 $(0,s,0)$：$9t^2+(s-4t)^2=25t^2$ ⇒ $s=0$ 或 $8t$
+    z 軸 $(0,0,s)$：$25t^2+s^2=25t^2$ ⇒ $s=0$
+    相異交點：原點、$(6t,0,0)$、$(0,8t,0)$，共 3 個 → 答案 (3)
+ma101-11:
+  key: 無解 ⇔ 兩直線平行且不重合：$\dfrac{-3}{1}=\dfrac{b}{-4}\ne\dfrac{d}{3}$；有解則包含「平行重合」的情形。
+  explain: |
+    第二組無解 ⇒ $-3x+by=d$ 與 $x-4y=3$ 平行不重合 ⇒ $b=12$，且 $d\ne-9$（$d=-9$ 時是同一條線）
+    第一組有解：$a\ne-2$（交於一點）或 $a=-2$ 且 $c=-6$（重合，無限多解）都可以。
+    (1) a 可以是 −2 ✗
+    (2) c 不一定是 −6 ✗
+    (3) ✓
+    (4) ✓
+    (5) 例如 $a=1$ 時兩式 $x+8y=c$、$-3x+12y=d$ 不平行，有唯一解 ✗
+    → 答案 (3)(4)
+ma101-12:
+  key: $\tan\theta>0$ 而 P 的 y 坐標為負 ⇒ 終邊在第三象限，$P(-6,-4)$。
+  explain: |
+    $\tan\theta=\dfrac{y}{x}=\dfrac{2}{3}$、$y=-4$ ⇒ $x=-6$，終邊在第三象限。
+    (1) x 坐標是 −6 ✗
+    (2) $\overline{OP}=\sqrt{36+16}=2\sqrt{13}$ ✓
+    (3) $\cos\theta=\dfrac{-6}{2\sqrt{13}}=-\dfrac{3}{\sqrt{13}}$ ✗
+    (4) $\sin2\theta=2\sin\theta\cos\theta=2\cdot\dfrac{-2}{\sqrt{13}}\cdot\dfrac{-3}{\sqrt{13}}=\dfrac{12}{13}>0$ ✓
+    (5) $\theta=210^\circ$ 時 $\dfrac{\theta}{2}=105^\circ$，$\cos<0$；但 $\theta=210^\circ+360^\circ$ 時 $\dfrac{\theta}{2}=285^\circ$，$\cos>0$ ✗
+    → 答案 (2)(4)
+ma101-17:
+  key: 設 $C\left(t,\dfrac{t^2}{2}\right)$，內積 $=3t^2+6t$，配方求最小值。
+  explain: |
+    $\overrightarrow{AB}=(6,6)$、$\overrightarrow{AC}=\left(t+2,\ \dfrac{t^2}{2}-2\right)$
+    $\overrightarrow{AB}\cdot\overrightarrow{AC}=6(t+2)+6\left(\dfrac{t^2}{2}-2\right)=3t^2+6t=3(t+1)^2-3$
+    $t=-1$ 時最小值 −3 → ㉓＝−、㉔＝1、㉕＝−、㉖＝3
+ma101-20:
+  key: 長方體的三邊是 1、2、3；兩頂點的距離只有邊、面對角線、體對角線三類，數出大於 3 的有幾對。
+  explain: |
+    三邊長 $\dfrac{14}{13}-\dfrac{1}{13}=1$、2、3。8 個頂點任取兩個：$C^8_2=28$ 對。
+    邊長 1、2、3 各 4 對；面對角線 $\sqrt{5}$、$\sqrt{10}$、$\sqrt{13}$ 各 4 對；體對角線 $\sqrt{14}$ 有 4 對。
+    大於 3 的：$\sqrt{10}$、$\sqrt{13}$、$\sqrt{14}$ 共 12 對（邊長 3 不算「大於」）
+    機率 $=\dfrac{12}{28}=\dfrac{3}{7}$ → ㉜＝3、㉝＝7
+ma100-03:
+  key: 兩邊取 log：$2b_{n+1}=-\dfrac{1}{2}+2b_n$ ⇒ $b_{n+1}-b_n=-\dfrac{1}{4}$。
+  explain: |
+    $a_n>0$，兩邊取常用對數：$2\log a_{n+1}=\log10^{-1/2}+2\log a_n$
+    ⇒ $b_{n+1}=b_n-\dfrac{1}{4}$，公差 $-\dfrac{1}{4}$ 的等差數列 → 答案 (2)
+ma100-05:
+  key: 比大小時估算或取對數：$2^{10}=1024>10^3$；$\log_2 11<3.5$ ⇔ $11<2^{3.5}=8\sqrt{2}\approx11.3$。
+  explain: |
+    (1) $3^7=2187>7^3=343$ ✗
+    (2) $5^{10}=9765625>10^5$ ✗
+    (3) $2^{100}=(2^{10})^{10}=1024^{10}>(10^3)^{10}=10^{30}$ ✗
+    (4) $2^{1.5}=2\sqrt{2}\approx2.83\ne3$ ✗
+    (5) $2^{3.5}=8\sqrt{2}\approx11.31>11$ ⇒ $\log_2 11<3.5$ ✓
+    → 答案 (5)
+ma100-08:
+  key: $\sin\theta<0$、$\cos\theta>0$ ⇒ 第四象限，$\cos\theta=\dfrac{\sqrt{5}}{3}$、$\tan\theta=-\dfrac{2}{\sqrt{5}}$。
+  explain: |
+    $\cos\theta=\sqrt{1-\dfrac{4}{9}}=\dfrac{\sqrt{5}}{3}$，$\tan\theta=-\dfrac{2}{\sqrt{5}}$
+    (1) ✓
+    (2) $\tan^2\theta=\dfrac{4}{5}>\dfrac{4}{9}$ ✓
+    (3) $\sin^2\theta=\dfrac{4}{9}<\cos^2\theta=\dfrac{5}{9}$ ✗
+    (4) $\sin2\theta=2\sin\theta\cos\theta<0$ ✗
+    (5) $\cos2\theta=\cos^2\theta-\sin^2\theta=\dfrac{1}{9}>0$、$\sin2\theta<0$ ⇒ $2\theta$ 也在第四象限 ✗
+    → 答案 (1)(2)
+ma100-10:
+  key: $\overrightarrow{v}\perp\overrightarrow{w}$ 且等長：以兩者為邊是正方形；$\overrightarrow{v}+\overrightarrow{w}$、$\overrightarrow{v}-\overrightarrow{w}$ 是兩條對角線。
+  explain: |
+    (1) $|\overrightarrow{v}|=3$，與 $\overrightarrow{v}$ 垂直且長 3 的向量只有 $\pm(\sqrt{5},-2)$ ✓
+    (2) 正方形的兩條對角線等長 ✓
+    (3) 對角線和邊夾 $45^\circ$，不是 $135^\circ$ ✗
+    (4) $|a\overrightarrow{v}+b\overrightarrow{w}|^2=9a^2+9b^2$，長度是 $3\sqrt{a^2+b^2}$ ✗
+    (5) 兩邊和 $\overrightarrow{v}$ 內積：$2=c|\overrightarrow{v}|^2=9c$ ⇒ $c=\dfrac{2}{9}>0$ ✓
+    → 答案 (1)(2)(5)
+ma100-11:
+  key: L 和圓 C 有交點 ⇒ L 經過 C 上或 C 內的點；如果圖形把整個圓 C 包在裡面，L 一定會碰到它。
+  explain: |
+    (1) $y=1$ 和 C 相交，但和 x 軸平行 ✗
+    (2) $y=-1$ 和 C 相交，但 $\left(\dfrac{1}{2}\right)^x>0$ 永遠碰不到 ✗
+    (3) 離原點 1.9 的直線和 C 相交，卻碰不到半徑 $\sqrt{3}$ 的圓 ✗
+    (4) C 上的點到 $(2,0)$ 的距離最大是 4（在 $(-2,0)$），整個 C 都在大圓裡（含圓周），所以 L 一定碰到大圓 ✓
+    (5) $x^2+y^2\le4$ 時 $\dfrac{x^2}{9}+\dfrac{y^2}{4}\le\dfrac{x^2+y^2}{4}\le1$，C 整個在橢圓裡，L 一定碰到 ✓
+    → 答案 (4)(5)
+ma100-12:
+  key: 點在球內、球上、球外，比較「到球心的距離平方」和 14；截面圓的半徑平方 ＝ 14 − 球心到平面距離的平方。
+  explain: |
+    球心 $(1,2,3)$，半徑平方 14。
+    (1) 原點：$1+4+9=14$，在球面上 ✓
+    (2) A：$0+4+9=13<14$，在球內 ✗
+    (3) A 在球內、B：$4+4+9=17>14$ 在球外 ⇒ 線段 AB 穿過球面 ✓
+    (4) 直線 AB 是 x 軸，x 軸上離 $(1,2,3)$ 最近的點是 $(1,0,0)=A$ ✓
+    (5) 球心到 xy、yz、xz 平面的距離是 3、1、2，截面圓半徑平方 $14-9=5$、$14-1=13$、$14-4=10$，yz 平面最大 ✗
+    → 答案 (1)(3)(4)
+ma100-13:
+  key: $f(x)=x^3-x$ 是奇函數；三次方程式一定有實根；有理根檢查用整數或代入。
+  explain: |
+    (1) $f\left(\dfrac{1}{\sqrt{2}}\right)=\dfrac{1}{\sqrt{2}}\left(\dfrac{1}{2}-1\right)<0$ ✗
+    (2) $x^3-x=2$：整數代入 $f(1)=0$、$f(2)=6$、$f(-1)=0$、$f(-2)=-6$，都不是 2 ✗
+    (3) $x^3-x^2-x-1=0$ 是三次方程式，一定有實根 ✓
+    (4) $x^3-2x=0$ ⇒ $x=0,\pm\sqrt{2}$，沒有不為 0 的有理根 ✗
+    (5) $f(-a)=-f(a)=-2$ ✗
+    → 答案 (3)
+ma100-15:
+  key: △AEB、△CED 都是直角三角形（直角在 B、C）：$\cot\angle AEB=\dfrac{EB}{AB}$、$\cot\angle CED=\dfrac{EC}{CD}$。
+  explain: |
+    AB 垂直 BE，$\cot\angle AEB=\dfrac{\overline{EB}}{\overline{AB}}=\dfrac{2\sqrt{6}}{5}$；設正方形邊長 $\overline{AB}=5$，則 $\overline{EB}=2\sqrt{6}$
+    $\overline{EC}=\sqrt{\overline{EB}^2+\overline{BC}^2}=\sqrt{24+25}=7$
+    CD 垂直底面上的 EC ⇒ $\cot\angle CED=\dfrac{\overline{EC}}{\overline{CD}}=\dfrac{7}{5}$ → ⑰＝7、⑱＝5
+ma100-17:
+  key: 放坐標 $A(0,0)$、$B(1,0)$、$D(0,7)$；C 到 B、D 都是 5，且和 A 在 BD 的兩側。
+  explain: |
+    $A(0,0)$、$B(1,0)$、$D(0,7)$，$\overline{BD}=\sqrt{50}$；△BCD 是等腰直角三角形，C 在 BD 的中垂線上。
+    BD 中點 $\left(\dfrac{1}{2},\dfrac{7}{2}\right)$，到 C 的距離 $\sqrt{25-\dfrac{50}{4}}=\dfrac{5}{\sqrt{2}}$，方向 $\dfrac{(7,1)}{\sqrt{50}}$（遠離 A 的一側）
+    $C=\left(\dfrac{1}{2},\dfrac{7}{2}\right)+\dfrac{5}{\sqrt{2}}\cdot\dfrac{(7,1)}{5\sqrt{2}}=(4,4)$，$\overline{AC}=\sqrt{32}$ → ㉔＝3、㉕＝2
+ma100-18:
+  key: 設目前 A、B、C 各 a、b、c 公克，往回推：半年前是 $2a,3b,4c$，一年前是 $4a,9b,16c$；列三元一次方程組。
+  explain: |
+    目前：$a+2b+c=8$
+    半年前：$2a+2\cdot3b+4c=22$ ⇒ $a+3b+2c=11$
+    一年前：$4a+2\cdot9b+16c=66$ ⇒ $2a+9b+8c=33$
+    第二式減第一式：$b+c=3$；第三式減第一式的 2 倍：$5b+6c=17$ ⇒ $c=2$、$b=1$、$a=4$ → ㉖＝4、㉗＝1、㉘＝2
+ma100-20:
+  key: P 是 L 上離 O 最近的點 ⇒ L 垂直 $\overrightarrow{OP}$；L 在 H 上 ⇒ L 垂直 H 的法向量；方向＝兩者的外積。
+  explain: |
+    L 的方向同時垂直 $\overrightarrow{OP}=(2,1,1)$ 與法向量 $(1,-1,1)$
+    $(2,1,1)\times(1,-1,1)=(1\cdot1-1\cdot(-1),\ 1\cdot1-2\cdot1,\ 2\cdot(-1)-1\cdot1)=(2,-1,-3)$ → ㉜＝−、㉝＝1、㉞＝−、㉟＝3

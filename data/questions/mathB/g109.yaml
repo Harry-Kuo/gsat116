@@ -1099,7 +1099,8 @@ items:
   tags: []
   concepts:
   - B5
-  classic: true
+  classic: false
+  classic_note: 109 年學測數學只有一份試卷，這題排在數學A的練習
   stats:
     P: 53
     Ph: 93

@@ -1,0 +1,1291 @@
+exam: 學測
+year: 102
+subject: mathB
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0j076555251243094581/03-102%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e5%ae%9a%e7%a8%bf.pdf
+groups: []
+items:
+- id: mb102-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 70
+    Ph: 88
+    Pl: 49
+    D: 39
+    opt:
+      '1': 4
+      '2': 6
+      '3': 8
+      '4': 11
+      '5': 70
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-01.webp
+  text: |-
+    一、單選題（占3 0 分）
+    說明：第1 題至第6 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請畫
+    記在答案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或畫
+    記多於一個選項者，該題以零分計算。
+
+    1. 學校規定上學期成績需同時滿足以下兩項要求，才有資格參選模範生。
+    一、國文成績或英文成績70 分(含)以上；
+    二、數學成績及格。
+    已知小文上學期國文65 分而且他不符合參選模範生資格。請問下列哪一個選
+    項的推論是正確的？
+    (1) 小文的英文成績未達70 分
+    (2) 小文的數學成績不及格
+    (3) 小文的英文成績70 分以上但數學成績不及格
+    (4) 小文的英文成績未達70 分且數學成績不及格
+    (5) 小文的英文成績未達70 分或數學成績不及格
+- id: mb102-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 66
+    Ph: 90
+    Pl: 36
+    D: 54
+    opt:
+      '1': 5
+      '2': 4
+      '3': 17
+      '4': 66
+      '5': 9
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-02.webp
+  text: |-
+    2. 令
+    10
+    9
+    2.6
+    2.6
+    a =
+    -
+    ，
+    11
+    10
+    2.6
+    2.6
+    b =
+    -
+    ，
+    11
+    9
+    2.6
+    2.6
+    2
+    c
+    -
+    =
+    。請選出正確的大小關係。
+    (1) a
+    b
+    c
+    >
+    >
+
+    (2) a
+    c
+    b
+    >
+    >
+
+    (3) b
+    a
+    c
+    >
+    >
+
+    (4) b
+    c
+    a
+    >
+    >
+
+    (5) c
+    b
+    a
+    >
+    >
+- id: mb102-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: B10
+  tags: []
+  concepts:
+  - B10
+  classic: false
+  classic_note: 102 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 35
+    Ph: 67
+    Pl: 12
+    D: 55
+    opt:
+      '1': 21
+      '2': 11
+      '3': 35
+      '4': 18
+      '5': 14
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-03.webp
+  text: |-
+    3. 袋子裡有3 顆白球，2 顆黑球。由甲、乙、丙三人依序各抽取1 顆球，抽取後
+    不放回。若每顆球被取出的機會相等，請問在甲和乙抽到相同顏色球的條件下，
+    丙抽到白球之條件機率為何？
+    (1) 1
+    3
+    (2)
+    5
+    12
+    (3) 1
+    2
+    (4) 3
+    5
+    (5) 2
+    3
+- id: mb102-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: B11
+  tags: []
+  concepts:
+  - B11
+  classic: false
+  classic_note: 102 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 30
+    Ph: 46
+    Pl: 19
+    D: 27
+    opt:
+      '1': 36
+      '2': 7
+      '3': 17
+      '4': 9
+      '5': 30
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-04.webp
+  text: |-
+    4. 已知以下各選項資料的迴歸直線(最適合直線)皆相同且皆為負相關，請選出相
+    關係數最小的選項。
+    (1)
+    2
+    3
+    5
+    1
+    13
+    1
+    x
+    y
+
+    (2)
+    2
+    3
+    5
+    3
+    10
+    2
+    x
+    y
+
+    (3)
+    2
+    3
+    5
+    5
+    7
+    3
+    x
+    y
+
+    (4)
+    2
+    3
+    5
+    9
+    1
+    5
+    x
+    y
+
+    (5)
+    2
+    3
+    5
+    7
+    4
+    4
+    x
+    y
+- id: mb102-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: B9
+  tags: []
+  concepts:
+  - B9
+  classic: true
+  stats:
+    P: 50
+    Ph: 75
+    Pl: 25
+    D: 50
+    opt:
+      '1': 7
+      '2': 50
+      '3': 26
+      '4': 11
+      '5': 5
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-05.webp
+  text: |-
+    5. 將24 顆雞蛋分裝到紅、黃、綠的三個籃子。每個籃子都要有雞蛋，且黃、綠兩
+
+    個籃子裡都裝奇數顆。請選出分裝的方法數。
+     (1) 55
+    (2) 66
+    (3) 132
+    (4) 198
+    (5) 253
+- id: mb102-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: true
+  stats:
+    P: 39
+    Ph: 71
+    Pl: 15
+    D: 56
+    opt:
+      '1': 6
+      '2': 10
+      '3': 39
+      '4': 32
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-06.webp
+  text: |-
+    6. 莎韻觀測遠方等速率垂直上升的熱氣球。在上午10:00 熱氣球的仰角為30°，到
+    上午10:10 仰角變成34°。請利用下表判斷到上午10:30時，熱氣球的仰角最接近
+    下列哪一個度數？
+    θ
+    30°
+    34°
+    39°
+    40°
+    41°
+    42°
+    43°
+    θ
+    sin
+
+    0.500
+    0.559
+    0.629
+    0.643
+    0.656
+    0.669
+    0.682
+    cosθ
+    0.866
+    0.829
+    0.777
+    0.766
+    0.755
+    0.743
+    0.731
+    tanθ
+    0.577
+    0.675
+    0.810
+    0.839
+    0.869
+    0.900
+    0.933
+    (1) 39°
+    (2) 40°
+    (3) 41°
+    (4) 42°
+    (5) 43°
+- id: mb102-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,3,5
+  topic: B7
+  tags:
+  - B4
+  concepts:
+  - B7
+  - B4
+  classic: true
+  stats:
+    P: 60
+    Ph: 85
+    Pl: 28
+    D: 57
+    T: 42
+    opt:
+      '1': 85
+      '2': 74
+      '3': 86
+      '4': 17
+      '5': 60
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-07.webp
+  text: |-
+    二、多選題（占3 0 分）
+    說明：第7 題至第12 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選
+    項畫記在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答
+    對者，得5 分；答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2
+    個選項或所有選項均未作答者，該題以零分計算。
+    7. 設n為正整數，符號1
+    1
+    0
+    2
+    n
+    
+    
+    
+    
+    
+    
+    代表矩陣1
+    1
+    0
+    2
+    
+    
+    
+    
+    
+    
+    自乘n次。令1
+    1
+    0
+    2
+    n
+    n
+    n
+    n
+    n
+    a
+    b
+    c
+    d
+    
+    
+    
+    = 
+    
+    
+    
+    
+    
+    
+    
+    ，請選
+    出正確的選項。
+    (1)
+    2
+    1
+    a =
+    (2)
+    1
+    2
+    3
+    ,
+    ,
+    a a a 為等比數列
+    (3)
+    1
+    2
+    3
+    ,
+    ,
+    d d
+    d 為等比數列
+    (4)
+    1
+    2
+    3
+    ,
+    ,
+    b b b 為等差數列
+    (5)
+    1
+    2
+    3
+    ,
+    ,
+    c c c 為等差數列
+- id: mb102-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: false
+  classic_note: 102 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 47
+    Ph: 68
+    Pl: 23
+    D: 45
+    T: 22
+    opt:
+      '1': 82
+      '2': 72
+      '3': 17
+      '4': 38
+      '5': 48
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-08.webp
+  text: |-
+    8. 設
+    1
+    0
+    a
+    b
+    > >
+    >
+    ，關於下列不等式，請選出正確的選項。
+    (1)
+    7
+    9
+    (
+    )
+    (
+    )
+    a
+    a
+    −
+    > −
+
+    (2)
+    9
+    7
+    b
+    b
+    −
+    −
+    >
+
+    (3)
+    10
+    10
+    1
+    1
+    log
+    log
+    a
+    b
+    >
+
+    (4) log 1
+    log 1
+    a
+    b
+    >
+
+    (5) log
+    log
+    a
+    b
+    b
+    a
+    ≥
+- id: mb102-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 4,5
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: false
+  classic_note: 102 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 43
+    Ph: 64
+    Pl: 25
+    D: 39
+    T: 19
+    opt:
+      '1': 21
+      '2': 37
+      '3': 36
+      '4': 64
+      '5': 72
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-09.webp
+  text: |-
+    9. 設a
+    b
+    c
+    <
+    <
+    。已知實係數多項式函數
+    ( )
+    y
+    f x
+    =
+    的圖形為一開口向上的拋物線，且
+    與x軸交於( ,0)
+    a
+    、( ,0)
+    b
+    兩點；實係數多項式函數
+    ( )
+    y
+    g x
+    =
+    的圖形亦為一開口向上
+    的拋物線，且跟x軸相交於( ,0)
+    b
+    、( ,0)
+    c
+    兩點。請選出
+    ( )
+    ( )
+    y
+    f x
+    g x
+    =
+    +
+    的圖形可能的
+    選項。
+    (1) 水平直線
+    (2) 和x軸僅交於一點的直線
+    (3) 和x軸無交點的拋物線
+    (4) 和x軸僅交於一點的拋物線
+    (5) 和x軸交於兩點的拋物線
+- id: mb102-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3,4
+  topic: B6
+  tags: []
+  concepts:
+  - B6
+  classic: false
+  classic_note: 102 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 36
+    Ph: 60
+    Pl: 18
+    D: 42
+    T: 16
+    opt:
+      '1': 65
+      '2': 37
+      '3': 64
+      '4': 63
+      '5': 41
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-10.webp
+  text: |-
+    10. 坐標平面上考慮兩點
+    1
+    2
+    (1,0),
+    ( 1,0)
+    Q
+    Q −
+    。在下列各方程式的圖形中，請選出其上至
+    少有一點P 滿足內積 
+    PQ1 ⋅
+    PQ 2
+    0
+    <
+    的選項。
+    (1)
+    1
+    2
+    y =
+
+    (2)
+    2
+    1
+    y
+    x
+    =
+    +
+    (3)
+    2
+    2
+    2
+    1
+    x
+    y
+    −
+    +
+    =
+    (4)
+    2
+    2
+    4
+    1
+    x
+    y
+    +
+    =
+    (5)
+    2
+    2
+    1
+    2
+    2
+    x
+    y
+    −
+    =
+- id: mb102-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,5
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: false
+  classic_note: 108 課綱範圍外：橢圓的焦點性質（二次曲線）不在學測數B範圍
+  stats:
+    P: 42
+    Ph: 58
+    Pl: 23
+    D: 35
+    T: 18
+    opt:
+      '1': 50
+      '2': 82
+      '3': 48
+      '4': 23
+      '5': 75
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-11.webp
+  text: |-
+    11. 設
+    1
+    2
+    ,
+    F F 為橢圓Γ的兩個焦點。S 為以
+    1F 為中心的正方形( S 的各邊可不與Γ的對
+    稱軸平行)。試問S 可能有幾個頂點落在Γ上？
+    (1) 1
+    (2) 2
+    (3) 3
+    (4) 4
+    (5) 0
+- id: mb102-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,3
+  topic: B4
+  tags: []
+  concepts:
+  - B4
+  classic: true
+  stats:
+    P: 45
+    Ph: 67
+    Pl: 22
+    D: 45
+    T: 21
+    opt:
+      '1': 75
+      '2': 21
+      '3': 72
+      '4': 42
+      '5': 43
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-12.webp
+  text: |-
+    12. 設實數組成的數列
+    na
+    是公比為
+    0.8
+    −
+    的等比數列，實數組成的數列
+    nb
+    是首項
+    為10 的等差數列。已知
+    9
+    9
+    a
+    b
+    >
+    且
+    10
+    10
+    a
+    b
+    >
+    。請選出正確的選項。
+    (1)
+    9
+    10
+    0
+    a
+    a
+    ×
+    <
+
+    (2)
+    10
+    0
+    b
+    >
+
+    (3)
+    9
+    10
+    b
+    b
+    >
+
+    (4)
+    9
+    10
+    a
+    a
+    >
+
+    (5)
+    8
+    8
+    a
+    b
+    >
+- id: mb102-13
+  'no': 13
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,6
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 68
+    Ph: 95
+    Pl: 27
+    D: 68
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-13.webp
+  text: |-
+    第貳部分：選填題（占4 0 分）
+    說明：1.第A 至H 題，將答案畫記在答案卡之「選擇（填）題答案區」所標示的列號
+    （13–35）。
+    2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+
+    A. 設k 為一整數。已知
+    1
+    31
+    3
+    3
+    k
+    k +
+    <
+    <
+    ，則k =         。
+
+
+
+     13  14
+  label: 選填 A
+  cells:
+  - '13'
+  - '14'
+- id: mb102-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,4,1,2
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: false
+  classic_note: 108 課綱範圍外：複數運算，不在學測數B範圍
+  stats:
+    P: 59
+    Ph: 97
+    Pl: 9
+    D: 88
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-14.webp
+  text: |-
+    B. 設
+    ,a b 為實數且(
+    )(2
+    6 )
+    80
+    a
+    bi
+    i
+    +
+    +
+    = −
+    ，其中
+    2
+    1
+    i = −。則( , )
+    a b = (       ,       )。
+
+
+
+     17  18
+     15  16
+  label: 選填 B
+  cells:
+  - '15'
+  - '16'
+  - '17'
+  - '18'
+- id: mb102-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,9
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: true
+  stats:
+    P: 64
+    Ph: 94
+    Pl: 24
+    D: 70
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-15.webp
+  text: |-
+    C. 坐標平面中
+    ( ,3), (16, ), (19,12)
+    A a
+    B
+    b
+    C
+    三點共線。已知C 不在
+    ,
+    A B 之間，且
+    :
+    3:1
+    AC BC =
+    ，
+    則a
+    b
+    +
+    =         。
+
+
+
+     19  20
+  label: 選填 C
+  cells:
+  - '19'
+  - '20'
+- id: mb102-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: －,2,7,0
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 23
+    Ph: 53
+    Pl: 1
+    D: 52
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-16.webp
+  text: |-
+    D. 阿德賣100 公斤的香蕉，第一天每公斤賣40 元；沒賣完的部份，第二天降價
+    為每公斤36 元；第三天再降為每公斤32 元，到第三天全部賣完，三天所得
+    共為3720 元。假設阿德在第三天所賣香蕉的公斤數為t ，可算得第二天賣出
+    香蕉的公斤數為at
+    b
+    +
+    ，其中a =       ，b =       。
+
+
+
+     21 22
+     23  24
+  label: 選填 D
+  cells:
+  - '21'
+  - '22'
+  - '23'
+  - '24'
+- id: mb102-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 5,1
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: false
+  classic_note: 102 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 29
+    Ph: 67
+    Pl: 1
+    D: 66
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-17.webp
+  text: |-
+    E. 坐標平面上，一圓與直線
+    1
+    x
+    y
+    −
+    = 以及直線
+    5
+    x
+    y
+    −
+    =
+    所截的弦長皆為14。則此圓的
+    面積為       π 。
+
+
+     25  26
+  label: 選填 E
+  cells:
+  - '25'
+  - '26'
+- id: mb102-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 3,1
+  topic: B6
+  tags: []
+  concepts:
+  - B6
+  classic: false
+  classic_note: 102 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 11
+    Ph: 29
+    Pl: 1
+    D: 28
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-18.webp
+  text: |-
+    F. 令
+    A ，
+    B 為坐標平面上兩向量。已知
+    A 的長度為1，
+    B 的長度為2 且
+    A 與
+    B
+    之間的夾角為60° 。令
+    u =
+    A + 
+    B ，
+    v = x 
+    A
+    y
+    + 
+    B ，其中
+    ,x y 為實數且符合
+    6
+    8
+    x
+    y
+    ≤
+    +
+    ≤以及
+    2
+    0
+    x
+    y
+    −≤
+    −
+    ≤
+    ，則內積
+    u ⋅
+    v 的最大值為      。
+
+
+
+
+     27  28
+  label: 選填 F
+  cells:
+  - '27'
+  - '28'
+- id: mb102-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,1,5
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: false
+  classic_note: 108 課綱範圍外：要用和角公式求第三個角，數B 不考
+  stats:
+    P: 19
+    Ph: 46
+    Pl: 1
+    D: 45
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-19.webp
+  text: |-
+    G. 設銳角三角形ABC 的外接圓半徑為8。已知外接圓圓心到AB 的距離為2，而到
+    BC 的距離為7，則AC =           。（化成最簡根式）
+
+
+
+
+    29
+    30 31
+  label: 選填 G
+  cells:
+  - '29'
+  - '30'
+  - '31'
+- id: mb102-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,5,1,1
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: false
+  classic_note: 108 課綱範圍外：空間中的平面與直線，數B 不考
+  stats:
+    P: 18
+    Ph: 48
+    Pl: 0
+    D: 48
+  explain: ''
+  reviewed: false
+  image: img/mathB/102-20.webp
+  text: |-
+    H. 如下圖，在坐標空間中，A,B,C,D,E,F,G,H 為正立方體的八個頂點，已知其中
+    四個點的坐標
+    A(0,0,0) 、B(6,0,0) 、D(0,6,0) 及
+    E(0,0,6) ，P 在線段CG 上且
+    :
+    1:5
+    CP PG =
+    ，R 在線段EH 上且
+    :
+    1:1
+    ER RH =
+    ，Q 在線段AD 上。若空間中通過
+    P,Q,R 這三點的平面，與直線AG 不相交，則Q 點的y 坐標為       。(化成
+    最簡分數)
+
+
+
+    34
+     32  33
+     35
+    P
+    z
+    y
+    x
+    Q
+    R
+    H
+    G
+    F
+    E
+    D
+    C
+    B
+    A
+  label: 選填 H
+  cells:
+  - '32'
+  - '33'
+  - '34'
+  - '35'

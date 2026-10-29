@@ -1,7 +1,7 @@
 """下載大考中心學測歷屆試題、答案、評分原則與統計檔（答對率、級分對照、五標）。
 
-用法：python3 tools/fetch_ceec.py [起始年 結束年]   預設 110 115
-下載到 data/ceec/<年度>/，並把清單寫入 data/ceec/index.json。已存在的檔案不重抓。
+用法：python3 tools/fetch_ceec.py [起始年 結束年 [科目]]   預設 110 115；科目例如「數學」，只抓科目名稱含這兩個字的試卷
+下載到 data/ceec/<年度>/，並把清單併入 data/ceec/index.json（其他年度、科目的紀錄保留）。已存在的檔案不重抓。
 """
 import html
 import json
@@ -75,18 +75,31 @@ def download(url, dest):
     if dest.exists() and dest.stat().st_size > 0:
         return False
     dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_bytes(get(url).content)
+    try:
+        data = get(url).content
+    except requests.HTTPError:
+        # 少數舊年度連結指向大考中心以前的測試網域，改用正式網域再試一次
+        alt = re.sub(r"^https?://[^/]+/ceec/", BASE + "/", url)
+        if alt == url:
+            raise
+        data = get(alt).content
+    dest.write_bytes(data)
     time.sleep(0.3)
     return True
 
 
 def main():
-    lo, hi = (int(sys.argv[1]), int(sys.argv[2])) if len(sys.argv) == 3 else (110, 115)
+    lo, hi = (int(sys.argv[1]), int(sys.argv[2])) if len(sys.argv) >= 3 else (110, 115)
+    only = sys.argv[3] if len(sys.argv) >= 4 else None
     years = set(range(lo, hi + 1))
-    index = {"exams": [], "stats": {}}
+    path = ROOT / "index.json"
+    index = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"exams": [], "stats": {}}
+    fetched = []
     for row in exam_rows(years):
         year = int(re.match(r"(\d+)", row["title"]).group(1))
         subject = row["title"].split("－")[-1].strip()
+        if only and only not in subject:
+            continue
         entry = {"year": year, "subject": subject, "title": row["title"], "files": []}
         for f in row["files"]:
             name = unquote(f["url"].rsplit("/", 1)[-1])
@@ -94,16 +107,19 @@ def main():
             new = download(f["url"], dest)
             entry["files"].append({**f, "path": str(dest.relative_to(ROOT.parent.parent))})
             print(("下載 " if new else "已有 ") + name)
-        index["exams"].append(entry)
+        fetched.append(entry)
+    keys = {(e["year"], e["subject"]) for e in fetched}
+    index["exams"] = [e for e in index["exams"] if (e["year"], e["subject"]) not in keys] + fetched
+    index["exams"].sort(key=lambda e: -e["year"])
     for year in sorted(years):
-        index["stats"][year] = []
+        index["stats"][str(year)] = []
         for f in stats_files(year):
             dest = ROOT / str(year) / "stats" / f["title"]
             new = download(f["url"], dest)
-            index["stats"][year].append({**f, "path": str(dest.relative_to(ROOT.parent.parent))})
+            index["stats"][str(year)].append({**f, "path": str(dest.relative_to(ROOT.parent.parent))})
             print(("下載 " if new else "已有 ") + f["title"])
-    (ROOT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"完成：{len(index['exams'])} 份試題、{sum(len(v) for v in index['stats'].values())} 個統計檔")
+    path.write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"完成：本次 {len(fetched)} 份試題；清單共 {len(index['exams'])} 份試題、{sum(len(v) for v in index['stats'].values())} 個統計檔")
 
 
 if __name__ == "__main__":

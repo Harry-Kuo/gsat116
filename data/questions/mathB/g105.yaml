@@ -1,0 +1,1283 @@
+exam: 學測
+year: 105
+subject: mathB
+source:
+  pdf: https://www.ceec.edu.tw/files/file_pool/1/0j076557691127941623/03-105%e5%ad%b8%e6%b8%ac%e6%95%b8%e5%ad%b8%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf
+groups: []
+items:
+- id: mb105-01
+  'no': 1
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '3'
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: true
+  stats:
+    P: 67
+    Ph: 97
+    Pl: 27
+    D: 70
+    opt:
+      '1': 5
+      '2': 14
+      '3': 67
+      '4': 5
+      '5': 9
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-01.webp
+  text: |-
+    說明：第1 題至第6 題，每題有5 個選項，其中只有一個是正確或最適當的選項，請畫記在答
+    案卡之「選擇（填）題答案區」。各題答對者，得5 分；答錯、未作答或畫記多於一個選
+    項者，該題以零分計算。
+
+    1. 設
+    ( )
+    f x 為二次實係數多項式，已知
+    ( )
+    f x 在
+    2
+    x 
+    時有最小值1 且
+    (3)
+    3
+    f
+    。請問
+    (1)
+    f
+    之值為下列哪一選項？
+    (1) 5
+    (2) 2
+    (3) 3
+    (4) 4
+    (5) 條件不足，無法確定
+- id: mb105-02
+  'no': 2
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '5'
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: true
+  stats:
+    P: 53
+    Ph: 89
+    Pl: 12
+    D: 77
+    opt:
+      '1': 7
+      '2': 13
+      '3': 23
+      '4': 4
+      '5': 53
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-02.webp
+  text: |-
+    2. 請問sin 73、sin146、sin 219、sin 292、sin365這五個數值的中位數是哪一個？
+    (1) sin 73
+    (2) sin146
+    (3) sin 219
+    (4) sin 292
+    (5) sin365
+- id: mb105-03
+  'no': 3
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: true
+  stats:
+    P: 54
+    Ph: 77
+    Pl: 32
+    D: 45
+    opt:
+      '1': 10
+      '2': 54
+      '3': 10
+      '4': 6
+      '5': 21
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-03.webp
+  text: |-
+    3. 坐標平面上兩圖形
+    1
+    2
+    ,
+    的方程式分別為：
+    2
+    2
+    1 :(
+    1)
+    1
+    x
+    y
+    
+    
+    
+    、
+    2
+    2 :(
+    )
+    1
+    x
+    y
+    
+    
+    。請問
+    1
+    2
+    ,
+    共有幾個交點？
+    (1) 1 個
+    (2) 2 個
+    (3) 3 個
+    (4) 4 個
+    (5) 0 個
+- id: mb105-04
+  'no': 4
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '1'
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 54
+    Ph: 91
+    Pl: 16
+    D: 75
+    opt:
+      '1': 54
+      '2': 5
+      '3': 8
+      '4': 31
+      '5': 2
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-04.webp
+  text: |-
+    4. 放射性物質的半衰期T 定義為每經過時間T ，該物質的質量會衰退成原來的一
+    半。鉛製容器中有兩種放射性物質A、B ，開始紀錄時容器中物質A的質量為
+    物質B 的兩倍，而120 小時後兩種物質的質量相同。已知物質A的半衰期為7.5
+    小時，請問物質B 的半衰期為幾小時？
+    (1) 8 小時
+    (2) 10 小時
+    (3) 12 小時
+    (4) 15 小時
+    (5) 20 小時
+- id: mb105-05
+  'no': 5
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '2'
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: false
+  classic_note: 108 課綱範圍外：空間中的平面方程式，數B 不考
+  stats:
+    P: 52
+    Ph: 86
+    Pl: 21
+    D: 65
+    opt:
+      '1': 3
+      '2': 52
+      '3': 20
+      '4': 11
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-05.webp
+  text: |-
+    5. 坐標空間中一質點自點
+    (1,1,1)
+    P
+    沿著方向a
+    (1,2,2)
+    
+    等速直線前進，經過5 秒後剛
+    好到達平面
+    3
+    28
+    x
+    y
+    z
+    
+    
+    
+    上，立即轉向沿著方向b
+    ( 2,2, 1)
+    
+    
+    依同樣的速率等速直
+    線前進。請問再經過幾秒此質點會剛好到達平面
+    2
+    x 
+    上？
+    (1) 1 秒
+    (2) 2 秒
+    (3) 3 秒
+    (4) 4 秒
+    (5) 永遠不會到達
+- id: mb105-06
+  'no': 6
+  type: single
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: '4'
+  topic: B4
+  tags: []
+  concepts:
+  - B4
+  classic: false
+  classic_note: 105 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 28
+    Ph: 53
+    Pl: 9
+    D: 44
+    opt:
+      '1': 21
+      '2': 17
+      '3': 19
+      '4': 28
+      '5': 13
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-06.webp
+  text: |-
+    6. 設
+    na
+    為一等比數列。已知前十項的和為
+    10
+    1
+    80
+    k
+    k
+    a
+    
+    
+    
+    ，前五個奇數項的和為
+    1
+    3
+    5
+    7
+    9
+    120
+    a
+    a
+    a
+    a
+    a
+    
+    
+    
+    
+    
+    ，請選出首項
+    1a 的正確範圍。
+    (1)
+    1
+    80
+    a 
+
+    (2)
+    1
+    80
+    90
+    a
+    
+    
+
+    (3)
+    1
+    90
+    100
+    a
+    
+    
+
+    (4)
+    1
+    100
+    110
+    a
+    
+    
+
+    (5)
+    1
+    110
+    a
+    
+- id: mb105-07
+  'no': 7
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,3,5
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 54
+    Ph: 81
+    Pl: 29
+    D: 52
+    T: 30
+    opt:
+      '1': 23
+      '2': 60
+      '3': 80
+      '4': 24
+      '5': 76
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-07.webp
+  text: |-
+    說明：第7 題至第13 題，每題有5 個選項，其中至少有一個是正確的選項，請將正確選項畫記
+    在答案卡之「選擇（填）題答案區」。各題之選項獨立判定，所有選項均答對者，得5 分；
+    答錯1 個選項者，得3 分；答錯2 個選項者，得1 分；答錯多於2 個選項或所有選項均
+    未作答者，該題以零分計算。
+
+    7. 下列各方程式中，請選出有實數解的選項。
+    (1)
+    5
+    1
+    x
+    x
+    
+    
+    
+    (2)
+    5
+    6
+    x
+    x
+    
+    
+    
+
+    (3)
+    5
+    1
+    x
+    x
+    
+    
+    
+    (4)
+    5
+    6
+    x
+    x
+    
+    
+    
+
+    (5)
+    5
+    1
+    x
+    x
+    
+    
+    
+- id: mb105-08
+  'no': 8
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,4
+  topic: B1
+  tags: []
+  concepts:
+  - B1
+  classic: true
+  stats:
+    P: 59
+    Ph: 77
+    Pl: 40
+    D: 37
+    T: 35
+    opt:
+      '1': 90
+      '2': 88
+      '3': 39
+      '4': 76
+      '5': 24
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-08.webp
+  text: |-
+    8. 下面是甲、乙兩個商場的奇異果以及蘋果不同包裝的價格表，例如：甲商場奇
+    異果價格「35 元/一袋2 顆」表示每一袋有2 顆奇異果，價格35 元。
+    甲商場售價
+    奇異果價格
+    20 元/一袋1 顆
+    35 元/一袋2 顆
+    80 元/一袋5 顆
+    100 元/一袋6 顆
+    蘋果價格
+    45 元/一袋1 顆
+    130 元/一袋3 顆
+    260 元/一袋6 顆
+    340 元/一袋8 顆
+    乙商場售價
+    奇異果價格
+    18 元/一袋1 顆
+    50 元/一袋3 顆
+    65 元/一袋4 顆
+    95 元/一袋6 顆
+    蘋果價格
+    50 元/一袋1 顆
+    190 元/一袋4 顆
+    280 元/一袋6 顆
+    420 元/一袋10 顆
+    依據上述數據，請選出正確的選項。
+    (1) 在甲商場買一袋3 顆裝的蘋果所需金額低於買三袋1 顆裝的蘋果
+    (2) 乙商場的奇異果售價，一袋裝越多顆者，其每顆單價越低
+    (3) 若只想買奇異果，則在甲商場花500 元最多可以買到30 顆奇異果
+    (4) 如果要買12 顆奇異果和4 顆蘋果，在甲商場所需最少金額低於在乙商場
+    所需最少金額
+    (5) 無論要買多少顆蘋果，在甲商場所需最少金額都低於在乙商場所需最少
+    金額
+- id: mb105-09
+  'no': 9
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 3,5
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: false
+  classic_note: 108 課綱範圍外：以方程式表示空間中的直線並判斷歪斜，數B 不考
+  stats:
+    P: 46
+    Ph: 77
+    Pl: 21
+    D: 56
+    T: 29
+    opt:
+      '1': 15
+      '2': 34
+      '3': 78
+      '4': 41
+      '5': 60
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-09.webp
+  text: |-
+    9. 下列各直線中，請選出和z 軸互為歪斜線的選項。
+    (1)
+    1
+    0
+    :
+    0
+    x
+    L
+    z
+    
+    
+    
+    
+
+    (2)
+    2
+    0
+    :
+    1
+    y
+    L
+    x
+    z
+    
+    
+    
+    
+    
+
+    (3)
+    3
+    0
+    :
+    1
+    z
+    L
+    x
+    y
+    
+    
+    
+    
+    
+
+    (4)
+    4
+    1
+    :
+
+    1
+    x
+    L
+    y
+    
+    
+    
+    
+    
+
+    (5)
+    5
+    1
+    :
+    1
+    y
+    L
+    z
+    
+    
+    
+    
+- id: mb105-10
+  'no': 10
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,4,5
+  topic: B2
+  tags: []
+  concepts:
+  - B2
+  classic: false
+  classic_note: 108 課綱範圍外：選項討論虛根（複數），不在學測數B範圍
+  stats:
+    P: 34
+    Ph: 59
+    Pl: 15
+    D: 44
+    T: 15
+    opt:
+      '1': 41
+      '2': 49
+      '3': 33
+      '4': 78
+      '5': 69
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-10.webp
+  text: |-
+    10. 設a 、b、c 皆為正整數，考慮多項式
+    4
+    3
+    2
+    ( )
+    2
+    f x
+    x
+    ax
+    bx
+    cx
+    
+    
+    
+    
+    
+    。請選出正確的選
+    項。
+    (1)
+    ( )
+    0
+    f x 
+    無正根
+    (2)
+    ( )
+    0
+    f x 
+    一定有實根
+    (3)
+    ( )
+    0
+    f x 
+    一定有虛根
+    (4)
+    (1)
+    ( 1)
+    f
+    f
+    
+    
+    的值是偶數
+    (5) 若
+    3
+    a
+    c
+    b
+    
+    
+    
+    ，則
+    ( )
+    0
+    f x 
+    有一根介於
+    1
+    與0 之間
+- id: mb105-11
+  'no': 11
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 1,2,4
+  topic: B1
+  tags:
+  - B11
+  concepts:
+  - B1
+  - B11
+  classic: true
+  stats:
+    P: 47
+    Ph: 67
+    Pl: 25
+    D: 42
+    T: 22
+    opt:
+      '1': 75
+      '2': 78
+      '3': 39
+      '4': 79
+      '5': 43
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-11.webp
+  text: |-
+    11. 一個41 人的班級某次數學考試，每個人的成績都未超過59 分。老師決定以下
+    列方式調整成績：原始成績為x 分的學生，新成績調整為
+    10
+    1
+    40log (
+    )
+    60
+    10
+    x 
+    
+    分（四
+    捨五入到整數）。請選出正確的選項。
+    (1) 若某人原始成績是9 分，則新成績為60 分
+    (2) 若某人原始成績超過20 分，則其新成績超過70 分
+    (3) 調整後全班成績的全距比原始成績的全距大
+    (4) 已知小文的原始成績恰等於全班原始成績的中位數，則小文的新成績仍
+    然等於調整後全班成績的中位數
+    (5) 已知小美的原始成績恰等於全班原始成績的平均，則小美的新成績仍然
+    等於調整後全班成績的平均（四捨五入到整數）
+- id: mb105-12
+  'no': 12
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 2,5
+  topic: B3
+  tags: []
+  concepts:
+  - B3
+  classic: false
+  classic_note: 105 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 30
+    Ph: 46
+    Pl: 17
+    D: 29
+    T: 19
+    opt:
+      '1': 56
+      '2': 79
+      '3': 65
+      '4': 47
+      '5': 78
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-12.webp
+  text: |-
+    12. 在
+    ABC
+    
+    中，已知
+    20
+    A
+    
+    
+    、
+    5
+    AB 
+    、
+    4
+    BC 
+    。請選出正確的選項。
+    (1) 可以確定
+    B
+    的餘弦值
+    (2) 可以確定
+    C
+    
+    的正弦值
+    (3) 可以確定
+    ABC
+    
+    的面積
+    (4) 可以確定
+    ABC
+    
+    的內切圓半徑
+    (5) 可以確定
+    ABC
+    
+    的外接圓半徑
+- id: mb105-13
+  'no': 13
+  type: multi
+  points: 5
+  group: null
+  stem: ''
+  options:
+    '1': ''
+    '2': ''
+    '3': ''
+    '4': ''
+    '5': ''
+  answer: 4,5
+  topic: B10
+  tags: []
+  concepts:
+  - B10
+  classic: true
+  stats:
+    P: 56
+    Ph: 77
+    Pl: 33
+    D: 44
+    T: 37
+    opt:
+      '1': 25
+      '2': 27
+      '3': 23
+      '4': 84
+      '5': 63
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-13.webp
+  text: |-
+    13. 甲、乙、丙、丁四位男生各騎一台機車約A、B 、C 、D 四位女生一起出遊，
+    他們約定讓四位女生依照A、B 、C 、D 的順序抽鑰匙來決定搭乘哪位男生的
+    機車。其中除了B 認得甲的機車鑰匙，並且絕對不會選取之外，每個女生選取
+    這些鑰匙的機會都均等。請選出正確的選項。
+    (1) A抽到甲的鑰匙的機率大於C 抽到甲的鑰匙的機率
+    (2) C 抽到甲的鑰匙的機率大於D 抽到甲的鑰匙的機率
+    (3) A抽到乙的鑰匙的機率大於B 抽到乙的鑰匙的機率
+    (4) B 抽到丙的鑰匙的機率大於C 抽到丙的鑰匙的機率
+    (5) C 抽到甲的鑰匙的機率大於C 抽到乙的鑰匙的機率
+- id: mb105-14
+  'no': 14
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,2
+  topic: B9
+  tags: []
+  concepts:
+  - B9
+  classic: false
+  classic_note: 105 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 22
+    Ph: 47
+    Pl: 3
+    D: 44
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-14.webp
+  text: |-
+    說明：1.第A 至G 題，將答案畫記在答案卡之「選擇（填）題答案區」所標示的列號（14–31）。
+    2.每題完全答對給5 分，答錯不倒扣，未完全答對不給分。
+
+    A. 考慮每個元（或稱元素）只能是0 或1 的2
+    3
+    階矩陣，且它的第一列與第二列
+    不相同且各列的元素不能全為零，這樣的矩陣共有      個。
+
+
+
+    14 15
+  label: 選填 A
+  cells:
+  - '14'
+  - '15'
+- id: mb105-15
+  'no': 15
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 7,2
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: false
+  classic_note: 108 課綱範圍外：要用行列式求向量所張的面積，數B 不考
+  stats:
+    P: 22
+    Ph: 54
+    Pl: 1
+    D: 53
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-15.webp
+  text: |-
+    B. 坐標平面上O 為原點，設u
+    (1,2)
+    
+    、v
+    (3,4)
+    
+    。令為滿足
+    OP
+    x
+    
+    u
+    y
+    
+    v 的所有
+    點P 所形成的區域，其中1
+    2
+    1
+    x
+    
+    
+    、
+    1
+    3
+    2
+    y
+    
+    
+    ，則的面積為     平方單位。
+    （化成最簡分數）
+
+
+
+    17
+    16
+  label: 選填 B
+  cells:
+  - '16'
+  - '17'
+- id: mb105-16
+  'no': 16
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,5
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: false
+  classic_note: 108 課綱範圍外：橢圓的焦點與正焦弦（二次曲線）不在學測數B範圍
+  stats:
+    P: 43
+    Ph: 85
+    Pl: 4
+    D: 81
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-16.webp
+  text: |-
+    C. 從橢圓的兩焦點分別作垂直於長軸的直線，交橢圓於四點。已知連此四點得
+    一個邊長為2 的正方形，則的長軸長為          。
+
+
+
+    18
+    19
+  label: 選填 C
+  cells:
+  - '18'
+  - '19'
+- id: mb105-17
+  'no': 17
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,4,1,－,2
+  topic: B7
+  tags: []
+  concepts:
+  - B7
+  classic: false
+  classic_note: 108 課綱範圍外：三元一次方程組的高斯消去法，數B 不考
+  stats:
+    P: 51
+    Ph: 86
+    Pl: 11
+    D: 75
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-17.webp
+  text: |-
+    D. 線性方程組
+    2
+    3
+    0
+    2
+    3
+    6
+    6
+    2
+    8
+    x
+    y
+    z
+    x
+    y
+    z
+    x
+    y
+    x
+    y
+    z
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     經高斯消去法計算後，其增廣矩陣可化簡為
+    1
+    0
+    0
+    1
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    a
+    b
+    c
+    d
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ，則a      、b     、c      、d        。
+
+
+
+    20
+    21
+    22
+    23 24
+  label: 選填 D
+  cells:
+  - '20'
+  - '21'
+  - '22'
+  - '23'
+  - '24'
+- id: mb105-18
+  'no': 18
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: '6'
+  topic: B5
+  tags: []
+  concepts:
+  - B5
+  classic: true
+  stats:
+    P: 31
+    Ph: 60
+    Pl: 10
+    D: 50
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-18.webp
+  text: |-
+    E. 設a 為一實數，已知在第一象限滿足聯立不等式
+    3
+    2
+    14
+    x
+    y
+    a
+    x
+    y
+    
+    
+    
+    
+    
+    
+    的所有點所形成之區
+    域面積為213
+    5 平方單位，則a      。
+
+
+
+
+
+    25
+  label: 選填 E
+  cells:
+  - '25'
+- id: mb105-19
+  'no': 19
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 1,9,3,6
+  topic: B10
+  tags: []
+  concepts:
+  - B10
+  classic: false
+  classic_note: 105 年學測數學只有一份試卷，這題排在數學A的練習
+  stats:
+    P: 17
+    Ph: 39
+    Pl: 2
+    D: 37
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-19.webp
+  text: |-
+    F. 投擲一公正骰子三次，所得的點數依序為
+    , ,
+    a b c 。在b 為奇數的條件下，行列式
+    0
+    a
+    b
+    b
+    c 
+    的機率為        。（化成最簡分數）
+
+
+
+
+
+    28 29
+    26 27
+  label: 選填 F
+  cells:
+  - '26'
+  - '27'
+  - '28'
+  - '29'
+- id: mb105-20
+  'no': 20
+  type: fill
+  points: 5
+  group: null
+  stem: ''
+  options: null
+  answer: 4,3
+  topic: B8
+  tags: []
+  concepts:
+  - B8
+  classic: false
+  classic_note: 108 課綱範圍外：空間向量與共平面條件，數B 不考
+  stats:
+    P: 15
+    Ph: 38
+    Pl: 1
+    D: 37
+  explain: ''
+  reviewed: false
+  image: img/mathB/105-20.webp
+  text: |-
+    G. 如右圖所示，ABCD
+    EFGH
+    
+    為一長方體。若平面BDG 上
+    一點P 滿足
+    
+    AP
+    1
+    3
+    
+    
+    AB
+     2
+    
+    
+    AD
+     a
+    
+    
+    AE，則實數a      。
+    （化成最簡分數）
+
+
+
+
+
+    A
+    B
+    C
+    D
+    E
+    H
+    F
+    G
+    31
+    30
+  label: 選填 G
+  cells:
+  - '30'
+  - '31'

@@ -130,10 +130,208 @@ mb109-12: [B11]
 mb109-13: {topic: B8, tags: [], dup: mathA}
 mb109-14: {topic: B4, tags: [], dup: mathA}
 mb109-15: [B10]
-mb109-16: [B5]
+mb109-16: {topic: B5, tags: [], dup: mathA}
 mb109-17: [B3]
 mb109-18: {topic: B8, tags: [], out: 空間中的直線（垂足坐標），數B 不考}
 mb109-19: {topic: B5, tags: [], out: 拋物線方程式與焦距（二次曲線）不在學測數B範圍}
 mb109-20: {topic: B3, tags: [], dup: mathA}
 mb114-18: [B1]
 mb115-18: [B5]
+
+# 108 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb108-01: {topic: B5, tags: [], dup: mathA}
+mb108-02: {topic: B2, tags: [], out: 解方程式要用到虛根（複數），不在學測數B範圍}
+mb108-03: [B1]
+mb108-04: [B9]
+mb108-05: [B1]
+mb108-06: [B11]
+mb108-07: {topic: B4, tags: [], dup: mathA}
+mb108-08: [B1]
+mb108-09: [B10]
+mb108-10: [B3]
+mb108-11: {topic: B10, tags: [], dup: mathA}
+mb108-12: {topic: B2, tags: [], dup: mathA}
+mb108-13: {topic: B8, tags: [], out: 空間中的平面方程式，數B 不考}
+mb108-14: [B7]
+mb108-15: {topic: B5, tags: [], out: 由橢圓方程式求頂點（二次曲線）不在學測數B範圍}
+mb108-16: {topic: B1, tags: [], dup: mathA}
+mb108-17: {topic: B9, tags: [], dup: mathA}
+mb108-18: [B3]
+mb108-19: {topic: B8, tags: [], dup: mathA}
+mb108-20: {topic: B6, tags: [], dup: mathA}
+
+# 107 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb107-01: [B8]
+mb107-02: [B10, B1]
+mb107-03: {topic: B10, tags: [], dup: mathA}
+mb107-04: [B1]
+mb107-05: {topic: B3, tags: [], out: 要用和差角公式，數B 不考}
+mb107-06: [B1]
+mb107-07: {topic: B6, tags: [], dup: mathA}
+mb107-08: [B1]
+mb107-09: {topic: B2, tags: [], dup: mathA}
+mb107-10: {topic: B6, tags: [B3], dup: mathA}
+mb107-11: {topic: B8, tags: [], out: 空間中的直線與平面方程式，數B 不考}
+mb107-12: {topic: B5, tags: [], out: 拋物線、橢圓、雙曲線的焦點（二次曲線）不在學測數B範圍}
+mb107-13: [B1]
+mb107-14: [B3]
+mb107-15: {topic: B5, tags: [], dup: mathA}
+mb107-16: {topic: B5, tags: [], dup: mathA}
+mb107-17: [B2]
+mb107-18: [B7]
+mb107-19: {topic: B6, tags: [B3], dup: mathA}
+mb107-20: {topic: B8, tags: [], out: 要用兩平面垂直時的垂線（三垂線）求空間距離，數B 不考}
+
+# 106 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb106-01: [B11]
+mb106-02: [B1]
+mb106-03: {topic: B5, tags: [], out: 雙曲線與漸近線（二次曲線）不在學測數B範圍}
+mb106-04: [B8, B2]
+mb106-05: [B11]
+mb106-06: {topic: B3, tags: [], dup: mathA}
+mb106-07: [B9]
+mb106-08: {topic: B2, tags: [], dup: mathA}
+mb106-09: [B5]
+mb106-10: {topic: B8, tags: [], out: 空間中的直線方程式，數B 不考}
+mb106-11: [B3]
+mb106-12: [B9]
+mb106-13: {topic: B8, tags: [], out: 空間向量的內積，數B 不考}
+mb106-14: [B4, B2]
+mb106-15: {topic: B6, tags: [], dup: mathA}
+mb106-16: [B2]
+mb106-17: {topic: B7, tags: [], out: 三元一次聯立方程式，數B 不考}
+mb106-18: {topic: B1, tags: [], dup: mathA}
+mb106-19: {topic: B10, tags: [B9], dup: mathA}
+mb106-20: {topic: B5, tags: [], dup: mathA}
+
+# 105 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb105-01: [B2]
+mb105-02: [B3]
+mb105-03: [B5]
+mb105-04: [B1]
+mb105-05: {topic: B8, tags: [], out: 空間中的平面方程式，數B 不考}
+mb105-06: {topic: B4, tags: [], dup: mathA}
+mb105-07: [B1]
+mb105-08: [B1]
+mb105-09: {topic: B8, tags: [], out: 以方程式表示空間中的直線並判斷歪斜，數B 不考}
+mb105-10: {topic: B2, tags: [], out: 選項討論虛根（複數），不在學測數B範圍}
+mb105-11: [B1, B11]
+mb105-12: {topic: B3, tags: [], dup: mathA}
+mb105-13: [B10]
+mb105-14: {topic: B9, tags: [], dup: mathA}
+mb105-15: {topic: B8, tags: [], out: 要用行列式求向量所張的面積，數B 不考}
+mb105-16: {topic: B5, tags: [], out: 橢圓的焦點與正焦弦（二次曲線）不在學測數B範圍}
+mb105-17: {topic: B7, tags: [], out: 三元一次方程組的高斯消去法，數B 不考}
+mb105-18: [B5]
+mb105-19: {topic: B10, tags: [], dup: mathA}
+mb105-20: {topic: B8, tags: [], out: 空間向量與共平面條件，數B 不考}
+
+# 104 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb104-01: [B4]
+mb104-02: [B4, B1]
+mb104-03: [B10]
+mb104-04: {topic: B5, tags: [], out: 線性規劃（目標函數的最大值）不在學測數B範圍}
+mb104-05: [B11]
+mb104-06: {topic: B2, tags: [], out: 選項用到虛根（複數），不在學測數B範圍}
+mb104-07: [B1]
+mb104-08: {topic: B5, tags: [], out: 雙曲線（二次曲線）不在學測數B範圍}
+mb104-09: {topic: B6, tags: [B3], dup: mathA}
+mb104-10: [B9]
+mb104-11: [B3]
+mb104-12: {topic: B10, tags: [], dup: mathA}
+mb104-13: {topic: B9, tags: [], dup: mathA}
+mb104-14: {topic: B8, tags: [], out: 空間中的平面方程式，數B 不考}
+mb104-15: {topic: B5, tags: [], dup: mathA}
+mb104-16: [B1]
+mb104-17: {topic: B7, tags: [], dup: mathA}
+mb104-18: {topic: B8, tags: [], dup: mathA}
+mb104-19: {topic: B8, tags: [], out: 兩平面的夾角（法向量），數B 不考}
+mb104-20: [B3]
+
+# 103 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb103-01: [B1]
+mb103-02: [B8]
+mb103-03: [B5]
+mb103-04: [B1]
+mb103-05: [B9]
+mb103-06: {topic: B10, tags: [], dup: mathA}
+mb103-07: {topic: B1, tags: [], dup: mathA}
+mb103-08: [B1]
+mb103-09: [B6]
+mb103-10: [B2]
+mb103-11: {topic: B4, tags: [], dup: mathA}
+mb103-12: [B11]
+mb103-13: [B3]
+mb103-14: {topic: B2, tags: [], dup: mathA}
+mb103-15: [B5]
+mb103-16: {topic: B8, tags: [], out: 空間向量的內積與直線參數式，數B 不考}
+mb103-17: {topic: B6, tags: [], dup: mathA}
+mb103-18: {topic: B9, tags: [], dup: mathA}
+mb103-19: {topic: B7, tags: [], out: 轉移矩陣，數B 不考}
+mb103-20: {topic: B3, tags: [], dup: mathA}
+
+# 102 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb102-01: [B1]
+mb102-02: [B1]
+mb102-03: {topic: B10, tags: [], dup: mathA}
+mb102-04: {topic: B11, tags: [], dup: mathA}
+mb102-05: [B9]
+mb102-06: [B3]
+mb102-07: [B7, B4]
+mb102-08: {topic: B1, tags: [], dup: mathA}
+mb102-09: {topic: B2, tags: [], dup: mathA}
+mb102-10: {topic: B6, tags: [], dup: mathA}
+mb102-11: {topic: B5, tags: [], out: 橢圓的焦點性質（二次曲線）不在學測數B範圍}
+mb102-12: [B4]
+mb102-13: [B1]
+mb102-14: {topic: B2, tags: [], out: 複數運算，不在學測數B範圍}
+mb102-15: [B5]
+mb102-16: [B1]
+mb102-17: {topic: B5, tags: [], dup: mathA}
+mb102-18: {topic: B6, tags: [], dup: mathA}
+mb102-19: {topic: B3, tags: [], out: 要用和角公式求第三個角，數B 不考}
+mb102-20: {topic: B8, tags: [], out: 空間中的平面與直線，數B 不考}
+
+# 101 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb101-01: [B1]
+mb101-02: [B4]
+mb101-03: {topic: B1, tags: [], dup: mathA}
+mb101-04: {topic: B11, tags: [], out: 常態分布曲線不在學測數B範圍}
+mb101-05: [B1]
+mb101-06: [B10]
+mb101-07: {topic: B8, tags: [], out: 球面與平面相切（空間中的平面），數B 不考}
+mb101-08: {topic: B2, tags: [], out: 虛根（複數）不在學測數B範圍}
+mb101-09: [B5, B9]
+mb101-10: {topic: B2, tags: [], out: 複數平面不在學測數B範圍}
+mb101-11: {topic: B5, tags: [], dup: mathA}
+mb101-12: {topic: B3, tags: [], out: 選項要用倍角公式，數B 不考}
+mb101-13: {topic: B5, tags: [], out: 雙曲線的定義（二次曲線）不在學測數B範圍}
+mb101-14: {topic: B4, tags: [], out: 無窮等比級數不在學測數B範圍（108 課綱只到有限項）}
+mb101-15: [B5]
+mb101-16: [B6]
+mb101-17: {topic: B6, tags: [B2], dup: mathA}
+mb101-18: [B3]
+mb101-19: {topic: B5, tags: [], out: 橢圓方程式與焦點（二次曲線）不在學測數B範圍}
+mb101-20: {topic: B10, tags: [B8], dup: mathA}
+
+# 100 學測數學（舊課綱，數A、數B 共用一份試卷；每題只排在一科，超出 108 課綱範圍的標 out）
+mb100-01: [B10]
+mb100-02: [B2]
+mb100-03: {topic: B1, tags: [B4], dup: mathA}
+mb100-04: [B5]
+mb100-05: {topic: B1, tags: [], dup: mathA}
+mb100-06: [B11]
+mb100-07: {topic: B2, tags: [], out: 複數平面不在學測數B範圍}
+mb100-08: {topic: B3, tags: [], out: 要用倍角公式，數B 不考}
+mb100-09: [B5]
+mb100-10: {topic: B6, tags: [], dup: mathA}
+mb100-11: {topic: B5, tags: [], dup: mathA}
+mb100-12: {topic: B8, tags: [], dup: mathA}
+mb100-13: {topic: B2, tags: [], dup: mathA}
+mb100-14: {topic: B4, tags: [], out: 無窮等比級數不在學測數B範圍（108 課綱只到有限項）}
+mb100-15: {topic: B8, tags: [], out: 用到餘切 cot，數B 不考}
+mb100-16: [B10, B9]
+mb100-17: {topic: B3, tags: [B5], dup: mathA}
+mb100-18: {topic: B7, tags: [], out: 三元一次聯立方程式，數B 不考}
+mb100-19: {topic: B5, tags: [], out: 橢圓與拋物線（二次曲線）不在學測數B範圍}
+mb100-20: {topic: B8, tags: [], out: 空間中的平面與直線，數B 不考}
