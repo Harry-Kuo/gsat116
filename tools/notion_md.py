@@ -337,22 +337,30 @@ def plan_info():
 
 def daily_blocks(plan, start, subject, items, published):
     """科目頁的「📝 每日練習」：列出有新題的日子；題目做完後的複習輪（第二輪起）只用一句話說明，不重複列題。"""
-    out, seen, review = [], set(), None
+    out, seen, review = [], set(), []
     for d in plan["days"]:
         qids = d["sets"].get(subject) or []
         if not qids:
             continue
         if all(q in seen for q in qids):
-            review = review or d
+            review.append(d["day"])
             continue
         seen.update(qids)
         date = start + dt.timedelta(days=d["day"] - 1)
         out.append(toggle(f"**Day {d['day']}**　{fmt_day(date)}　{esc(d['theme'].get(subject, ''))}",
                           [f"- {ref(items[q], subject, published)}" for q in qids]))
     if review:
-        first = start + dt.timedelta(days=review["day"] - 1)
-        last = start + dt.timedelta(days=plan["days"][-1]["day"] - 1)
-        out.append(callout("🔁", [f"Day {review['day']}（{fmt_day(first)}）起，每天把上面各天的題目依序再練一輪（第二輪、第三輪……），"
+        spans = []  # 連續的複習日 [起, 迄]；數學中途加了新題，複習日會分成好幾段
+        for n in review:
+            if spans and n == spans[-1][1] + 1:
+                spans[-1][1] = n
+            else:
+                spans.append([n, n])
+        day = lambda n: start + dt.timedelta(days=n - 1)
+        last = day(plan["days"][-1]["day"])
+        when = [f"Day {a}–{b}（{fmt_day(day(a))}–{fmt_day(day(b))}）" for a, b in spans[:-1]] + \
+               [f"Day {spans[-1][0]}（{fmt_day(day(spans[-1][0]))}）起"]
+        out.append(callout("🔁", ["和 ".join(when) + "，每天把上面各天的題目依序再練一輪（第二輪、第三輪……），"
                                   f"一直到考前一天 {fmt_day(last)}。題目和上面相同，到練習網站作答即可。"]))
     return out
 
@@ -1253,12 +1261,19 @@ def progress_page():
             "「經典題」＝選擇題與選填題（非選和英文混合題改在課堂與 Notion 練習），並排除官方鑑別度 D \\< 10 的題目。",
             table(rows),
             "- 每天「基本 5 題」走六屆主線；「加練」由網站自動排入錯題（1、3、7 天後再出現）。"] + \
-           [f"- {NAMES[s]}另排了 {sched['pools'][s]['extra']} 題 109 年學測（109、110 年數學只有一份試卷，數學A、數學B 各排不同的題目），不算在上表。"
+           [f"- {NAMES[s]}另排了 {sched['pools'][s]['extra']} 題 {extra_years(sched, s)} 年學測（110 年以前數學只有一份試卷，數學A、數學B 各排不同的題目），不算在上表。"
             for s in NAMES if sched["pools"][s].get("extra")] + [
-            "- 各科做完六屆新題的日子：" + "、".join(f"{NAMES[s]} {fmt_day(start + dt.timedelta(days=n - 1))}（Day {n}）" for s, n in new_until(sched).items()) + "。",
-            "- 六屆題目做完的科目，每日練習改成把之前出過的題目再輪一遍，當作複習，一直排到考前一天 "
+            "- 各科做完新題的日子：" + "、".join(f"{NAMES[s]} {fmt_day(start + dt.timedelta(days=n - 1))}（Day {n}）" for s, n in new_until(sched).items()) + "。",
+            "- 新題做完的科目，每日練習改成把之前出過的題目再輪一遍，當作複習，一直排到考前一天 "
             f"{fmt_day(start + dt.timedelta(days=sched['days'][-1]['d'] - 1))}。",
             "- 一月：每日練習繼續輪複習，錯題由「加練」自動排入；1/12、1/14 的總複習課做限時全真模擬與錯題總複習。"]
+
+
+def extra_years(sched, s):
+    """各科排進每日練習的 110 年以前補充題的年度（例如「100–109」）。"""
+    ys = sorted({int(m.group(1)) for d in sched["days"] for q in d["sets"].get(s, [])
+                 if (m := re.match(r"[a-z]+(\d{3})-", q)) and int(m.group(1)) < 110})
+    return f"{ys[0]}–{ys[-1]}" if ys[0] != ys[-1] else str(ys[0])
 
 
 def new_until(sched):

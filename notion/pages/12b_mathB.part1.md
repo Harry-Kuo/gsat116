@@ -11,48 +11,29 @@
 每個觀念底下列出每日練習做到的考古題；點開可以看題目、答案與解析。
 ### 數與函數
 - **數與式、指數對數**：絕對值是「距離」；指數、對數先化成同底再比較；$`\ln`$ 與 $`e`$ 用在連續複利，$`\log`$ 值範圍要會估。
-	- 每日練習共 15 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 40 題，依日期列在下方「📝 每日練習」。
 - **多項式與函數圖形**：二次函數配方找頂點；三次函數看對稱中心；多項式用「代特殊值」與除法原理最快。
-	- 每日練習共 12 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 19 題，依日期列在下方「📝 每日練習」。
 - **三角函數與三角測量**：$`y=a\sin(bx+c)+d`$ 看振幅、週期與平移；解三角形用正弦、餘弦定理。
-	- 每日練習共 12 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 22 題，依日期列在下方「📝 每日練習」。
 - **數列、遞迴與規律**：等差看公差、等比看公比；遞迴式找「平移後成等比」的形式；週期規律用最小公倍數。
-	- 每日練習共 12 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 18 題，依日期列在下方「📝 每日練習」。
 ### 坐標、向量與空間
 - **直線與坐標幾何**：斜角與斜率、平行線距離、點到直線距離；面積問題把圖形放在坐標上算。
-	- 每日練習共 9 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 19 題，依日期列在下方「📝 每日練習」。
 - **平面向量**：$`\overrightarrow{OP}=\alpha\overrightarrow{OA}+\beta\overrightarrow{OB}`$ 解出 $`\alpha`$、$`\beta`$ 再看範圍；係數都在 0 到 1 之間時 P 落在平行四邊形內。
-	- 每日練習共 10 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 12 題，依日期列在下方「📝 每日練習」。
 - **矩陣**：A 乘上一個行向量＝A 的各行依係數組合；反方陣把「輸入、輸出」對調。
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81e787b1ec2ab5179d8a"/>　全國答對率 62%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f8135b2dadc26084de7c3"/>　全國答對率 77%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f815ea66dc95541f62852"/>　全國答對率 63%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81b389e0faa1607062ff"/>　全國答對率 68%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8174b24aee225ed6d2f5"/>　全國答對率 65%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81698d53ed6dad9ceb2e"/>　全國答對率 84%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f8101b9c2fb906015fc04"/>　全國答對率 61%
+	- 每日練習共 10 題，依日期列在下方「📝 每日練習」。
 - **空間概念（經緯度、透視、截痕）**：緯度 $`\theta`$ 的緯線半徑是 $`R\cos\theta`$；大圓弧是球面最短路徑；透視圖的消失點與圓錐截痕類型要會判斷。
-	- 每日練習共 13 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 16 題，依日期列在下方「📝 每日練習」。
 ### 機率統計與計數
 - **排列組合**：相鄰的先綁成一塊再排；分組分派先滿足「每組都要有」的條件，再用補集扣掉不合的情形。
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f812b89e5fa2f45fd676d"/>　全國答對率 36%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81e99cc2c578aaa7b5ac"/>　全國答對率 35%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81038983e339acb3508a"/>　全國答對率 25%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81599ed3ff603420889d"/>　全國答對率 38%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81d884d8e7777827bd06"/>　全國答對率 8%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f8107b22ecf3e171338ad"/>　全國答對率 72%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81adb056d93b0c76d679"/>　全國答對率 50%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81108960df82708d4bac"/>　全國答對率 7%
+	- 每日練習共 16 題，依日期列在下方「📝 每日練習」。
 - **機率**：獨立事件機率相乘；$`\text{條件機率}=\dfrac{\text{交集}}{\text{條件}}`$；列聯表先把各格用同一個未知數表示。
-	- 每日練習共 11 題，依日期列在下方「📝 每日練習」。
+	- 每日練習共 18 題，依日期列在下方「📝 每日練習」。
 - **數據分析**：資料乘以 a 倍時標準差乘 $`|a|`$、相關係數不變（$`a>0`$）；迴歸直線過（平均, 平均），斜率 $`=r\cdot\dfrac{\sigma_y}{\sigma_x}`$；百分位數依定義找位置。
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f817e95f8c1c7d01bc2c6"/>　全國答對率 35%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f8151b4bdf9662e73dce5"/>　全國答對率 46%
-	- <mention-page url="https://app.notion.com/p/3e9ee100984f81819f80d7df87db6ea2"/>　全國答對率 58%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f81aaad5fcdffb7b37f2f"/>　全國答對率 70%
-	- <mention-page url="https://app.notion.com/p/3ebee100984f8112a954f8f1e377146e"/>　全國答對率 15%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f8112b82ad879ed506ec8"/>　全國答對率 46%
-	- <mention-page url="https://app.notion.com/p/3ecee100984f81708df7f5ee7ed91fd9"/>　全國答對率 76%
+	- 每日練習共 14 題，依日期列在下方「📝 每日練習」。
 ## 📝 每日練習
 <details>
 <summary>**Day 1**　9/30（三）　數與式、條件機率與三角</summary>
@@ -205,4 +186,28 @@
 	- <mention-page url="https://app.notion.com/p/3ecee100984f817fb36bf2962c0f0778"/>　全國答對率 27%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f814dbe53d46b161566f1"/>　全國答對率 76%
 	- <mention-page url="https://app.notion.com/p/3ecee100984f81698d53ed6dad9ceb2e"/>　全國答對率 84%
+</details>
+<details>
+<summary>**Day 20**　10/19（一）　機率與數據分析</summary>
+	- <mention-page url="https://app.notion.com/p/3ecee100984f816b9d22f56115d49737"/>　全國答對率 52%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81aea0ebc60ffa46a628"/>　全國答對率 39%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8112b82ad879ed506ec8"/>　全國答對率 46%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8158978ac407c5d9a556"/>　全國答對率 81%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8123bf9fc07cda273d52"/>　全國答對率 69%
+</details>
+<details>
+<summary>**Day 21**　10/20（二）　計數、矩陣與綜合</summary>
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81adb056d93b0c76d679"/>　全國答對率 50%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81108960df82708d4bac"/>　全國答對率 7%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f81708df7f5ee7ed91fd9"/>　全國答對率 76%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f8101b9c2fb906015fc04"/>　全國答對率 61%
+	- <mention-page url="https://app.notion.com/p/3ecee100984f815fb1efff3c648fdc7e"/>　全國答對率 42%
+</details>
+<details>
+<summary>**Day 32**　10/31（六）　新題 108 學測：指對數、排列組合、數據分析、數列</summary>
+	- <mention-page url="https://app.notion.com/p/409ee100984f8178bf78dc3cace45d81"/>　全國答對率 66%
+	- <mention-page url="https://app.notion.com/p/409ee100984f8117b18ec2f59de805ec"/>　全國答對率 60%
+	- <mention-page url="https://app.notion.com/p/409ee100984f81e5bc4ddb2264806420"/>　全國答對率 54%
+	- <mention-page url="https://app.notion.com/p/409ee100984f8171a8b0d6c8c056f373"/>　全國答對率 71%
+	- <mention-page url="https://app.notion.com/p/3ebee100984f81a985a1c9fd340532ec"/>　全國答對率 83%
 </details>
