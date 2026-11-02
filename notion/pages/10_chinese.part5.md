@@ -1,218 +1,160 @@
 <details>
-<summary>**A6 文意排序與填句**（近六屆 10 題）</summary>
+<summary>**C2 白話文學閱讀**（近六屆 15 題）</summary>
 	<callout icon="💡">
-		找關聯詞、代名詞與首尾呼應；排序題先確定開頭與結尾，再用刪去法。
+		散文、小說、新詩：抓意象、情感轉折與敘事觀點，每個選項都要能在文本中找到依據。
 	</callout>
-	- 幾乎每年都有排序或填句題，文言、白話都會考。
-	- 排序三步驟：①找能接題幹開頭的句子 ②找結尾句 ③用「然、故、則、及其」等關聯詞串中間。
-	- 填句題：空格前後常有對應關係（因果、轉折、總分），先判斷空格的功能再選。
-	- 115 第 5 題（蘇軾〈書論〉）答對率只有 38%，平時要練文言的語氣與邏輯連接詞。
-	**📝 對應考古題**
+	- 散文：找出作者寫的對象、事件與情感轉折，留意結尾的體悟；常考寫作手法，例如以小見大、借物抒情、今昔對比。
+	- 小說：掌握人物、情節、場景與敘事觀點（第一人稱、第三人稱）；人物的性格要從言行細節推斷，不要只看旁人的評語。
+	- 新詩：先找意象（具體的事物）與它象徵的情感或意義，再看分行、斷句造成的停頓與強調。
+	- 選項陷阱：把作者的情感說錯（例如把懷念說成怨恨）、把象徵的意義說反、延伸到文本沒有寫的內容。
 	<details>
-	<summary>📝 115 學測國綜 第 5 題（全國答對率 38%）</summary>
-		下列是一段古文，依據文意，甲、乙、丙、丁、戊排列順序最適當的是：
-		夫三代之君，惟不忍鄙其民而欺之，
-		甲、<span underline="true">及其不可聽也</span>
-		乙、<span underline="true">以觀其意之所嚮</span>
-		丙、<span underline="true">而服其不然之心</span>
-		丁、<span underline="true">故天下有故，而其議及於百姓</span>
-		戊、<span underline="true">則又反覆而諭之，以窮極其說</span>
-		是以其民親而愛之。(蘇軾〈書論〉)
-		(A) 乙丙丁戊甲
-		(B) 丙丁戊甲乙
-		(C) 丁乙甲戊丙
-		(D) 戊丙甲乙丁
-		<details>
-		<summary>✅ 看答案與解析</summary>
-			**答案：C**
-			💡 有大事就讓百姓議論（丁）→ 觀察民意（乙）→ 若意見不可行（甲）→ 再三說明（戊）→ 讓百姓心服（丙）。
-			完整句：夫三代之君，惟不忍鄙其民而欺之，**故天下有故，而其議及於百姓**（丁），**以觀其意之所嚮**（乙）；**及其不可聽也**（甲），**則又反覆而諭之，以窮極其說**（戊），**而服其不然之心**（丙），是以其民親而愛之。
-			線索：丁的「故」承接「不忍鄙其民而欺之」；乙「以觀」說明讓百姓議論的目的；甲「及其不可聽也」和戊「則又反覆而諭之」是「及……則……」的句式；丙「服其不然之心」是說明的結果，接「是以其民親而愛之」。
-			(C) 丁乙甲戊丙 ✓
-			(A) 乙沒有承接的主語，不能放在開頭（全國 23% 誤選）✗
-			📊 全國答對率 38%｜鑑別度 22｜各選項選答率 A 23%、B 18%、C 38%、D 20%
-		</details>
-		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn115-05)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)
-	</details>
-	<details>
-	<summary>📝 114 學測國綜 第 5 題（全國答對率 23%）</summary>
-		下文　　　　　處，若要填入使文意前後連貫的文句，最適當的是：
-		吾聞之，六國合從，而辯說之材出；劉、項並世，而籌畫戰鬥之徒起；唐太宗欲治，而謨謀諫諍之佐來。此數輩者，方此數君未出之時，蓋未嘗有也。　　　　　。天下之廣，人物之眾，而曰果無材可用者，吾不信也。（王安石〈材論〉）
-		(A) 人君苟欲之，斯至矣
-		(B) 古之人，於材有以教育成就之
-		(C) 人之有異能於其身，猶錐之在囊
-		(D) 後之在位者，蓋未嘗求其說而試之以實也
-		<details>
-		<summary>✅ 看答案與解析</summary>
-			**答案：A**
-			💡 前面舉例都是「君主想要人才，人才就出現」，所以接「人君苟欲之，斯至矣」。
-			王安石〈材論〉先舉三例：六國合從→辯士出現；劉項並爭→謀士出現；唐太宗求治→諫臣出現。
-			「此數輩者，方此數君未出之時，蓋未嘗有也」：這些人才在君主需要之前並不存在。
-			所以空格要做出結論：只要君主真心想要，人才自然會來 →（A）人君苟欲之，斯至矣。
-			接下來「天下之廣，人物之眾，而曰果無材可用者，吾不信也」順勢反駁「天下無才」的說法。
-			(C)「錐之在囊」強調人才自己會冒出來，與前文「因君主所需而出現」的邏輯不同；(D) 批評後代在位者，與前三例的正面結論不連貫。
-			這題全國答對率只有 23%，四個選項的選擇率接近，代表多數人沒有抓住「舉例→歸納結論」的論證結構。
-			📊 全國答對率 23%｜鑑別度 32｜各選項選答率 A 23%、B 20%、C 28%、D 28%
-		</details>
-		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn114-05)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf)
-	</details>
-	<details>
-	<summary>📝 113 學測國綜 第 5 題（全國答對率 37%）</summary>
-		下列是一段古文，依據文意，甲、乙、丙、丁排列順序最適當的是：
-		昔周公之相也，
-		甲、<span underline="true">皆諸侯卿相之人也</span>
-		乙、<span underline="true">是以俊義滿朝，賢智充門</span>
-		> 鄰：通「吝」，吝惜。
-		丙、<span underline="true">謙卑而不鄰，以勞天下之士</span>
-		丁、<span underline="true">孔子無爵位，以布衣從才士七十有餘人</span>
-		況處三公之尊以養天下之士哉？(《鹽鐵論》)
-		(A) 甲乙丁丙
-		(B) 甲丙乙丁
-		(C) 丙甲丁乙
-		(D) 丙乙丁甲
-		<details>
-		<summary>✅ 看答案與解析</summary>
-			**答案：D**
-			💡 周公「謙卑不吝」→「是以」人才滿朝，因果先接；再用孔子布衣為例，末句「況…哉」反問。
-			1. 「昔周公之相也」之後接周公的作為：丙「謙卑而不鄰（吝），以勞天下之士」。
-			2. 「是以」表結果：乙「俊義（俊乂，賢才）滿朝，賢智充門」。
-			3. 再舉另一例：丁「孔子無爵位，以布衣從才士七十有餘人」。
-			4. 甲「皆諸侯卿相之人也」說明孔子門下都是卿相之才，最後接「況處三公之尊以養天下之士哉」：孔子無位尚且如此，何況身居高位的人？
-			答案：丙乙丁甲（D）。
-			📊 全國答對率 37%｜鑑別度 11｜各選項選答率 A 19%、B 25%、C 19%、D 37%
-		</details>
-		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn113-05)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)
-	</details>
-	<details>
-	<summary>📝 113 學測國綜 第 4 題（全國答對率 43%）</summary>
-		下文<span underline="true">　　　　</span>處應填入可總括文中所舉四項事例的文句，最適合填入的是：
-		<span underline="true">　　　　　　</span>。是以雞知將旦，不能究陰陽之曆數；鵠識夜半，不能極晷景之道度；山鳩知晴雨於將來，不能明天文；蛇螘知潛泉之所居，不能達地理。（《抱朴子》）
-		> 螘：小蟲。<br>短疢：缺點。
-		(A) 英逸之才，非淺短所識
-		(B) 官達者，才未必當其位
-		(C) 小疵不足以損大器，短疢不足以累長才
-		(D) 偏才不足以經周用，隻長不足以濟眾短
-		<details>
-		<summary>✅ 看答案與解析</summary>
-			**答案：D**
-			💡 雞、鵠、山鳩、蛇螘都只有一項專長而無法通達全面 → 偏才不足以經周用。
-			四個例子結構相同：「雞知將旦，不能究陰陽之曆數」——只懂一點，無法通達整體學問。
-			總括句要說「只有單一專長，無法兼顧全面」→ (D) 偏才不足以經周用，隻長不足以濟眾短 ✓
-			(C) 說小缺點不影響大才，意思相反 ✗；(A)(B) 講人才被識、官位與才能，都和例子無關。
-			技巧：總括句要能「套進每一個例子」，逐一檢查。
-			📊 全國答對率 43%｜鑑別度 26｜各選項選答率 A 17%、B 25%、C 15%、D 43%
-		</details>
-		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn113-04)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf)
-	</details>
-	<details>
-	<summary>📝 110 學測國文 第 3 題（全國答對率 60%）</summary>
-		依據文意，甲、乙、丙、丁、戊排列順序最適當的是：
-		牠哭起來固然一片悽慄，
-		甲、<span underline="true">這時貓頭鷹「嘿嘿──嘿嘿──嘿嘿──嘿嘿」一波又一波的笑聲</span>
-		乙、<span underline="true">特別入秋以後，夜涼如水</span>　　　　　丙、<span underline="true">一輪明月把人幾乎拋入冰河之中</span>
-		丁、<span underline="true">尖冷到直直地透進人的骨髓</span>　　　　戊、<span underline="true">笑起來更帶給人無限尖冷</span>
-		就老吏斷獄那樣地凌遲著整個世間，讓每一個人的再多麼神祕的隱私都沒有地方隱遁起來。（尉天驄〈眾鳥之什〉）
-		(A) 乙甲丁戊丙
-		(B) 乙丙甲戊丁
-		(C) 戊乙丁甲丙
-		(D) 戊丁乙丙甲
-		<details>
-		<summary>✅ 看答案與解析</summary>
-			**答案：D**
-			💡 「哭起來固然…」對「笑起來更…」，再用「尖冷」頂真接到丁。
-			排序步驟：
-			1. 開頭「牠哭起來固然一片悽慄」，用「固然」提示後面要接「更」→ 戊「笑起來更帶給人無限尖冷」。
-			2. 戊句尾「尖冷」，丁句首「尖冷到…」，頂真相接 → 戊丁。
-			3. 乙交代時間（入秋以後，夜涼如水），丙寫月光（把人拋入冰河），營造冷的場景。
-			4. 甲「這時貓頭鷹…的笑聲」，接結尾「就老吏斷獄那樣地凌遲著整個世間」，主語是笑聲。
-			答案：戊丁乙丙甲（D）。
-			📊 全國答對率 60%｜鑑別度 35｜各選項選答率 A 2%、B 31%、C 7%、D 60%
-		</details>
-		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn110-03)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)
-	</details>
-	<details>
-	<summary>其他相關考古題（5 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f81ea8c22c978cf33f951"/>　全國答對率 56%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f81a5963df99d440a2302"/>　全國答對率 85%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f813d9fa3cecc7ab8c9c1"/>　全國答對率 61%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f814fb181d82e3af738c2"/>　全國答對率 77%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f813f85f3d29629a4c26c"/>　全國答對率 29%
-	</details>
-</details>
-### B. 國學與文化常識
-<details>
-<summary>**B1 應用文與稱謂**（近六屆 3 題）</summary>
-	<callout icon="💡">
-		題辭、書信用語、親屬稱謂：先確認場合（婚、壽、喪、賀）以及雙方的關係與輩分。
-	</callout>
-	- 常以情境題出現，例如 115 第 3 題（賀生子詩與稱謂）、111 第 32 題（家書的啟封詞與提稱語）。
-	- 親屬稱謂：先畫出兩人的關係圖，再判斷是否「家」「舍」「令」的用法。
-	- 題辭：婚（珠聯璧合）、壽（椿萱並茂）、新居（君子攸居）、德望（望重桑梓）。
-	**📝 對應考古題**
-	<details>
-	<summary>📝 110 學測國文 第 13 題（全國答對率 53%）</summary>
-		施先生參加朋友舉辦的宴會，贈詩一首：「桂已飄香菊作花，門前遙駐七香車。競傳丰度誠端好，定卜咸宜到室家。」依據詩意，最適合這場宴會的題辭是：
-		(A) 珠聯璧合
-		(B) 椿萱並茂
-		(C) 君子攸居
-		(D) 望重桑梓
-		<details>
-		<summary>✅ 看答案與解析</summary>
-			**答案：A**
-			💡 「七香車」迎親、「宜室宜家」祝新娘 → 婚宴，題辭用「珠聯璧合」。
-			詩句線索：「門前遙駐七香車」——七香車是華美的車，這裡指迎娶的花車；「定卜咸宜到室家」化用《詩經》「之子于歸，宜其室家」，祝福新人家庭和睦。所以是婚宴。
-			(A) 珠聯璧合：賀新婚 ✓
-			(B) 椿萱並茂：祝父母雙全長壽
-			(C) 君子攸居：賀新居落成（全國 30% 誤選，被「室家」誤導）
-			(D) 望重桑梓：稱頌在鄉里德高望重
-			📊 全國答對率 53%｜鑑別度 39｜各選項選答率 A 53%、B 10%、C 30%、D 7%
-		</details>
-		[到練習網站作答](https://harry-kuo.github.io/gsat116/#/item/chn110-13)　[原卷 PDF](https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf)
-	</details>
-	<details>
-	<summary>其他相關考古題（2 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ebee100984f819197c2f522551f974e"/>　全國答對率 31%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f815caa48f0f5c8644daf"/>　全國答對率 38%
+	<summary>其他相關考古題（15 題）</summary>
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81feb7ecf6a960c53c95"/>　全國答對率 35%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811e8e7eefcb6c5d8a41"/>　全國答對率 64%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8124ae3bfac83fa89e01"/>　全國答對率 59%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81f3a760f355e458cfc8"/>　全國答對率 57%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f817fb15ed7d0d1568578"/>　全國答對率 63%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81c79748d658aedde969"/>　全國答對率 39%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81a8aca8d6d397cc2a68"/>　全國答對率 89%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8101be18ce7a972ce77d"/>　全國答對率 60%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f8182874dcd48f0470546"/>　全國答對率 71%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81f8a41dd2326110563a"/>　全國答對率 83%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81a0b281c8de51c29213"/>　全國答對率 93%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f8181884ef47dc657af92"/>　全國答對率 52%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81e6a580c543309655cf"/>　全國答對率 77%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f810b9764deb643d7f187"/>　全國答對率 72%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81948795c98947d2a293"/>　全國答對率 52%
 	</details>
 </details>
 <details>
-<summary>**B2 文學與文化常識**（近六屆 3 題）</summary>
+<summary>**C3 文言閱讀**（近六屆 49 題）</summary>
 	<callout icon="💡">
-		文體、韻律、文學史常融入情境題，重點是「時代與作品是否對應」以及各文體的特徵。
+		先抓人物、事件、觀點；課外文言就用核心選文學過的詞義和句式來推敲。
 	</callout>
-	- 文學史題多半考「作品與時代、文體是否對應」：先秦《詩經》（北方、四言）與《楚辭》（南方、屈原、句中多「兮」）→ 漢賦、樂府 → 魏晉南北朝駢文 → 唐詩、唐傳奇、古文運動 → 宋詞 → 元曲 → 明清小說與小品文；完整整理在〈國學常識〉的「文學史與文體」。
-	- 近體詩在唐代成熟：絕句 4 句、律詩 8 句，押平聲韻、一韻到底，律詩中間兩聯（頷聯、頸聯）要對仗；古體詩的句數、平仄比較自由。
-	- 詞依詞牌填寫，又稱詩餘、長短句；曲（散曲、雜劇）依曲牌填寫，可以加襯字，用語比較口語。
-	- 對聯：上下聯字數相同、詞性相對，上聯最後一字是仄聲、下聯最後一字是平聲。
-	- 六書：象形、指事、會意、形聲是造字的方法，轉注、假借是用字的方法；漢字中形聲字最多。
+	- 先讀出文章的人物、事件、時間與觀點，再回頭處理詞義；遇到生字，從上下文與核心古文學過的用法推敲。
+	- 文言常省略主語、賓語，閱讀時要自己補出「誰對誰做了什麼」，才不會弄錯主客體。
+	- 常見的論說結構：先舉事例再下結論，或先提出主張再用古人古事印證；結論常在「故」「是以」「由是觀之」之後。
+	- 題目附的注釋常解釋關鍵字詞，是重要線索，作答前一定要看。
 	<details>
-	<summary>其他相關考古題（3 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81c1a883e21022348048"/>　全國答對率 37%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81269d8cc9f60cd69e9c"/>　全國答對率 32%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f8114b07df98a487832c5"/>　全國答對率 60%
+	<summary>其他相關考古題（49 題）</summary>
+		- <mention-page url="https://app.notion.com/p/3ebee100984f819b9a11cd8a599bb2a4"/>　全國答對率 55%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81a8a578cd602cff6480"/>　全國答對率 55%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81fbacbdd13c27f0eb61"/>　全國答對率 26%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81ba9681ea8b2ecac768"/>　全國答對率 36%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81bf815cd8dd5f9e3c5c"/>　全國答對率 50%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f81b9b0b7d2f981bcdf9c"/>　全國答對率 52%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f816ebea8f18bdc5342e8"/>　全國答對率 77%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f812c866cdb619e628f08"/>　全國答對率 55%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f818bbbe1f65b0b203531"/>　全國答對率 49%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f818da6a2cac81c594484"/>　全國答對率 49%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81088f6bd520b52257d9"/>　全國答對率 67%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811fa5d9e06b01d4f6bd"/>　全國答對率 23%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81c3859af76ccbb9722f"/>　全國答對率 56%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f817aa6b1d3538932f8ab"/>　全國答對率 63%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81008afbdb5857bbbb3a"/>　全國答對率 74%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81ed872bcea99248d12b"/>　全國答對率 54%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f810395c5d25214b98734"/>　全國答對率 39%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f81b1aac2d4ef9ccadf8c"/>　全國答對率 62%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f815e81bff922b04f0d7b"/>　全國答對率 55%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81168c23ecc17c461d9b"/>　全國答對率 31%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f819d8932ece144548e7c"/>　全國答對率 32%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81c08c38f118f3533ad1"/>　全國答對率 91%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81678f2be66e2aa60d6f"/>　全國答對率 73%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81e8938bde32e555e53e"/>　全國答對率 72%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f81a7b48eff532e9ab2f7"/>　全國答對率 38%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81eba8f4db6955793032"/>　全國答對率 90%
+		- [112 學測國綜 第 18 題](https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 29%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f811794a2d75083b1d76a"/>　全國答對率 75%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81069d2fe4e93a612f63"/>　全國答對率 74%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f819e96dece0f194446bf"/>　全國答對率 77%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f81bbbb80ce3d1beb7b61"/>　全國答對率 62%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f81fd9ea2c51dfdd894a9"/>　全國答對率 56%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81f2bae6d7acf9f0af0b"/>　全國答對率 49%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81eca006c18430180bb0"/>　全國答對率 84%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811e8170fcc88d48f70f"/>　全國答對率 48%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8140a18dc2032ea23cbb"/>　全國答對率 60%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81d7a2cffda08c9540d9"/>　全國答對率 29%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81529ec9e40c80b3742a"/>　全國答對率 35%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81c6b904c643797ce419"/>　全國答對率 61%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f813da405c5a6e874d87c"/>　全國答對率 59%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81c08f8af0e7ed2174eb"/>　全國答對率 55%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f813aa478e2db07a13e47"/>　全國答對率 55%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81a9b8e0c718cbe79c72"/>　全國答對率 47%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f813fb72ed6bb355d7286"/>　全國答對率 49%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81aa867bc23098bfacb3"/>　全國答對率 65%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f812a94eaf2458ade93c7"/>　全國答對率 35%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f8195b793cf714a3d25af"/>　全國答對率 83%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f81d98adddaa3c51a6b4f"/>　全國答對率 43%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81908f2cf69e427050a9"/>　全國答對率 56%
 	</details>
 </details>
 <details>
-<summary>**B3 經典與思想（論孟諸子）**（近六屆 9 題）</summary>
+<summary>**C4 古典韻文**（近六屆 14 題）</summary>
 	<callout icon="💡">
-		論語、孟子等經典常當作「佐證」選項，要先讀懂原句的論點，再比對文章觀點。
+		詩詞曲看意象、情感、格律；題目附的注解、評點都是線索。
 	</callout>
-	- 儒家：孔子重視仁與禮（《論語》）；孟子主張性善、仁政、民貴君輕；荀子主張性惡，重視禮與學習（〈勸學〉）。
-	- 道家：老子主張無為、柔弱勝剛強、返璞歸真；莊子追求逍遙、齊物，常用寓言說理。
-	- 墨家主張兼愛、非攻、節用；法家由韓非集大成，主張以法、術、勢治國。
-	- 四書是《論語》《孟子》《大學》《中庸》，五經是《詩》《書》《易》《禮》《春秋》；〈大同與小康〉出自《禮記．禮運》。
-	- 作答法：選項引用經典時，先弄懂那句話的原意（例如「己所不欲，勿施於人」是推己及人的恕道），再看它能不能支持文章的論點。
+	- 詩詞先找時間、地點、景物與人物，再推作者的情感；景物描寫常用來襯托情感（以景襯情、情景交融）。
+	- 常見意象：月（思鄉、團圓）、柳（離別，古人折柳送別）、雁（書信、思鄉）、菊（隱逸）、梅（高潔、堅貞）、杜鵑（悲傷、思歸）。
+	- 判斷體裁：每句字數相同、全首 4 句或 8 句 → 近體詩；長短句、有詞牌 → 詞；有曲牌、襯字、口語 → 曲。
+	- 題目附的評點、注釋或寫作背景，通常就是解題的關鍵。
+	<details>
+	<summary>其他相關考古題（14 題）</summary>
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81b79110f54372d06f8d"/>　全國答對率 63%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81a9848ac0ffba7ad7b4"/>　全國答對率 65%
+		- [115 學測國綜 第 24 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 14%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81ce95b7ff084204a13d"/>　全國答對率 69%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f817f9f97e1775cc0c715"/>　全國答對率 36%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81d8b258c86acca49c0f"/>　全國答對率 64%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8103a842dd717e48014c"/>　全國答對率 86%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81318e52ddcc422e8079"/>　全國答對率 46%
+		- <mention-page url="https://app.notion.com/p/3ecee100984f81aeb93decc3d6d846e1"/>　全國答對率 25%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f8152af5cda44bc960d0d"/>　全國答對率 44%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f8181ae4cda28b7abc0fd"/>　全國答對率 27%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8179982deb821b1d2b17"/>　全國答對率 51%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f811d989ef525a0f1b0ad"/>　全國答對率 75%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81159ca5d2674e7235b4"/>　全國答對率 86%
+	</details>
+</details>
+<details>
+<summary>**C5 跨文本比較**（近六屆 9 題）</summary>
+	<callout icon="💡">
+		甲乙丙文先各自抓主旨，再比較立場與寫法；選項出現「皆、均、二者」時，要每一篇都查核。
+	</callout>
+	- 先各自歸納每篇的主旨與立場，再比較：觀點相同或相反、寫作角度（抒情、說理、敘事）、舉例方式。
+	- 選項出現「兩文皆」「甲乙均」時，每一篇都要找到依據，只有一篇符合就是錯的。
+	- 比較題常考「同中有異」：題材相同但態度不同，或結論相同但理由不同。
 	<details>
 	<summary>其他相關考古題（9 題）</summary>
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f81d2b2cae2b02a11c890"/>　全國答對率 16%
-		- <mention-page url="https://app.notion.com/p/3ebee100984f81ff9546db563310875d"/>　全國答對率 37%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f81318a54e567a89d685e"/>　全國答對率 66%
-		- <mention-page url="https://app.notion.com/p/3ecee100984f816ab09afa6101be7ad6"/>　全國答對率 63%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f81be8cf3cccc9d419871"/>　全國答對率 48%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f818789bad470eaaa5681"/>　全國答對率 69%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f81a1a2e1d28241afa1b0"/>　全國答對率 52%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f81e79fcff39cde114a62"/>　全國答對率 20%
-		- <mention-page url="https://app.notion.com/p/3f3ee100984f8128ac1ecd8ce9eb1ba7"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f815daa92cd72eb78ab52"/>　全國答對率 20%
+		- [115 學測國綜 第 36 題](https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf)　全國答對率 38%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811b9436c30a36de0b3d"/>　全國答對率 46%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f818f8b05e24c7cd1541c"/>　全國答對率 44%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f812fa5abc3a9cba9e286"/>　全國答對率 69%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81cea326e152f49e4434"/>　全國答對率 51%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f814f8275d57c530ab213"/>　全國答對率 61%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81519d2bf648ab9ca006"/>　全國答對率 56%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81a5b385cd89e232b9a6"/>　全國答對率 52%
 	</details>
 </details>
-### C. 閱讀理解
+<details>
+<summary>**C6 圖表判讀**（近六屆 10 題）</summary>
+	<callout icon="💡">
+		先看表頭、單位與註記，再逐項驗證選項；圖表題答對率通常較高，是穩拿分的題型。
+	</callout>
+	- 先看圖表的標題、單位、資料來源與註記，再看座標軸或欄位代表什麼。
+	- 逐一驗證選項：數字能不能從圖表直接算出；比例與總量不能混用；圖表沒有呈現的資料不能推論。
+	- 圖表題通常答對率較高，是要穩穩拿下的分數，但要分清楚「整體趨勢」和「單一年份」。
+	<details>
+	<summary>其他相關考古題（10 題）</summary>
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81069e63d75dd7afdd74"/>　全國答對率 45%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81d7b8c5efa0635b9f81"/>　全國答對率 79%
+		- <mention-page url="https://app.notion.com/p/3e9ee100984f81f584f2fe07fc455302"/>　全國答對率 87%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81b98286fb6ff80647ed"/>　全國答對率 86%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f8134adede9ad3b7f09ca"/>　全國答對率 37%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f811eae5cf9954bcb5fd5"/>　全國答對率 48%
+		- <mention-page url="https://app.notion.com/p/3f3ee100984f81bf866bcc0d20d3cf64"/>　全國答對率 60%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f8187be66d054b009b532"/>　全國答對率 75%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f81beb6e8fe2fe31174a1"/>　全國答對率 81%
+		- <mention-page url="https://app.notion.com/p/3ebee100984f8165b7d6d66f3135f018"/>　全國答對率 50%
+	</details>
+</details>

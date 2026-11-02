@@ -70,8 +70,8 @@ def _inline(s, strip=True):
     for m in _TAG.finditer(s):
         out.append(esc(s[pos:m.start()]))
         close, tag = m.group(1), m.group(2)
-        if tag == "u":
-            out.append("</span>" if close else '<span underline="true">')
+        if tag == "u":  # 2026/11 起 Notion 只認 <u>，<span underline> 會被忽略
+            out.append("</u>" if close else "<u>")
         elif tag in ("b", "strong", "em"):
             out.append("**")
         elif tag == "i":
@@ -407,7 +407,10 @@ def chinese_page():
     trends = convert_md("# x\n" + (ROOT / "notion" / "chinese_trends.md").read_text(encoding="utf-8"))
     b = [callout("🧭", [
         "**考科結構（114、115 相同）**：國綜 90 分鐘＝單選 24 題×2 分＋多選 7 題×4 分＋混合題 1 題組 24 分（非選 20 分）；國寫 90 分鐘＝兩大題各 25 分。",
-        "**國文原得總分＝國綜×0.5＋國寫**，所以國寫 1 分＝國綜 2 分。115 年國文級距 5.106 分（約國綜 5 題單選＝1 級分）。"])]
+        "**國文原得總分＝國綜×0.5＋國寫**，所以國寫 1 分＝國綜 2 分。115 年國文級距 5.106 分（約國綜 5 題單選＝1 級分）。"]),
+         callout("📌", [f"**第 6 週上課**（{esc(fmt_class(6))}）的講義、上課練習題與混合題參考答案在 {mention('week:6', '📅 每週課程 W6')}；"
+                        f"第 1 週的國綜診斷小考、字音字形、文言虛詞與閱讀研判在 {mention('week:1', '📅 每週課程 W1')}；"
+                        "文言虛詞、15 篇核心古文與國學常識，在下面的「📚 重點整理」。"], color="yellow_bg")]
     if any(MAP.get(k) for k, _ in REF_PAGES):
         b += ["## 📚 重點整理", "文言虛詞、15 篇核心古文的原文與白話翻譯，以及月份、節日、題辭、六書、修辭、文學史、諸子思想等國學常識，都整理在下面三頁。"]
         b += [f'<page url="{MAP[k]}">{t}</page>' for k, t in REF_PAGES if MAP.get(k)]
@@ -530,6 +533,7 @@ def week_page(w, md_name, subject):
             chunk.append(line)
     flush()
     subs = {"REF_XUCI": mention("ref:xuci", "〈文言虛詞整理〉"), "REF_CORE": mention("ref:core", "〈核心古文 15 篇〉"),
+            "REF_GUOXUE": mention("ref:guoxue", "〈國學常識〉"),
             "REF_EN_VOCAB": mention("ref:en_vocab", "〈常考單字〉"), "REF_EN_PHRASE": mention("ref:en_phrase", "〈轉折語與片語〉"),
             "REF_EN_WRITING": mention("ref:en_writing", "〈混合題與寫作〉"), "REF_EN_CARDS": mention("ref:en_cards", "〈單字卡〉"),
             "REF_EN_CLOZE": mention("ref:en_cloze", "〈克漏字解題〉"), "REF_EN_READING": mention("ref:en_reading", "〈閱讀與篇章結構〉"),
@@ -561,6 +565,10 @@ def week4_page():
 
 def week5_page():
     return week_page(5, "week05_social.md", "social")
+
+
+def week6_page():
+    return week_page(6, "week06_chinese.md", "chinese")
 
 
 # ---------- 數學重點整理：各觀念的必背公式、解題流程、易錯點 ----------
@@ -1427,8 +1435,9 @@ WEEK_TOPIC = {1: "國綜診斷 × 語文知識 × 文言虛詞 × 閱讀研判",
               2: "英文考科結構 × 詞彙 × 綜合測驗 × 文意選填 × 篇章結構 × 閱讀測驗",
               3: "數A、數B 考科結構 × 代數 × 幾何 × 向量與矩陣 × 機率統計與計數 × 混合題",
               4: "自然考科結構 × 物理 × 化學 × 生物 × 地球科學 × 混合題",
-              5: "社會考科結構 × 公民 × 歷史 × 地理 × 跨科題組 × 混合題"}
-WEEK_PAGES = {1: week1_page, 2: week2_page, 3: week3_page, 4: week4_page, 5: week5_page}
+              5: "社會考科結構 × 公民 × 歷史 × 地理 × 跨科題組 × 混合題",
+              6: "語法與句式 × 國學常識 × 經典思想 × 文言閱讀 × 古典詩文 × 混合題"}
+WEEK_PAGES = {1: week1_page, 2: week2_page, 3: week3_page, 4: week4_page, 5: week5_page, 6: week6_page}
 
 
 def db_week_rows():
@@ -1518,6 +1527,7 @@ def main():
     write_page("30_week03", week3_page())
     write_page("30_week04", week4_page())
     write_page("30_week05", week5_page())
+    write_page("30_week06", week6_page())
     write_page("40_progress", progress_page())
     write_page("90_teacher", teacher_page())
     q = db_question_rows()
